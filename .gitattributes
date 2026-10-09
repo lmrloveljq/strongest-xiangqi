@@ -1,0 +1,16 @@
+# 默认按文本处理，仓库内统一使用 LF 换行
+* text=auto eol=lf
+
+# Windows 脚本在工作区保持 CRLF（blob 仍为 LF）
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 二进制文件：不做任何换行符转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.exe binary
+*.dll binary
+*.nnue binary
