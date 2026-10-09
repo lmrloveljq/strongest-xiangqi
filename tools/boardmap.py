@@ -1,1 +1,94 @@
-IyBib2FyZG1hcC5weSDigJTigJQg5Zyo55yf5a6e56qX5Y+j5oiq5Zu+5LiK5a6a5L2N5qOL55uY5Yeg5L2V77yM5bm25oqK5YOP57Sg5Z2Q5qCH5Y+N566X5oiQIChmaWxlLHJhbmspL+S4reaWh+WdkOagh+OAggojIOeUqOazlTogcHl0aG9uIGJvYXJkbWFwLnB5IDxwbmc+IFtncmVlbkNvbG9ySGV4XSBbYW1iZXJDb2xvckhleF0KaW1wb3J0IHN5cwpmcm9tIFBJTCBpbXBvcnQgSW1hZ2UKClBMQVRFID0gKDB4RjAsIDB4RTAsIDB4QkMpCiMgY2FudmFzLkNpcmNsZS9SZWN0YW5nbGUg5bimIGFscGhhIOWQiOaIkOWIsOW6leadv+S4iuS5i+WQjueahOWunumZheaYvuekuuiJsgpET1RfT05fUExBVEUgPSAoODIsIDE0MywgOTkpICAgICAgIyBUYXJnZXREb3QgMHgyRTdENEYgQCBBPTB4RDAgb3ZlciBwbGF0ZQpTRUxfT05fUExBVEUgPSAoMjQzLCAyMTAsIDExNCkgICAgIyBTZWxlY3RGaWxsIDB4RjRDRTVBIEAgQT0weEMwIG92ZXIgcGxhdGUKTEZfT05fUExBVEUgPSAoMTUwLCAxNzksIDIxMSkgICAgICMgTGFzdEZyb20gMHg2RDlFRDggQCBBPTB4OTAgb3ZlciBwbGF0ZQoKCmRlZiBuZWFyKHAsIGMsIHRvbCk6CiAgICByZXR1cm4gYWJzKHBbMF0tY1swXSkgPD0gdG9sIGFuZCBhYnMocFsxXS1jWzFdKSA8PSB0b2wgYW5kIGFicyhwWzJdLWNbMl0pIDw9IHRvbAoKCmRlZiBwbGF0ZV9iYm94KGltZywgdG9sPTYpOgogICAgdywgaCA9IGltZy5zaXplCiAgICBweCA9IGltZy5sb2FkKCkKICAgIG1pbngsIG1pbnksIG1heHgsIG1heHkgPSAxMCoqOSwgMTAqKjksIC0xLCAtMQogICAgZm9yIHkgaW4gcmFuZ2UoMCwgaCwgMSk6CiAgICAgICAgZm9yIHggaW4gcmFuZ2UoMCwgdyAvLyAyLCAxKToKICAgICAgICAgICAgaWYgbmVhcihweFt4LCB5XSwgUExBVEUsIHRvbCk6CiAgICAgICAgICAgICAgICBpZiB4IDwgbWlueDogbWlueCA9IHgKICAgICAgICAgICAgICAgIGlmIHkgPCBtaW55OiBtaW55ID0geQogICAgICAgICAgICAgICAgaWYgeCA+IG1heHg6IG1heHggPSB4CiAgICAgICAgICAgICAgICBpZiB5ID4gbWF4eTogbWF4eSA9IHkKICAgIHJldHVybiBtaW54LCBtaW55LCBtYXh4LCBtYXh5CgoKZGVmIGJsb2JzKGltZywgY29sb3IsIHRvbCwgcmVnaW9uLCBtaW5weCk6CiAgICB4MCwgeTAsIHgxLCB5MSA9IHJlZ2lvbgogICAgcHggPSBpbWcubG9hZCgpCiAgICBzZWVuID0gc2V0KCkKICAgIG91dCA9IFtdCiAgICBmb3IgeSBpbiByYW5nZSh5MCwgeTEpOgogICAgICAgIGZvciB4IGluIHJhbmdlKHgwLCB4MSk6CiAgICAgICAgICAgIGlmICh4LCB5KSBpbiBzZWVuIG9yIG5vdCBuZWFyKHB4W3gsIHldLCBjb2xvciwgdG9sKToKICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgIHN0YWNrID0gWyh4LCB5KV07IHNlZW4uYWRkKCh4LCB5KSkKICAgICAgICAgICAgbW54ID0gbXh4ID0geDsgbW55ID0gbXh5ID0geTsgY250ID0gMDsgc3ggPSBzeSA9IDAKICAgICAgICAgICAgd2hpbGUgc3RhY2s6CiAgICAgICAgICAgICAgICBjeCwgY3kgPSBzdGFjay5wb3AoKQogICAgICAgICAgICAgICAgY250ICs9IDE7IHN4ICs9IGN4OyBzeSArPSBjeQogICAgICAgICAgICAgICAgbW54ID0gbWluKG1ueCwgY3gpOyBteHggPSBtYXgobXh4LCBjeCkKICAgICAgICAgICAgICAgIG1ueSA9IG1pbihtbnksIGN5KTsgbXh5ID0gbWF4KG14eSwgY3kpCiAgICAgICAgICAgICAgICBmb3IgbngsIG55IGluICgoY3grMSwgY3kpLCAoY3gtMSwgY3kpLCAoY3gsIGN5KzEpLCAoY3gsIGN5LTEpKToKICAgICAgICAgICAgICAgICAgICBpZiB4MCA8PSBueCA8IHgxIGFuZCB5MCA8PSBueSA8IHkxIGFuZCAobngsIG55KSBub3QgaW4gc2VlbiBhbmQgbmVhcihweFtueCwgbnldLCBjb2xvciwgdG9sKToKICAgICAgICAgICAgICAgICAgICAgICAgc2Vlbi5hZGQoKG54LCBueSkpOyBzdGFjay5hcHBlbmQoKG54LCBueSkpCiAgICAgICAgICAgIGlmIGNudCA+PSBtaW5weDoKICAgICAgICAgICAgICAgIG91dC5hcHBlbmQoZGljdChuPWNudCwgYmJveD0obW54LCBtbnksIG14eCwgbXh5KSwgYz0oc3gvY250LCBzeS9jbnQpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHc9bXh4LW1ueCsxLCBoPW14eS1tbnkrMSkpCiAgICBvdXQuc29ydChrZXk9bGFtYmRhIGQ6IC1kWyduJ10pCiAgICByZXR1cm4gb3V0CgoKZGVmIG1haW4oKToKICAgIHBhdGggPSBzeXMuYXJndlsxXQogICAgaW1nID0gSW1hZ2Uub3BlbihwYXRoKS5jb252ZXJ0KCdSR0InKQogICAgVywgSCA9IGltZy5zaXplCiAgICBieDAsIGJ5MCwgYngxLCBieTEgPSBwbGF0ZV9iYm94KGltZykKICAgIHB3LCBwaCA9IGJ4MS1ieDArMSwgYnkxLWJ5MCsxCiAgICBwcmludChmImltYWdlIHtXfXh7SH0iKQogICAgcHJpbnQoZiJwbGF0ZSBiYm94ID0gKHtieDB9LHtieTB9KS0oe2J4MX0se2J5MX0pICB3PXtwd30gaD17cGh9IikKCiAgICAjIOW6leadvyA9IOS7jiB4KDApLXBhZCDliLAgeCg4KStwYWTvvIzku44geSg5KS1wYWQg5YiwIHkoMCkrcGFkCiAgICAjIOWuvSA9ICg4KzIqMC4yOCkqY2VsbCwg6auYID0gKDkrMiowLjI4KSpjZWxsCiAgICBjZWxseCA9IHB3IC8gKDguMCArIDAuNTYpCiAgICBjZWxseSA9IHBoIC8gKDkuMCArIDAuNTYpCiAgICBwcmludChmImNlbGwgZnJvbSBwbGF0ZTogeD17Y2VsbHg6LjNmfSB5PXtjZWxseTouM2Z9IikKICAgIGNlbGwgPSAoY2VsbHggKyBjZWxseSkgLyAyCiAgICBveCA9IGJ4MCArIDAuMjgqY2VsbCAgICAgICAgICAgIyB4KDApIOWxj+W5leWDj+e0oAogICAgb3lfdG9wID0gYnkwICsgMC4yOCpjZWxsICAgICAgICMgeSg5KSDlsY/luZXlg4/ntKDvvIjmnIDkuIrpnaLkuIDooYzvvIkKICAgIHByaW50KGYib3JpZ2luIHgoMCk9e294Oi4yZn0gIHkocmFuazkpPXtveV90b3A6LjJmfSAgY2VsbD17Y2VsbDouM2Z9IikKCiAgICBkZWYgdG9fc3EocHhfLCBweV8pOgogICAgICAgIGYgPSByb3VuZCgocHhfIC0gb3gpIC8gY2VsbCkKICAgICAgICByID0gcm91bmQoKHB5XyAtIG95X3RvcCkgLyBjZWxsKQogICAgICAgIHJldHVybiBmLCA5IC0gcgoKICAgIGZvciBuYW1lLCBjb2wsIHRvbCwgbWlucHggaW4gKCgidGFyZ2V0LWRvdCjnu78pIiwgRE9UX09OX1BMQVRFLCAyNiwgMjUpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKCJzZWxlY3Rpb24o55Cl54+AKSIsIFNFTF9PTl9QTEFURSwgMjYsIDE1MCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAoImxhc3Rtb3ZlKOiTnSkiLCBMRl9PTl9QTEFURSwgMjYsIDEyMCkpOgogICAgICAgIHJlcyA9IGJsb2JzKGltZywgY29sLCB0b2wsICgwLCAwLCBXLy8yLCBIKSwgbWlucHgpCiAgICAgICAgcHJpbnQoZiJcbntuYW1lfToge2xlbihyZXMpfSDkuKoiKQogICAgICAgIGZvciBkIGluIHJlc1s6MTBdOgogICAgICAgICAgICBmLCByID0gdG9fc3EoZFsnYyddWzBdLCBkWydjJ11bMV0pCiAgICAgICAgICAgIGxldHRlcnMgPSAiYWJjZGVmZ2hpIgogICAgICAgICAgICBjb29yZCA9IGYie2xldHRlcnNbZl19e3J9IiBpZiAwIDw9IGYgPD0gOCBhbmQgMCA8PSByIDw9IDkgZWxzZSAib3V0IgogICAgICAgICAgICBwcmludChmIiAgcHg9e2RbJ24nXTo2ZH0gY2VudGVyPSh7ZFsnYyddWzBdOjcuMWZ9LHtkWydjJ11bMV06Ny4xZn0pICIKICAgICAgICAgICAgICAgICAgZiJ7ZFsndyddfXh7ZFsnaCddfSAtPiBmaWxlPXtmfSByYW5rPXtyfSAgKHtjb29yZH0pIikKCgptYWluKCkK
+# boardmap.py —— 在真实窗口截图上定位棋盘几何，并把像素坐标反算成 (file,rank)/中文坐标。
+# 用法: python boardmap.py <png> [greenColorHex] [amberColorHex]
+import sys
+from PIL import Image
+
+PLATE = (0xF0, 0xE0, 0xBC)
+# canvas.Circle/Rectangle 带 alpha 合成到底板上之后的实际显示色
+DOT_ON_PLATE = (82, 143, 99)      # TargetDot 0x2E7D4F @ A=0xD0 over plate
+SEL_ON_PLATE = (243, 210, 114)    # SelectFill 0xF4CE5A @ A=0xC0 over plate
+LF_ON_PLATE = (150, 179, 211)     # LastFrom 0x6D9ED8 @ A=0x90 over plate
+
+
+def near(p, c, tol):
+    return abs(p[0]-c[0]) <= tol and abs(p[1]-c[1]) <= tol and abs(p[2]-c[2]) <= tol
+
+
+def plate_bbox(img, tol=6):
+    w, h = img.size
+    px = img.load()
+    minx, miny, maxx, maxy = 10**9, 10**9, -1, -1
+    for y in range(0, h, 1):
+        for x in range(0, w // 2, 1):
+            if near(px[x, y], PLATE, tol):
+                if x < minx: minx = x
+                if y < miny: miny = y
+                if x > maxx: maxx = x
+                if y > maxy: maxy = y
+    return minx, miny, maxx, maxy
+
+
+def blobs(img, color, tol, region, minpx):
+    x0, y0, x1, y1 = region
+    px = img.load()
+    seen = set()
+    out = []
+    for y in range(y0, y1):
+        for x in range(x0, x1):
+            if (x, y) in seen or not near(px[x, y], color, tol):
+                continue
+            stack = [(x, y)]; seen.add((x, y))
+            mnx = mxx = x; mny = mxy = y; cnt = 0; sx = sy = 0
+            while stack:
+                cx, cy = stack.pop()
+                cnt += 1; sx += cx; sy += cy
+                mnx = min(mnx, cx); mxx = max(mxx, cx)
+                mny = min(mny, cy); mxy = max(mxy, cy)
+                for nx, ny in ((cx+1, cy), (cx-1, cy), (cx, cy+1), (cx, cy-1)):
+                    if x0 <= nx < x1 and y0 <= ny < y1 and (nx, ny) not in seen and near(px[nx, ny], color, tol):
+                        seen.add((nx, ny)); stack.append((nx, ny))
+            if cnt >= minpx:
+                out.append(dict(n=cnt, bbox=(mnx, mny, mxx, mxy), c=(sx/cnt, sy/cnt),
+                                w=mxx-mnx+1, h=mxy-mny+1))
+    out.sort(key=lambda d: -d['n'])
+    return out
+
+
+def main():
+    path = sys.argv[1]
+    img = Image.open(path).convert('RGB')
+    W, H = img.size
+    bx0, by0, bx1, by1 = plate_bbox(img)
+    pw, ph = bx1-bx0+1, by1-by0+1
+    print(f"image {W}x{H}")
+    print(f"plate bbox = ({bx0},{by0})-({bx1},{by1})  w={pw} h={ph}")
+
+    # 底板 = 从 x(0)-pad 到 x(8)+pad，从 y(9)-pad 到 y(0)+pad
+    # 宽 = (8+2*0.28)*cell, 高 = (9+2*0.28)*cell
+    cellx = pw / (8.0 + 0.56)
+    celly = ph / (9.0 + 0.56)
+    print(f"cell from plate: x={cellx:.3f} y={celly:.3f}")
+    cell = (cellx + celly) / 2
+    ox = bx0 + 0.28*cell           # x(0) 屏幕像素
+    oy_top = by0 + 0.28*cell       # y(9) 屏幕像素（最上面一行）
+    print(f"origin x(0)={ox:.2f}  y(rank9)={oy_top:.2f}  cell={cell:.3f}")
+
+    def to_sq(px_, py_):
+        f = round((px_ - ox) / cell)
+        r = round((py_ - oy_top) / cell)
+        return f, 9 - r
+
+    for name, col, tol, minpx in (("target-dot(绿)", DOT_ON_PLATE, 26, 25),
+                                  ("selection(琥珀)", SEL_ON_PLATE, 26, 150),
+                                  ("lastmove(蓝)", LF_ON_PLATE, 26, 120)):
+        res = blobs(img, col, tol, (0, 0, W//2, H), minpx)
+        print(f"\n{name}: {len(res)} 个")
+        for d in res[:10]:
+            f, r = to_sq(d['c'][0], d['c'][1])
+            letters = "abcdefghi"
+            coord = f"{letters[f]}{r}" if 0 <= f <= 8 and 0 <= r <= 9 else "out"
+            print(f"  px={d['n']:6d} center=({d['c'][0]:7.1f},{d['c'][1]:7.1f}) "
+                  f"{d['w']}x{d['h']} -> file={f} rank={r}  ({coord})")
+
+
+main()

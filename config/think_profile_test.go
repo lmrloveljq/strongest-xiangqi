@@ -1,1 +1,32 @@
-cGFja2FnZSBjb25maWcKCmltcG9ydCAidGVzdGluZyIKCi8vIFRlc3RUaGlua1Byb2ZpbGVLZWVwc0luZmluaXRlIOavj+S4quaooeW8j+iHquW3seeahOaAneiAg+iuvue9ruW/hemhu+iupOOAjOaXoOmZkOWIhuaekOOAjeOAggovLwovLyDnvLrpmbfljp/lnovvvJrpobblsYIgdGltZV9tb2RlIOiupOW+lyBpbmZpbml0Ze+8jOS9huavj+S4quaooeW8j+iHquW3seeahCBUaGlua1Byb2ZpbGUKLy8g5Y+q6K6kIG1vdmV0aW1lL2RlcHRo77yM6K+76YWN572u5pe26KKr5omT5Zue6buY6K6kIG1vdmV0aW1lIOKAlOKAlCDnlKjmiLfpgInkuobml6DpmZDliIbmnpDvvIwKLy8g5YiH5LiA5qyh5qih5byP77yI55Sa6Iez5Y+q5piv6YeN5ZCv56iL5bqP77yJ5bCx5rKh5LqG44CC55So5oi355yL5Yiw55qE57uT6K665pivIuaIkeaYjuaYjumAieS6hu+8jOWug+iHquW3seWPmOWbnuWOu+S6hiLjgIIKZnVuYyBUZXN0VGhpbmtQcm9maWxlS2VlcHNJbmZpbml0ZSh0ICp0ZXN0aW5nLlQpIHsKCWRlZiA6PSBjb25maWdUaGlua1Byb2ZpbGUoVGltZU1vZGVNb3ZlVGltZSwgMTAwMCwgMjApCglwIDo9IFRoaW5rUHJvZmlsZXtUaW1lTW9kZTogVGltZU1vZGVJbmZpbml0ZSwgTW92ZVRpbWVNUzogMTAwMCwgRGVwdGg6IDIwfQoJaWYgZ290IDo9IG5vcm1hbGl6ZVRoaW5rUHJvZmlsZShwLCBkZWYpOyBnb3QuVGltZU1vZGUgIT0gVGltZU1vZGVJbmZpbml0ZSB7CgkJdC5GYXRhbGYoIuaXoOmZkOWIhuaekOiiq+aJk+WbniAlce+8mnBlci1tb2RlIOaAneiAg+iuvue9ruS4jeiupCBpbmZpbml0ZSIsIGdvdC5UaW1lTW9kZSkKCX0KCgkvLyDku43nhLbopoHmi6bkvY/nnJ/mraPnmoTpnZ7ms5XlgLzvvIjmi7zplJnnmoTmqKHlvI/lkI3kuI3og73ov5vlhoXlrZjvvIkKCWJhZCA6PSBUaGlua1Byb2ZpbGV7VGltZU1vZGU6ICLlpKnnn6XpgZMiLCBNb3ZlVGltZU1TOiAxMDAwLCBEZXB0aDogMjB9CglpZiBnb3QgOj0gbm9ybWFsaXplVGhpbmtQcm9maWxlKGJhZCwgZGVmKTsgZ290LlRpbWVNb2RlICE9IFRpbWVNb2RlTW92ZVRpbWUgewoJCXQuRmF0YWxmKCLpnZ7ms5XmqKHlvI/lkI0gPSAlce+8jOacn+acm+WbnumAgOWIsOm7mOiupCAlcSIsIGdvdC5UaW1lTW9kZSwgVGltZU1vZGVNb3ZlVGltZSkKCX0KfQoKLy8gVGVzdE5vcm1hbGl6ZUtlZXBzSW5maW5pdGVUaW1lTW9kZSDpobblsYIgdGltZV9tb2RlIOWQjOagt+imgeS/neS9jyBpbmZpbml0ZeOAggpmdW5jIFRlc3ROb3JtYWxpemVLZWVwc0luZmluaXRlVGltZU1vZGUodCAqdGVzdGluZy5UKSB7CgljIDo9IERlZmF1bHQoKQoJYy5UaW1lTW9kZSA9IFRpbWVNb2RlSW5maW5pdGUKCWMuTm9ybWFsaXplKCkKCWlmIGMuVGltZU1vZGUgIT0gVGltZU1vZGVJbmZpbml0ZSB7CgkJdC5GYXRhbGYoIumhtuWxgiB0aW1lX21vZGUgPSAlce+8jOacn+acmyAlcSIsIGMuVGltZU1vZGUsIFRpbWVNb2RlSW5maW5pdGUpCgl9Cn0K
+package config
+
+import "testing"
+
+// TestThinkProfileKeepsInfinite 每个模式自己的思考设置必须认「无限分析」。
+//
+// 缺陷原型：顶层 time_mode 认得 infinite，但每个模式自己的 ThinkProfile
+// 只认 movetime/depth，读配置时被打回默认 movetime —— 用户选了无限分析，
+// 切一次模式（甚至只是重启程序）就没了。用户看到的结论是"我明明选了，它自己变回去了"。
+func TestThinkProfileKeepsInfinite(t *testing.T) {
+	def := configThinkProfile(TimeModeMoveTime, 1000, 20)
+	p := ThinkProfile{TimeMode: TimeModeInfinite, MoveTimeMS: 1000, Depth: 20}
+	if got := normalizeThinkProfile(p, def); got.TimeMode != TimeModeInfinite {
+		t.Fatalf("无限分析被打回 %q：per-mode 思考设置不认 infinite", got.TimeMode)
+	}
+
+	// 仍然要拦住真正的非法值（拼错的模式名不能进内存）
+	bad := ThinkProfile{TimeMode: "天知道", MoveTimeMS: 1000, Depth: 20}
+	if got := normalizeThinkProfile(bad, def); got.TimeMode != TimeModeMoveTime {
+		t.Fatalf("非法模式名 = %q，期望回退到默认 %q", got.TimeMode, TimeModeMoveTime)
+	}
+}
+
+// TestNormalizeKeepsInfiniteTimeMode 顶层 time_mode 同样要保住 infinite。
+func TestNormalizeKeepsInfiniteTimeMode(t *testing.T) {
+	c := Default()
+	c.TimeMode = TimeModeInfinite
+	c.Normalize()
+	if c.TimeMode != TimeModeInfinite {
+		t.Fatalf("顶层 time_mode = %q，期望 %q", c.TimeMode, TimeModeInfinite)
+	}
+}

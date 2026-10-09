@@ -1,1 +1,104 @@
-cGFja2FnZSB1aQoKaW1wb3J0ICgKCSJzdHJpbmdzIgoJInRlc3RpbmciCgoJInhpYW5ncWkvY29uZmlnIgoJInhpYW5ncWkvZW5naW5lIgoJInhpYW5ncWkvbm90YXRpb24iCgkieGlhbmdxaS9ydWxlcyIKKQoKLy8g5pys5qyh5L+u5aSN55qE5Zue5b2S5rWL6K+V44CCCi8vCi8vIOS4uuS7gOS5iOi/meWHoOadoeimgeWGmeaIkOa1i+ivle+8muWug+S7rOWvueW6lOeahOmDveaYryoq55So5oi35a6e5rWL6Lip5YiwKirnmoTnvLrpmbfvvIzogIzkuJTpg73kuI3mmK8KLy8gIuWGmemUmeS6huivreazlSLpgqPnp43kuIDnnLzog73nnIvlh7rnmoTplJnigJTigJTmmK8i55yL6LW35p2l5ZCI55CG44CB5a6e6ZmF6ZSB5q2755uY6Z2iL+WPguaVsOayoeeUn+aViCLnmoTplJnjgIIKLy8g5rOo6YeK5oum5LiN5L2P5LiL5LiA5Liq5pS56L+Z5q615Luj56CB55qE5Lq677yM5rWL6K+V6IO944CCCgovLyBUZXN0SW5maW5pdGVBbmFseXNpc0RlZ3JhZGVzSW5IdW1hbk1vZGUg5Lq65py65a+55byI6YeM5peg6ZmQ5YiG5p6Q5b+F6aG76ZmN57qn5oiQ5q+P5q2l6ZmQ5pe244CCCi8vCi8vIOe8uumZt+WOn+Wei++8muaXoOmZkOWIhuaekCA9IOW8leaTjuS4jeaUtuWIsCBzdG9wIOWwseS4jeWbniBiZXN0bW92ZeOAguS6uuacuuWvueW8iOmHjOi9ruWIsOeUteiEkeaXtu+8jAovLyDlroPmsLjov5znrpfkuI3lrowg4oaSIOawuOi/nOS4jeS6pOaLmyDihpIg5rC46L+c6L2u5LiN5Yiw5Lq6IOKGkiDmo4vnm5jkuIDnm7TplIHnnYDvvIjnlKjmiLfljp/or50i5qOL55uY5qC55pys5Yqo5LiN5LqGIu+8ieOAggpmdW5jIFRlc3RJbmZpbml0ZUFuYWx5c2lzRGVncmFkZXNJbkh1bWFuTW9kZSh0ICp0ZXN0aW5nLlQpIHsKCW5ld0FwcCA6PSBmdW5jKG1vZGUgc3RyaW5nKSAqQXBwIHsKCQljIDo9IGNvbmZpZy5EZWZhdWx0KCkKCQljLlRpbWVNb2RlID0gY29uZmlnLlRpbWVNb2RlSW5maW5pdGUKCQljLk1vdmVUaW1lTVMgPSAxNTAwCgkJcmV0dXJuICZBcHB7Y2ZnOiBjLCBjdXJNb2RlOiBtb2RlLCB2aWV3aW5nOiAtMSwgZ2FtZTogcnVsZXMuTmV3R2FtZSgpfQoJfQoKCS8vIOS6uuacuuWvueW8iO+8muW/hemhu+aUtuaVm+aIkOS4gOS4quaciemZkOeahOavj+atpemZkOaXtu+8jOWQpuWImeeUteiEkeS6pOS4jeWHuuaLmwoJbGltIDo9IG5ld0FwcCgiaHVtYW4iKS5jdXJyZW50TGltaXQoKQoJaWYgbGltLkluZmluaXRlIHsKCQl0LkZhdGFsKCLkurrmnLrlr7nlvIjph4zku43kuIvlj5EgZ28gaW5maW5pdGXvvJrnlLXohJHmsLjov5zkuI3kvJrkuqTmi5vvvIzmo4vnm5jkvJrplIHmrbsiKQoJfQoJaWYgbGltLk1vZGUgIT0gZW5naW5lLkxpbWl0TW92ZVRpbWUgfHwgbGltLk1vdmVUaW1lTVMgIT0gMTUwMCB7CgkJdC5GYXRhbGYoIuS6uuacuuWvueW8iOeahOmZjee6p+e7k+aenCA9ICUrdu+8jOacn+acm+avj+atpemZkOaXtiAxNTAwbXMiLCBsaW0pCgl9CgoJLy8g5q+P5q2l6ZmQ5pe25aSq5bCP5pe25YWc5YiwIDEg56eS77ya5oC75b6X57uZ5byV5pOO5LiA54K55oCd6ICD5pe26Ze0CglzbG93IDo9IG5ld0FwcCgiaHVtYW4iKQoJc2xvdy5jZmcuTW92ZVRpbWVNUyA9IDEwMAoJaWYgZ290IDo9IHNsb3cuY3VycmVudExpbWl0KCkuTW92ZVRpbWVNUzsgZ290ICE9IDEwMDAgewoJCXQuRmF0YWxmKCLmr4/mraXpmZDml7booqvlhZzlupXmiJAgJWRtc++8jOacn+acm+acgOWwjyAxMDAwbXMiLCBnb3QpCgl9CgoJLy8g5YiG5p6Q5qih5byP77ya5LuN54S25piv55yf5peg6ZmQ77yI55So5oi354K544CM5YGc5q2i44CN5omN57uT5p2f77yJCglpZiBsaW0gOj0gbmV3QXBwKCJicmlkZ2UiKS5jdXJyZW50TGltaXQoKTsgIWxpbS5JbmZpbml0ZSB7CgkJdC5GYXRhbCgi5YiG5p6Q5qih5byP6YeM55qE5peg6ZmQ5YiG5p6Q6KKr5pS55o6J5LqG77ya55So5oi36KaB55qE5bCx5piv566X5Yiw5oyJ5YGc5q2i5Li65q2iIikKCX0KfQoKLy8gVGVzdEJvYXJkQmxvY2tlZFJlYXNvbkFsd2F5c0V4cGxhaW5zIOaji+ebmOeCueS4jeWKqOaXtuW/hemhu+e7meW+l+WHuueQhueUseOAggovLwovLyDnvLrpmbfljp/lnovvvJrlr7nmiJjmqKHlvI8gLyDmn6XnnIvljoblj7LlsYDpnaLml7bvvIzmo4vnm5jkuI3mjqXmlLbngrnlh7vvvIzkvYYqKuS4gOWjsOS4jeWQrSoq4oCU4oCUCi8vIOeUqOaIt+eci+WIsOeahOe7k+iuuuWwseaYryLmo4vnm5jlnY/kuoYgLyDliqjkuI3kuoYi44CCCmZ1bmMgVGVzdEJvYXJkQmxvY2tlZFJlYXNvbkFsd2F5c0V4cGxhaW5zKHQgKnRlc3RpbmcuVCkgewoJY2FzZXMgOj0gW11zdHJ1Y3QgewoJCW5hbWUgc3RyaW5nCgkJYXBwICAqQXBwCgkJd2FudCBzdHJpbmcKCX17CgkJeyLlvJXmk47lr7nmiJjlj6rnlKjkuo7lsZXnpLoiLCAmQXBwe2N1ck1vZGU6ICJtYXRjaCIsIHZpZXdpbmc6IC0xLCBnYW1lOiBydWxlcy5OZXdHYW1lKCl9LCAi5a+55oiY5qih5byPIn0sCgkJeyLmn6XnnIvljoblj7LlsYDpnaIiLCAmQXBwe2N1ck1vZGU6ICJodW1hbiIsIHZpZXdpbmc6IDMsIGdhbWU6IHJ1bGVzLk5ld0dhbWUoKX0sICLljoblj7LlsYDpnaIifSwKCQl7Iui9ruWIsOeUteiEkei1sOajiyIsICZBcHB7Y3VyTW9kZTogImh1bWFuIiwgdmlld2luZzogLTEsIGdhbWU6IHJ1bGVzLk5ld0dhbWUoKX0sICLova7liLDnlLXohJEifSwKCX0KCWZvciBfLCBjIDo9IHJhbmdlIGNhc2VzIHsKCQlnb3QgOj0gYy5hcHAuYm9hcmRCbG9ja2VkUmVhc29uKCkKCQlpZiBnb3QgPT0gIiIgewoJCQl0LkZhdGFsZigiJXPvvJrnkIbnlLHkuLrnqbrvvIznlKjmiLflj6rkvJrnnIvliLDjgIzngrnkuI3liqjjgI0iLCBjLm5hbWUpCgkJfQoJCWlmICFzdHJpbmdzLkNvbnRhaW5zKGdvdCwgYy53YW50KSB7CgkJCXQuRmF0YWxmKCIlc++8mueQhueUseaYryAlce+8jOW6lOWMheWQqyAlcSIsIGMubmFtZSwgZ290LCBjLndhbnQpCgkJfQoJfQp9CgovLyBUZXN0SHVtYW5UdXJuR2F0ZU1hdGNoZXNCb2FyZElucHV0IOS6uuacuuWvueW8iOeahOOAjOiDveS4jeiDveeCueOAjeW/hemhu+S4juOAjOi9ruWIsOiwgeOAjeS4gOiHtOOAggovLwovLyDnvLrpmbfljp/lnovvvJrova7liLDnlLXohJHml7bkuI3plIHnm5gg4oaSIOeOqeWutuWSjOW8leaTjuaKouedgOi1sO+8m+i9ruWIsOS6uuaXtuivr+mUgSDihpIg546p5a626LWw5LiN5LqGCi8vIO+8iOWQjuiAheato+aYryLmo4vnm5jmoLnmnKzliqjkuI3kuoYi55qE5Y+m5LiA56eN5b2i5oCB77yJ44CCCmZ1bmMgVGVzdEh1bWFuVHVybkdhdGVNYXRjaGVzQm9hcmRJbnB1dCh0ICp0ZXN0aW5nLlQpIHsKCWMgOj0gY29uZmlnLkRlZmF1bHQoKQoJYy5IdW1hblNpZGUgPSBjb25maWcuU2lkZVJlZAoJYSA6PSAmQXBwe2NmZzogYywgY3VyTW9kZTogImh1bWFuIiwgdmlld2luZzogLTEsIGdhbWU6IHJ1bGVzLk5ld0dhbWUoKX0KCglpZiAhYS5pc0h1bWFuVHVybigpIHx8ICFhLmNhbkJvYXJkQWNjZXB0SW5wdXQoKSB7CgkJdC5GYXRhbCgi5byA5bGA57qi5pa56LWw44CB5Lq65omn57qi77ya5bqU5b2T5piv5Lq657G755qE5Zue5ZCI5LiU5qOL55uY5Y+v54K5IikKCX0KCgltLCBvayA6PSBub3RhdGlvbi5VQ0lUb01vdmUoImgyZTIiKQoJaWYgIW9rIHsKCQl0LkZhdGFsKCLmtYvor5XnlKjnnYDms5UgaDJlMiDop6PmnpDlpLHotKUiKQoJfQoJaWYgZXJyIDo9IGEuZ2FtZS5UcnlNb3ZlKG0pOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigi5rWL6K+V55So552A5rOVIGgyZTIg6LWw5LiN5LqG77yaJXYiLCBlcnIpCgl9CglpZiBhLmlzSHVtYW5UdXJuKCkgewoJCXQuRmF0YWwoIue6ouaWuei1sOWujOS4gOatpeWQjuW6lOW9k+i9ruWIsOm7keaWue+8iOeUteiEke+8iSIpCgl9CglpZiBhLmNhbkJvYXJkQWNjZXB0SW5wdXQoKSB7CgkJdC5GYXRhbCgi6L2u5Yiw55S16ISR5pe25qOL55uY5b+F6aG76ZSB5L2P77yM5ZCm5YiZ546p5a625Lya5ZKM5byV5pOO5oqi552A6LWwIikKCX0KfQo=
+package ui
+
+import (
+	"strings"
+	"testing"
+
+	"xiangqi/config"
+	"xiangqi/engine"
+	"xiangqi/notation"
+	"xiangqi/rules"
+)
+
+// 本次修复的回归测试。
+//
+// 为什么这几条要写成测试：它们对应的都是**用户实测踩到**的缺陷，而且都不是
+// "写错了语法"那种一眼能看出的错——是"看起来合理、实际锁死盘面/参数没生效"的错。
+// 注释拦不住下一个改这段代码的人，测试能。
+
+// TestInfiniteAnalysisDegradesInHumanMode 人机对弈里无限分析必须降级成每步限时。
+//
+// 缺陷原型：无限分析 = 引擎不收到 stop 就不回 bestmove。人机对弈里轮到电脑时，
+// 它永远算不完 → 永远不交招 → 永远轮不到人 → 棋盘一直锁着（用户原话"棋盘根本动不了"）。
+func TestInfiniteAnalysisDegradesInHumanMode(t *testing.T) {
+	newApp := func(mode string) *App {
+		c := config.Default()
+		c.TimeMode = config.TimeModeInfinite
+		c.MoveTimeMS = 1500
+		return &App{cfg: c, curMode: mode, viewing: -1, game: rules.NewGame()}
+	}
+
+	// 人机对弈：必须收敛成一个有限的每步限时，否则电脑交不出招
+	lim := newApp("human").currentLimit()
+	if lim.Infinite {
+		t.Fatal("人机对弈里仍下发 go infinite：电脑永远不会交招，棋盘会锁死")
+	}
+	if lim.Mode != engine.LimitMoveTime || lim.MoveTimeMS != 1500 {
+		t.Fatalf("人机对弈的降级结果 = %+v，期望每步限时 1500ms", lim)
+	}
+
+	// 每步限时太小时兜到 1 秒：总得给引擎一点思考时间
+	slow := newApp("human")
+	slow.cfg.MoveTimeMS = 100
+	if got := slow.currentLimit().MoveTimeMS; got != 1000 {
+		t.Fatalf("每步限时被兜底成 %dms，期望最小 1000ms", got)
+	}
+
+	// 分析模式：仍然是真无限（用户点「停止」才结束）
+	if lim := newApp("bridge").currentLimit(); !lim.Infinite {
+		t.Fatal("分析模式里的无限分析被改掉了：用户要的就是算到按停止为止")
+	}
+}
+
+// TestBoardBlockedReasonAlwaysExplains 棋盘点不动时必须给得出理由。
+//
+// 缺陷原型：对战模式 / 查看历史局面时，棋盘不接收点击，但**一声不吭**——
+// 用户看到的结论就是"棋盘坏了 / 动不了"。
+func TestBoardBlockedReasonAlwaysExplains(t *testing.T) {
+	cases := []struct {
+		name string
+		app  *App
+		want string
+	}{
+		{"引擎对战只用于展示", &App{curMode: "match", viewing: -1, game: rules.NewGame()}, "对战模式"},
+		{"查看历史局面", &App{curMode: "human", viewing: 3, game: rules.NewGame()}, "历史局面"},
+		{"轮到电脑走棋", &App{curMode: "human", viewing: -1, game: rules.NewGame()}, "轮到电脑"},
+	}
+	for _, c := range cases {
+		got := c.app.boardBlockedReason()
+		if got == "" {
+			t.Fatalf("%s：理由为空，用户只会看到「点不动」", c.name)
+		}
+		if !strings.Contains(got, c.want) {
+			t.Fatalf("%s：理由是 %q，应包含 %q", c.name, got, c.want)
+		}
+	}
+}
+
+// TestHumanTurnGateMatchesBoardInput 人机对弈的「能不能点」必须与「轮到谁」一致。
+//
+// 缺陷原型：轮到电脑时不锁盘 → 玩家和引擎抢着走；轮到人时误锁 → 玩家走不了
+// （后者正是"棋盘根本动不了"的另一种形态）。
+func TestHumanTurnGateMatchesBoardInput(t *testing.T) {
+	c := config.Default()
+	c.HumanSide = config.SideRed
+	a := &App{cfg: c, curMode: "human", viewing: -1, game: rules.NewGame()}
+
+	if !a.isHumanTurn() || !a.canBoardAcceptInput() {
+		t.Fatal("开局红方走、人执红：应当是人类的回合且棋盘可点")
+	}
+
+	m, ok := notation.UCIToMove("h2e2")
+	if !ok {
+		t.Fatal("测试用着法 h2e2 解析失败")
+	}
+	if err := a.game.TryMove(m); err != nil {
+		t.Fatalf("测试用着法 h2e2 走不了：%v", err)
+	}
+	if a.isHumanTurn() {
+		t.Fatal("红方走完一步后应当轮到黑方（电脑）")
+	}
+	if a.canBoardAcceptInput() {
+		t.Fatal("轮到电脑时棋盘必须锁住，否则玩家会和引擎抢着走")
+	}
+}

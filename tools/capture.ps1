@@ -1,1 +1,52 @@
-QWRkLVR5cGUgLUFzc2VtYmx5TmFtZSBTeXN0ZW0uV2luZG93cy5Gb3JtcwpBZGQtVHlwZSAtQXNzZW1ibHlOYW1lIFN5c3RlbS5EcmF3aW5nCgpBZGQtVHlwZSBAIgp1c2luZyBTeXN0ZW07CnVzaW5nIFN5c3RlbS5SdW50aW1lLkludGVyb3BTZXJ2aWNlczsKcHVibGljIGNsYXNzIFdpbkNhcCB7CiAgICBbRGxsSW1wb3J0KCJ1c2VyMzIuZGxsIildIHB1YmxpYyBzdGF0aWMgZXh0ZXJuIGJvb2wgU2V0Rm9yZWdyb3VuZFdpbmRvdyhJbnRQdHIgaFduZCk7CiAgICBbRGxsSW1wb3J0KCJ1c2VyMzIuZGxsIildIHB1YmxpYyBzdGF0aWMgZXh0ZXJuIGJvb2wgR2V0V2luZG93UmVjdChJbnRQdHIgaFduZCwgb3V0IFJFQ1QgbHBSZWN0KTsKICAgIFtEbGxJbXBvcnQoInVzZXIzMi5kbGwiKV0gcHVibGljIHN0YXRpYyBleHRlcm4gYm9vbCBHZXRDbGllbnRSZWN0KEludFB0ciBoV25kLCBvdXQgUkVDVCBscFJlY3QpOwogICAgW0RsbEltcG9ydCgidXNlcjMyLmRsbCIpXSBwdWJsaWMgc3RhdGljIGV4dGVybiBib29sIENsaWVudFRvU2NyZWVuKEludFB0ciBoV25kLCByZWYgUE9JTlQgcCk7CiAgICBbU3RydWN0TGF5b3V0KExheW91dEtpbmQuU2VxdWVudGlhbCldIHB1YmxpYyBzdHJ1Y3QgUkVDVCB7IHB1YmxpYyBpbnQgTGVmdCwgVG9wLCBSaWdodCwgQm90dG9tOyB9CiAgICBbU3RydWN0TGF5b3V0KExheW91dEtpbmQuU2VxdWVudGlhbCldIHB1YmxpYyBzdHJ1Y3QgUE9JTlQgeyBwdWJsaWMgaW50IFgsIFk7IH0KfQoiQAoKJHNob3QgICAgID0gJGFyZ3NbMF0KJHByb2NOYW1lID0gaWYgKCRhcmdzWzFdKSB7ICRhcmdzWzFdIH0gZWxzZSB7ICd4aWFuZ3FpJyB9CiRtb2RlICAgICA9IGlmICgkYXJnc1syXSkgeyAkYXJnc1syXSB9IGVsc2UgeyAnY2xpZW50JyB9ICAgIyBjbGllbnQgfCBzY3JlZW4KCiRwID0gR2V0LVByb2Nlc3MgLU5hbWUgJHByb2NOYW1lIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlIHwgU2VsZWN0LU9iamVjdCAtRmlyc3QgMQppZiAoLW5vdCAkcCkgeyBXcml0ZS1PdXRwdXQgInByb2Nlc3MgJHByb2NOYW1lIG5vdCBydW5uaW5nIjsgZXhpdCAxIH0KCiMg5Y+q5oqK56qX5Y+j5o+Q5Yiw5YmN5Y+w77yMKirkuI3mnIDlpKfljJYqKu+8iOacgOWkp+WMluS8muaUueWPmOeql+WPo+WwuuWvuO+8jOW5suaJsOW4g+WxgOmqjOivge+8iQppZiAoJHAuTWFpbldpbmRvd0hhbmRsZSAtbmUgMCkgewogICAgW1dpbkNhcF06OlNldEZvcmVncm91bmRXaW5kb3coJHAuTWFpbldpbmRvd0hhbmRsZSkgfCBPdXQtTnVsbAogICAgU3RhcnQtU2xlZXAgLU1pbGxpc2Vjb25kcyA5MDAKfQoKaWYgKCRtb2RlIC1lcSAnY2xpZW50JyAtYW5kICRwLk1haW5XaW5kb3dIYW5kbGUgLW5lIDApIHsKICAgICRjID0gTmV3LU9iamVjdCBXaW5DYXArUkVDVAogICAgW1dpbkNhcF06OkdldENsaWVudFJlY3QoJHAuTWFpbldpbmRvd0hhbmRsZSwgW3JlZl0kYykgfCBPdXQtTnVsbAogICAgJHB0ID0gTmV3LU9iamVjdCBXaW5DYXArUE9JTlQKICAgICRwdC5YID0gMDsgJHB0LlkgPSAwCiAgICBbV2luQ2FwXTo6Q2xpZW50VG9TY3JlZW4oJHAuTWFpbldpbmRvd0hhbmRsZSwgW3JlZl0kcHQpIHwgT3V0LU51bGwKICAgICR3ID0gJGMuUmlnaHQgLSAkYy5MZWZ0CiAgICAkaCA9ICRjLkJvdHRvbSAtICRjLlRvcAogICAgJHggPSAkcHQuWAogICAgJHkgPSAkcHQuWQogICAgV3JpdGUtT3V0cHV0ICJjbGllbnQgcmVjdDogJHgsJHkgJHt3fXgke2h9Igp9IGVsc2UgewogICAgJGIgPSBbU3lzdGVtLldpbmRvd3MuRm9ybXMuU2NyZWVuXTo6UHJpbWFyeVNjcmVlbi5Cb3VuZHMKICAgICR4ID0gJGIuWDsgJHkgPSAkYi5ZOyAkdyA9ICRiLldpZHRoOyAkaCA9ICRiLkhlaWdodAogICAgV3JpdGUtT3V0cHV0ICJzY3JlZW4gcmVjdDogJHgsJHkgJHt3fXgke2h9Igp9CgokYm1wID0gTmV3LU9iamVjdCBTeXN0ZW0uRHJhd2luZy5CaXRtYXAgJHcsICRoCiRnID0gW1N5c3RlbS5EcmF3aW5nLkdyYXBoaWNzXTo6RnJvbUltYWdlKCRibXApCiRnLkNvcHlGcm9tU2NyZWVuKChOZXctT2JqZWN0IFN5c3RlbS5EcmF3aW5nLlBvaW50ICR4LCAkeSksIFtTeXN0ZW0uRHJhd2luZy5Qb2ludF06OkVtcHR5LCAoTmV3LU9iamVjdCBTeXN0ZW0uRHJhd2luZy5TaXplICR3LCAkaCkpCiRibXAuU2F2ZSgkc2hvdCwgW1N5c3RlbS5EcmF3aW5nLkltYWdpbmcuSW1hZ2VGb3JtYXRdOjpQbmcpCiRnLkRpc3Bvc2UoKTsgJGJtcC5EaXNwb3NlKCkKV3JpdGUtT3V0cHV0ICJzYXZlZCAkc2hvdCAoJHt3fXgke2h9KSIK
+Add-Type -AssemblyName System.Windows.Forms
+Add-Type -AssemblyName System.Drawing
+
+Add-Type @"
+using System;
+using System.Runtime.InteropServices;
+public class WinCap {
+    [DllImport("user32.dll")] public static extern bool SetForegroundWindow(IntPtr hWnd);
+    [DllImport("user32.dll")] public static extern bool GetWindowRect(IntPtr hWnd, out RECT lpRect);
+    [DllImport("user32.dll")] public static extern bool GetClientRect(IntPtr hWnd, out RECT lpRect);
+    [DllImport("user32.dll")] public static extern bool ClientToScreen(IntPtr hWnd, ref POINT p);
+    [StructLayout(LayoutKind.Sequential)] public struct RECT { public int Left, Top, Right, Bottom; }
+    [StructLayout(LayoutKind.Sequential)] public struct POINT { public int X, Y; }
+}
+"@
+
+$shot     = $args[0]
+$procName = if ($args[1]) { $args[1] } else { 'xiangqi' }
+$mode     = if ($args[2]) { $args[2] } else { 'client' }   # client | screen
+
+$p = Get-Process -Name $procName -ErrorAction SilentlyContinue | Select-Object -First 1
+if (-not $p) { Write-Output "process $procName not running"; exit 1 }
+
+# 只把窗口提到前台，**不最大化**（最大化会改变窗口尺寸，干扰布局验证）
+if ($p.MainWindowHandle -ne 0) {
+    [WinCap]::SetForegroundWindow($p.MainWindowHandle) | Out-Null
+    Start-Sleep -Milliseconds 900
+}
+
+if ($mode -eq 'client' -and $p.MainWindowHandle -ne 0) {
+    $c = New-Object WinCap+RECT
+    [WinCap]::GetClientRect($p.MainWindowHandle, [ref]$c) | Out-Null
+    $pt = New-Object WinCap+POINT
+    $pt.X = 0; $pt.Y = 0
+    [WinCap]::ClientToScreen($p.MainWindowHandle, [ref]$pt) | Out-Null
+    $w = $c.Right - $c.Left
+    $h = $c.Bottom - $c.Top
+    $x = $pt.X
+    $y = $pt.Y
+    Write-Output "client rect: $x,$y ${w}x${h}"
+} else {
+    $b = [System.Windows.Forms.Screen]::PrimaryScreen.Bounds
+    $x = $b.X; $y = $b.Y; $w = $b.Width; $h = $b.Height
+    Write-Output "screen rect: $x,$y ${w}x${h}"
+}
+
+$bmp = New-Object System.Drawing.Bitmap $w, $h
+$g = [System.Drawing.Graphics]::FromImage($bmp)
+$g.CopyFromScreen((New-Object System.Drawing.Point $x, $y), [System.Drawing.Point]::Empty, (New-Object System.Drawing.Size $w, $h))
+$bmp.Save($shot, [System.Drawing.Imaging.ImageFormat]::Png)
+$g.Dispose(); $bmp.Dispose()
+Write-Output "saved $shot (${w}x${h})"

@@ -1,1 +1,40 @@
-77u/JGVudjpQYXRoID0gIkM6XFByb2dyYW0gRmlsZXNcR29cYmluO0M6XFVzZXJzXEFTVVNcQXBwRGF0YVxMb2NhbFxNaWNyb3NvZnRcV2luR2V0XFBhY2thZ2VzXEJyZWNodFNhbmRlcnMuV2luTGlicy5QT1NJWC5VQ1JUX01pY3Jvc29mdC5XaW5nZXQuU291cmNlXzh3ZWt5YjNkOGJid2VcbWluZ3c2NFxiaW47IiArICRlbnY6UGF0aAokcm9vdCA9IChSZXNvbHZlLVBhdGggKEpvaW4tUGF0aCAkUFNTY3JpcHRSb290ICcuLicpKS5QYXRoClNldC1Mb2NhdGlvbiAkcm9vdApHZXQtUHJvY2VzcyB4aWFuZ3FpLHhpYW5ncWktZGVidWcgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUgfCBTdG9wLVByb2Nlc3MgLUZvcmNlClN0YXJ0LVNsZWVwIC1NaWxsaXNlY29uZHMgNjAwCgojIOeUqOS4gOS4quS4tOaXtuiwg+ivleaehOW7uu+8iOS/neeVmSBzdGRlcnIg6YCa6YGT77yJ6amx5Yqo5pyA57uI5oiq5Zu+77yb6aqM6K+B5a6M56uL5Y2z5Yig6ZmkCmdvIGJ1aWxkIC1vIF9zaG90cy5leGUgLiAyPiYxIHwgT3V0LU51bGwKaWYgKCRMQVNURVhJVENPREUgLW5lIDApIHsgV3JpdGUtT3V0cHV0ICJkZWJ1ZyBidWlsZCBmYWlsZWQiOyBleGl0IDEgfQoKZnVuY3Rpb24gU2hvdCgkbmFtZSwgJGVudnMsICRkZWxheSkgewogICAgZm9yZWFjaCAoJGsgaW4gJGVudnMuS2V5cykgeyBTZXQtSXRlbSAtUGF0aCAiZW52OiRrIiAtVmFsdWUgJGVudnNbJGtdIH0KICAgICRlbnY6WFFfU0hPVCA9ICIkcm9vdFxzY3JlZW5zaG90c1wkbmFtZS5wbmciCiAgICAkZW52OlhRX1NIT1RfREVMQVkgPSAiJGRlbGF5IgogICAgJGVudjpYUV9RVUlUID0gJzInCiAgICAkc3BBcmdzID0gQHsKICAgICAgICBGaWxlUGF0aCAgICAgICAgICAgICAgID0gIiRyb290XF9zaG90cy5leGUiCiAgICAgICAgV29ya2luZ0RpcmVjdG9yeSAgICAgICA9ICRyb290CiAgICAgICAgUmVkaXJlY3RTdGFuZGFyZE91dHB1dCA9ICIkcm9vdFxfcy5vdXQiCiAgICAgICAgUmVkaXJlY3RTdGFuZGFyZEVycm9yICA9ICIkcm9vdFxfcy5lcnIiCiAgICAgICAgUGFzc1RocnUgICAgICAgICAgICAgICA9ICR0cnVlCiAgICB9CiAgICAkcCA9IFN0YXJ0LVByb2Nlc3MgQHNwQXJncwogICAgJHAuV2FpdEZvckV4aXQoMjAwMDAwKSB8IE91dC1OdWxsCiAgICBTZWxlY3QtU3RyaW5nIC1QYXRoICIkcm9vdFxfcy5lcnIiIC1QYXR0ZXJuICdcW3Nob3RcXXxcW3N0cmVzc1xdJyB8IFNlbGVjdC1PYmplY3QgLUV4cGFuZFByb3BlcnR5IExpbmUKICAgIGZvcmVhY2ggKCRrIGluICRlbnZzLktleXMpIHsgUmVtb3ZlLUl0ZW0gLVBhdGggImVudjokayIgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUgfQogICAgUmVtb3ZlLUl0ZW0gLVBhdGggImVudjpYUV9TSE9UIiwiZW52OlhRX1NIT1RfREVMQVkiLCJlbnY6WFFfUVVJVCIgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUKfQoKIyAxKSDmoaXmjqXliIbmnpDvvJrlupTnlKjkuIDmrrXnnYDms5Xluo/liJfvvIznrYnlvJXmk47lh7rnu5PmnpwKU2hvdCAnMTAtYnJpZGdlLWFuYWx5c2lzJyBAeyBYUV9NT1ZFUyA9ICdoMmUyIGg5ZzcgYzNjNCBpOWg5IGIwYzIgYjljNycgfSAxMgoKIyAyKSDlj4LmlbDpnaLmnb8gKyDnnYDms5XliJfooaggKyDnspjotLTovpPlhaXkuInkuKrpobXnrb4KU2hvdCAnMTEtYnJpZGdlLXBhc3RlLXRhYicgQHsgWFFfTU9WRVMgPSAnaDJlMiBoOWc3JyB9IDEwCgojIDMpIOW8leaTjueuoeeQhumdouadv++8iOW3sumHjeaWsOaJq+aPj++8jDIg5Liq5byV5pOO77yJClNob3QgJzEyLWVuZ2luZS1tYW5hZ2VyJyBAeyBYUV9TSE9XX0VOR0lORVMgPSAnMSc7IFhRX1NIT1RfV0lORE9XID0gJ2VuZ2luZXMnOyBYUV9SRVNDQU4gPSAnMScgfSAxMgoKUmVtb3ZlLUl0ZW0gIiRyb290XF9zaG90cy5leGUiLCIkcm9vdFxfcy5vdXQiLCIkcm9vdFxfcy5lcnIiIC1Gb3JjZSAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZQpXcml0ZS1PdXRwdXQgImZpbmFsIHNob3RzIGRvbmUiCg==
+﻿$env:Path = "C:\Program Files\Go\bin;C:\Users\ASUS\AppData\Local\Microsoft\WinGet\Packages\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\mingw64\bin;" + $env:Path
+$root = (Resolve-Path (Join-Path $PSScriptRoot '..')).Path
+Set-Location $root
+Get-Process xiangqi,xiangqi-debug -ErrorAction SilentlyContinue | Stop-Process -Force
+Start-Sleep -Milliseconds 600
+
+# 用一个临时调试构建（保留 stderr 通道）驱动最终截图；验证完立即删除
+go build -o _shots.exe . 2>&1 | Out-Null
+if ($LASTEXITCODE -ne 0) { Write-Output "debug build failed"; exit 1 }
+
+function Shot($name, $envs, $delay) {
+    foreach ($k in $envs.Keys) { Set-Item -Path "env:$k" -Value $envs[$k] }
+    $env:XQ_SHOT = "$root\screenshots\$name.png"
+    $env:XQ_SHOT_DELAY = "$delay"
+    $env:XQ_QUIT = '2'
+    $spArgs = @{
+        FilePath               = "$root\_shots.exe"
+        WorkingDirectory       = $root
+        RedirectStandardOutput = "$root\_s.out"
+        RedirectStandardError  = "$root\_s.err"
+        PassThru               = $true
+    }
+    $p = Start-Process @spArgs
+    $p.WaitForExit(200000) | Out-Null
+    Select-String -Path "$root\_s.err" -Pattern '\[shot\]|\[stress\]' | Select-Object -ExpandProperty Line
+    foreach ($k in $envs.Keys) { Remove-Item -Path "env:$k" -ErrorAction SilentlyContinue }
+    Remove-Item -Path "env:XQ_SHOT","env:XQ_SHOT_DELAY","env:XQ_QUIT" -ErrorAction SilentlyContinue
+}
+
+# 1) 桥接分析：应用一段着法序列，等引擎出结果
+Shot '10-bridge-analysis' @{ XQ_MOVES = 'h2e2 h9g7 c3c4 i9h9 b0c2 b9c7' } 12
+
+# 2) 参数面板 + 着法列表 + 粘贴输入三个页签
+Shot '11-bridge-paste-tab' @{ XQ_MOVES = 'h2e2 h9g7' } 10
+
+# 3) 引擎管理面板（已重新扫描，2 个引擎）
+Shot '12-engine-manager' @{ XQ_SHOW_ENGINES = '1'; XQ_SHOT_WINDOW = 'engines'; XQ_RESCAN = '1' } 12
+
+Remove-Item "$root\_shots.exe","$root\_s.out","$root\_s.err" -Force -ErrorAction SilentlyContinue
+Write-Output "final shots done"

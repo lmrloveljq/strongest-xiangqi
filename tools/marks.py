@@ -1,1 +1,66 @@
-IyBtYXJrcy5weSDigJTigJQg5Zyo55yf5a6e56qX5Y+j5oiq5Zu+5LiK5om+5Ye65qOL55uY6auY5Lqu5Z2X77yI5oKs5YGcL+mAieS4rS/okL3ngrkv5LiK5LiA5q2l77yJ77yM5bm25Y+N566X5Yiw5qOL5qC8CmltcG9ydCBzeXMKZnJvbSBQSUwgaW1wb3J0IEltYWdlCgpQTEFURSA9ICgweEYwLCAweEUwLCAweEJDKQpDQU5EID0gewogICAgJ2hvdmVyKOa1heiTnSknOiAgICgoMTY2LCAxODcsIDIwNCksIDIwLCAxMjApLCAgICMgTGFzdEZyb20gMHg2RDlFRDggQCBBPTB4OTAgb3ZlciBwbGF0ZQogICAgJ3NlbGVjdCjnkKXnj4ApJzogICgoMjQzLCAyMTAsIDExNCksIDIyLCAxMjApLCAgICMgU2VsZWN0RmlsbCAweEY0Q0U1QSBAIEE9MHhDMCBvdmVyIHBsYXRlCiAgICAndGFyZ2V0ZG90KOe7vyknOiAoKDgyLCAxNDMsIDk5KSwgICAyNCwgMjUpLCAgICAjIFRhcmdldERvdCAweDJFN0Q0RiBAIEE9MHhEMCBvdmVyIHBsYXRlCiAgICAnbGFzdFRvKOa3seiTnSknOiAgKCgxNDcsIDE3MCwgMTk4KSwgMjAsIDEyMCksICAgIyBMYXN0VG8gMHg0NjdFQzYgQCBBPTB4Qzggb3ZlciBwbGF0ZQp9CgoKZGVmIG5lYXIocCwgYywgdG9sKToKICAgIHJldHVybiBhYnMocFswXS1jWzBdKSA8PSB0b2wgYW5kIGFicyhwWzFdLWNbMV0pIDw9IHRvbCBhbmQgYWJzKHBbMl0tY1syXSkgPD0gdG9sCgoKZGVmIGJib3goaW1nLCBjb2xvciwgdG9sLCByZWdpb24pOgogICAgeDAsIHkwLCB4MSwgeTEgPSByZWdpb24KICAgIHB4ID0gaW1nLmxvYWQoKQogICAgbW54LCBtbnksIG14eCwgbXh5LCBuID0gMTAqKjksIDEwKio5LCAtMSwgLTEsIDAKICAgIGZvciB5IGluIHJhbmdlKHkwLCB5MSk6CiAgICAgICAgZm9yIHggaW4gcmFuZ2UoeDAsIHgxKToKICAgICAgICAgICAgaWYgbmVhcihweFt4LCB5XSwgY29sb3IsIHRvbCk6CiAgICAgICAgICAgICAgICBuICs9IDEKICAgICAgICAgICAgICAgIG1ueCA9IG1pbihtbngsIHgpOyBteHggPSBtYXgobXh4LCB4KQogICAgICAgICAgICAgICAgbW55ID0gbWluKG1ueSwgeSk7IG14eSA9IG1heChteHksIHkpCiAgICBpZiBuID09IDA6CiAgICAgICAgcmV0dXJuIE5vbmUKICAgIHJldHVybiBtbngsIG1ueSwgbXh4LCBteHksIG4KCgpkZWYgbWFpbigpOgogICAgcGF0aCA9IHN5cy5hcmd2WzFdCiAgICBpbWcgPSBJbWFnZS5vcGVuKHBhdGgpLmNvbnZlcnQoJ1JHQicpCiAgICBXLCBIID0gaW1nLnNpemUKICAgICMg55So5bqV5p2/6aKc6Imy5a6a5L2N5qOL55uYCiAgICBwYiA9IGJib3goaW1nLCBQTEFURSwgNiwgKDAsIDAsIFcgLy8gMiwgSCkpCiAgICBieDAsIGJ5MCwgYngxLCBieTEsIF8gPSBwYgogICAgcHcsIHBoID0gYngxIC0gYngwICsgMSwgYnkxIC0gYnkwICsgMQogICAgY2VsbHggPSBwdyAvIDguNTYKICAgIGNlbGx5ID0gcGggLyA5LjU2CiAgICBjZWxsID0gKGNlbGx4ICsgY2VsbHkpIC8gMgogICAgb3ggPSBieDAgKyAwLjI4ICogY2VsbAogICAgb3kgPSBieTAgKyAwLjI4ICogY2VsbAogICAgcHJpbnQoZiJ7cGF0aC5zcGxpdChjaHIoOTIpKVstMV19ICB7V314e0h9IikKICAgIHByaW50KGYiICBwbGF0ZT0oe2J4MH0se2J5MH0pLSh7YngxfSx7YnkxfSkgY2VsbD17Y2VsbDouMmZ9IG9yaWdpbj0oe294Oi4yZn0se295Oi4yZn0pIikKCiAgICBkZWYgdG9fc3EoY3gsIGN5KToKICAgICAgICBmID0gcm91bmQoKGN4IC0gb3gpIC8gY2VsbCkKICAgICAgICByID0gOSAtIHJvdW5kKChjeSAtIG95KSAvIGNlbGwpCiAgICAgICAgcmV0dXJuIGYsIHIKCiAgICBsZXR0ZXJzID0gImFiY2RlZmdoaSIKICAgIGZvciBuYW1lLCAoY29sLCB0b2wsIG1pbnB4KSBpbiBDQU5ELml0ZW1zKCk6CiAgICAgICAgciA9IGJib3goaW1nLCBjb2wsIHRvbCwgKG1heCgwLCBieDAtMTQpLCBtYXgoMCwgYnkwLTE0KSwgbWluKFcsIGJ4MSsxNCksIG1pbihILCBieTErMTQpKSkKICAgICAgICBpZiBub3QgcjoKICAgICAgICAgICAgcHJpbnQoZiIgIHtuYW1lfTog5pyq5qOA5Ye6IikKICAgICAgICAgICAgY29udGludWUKICAgICAgICBtbngsIG1ueSwgbXh4LCBteHksIG4gPSByCiAgICAgICAgZiwgcmsgPSB0b19zcSgobW54K214eCkvMiwgKG1ueStteHkpLzIpCiAgICAgICAgY29vcmQgPSBmIntsZXR0ZXJzW2ZdfXtya30iIGlmIDAgPD0gZiA8PSA4IGFuZCAwIDw9IHJrIDw9IDkgZWxzZSAib3V0IgogICAgICAgIHByaW50KGYiICB7bmFtZX06IHB4PXtuOjZkfSBiYm94PSh7bW54fSx7bW55fSktKHtteHh9LHtteHl9KSB7bXh4LW1ueCsxfXh7bXh5LW1ueSsxfSDkuK3lv4PmoLw9e2Nvb3JkfSIpCgoKbWFpbigpCg==
+# marks.py —— 在真实窗口截图上找出棋盘高亮块（悬停/选中/落点/上一步），并反算到棋格
+import sys
+from PIL import Image
+
+PLATE = (0xF0, 0xE0, 0xBC)
+CAND = {
+    'hover(浅蓝)':   ((166, 187, 204), 20, 120),   # LastFrom 0x6D9ED8 @ A=0x90 over plate
+    'select(琥珀)':  ((243, 210, 114), 22, 120),   # SelectFill 0xF4CE5A @ A=0xC0 over plate
+    'targetdot(绿)': ((82, 143, 99),   24, 25),    # TargetDot 0x2E7D4F @ A=0xD0 over plate
+    'lastTo(深蓝)':  ((147, 170, 198), 20, 120),   # LastTo 0x467EC6 @ A=0xC8 over plate
+}
+
+
+def near(p, c, tol):
+    return abs(p[0]-c[0]) <= tol and abs(p[1]-c[1]) <= tol and abs(p[2]-c[2]) <= tol
+
+
+def bbox(img, color, tol, region):
+    x0, y0, x1, y1 = region
+    px = img.load()
+    mnx, mny, mxx, mxy, n = 10**9, 10**9, -1, -1, 0
+    for y in range(y0, y1):
+        for x in range(x0, x1):
+            if near(px[x, y], color, tol):
+                n += 1
+                mnx = min(mnx, x); mxx = max(mxx, x)
+                mny = min(mny, y); mxy = max(mxy, y)
+    if n == 0:
+        return None
+    return mnx, mny, mxx, mxy, n
+
+
+def main():
+    path = sys.argv[1]
+    img = Image.open(path).convert('RGB')
+    W, H = img.size
+    # 用底板颜色定位棋盘
+    pb = bbox(img, PLATE, 6, (0, 0, W // 2, H))
+    bx0, by0, bx1, by1, _ = pb
+    pw, ph = bx1 - bx0 + 1, by1 - by0 + 1
+    cellx = pw / 8.56
+    celly = ph / 9.56
+    cell = (cellx + celly) / 2
+    ox = bx0 + 0.28 * cell
+    oy = by0 + 0.28 * cell
+    print(f"{path.split(chr(92))[-1]}  {W}x{H}")
+    print(f"  plate=({bx0},{by0})-({bx1},{by1}) cell={cell:.2f} origin=({ox:.2f},{oy:.2f})")
+
+    def to_sq(cx, cy):
+        f = round((cx - ox) / cell)
+        r = 9 - round((cy - oy) / cell)
+        return f, r
+
+    letters = "abcdefghi"
+    for name, (col, tol, minpx) in CAND.items():
+        r = bbox(img, col, tol, (max(0, bx0-14), max(0, by0-14), min(W, bx1+14), min(H, by1+14)))
+        if not r:
+            print(f"  {name}: 未检出")
+            continue
+        mnx, mny, mxx, mxy, n = r
+        f, rk = to_sq((mnx+mxx)/2, (mny+mxy)/2)
+        coord = f"{letters[f]}{rk}" if 0 <= f <= 8 and 0 <= rk <= 9 else "out"
+        print(f"  {name}: px={n:6d} bbox=({mnx},{mny})-({mxx},{mxy}) {mxx-mnx+1}x{mxy-mny+1} 中心格={coord}")
+
+
+main()

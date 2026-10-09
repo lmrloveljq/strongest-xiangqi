@@ -1,1 +1,294 @@
-cGFja2FnZSBtYXRjaAoKaW1wb3J0ICgKCSJmbXQiCgkib3MiCgkicGF0aC9maWxlcGF0aCIKCSJzdHJpbmdzIgoJInRpbWUiCgkieGlhbmdxaS9hbmFseXRpY3MiCgkieGlhbmdxaS92ZXJzaW9uIgoKCSJ4aWFuZ3FpL3J1bGVzIgopCgovLyBzYXZlUEdOIOaKiuS4gOWxgOaji+WGmeWFpSBQR04g5paH5Lu277yI5ZCM5pe26L+95Yqg5YiwIGFsbF9nYW1lcy5wZ27vvInjgIIKZnVuYyAociAqUnVubmVyKSBzYXZlUEdOKGRpciBzdHJpbmcsIHJlYyAqR2FtZVJlY29yZCkgewoJaWYgZGlyID09ICIiIHsKCQlyZXR1cm4KCX0KCWlmIGVyciA6PSBvcy5Na2RpckFsbChkaXIsIDBvNzU1KTsgZXJyICE9IG5pbCB7CgkJci5lbWl0KEV2ZW50e1R5cGU6IEV2RXJyb3IsIEVycjogZXJyLCBNZXNzYWdlOiAi5Yib5bu65a+55bGA55uu5b2V5aSx6LSl77yaIiArIGVyci5FcnJvcigpfSkKCQlyZXR1cm4KCX0KCXRleHQgOj0gRm9ybWF0UEdOKHJlYykKCXBhdGggOj0gT3V0cHV0UGF0aChkaXIsIHJlYy5JbmRleCkKCWlmIGVyciA6PSBvcy5Xcml0ZUZpbGUocGF0aCwgW11ieXRlKHRleHQpLCAwbzY0NCk7IGVyciAhPSBuaWwgewoJCXIuZW1pdChFdmVudHtUeXBlOiBFdkVycm9yLCBFcnI6IGVyciwgTWVzc2FnZTogIuS/neWtmOaji+iwseWksei0pe+8miIgKyBlcnIuRXJyb3IoKX0pCgkJcmV0dXJuCgl9CglyZWMuUEdOUGF0aCA9IHBhdGgKCS8vIOaxh+aAu+aWh+S7tu+8muS+v+S6juS4gOasoeaAp+Wbnueci+WFqOmDqOWvueWxgAoJYWxsIDo9IGZpbGVwYXRoLkpvaW4oZGlyLCAiYWxsX2dhbWVzLnBnbiIpCglmLCBlcnIgOj0gb3MuT3BlbkZpbGUoYWxsLCBvcy5PX0NSRUFURXxvcy5PX1dST05MWXxvcy5PX0FQUEVORCwgMG82NDQpCglpZiBlcnIgPT0gbmlsIHsKCQlfLCBfID0gZi5Xcml0ZVN0cmluZyh0ZXh0KQoJCV8sIF8gPSBmLldyaXRlU3RyaW5nKCJcblxuIikKCQlfID0gZi5DbG9zZSgpCgl9Cn0KCi8vIEZvcm1hdFBHTiDnlJ/miJDkuIDlsYDmo4vnmoQgUEdOIOaWh+acrOOAggovLwovLyDkuK3lm73osaHmo4vmsqHmnInlrpjmlrkgUEdOIOagh+WHhu+8jOacrOagvOW8j+ayv+eUqOWbvemZheixoeajiyBQR04g55qE5aS05a2X5q615Lmg5oOv77yMCi8vIOedgOazleeUqCBVQ0kg5Z2Q5qCHICsg5Lit5paH6K6w6LCx5rOo6YeK5bm25YiX77yM5L6/5LqO5YW25a6D6L2v5Lu26Kej5p6Q5Lmf5L6/5LqO5Lq66K+744CCCmZ1bmMgRm9ybWF0UEdOKHJlYyAqR2FtZVJlY29yZCkgc3RyaW5nIHsKCXZhciBzYiBzdHJpbmdzLkJ1aWxkZXIKCXcgOj0gZnVuYyhrLCB2IHN0cmluZykgeyBmbXQuRnByaW50Zigmc2IsICJbJXMgXCIlc1wiXVxuIiwgaywgdikgfQoJdygiRXZlbnQiLCAi6LGh5qOL5by66L2vICIrdmVyc2lvbi5WRVJTSU9OKyIg5byV5pOO6Ieq5Yqo5a+55oiYIikKCXcoIlNpdGUiLCAi5pys5py6IChXaW5kb3dzKSIpCgl3KCJEYXRlIiwgc3RyaW5ncy5SZXBsYWNlQWxsKHJlYy5EYXRlLCAiLSIsICIuIikpCgl3KCJSb3VuZCIsIGZtdC5TcHJpbnQocmVjLkluZGV4KSkKCXcoIlJlZCIsIHJlYy5SZWROYW1lKQoJdygiQmxhY2siLCByZWMuQmxhY2tOYW1lKQoJdygiUmVzdWx0IiwgcmVjLlJlc3VsdFRleHQoKSkKCXcoIkZFTiIsIHJlYy5TdGFydEZFTikKCXcoIlRpbWVDb250cm9sIiwgcmVjLlRpbWVDdHJsKQoJdygiVGVybWluYXRpb24iLCByZWMuUmVhc29uKQoJdygiUGx5Q291bnQiLCBmbXQuU3ByaW50KGxlbihyZWMuTW92ZXMpKSkKCXNiLldyaXRlU3RyaW5nKCJcbiIpCgoJbGluZUxlbiA6PSAwCglmb3IgaSwgbSA6PSByYW5nZSByZWMuTW92ZXMgewoJCXRvayA6PSBtLlVDSQoJCWlmIG0uU2lkZSA9PSAicmVkIiB7CgkJCXRvayA9IGZtdC5TcHJpbnRmKCIlZC4gJXMiLCBpLzIrMSwgbS5VQ0kpCgkJfQoJCXRvayA9IGZtdC5TcHJpbnRmKCIlcyB7JXN9IiwgdG9rLCBtLkNoaW5lc2UpCgkJaWYgbGluZUxlbitsZW4odG9rKSA+IDEwMCB7CgkJCXNiLldyaXRlU3RyaW5nKCJcbiIpCgkJCWxpbmVMZW4gPSAwCgkJfQoJCXNiLldyaXRlU3RyaW5nKHRvaykKCQlzYi5Xcml0ZVN0cmluZygiICIpCgkJbGluZUxlbiArPSBsZW4odG9rKSArIDEKCX0KCWlmIGxlbihyZWMuTW92ZXMpID4gMCB7CgkJc2IuV3JpdGVTdHJpbmcoIlxuIikKCX0KCXNiLldyaXRlU3RyaW5nKHJlYy5SZXN1bHRUZXh0KCkpCglzYi5Xcml0ZVN0cmluZygiXG4iKQoJcmV0dXJuIHNiLlN0cmluZygpCn0KCi8vIGJ1aWxkUmVwb3J0IOaxh+aAu+aVtOWcuuWvueaImOe7k+aenOOAggpmdW5jIChyICpSdW5uZXIpIGJ1aWxkUmVwb3J0KG9wdHMgT3B0aW9ucywgZWxhcHNlZCB0aW1lLkR1cmF0aW9uKSAqUmVwb3J0IHsKCXJlcCA6PSAmUmVwb3J0ewoJCVRvdGFsOiAgICBvcHRzLkdhbWVzLAoJCUdhbWVzOiAgICBhcHBlbmQoW10qR2FtZVJlY29yZChuaWwpLCByLnJlY29yZHMuLi4pLAoJCVNlbGZOYW1lOiByLnNlbGYuTmFtZSwKCQlPcHBOYW1lOiAgci5vcHAuTmFtZSwKCQlMaW1pdENOOiAgZm10LlNwcmludGYoIuW3seaWuSAlcyAvIOWvueaJiyAlcyIsIG9wdHMuTGltaXRTZWxmLkxhYmVsKCksIG9wdHMuTGltaXRPcHAuTGFiZWwoKSksCgkJRWxhcHNlZDogIGVsYXBzZWQsCgkJRGlyOiAgICAgIG9wdHMuT3V0cHV0RGlyLAoJfQoJdmFyIHNlbGZEZXB0aCwgb3BwRGVwdGgsIHNlbGZOUFMsIG9wcE5QUywgc2VsZk5vZGVzLCBvcHBOb2RlcyBmbG9hdDY0Cgl2YXIgc2VsZk1vdmVzLCBvcHBNb3ZlcyBmbG9hdDY0CgoJZm9yIF8sIHJlYyA6PSByYW5nZSByLnJlY29yZHMgewoJCXNlbGZXaW4gOj0gKHJlYy5SZXN1bHQgPT0gcnVsZXMuUmVkV2luICYmIHJlYy5SZWRJc1NlbGYpIHx8IChyZWMuUmVzdWx0ID09IHJ1bGVzLkJsYWNrV2luICYmICFyZWMuUmVkSXNTZWxmKQoJCWRyYXcgOj0gcmVjLlJlc3VsdCA9PSBydWxlcy5EcmF3CgkJc3dpdGNoIHsKCQljYXNlIGRyYXc6CgkJCXJlcC5EcmF3cysrCgkJY2FzZSBzZWxmV2luOgoJCQlyZXAuU2VsZldpbnMrKwoJCWRlZmF1bHQ6CgkJCXJlcC5TZWxmTG9zc2VzKysKCQl9CgkJc3QgOj0gJnJlcC5Bc1JlZAoJCWlmICFyZWMuUmVkSXNTZWxmIHsKCQkJc3QgPSAmcmVwLkFzQmxhY2sKCQl9CgkJc3QuR2FtZXMrKwoJCXN3aXRjaCB7CgkJY2FzZSBkcmF3OgoJCQlzdC5EcmF3cysrCgkJY2FzZSBzZWxmV2luOgoJCQlzdC5XaW5zKysKCQlkZWZhdWx0OgoJCQlzdC5Mb3NzZXMrKwoJCX0KCQlmb3IgXywgbSA6PSByYW5nZSByZWMuTW92ZXMgewoJCQlpc1NlbGYgOj0gKG0uU2lkZSA9PSAicmVkIikgPT0gcmVjLlJlZElzU2VsZgoJCQlpZiBpc1NlbGYgewoJCQkJc2VsZkRlcHRoICs9IGZsb2F0NjQobS5EZXB0aCkKCQkJCXNlbGZOUFMgKz0gZmxvYXQ2NChtLk5QUykKCQkJCXNlbGZOb2RlcyArPSBmbG9hdDY0KG0uTm9kZXMpCgkJCQlzZWxmTW92ZXMrKwoJCQl9IGVsc2UgewoJCQkJb3BwRGVwdGggKz0gZmxvYXQ2NChtLkRlcHRoKQoJCQkJb3BwTlBTICs9IGZsb2F0NjQobS5OUFMpCgkJCQlvcHBOb2RlcyArPSBmbG9hdDY0KG0uTm9kZXMpCgkJCQlvcHBNb3ZlcysrCgkJCX0KCQl9Cgl9CglwbGF5ZWQgOj0gbGVuKHIucmVjb3JkcykKCWlmIHBsYXllZCA+IDAgewoJCXJlcC5TZWxmV2luUmF0ZSA9IChmbG9hdDY0KHJlcC5TZWxmV2lucykgKyAwLjUqZmxvYXQ2NChyZXAuRHJhd3MpKSAvIGZsb2F0NjQocGxheWVkKSAqIDEwMAoJfQoJaWYgc2VsZk1vdmVzID4gMCB7CgkJcmVwLkF2Z0RlcHRoU2VsZiA9IHNlbGZEZXB0aCAvIHNlbGZNb3ZlcwoJCXJlcC5BdmdOUFNTZWxmID0gc2VsZk5QUyAvIHNlbGZNb3ZlcwoJCXJlcC5BdmdOb2Rlc1NlbGYgPSBzZWxmTm9kZXMgLyBzZWxmTW92ZXMKCX0KCWlmIG9wcE1vdmVzID4gMCB7CgkJcmVwLkF2Z0RlcHRoT3BwID0gb3BwRGVwdGggLyBvcHBNb3ZlcwoJCXJlcC5BdmdOUFNPcHAgPSBvcHBOUFMgLyBvcHBNb3ZlcwoJCXJlcC5BdmdOb2Rlc09wcCA9IG9wcE5vZGVzIC8gb3BwTW92ZXMKCX0KCXJldHVybiByZXAKfQoKLy8gRm9ybWF0UmVwb3J0IOeUn+aIkCByZXBvcnQudHh0IOeahOaWh+acrOWGheWuueOAggpmdW5jIEZvcm1hdFJlcG9ydChyZXAgKlJlcG9ydCkgc3RyaW5nIHsKCXZhciBzYiBzdHJpbmdzLkJ1aWxkZXIKCWxpbmUgOj0gc3RyaW5ncy5SZXBlYXQoIj0iLCA2NCkKCXNiLldyaXRlU3RyaW5nKGxpbmUgKyAiXG4iKQoJc2IuV3JpdGVTdHJpbmcoIiAgICAgICAgICAgIOixoeaji+W8uui9ryAiICsgdmVyc2lvbi5WRVJTSU9OICsgIiAg5byV5pOO6Ieq5Yqo5a+55oiY5oql5ZGKXG4iKQoJc2IuV3JpdGVTdHJpbmcobGluZSArICJcbiIpCglmbXQuRnByaW50Zigmc2IsICLnlJ/miJDml7bpl7QgICAgOiAlc1xuIiwgdGltZS5Ob3coKS5Gb3JtYXQoIjIwMDYtMDEtMDIgMTU6MDQ6MDUiKSkKCWZtdC5GcHJpbnRmKCZzYiwgIuW3seaWueW8leaTjiAgICA6ICVzXG4iLCByZXAuU2VsZk5hbWUpCglmbXQuRnByaW50Zigmc2IsICLlr7nmiYvlvJXmk44gICAgOiAlc1xuIiwgcmVwLk9wcE5hbWUpCglmbXQuRnByaW50Zigmc2IsICLml7bpl7TmjqfliLYgICAgOiAlc1xuIiwgcmVwLkxpbWl0Q04pCglmbXQuRnByaW50Zigmc2IsICLorqHliJLlsYDmlbAgICAgOiAlZCAgICDlrp7pmYXlrozmiJA6ICVkXG4iLCByZXAuVG90YWwsIGxlbihyZXAuR2FtZXMpKQoJZm10LkZwcmludGYoJnNiLCAi5oC755So5pe2ICAgICAgOiAlc1xuIiwgcmVwLkVsYXBzZWQuUm91bmQodGltZS5TZWNvbmQpKQoJc2IuV3JpdGVTdHJpbmcoc3RyaW5ncy5SZXBlYXQoIi0iLCA2NCkgKyAiXG4iKQoJZm10LkZwcmludGYoJnNiLCAi5oC75q+U5YiG77yI5bex5pa56KeG6KeS77yJOiDog5wgJWQgICDlkowgJWQgICDotJ8gJWRcbiIsIHJlcC5TZWxmV2lucywgcmVwLkRyYXdzLCByZXAuU2VsZkxvc3NlcykKCWZtdC5GcHJpbnRmKCZzYiwgIuW3seaWueiDnOeOh++8iOiDnCArIDAuNcOX5ZKM77yJLyDlt7LlrozmiJDlsYDmlbAgPSAlLjJmJSVcbiIsIHJlcC5TZWxmV2luUmF0ZSkKCWZtdC5GcHJpbnRmKCZzYiwgIuaMieWFiOWQjuaJi+WIhuWIlzogIOaJp+e6oiAlZCDlsYDvvIjog5wgJWQg5ZKMICVkIOi0nyAlZO+8iSAgIOaJp+m7kSAlZCDlsYDvvIjog5wgJWQg5ZKMICVkIOi0nyAlZO+8iVxuIiwKCQlyZXAuQXNSZWQuR2FtZXMsIHJlcC5Bc1JlZC5XaW5zLCByZXAuQXNSZWQuRHJhd3MsIHJlcC5Bc1JlZC5Mb3NzZXMsCgkJcmVwLkFzQmxhY2suR2FtZXMsIHJlcC5Bc0JsYWNrLldpbnMsIHJlcC5Bc0JsYWNrLkRyYXdzLCByZXAuQXNCbGFjay5Mb3NzZXMpCglzYi5Xcml0ZVN0cmluZyhzdHJpbmdzLlJlcGVhdCgiLSIsIDY0KSArICJcbiIpCglmbXQuRnByaW50Zigmc2IsICLlubPlnYfmkJzntKLmt7HluqY6IOW3seaWuSAlLjFmIOWxgiAgICDlr7nmiYsgJS4xZiDlsYJcbiIsIHJlcC5BdmdEZXB0aFNlbGYsIHJlcC5BdmdEZXB0aE9wcCkKCWZtdC5GcHJpbnRmKCZzYiwgIuW5s+Wdh+iKgueCuS/np5IgOiDlt7HmlrkgJS4wZiAgICAgIOWvueaJiyAlLjBmXG4iLCByZXAuQXZnTlBTU2VsZiwgcmVwLkF2Z05QU09wcCkKCWZtdC5GcHJpbnRmKCZzYiwgIuW5s+Wdh+iKgueCueaVsCAgOiDlt7HmlrkgJS4wZiAgICAgIOWvueaJiyAlLjBmXG4iLCByZXAuQXZnTm9kZXNTZWxmLCByZXAuQXZnTm9kZXNPcHApCglzYi5Xcml0ZVN0cmluZyhzdHJpbmdzLlJlcGVhdCgiLSIsIDY0KSArICJcbiIpCglzYi5Xcml0ZVN0cmluZygi6YCQ5bGA57uT5p6cOlxuIikKCWZvciBfLCBnIDo9IHJhbmdlIHJlcC5HYW1lcyB7CgkJZm10LkZwcmludGYoJnNiLCAiICAjJS0zZCDnuqIgJS0yOHMgdnMg6buRICUtMjhzICUtN3MgJS0xNnMg552A5pWwICUtNGQgJXNcbiIsCgkJCWcuSW5kZXgsIHRydW5jKGcuUmVkTmFtZSwgMjgpLCB0cnVuYyhnLkJsYWNrTmFtZSwgMjgpLAoJCQlnLlJlc3VsdFRleHQoKSwgdHJ1bmMoZy5SZWFzb24sIDE2KSwgbGVuKGcuTW92ZXMpLCBnLlJlc3VsdENOKCkpCgl9CglzYi5Xcml0ZVN0cmluZyhzdHJpbmdzLlJlcGVhdCgiLSIsIDY0KSArICJcbiIpCglpZiByZXAuRGlyICE9ICIiIHsKCQlmbXQuRnByaW50Zigmc2IsICLmo4vosLHnm67lvZUgICAgOiAlc1xuIiwgcmVwLkRpcikKCX0KCXNiLldyaXRlU3RyaW5nKGxpbmUgKyAiXG4iKQoJcmV0dXJuIHNiLlN0cmluZygpCn0KCi8vIFdyaXRlU2NvcmVzQ1NWIOaKiuaVtOWcuuWvueaImOavj+S4gOatpeeahOW8leaTjuaVsOaNruWGmeaIkCBDU1bvvIjkuI4gcmVwb3J0LnR4dCDlkIznm67lvZXvvInjgIIKLy8KLy8g44CQdjEuNi44IC8g5aS06ISR6aOO5pq056ysIDE1IOadoeOAkeeUqOaIt+imgeOAjOaVtOWxgOivhOWIhuWvvOWHuu+8iENTViAvIOWkjeebmOihqO+8ieOAje+8mgovLyDlr7nmiJjnmoTmr4/kuIDnnYDmnKzmnaXlsLHluKblrozmlbTmlbDmja7vvIjliIblgLwv5rex5bqmL+iKgueCuS/ogJfml7bvvInvvIzku6XliY3lj6rov5sgcmVwb3J0LnR4dCDnmoTmsYfmgLvvvIwKLy8g546w5Zyo5a+85oiQ6KGo5qC85L6/5LqO5aSN55uY5LiO57uf6K6h44CCCi8vCi8vIOS4pOS4que7huiKgu+8mgovLyAgIC0g5byA5aS05YaZIFVURi04IEJPTe+8muWQpuWImSBFeGNlbCDmiZPlvIDkuK3mlofliJflkI3mmK/kubHnoIHvvJsKLy8gICAtIOWtl+autemhuuW6j+WbuuWumu+8jOS+v+S6juWGjeWvvOWFpeWIq+eahOW3peWFt+OAggpmdW5jIFdyaXRlU2NvcmVzQ1NWKGRpciBzdHJpbmcsIHJlcCAqUmVwb3J0KSAoc3RyaW5nLCBlcnJvcikgewoJaWYgZXJyIDo9IG9zLk1rZGlyQWxsKGRpciwgMG83NTUpOyBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gIiIsIGVycgoJfQoJdmFyIGIgc3RyaW5ncy5CdWlsZGVyCgliLldyaXRlU3RyaW5nKCJcdWZlZmYiKSAvLyBVVEYtOCBCT03vvJpFeGNlbCDlj4vlpb0KCWIuV3JpdGVTdHJpbmcoIuWxgOWPtyznnYDmlbAs6LWw5a2Q5pa5LOW8leaTjizkuK3mlofnnYDms5UsVUNJLOWIhuWAvCzmt7HluqYs6IqC54K5LE5QUyzlvJXmk47ogJfml7YobXMpLOWunumZheiAl+aXtihtcyks5piv5ZCm6aaW6YCJXHJcbiIpCglmb3IgZ2ksIGcgOj0gcmFuZ2UgcmVwLkdhbWVzIHsKCQlmb3IgXywgbXYgOj0gcmFuZ2UgZy5Nb3ZlcyB7CgkJCXNpZGUgOj0gIue6oiIKCQkJaWYgbXYuU2lkZSA9PSAiYmxhY2siIHsKCQkJCXNpZGUgPSAi6buRIgoJCQl9CgkJCWJlc3QgOj0gIuWQpiIKCQkJaWYgbXYuQmVzdCB7CgkJCQliZXN0ID0gIuaYryIKCQkJfQoJCQlmbXQuRnByaW50ZigmYiwgIiVkLCVkLCVzLCVzLCVzLCVzLCVzLCVkLCVkLCVkLCVkLCVkLCVzXHJcbiIsCgkJCQlnaSsxLCBtdi5QbHksIHNpZGUsIGNzdkNlbGwobXYuRW5naW5lKSwgY3N2Q2VsbChtdi5DaGluZXNlKSwgbXYuVUNJLAoJCQkJc2NvcmVDU1YobXYuU2NvcmUpLCBtdi5EZXB0aCwgbXYuTm9kZXMsIG12Lk5QUywgbXYuRW5naW5lTVMsIG12LldhbGxNUywgYmVzdCkKCQl9Cgl9CglwYXRoIDo9IGZpbGVwYXRoLkpvaW4oZGlyLCAic2NvcmVzLmNzdiIpCglpZiBlcnIgOj0gb3MuV3JpdGVGaWxlKHBhdGgsIFtdYnl0ZShiLlN0cmluZygpKSwgMG82NDQpOyBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gIiIsIGVycgoJfQoJcmV0dXJuIHBhdGgsIG5pbAp9CgovLyBzY29yZUNTViDmiorliIblgLzliJfmiJDmloflrZfvvIjkuI7nlYzpnaLkuIrnmoTlhpnms5XkuIDoh7TvvIzmlrnkvr/nm7TmjqXlr7nnhafvvInjgIIKZnVuYyBzY29yZUNTVihzIGFuYWx5dGljcy5TY29yZSkgc3RyaW5nIHsKCWlmICFzLlZhbGlkIHsKCQlyZXR1cm4gIiIKCX0KCWlmIHMuTWF0ZSB7CgkJaWYgcy5OID4gMCB7CgkJCXJldHVybiBmbXQuU3ByaW50Zigi5bCG5q27JWTmraUiLCBzLk4pCgkJfQoJCXJldHVybiBmbXQuU3ByaW50Zigi6KKr5p2AJWTmraUiLCAtcy5OKQoJfQoJaWYgcy5DUCA+IDAgewoJCXJldHVybiBmbXQuU3ByaW50ZigiKyVkIiwgcy5DUCkKCX0KCXJldHVybiBmbXQuU3ByaW50ZigiJWQiLCBzLkNQKQp9CgovLyBjc3ZDZWxsIOe7meWPr+iDveWQq+mAl+WPt+eahOWtl+auteWKoOW8leWPt+OAggpmdW5jIGNzdkNlbGwocyBzdHJpbmcpIHN0cmluZyB7CglpZiBzdHJpbmdzLkNvbnRhaW5zQW55KHMsICIsXCJcIlxyXG4iKSB7CgkJcmV0dXJuICJcIiIgKyBzdHJpbmdzLlJlcGxhY2VBbGwocywgIlwiIiwgIlwiXCIiKSArICJcIiIKCX0KCXJldHVybiBzCn0KCi8vIFdyaXRlUmVwb3J0IOaKiuaKpeWRiuWGmeWFpeebruW9leS4i+eahCByZXBvcnQudHh077yM6L+U5Zue5paH5Lu26Lev5b6E44CCCmZ1bmMgV3JpdGVSZXBvcnQoZGlyIHN0cmluZywgcmVwICpSZXBvcnQpIChzdHJpbmcsIGVycm9yKSB7CglpZiBkaXIgPT0gIiIgewoJCXJldHVybiAiIiwgZm10LkVycm9yZigi5oql5ZGK55uu5b2V5Li656m6IikKCX0KCWlmIGVyciA6PSBvcy5Na2RpckFsbChkaXIsIDBvNzU1KTsgZXJyICE9IG5pbCB7CgkJcmV0dXJuICIiLCBlcnIKCX0KCXBhdGggOj0gZmlsZXBhdGguSm9pbihkaXIsICJyZXBvcnQudHh0IikKCXRleHQgOj0gRm9ybWF0UmVwb3J0KHJlcCkKCWlmIGVyciA6PSBvcy5Xcml0ZUZpbGUocGF0aCwgW11ieXRlKHRleHQpLCAwbzY0NCk7IGVyciAhPSBuaWwgewoJCXJldHVybiAiIiwgZXJyCgl9CglyZXAuRmlsZVBhdGggPSBwYXRoCglyZXR1cm4gcGF0aCwgbmlsCn0KCi8vIFN1bW1hcnlUZXh0IOi/lOWbnuW8ueeql+eUqOeahOeugOimgeaRmOimgeOAggpmdW5jIFN1bW1hcnlUZXh0KHJlcCAqUmVwb3J0KSBzdHJpbmcgewoJdmFyIHNiIHN0cmluZ3MuQnVpbGRlcgoJZm10LkZwcmludGYoJnNiLCAi5a+55bGA5a6M5oiQ77yaJWQgLyAlZCDlsYBcbiIsIGxlbihyZXAuR2FtZXMpLCByZXAuVG90YWwpCglmbXQuRnByaW50Zigmc2IsICLmgLvmr5TliIbvvJrog5wgJWQgICDlkowgJWQgICDotJ8gJWRcbiIsIHJlcC5TZWxmV2lucywgcmVwLkRyYXdzLCByZXAuU2VsZkxvc3NlcykKCWZtdC5GcHJpbnRmKCZzYiwgIuW3seaWueiDnOeOh++8miUuMmYlJVxuIiwgcmVwLlNlbGZXaW5SYXRlKQoJZm10LkZwcmludGYoJnNiLCAi5omn57qiICVkIOWxgO+8iCVkIOiDnO+8iSAg5omn6buRICVkIOWxgO+8iCVkIOiDnO+8iVxuIiwKCQlyZXAuQXNSZWQuR2FtZXMsIHJlcC5Bc1JlZC5XaW5zLCByZXAuQXNCbGFjay5HYW1lcywgcmVwLkFzQmxhY2suV2lucykKCWZtdC5GcHJpbnRmKCZzYiwgIuW5s+Wdh+a3seW6pu+8muW3seaWuSAlLjFmIC8g5a+55omLICUuMWZcbiIsIHJlcC5BdmdEZXB0aFNlbGYsIHJlcC5BdmdEZXB0aE9wcCkKCWZtdC5GcHJpbnRmKCZzYiwgIuW5s+WdhyBOUFPvvJrlt7HmlrkgJS4wZiAvIOWvueaJiyAlLjBmXG4iLCByZXAuQXZnTlBTU2VsZiwgcmVwLkF2Z05QU09wcCkKCWlmIHJlcC5GaWxlUGF0aCAhPSAiIiB7CgkJZm10LkZwcmludGYoJnNiLCAiXG7miqXlkYrmlofku7bvvJolcyIsIHJlcC5GaWxlUGF0aCkKCX0KCXJldHVybiBzYi5TdHJpbmcoKQp9CgpmdW5jIHRydW5jKHMgc3RyaW5nLCBuIGludCkgc3RyaW5nIHsKCXIgOj0gW11ydW5lKHMpCglpZiBsZW4ocikgPD0gbiB7CgkJcmV0dXJuIHMKCX0KCXJldHVybiBzdHJpbmcocls6bi0xXSkgKyAi4oCmIgp9Cg==
+package match
+
+import (
+	"fmt"
+	"os"
+	"path/filepath"
+	"strings"
+	"time"
+	"xiangqi/analytics"
+	"xiangqi/version"
+
+	"xiangqi/rules"
+)
+
+// savePGN 把一局棋写入 PGN 文件（同时追加到 all_games.pgn）。
+func (r *Runner) savePGN(dir string, rec *GameRecord) {
+	if dir == "" {
+		return
+	}
+	if err := os.MkdirAll(dir, 0o755); err != nil {
+		r.emit(Event{Type: EvError, Err: err, Message: "创建对局目录失败：" + err.Error()})
+		return
+	}
+	text := FormatPGN(rec)
+	path := OutputPath(dir, rec.Index)
+	if err := os.WriteFile(path, []byte(text), 0o644); err != nil {
+		r.emit(Event{Type: EvError, Err: err, Message: "保存棋谱失败：" + err.Error()})
+		return
+	}
+	rec.PGNPath = path
+	// 汇总文件：便于一次性回看全部对局
+	all := filepath.Join(dir, "all_games.pgn")
+	f, err := os.OpenFile(all, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0o644)
+	if err == nil {
+		_, _ = f.WriteString(text)
+		_, _ = f.WriteString("\n\n")
+		_ = f.Close()
+	}
+}
+
+// FormatPGN 生成一局棋的 PGN 文本。
+//
+// 中国象棋没有官方 PGN 标准，本格式沿用国际象棋 PGN 的头字段习惯，
+// 着法用 UCI 坐标 + 中文记谱注释并列，便于其它软件解析也便于人读。
+func FormatPGN(rec *GameRecord) string {
+	var sb strings.Builder
+	w := func(k, v string) { fmt.Fprintf(&sb, "[%s \"%s\"]\n", k, v) }
+	w("Event", "象棋强软 "+version.VERSION+" 引擎自动对战")
+	w("Site", "本机 (Windows)")
+	w("Date", strings.ReplaceAll(rec.Date, "-", "."))
+	w("Round", fmt.Sprint(rec.Index))
+	w("Red", rec.RedName)
+	w("Black", rec.BlackName)
+	w("Result", rec.ResultText())
+	w("FEN", rec.StartFEN)
+	w("TimeControl", rec.TimeCtrl)
+	w("Termination", rec.Reason)
+	w("PlyCount", fmt.Sprint(len(rec.Moves)))
+	sb.WriteString("\n")
+
+	lineLen := 0
+	for i, m := range rec.Moves {
+		tok := m.UCI
+		if m.Side == "red" {
+			tok = fmt.Sprintf("%d. %s", i/2+1, m.UCI)
+		}
+		tok = fmt.Sprintf("%s {%s}", tok, m.Chinese)
+		if lineLen+len(tok) > 100 {
+			sb.WriteString("\n")
+			lineLen = 0
+		}
+		sb.WriteString(tok)
+		sb.WriteString(" ")
+		lineLen += len(tok) + 1
+	}
+	if len(rec.Moves) > 0 {
+		sb.WriteString("\n")
+	}
+	sb.WriteString(rec.ResultText())
+	sb.WriteString("\n")
+	return sb.String()
+}
+
+// buildReport 汇总整场对战结果。
+func (r *Runner) buildReport(opts Options, elapsed time.Duration) *Report {
+	rep := &Report{
+		Total:    opts.Games,
+		Games:    append([]*GameRecord(nil), r.records...),
+		SelfName: r.self.Name,
+		OppName:  r.opp.Name,
+		LimitCN:  fmt.Sprintf("己方 %s / 对手 %s", opts.LimitSelf.Label(), opts.LimitOpp.Label()),
+		Elapsed:  elapsed,
+		Dir:      opts.OutputDir,
+	}
+	var selfDepth, oppDepth, selfNPS, oppNPS, selfNodes, oppNodes float64
+	var selfMoves, oppMoves float64
+
+	for _, rec := range r.records {
+		selfWin := (rec.Result == rules.RedWin && rec.RedIsSelf) || (rec.Result == rules.BlackWin && !rec.RedIsSelf)
+		draw := rec.Result == rules.Draw
+		switch {
+		case draw:
+			rep.Draws++
+		case selfWin:
+			rep.SelfWins++
+		default:
+			rep.SelfLosses++
+		}
+		st := &rep.AsRed
+		if !rec.RedIsSelf {
+			st = &rep.AsBlack
+		}
+		st.Games++
+		switch {
+		case draw:
+			st.Draws++
+		case selfWin:
+			st.Wins++
+		default:
+			st.Losses++
+		}
+		for _, m := range rec.Moves {
+			isSelf := (m.Side == "red") == rec.RedIsSelf
+			if isSelf {
+				selfDepth += float64(m.Depth)
+				selfNPS += float64(m.NPS)
+				selfNodes += float64(m.Nodes)
+				selfMoves++
+			} else {
+				oppDepth += float64(m.Depth)
+				oppNPS += float64(m.NPS)
+				oppNodes += float64(m.Nodes)
+				oppMoves++
+			}
+		}
+	}
+	played := len(r.records)
+	if played > 0 {
+		rep.SelfWinRate = (float64(rep.SelfWins) + 0.5*float64(rep.Draws)) / float64(played) * 100
+	}
+	if selfMoves > 0 {
+		rep.AvgDepthSelf = selfDepth / selfMoves
+		rep.AvgNPSSelf = selfNPS / selfMoves
+		rep.AvgNodesSelf = selfNodes / selfMoves
+	}
+	if oppMoves > 0 {
+		rep.AvgDepthOpp = oppDepth / oppMoves
+		rep.AvgNPSOpp = oppNPS / oppMoves
+		rep.AvgNodesOpp = oppNodes / oppMoves
+	}
+	return rep
+}
+
+// FormatReport 生成 report.txt 的文本内容。
+func FormatReport(rep *Report) string {
+	var sb strings.Builder
+	line := strings.Repeat("=", 64)
+	sb.WriteString(line + "\n")
+	sb.WriteString("            象棋强软 " + version.VERSION + "  引擎自动对战报告\n")
+	sb.WriteString(line + "\n")
+	fmt.Fprintf(&sb, "生成时间    : %s\n", time.Now().Format("2006-01-02 15:04:05"))
+	fmt.Fprintf(&sb, "己方引擎    : %s\n", rep.SelfName)
+	fmt.Fprintf(&sb, "对手引擎    : %s\n", rep.OppName)
+	fmt.Fprintf(&sb, "时间控制    : %s\n", rep.LimitCN)
+	fmt.Fprintf(&sb, "计划局数    : %d    实际完成: %d\n", rep.Total, len(rep.Games))
+	fmt.Fprintf(&sb, "总用时      : %s\n", rep.Elapsed.Round(time.Second))
+	sb.WriteString(strings.Repeat("-", 64) + "\n")
+	fmt.Fprintf(&sb, "总比分（己方视角）: 胜 %d   和 %d   负 %d\n", rep.SelfWins, rep.Draws, rep.SelfLosses)
+	fmt.Fprintf(&sb, "己方胜率（胜 + 0.5×和）/ 已完成局数 = %.2f%%\n", rep.SelfWinRate)
+	fmt.Fprintf(&sb, "按先后手分列:  执红 %d 局（胜 %d 和 %d 负 %d）   执黑 %d 局（胜 %d 和 %d 负 %d）\n",
+		rep.AsRed.Games, rep.AsRed.Wins, rep.AsRed.Draws, rep.AsRed.Losses,
+		rep.AsBlack.Games, rep.AsBlack.Wins, rep.AsBlack.Draws, rep.AsBlack.Losses)
+	sb.WriteString(strings.Repeat("-", 64) + "\n")
+	fmt.Fprintf(&sb, "平均搜索深度: 己方 %.1f 层    对手 %.1f 层\n", rep.AvgDepthSelf, rep.AvgDepthOpp)
+	fmt.Fprintf(&sb, "平均节点/秒 : 己方 %.0f      对手 %.0f\n", rep.AvgNPSSelf, rep.AvgNPSOpp)
+	fmt.Fprintf(&sb, "平均节点数  : 己方 %.0f      对手 %.0f\n", rep.AvgNodesSelf, rep.AvgNodesOpp)
+	sb.WriteString(strings.Repeat("-", 64) + "\n")
+	sb.WriteString("逐局结果:\n")
+	for _, g := range rep.Games {
+		fmt.Fprintf(&sb, "  #%-3d 红 %-28s vs 黑 %-28s %-7s %-16s 着数 %-4d %s\n",
+			g.Index, trunc(g.RedName, 28), trunc(g.BlackName, 28),
+			g.ResultText(), trunc(g.Reason, 16), len(g.Moves), g.ResultCN())
+	}
+	sb.WriteString(strings.Repeat("-", 64) + "\n")
+	if rep.Dir != "" {
+		fmt.Fprintf(&sb, "棋谱目录    : %s\n", rep.Dir)
+	}
+	sb.WriteString(line + "\n")
+	return sb.String()
+}
+
+// WriteScoresCSV 把整场对战每一步的引擎数据写成 CSV（与 report.txt 同目录）。
+//
+// 【v1.6.8 / 头脑风暴第 15 条】用户要「整局评分导出（CSV / 复盘表）」：
+// 对战的每一着本来就带完整数据（分值/深度/节点/耗时），以前只进 report.txt 的汇总，
+// 现在导成表格便于复盘与统计。
+//
+// 两个细节：
+//   - 开头写 UTF-8 BOM：否则 Excel 打开中文列名是乱码；
+//   - 字段顺序固定，便于再导入别的工具。
+func WriteScoresCSV(dir string, rep *Report) (string, error) {
+	if err := os.MkdirAll(dir, 0o755); err != nil {
+		return "", err
+	}
+	var b strings.Builder
+	b.WriteString("\ufeff") // UTF-8 BOM：Excel 友好
+	b.WriteString("局号,着数,走子方,引擎,中文着法,UCI,分值,深度,节点,NPS,引擎耗时(ms),实际耗时(ms),是否首选\r\n")
+	for gi, g := range rep.Games {
+		for _, mv := range g.Moves {
+			side := "红"
+			if mv.Side == "black" {
+				side = "黑"
+			}
+			best := "否"
+			if mv.Best {
+				best = "是"
+			}
+			fmt.Fprintf(&b, "%d,%d,%s,%s,%s,%s,%s,%d,%d,%d,%d,%d,%s\r\n",
+				gi+1, mv.Ply, side, csvCell(mv.Engine), csvCell(mv.Chinese), mv.UCI,
+				scoreCSV(mv.Score), mv.Depth, mv.Nodes, mv.NPS, mv.EngineMS, mv.WallMS, best)
+		}
+	}
+	path := filepath.Join(dir, "scores.csv")
+	if err := os.WriteFile(path, []byte(b.String()), 0o644); err != nil {
+		return "", err
+	}
+	return path, nil
+}
+
+// scoreCSV 把分值列成文字（与界面上的写法一致，方便直接对照）。
+func scoreCSV(s analytics.Score) string {
+	if !s.Valid {
+		return ""
+	}
+	if s.Mate {
+		if s.N > 0 {
+			return fmt.Sprintf("将死%d步", s.N)
+		}
+		return fmt.Sprintf("被杀%d步", -s.N)
+	}
+	if s.CP > 0 {
+		return fmt.Sprintf("+%d", s.CP)
+	}
+	return fmt.Sprintf("%d", s.CP)
+}
+
+// csvCell 给可能含逗号的字段加引号。
+func csvCell(s string) string {
+	if strings.ContainsAny(s, ",\"\"\r\n") {
+		return "\"" + strings.ReplaceAll(s, "\"", "\"\"") + "\""
+	}
+	return s
+}
+
+// WriteReport 把报告写入目录下的 report.txt，返回文件路径。
+func WriteReport(dir string, rep *Report) (string, error) {
+	if dir == "" {
+		return "", fmt.Errorf("报告目录为空")
+	}
+	if err := os.MkdirAll(dir, 0o755); err != nil {
+		return "", err
+	}
+	path := filepath.Join(dir, "report.txt")
+	text := FormatReport(rep)
+	if err := os.WriteFile(path, []byte(text), 0o644); err != nil {
+		return "", err
+	}
+	rep.FilePath = path
+	return path, nil
+}
+
+// SummaryText 返回弹窗用的简要摘要。
+func SummaryText(rep *Report) string {
+	var sb strings.Builder
+	fmt.Fprintf(&sb, "对局完成：%d / %d 局\n", len(rep.Games), rep.Total)
+	fmt.Fprintf(&sb, "总比分：胜 %d   和 %d   负 %d\n", rep.SelfWins, rep.Draws, rep.SelfLosses)
+	fmt.Fprintf(&sb, "己方胜率：%.2f%%\n", rep.SelfWinRate)
+	fmt.Fprintf(&sb, "执红 %d 局（%d 胜）  执黑 %d 局（%d 胜）\n",
+		rep.AsRed.Games, rep.AsRed.Wins, rep.AsBlack.Games, rep.AsBlack.Wins)
+	fmt.Fprintf(&sb, "平均深度：己方 %.1f / 对手 %.1f\n", rep.AvgDepthSelf, rep.AvgDepthOpp)
+	fmt.Fprintf(&sb, "平均 NPS：己方 %.0f / 对手 %.0f\n", rep.AvgNPSSelf, rep.AvgNPSOpp)
+	if rep.FilePath != "" {
+		fmt.Fprintf(&sb, "\n报告文件：%s", rep.FilePath)
+	}
+	return sb.String()
+}
+
+func trunc(s string, n int) string {
+	r := []rune(s)
+	if len(r) <= n {
+		return s
+	}
+	return string(r[:n-1]) + "…"
+}

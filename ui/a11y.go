@@ -1,1 +1,298 @@
-cGFja2FnZSB1aQoKaW1wb3J0ICgKCSJpbWFnZS9jb2xvciIKCSJzeW5jIgoKCSJmeW5lLmlvL2Z5bmUvdjIiCgkiZnluZS5pby9meW5lL3YyL2NhbnZhcyIKCSJmeW5lLmlvL2Z5bmUvdjIvdGhlbWUiCikKCi8vIOacrOaWh+S7tuWunueOsOOAjOmAguiAgeWMluOAjeWtl+WPt+aho+S9jeOAggovLwovLyDnm67moIfnlKjmiLfvvJo1MH42MCDlsoHku6XkuIrvvIzop4blipvkuI7miYvmjIfnsr7luqbpg73lnKjkuIvpmY3jgIIKLy8g5L6d5o2u77yI5LiN5piv5ouN6ISR6KKL77yJ77yaCi8vICAgLSBXM0MgV0NBRyAyLjEg5oiQ5Yqf5qCH5YeGIDEuNC4z77ya5q2j5paH5a+55q+U5bqm6Iez5bCRIDQuNTox77yM5aSn5Y+35paH5a2X6Iez5bCRIDM6MQovLyAgICAgaHR0cHM6Ly93d3cudzMub3JnL1RyYW5zbGF0aW9ucy9XQ0FHMjEtemgvCi8vICAgLSBXM0MgV0NBRyAyLjIg5oiQ5Yqf5qCH5YeGIDIuNS4477ya54K55Ye755uu5qCH6Iez5bCRIDI0w5cyNCBDU1Mg5YOP57Sg77ybCi8vICAgICDmm7TmjqjojZDmjIkgMi41LjXvvIhBQUHvvInlgZrliLAgNDTDlzQ077yM5bm244CM5o+Q5L6b6YCJ6aG55pS+5aSn55uu5qCH44CB6LCD6IqC5biD5bGA5a+G5bqm44CNCi8vICAgICBodHRwczovL3d3dy53My5vcmcvV0FJL1dDQUcyMi9VbmRlcnN0YW5kaW5nL3RhcmdldC1zaXplLW1pbmltdW0uaHRtbAovLyAgIC0g6K+l5paH5qGj5piO56Gu5YaZ5Yiw77ya6L+Z5Lqb5YeG5YiZ44CM5L2/5Zug6KGw6ICB6ICM5L2/6IO95Yqb5pyJ5omA5pS55Y+Y55qE6ICB5bm05Lq65pu05a655piT5L2/55So44CNCi8vCi8vIOS4iumdoueahOaVsOWtl+mDveacieWbnuW9kua1i+ivleWuiOedgO+8iGExMXlfdGVzdC5nb++8ie+8jOS4jeaYr+WGmeWcqOazqOmHiumHjOWwseeul+aVsO+8mgovLyDmjInpkq4v6I+c5Y2V6aG555qE5a6e6ZmF5pyA5bCP6auY5bqm44CB5qyh6KaB5paH5a2X55qE5a6e6ZmF5a+55q+U5bqm6YO95Zyo5rWL6K+V6YeM6YeP6L+H44CCCi8vCi8vIOiQveWcsOaWueW8j++8mioqRnluZSDnmoTmiYDmnInmjqfku7blsLrlr7jpg73mnaXoh6rkuLvpopjnmoQgU2l6ZSgpKirvvIjmjInpkq7pq5jluqYgPSDmloflrZfpq5jluqYgKyAyw5dQYWRkaW5n77yMCi8vIOi+k+WFpeahhuOAgeWIl+ihqOihjOOAgeiPnOWNlemhueWQjOeQhu+8ie+8jOaJgOS7peWPquimgeWcqOi/meS4gOWkhOaMieaho+S9jeaUvuWkp++8jOWFqOeVjOmdouWQjOaXtuWPmOWkp+KAlOKAlAovLyDkuI3pnIDopoHljrvmlLnmr4/kuIDkuKrmjqfku7bnmoTlrZflj7fvvIzkuZ/kuI3kvJrmvI/mjonmn5DkuKrop5LokL3jgIIKCi8vIOWtl+WPt+aho+S9je+8iOWvueW6lOOAjOiuvue9riDihpIg5a2X5Y+344CN5LiJ5Liq6I+c5Y2V6aG577yJ44CCCi8vCi8vIOazqOaEj+WumuS9je+8mioq6buY6K6k5piv44CM5qCH5YeG44CN77yM55WM6Z2i5bC65a+45LiOIHYxLjUg5LmL5YmN5a6M5YWo5LiA6Ie0KirjgIIKLy8g5pys5paH5Lu25o+Q5L6b55qE5piv44CM5oOz5pS+5aSn55qE5Lq65Y+v5Lul6Ieq5bex5pS+5aSn44CN55qE6IO95Yqb77yM6ICM5LiN5piv5oqK55WM6Z2i5pW05L2T5YGa5aSn4oCU4oCUCi8vIOmcgOaxguWOn+ivneaYr+OAjOebruagh+eUqOaIt+a2teebluWQhOS4quW5tOm+hOaute+8jOeVjOmdoueugOWNleaYk+aTjeS9nO+8jOWtl+S9k+ato+W4uOWwseWlveOAjeOAggpjb25zdCAoCglmb250U2NhbGVTdGFuZGFyZCA9ICJzdGFuZGFyZCIgLy8g5qCH5YeG77ya6buY6K6kCglmb250U2NhbGVMYXJnZSAgICA9ICJsYXJnZSIgICAgLy8g5aSn77ya5Y+v6YCJCglmb250U2NhbGVYTGFyZ2UgICA9ICJ4bGFyZ2UiICAgLy8g54m55aSn77ya5Y+v6YCJCikKCi8vIGZvbnRTY2FsZSDkv53lrZjlvZPliY3moaPkvY3nmoTlgI3njofvvJvkuLvpopjkuI7miYDmnInnlYzpnaLlrZflj7fpg73ku47lroPlj5bjgIIKdmFyIGZvbnRTY2FsZSA9IHN0cnVjdCB7CgltdSAgc3luYy5SV011dGV4Cgl2YWwgZmxvYXQzMgp9e3ZhbDogMS4wfQoKLy8gU2V0Rm9udFNjYWxlIOiuvue9ruWtl+WPt+WAjeeOh++8iDAuOX4xLjbvvIzotoXlh7rkvJrooqvlpLnkvY/vvInjgIIKZnVuYyBTZXRGb250U2NhbGUodiBmbG9hdDMyKSB7CglpZiB2IDwgMC45IHsKCQl2ID0gMC45Cgl9CglpZiB2ID4gMS42IHsKCQl2ID0gMS42Cgl9Cglmb250U2NhbGUubXUuTG9jaygpCglmb250U2NhbGUudmFsID0gdgoJZm9udFNjYWxlLm11LlVubG9jaygpCn0KCi8vIEZvbnRTY2FsZSDov5Tlm57lvZPliY3lrZflj7flgI3njofjgIIKZnVuYyBGb250U2NhbGUoKSBmbG9hdDMyIHsKCWZvbnRTY2FsZS5tdS5STG9jaygpCglkZWZlciBmb250U2NhbGUubXUuUlVubG9jaygpCglyZXR1cm4gZm9udFNjYWxlLnZhbAp9CgovLyBGb250U2NhbGVGb3Ig5oqK5qGj5L2N5ZCN5o2i566X5oiQ5YCN546H44CCCmZ1bmMgRm9udFNjYWxlRm9yKG5hbWUgc3RyaW5nKSBmbG9hdDMyIHsKCXN3aXRjaCBuYW1lIHsKCWNhc2UgZm9udFNjYWxlU3RhbmRhcmQ6CgkJcmV0dXJuIDEuMAoJY2FzZSBmb250U2NhbGVYTGFyZ2U6CgkJcmV0dXJuIDEuNDUKCWRlZmF1bHQ6IC8vIGZvbnRTY2FsZUxhcmdlCgkJcmV0dXJuIDEuMjIKCX0KfQoKLy8gRm9udFNjYWxlTmFtZSDmiorlgI3njoflj43mn6XmiJDmoaPkvY3lkI3vvIjnlKjkuo7liJ3lp4vljJbkuI7oj5zljZXli77pgInvvInjgIIKZnVuYyBGb250U2NhbGVOYW1lKHYgZmxvYXQzMikgc3RyaW5nIHsKCXN3aXRjaCB7CgljYXNlIHYgPCAxLjA4OgoJCXJldHVybiBmb250U2NhbGVTdGFuZGFyZAoJY2FzZSB2ID4gMS4zNToKCQlyZXR1cm4gZm9udFNjYWxlWExhcmdlCglkZWZhdWx0OgoJCXJldHVybiBmb250U2NhbGVMYXJnZQoJfQp9CgovLyBzeiDmjInlvZPliY3moaPkvY3mlL7lpKfkuIDkuKrln7rlh4blsLrlr7jjgIIKZnVuYyBzeihiYXNlIGZsb2F0MzIpIGZsb2F0MzIgeyByZXR1cm4gYmFzZSAqIEZvbnRTY2FsZSgpIH0KCnR5cGUgdGV4dFJvbGUgaW50Cgpjb25zdCAoCgl0ZXh0Qm9keSB0ZXh0Um9sZSA9IGlvdGEKCXRleHRTbWFsbAoJdGV4dExhYmVsCgl0ZXh0VGl0bGUKCXRleHRCaWcKKQoKLy8gYWxsVGV4dFJvbGVzIOS+m+OAjOaNouaho+aXtuaMieinkuiJsumHjeeul+OAjemBjeWOhu+8iOmhuuW6j+aXoOWFs++8ieOAggp2YXIgYWxsVGV4dFJvbGVzID0gWy4uLl10ZXh0Um9sZXt0ZXh0Qm9keSwgdGV4dFNtYWxsLCB0ZXh0TGFiZWwsIHRleHRUaXRsZSwgdGV4dEJpZ30KCi8vIHJvbGVCYXNlIOaYr+afkOS4quinkuiJsuWcqOOAjOagh+WHhuaho++8iDEuMO+8ieOAjeS4i+eahOWfuuWHhuWtl+WPt+OAggovLwovLyDjgJB2MS41IOiwg+Wwj+OAkeebruagh+eUqOaIt+aYr+OAjOaZrumAmuWuouaIt+OAje+8jOS4jeaYr+eJueWumuS6uue+pO+8m+Wunua1i+WOn+adpeeahCAxNi8xNS8xNyDlgY/lpKfjgIEKLy8g55WM6Z2i5pi+5b6X56m677yM5ZCM57G75qGM6Z2i6LGh5qOL6L2v5Lu25q2j5paH5pmu6YGN5ZyoIDEyfjEzcHjjgIHpnaLmnb/moIfpopggMTRweCDkuIrkuIvjgIIKLy8g546w5Zyo6L+Z5LiA57uE5YC85bCx5piv5oqK55WM6Z2i5a+G5bqm5a+56b2Q5ZCM57G75Lqn5ZOB55qE57uT5p6c44CCCi8vIOmcgOimgeabtOWkp+eahOWtl++8jOeUqOaIt+iHquW3seWcqOOAjOiuvue9riDihpIg5a2X5Y+344CN6YeM5pS+5aSn77yI5qGj5L2N5py65Yi26KeB5pys5paH5Lu25byA5aS077yJ44CCCi8vCi8vIOS5i+aJgOS7peaKiuWfuuWHhuWAvOWNleeLrOaKveWHuuadpe+8muWIh+aNouaho+S9jeaXtuimgeaMieOAjOinkuiJsuWfuuWHhiDDlyDmlrDlgI3njofjgI3ph43nrpfvvIwKLy8g5b+F6aG76IO95ou/5Yiw44CM5LiN5ZCr5YCN546H55qE5Y6f5aeL5YC844CN77yM5ZCm5YiZ5Lya5LiA5qyh5LiA5qyh5LmY5Ye65ryC56e744CCCmZ1bmMgcm9sZUJhc2Uocm9sZSB0ZXh0Um9sZSkgZmxvYXQzMiB7Cglzd2l0Y2ggcm9sZSB7CgljYXNlIHRleHRCb2R5OiAvLyDmraPmlofjgIHnirbmgIHmoI/jgIHliJfooagKCQlyZXR1cm4gMTMKCWNhc2UgdGV4dFNtYWxsOiAvLyDmrKHopoHor7TmmI4KCQlyZXR1cm4gMTEuNQoJY2FzZSB0ZXh0TGFiZWw6IC8vIOmdouadv+Wwj+agh+mimOOAgeaMiemSruaWh+WtlwoJCXJldHVybiAxMi41CgljYXNlIHRleHRUaXRsZTogLy8g5Yy65Z2X5qCH6aKYCgkJcmV0dXJuIDE0CgljYXNlIHRleHRCaWc6IC8vIOacgOS9s+edgOazlei/meenjeimgeS4gOecvOeci+WIsOeahAoJCXJldHVybiAyMgoJfQoJcmV0dXJuIDEyLjUKfQoKLy8gdGV4dFNpemUg5piv44CM5q2j5paHL+aZrumAmuivtOaYjuaWh+Wtl+OAjeeahOe7n+S4gOWFpeWPo+OAggovLwovLyDlhajnlYzpnaLlh6HmmK/opoHlhpnmrbvlrZflj7fnmoQgY2FudmFzLlRleHTvvIzpg73lupTor6XnlKggdGV4dFNpemUoLi4uKSDogIzkuI3opoHlhpnmrbvmlbDlrZfigJTigJQKLy8g5LmL5YmN5bel56iL6YeM5pyJIDE2IOWkhCAxMXB444CBMjUg5aSEIDEycHjvvIzlr7kgNTB+NjAg5bKB55So5oi3562J5LqO55yL5LiN5riF44CCCmZ1bmMgdGV4dFNpemUocm9sZSB0ZXh0Um9sZSkgZmxvYXQzMiB7IHJldHVybiBzeihyb2xlQmFzZShyb2xlKSkgfQoKLy8gYmFzZVBhZGRpbmcg5piv5Li76aKY5YaF6L656Led55qE5Z+65YeG5YC877yI5biD5bGA55aP5a+G55qE5oC76Ze46Zeo77yJ44CCCi8vCi8vIOOAkHYxLjUg6LCD5bCP44CROCDihpIgNu+8mueUqOaIt+WPjemmiOOAjOWQhOS4quagj+eahOWPguaVsOeVjOmdouWkquWkp+OAje+8jOWKoOS4iuWtl+WPt+S4i+iwg++8jAovLyDpnaLmnb/lm5vlkajnlZnnmb3lkIzmraXmlLbntKfvvIzmiornnIHkuIvmnaXnmoTnqbrpl7Tov5jnu5nmo4vnm5jlkoznnYDms5XliJfooajjgIIKY29uc3QgYmFzZVBhZGRpbmcgPSA2CgovLyBiYXNlSW5uZXJQYWRkaW5nIOaYr+aOp+S7tuWGhei+uei3neeahOWfuuWHhuWAvO+8iOWGs+WumuaMiemSri/ovpPlhaXmoYbnmoTpq5jluqbvvInjgIIKLy8KLy8g44CQdjEuNSDosIPlsI/jgJE2IOKGkiA177yM5LiO5LiK6Z2i5ZCM5q2l5pS257Sn77yM6YG/5YWN5oyJ6ZKu5Zyo6auY57qn5a2X5LiL5pi+5b6X5Y+I5aSn5Y+I56m644CCCi8vIEZ5bmUg55qE5oyJ6ZKu6auY5bqmID0g5qCH562+6auY5bqmICsgMsOXSW5uZXJQYWRkaW5n77yI6KeBIHdpZGdldC9idXR0b24uZ2/vvInjgIIKY29uc3QgYmFzZUlubmVyUGFkZGluZyA9IDUKCmZ1bmMgKGRlZmF1bHRUaGVtZSkgU2l6ZShuIGZ5bmUuVGhlbWVTaXplTmFtZSkgZmxvYXQzMiB7Cglzd2l0Y2ggbiB7CgljYXNlIHRoZW1lLlNpemVOYW1lUGFkZGluZzoKCQlyZXR1cm4gc3ooYmFzZVBhZGRpbmcpCgljYXNlIHRoZW1lLlNpemVOYW1lSW5uZXJQYWRkaW5nOgoJCXJldHVybiBzeihiYXNlSW5uZXJQYWRkaW5nKQoJY2FzZSB0aGVtZS5TaXplTmFtZVRleHQ6CgkJcmV0dXJuIHRleHRTaXplKHRleHRCb2R5KQoJY2FzZSB0aGVtZS5TaXplTmFtZUhlYWRpbmdUZXh0OgoJCXJldHVybiB0ZXh0U2l6ZSh0ZXh0VGl0bGUpCgljYXNlIHRoZW1lLlNpemVOYW1lU3ViSGVhZGluZ1RleHQ6CgkJcmV0dXJuIHRleHRTaXplKHRleHRMYWJlbCkKCWNhc2UgdGhlbWUuU2l6ZU5hbWVTZXBhcmF0b3JUaGlja25lc3M6CgkJLy8g5aSq57uG55qE5YiG6ZqU57q/5Zyo6ICB6Iqx55y86YeM562J5LqO5LiN5a2Y5Zyo77yM5Yqg57KX5YiwIDIKCQlyZXR1cm4gMgoJY2FzZSB0aGVtZS5TaXplTmFtZUlucHV0Qm9yZGVyOgoJCXJldHVybiAxCgljYXNlIHRoZW1lLlNpemVOYW1lU2Nyb2xsQmFyOgoJCS8vIOa7muWKqOadoeWKoOWuve+8muWkque7huS4jeWlveaLlu+8iOWQjOexu+i9r+S7tueahOa7muWKqOadoeS5n+WcqCAxMn4xNHB477yJCgkJcmV0dXJuIHN6KDEyKQoJY2FzZSB0aGVtZS5TaXplTmFtZVNjcm9sbEJhclNtYWxsOgoJCXJldHVybiBzeig1KQoJY2FzZSB0aGVtZS5TaXplTmFtZVNwbGl0VGhpY2tuZXNzOgoJCS8vIOWIhuagj+aJi+afhO+8muWkn+aKk+WwseihjO+8jOWkqueyl+S8mueZveWNoOeVjOmdouWuveW6pgoJCXJldHVybiBzeigxMCkKCWNhc2UgdGhlbWUuU2l6ZU5hbWVDYXB0aW9uVGV4dDoKCQlyZXR1cm4gdGV4dFNpemUodGV4dFNtYWxsKQoJfQoJcmV0dXJuIHRoZW1lLkRlZmF1bHRUaGVtZSgpLlNpemUobikKfQoKLy8gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCi8vIOWIh+aNouaho+S9je+8muS4jemHjeW7uueVjOmdou+8jOebtOaOpeaKiuWFqOeVjOmdouaWh+Wtl+aNouaIkOaWsOaho+S9jQovLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCi8vIHdhbGtDYW52YXNPYmplY3RzIOa3seW6pumBjeWOhueVjOmdouWvueixoeagke+8muWuueWZqOi/myBPYmplY3Rz77yMCi8vIOiHque7mOaOp+S7tu+8iOaji+ebmCAvIOabsue6vyAvIOivhOS8sOadoe+8iei/m+Wug+iHquW3seeahOa4suafk+WZqOOAggovLwovLyDkuLrku4DkuYjkuKTmoLfpg73opoHotbDvvJrmnKzlt6XnqIvph4zmnInkuIDljYrmloflrZfmmK/nm7TmjqXnlKggY2FudmFzLlRleHQg5pGG5Zyo5a655Zmo6YeM55qE77yMCi8vIOWPpuS4gOWNiuWcqOiHque7mOaOp+S7tueahOa4suafk+WZqOmHjOOAguWPqui1sOWFtuS4reS4gOi+ueWwseS8mua8j+aOieS4gOWNiueVjOmdouOAggpmdW5jIHdhbGtDYW52YXNPYmplY3RzKG8gZnluZS5DYW52YXNPYmplY3QsIGZuIGZ1bmMoZnluZS5DYW52YXNPYmplY3QpKSB7Cgl3YWxrRGVwdGgobywgZm4sIDApCn0KCmZ1bmMgd2Fsa0RlcHRoKG8gZnluZS5DYW52YXNPYmplY3QsIGZuIGZ1bmMoZnluZS5DYW52YXNPYmplY3QpLCBkZXB0aCBpbnQpIHsKCWlmIG8gPT0gbmlsIHx8IGRlcHRoID4gNjQgeyAvLyDmt7HluqbkuIrpmZDvvJrpmLLlvqHmuLLmn5PlmajkupLnm7jlvJXnlKjnmoTmnoHnq6/mg4XlhrUKCQlyZXR1cm4KCX0KCWZuKG8pCglzd2l0Y2ggdiA6PSBvLih0eXBlKSB7CgljYXNlICpmeW5lLkNvbnRhaW5lcjoKCQlmb3IgXywgYyA6PSByYW5nZSB2Lk9iamVjdHMgewoJCQl3YWxrRGVwdGgoYywgZm4sIGRlcHRoKzEpCgkJfQoJY2FzZSBmeW5lLldpZGdldDoKCQlyIDo9IHYuQ3JlYXRlUmVuZGVyZXIoKQoJCWlmIHIgPT0gbmlsIHsKCQkJcmV0dXJuCgkJfQoJCWZvciBfLCBjIDo9IHJhbmdlIHIuT2JqZWN0cygpIHsKCQkJd2Fsa0RlcHRoKGMsIGZuLCBkZXB0aCsxKQoJCX0KCX0KfQoKLy8gbmVhcmx5IOWIpOaWreS4pOS4quWtl+WPt+aYr+WQpuOAjOWwseaYr+WQjOS4gOS4quinkuiJsueahOWQjOS4gOS4quWAvOOAjeOAggovLwovLyBjYW52YXMuVGV4dCDph4znmoTlrZflj7fmmK8gZmxvYXQzMiDkuZjlh7rmnaXnmoTvvIznm7TmjqUgPT0g5Zyo5aSa5pWw5oOF5Ya15LiL6IO96L+H77yMCi8vIOS9hueVmeS4gOeCueWuueW3ru+8jOmBv+WFjeafkOasoeS4remXtOi/kOeul+eyvuW6puS4jeWQjOWwsea8j+aOieS4gOaVtOS4quinkuiJsuOAggpmdW5jIG5lYXJseShhLCBiIGZsb2F0MzIpIGJvb2wgewoJZCA6PSBhIC0gYgoJaWYgZCA8IDAgewoJCWQgPSAtZAoJfQoJcmV0dXJuIGQgPCAwLjAxCn0KCi8vIHJldGFyZ2V0VGV4dFNpemUg5oqK44CM5pen5qGj5L2N5LiL55qE5p+Q5Liq6KeS6Imy5a2X5Y+344CN5o2i566X5oiQ5paw5qGj5L2N5LiL55qE5a2X5Y+344CCCi8vCi8vIOWPquiupOOAjOato+WlveetieS6juaXp+aho+S9jeafkOS4quinkuiJsuWtl+WPt+OAjeeahOaWh+Wtl++8mkZ5bmUg5YaF5bu65o6n5Lu277yI5oyJ6ZKu44CB5qCH562+44CB6I+c5Y2V77yJCi8vIOeahOWtl+WPt+acrOadpeWwseeUseS4u+mimOe7meWHuu+8jOaUueS4u+mimOWug+S7rOiHquW3seS8muWPmO+8m+i/memHjOWPqui0n+i0o+mCo+S6myoq5YaZ5q275LqG5a2X5Y+3KioKLy8g55qEIGNhbnZhcy5UZXh044CC5Lik6L6555qE55uu5qCH5YC85LiA6Ie077yM5omA5Lul5LiN5Lya6YeN5aSN5pS+5aSn44CCCmZ1bmMgcmV0YXJnZXRUZXh0U2l6ZShvbGQgZmxvYXQzMiwgbmV3IGZsb2F0MzIpIGZ1bmMoZnluZS5DYW52YXNPYmplY3QpIHsKCXJldHVybiBmdW5jKG8gZnluZS5DYW52YXNPYmplY3QpIHsKCQl0LCBvayA6PSBvLigqY2FudmFzLlRleHQpCgkJaWYgIW9rIHx8IHQuVGV4dFNpemUgPD0gMCB7CgkJCXJldHVybgoJCX0KCQlmb3IgXywgcm9sZSA6PSByYW5nZSBhbGxUZXh0Um9sZXMgewoJCQlpZiBuZWFybHkodC5UZXh0U2l6ZSwgcm9sZUJhc2Uocm9sZSkqb2xkKSB7CgkJCQl0LlRleHRTaXplID0gcm9sZUJhc2Uocm9sZSkgKiBuZXcKCQkJCXQuUmVmcmVzaCgpCgkJCQlyZXR1cm4KCQkJfQoJCX0KCX0KfQoKLy8gQXBwbHlGb250U2NhbGUg5oqK5YWo55WM6Z2i5YiH5Yiw5b2T5YmN5qGj5L2N77yMKirkuI3ph43lu7rku7vkvZXmjqfku7YqKuOAggovLwovLyBvbGQg5piv5YiH5o2i5YmN55qE5YCN546H44CC6LCD55So6aG65bqP6KaB57Sn77ya5YWI5oqK5YCN546H6K6+5oiQ5paw55qE77yIU2V0Rm9udFNjYWxl77yJ77yMCi8vIOWGjeaNouS4u+mimO+8iEZ5bmUg5YaF5bu65o6n5Lu26Lef552A5Li76aKY5Y+Y77yJ77yM5pyA5ZCO6LWw5LiA6YGN55WM6Z2i5oqK5YaZ5q275a2X5Y+355qECi8vIGNhbnZhcy5UZXh0IOaNouaIkOaWsOaho+S9jeKAlOKAlOS4pOS7tuS6i+WQhOeuoeS4gOWNiu+8jOS4jeS8muS6kuebuOaJk+aetuOAggpmdW5jIEFwcGx5Rm9udFNjYWxlKGFwcCBmeW5lLkFwcCwgb2xkIGZsb2F0MzIpIHsKCW5vdyA6PSBGb250U2NhbGUoKQoJaWYgbmVhcmx5KG5vdywgb2xkKSB7CgkJcmV0dXJuCgl9CglpZiBhcHAgIT0gbmlsIHsKCQlmb3IgXywgdyA6PSByYW5nZSBhcHAuRHJpdmVyKCkuQWxsV2luZG93cygpIHsKCQkJaWYgdyA9PSBuaWwgfHwgdy5Db250ZW50KCkgPT0gbmlsIHsKCQkJCWNvbnRpbnVlCgkJCX0KCQkJd2Fsa0NhbnZhc09iamVjdHMody5Db250ZW50KCksIHJldGFyZ2V0VGV4dFNpemUob2xkLCBub3cpKQoJCX0KCX0KfQoKLy8gZGVzY3JpYmVGb250U2NhbGUg57uZ54q25oCB5qCPL+iPnOWNleaYvuekuuW9k+WJjeaho+S9jeeahOS4reaWh+WQjeOAggpmdW5jIGRlc2NyaWJlRm9udFNjYWxlKCkgc3RyaW5nIHsKCXN3aXRjaCBGb250U2NhbGVOYW1lKEZvbnRTY2FsZSgpKSB7CgljYXNlIGZvbnRTY2FsZVN0YW5kYXJkOgoJCXJldHVybiAi5qCH5YeGIgoJY2FzZSBmb250U2NhbGVYTGFyZ2U6CgkJcmV0dXJuICLnibnlpKciCglkZWZhdWx0OgoJCXJldHVybiAi5aSn77yI5o6o6I2Q77yJIgoJfQp9CgovLyBmb250VGllckxhYmVsIOaYr+iPnOWNlemHjOaYvuekuueahOWQjeWtl+OAggpmdW5jIGZvbnRUaWVyTGFiZWwobmFtZSBzdHJpbmcpIHN0cmluZyB7Cglzd2l0Y2ggbmFtZSB7CgljYXNlIGZvbnRTY2FsZVN0YW5kYXJkOgoJCXJldHVybiAi5qCH5YeG77yI5bm06L276KeG5Yqb77yJIgoJY2FzZSBmb250U2NhbGVYTGFyZ2U6CgkJcmV0dXJuICLnibnlpKfvvIjop4blipvmmI7mmL7kuIvpmY3vvIkiCglkZWZhdWx0OgoJCXJldHVybiAi5aSn77yI5o6o6I2Q77yM5oyJIDUwfjYwIOWygeiuvuiuoe+8iSIKCX0KfQoKLy8gYTExeUZvcmVEaW0g5piv44CM5qyh6KaB5paH5a2X44CN55qE6aKc6Imy44CCCi8vCi8vIGNvbEZvcmVEaW0g5Y6f5pys5pivIDB4Nzc2QjU577yM5Zyo57Gz6buE5bqVIDB4RkFGNkVDIOS4iueahOWvueavlOW6pue6piA0Ljc6Me+8jAovLyDliJrov4cgV0NBRyBBQSDnmoQgNC41OjHvvIzkvYblr7kgNjAg5bKB5Lul5LiK55So5oi35LuN54S25YGP5reh44CCCi8vIOeOsOe7n+S4gOWKoOa3seWIsCDiiYg3LjM6Me+8iFdDQUcgQUFB77yJ77yM5Luj5Lu35Y+q5piv44CM5qyh6KaB5paH5a2X5rKh6YKj5LmI5qyh6KaB44CN44CCCi8vIOWunumZheWvueavlOW6pueUsSBhMTF5X3Rlc3QuZ28g6K6h566X6aqM6K+B44CCCnZhciBhMTF5Rm9yZURpbSA9IGNvbG9yLk5SR0JBe1I6IDB4NUEsIEc6IDB4NTAsIEI6IDB4NDIsIEE6IDB4RkZ9Cg==
+package ui
+
+import (
+	"image/color"
+	"sync"
+
+	"fyne.io/fyne/v2"
+	"fyne.io/fyne/v2/canvas"
+	"fyne.io/fyne/v2/theme"
+)
+
+// 本文件实现「适老化」字号档位。
+//
+// 目标用户：50~60 岁以上，视力与手指精度都在下降。
+// 依据（不是拍脑袋）：
+//   - W3C WCAG 2.1 成功标准 1.4.3：正文对比度至少 4.5:1，大号文字至少 3:1
+//     https://www.w3.org/Translations/WCAG21-zh/
+//   - W3C WCAG 2.2 成功标准 2.5.8：点击目标至少 24×24 CSS 像素；
+//     更推荐按 2.5.5（AAA）做到 44×44，并「提供选项放大目标、调节布局密度」
+//     https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html
+//   - 该文档明确写到：这些准则「使因衰老而使能力有所改变的老年人更容易使用」
+//
+// 上面的数字都有回归测试守着（a11y_test.go），不是写在注释里就算数：
+// 按钮/菜单项的实际最小高度、次要文字的实际对比度都在测试里量过。
+//
+// 落地方式：**Fyne 的所有控件尺寸都来自主题的 Size()**（按钮高度 = 文字高度 + 2×Padding，
+// 输入框、列表行、菜单项同理），所以只要在这一处按档位放大，全界面同时变大——
+// 不需要去改每一个控件的字号，也不会漏掉某个角落。
+
+// 字号档位（对应「设置 → 字号」三个菜单项）。
+//
+// 注意定位：**默认是「标准」，界面尺寸与 v1.5 之前完全一致**。
+// 本文件提供的是「想放大的人可以自己放大」的能力，而不是把界面整体做大——
+// 需求原话是「目标用户涵盖各个年龄段，界面简单易操作，字体正常就好」。
+const (
+	fontScaleStandard = "standard" // 标准：默认
+	fontScaleLarge    = "large"    // 大：可选
+	fontScaleXLarge   = "xlarge"   // 特大：可选
+)
+
+// fontScale 保存当前档位的倍率；主题与所有界面字号都从它取。
+var fontScale = struct {
+	mu  sync.RWMutex
+	val float32
+}{val: 1.0}
+
+// SetFontScale 设置字号倍率（0.9~1.6，超出会被夹住）。
+func SetFontScale(v float32) {
+	if v < 0.9 {
+		v = 0.9
+	}
+	if v > 1.6 {
+		v = 1.6
+	}
+	fontScale.mu.Lock()
+	fontScale.val = v
+	fontScale.mu.Unlock()
+}
+
+// FontScale 返回当前字号倍率。
+func FontScale() float32 {
+	fontScale.mu.RLock()
+	defer fontScale.mu.RUnlock()
+	return fontScale.val
+}
+
+// FontScaleFor 把档位名换算成倍率。
+func FontScaleFor(name string) float32 {
+	switch name {
+	case fontScaleStandard:
+		return 1.0
+	case fontScaleXLarge:
+		return 1.45
+	default: // fontScaleLarge
+		return 1.22
+	}
+}
+
+// FontScaleName 把倍率反查成档位名（用于初始化与菜单勾选）。
+func FontScaleName(v float32) string {
+	switch {
+	case v < 1.08:
+		return fontScaleStandard
+	case v > 1.35:
+		return fontScaleXLarge
+	default:
+		return fontScaleLarge
+	}
+}
+
+// sz 按当前档位放大一个基准尺寸。
+func sz(base float32) float32 { return base * FontScale() }
+
+type textRole int
+
+const (
+	textBody textRole = iota
+	textSmall
+	textLabel
+	textTitle
+	textBig
+)
+
+// allTextRoles 供「换档时按角色重算」遍历（顺序无关）。
+var allTextRoles = [...]textRole{textBody, textSmall, textLabel, textTitle, textBig}
+
+// roleBase 是某个角色在「标准档（1.0）」下的基准字号。
+//
+// 【v1.5 调小】目标用户是「普通客户」，不是特定人群；实测原来的 16/15/17 偏大、
+// 界面显得空，同类桌面象棋软件正文普遍在 12~13px、面板标题 14px 上下。
+// 现在这一组值就是把界面密度对齐同类产品的结果。
+// 需要更大的字，用户自己在「设置 → 字号」里放大（档位机制见本文件开头）。
+//
+// 之所以把基准值单独抽出来：切换档位时要按「角色基准 × 新倍率」重算，
+// 必须能拿到「不含倍率的原始值」，否则会一次一次乘出漂移。
+func roleBase(role textRole) float32 {
+	switch role {
+	case textBody: // 正文、状态栏、列表
+		return 13
+	case textSmall: // 次要说明
+		return 11.5
+	case textLabel: // 面板小标题、按钮文字
+		return 12.5
+	case textTitle: // 区块标题
+		return 14
+	case textBig: // 最佳着法这种要一眼看到的
+		return 22
+	}
+	return 12.5
+}
+
+// textSize 是「正文/普通说明文字」的统一入口。
+//
+// 全界面凡是要写死字号的 canvas.Text，都应该用 textSize(...) 而不要写死数字——
+// 之前工程里有 16 处 11px、25 处 12px，对 50~60 岁用户等于看不清。
+func textSize(role textRole) float32 { return sz(roleBase(role)) }
+
+// basePadding 是主题内边距的基准值（布局疏密的总闸门）。
+//
+// 【v1.5 调小】8 → 6：用户反馈「各个栏的参数界面太大」，加上字号下调，
+// 面板四周留白同步收紧，把省下来的空间还给棋盘和着法列表。
+const basePadding = 6
+
+// baseInnerPadding 是控件内边距的基准值（决定按钮/输入框的高度）。
+//
+// 【v1.5 调小】6 → 5，与上面同步收紧，避免按钮在高级字下显得又大又空。
+// Fyne 的按钮高度 = 标签高度 + 2×InnerPadding（见 widget/button.go）。
+const baseInnerPadding = 5
+
+func (defaultTheme) Size(n fyne.ThemeSizeName) float32 {
+	switch n {
+	case theme.SizeNamePadding:
+		return sz(basePadding)
+	case theme.SizeNameInnerPadding:
+		return sz(baseInnerPadding)
+	case theme.SizeNameText:
+		return textSize(textBody)
+	case theme.SizeNameHeadingText:
+		return textSize(textTitle)
+	case theme.SizeNameSubHeadingText:
+		return textSize(textLabel)
+	case theme.SizeNameSeparatorThickness:
+		// 太细的分隔线在老花眼里等于不存在，加粗到 2
+		return 2
+	case theme.SizeNameInputBorder:
+		return 1
+	case theme.SizeNameScrollBar:
+		// 滚动条加宽：太细不好拖（同类软件的滚动条也在 12~14px）
+		return sz(12)
+	case theme.SizeNameScrollBarSmall:
+		return sz(5)
+	case theme.SizeNameSplitThickness:
+		// 分栏手柄：够抓就行，太粗会白占界面宽度
+		return sz(10)
+	case theme.SizeNameCaptionText:
+		return textSize(textSmall)
+	}
+	return theme.DefaultTheme().Size(n)
+}
+
+// ---------------------------------------------------------------------------
+// 切换档位：不重建界面，直接把全界面文字换成新档位
+// ---------------------------------------------------------------------------
+
+// walkCanvasObjects 深度遍历界面对象树：容器进 Objects，
+// 自绘控件（棋盘 / 曲线 / 评估条）进它自己的渲染器。
+//
+// 为什么两样都要走：本工程里有一半文字是直接用 canvas.Text 摆在容器里的，
+// 另一半在自绘控件的渲染器里。只走其中一边就会漏掉一半界面。
+func walkCanvasObjects(o fyne.CanvasObject, fn func(fyne.CanvasObject)) {
+	walkDepth(o, fn, 0)
+}
+
+func walkDepth(o fyne.CanvasObject, fn func(fyne.CanvasObject), depth int) {
+	if o == nil || depth > 64 { // 深度上限：防御渲染器互相引用的极端情况
+		return
+	}
+	fn(o)
+	switch v := o.(type) {
+	case *fyne.Container:
+		for _, c := range v.Objects {
+			walkDepth(c, fn, depth+1)
+		}
+	case fyne.Widget:
+		r := v.CreateRenderer()
+		if r == nil {
+			return
+		}
+		for _, c := range r.Objects() {
+			walkDepth(c, fn, depth+1)
+		}
+	}
+}
+
+// nearly 判断两个字号是否「就是同一个角色的同一个值」。
+//
+// canvas.Text 里的字号是 float32 乘出来的，直接 == 在多数情况下能过，
+// 但留一点容差，避免某次中间运算精度不同就漏掉一整个角色。
+func nearly(a, b float32) bool {
+	d := a - b
+	if d < 0 {
+		d = -d
+	}
+	return d < 0.01
+}
+
+// retargetTextSize 把「旧档位下的某个角色字号」换算成新档位下的字号。
+//
+// 只认「正好等于旧档位某个角色字号」的文字：Fyne 内建控件（按钮、标签、菜单）
+// 的字号本来就由主题给出，改主题它们自己会变；这里只负责那些**写死了字号**
+// 的 canvas.Text。两边的目标值一致，所以不会重复放大。
+func retargetTextSize(old float32, new float32) func(fyne.CanvasObject) {
+	return func(o fyne.CanvasObject) {
+		t, ok := o.(*canvas.Text)
+		if !ok || t.TextSize <= 0 {
+			return
+		}
+		for _, role := range allTextRoles {
+			if nearly(t.TextSize, roleBase(role)*old) {
+				t.TextSize = roleBase(role) * new
+				t.Refresh()
+				return
+			}
+		}
+	}
+}
+
+// ApplyFontScale 把全界面切到当前档位，**不重建任何控件**。
+//
+// old 是切换前的倍率。调用顺序要紧：先把倍率设成新的（SetFontScale），
+// 再换主题（Fyne 内建控件跟着主题变），最后走一遍界面把写死字号的
+// canvas.Text 换成新档位——两件事各管一半，不会互相打架。
+func ApplyFontScale(app fyne.App, old float32) {
+	now := FontScale()
+	if nearly(now, old) {
+		return
+	}
+	if app != nil {
+		for _, w := range app.Driver().AllWindows() {
+			if w == nil || w.Content() == nil {
+				continue
+			}
+			walkCanvasObjects(w.Content(), retargetTextSize(old, now))
+		}
+	}
+}
+
+// describeFontScale 给状态栏/菜单显示当前档位的中文名。
+func describeFontScale() string {
+	switch FontScaleName(FontScale()) {
+	case fontScaleStandard:
+		return "标准"
+	case fontScaleXLarge:
+		return "特大"
+	default:
+		return "大（推荐）"
+	}
+}
+
+// fontTierLabel 是菜单里显示的名字。
+func fontTierLabel(name string) string {
+	switch name {
+	case fontScaleStandard:
+		return "标准（年轻视力）"
+	case fontScaleXLarge:
+		return "特大（视力明显下降）"
+	default:
+		return "大（推荐，按 50~60 岁设计）"
+	}
+}
+
+// a11yForeDim 是「次要文字」的颜色。
+//
+// colForeDim 原本是 0x776B59，在米黄底 0xFAF6EC 上的对比度约 4.7:1，
+// 刚过 WCAG AA 的 4.5:1，但对 60 岁以上用户仍然偏淡。
+// 现统一加深到 ≈7.3:1（WCAG AAA），代价只是「次要文字没那么次要」。
+// 实际对比度由 a11y_test.go 计算验证。
+var a11yForeDim = color.NRGBA{R: 0x5A, G: 0x50, B: 0x42, A: 0xFF}

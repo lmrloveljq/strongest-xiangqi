@@ -1,1 +1,86 @@
-cGFja2FnZSB1aQoKaW1wb3J0ICgKCSJ0aW1lIgoKCSJmeW5lLmlvL2Z5bmUvdjIvd2lkZ2V0IgopCgovLyDmnKzmlofku7blrp7njrDjgIzlhbPpl63lvJXmk44gLyDlkK/liqjlvJXmk47jgI3lvIDlhbPjgIIKLy8KLy8g55So5oi36ZyA5rGC77ya5rWL6K+V5pyf6Ze06KaB6IO95oqK5byV5pOO5YWz5o6J77yI5byV5pOO5ruh6YWNIDE2IOe6v+eoi+i3kea7oSBDUFXvvIwKLy8g5rWL6K+V55WM6Z2i5pe25pei6LS555S15Y+I5oqi5pe26Ze054mH77yJ44CCCi8vCi8vIOivreS5ie+8mgovLyAgIC0g5YWz6Zet77ya56uL5Yi7IHF1aXQg5byV5pOO6L+b56iL44CB5L2c5bqf5Zyo6YCU57uT5p6c77yM5bm25LiUKirkuI3lho3oh6rliqjph43lkK/jgIHkuI3lho3lj5HmkJzntKLor7fmsYIqKu+8mwovLyAgICAg5bey57uP57yT5a2Y6L+H5YiG5p6Q57uT5p6c55qE5bGA6Z2i5LuN54S254Wn5bi45pi+56S677yI57yT5a2Y5bGC5Zyo5byV5pOO5LmL5aSW77yM5LiN5Y+X5b2x5ZON77yJ44CCCi8vICAgLSDlkK/liqjvvJrph43mlrDmi4notbflvJXmk47lubbnq4vliLvlr7nlvZPliY3lsYDpnaLmgJ3ogIPkuIDmrKHjgIIKCi8vIENsb3NlRW5naW5lIOWFs+mXreWIhuaekOW8leaTjuOAggovLyByZWZyZXNoQm9hcmRJbnRlcmFjdGl2ZVNhZmUg5YWzL+W8gOW8leaTjuWQjuWQjOatpeS4gOasoeaji+ebmOWPr+S6pOS6kueKtuaAgeOAggovLwovLyDlhbPlvJXmk47kvJrmlLnlj5jjgIzkurrmnLrlr7nlvIjph4zog73kuI3og73otbDlr7npnaLpgqPmlrnjgI3nmoTliKTlrprvvIjop4EgY2FuQm9hcmRBY2NlcHRJbnB1dO+8ie+8jAovLyDmiYDku6XkuKTkuKrlvIDlhbPmlLblsL7pg73opoHliLfmlrDvvIzlkKbliJnopoHnrYnliLDkuIvkuIDmraXmo4vmiY3nlJ/mlYjjgIIKZnVuYyAoYSAqQXBwKSByZWZyZXNoQm9hcmRJbnRlcmFjdGl2ZVNhZmUoKSB7CglpZiBhLmJvYXJkICE9IG5pbCB7CgkJYS5yZWZyZXNoQm9hcmRJbnRlcmFjdGl2ZSgpCgl9Cn0KCmZ1bmMgKGEgKkFwcCkgQ2xvc2VFbmdpbmUoKSB7CglhLmVuZ2luZU9mZi5TdG9yZSh0cnVlKQoKCS8vIOS9nOW6n+aJgOacieWcqOmAlOivt+axgu+8mue7k+aenOWbnuadpeWQjiBnZW4g5a+55LiN5LiK5Lya6KKr5Lii5byDCglhLmFuYUdlbi5BZGQoMSkKCglhLmFuYU11LkxvY2soKQoJYyA6PSBhLmFuYUNsaWVudAoJYS5hbmFDbGllbnQgPSBuaWwKCWEuYW5hTXUuVW5sb2NrKCkKCglhLmFuYWx5emluZy5TdG9yZShmYWxzZSkKCWlmIGMgIT0gbmlsIHsKCQljLlF1aXQoMTIwMCAqIHRpbWUuTWlsbGlzZWNvbmQpCgl9CgoJYS5zZXRFbmdpbmVTdGF0ZSgi5byV5pOO77ya5bey5YWz6Zet77yI54K544CM5ZCv5Yqo5byV5pOO44CN5oGi5aSN77yJIiwgY29sV2FybikKCWEuYmVzdC5TZXRTdGF0dXMoIuW8leaTjuW3suWFs+mXre+8m+W3sue8k+WtmOi/h+eahOWxgOmdouS7jeWPr+afpeeci++8iOWQq+iusOiwsei3s+i9rO+8iSIpCglhLnJlZnJlc2hFbmdpbmVCdXR0b24oKQoJYS5yZWZyZXNoQm9hcmRJbnRlcmFjdGl2ZVNhZmUoKQp9CgovLyBPcGVuRW5naW5lIOmHjeaWsOWQr+WKqOWIhuaekOW8leaTjuOAggpmdW5jIChhICpBcHApIE9wZW5FbmdpbmUoKSB7CglhLmVuZ2luZU9mZi5TdG9yZShmYWxzZSkKCWEucmVmcmVzaEVuZ2luZUJ1dHRvbigpCglhLnJlZnJlc2hCb2FyZEludGVyYWN0aXZlU2FmZSgpCglnbyBhLnJlc3RhcnRBbmFseXNpc0VuZ2luZSgpCn0KCi8vIFRvZ2dsZUVuZ2luZSDlt6XlhbfmoI/mjInpkq7vvJrmjInlvZPliY3nirbmgIHlhbPpl63miJblkK/liqjlvJXmk47jgIIKZnVuYyAoYSAqQXBwKSBUb2dnbGVFbmdpbmUoKSB7CglpZiBhLmVuZ2luZU9mZi5Mb2FkKCkgewoJCWEuT3BlbkVuZ2luZSgpCgkJcmV0dXJuCgl9CglhLkNsb3NlRW5naW5lKCkKfQoKLy8gcmVmcmVzaEVuZ2luZUJ1dHRvbiDlkIzmraXmjInpkq7mlofmoYjjgIIKZnVuYyAoYSAqQXBwKSByZWZyZXNoRW5naW5lQnV0dG9uKCkgewoJaWYgYS5idG5FbmdpbmUgPT0gbmlsIHsKCQlyZXR1cm4KCX0KCWlmIGEuZW5naW5lT2ZmLkxvYWQoKSB7CgkJYS5idG5FbmdpbmUuU2V0VGV4dCgi5ZCv5Yqo5byV5pOOIikKCX0gZWxzZSB7CgkJYS5idG5FbmdpbmUuU2V0VGV4dCgi5YWz6Zet5byV5pOOIikKCX0KCWEuYnRuRW5naW5lLlJlZnJlc2goKQp9CgovLyBuZXdFbmdpbmVUb2dnbGVCdXR0b24g5Yib5bu65bel5YW35qCP5LiK55qE5byV5pOO5byA5YWz44CCCmZ1bmMgKGEgKkFwcCkgbmV3RW5naW5lVG9nZ2xlQnV0dG9uKCkgKndpZGdldC5CdXR0b24gewoJYS5idG5FbmdpbmUgPSB3aWRnZXQuTmV3QnV0dG9uKCLlhbPpl63lvJXmk44iLCBmdW5jKCkgeyBhLlRvZ2dsZUVuZ2luZSgpIH0pCglyZXR1cm4gYS5idG5FbmdpbmUKfQo=
+package ui
+
+import (
+	"time"
+
+	"fyne.io/fyne/v2/widget"
+)
+
+// 本文件实现「关闭引擎 / 启动引擎」开关。
+//
+// 用户需求：测试期间要能把引擎关掉（引擎满配 16 线程跑满 CPU，
+// 测试界面时既费电又抢时间片）。
+//
+// 语义：
+//   - 关闭：立刻 quit 引擎进程、作废在途结果，并且**不再自动重启、不再发搜索请求**；
+//     已经缓存过分析结果的局面仍然照常显示（缓存层在引擎之外，不受影响）。
+//   - 启动：重新拉起引擎并立刻对当前局面思考一次。
+
+// CloseEngine 关闭分析引擎。
+// refreshBoardInteractiveSafe 关/开引擎后同步一次棋盘可交互状态。
+//
+// 关引擎会改变「人机对弈里能不能走对面那方」的判定（见 canBoardAcceptInput），
+// 所以两个开关收尾都要刷新，否则要等到下一步棋才生效。
+func (a *App) refreshBoardInteractiveSafe() {
+	if a.board != nil {
+		a.refreshBoardInteractive()
+	}
+}
+
+func (a *App) CloseEngine() {
+	a.engineOff.Store(true)
+
+	// 作废所有在途请求：结果回来后 gen 对不上会被丢弃
+	a.anaGen.Add(1)
+
+	a.anaMu.Lock()
+	c := a.anaClient
+	a.anaClient = nil
+	a.anaMu.Unlock()
+
+	a.analyzing.Store(false)
+	if c != nil {
+		c.Quit(1200 * time.Millisecond)
+	}
+
+	a.setEngineState("引擎：已关闭（点「启动引擎」恢复）", colWarn)
+	a.best.SetStatus("引擎已关闭；已缓存过的局面仍可查看（含记谱跳转）")
+	a.refreshEngineButton()
+	a.refreshBoardInteractiveSafe()
+}
+
+// OpenEngine 重新启动分析引擎。
+func (a *App) OpenEngine() {
+	a.engineOff.Store(false)
+	a.refreshEngineButton()
+	a.refreshBoardInteractiveSafe()
+	go a.restartAnalysisEngine()
+}
+
+// ToggleEngine 工具栏按钮：按当前状态关闭或启动引擎。
+func (a *App) ToggleEngine() {
+	if a.engineOff.Load() {
+		a.OpenEngine()
+		return
+	}
+	a.CloseEngine()
+}
+
+// refreshEngineButton 同步按钮文案。
+func (a *App) refreshEngineButton() {
+	if a.btnEngine == nil {
+		return
+	}
+	if a.engineOff.Load() {
+		a.btnEngine.SetText("启动引擎")
+	} else {
+		a.btnEngine.SetText("关闭引擎")
+	}
+	a.btnEngine.Refresh()
+}
+
+// newEngineToggleButton 创建工具栏上的引擎开关。
+func (a *App) newEngineToggleButton() *widget.Button {
+	a.btnEngine = widget.NewButton("关闭引擎", func() { a.ToggleEngine() })
+	return a.btnEngine
+}

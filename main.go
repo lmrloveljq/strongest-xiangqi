@@ -1,1 +1,23 @@
-Ly8gQ29tbWFuZCB4aWFuZ3FpIOaYr+OAjOixoeaji+W8uui9r+OAjeeahOWFpeWPo+eoi+W6j+OAggovLwovLyDlrprkvY3vvIjliqHlv4XlhYjnkIbop6PvvIzlho3mlLnliqjvvInvvJoKLy8KLy8J5pys6L2v5Lu2KirkuI3mmK/kurrmnLrlr7nlvIjmuLjmiI8qKu+8jOiAjOaYr+S4pOS7tuS6i++8mgovLwkgIEEuIOW8leaTjuahpeaOpeWIhuaekCDigJTigJQg55So5oi35oqK56ys5LiJ5pa56L2v5Lu255qE5pyA5paw552A5rOV5pGG5Yiw5pys6L2v5Lu25qOL55uY5LiK77yMCi8vCSAgICAg5YaF572uIFBpa2FmaXNoIOW8leaTjua3seW6puaAneiAg+e7meWHuuacgOW8uuW6lOWvue+8jOeUqOaIt+S4gOmUruWkjeWItuedgOazlei1sOWbnuesrOS4ieaWuei9r+S7tu+8mwovLwkgIEIuIOW8leaTjuiHquWKqOWvueaImCDigJTigJQg5Yqg6L295Lik5Liq5byV5pOO5om56YeP5a+55byI77yM57uf6K6h6IOc6LSf5LiO5oCn6IO95bm255Sf5oiQ5oql5ZGK44CCCi8vCi8vIOaYjuehruS4jeWBmu+8muS6uuacuuWvueW8iOa4uOaIj+OAgUFJIOivhOivreOAgeWkjeebmOaVsOaNruW6k+OAgeadgOazlS/mrovlsYDorq3nu4PokKXjgIHogZTmnLrlr7nmiJjjgIHkupHlkIzmraXjgIIKLy8KLy8g5p6E5bu677yaCi8vCi8vCWdvIGJ1aWxkIC1sZGZsYWdzICItSCB3aW5kb3dzZ3VpIC1zIC13IiAtbyB4aWFuZ3FpLmV4ZQpwYWNrYWdlIG1haW4KCmltcG9ydCAieGlhbmdxaS91aSIKCmZ1bmMgbWFpbigpIHsKCWFwcCA6PSB1aS5OZXcoKQoJYXBwLlNldHVwKCkKCWFwcC5SdW4oKQp9Cg==
+// Command xiangqi 是「象棋强软」的入口程序。
+//
+// 定位（务必先理解，再改动）：
+//
+//	本软件**不是人机对弈游戏**，而是两件事：
+//	  A. 引擎桥接分析 —— 用户把第三方软件的最新着法摆到本软件棋盘上，
+//	     内置 Pikafish 引擎深度思考给出最强应对，用户一键复制着法走回第三方软件；
+//	  B. 引擎自动对战 —— 加载两个引擎批量对弈，统计胜负与性能并生成报告。
+//
+// 明确不做：人机对弈游戏、AI 评语、复盘数据库、杀法/残局训练营、联机对战、云同步。
+//
+// 构建：
+//
+//	go build -ldflags "-H windowsgui -s -w" -o xiangqi.exe
+package main
+
+import "xiangqi/ui"
+
+func main() {
+	app := ui.New()
+	app.Setup()
+	app.Run()
+}

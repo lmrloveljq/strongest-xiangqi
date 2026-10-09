@@ -1,1 +1,80 @@
-QWRkLVR5cGUgLUFzc2VtYmx5TmFtZSBTeXN0ZW0uV2luZG93cy5Gb3JtcwpBZGQtVHlwZSAtQXNzZW1ibHlOYW1lIFN5c3RlbS5EcmF3aW5nCgpBZGQtVHlwZSBAIgp1c2luZyBTeXN0ZW07CnVzaW5nIFN5c3RlbS5SdW50aW1lLkludGVyb3BTZXJ2aWNlczsKcHVibGljIGNsYXNzIE1JbnB1dCB7CiAgICBbRGxsSW1wb3J0KCJ1c2VyMzIuZGxsIildIHB1YmxpYyBzdGF0aWMgZXh0ZXJuIGJvb2wgU2V0Q3Vyc29yUG9zKGludCBYLCBpbnQgWSk7CiAgICBbRGxsSW1wb3J0KCJ1c2VyMzIuZGxsIildIHB1YmxpYyBzdGF0aWMgZXh0ZXJuIHZvaWQgbW91c2VfZXZlbnQodWludCBmLCB1aW50IGR4LCB1aW50IGR5LCB1aW50IGQsIEludFB0ciBlKTsKICAgIFtEbGxJbXBvcnQoInVzZXIzMi5kbGwiKV0gcHVibGljIHN0YXRpYyBleHRlcm4gYm9vbCBTZXRGb3JlZ3JvdW5kV2luZG93KEludFB0ciBoV25kKTsKICAgIFtEbGxJbXBvcnQoInVzZXIzMi5kbGwiKV0gcHVibGljIHN0YXRpYyBleHRlcm4gYm9vbCBHZXRDbGllbnRSZWN0KEludFB0ciBoV25kLCBvdXQgUkVDVCByKTsKICAgIFtEbGxJbXBvcnQoInVzZXIzMi5kbGwiKV0gcHVibGljIHN0YXRpYyBleHRlcm4gYm9vbCBDbGllbnRUb1NjcmVlbihJbnRQdHIgaFduZCwgcmVmIFBPSU5UIHApOwogICAgW1N0cnVjdExheW91dChMYXlvdXRLaW5kLlNlcXVlbnRpYWwpXSBwdWJsaWMgc3RydWN0IFJFQ1QgeyBwdWJsaWMgaW50IExlZnQsIFRvcCwgUmlnaHQsIEJvdHRvbTsgfQogICAgW1N0cnVjdExheW91dChMYXlvdXRLaW5kLlNlcXVlbnRpYWwpXSBwdWJsaWMgc3RydWN0IFBPSU5UIHsgcHVibGljIGludCBYLCBZOyB9CiAgICBwdWJsaWMgY29uc3QgdWludCBMRUZURE9XTiA9IDB4MDAwMjsKICAgIHB1YmxpYyBjb25zdCB1aW50IExFRlRVUCAgID0gMHgwMDA0Owp9CiJACgokcm9vdCA9IChSZXNvbHZlLVBhdGggKEpvaW4tUGF0aCAkUFNTY3JpcHRSb290ICcuLicpKS5QYXRoCiRwcm9jTmFtZSA9ICd4aWFuZ3FpJwoKZnVuY3Rpb24gR2V0LUNsaWVudFJlY3QoJHApIHsKICAgICRjID0gTmV3LU9iamVjdCBNSW5wdXQrUkVDVAogICAgW01JbnB1dF06OkdldENsaWVudFJlY3QoJHAuTWFpbldpbmRvd0hhbmRsZSwgW3JlZl0kYykgfCBPdXQtTnVsbAogICAgJHB0ID0gTmV3LU9iamVjdCBNSW5wdXQrUE9JTlQKICAgIFtNSW5wdXRdOjpDbGllbnRUb1NjcmVlbigkcC5NYWluV2luZG93SGFuZGxlLCBbcmVmXSRwdCkgfCBPdXQtTnVsbAogICAgcmV0dXJuIEB7IFggPSAkcHQuWDsgWSA9ICRwdC5ZOyBXID0gKCRjLlJpZ2h0IC0gJGMuTGVmdCk7IEggPSAoJGMuQm90dG9tIC0gJGMuVG9wKSB9Cn0KCmZ1bmN0aW9uIENhcHR1cmUoJHBhdGgsICRwKSB7CiAgICAkciA9IEdldC1DbGllbnRSZWN0ICRwCiAgICAkYm1wID0gTmV3LU9iamVjdCBTeXN0ZW0uRHJhd2luZy5CaXRtYXAgJHIuVywgJHIuSAogICAgJGcgPSBbU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NdOjpGcm9tSW1hZ2UoJGJtcCkKICAgICRnLkNvcHlGcm9tU2NyZWVuKChOZXctT2JqZWN0IFN5c3RlbS5EcmF3aW5nLlBvaW50ICRyLlgsICRyLlkpLCBbU3lzdGVtLkRyYXdpbmcuUG9pbnRdOjpFbXB0eSwgKE5ldy1PYmplY3QgU3lzdGVtLkRyYXdpbmcuU2l6ZSAkci5XLCAkci5IKSkKICAgICRibXAuU2F2ZSgkcGF0aCwgW1N5c3RlbS5EcmF3aW5nLkltYWdpbmcuSW1hZ2VGb3JtYXRdOjpQbmcpCiAgICAkZy5EaXNwb3NlKCk7ICRibXAuRGlzcG9zZSgpCiAgICBXcml0ZS1PdXRwdXQgImNhcHR1cmVkICRwYXRoICgkKCRyLlcpeCQoJHIuSCkpIgp9CgpmdW5jdGlvbiBEcmFnTW91c2UoJHgxLCAkeTEsICR4MiwgJHkyKSB7CiAgICBbTUlucHV0XTo6U2V0Q3Vyc29yUG9zKCR4MSwgJHkxKSB8IE91dC1OdWxsCiAgICBTdGFydC1TbGVlcCAtTWlsbGlzZWNvbmRzIDI1MAogICAgW01JbnB1dF06Om1vdXNlX2V2ZW50KFtNSW5wdXRdOjpMRUZURE9XTiwgMCwgMCwgMCwgW0ludFB0cl06Olplcm8pCiAgICBTdGFydC1TbGVlcCAtTWlsbGlzZWNvbmRzIDIwMAogICAgJHN0ZXBzID0gMTIKICAgIGZvciAoJGkgPSAxOyAkaSAtbGUgJHN0ZXBzOyAkaSsrKSB7CiAgICAgICAgJHggPSBbaW50XSgkeDEgKyAoJHgyIC0gJHgxKSAqICRpIC8gJHN0ZXBzKQogICAgICAgICR5ID0gW2ludF0oJHkxICsgKCR5MiAtICR5MSkgKiAkaSAvICRzdGVwcykKICAgICAgICBbTUlucHV0XTo6U2V0Q3Vyc29yUG9zKCR4LCAkeSkgfCBPdXQtTnVsbAogICAgICAgIFN0YXJ0LVNsZWVwIC1NaWxsaXNlY29uZHMgNDAKICAgIH0KICAgIFN0YXJ0LVNsZWVwIC1NaWxsaXNlY29uZHMgMjAwCiAgICBbTUlucHV0XTo6bW91c2VfZXZlbnQoW01JbnB1dF06OkxFRlRVUCwgMCwgMCwgMCwgW0ludFB0cl06Olplcm8pCiAgICBTdGFydC1TbGVlcCAtTWlsbGlzZWNvbmRzIDQwMAp9CgokcCA9IEdldC1Qcm9jZXNzIC1OYW1lICRwcm9jTmFtZSAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSB8IFNlbGVjdC1PYmplY3QgLUZpcnN0IDEKaWYgKC1ub3QgJHApIHsgV3JpdGUtT3V0cHV0ICJhcHAgbm90IHJ1bm5pbmciOyBleGl0IDEgfQpbTUlucHV0XTo6U2V0Rm9yZWdyb3VuZFdpbmRvdygkcC5NYWluV2luZG93SGFuZGxlKSB8IE91dC1OdWxsClN0YXJ0LVNsZWVwIC1NaWxsaXNlY29uZHMgODAwCgokciA9IEdldC1DbGllbnRSZWN0ICRwCldyaXRlLU91dHB1dCAiY2xpZW50OiAkKCRyLlgpLCQoJHIuWSkgJCgkci5XKXgkKCRyLkgpIgpDYXB0dXJlICIkcm9vdFxzY3JlZW5zaG90c1wwNy1zcGxpdC1iZWZvcmUucG5nIiAkcAoKIyAtLS0g5ouW5Yqo5Li75qiq5ZCR5YiG5qCP77yI5bem5qOL55uYIHwg5Y+z5YiG5p6Q77yJ77yM5LuOIDU2JSDlpITlkJHlt6bmi5YgLS0tCiRtYWluWCA9IFtpbnRdKCRyLlggKyAkci5XICogMC41NikKJG1pZFkgID0gW2ludF0oJHIuWSArICRyLkggKiAwLjQ1KQpXcml0ZS1PdXRwdXQgImRyYWcgbWFpbiBzcGxpdHRlciBhdCB4PSRtYWluWCB5PSRtaWRZIgpEcmFnTW91c2UgJG1haW5YICRtaWRZIChbaW50XSgkci5YICsgJHIuVyAqIDAuMzgpKSAkbWlkWQpDYXB0dXJlICIkcm9vdFxzY3JlZW5zaG90c1wwNy1zcGxpdC1hZnRlci1oLnBuZyIgJHAKCiMgLS0tIOaLluWKqOWPs+S+p+e6teWQkeWIhuagjyAo5YCZ6YCJIHwg5puy57q/L+WPguaVsCnvvIzku44gNTIlIOWkhOWQkeS4i+aLliAtLS0KJHIyID0gR2V0LUNsaWVudFJlY3QgJHAKJHJpZ2h0WCA9IFtpbnRdKCRyMi5YICsgJHIyLlcgKiAwLjc4KQokdnNZICAgID0gW2ludF0oJHIyLlkgKyAzMCArICgkcjIuSCAtIDMwKSAqIDAuNTIpCldyaXRlLU91dHB1dCAiZHJhZyByaWdodCB2c3BsaXQgYXQgeD0kcmlnaHRYIHk9JHZzWSIKRHJhZ01vdXNlICRyaWdodFggJHZzWSAkcmlnaHRYIChbaW50XSgkcjIuWSArIDMwICsgKCRyMi5IIC0gMzApICogMC43OCkpCkNhcHR1cmUgIiRyb290XHNjcmVlbnNob3RzXDA3LXNwbGl0LWFmdGVyLXYucG5nIiAkcAo=
+Add-Type -AssemblyName System.Windows.Forms
+Add-Type -AssemblyName System.Drawing
+
+Add-Type @"
+using System;
+using System.Runtime.InteropServices;
+public class MInput {
+    [DllImport("user32.dll")] public static extern bool SetCursorPos(int X, int Y);
+    [DllImport("user32.dll")] public static extern void mouse_event(uint f, uint dx, uint dy, uint d, IntPtr e);
+    [DllImport("user32.dll")] public static extern bool SetForegroundWindow(IntPtr hWnd);
+    [DllImport("user32.dll")] public static extern bool GetClientRect(IntPtr hWnd, out RECT r);
+    [DllImport("user32.dll")] public static extern bool ClientToScreen(IntPtr hWnd, ref POINT p);
+    [StructLayout(LayoutKind.Sequential)] public struct RECT { public int Left, Top, Right, Bottom; }
+    [StructLayout(LayoutKind.Sequential)] public struct POINT { public int X, Y; }
+    public const uint LEFTDOWN = 0x0002;
+    public const uint LEFTUP   = 0x0004;
+}
+"@
+
+$root = (Resolve-Path (Join-Path $PSScriptRoot '..')).Path
+$procName = 'xiangqi'
+
+function Get-ClientRect($p) {
+    $c = New-Object MInput+RECT
+    [MInput]::GetClientRect($p.MainWindowHandle, [ref]$c) | Out-Null
+    $pt = New-Object MInput+POINT
+    [MInput]::ClientToScreen($p.MainWindowHandle, [ref]$pt) | Out-Null
+    return @{ X = $pt.X; Y = $pt.Y; W = ($c.Right - $c.Left); H = ($c.Bottom - $c.Top) }
+}
+
+function Capture($path, $p) {
+    $r = Get-ClientRect $p
+    $bmp = New-Object System.Drawing.Bitmap $r.W, $r.H
+    $g = [System.Drawing.Graphics]::FromImage($bmp)
+    $g.CopyFromScreen((New-Object System.Drawing.Point $r.X, $r.Y), [System.Drawing.Point]::Empty, (New-Object System.Drawing.Size $r.W, $r.H))
+    $bmp.Save($path, [System.Drawing.Imaging.ImageFormat]::Png)
+    $g.Dispose(); $bmp.Dispose()
+    Write-Output "captured $path ($($r.W)x$($r.H))"
+}
+
+function DragMouse($x1, $y1, $x2, $y2) {
+    [MInput]::SetCursorPos($x1, $y1) | Out-Null
+    Start-Sleep -Milliseconds 250
+    [MInput]::mouse_event([MInput]::LEFTDOWN, 0, 0, 0, [IntPtr]::Zero)
+    Start-Sleep -Milliseconds 200
+    $steps = 12
+    for ($i = 1; $i -le $steps; $i++) {
+        $x = [int]($x1 + ($x2 - $x1) * $i / $steps)
+        $y = [int]($y1 + ($y2 - $y1) * $i / $steps)
+        [MInput]::SetCursorPos($x, $y) | Out-Null
+        Start-Sleep -Milliseconds 40
+    }
+    Start-Sleep -Milliseconds 200
+    [MInput]::mouse_event([MInput]::LEFTUP, 0, 0, 0, [IntPtr]::Zero)
+    Start-Sleep -Milliseconds 400
+}
+
+$p = Get-Process -Name $procName -ErrorAction SilentlyContinue | Select-Object -First 1
+if (-not $p) { Write-Output "app not running"; exit 1 }
+[MInput]::SetForegroundWindow($p.MainWindowHandle) | Out-Null
+Start-Sleep -Milliseconds 800
+
+$r = Get-ClientRect $p
+Write-Output "client: $($r.X),$($r.Y) $($r.W)x$($r.H)"
+Capture "$root\screenshots\07-split-before.png" $p
+
+# --- 拖动主横向分栏（左棋盘 | 右分析），从 56% 处向左拖 ---
+$mainX = [int]($r.X + $r.W * 0.56)
+$midY  = [int]($r.Y + $r.H * 0.45)
+Write-Output "drag main splitter at x=$mainX y=$midY"
+DragMouse $mainX $midY ([int]($r.X + $r.W * 0.38)) $midY
+Capture "$root\screenshots\07-split-after-h.png" $p
+
+# --- 拖动右侧纵向分栏 (候选 | 曲线/参数)，从 52% 处向下拖 ---
+$r2 = Get-ClientRect $p
+$rightX = [int]($r2.X + $r2.W * 0.78)
+$vsY    = [int]($r2.Y + 30 + ($r2.H - 30) * 0.52)
+Write-Output "drag right vsplit at x=$rightX y=$vsY"
+DragMouse $rightX $vsY $rightX ([int]($r2.Y + 30 + ($r2.H - 30) * 0.78))
+Capture "$root\screenshots\07-split-after-v.png" $p

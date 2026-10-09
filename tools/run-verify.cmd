@@ -1,1 +1,56 @@
-QGVjaG8gb2ZmDQpyZW0gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KcmVtICBYaWFuZ3FpIHYxLjMuMSAtIG9uZS1jbGljayBzb3VyY2UgdmVyaWZpY2F0aW9uIChyZWFsIGJvZHkpDQpyZW0NCnJlbSAgVEhJUyBGSUxFIElTIFBVUkUgQVNDSUkgT04gUFVSUE9TRS4NCnJlbSAgY21kLmV4ZSBwYXJzZXMgYmF0Y2ggZmlsZXMgdW5yZWxpYWJseSB3aGVuIHRoZXkgY29udGFpbiBtdWx0aS1ieXRlDQpyZW0gIGNoYXJhY3RlcnM6IGxpbmVzIGdldCB0cnVuY2F0ZWQgYW5kIGhhbGYtbGluZXMgYXJlIGV4ZWN1dGVkIGFzIGNvbW1hbmRzDQpyZW0gIChyZXByb2R1Y2VkIG9uIHRoaXMgbWFjaGluZSB3aXRoIGJvdGggVVRGLTggYW5kIEdCSyBjb250ZW50LCBhbmQgd2l0aCBib3RoDQpyZW0gIEFTQ0lJIGFuZCBDaGluZXNlIGZpbGUgbmFtZXMpLiBTbyBldmVyeSAuYmF0Ly5jbWQgaGVyZSBzdGF5cyBBU0NJSSwgYW5kIHRoZQ0KcmVtICBDaGluZXNlIHVzZXItZmFjaW5nIHRleHQgbGl2ZXMgaW4gdG9vbHNcbXNnLSoudHh0IGFzIFVURi04IGFuZCBpcyBwcmludGVkDQpyZW0gIHdpdGggYHR5cGVgLCB3aGljaCBpcyBhIHJhdyBieXRlIGNvcHkgYW5kIHRoZXJlZm9yZSBzYWZlLiBUaGUgY29uc29sZSBjb2RlDQpyZW0gIHBhZ2UgaXMgc3dpdGNoZWQgdG8gNjUwMDEgc28gdGhhdCB0aGUgVVRGLTggdGV4dCByZW5kZXJzIGNvcnJlY3RseS4NCnJlbSA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09DQoNCnNldGxvY2FsDQpjaGNwIDY1MDAxID5udWwNCmNkIC9kICIlfmRwMC4uIg0KdGl0bGUgWGlhbmdxaSB2MS4zLjEgLSBzb3VyY2UgdmVyaWZpY2F0aW9uDQoNCnR5cGUgIiV+ZHAwbXNnLXJ1bi50eHQiDQoNCmVjaG8uDQplY2hvIFsxLzNdIENoZWNraW5nIHRoZSBHbyB0b29sY2hhaW4gLi4uDQp3aGVyZSBnbyA+bnVsIDI+bnVsDQppZiBlcnJvcmxldmVsIDEgKA0KCWVjaG8uDQoJZWNobyAgIFtFUlJPUl0gImdvIiB3YXMgbm90IGZvdW5kIGluIFBBVEguICBTZWUgdGhlIG5vdGVzIHByaW50ZWQgYWJvdmUuDQoJZWNoby4NCglwYXVzZQ0KCWV4aXQgL2IgMQ0KKQ0KZm9yIC9mICJkZWxpbXM9IiAlJXYgaW4gKCdnbyB2ZXJzaW9uJykgZG8gZWNobyAgICAgICAlJXYNCg0KZWNoby4NCmVjaG8gWzIvM10gQnVpbGRpbmcgYW5kIGxhdW5jaGluZyAoMjAtNjAgcyBvbiB0aGUgZmlyc3QgYnVpbGQpIC4uLg0KZWNobyAgICAgICBwcm9qZWN0IGRpcjogJUNEJQ0KZWNoby4NCg0KZ28gcnVuIC4NCnNldCAiUkM9JUVSUk9STEVWRUwlIg0KDQplY2hvLg0KZWNobyBbMy8zXSBnbyBydW4gZXhpdCBjb2RlID0gJVJDJQ0KaWYgbm90ICIlUkMlIj09IjAiICgNCgllY2hvLg0KCWVjaG8gICBbRkFJTEVEXSBTZWUgdGhlIHRyb3VibGVzaG9vdGluZyBub3RlcyBwcmludGVkIGFib3ZlLg0KCWVjaG8uDQoJcGF1c2UNCglleGl0IC9iICVSQyUNCikNCg0KZWNobyAgIFtPS10gVGhlIGFwcGxpY2F0aW9uIGV4aXRlZCBub3JtYWxseS4NCmVjaG8gICAgICAgIFRvIGJ1aWxkIHRoZSBmaW5hbCBzaW5nbGUtZmlsZSBleGUsIHJ1biB0aGUgYnVpbGQgc2NyaXB0Lg0KZWNoby4NCnBhdXNlDQplbmRsb2NhbA==
+@echo off
+rem ============================================================================
+rem  Xiangqi v1.3.1 - one-click source verification (real body)
+rem
+rem  THIS FILE IS PURE ASCII ON PURPOSE.
+rem  cmd.exe parses batch files unreliably when they contain multi-byte
+rem  characters: lines get truncated and half-lines are executed as commands
+rem  (reproduced on this machine with both UTF-8 and GBK content, and with both
+rem  ASCII and Chinese file names). So every .bat/.cmd here stays ASCII, and the
+rem  Chinese user-facing text lives in tools\msg-*.txt as UTF-8 and is printed
+rem  with `type`, which is a raw byte copy and therefore safe. The console code
+rem  page is switched to 65001 so that the UTF-8 text renders correctly.
+rem ============================================================================
+
+setlocal
+chcp 65001 >nul
+cd /d "%~dp0.."
+title Xiangqi v1.3.1 - source verification
+
+type "%~dp0msg-run.txt"
+
+echo.
+echo [1/3] Checking the Go toolchain ...
+where go >nul 2>nul
+if errorlevel 1 (
+	echo.
+	echo   [ERROR] "go" was not found in PATH.  See the notes printed above.
+	echo.
+	pause
+	exit /b 1
+)
+for /f "delims=" %%v in ('go version') do echo       %%v
+
+echo.
+echo [2/3] Building and launching (20-60 s on the first build) ...
+echo       project dir: %CD%
+echo.
+
+go run .
+set "RC=%ERRORLEVEL%"
+
+echo.
+echo [3/3] go run exit code = %RC%
+if not "%RC%"=="0" (
+	echo.
+	echo   [FAILED] See the troubleshooting notes printed above.
+	echo.
+	pause
+	exit /b %RC%
+)
+
+echo   [OK] The application exited normally.
+echo        To build the final single-file exe, run the build script.
+echo.
+pause
+endlocal

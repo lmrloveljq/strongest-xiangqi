@@ -1,1 +1,38 @@
-bW9kdWxlIHhpYW5ncWkKCmdvIDEuMjcuMAoKcmVxdWlyZSBmeW5lLmlvL2Z5bmUvdjIgdjIuOC4xCgpyZXF1aXJlICgKCWZ5bmUuaW8vc3lzdHJheSB2MS4xMi4zLTAuMjAyNjA4MTAxNzAwMTItYWY0ZThlNzkzZWM0IC8vIGluZGlyZWN0CglnaXRodWIuY29tL0J1cm50U3VzaGkvdG9tbCB2MS42LjAgLy8gaW5kaXJlY3QKCWdpdGh1Yi5jb20vRnlzaE9TL2ZhbmN5ZnMgdjAuMC4xIC8vIGluZGlyZWN0CglnaXRodWIuY29tL2FudGhvbnluc2ltb24vYmlsZCB2MC4xNC4wIC8vIGluZGlyZWN0CglnaXRodWIuY29tL2NsaXBwZXJob3VzZS91YXgyOS92MiB2Mi4yLjAgLy8gaW5kaXJlY3QKCWdpdGh1Yi5jb20vZGF2ZWNnaC9nby1zcGV3IHYxLjEuMSAvLyBpbmRpcmVjdAoJZ2l0aHViLmNvbS9mc25vdGlmeS9mc25vdGlmeSB2MS45LjAgLy8gaW5kaXJlY3QKCWdpdGh1Yi5jb20vZnluZS1pby9nbC1qcyB2MC4yLjEtMC4yMDI2MDMxNTIxMjc0MS0wMjljNDdmZDI3ZTggLy8gaW5kaXJlY3QKCWdpdGh1Yi5jb20vZnluZS1pby9pbWFnZSB2MC4xLjEgLy8gaW5kaXJlY3QKCWdpdGh1Yi5jb20vZnluZS1pby9va3N2ZyB2MC4yLjAgLy8gaW5kaXJlY3QKCWdpdGh1Yi5jb20vZ28tZ2wvZ2wgdjAuMC4wLTIwMjYwMzMxMjM1MTE3LTQ1NjZmZWE5YTI3NiAvLyBpbmRpcmVjdAoJZ2l0aHViLmNvbS9nby1nbC9nbGZ3L3YzLjQvZ2xmdyB2MC4xLjAtcHJlLjEuMC4yMDI2MDcwNzA4MjgyMi0yYTQwN2QwMmQwMWEgLy8gaW5kaXJlY3QKCWdpdGh1Yi5jb20vZ28tdGV4dC9yZW5kZXIgdjAuMi4xIC8vIGluZGlyZWN0CglnaXRodWIuY29tL2dvLXRleHQvdHlwZXNldHRpbmcgdjAuMy40IC8vIGluZGlyZWN0CglnaXRodWIuY29tL2dvZGJ1cy9kYnVzL3Y1IHY1LjIuMiAvLyBpbmRpcmVjdAoJZ2l0aHViLmNvbS9qZWFuZGVhdWFsL2dvLWxvY2FsZSB2MC4wLjAtMjAyNTA2MTIwMDAxMzItMGVmODJmMjFlYWRlIC8vIGluZGlyZWN0CglnaXRodWIuY29tL2pzdW1tZXJzL2dvYm1wIHYwLjAuMC0yMDIzMDYxNDIwMDIzMy1hOWRlMjNlZDJlMjUgLy8gaW5kaXJlY3QKCWdpdGh1Yi5jb20vbWF0dG4vZ28tcnVuZXdpZHRoIHYwLjAuMjQgLy8gaW5kaXJlY3QKCWdpdGh1Yi5jb20vbmZudC9yZXNpemUgdjAuMC4wLTIwMTgwMjIxMTkxMDExLTgzYzZhOTkzMjY0NiAvLyBpbmRpcmVjdAoJZ2l0aHViLmNvbS9uaWNrc255ZGVyL2dvLWkxOG4vdjIgdjIuNS4xIC8vIGluZGlyZWN0CglnaXRodWIuY29tL3BtZXphcmQvZ28tZGlmZmxpYiB2MS4wLjAgLy8gaW5kaXJlY3QKCWdpdGh1Yi5jb20vc3J3aWxleS9va3N2ZyB2MC4wLjAtMjAyMjEwMTExNjUyMTYtYmU2ZTg4NzMxMDFjIC8vIGluZGlyZWN0CglnaXRodWIuY29tL3Nyd2lsZXkvcmFzdGVyeCB2MC4wLjAtMjAyMjA3MzAyMjU2MDMtMmFiNzlmY2RkNGVmIC8vIGluZGlyZWN0CglnaXRodWIuY29tL3N0cmV0Y2hyL3Rlc3RpZnkgdjEuMTEuMSAvLyBpbmRpcmVjdAoJZ2l0aHViLmNvbS95dWluL2dvbGRtYXJrIHYxLjguMiAvLyBpbmRpcmVjdAoJZ29sYW5nLm9yZy94L2ltYWdlIHYwLjI0LjAgLy8gaW5kaXJlY3QKCWdvbGFuZy5vcmcveC9uZXQgdjAuMzUuMCAvLyBpbmRpcmVjdAoJZ29sYW5nLm9yZy94L3N5cyB2MC4zMC4wIC8vIGluZGlyZWN0Cglnb2xhbmcub3JnL3gvdGV4dCB2MC4yMi4wIC8vIGluZGlyZWN0Cglnb3BrZy5pbi95YW1sLnYzIHYzLjAuMSAvLyBpbmRpcmVjdAopCg==
+module xiangqi
+
+go 1.27.0
+
+require fyne.io/fyne/v2 v2.8.1
+
+require (
+	fyne.io/systray v1.12.3-0.20260810170012-af4e8e793ec4 // indirect
+	github.com/BurntSushi/toml v1.6.0 // indirect
+	github.com/FyshOS/fancyfs v0.0.1 // indirect
+	github.com/anthonynsimon/bild v0.14.0 // indirect
+	github.com/clipperhouse/uax29/v2 v2.2.0 // indirect
+	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/fsnotify/fsnotify v1.9.0 // indirect
+	github.com/fyne-io/gl-js v0.2.1-0.20260315212741-029c47fd27e8 // indirect
+	github.com/fyne-io/image v0.1.1 // indirect
+	github.com/fyne-io/oksvg v0.2.0 // indirect
+	github.com/go-gl/gl v0.0.0-20260331235117-4566fea9a276 // indirect
+	github.com/go-gl/glfw/v3.4/glfw v0.1.0-pre.1.0.20260707082822-2a407d02d01a // indirect
+	github.com/go-text/render v0.2.1 // indirect
+	github.com/go-text/typesetting v0.3.4 // indirect
+	github.com/godbus/dbus/v5 v5.2.2 // indirect
+	github.com/jeandeaual/go-locale v0.0.0-20250612000132-0ef82f21eade // indirect
+	github.com/jsummers/gobmp v0.0.0-20230614200233-a9de23ed2e25 // indirect
+	github.com/mattn/go-runewidth v0.0.24 // indirect
+	github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646 // indirect
+	github.com/nicksnyder/go-i18n/v2 v2.5.1 // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
+	github.com/srwiley/oksvg v0.0.0-20221011165216-be6e8873101c // indirect
+	github.com/srwiley/rasterx v0.0.0-20220730225603-2ab79fcdd4ef // indirect
+	github.com/stretchr/testify v1.11.1 // indirect
+	github.com/yuin/goldmark v1.8.2 // indirect
+	golang.org/x/image v0.24.0 // indirect
+	golang.org/x/net v0.35.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
+)

@@ -1,1 +1,25 @@
-aW1wb3J0IGpzb24sIGlvLCBzeXMsIG9zCgpzeXMuc3Rkb3V0LnJlY29uZmlndXJlKGVuY29kaW5nPSJ1dGYtOCIpCnJvb3QgPSByIkM6XOacgOW8uuixoeaji+i9r+S7tuezu+e7nyIKYmFzZSA9IGpzb24ubG9hZChpby5vcGVuKG9zLnBhdGguam9pbihyb290LCAiY29uZmlnLmpzb24iKSwgZW5jb2Rpbmc9InV0Zi04IikpCgp2YXJpYW50cyA9IHsKICAgICMgUjDvvJrnlKjmiLflvZPliY3ov5nlpZfvvIjmu6HphY0gMTUg57q/56iLIC8gNDA5NiDlk4jluIwgLyDlm7rlrprmt7HluqYgMjDvvInvvIzkurrmnLrlr7nlvIjvvIzkurrmiafnuqIKICAgICJjZmctcjAuanNvbiI6IHsibGFzdF9tb2RlIjogImh1bWFuIiwgInRpbWVfbW9kZSI6ICJkZXB0aCIsICJkZXB0aCI6IDIwLCAibW92ZV90aW1lX21zIjogMTAwMCwKICAgICAgICAgICAgICAgICAgICAibWF4X3N0cmVuZ3RoIjogVHJ1ZSwgInRocmVhZHMiOiAxNSwgImhhc2giOiA0MDk2LCAibXVsdGlwdiI6IDEsICJzb3VuZF9vbiI6IEZhbHNlfSwKICAgICMgUjHvvJrlj6rmiorml7bpl7TmqKHlvI/mjaLmiJDjgIzml6DpmZDliIbmnpDjgI3vvIzlhbbkvZnpgIDlm57nnIHotYTmupDmoaPvvIjpmpTnprvlj5jph4/vvIkKICAgICJjZmctcjEuanNvbiI6IHsibGFzdF9tb2RlIjogImh1bWFuIiwgInRpbWVfbW9kZSI6ICJpbmZpbml0ZSIsICJkZXB0aCI6IDIwLCAibW92ZV90aW1lX21zIjogMTAwMCwKICAgICAgICAgICAgICAgICAgICAibWF4X3N0cmVuZ3RoIjogRmFsc2UsICJ0aHJlYWRzIjogNCwgImhhc2giOiA1MTIsICJtdWx0aXB2IjogNCwgInNvdW5kX29uIjogRmFsc2V9LAogICAgIyBSMu+8mua7oemFjeS4i+WPkea1i+ivleeahOi1t+eCue+8muecgei1hOa6kOaho++8iDQg57q/56iLIC8gNTEyIOWTiOW4jO+8ie+8jOWQr+WKqOWQjueUsemSqeWtkOeCueOAjOacgOW8uuW8leaTjuaooeW8j+OAjQogICAgImNmZy1yMi5qc29uIjogeyJsYXN0X21vZGUiOiAiaHVtYW4iLCAidGltZV9tb2RlIjogImRlcHRoIiwgImRlcHRoIjogMjAsICJtb3ZlX3RpbWVfbXMiOiAxMDAwLAogICAgICAgICAgICAgICAgICAgICJtYXhfc3RyZW5ndGgiOiBGYWxzZSwgInRocmVhZHMiOiA0LCAiaGFzaCI6IDUxMiwgIm11bHRpcHYiOiA0LCAic291bmRfb24iOiBGYWxzZX0sCn0KCmZvciBuYW1lLCBvdmVyIGluIHZhcmlhbnRzLml0ZW1zKCk6CiAgICBjZmcgPSBkaWN0KGJhc2UpCiAgICBjZmcudXBkYXRlKG92ZXIpCiAgICBjZmdbInRoaW5rX2h1bWFuIl0gPSB7InRpbWVfbW9kZSI6IG92ZXJbInRpbWVfbW9kZSJdLCAibW92ZV90aW1lX21zIjogb3ZlclsibW92ZV90aW1lX21zIl0sICJkZXB0aCI6IG92ZXJbImRlcHRoIl19CiAgICBwID0gb3MucGF0aC5qb2luKHJvb3QsICJfdmVyaWZ5IiwgbmFtZSkKICAgIGlvLm9wZW4ocCwgInciLCBlbmNvZGluZz0idXRmLTgiLCBuZXdsaW5lPSJcbiIpLndyaXRlKGpzb24uZHVtcHMoY2ZnLCBlbnN1cmVfYXNjaWk9RmFsc2UsIGluZGVudD0yKSkKICAgIHByaW50KCJ3cm90ZSIsIHAsIG92ZXJbInRpbWVfbW9kZSJdLCAibWF4PSIsIG92ZXJbIm1heF9zdHJlbmd0aCJdLCAidD0iLCBvdmVyWyJ0aHJlYWRzIl0pCg==
+import json, io, sys, os
+
+sys.stdout.reconfigure(encoding="utf-8")
+root = r"C:\最强象棋软件系统"
+base = json.load(io.open(os.path.join(root, "config.json"), encoding="utf-8"))
+
+variants = {
+    # R0：用户当前这套（满配 15 线程 / 4096 哈希 / 固定深度 20），人机对弈，人执红
+    "cfg-r0.json": {"last_mode": "human", "time_mode": "depth", "depth": 20, "move_time_ms": 1000,
+                    "max_strength": True, "threads": 15, "hash": 4096, "multipv": 1, "sound_on": False},
+    # R1：只把时间模式换成「无限分析」，其余退回省资源档（隔离变量）
+    "cfg-r1.json": {"last_mode": "human", "time_mode": "infinite", "depth": 20, "move_time_ms": 1000,
+                    "max_strength": False, "threads": 4, "hash": 512, "multipv": 4, "sound_on": False},
+    # R2：满配下发测试的起点：省资源档（4 线程 / 512 哈希），启动后由钩子点「最强引擎模式」
+    "cfg-r2.json": {"last_mode": "human", "time_mode": "depth", "depth": 20, "move_time_ms": 1000,
+                    "max_strength": False, "threads": 4, "hash": 512, "multipv": 4, "sound_on": False},
+}
+
+for name, over in variants.items():
+    cfg = dict(base)
+    cfg.update(over)
+    cfg["think_human"] = {"time_mode": over["time_mode"], "move_time_ms": over["move_time_ms"], "depth": over["depth"]}
+    p = os.path.join(root, "_verify", name)
+    io.open(p, "w", encoding="utf-8", newline="\n").write(json.dumps(cfg, ensure_ascii=False, indent=2))
+    print("wrote", p, over["time_mode"], "max=", over["max_strength"], "t=", over["threads"])

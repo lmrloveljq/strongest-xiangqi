@@ -1,1 +1,31 @@
-IyDlvJXmk47lrZjmlL7nm67lvZUKCuacrOebruW9leeUqOS6juaUvue9ruesrOS4ieaWueS4reWbveixoeaji+W8leaTjuOAgioq5byV5pOO5LiN6ZqP5LuT5bqT5YiG5Y+RKirvvIzpnIDoh6rooYzkuIvovb3jgIIKCiMjIOaUvue9riBQaWthZmlzaO+8iOearuWNoemxvO+8iQoKMS4g5LuO5a6Y572RIDxodHRwczovL3d3dy5waWthZmlzaC5jb20vemgtY24vPiDmiJYgR2l0SHViIFJlbGVhc2VzCiAgIDxodHRwczovL2dpdGh1Yi5jb20vb2ZmaWNpYWwtcGlrYWZpc2gvUGlrYWZpc2gvcmVsZWFzZXM+IOS4i+i9vSBXaW5kb3dzIOe6r+W8leaTjuaWh+S7tgogICDvvIjmlrDmiYvmjqjojZAgYHVuaXZlcnNhbGAg54mI5pys77yM5Y+v6Ieq5Yqo6YCC6YWNIENQVSDmjIfku6Tpm4bvvInjgIIKCjIuIOWcqOacrOebruW9leS4i+aWsOW7uuS4gOS4quWtkOaWh+S7tuWkue+8jOaKiiAqKmV4ZSDkuI7mnYPph43mlofku7bmlL7lnKjkuIDotbcqKu+8mgoKICAgYGBgCiAgIGVuZ2luZXMvCiAgIOKUlOKUgOKUgCBwaWthZmlzaC8KICAgICAgIOKUnOKUgOKUgCBQaWthZmlzaC1XaW5kb3dzLXg4Ni02NC11bml2ZXJzYWwuZXhlCiAgICAgICDilJTilIDilIAgcGlrYWZpc2gubm51ZQogICBgYGAKCjMuIOWQr+WKqOi9r+S7tu+8jOmmluasoei/kOihjOS8muiHquWKqOaJq+aPj+W5tuazqOWGjO+8m+iLpeacquiHquWKqOivhuWIq++8jOWcqOiPnOWNlQogICAqKuOAjOW8leaTjiDihpIg6YeN5paw5omr5o+P5byV5pOO5bqT44CNKiog5omL5Yqo6Kem5Y+R44CCCgojIyDms6jmhI/kuovpobkKCi0gKipleGUg5LiOIGAubm51ZWAg5p2D6YeN5b+F6aG75Zyo5ZCM5LiA55uu5b2VKirvvIzlkKbliJnlvJXmk47og73lkK/liqjkvYbmo4vlipvkvJrkuKXph43pgIDljJbjgIIKLSDmr4/kuKrlvJXmk47lu7rorq7ljZXni6zmlL7kuIDkuKrlrZDmlofku7blpLnvvJvnm67lvZXlkI3lj6/nlKjoi7HmlocgKyDniYjmnKzlj7fvvIjlpoIgYHBpa2FmaXNoLTIwMjYwOTI1YO+8ieOAggotIOS4jeimgeaKiuaXoOWFs+eahCBleGXvvIjlronoo4XnqIvluo/jgIHlhbbku5YgR1VJ77yJ5pS+6L+b5pys55uu5b2V77yM5a6D5Lus5Lya6KKr6YCQ5Liq5o6i5rWL5bm25Lqn55Sf5peg5pWI5o+Q56S644CCCi0g5Lmf5pSv5oyBIFVDQ0kg5byV5pOO77yI5aaC5peL6aOO44CB5ZCN5omL44CB6LGh55y8562J77yJ77yM5pS+572u5pa55byP55u45ZCM77yM6L2v5Lu25Lya6Ieq5Yqo6K+G5Yir5Y2P6K6u44CCCi0g6Iul5byV5pOO6KKr5p2A5q+S6L2v5Lu25oum5oiq77yM6K+35bCG5byV5pOO55uu5b2V5Yqg5YWl55m95ZCN5Y2V44CCCgrlrozmlbTor7TmmI7op4EgW2AuLi9kb2NzL0VOR0lORVMubWRgXSguLi9kb2NzL0VOR0lORVMubWQp44CCCg==
+# 引擎存放目录
+
+本目录用于放置第三方中国象棋引擎。**引擎不随仓库分发**，需自行下载。
+
+## 放置 Pikafish（皮卡鱼）
+
+1. 从官网 <https://www.pikafish.com/zh-cn/> 或 GitHub Releases
+   <https://github.com/official-pikafish/Pikafish/releases> 下载 Windows 纯引擎文件
+   （新手推荐 `universal` 版本，可自动适配 CPU 指令集）。
+
+2. 在本目录下新建一个子文件夹，把 **exe 与权重文件放在一起**：
+
+   ```
+   engines/
+   └── pikafish/
+       ├── Pikafish-Windows-x86-64-universal.exe
+       └── pikafish.nnue
+   ```
+
+3. 启动软件，首次运行会自动扫描并注册；若未自动识别，在菜单
+   **「引擎 → 重新扫描引擎库」** 手动触发。
+
+## 注意事项
+
+- **exe 与 `.nnue` 权重必须在同一目录**，否则引擎能启动但棋力会严重退化。
+- 每个引擎建议单独放一个子文件夹；目录名可用英文 + 版本号（如 `pikafish-20260925`）。
+- 不要把无关的 exe（安装程序、其他 GUI）放进本目录，它们会被逐个探测并产生无效提示。
+- 也支持 UCCI 引擎（如旋风、名手、象眼等），放置方式相同，软件会自动识别协议。
+- 若引擎被杀毒软件拦截，请将引擎目录加入白名单。
+
+完整说明见 [`../docs/ENGINES.md`](../docs/ENGINES.md)。

@@ -1,1 +1,371 @@
-Ly8gUGFja2FnZSBydWxlcyDlrp7njrDkuK3lm73osaHmo4vnmoTmo4vnm5jooajnpLrjgIFGRU4g6Kej5p6Q44CB6LWw5rOV55Sf5oiQ44CB5ZCI5rOV5oCn5Yik5a6a5LiO6IOc6LSf5Yik5a6a44CCCi8vCi8vIOacrOWMheaYr+e6r+iuoeeul+WMhe+8muS4jeS+nei1liBVSeOAgeS4jeWQr+WKqOS7u+S9leW8leaTjuWtkOi/m+eoi++8jOWboOatpOWPr+S7peeLrOeri+WNleWFg+a1i+ivle+8jAovLyDkuZ/lj6/ku6XlnKjlvJXmk47pgJrkv6HnmoQgZ29yb3V0aW5lIOS4reWuieWFqOiwg+eUqO+8iEJvYXJkIOiHqui6q+S4jeaYr+W5tuWPkeWuieWFqOeahO+8jAovLyDmr4/kuKogZ29yb3V0aW5lIOS9v+eUqOiHquW3seeahCBCb2FyZCDlrp7kvovljbPlj6/vvInjgIIKLy8KLy8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PSDlnZDmoIfkvZPns7sgPT09PT09PT09PT09PT09PT09PT09PT09PT09PQovLwovLyDph4fnlKjkuI4gVUNJL1VDQ0kg5Lit5Zu96LGh5qOL5Y2P6K6u5a6M5YWo5LiA6Ie055qE5Z2Q5qCH77ya5paH5Lu2IGEuLmnvvIzooYwgMC4uOeOAggovLyDnuqLmlrnlnKjkuIvvvIjooYwgMCDkuLrnuqLmlrnlupXnur/vvInvvIzpu5HmlrnlnKjkuIrvvIjooYwgOSDkuLrpu5HmlrnlupXnur/vvInjgIIKLy8KLy8JcmFuayA5ICAgYTkgIGI5ICBjOSAgZDkgIGU5ICBmOSAgZzkgIGg5ICBpOSAgICDihpAg6buR5pa55bqV57q/77yI5bCGIGU577yJCi8vCXJhbmsgOCAgIGE4ICBiOCAgYzggIGQ4ICBlOCAgZjggIGc4ICBoOCAgaTggICAg4oaQIOm7keaWueS5neWuqwovLwlyYW5rIDcgICBhNyAgYjcgIGM3ICBkNyAgZTcgIGY3ICBnNyAgaDcgIGk3ICAgIOKGkCDpu5Hngq4gYjcgLyBoNwovLwlyYW5rIDYgICBhNiAgYjYgIGM2ICBkNiAgZTYgIGY2ICBnNiAgaDYgIGk2ICAgIOKGkCDpu5HljZIgYTYgYzYgZTYgZzYgaTYKLy8JcmFuayA1ICAg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSAIOalmiDmsrMg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACi8vCXJhbmsgNCAgIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgCDmsYkg55WMIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAovLwlyYW5rIDMgICBhMyAgYjMgIGMzICBkMyAgZTMgIGYzICBnMyAgaDMgIGkzICAgIOKGkCDnuqLlhbUgYTMgYzMgZTMgZzMgaTMKLy8JcmFuayAyICAgYTIgIGIyICBjMiAgZDIgIGUyICBmMiAgZzIgIGgyICBpMiAgICDihpAg57qi54KuIGIyIC8gaDIKLy8JcmFuayAxICAgYTEgIGIxICBjMSAgZDEgIGUxICBmMSAgZzEgIGgxICBpMSAgICDihpAg57qi5pa55Lmd5a6rCi8vCXJhbmsgMCAgIGEwICBiMCAgYzAgIGQwICBlMCAgZjAgIGcwICBoMCAgaTAgICAg4oaQIOe6ouaWueW6lee6v++8iOW4hSBlMO+8jGEwIOe6ouaWueW3pui9pu+8iQovLwkgICAgICAgICBhICAgYiAgIGMgICBkICAgZSAgIGYgICBnICAgaCAgIGkKLy8KLy8g5YaF6YOo57q/5oCn57Si5byV77yaSW5kZXggPSByYW5rKjkgKyBmaWxl77yM5Y+W5YC8IDAuLjg544CCCi8vCi8vCeW4hSBlMCDihpIgMCo5KzQgPSA0ICAgICAgICDlsIYgZTkg4oaSIDkqOSs0ID0gODUKLy8J57qi6L2mIGEwIOKGkiAwICAgICAgICAgICAgICDpu5HovaYgaTkg4oaSIDg5Ci8vCi8vIOWxj+W5lee7mOWItuaNoueul++8muWxj+W5leesrCAwIOihjOWcqOacgOS4iuaWue+8iOm7keaWueW6lee6v++8ie+8jOaVhQovLwovLwnlsY/luZXooYwgPSA5IC0gcmFuayAgICAgICAg5bGP5bmV5YiXID0gZmlsZQovLwovLyDor6XmjaLnrpfpm4bkuK3lnKjmnKzmlofku7bnmoQgU2NyZWVuUm93L1NjcmVlbkNvbCDkuK3vvIxVSSDlsYLkuI3lvpfoh6rooYzmjqjlr7zjgIIKcGFja2FnZSBydWxlcwoKaW1wb3J0ICgKCSJmbXQiCgkic3RyaW5ncyIKKQoKLy8g5qOL5a2Q57yW56CB77ya5L2OIDMg5L2N5Li65YW156eN77yM56ysIDQg5L2N77yI5YC8IDjvvInkuLrpopzoibLkvY3jgIIKLy8KLy8JYml0MyA9IDAg4oaSIOe6ouaWuSAgICAgYml0MyA9IDEg4oaSIOm7keaWuQovLwliaXRzMC0yID0g5YW156eN77yIMS4uN++8iQovLwovLyDmlYUg57qi5biFID0gMGIwMDAxID0gMe+8jOm7keWwhiA9IDBiMTAwMSA9IDnjgIIKdHlwZSBQaWVjZSB1aW50OAoKY29uc3QgKAoJUEVtcHR5IFBpZWNlID0gMCAvLyDnqboKCglQS2luZyAgICAgUGllY2UgPSAxIC8vIOW4hSAvIOWwhgoJUEFkdmlzb3IgIFBpZWNlID0gMiAvLyDku5UgLyDlo6sKCVBFbGVwaGFudCBQaWVjZSA9IDMgLy8g55u4IC8g6LGhCglQSG9yc2UgICAgUGllY2UgPSA0IC8vIOmmrCAvIOmprAoJUFJvb2sgICAgIFBpZWNlID0gNSAvLyDou4ogLyDovaYKCVBDYW5ub24gICBQaWVjZSA9IDYgLy8g54KuIC8g54KuCglQUGF3biAgICAgUGllY2UgPSA3IC8vIOWFtSAvIOWNkgoKCWNvbG9yQml0IFBpZWNlID0gOAopCgovLyDluLjnlKjmo4vlrZDluLjph4/vvIjkvpsgc3dpdGNoIC8g5q+U6L6D5L2/55So77yM5b+F6aG75piv57yW6K+R5pyf5bi46YeP77yJ44CCCmNvbnN0ICgKCVBSZWRLaW5nICAgICAgID0gUEtpbmcgICAgICAgICAgICAgICAgLy8gMQoJUFJlZEFkdmlzb3IgICAgPSBQQWR2aXNvciAgICAgICAgICAgICAvLyAyCglQUmVkRWxlcGhhbnQgICA9IFBFbGVwaGFudCAgICAgICAgICAgIC8vIDMKCVBSZWRIb3JzZSAgICAgID0gUEhvcnNlICAgICAgICAgICAgICAgLy8gNAoJUFJlZFJvb2sgICAgICAgPSBQUm9vayAgICAgICAgICAgICAgICAvLyA1CglQUmVkQ2Fubm9uICAgICA9IFBDYW5ub24gICAgICAgICAgICAgIC8vIDYKCVBSZWRQYXduICAgICAgID0gUFBhd24gICAgICAgICAgICAgICAgLy8gNwoJUEJsYWNrS2luZyAgICAgPSBQS2luZyB8IGNvbG9yQml0ICAgICAvLyA5CglQQmxhY2tBZHZpc29yICA9IFBBZHZpc29yIHwgY29sb3JCaXQgIC8vIDEwCglQQmxhY2tFbGVwaGFudCA9IFBFbGVwaGFudCB8IGNvbG9yQml0IC8vIDExCglQQmxhY2tIb3JzZSAgICA9IFBIb3JzZSB8IGNvbG9yQml0ICAgIC8vIDEyCglQQmxhY2tSb29rICAgICA9IFBSb29rIHwgY29sb3JCaXQgICAgIC8vIDEzCglQQmxhY2tDYW5ub24gICA9IFBDYW5ub24gfCBjb2xvckJpdCAgIC8vIDE0CglQQmxhY2tQYXduICAgICA9IFBQYXduIHwgY29sb3JCaXQgICAgIC8vIDE1CikKCi8vIOmYteiQpQpjb25zdCAoCglSZWQgICA9IDAKCUJsYWNrID0gMQopCgovLyBNYWtlUGllY2Ug55Sx6Zi16JCl5LiO5YW156eN5p6E6YCg5qOL5a2Q57yW56CB44CCCmZ1bmMgTWFrZVBpZWNlKHNpZGUgaW50LCB0IFBpZWNlKSBQaWVjZSB7CglwIDo9IHQgJiA3CglpZiBzaWRlID09IEJsYWNrIHsKCQlwIHw9IGNvbG9yQml0Cgl9CglyZXR1cm4gcAp9CgovLyBUeXBlIOi/lOWbnuWFteenje+8iDEuLjfvvIznqbrlrZDov5Tlm54gMO+8ieOAggpmdW5jIChwIFBpZWNlKSBUeXBlKCkgUGllY2UgeyByZXR1cm4gcCAmIDcgfQoKLy8gU2lkZSDov5Tlm57pmLXokKXvvIhSZWQgLyBCbGFja++8ieOAguWvueepuuWtkOiwg+eUqOi/lOWbniBSZWTvvIzosIPnlKjliY3lupTlhYjnlKggSXNFbXB0eSDliKTmlq3jgIIKZnVuYyAocCBQaWVjZSkgU2lkZSgpIGludCB7CglpZiBwJmNvbG9yQml0ICE9IDAgewoJCXJldHVybiBCbGFjawoJfQoJcmV0dXJuIFJlZAp9CgovLyBJc0VtcHR5IOWIpOaWreaYr+WQpuS4uuepuuWtkOOAggpmdW5jIChwIFBpZWNlKSBJc0VtcHR5KCkgYm9vbCB7IHJldHVybiBwID09IDAgfQoKLy8gTmFtZSDov5Tlm57mo4vlrZDnmoTkuK3mloflkI3vvIjnuqLmlrnnlKjjgIzou4rjgI3jgIzppqzjgI3vvIzpu5HmlrnnlKjjgIzovabjgI3jgIzpqazjgI3vvInjgIIKZnVuYyAocCBQaWVjZSkgTmFtZSgpIHN0cmluZyB7CglpZiBwLklzRW1wdHkoKSB7CgkJcmV0dXJuICLnqboiCgl9CglyZWQgOj0gWy4uLl1zdHJpbmd7IiIsICLluIUiLCAi5LuVIiwgIuebuCIsICLppqwiLCAi6LuKIiwgIueCriIsICLlhbUifQoJYmxhY2sgOj0gWy4uLl1zdHJpbmd7IiIsICLlsIYiLCAi5aOrIiwgIuixoSIsICLpqawiLCAi6L2mIiwgIueCriIsICLljZIifQoJaWYgcC5TaWRlKCkgPT0gUmVkIHsKCQlyZXR1cm4gcmVkW3AuVHlwZSgpXQoJfQoJcmV0dXJuIGJsYWNrW3AuVHlwZSgpXQp9CgovLyDluLjph4/vvJrmo4vnm5jlsLrlr7gKY29uc3QgKAoJRmlsZXMgICA9IDkgICAgICAgICAgICAgLy8g57q157q/5pWw77yIYS4uae+8iQoJUmFua3MgICA9IDEwICAgICAgICAgICAgLy8g5qiq57q/5pWw77yIMC4uOe+8iQoJU3F1YXJlcyA9IEZpbGVzICogUmFua3MgLy8gOTAKKQoKLy8gSW5kZXgg55Sx5paH5Lu25LiO6KGM6K6h566X57q/5oCn57Si5byV44CCCmZ1bmMgSW5kZXgoZmlsZSwgcmFuayBpbnQpIGludCB7IHJldHVybiByYW5rKkZpbGVzICsgZmlsZSB9CgovLyBGaWxlT2Yg5Y+W57q/5oCn57Si5byV5a+55bqU55qE5paH5Lu277yIMC4uOO+8ieOAggpmdW5jIEZpbGVPZihzcSBpbnQpIGludCB7IHJldHVybiBzcSAlIEZpbGVzIH0KCi8vIFJhbmtPZiDlj5bnur/mgKfntKLlvJXlr7nlupTnmoTooYzvvIgwLi4577yJ44CCCmZ1bmMgUmFua09mKHNxIGludCkgaW50IHsgcmV0dXJuIHNxIC8gRmlsZXMgfQoKLy8gT25Cb2FyZCDliKTmlq3mlofku7Yv6KGM5piv5ZCm5Zyo5qOL55uY5YaF44CCCmZ1bmMgT25Cb2FyZChmaWxlLCByYW5rIGludCkgYm9vbCB7CglyZXR1cm4gZmlsZSA+PSAwICYmIGZpbGUgPCBGaWxlcyAmJiByYW5rID49IDAgJiYgcmFuayA8IFJhbmtzCn0KCi8vIFNjcmVlblJvdyDov5Tlm57or6XooYzlnKjlsY/luZXkuIrnmoTooYzlj7fvvIjlsY/luZXnrKwgMCDooYwgPSDpu5HmlrnlupXnur8gPSByYW5rIDnvvInjgIIKZnVuYyBTY3JlZW5Sb3cocmFuayBpbnQpIGludCB7IHJldHVybiBSYW5rcyAtIDEgLSByYW5rIH0KCi8vIFNjcmVlbkNvbCDov5Tlm57or6Xmlofku7blnKjlsY/luZXkuIrnmoTliJflj7fvvIjkuI7mlofku7blj7fnm7jlkIzvvIznuqLmlrnop4bop5IgYSDlnKjlt6bvvInjgIIKZnVuYyBTY3JlZW5Db2woZmlsZSBpbnQpIGludCB7IHJldHVybiBmaWxlIH0KCi8vIFNxdWFyZU5hbWUg5oqK57q/5oCn57Si5byV6L2s5oiQIFVDSSDlnZDmoIflrZfnrKbkuLLvvIzlpoIgNCDihpIgImUwIuOAggpmdW5jIFNxdWFyZU5hbWUoc3EgaW50KSBzdHJpbmcgewoJaWYgc3EgPCAwIHx8IHNxID49IFNxdWFyZXMgewoJCXJldHVybiAiPz8iCgl9CglyZXR1cm4gZm10LlNwcmludGYoIiVjJWQiLCAnYScrRmlsZU9mKHNxKSwgUmFua09mKHNxKSkKfQoKLy8gUGFyc2VTcXVhcmUg5oqKIFVDSSDlnZDmoIflrZfnrKbkuLLvvIjlpoIgImUwIu+8ieino+aekOS4uue6v+aAp+e0ouW8leOAggpmdW5jIFBhcnNlU3F1YXJlKHMgc3RyaW5nKSAoaW50LCBib29sKSB7CglpZiBsZW4ocykgPCAyIHsKCQlyZXR1cm4gMCwgZmFsc2UKCX0KCWYgOj0gaW50KHNbMF0gLSAnYScpCglyIDo9IGludChzWzFdIC0gJzAnKQoJaWYgIU9uQm9hcmQoZiwgcikgewoJCXJldHVybiAwLCBmYWxzZQoJfQoJcmV0dXJuIEluZGV4KGYsIHIpLCB0cnVlCn0KCi8vIEJvYXJkIOihqOekuuS4gOS4quS4reWbveixoeaji+WxgOmdouOAggp0eXBlIEJvYXJkIHN0cnVjdCB7CglTcSAgIFtTcXVhcmVzXVBpZWNlIC8vIDkwIOagvO+8jEluZGV4KHJhbmssZmlsZSkg5a6a5L2NCglTaWRlIGludCAgICAgICAgICAgIC8vIOi9ruWIsOWTquS4gOaWuei1sO+8mlJlZCAvIEJsYWNrCn0KCi8vIFN0YXJ0RkVOIOaYr+S4reWbveixoeaji+agh+WHhuWIneWni+WxgOmdoiBGRU7jgIIKLy8g6KGM6aG65bqP5Li6IHJhbmsgOSDihpIgcmFuayAw77yM5aSn5YaZ5Li657qi5pa544CB5bCP5YaZ5Li66buR5pa544CCCmNvbnN0IFN0YXJ0RkVOID0gInJuYmFrYWJuci85LzFjNWMxL3AxcDFwMXAxcC85LzkvUDFQMVAxUDFQLzFDNUMxLzkvUk5CQUtBQk5SIHcgLSAtIDAgMSIKCi8vIE5ld1N0YXJ0Qm9hcmQg6L+U5Zue5Yid5aeL5bGA6Z2i44CCCmZ1bmMgTmV3U3RhcnRCb2FyZCgpICpCb2FyZCB7CgliLCBlcnIgOj0gUGFyc2VGRU4oU3RhcnRGRU4pCglpZiBlcnIgIT0gbmlsIHsKCQkvLyBTdGFydEZFTiDmmK/nvJbor5HmnJ/luLjph4/vvIzmsLjkuI3lh7rplJnvvJvmraTlpITku4XkuLrnrb7lkI3lrozmlbTmgKfjgIIKCQlwYW5pYygicnVsZXM6IOWGhee9ruWIneWni+WxgOmdoiBGRU4g6Z2e5rOVOiAiICsgZXJyLkVycm9yKCkpCgl9CglyZXR1cm4gYgp9CgovLyBDbG9uZSDmt7Hmi7fotJ3kuIDkuKrlsYDpnaLjgIIKZnVuYyAoYiAqQm9hcmQpIENsb25lKCkgKkJvYXJkIHsKCW5iIDo9ICpiCglyZXR1cm4gJm5iCn0KCi8vIGZlbkNoYXJUb1BpZWNlIOaKiiBGRU4g5a2X56ym6L2s5oiQ5qOL5a2Q57yW56CB44CCCmZ1bmMgZmVuQ2hhclRvUGllY2UoYyBydW5lKSAoUGllY2UsIGJvb2wpIHsKCXZhciBzaWRlIGludAoJdmFyIHQgUGllY2UKCXN3aXRjaCBjIHsKCWNhc2UgJ0snLCAnayc6CgkJdCA9IFBLaW5nCgljYXNlICdBJywgJ2EnOgoJCXQgPSBQQWR2aXNvcgoJY2FzZSAnQicsICdiJywgJ0UnLCAnZSc6IC8vIEUvZSDkuLrpg6jliIbova/ku7bkvb/nlKjnmoTosaHnmoTliKvlkI0KCQl0ID0gUEVsZXBoYW50CgljYXNlICdOJywgJ24nLCAnSCcsICdoJzogLy8gSC9oIOS4uumDqOWIhui9r+S7tuS9v+eUqOeahOmprOeahOWIq+WQjQoJCXQgPSBQSG9yc2UKCWNhc2UgJ1InLCAncic6CgkJdCA9IFBSb29rCgljYXNlICdDJywgJ2MnOgoJCXQgPSBQQ2Fubm9uCgljYXNlICdQJywgJ3AnOgoJCXQgPSBQUGF3bgoJZGVmYXVsdDoKCQlyZXR1cm4gUEVtcHR5LCBmYWxzZQoJfQoJaWYgYyA+PSAnQScgJiYgYyA8PSAnWicgewoJCXNpZGUgPSBSZWQKCX0gZWxzZSB7CgkJc2lkZSA9IEJsYWNrCgl9CglyZXR1cm4gTWFrZVBpZWNlKHNpZGUsIHQpLCB0cnVlCn0KCi8vIHBpZWNlVG9GRU5DaGFyIOaKiuaji+WtkOe8lueggei9rOaIkCBGRU4g5a2X56ym77yI57qi5aSn5YaZ44CB6buR5bCP5YaZ77yJ44CCCmZ1bmMgcGllY2VUb0ZFTkNoYXIocCBQaWVjZSkgYnl0ZSB7Cgl2YXIgYyBieXRlCglzd2l0Y2ggcC5UeXBlKCkgewoJY2FzZSBQS2luZzoKCQljID0gJ0snCgljYXNlIFBBZHZpc29yOgoJCWMgPSAnQScKCWNhc2UgUEVsZXBoYW50OgoJCWMgPSAnQicKCWNhc2UgUEhvcnNlOgoJCWMgPSAnTicKCWNhc2UgUFJvb2s6CgkJYyA9ICdSJwoJY2FzZSBQQ2Fubm9uOgoJCWMgPSAnQycKCWNhc2UgUFBhd246CgkJYyA9ICdQJwoJZGVmYXVsdDoKCQlyZXR1cm4gJz8nCgl9CglpZiBwLlNpZGUoKSA9PSBCbGFjayB7CgkJYyArPSAnYScgLSAnQScKCX0KCXJldHVybiBjCn0KCi8vIFBhcnNlRkVOIOino+aekOS4reWbveixoeajiyBGRU7jgIIKLy8KLy8g5b2i5aaCICJybmJha2FibnIvOS8xYzVjMS9wMXAxcDFwMXAvOS85L1AxUDFQMVAxUC8xQzVDMS85L1JOQkFLQUJOUiB3IC0gLSAwIDEi77yMCi8vIOesrOS4gOauteWFsSAxMCDooYzvvIhyYW5rIDkg4oaSIHJhbmsgMO+8ie+8jOaVsOWtl+ihqOekuui/nue7reepuuagvOaVsOOAggpmdW5jIFBhcnNlRkVOKGZlbiBzdHJpbmcpICgqQm9hcmQsIGVycm9yKSB7CglmaWVsZHMgOj0gc3RyaW5ncy5GaWVsZHMoZmVuKQoJaWYgbGVuKGZpZWxkcykgPT0gMCB7CgkJcmV0dXJuIG5pbCwgZm10LkVycm9yZigiRkVOIOS4uuepuiIpCgl9Cglyb3dzIDo9IHN0cmluZ3MuU3BsaXQoZmllbGRzWzBdLCAiLyIpCglpZiBsZW4ocm93cykgIT0gUmFua3MgewoJCXJldHVybiBuaWwsIGZtdC5FcnJvcmYoIkZFTiDooYzmlbDlupTkuLogJWTvvIzlrp7pmYUgJWQiLCBSYW5rcywgbGVuKHJvd3MpKQoJfQoJYiA6PSAmQm9hcmR7U2lkZTogUmVkfQoJZm9yIGksIHJvdyA6PSByYW5nZSByb3dzIHsKCQlyYW5rIDo9IFJhbmtzIC0gMSAtIGkgLy8g56ysIDAg5q615pivIHJhbmsgOQoJCWZpbGUgOj0gMAoJCWZvciBfLCBjIDo9IHJhbmdlIHJvdyB7CgkJCWlmIGMgPj0gJzEnICYmIGMgPD0gJzknIHsKCQkJCWZpbGUgKz0gaW50KGMgLSAnMCcpCgkJCQljb250aW51ZQoJCQl9CgkJCWlmIGZpbGUgPj0gRmlsZXMgewoJCQkJcmV0dXJuIG5pbCwgZm10LkVycm9yZigiRkVOIOesrCAlZCDmrrXotoXlh7ogOSDliJciLCBpKzEpCgkJCX0KCQkJcCwgb2sgOj0gZmVuQ2hhclRvUGllY2UoYykKCQkJaWYgIW9rIHsKCQkJCXJldHVybiBuaWwsIGZtdC5FcnJvcmYoIkZFTiDlkKvpnZ7ms5Xmo4vlrZDlrZfnrKYgJXEiLCBjKQoJCQl9CgkJCWIuU3FbSW5kZXgoZmlsZSwgcmFuayldID0gcAoJCQlmaWxlKysKCQl9CgkJaWYgZmlsZSAhPSBGaWxlcyB7CgkJCXJldHVybiBuaWwsIGZtdC5FcnJvcmYoIkZFTiDnrKwgJWQg5q615YiX5pWw5Li6ICVk77yM5bqU5Li6ICVkIiwgaSsxLCBmaWxlLCBGaWxlcykKCQl9Cgl9CglpZiBsZW4oZmllbGRzKSA+IDEgewoJCXN3aXRjaCBzdHJpbmdzLlRvTG93ZXIoZmllbGRzWzFdKSB7CgkJY2FzZSAidyIsICJyIjoKCQkJYi5TaWRlID0gUmVkCgkJY2FzZSAiYiI6CgkJCWIuU2lkZSA9IEJsYWNrCgkJZGVmYXVsdDoKCQkJcmV0dXJuIG5pbCwgZm10LkVycm9yZigiRkVOIOi1sOWtkOaWueWtl+autemdnuazlTogJXEiLCBmaWVsZHNbMV0pCgkJfQoJfQoJcmV0dXJuIGIsIG5pbAp9CgovLyBGRU4g6L6T5Ye65b2T5YmN5bGA6Z2i55qEIEZFTu+8iOWQq+i1sOWtkOaWue+8m+edgOazleiuoeaVsOWbuuWumuS4uiAiIC0gLSAwIDEi77yMCi8vIOWboOS4uuixoeaji+W8leaTjuS4jeS+nei1luivpeiuoeaVsO+8jOmHjeWkjeWxgOmdouWIpOWumueUseacrOi9r+S7tuiHquW3seWujOaIkO+8ieOAggpmdW5jIChiICpCb2FyZCkgRkVOKCkgc3RyaW5nIHsKCXZhciBzYiBzdHJpbmdzLkJ1aWxkZXIKCWZvciBpIDo9IDA7IGkgPCBSYW5rczsgaSsrIHsKCQlyYW5rIDo9IFJhbmtzIC0gMSAtIGkKCQllbXB0eSA6PSAwCgkJZm9yIGZpbGUgOj0gMDsgZmlsZSA8IEZpbGVzOyBmaWxlKysgewoJCQlwIDo9IGIuU3FbSW5kZXgoZmlsZSwgcmFuayldCgkJCWlmIHAuSXNFbXB0eSgpIHsKCQkJCWVtcHR5KysKCQkJCWNvbnRpbnVlCgkJCX0KCQkJaWYgZW1wdHkgPiAwIHsKCQkJCXNiLldyaXRlQnl0ZShieXRlKCcwJyArIGVtcHR5KSkKCQkJCWVtcHR5ID0gMAoJCQl9CgkJCXNiLldyaXRlQnl0ZShwaWVjZVRvRkVOQ2hhcihwKSkKCQl9CgkJaWYgZW1wdHkgPiAwIHsKCQkJc2IuV3JpdGVCeXRlKGJ5dGUoJzAnICsgZW1wdHkpKQoJCX0KCQlpZiBpICE9IFJhbmtzLTEgewoJCQlzYi5Xcml0ZUJ5dGUoJy8nKQoJCX0KCX0KCXNiLldyaXRlQnl0ZSgnICcpCglpZiBiLlNpZGUgPT0gUmVkIHsKCQlzYi5Xcml0ZUJ5dGUoJ3cnKQoJfSBlbHNlIHsKCQlzYi5Xcml0ZUJ5dGUoJ2InKQoJfQoJc2IuV3JpdGVTdHJpbmcoIiAtIC0gMCAxIikKCXJldHVybiBzYi5TdHJpbmcoKQp9CgovLyBLZXkg6L+U5Zue55So5LqO6YeN5aSN5bGA6Z2i5Yik5a6a55qE6ZSu77yI5qOL55uYICsg6LWw5a2Q5pa577yM5b+955Wl6K6h5pWw5Zmo77yJ44CCCmZ1bmMgKGIgKkJvYXJkKSBLZXkoKSBzdHJpbmcgewoJZiA6PSBiLkZFTigpCglpZiBpIDo9IHN0cmluZ3MuSW5kZXhCeXRlKGYsICcgJyk7IGkgPj0gMCB7CgkJcmV0dXJuIGZbOmkrMl0KCX0KCXJldHVybiBmCn0KCi8vIE1hdGVyaWFsIOe7n+iuoeafkOS4gOaWueeahOWtkOWKm++8iOS7heeUqOS6jueVjOmdouWxleekuuS4juiwg+ivle+8jOS4jeW9seWTjeinhOWImeWIpOWumu+8ieOAggpmdW5jIChiICpCb2FyZCkgTWF0ZXJpYWwoc2lkZSBpbnQpIGludCB7Cgl2IDo9IG1hcFtQaWVjZV1pbnR7UEtpbmc6IDAsIFBBZHZpc29yOiAyLCBQRWxlcGhhbnQ6IDIsIFBIb3JzZTogNCwgUFJvb2s6IDksIFBDYW5ub246IDQsIFBQYXduOiAxfQoJc3VtIDo9IDAKCWZvciBpIDo9IDA7IGkgPCBTcXVhcmVzOyBpKysgewoJCXAgOj0gYi5TcVtpXQoJCWlmIHAuSXNFbXB0eSgpIHx8IHAuU2lkZSgpICE9IHNpZGUgewoJCQljb250aW51ZQoJCX0KCQlzdW0gKz0gdltwLlR5cGUoKV0KCX0KCXJldHVybiBzdW0KfQoKLy8gRmluZEtpbmcg6L+U5Zue5p+Q5LiA5pa55bCGL+W4heaJgOWcqOagvOeahOe6v+aAp+e0ouW8le+8jOaJvuS4jeWIsOi/lOWbniAtMeOAggpmdW5jIChiICpCb2FyZCkgRmluZEtpbmcoc2lkZSBpbnQpIGludCB7Cgl3YW50IDo9IE1ha2VQaWVjZShzaWRlLCBQS2luZykKCWZvciBpIDo9IDA7IGkgPCBTcXVhcmVzOyBpKysgewoJCWlmIGIuU3FbaV0gPT0gd2FudCB7CgkJCXJldHVybiBpCgkJfQoJfQoJcmV0dXJuIC0xCn0K
+// Package rules 实现中国象棋的棋盘表示、FEN 解析、走法生成、合法性判定与胜负判定。
+//
+// 本包是纯计算包：不依赖 UI、不启动任何引擎子进程，因此可以独立单元测试，
+// 也可以在引擎通信的 goroutine 中安全调用（Board 自身不是并发安全的，
+// 每个 goroutine 使用自己的 Board 实例即可）。
+//
+// ============================ 坐标体系 ============================
+//
+// 采用与 UCI/UCCI 中国象棋协议完全一致的坐标：文件 a..i，行 0..9。
+// 红方在下（行 0 为红方底线），黑方在上（行 9 为黑方底线）。
+//
+//	rank 9   a9  b9  c9  d9  e9  f9  g9  h9  i9    ← 黑方底线（将 e9）
+//	rank 8   a8  b8  c8  d8  e8  f8  g8  h8  i8    ← 黑方九宫
+//	rank 7   a7  b7  c7  d7  e7  f7  g7  h7  i7    ← 黑炮 b7 / h7
+//	rank 6   a6  b6  c6  d6  e6  f6  g6  h6  i6    ← 黑卒 a6 c6 e6 g6 i6
+//	rank 5   ────────────── 楚 河 ──────────────
+//	rank 4   ────────────── 汉 界 ──────────────
+//	rank 3   a3  b3  c3  d3  e3  f3  g3  h3  i3    ← 红兵 a3 c3 e3 g3 i3
+//	rank 2   a2  b2  c2  d2  e2  f2  g2  h2  i2    ← 红炮 b2 / h2
+//	rank 1   a1  b1  c1  d1  e1  f1  g1  h1  i1    ← 红方九宫
+//	rank 0   a0  b0  c0  d0  e0  f0  g0  h0  i0    ← 红方底线（帅 e0，a0 红方左车）
+//	         a   b   c   d   e   f   g   h   i
+//
+// 内部线性索引：Index = rank*9 + file，取值 0..89。
+//
+//	帅 e0 → 0*9+4 = 4        将 e9 → 9*9+4 = 85
+//	红车 a0 → 0              黑车 i9 → 89
+//
+// 屏幕绘制换算：屏幕第 0 行在最上方（黑方底线），故
+//
+//	屏幕行 = 9 - rank        屏幕列 = file
+//
+// 该换算集中在本文件的 ScreenRow/ScreenCol 中，UI 层不得自行推导。
+package rules
+
+import (
+	"fmt"
+	"strings"
+)
+
+// 棋子编码：低 3 位为兵种，第 4 位（值 8）为颜色位。
+//
+//	bit3 = 0 → 红方     bit3 = 1 → 黑方
+//	bits0-2 = 兵种（1..7）
+//
+// 故 红帅 = 0b0001 = 1，黑将 = 0b1001 = 9。
+type Piece uint8
+
+const (
+	PEmpty Piece = 0 // 空
+
+	PKing     Piece = 1 // 帅 / 将
+	PAdvisor  Piece = 2 // 仕 / 士
+	PElephant Piece = 3 // 相 / 象
+	PHorse    Piece = 4 // 馬 / 马
+	PRook     Piece = 5 // 車 / 车
+	PCannon   Piece = 6 // 炮 / 炮
+	PPawn     Piece = 7 // 兵 / 卒
+
+	colorBit Piece = 8
+)
+
+// 常用棋子常量（供 switch / 比较使用，必须是编译期常量）。
+const (
+	PRedKing       = PKing                // 1
+	PRedAdvisor    = PAdvisor             // 2
+	PRedElephant   = PElephant            // 3
+	PRedHorse      = PHorse               // 4
+	PRedRook       = PRook                // 5
+	PRedCannon     = PCannon              // 6
+	PRedPawn       = PPawn                // 7
+	PBlackKing     = PKing | colorBit     // 9
+	PBlackAdvisor  = PAdvisor | colorBit  // 10
+	PBlackElephant = PElephant | colorBit // 11
+	PBlackHorse    = PHorse | colorBit    // 12
+	PBlackRook     = PRook | colorBit     // 13
+	PBlackCannon   = PCannon | colorBit   // 14
+	PBlackPawn     = PPawn | colorBit     // 15
+)
+
+// 阵营
+const (
+	Red   = 0
+	Black = 1
+)
+
+// MakePiece 由阵营与兵种构造棋子编码。
+func MakePiece(side int, t Piece) Piece {
+	p := t & 7
+	if side == Black {
+		p |= colorBit
+	}
+	return p
+}
+
+// Type 返回兵种（1..7，空子返回 0）。
+func (p Piece) Type() Piece { return p & 7 }
+
+// Side 返回阵营（Red / Black）。对空子调用返回 Red，调用前应先用 IsEmpty 判断。
+func (p Piece) Side() int {
+	if p&colorBit != 0 {
+		return Black
+	}
+	return Red
+}
+
+// IsEmpty 判断是否为空子。
+func (p Piece) IsEmpty() bool { return p == 0 }
+
+// Name 返回棋子的中文名（红方用「車」「馬」，黑方用「车」「马」）。
+func (p Piece) Name() string {
+	if p.IsEmpty() {
+		return "空"
+	}
+	red := [...]string{"", "帅", "仕", "相", "馬", "車", "炮", "兵"}
+	black := [...]string{"", "将", "士", "象", "马", "车", "炮", "卒"}
+	if p.Side() == Red {
+		return red[p.Type()]
+	}
+	return black[p.Type()]
+}
+
+// 常量：棋盘尺寸
+const (
+	Files   = 9             // 纵线数（a..i）
+	Ranks   = 10            // 横线数（0..9）
+	Squares = Files * Ranks // 90
+)
+
+// Index 由文件与行计算线性索引。
+func Index(file, rank int) int { return rank*Files + file }
+
+// FileOf 取线性索引对应的文件（0..8）。
+func FileOf(sq int) int { return sq % Files }
+
+// RankOf 取线性索引对应的行（0..9）。
+func RankOf(sq int) int { return sq / Files }
+
+// OnBoard 判断文件/行是否在棋盘内。
+func OnBoard(file, rank int) bool {
+	return file >= 0 && file < Files && rank >= 0 && rank < Ranks
+}
+
+// ScreenRow 返回该行在屏幕上的行号（屏幕第 0 行 = 黑方底线 = rank 9）。
+func ScreenRow(rank int) int { return Ranks - 1 - rank }
+
+// ScreenCol 返回该文件在屏幕上的列号（与文件号相同，红方视角 a 在左）。
+func ScreenCol(file int) int { return file }
+
+// SquareName 把线性索引转成 UCI 坐标字符串，如 4 → "e0"。
+func SquareName(sq int) string {
+	if sq < 0 || sq >= Squares {
+		return "??"
+	}
+	return fmt.Sprintf("%c%d", 'a'+FileOf(sq), RankOf(sq))
+}
+
+// ParseSquare 把 UCI 坐标字符串（如 "e0"）解析为线性索引。
+func ParseSquare(s string) (int, bool) {
+	if len(s) < 2 {
+		return 0, false
+	}
+	f := int(s[0] - 'a')
+	r := int(s[1] - '0')
+	if !OnBoard(f, r) {
+		return 0, false
+	}
+	return Index(f, r), true
+}
+
+// Board 表示一个中国象棋局面。
+type Board struct {
+	Sq   [Squares]Piece // 90 格，Index(rank,file) 定位
+	Side int            // 轮到哪一方走：Red / Black
+}
+
+// StartFEN 是中国象棋标准初始局面 FEN。
+// 行顺序为 rank 9 → rank 0，大写为红方、小写为黑方。
+const StartFEN = "rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR w - - 0 1"
+
+// NewStartBoard 返回初始局面。
+func NewStartBoard() *Board {
+	b, err := ParseFEN(StartFEN)
+	if err != nil {
+		// StartFEN 是编译期常量，永不出错；此处仅为签名完整性。
+		panic("rules: 内置初始局面 FEN 非法: " + err.Error())
+	}
+	return b
+}
+
+// Clone 深拷贝一个局面。
+func (b *Board) Clone() *Board {
+	nb := *b
+	return &nb
+}
+
+// fenCharToPiece 把 FEN 字符转成棋子编码。
+func fenCharToPiece(c rune) (Piece, bool) {
+	var side int
+	var t Piece
+	switch c {
+	case 'K', 'k':
+		t = PKing
+	case 'A', 'a':
+		t = PAdvisor
+	case 'B', 'b', 'E', 'e': // E/e 为部分软件使用的象的别名
+		t = PElephant
+	case 'N', 'n', 'H', 'h': // H/h 为部分软件使用的马的别名
+		t = PHorse
+	case 'R', 'r':
+		t = PRook
+	case 'C', 'c':
+		t = PCannon
+	case 'P', 'p':
+		t = PPawn
+	default:
+		return PEmpty, false
+	}
+	if c >= 'A' && c <= 'Z' {
+		side = Red
+	} else {
+		side = Black
+	}
+	return MakePiece(side, t), true
+}
+
+// pieceToFENChar 把棋子编码转成 FEN 字符（红大写、黑小写）。
+func pieceToFENChar(p Piece) byte {
+	var c byte
+	switch p.Type() {
+	case PKing:
+		c = 'K'
+	case PAdvisor:
+		c = 'A'
+	case PElephant:
+		c = 'B'
+	case PHorse:
+		c = 'N'
+	case PRook:
+		c = 'R'
+	case PCannon:
+		c = 'C'
+	case PPawn:
+		c = 'P'
+	default:
+		return '?'
+	}
+	if p.Side() == Black {
+		c += 'a' - 'A'
+	}
+	return c
+}
+
+// ParseFEN 解析中国象棋 FEN。
+//
+// 形如 "rnbakabnr/9/1c5c1/p1p1p1p1p/9/9/P1P1P1P1P/1C5C1/9/RNBAKABNR w - - 0 1"，
+// 第一段共 10 行（rank 9 → rank 0），数字表示连续空格数。
+func ParseFEN(fen string) (*Board, error) {
+	fields := strings.Fields(fen)
+	if len(fields) == 0 {
+		return nil, fmt.Errorf("FEN 为空")
+	}
+	rows := strings.Split(fields[0], "/")
+	if len(rows) != Ranks {
+		return nil, fmt.Errorf("FEN 行数应为 %d，实际 %d", Ranks, len(rows))
+	}
+	b := &Board{Side: Red}
+	for i, row := range rows {
+		rank := Ranks - 1 - i // 第 0 段是 rank 9
+		file := 0
+		for _, c := range row {
+			if c >= '1' && c <= '9' {
+				file += int(c - '0')
+				continue
+			}
+			if file >= Files {
+				return nil, fmt.Errorf("FEN 第 %d 段超出 9 列", i+1)
+			}
+			p, ok := fenCharToPiece(c)
+			if !ok {
+				return nil, fmt.Errorf("FEN 含非法棋子字符 %q", c)
+			}
+			b.Sq[Index(file, rank)] = p
+			file++
+		}
+		if file != Files {
+			return nil, fmt.Errorf("FEN 第 %d 段列数为 %d，应为 %d", i+1, file, Files)
+		}
+	}
+	if len(fields) > 1 {
+		switch strings.ToLower(fields[1]) {
+		case "w", "r":
+			b.Side = Red
+		case "b":
+			b.Side = Black
+		default:
+			return nil, fmt.Errorf("FEN 走子方字段非法: %q", fields[1])
+		}
+	}
+	return b, nil
+}
+
+// FEN 输出当前局面的 FEN（含走子方；着法计数固定为 " - - 0 1"，
+// 因为象棋引擎不依赖该计数，重复局面判定由本软件自己完成）。
+func (b *Board) FEN() string {
+	var sb strings.Builder
+	for i := 0; i < Ranks; i++ {
+		rank := Ranks - 1 - i
+		empty := 0
+		for file := 0; file < Files; file++ {
+			p := b.Sq[Index(file, rank)]
+			if p.IsEmpty() {
+				empty++
+				continue
+			}
+			if empty > 0 {
+				sb.WriteByte(byte('0' + empty))
+				empty = 0
+			}
+			sb.WriteByte(pieceToFENChar(p))
+		}
+		if empty > 0 {
+			sb.WriteByte(byte('0' + empty))
+		}
+		if i != Ranks-1 {
+			sb.WriteByte('/')
+		}
+	}
+	sb.WriteByte(' ')
+	if b.Side == Red {
+		sb.WriteByte('w')
+	} else {
+		sb.WriteByte('b')
+	}
+	sb.WriteString(" - - 0 1")
+	return sb.String()
+}
+
+// Key 返回用于重复局面判定的键（棋盘 + 走子方，忽略计数器）。
+func (b *Board) Key() string {
+	f := b.FEN()
+	if i := strings.IndexByte(f, ' '); i >= 0 {
+		return f[:i+2]
+	}
+	return f
+}
+
+// Material 统计某一方的子力（仅用于界面展示与调试，不影响规则判定）。
+func (b *Board) Material(side int) int {
+	v := map[Piece]int{PKing: 0, PAdvisor: 2, PElephant: 2, PHorse: 4, PRook: 9, PCannon: 4, PPawn: 1}
+	sum := 0
+	for i := 0; i < Squares; i++ {
+		p := b.Sq[i]
+		if p.IsEmpty() || p.Side() != side {
+			continue
+		}
+		sum += v[p.Type()]
+	}
+	return sum
+}
+
+// FindKing 返回某一方将/帅所在格的线性索引，找不到返回 -1。
+func (b *Board) FindKing(side int) int {
+	want := MakePiece(side, PKing)
+	for i := 0; i < Squares; i++ {
+		if b.Sq[i] == want {
+			return i
+		}
+	}
+	return -1
+}

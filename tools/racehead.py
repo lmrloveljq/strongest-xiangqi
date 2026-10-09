@@ -1,1 +1,33 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KaW1wb3J0IGlvLCByZSwgc3lzCgpzeXMuc3Rkb3V0LnJlY29uZmlndXJlKGVuY29kaW5nPSJ1dGYtOCIpCnBhdGggPSBzeXMuYXJndlsxXSBpZiBsZW4oc3lzLmFyZ3YpID4gMSBlbHNlIHIiQzpc5pyA5by66LGh5qOL6L2v5Lu257O757ufXF92ZXJpZnlccmFjZS10aGVtZS5lcnIiCnR4dCA9IGlvLm9wZW4ocGF0aCwgZW5jb2Rpbmc9InV0Zi04IiwgZXJyb3JzPSJyZXBsYWNlIikucmVhZCgpCmJsb2NrcyA9IHR4dC5zcGxpdCgiV0FSTklORzogREFUQSBSQUNFIikKcHJpbnQoIuaKpeWRiuaVsDoiLCBsZW4oYmxvY2tzKSAtIDEpCgpmb3IgaSwgYiBpbiBlbnVtZXJhdGUoYmxvY2tzWzE6XSwgMSk6CiAgICBsaW5lcyA9IFtsLnJzdHJpcCgpIGZvciBsIGluIGIuc3BsaXQoIlxuIildCiAgICAjIOaJviBoZWFkZXLvvIzlubblj6rmiZPljbAgaGVhZGVyIOS5i+WQjueahOagiO+8iOmBhyAiY3JlYXRlZCBhdDoiIC8gPT09PT0g5YGc77yJCiAgICBoZHIgPSBOb25lCiAgICBmb3IgaiwgbCBpbiBlbnVtZXJhdGUobGluZXMpOgogICAgICAgIGlmIHJlLm1hdGNoKHIiXHMqKFByZXZpb3VzICk/KFdyaXRlfFJlYWR8QXRvbWljIFx3KykgYXQgXFMrIGJ5ICIsIGwpOgogICAgICAgICAgICBoZHIgPSBqCiAgICAgICAgICAgIGJyZWFrCiAgICBwcmludChmIlxuIyMjIyMjIyMjIyDmiqXlkYoge2l9ICMjIyMjIyMjIyMiKQogICAgaWYgaGRyIGlzIE5vbmU6CiAgICAgICAgcHJpbnQoIiAgKOayoeivhuWIq+WIsCBoZWFkZXIpIikKICAgICAgICBjb250aW51ZQogICAgcHJpbnQoIiAgIiArIGxpbmVzW2hkcl0uc3RyaXAoKSkKICAgIHByaW50ZWQgPSAwCiAgICBmb3IgbCBpbiBsaW5lc1toZHIgKyAxOl06CiAgICAgICAgcyA9IGwuc3RyaXAoKQogICAgICAgIGlmIHMuc3RhcnRzd2l0aCgiY3JlYXRlZCBhdDoiKSBvciBzLnN0YXJ0c3dpdGgoIkdvcm91dGluZSIpIG9yIHMuc3RhcnRzd2l0aCgiPT09PT09PT09PT09PT09PT09Iik6CiAgICAgICAgICAgIGJyZWFrCiAgICAgICAgaWYgcyA9PSAiIjoKICAgICAgICAgICAgY29udGludWUKICAgICAgICBpZiBwcmludGVkIDwgODoKICAgICAgICAgICAgcHJpbnQoIiAgICAgICIgKyBzWzoxNTBdKQogICAgICAgIHByaW50ZWQgKz0gMQogICAgcHJpbnQoZiIgICAgICDigKbvvIjlhbEge3ByaW50ZWR9IOW4p++8iSIpCg==
+# -*- coding: utf-8 -*-
+import io, re, sys
+
+sys.stdout.reconfigure(encoding="utf-8")
+path = sys.argv[1] if len(sys.argv) > 1 else r"C:\最强象棋软件系统\_verify\race-theme.err"
+txt = io.open(path, encoding="utf-8", errors="replace").read()
+blocks = txt.split("WARNING: DATA RACE")
+print("报告数:", len(blocks) - 1)
+
+for i, b in enumerate(blocks[1:], 1):
+    lines = [l.rstrip() for l in b.split("\n")]
+    # 找 header，并只打印 header 之后的栈（遇 "created at:" / ===== 停）
+    hdr = None
+    for j, l in enumerate(lines):
+        if re.match(r"\s*(Previous )?(Write|Read|Atomic \w+) at \S+ by ", l):
+            hdr = j
+            break
+    print(f"\n########## 报告 {i} ##########")
+    if hdr is None:
+        print("  (没识别到 header)")
+        continue
+    print("  " + lines[hdr].strip())
+    printed = 0
+    for l in lines[hdr + 1:]:
+        s = l.strip()
+        if s.startswith("created at:") or s.startswith("Goroutine") or s.startswith("=================="):
+            break
+        if s == "":
+            continue
+        if printed < 8:
+            print("      " + s[:150])
+        printed += 1
+    print(f"      …（共 {printed} 帧）")

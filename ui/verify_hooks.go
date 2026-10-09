@@ -1,1 +1,396 @@
-cGFja2FnZSB1aQoKaW1wb3J0ICgKCSJmbXQiCgkiaW1hZ2UvcG5nIgoJIm9zIgoJInN0cmNvbnYiCgkic3RyaW5ncyIKCSJ0aW1lIgoKCSJmeW5lLmlvL2Z5bmUvdjIiCgoJInhpYW5ncWkvbm90YXRpb24iCikKCi8vIOacrOaWh+S7tuaPkOS+m+OAjOWPr+WkjeeOsOmqjOivgemSqeWtkOOAjeOAggovLwovLyDorr7orqHljp/liJnvvJrov5nkupvpkqnlrZAqKuWPquWcqOiuvue9ruS6huWvueW6lOeOr+Wig+WPmOmHj+aXtueUn+aViCoq77yb55So5oi35Y+M5Ye7IHhpYW5ncWkuZXhlCi8vIOato+W4uOi/kOihjOaXtuS4gOS4qumDveS4jeS8muinpuWPke+8jOWboOatpOS4jeW9seWTjeS6pOS7mOeJqeeahOihjOS4uuOAggovLwovLwlYUV9NT1ZFUz0iaDJlMiBoOWc3IiAgICAg5ZCv5Yqo5ZCO6Ieq5Yqo5bqU55So5LiA5q61IFVDSSDnnYDms5Xluo/liJfvvIjnrYnku7fkuo7lnKjjgIznspjotLTovpPlhaXjgI3ph4znspjotLTvvIkKLy8JWFFfTU9ERT1icmlkZ2V8bWF0Y2ggICAgIOWQr+WKqOWQjuWIh+aNouWIsOaMh+WumuaooeW8jwovLwlYUV9QQVJBTVM9MSAgICAgICAgICAgICAg5ZCv5Yqo5ZCO5omT5byA44CM5byV5pOO5Y+C5pWw44CN5a+56K+d5qGG77yIdjEuNe+8muWPguaVsOmdouadv+W3suenu+i/m+iPnOWNle+8iQovLwlYUV9TSE9XX0VOR0lORVM9MSAgICAgICAg5ZCv5Yqo5ZCO5omT5byA44CM5byV5pOO566h55CG44CN56qX5Y+jCi8vCVhRX0FVVE9NQVRDSD0zICAgICAgICAgICDlkK/liqjlkI7oh6rliqjlvIDlp4sgMyDlsYDlr7nmiJjvvIjnlKjlvZPliY3lvJXmk47kuI7ml7bpl7TmjqfliLborr7nva7vvIkKLy8JWFFfRk9OVD1zdGFuZGFyZHxsYXJnZXx4bGFyZ2UgIOWQr+WKqOWQjioq5a6e5pe2KirliIfmjaLlrZflj7fmoaPkvY3vvIjpu5jorqTmoaPmmK8gc3RhbmRhcmTvvIkKLy8JWFFfSEVMUD0xICAgICAgICAgICAgICAgIOWQr+WKqOWQjuaJk+W8gOOAjOaWsOaJi+S4ieatpeS4iuaJi+OAjQovLwlYUV9TSE9UPXBhdGgucG5nICAgICAgICAg5ZyoIFhRX1NIT1RfREVMQVkg56eS5ZCO5oqK55WM6Z2i6Ieq6Lqr5riy5p+T57uT5p6c5a2Y5Li6IFBORwovLwlYUV9TSE9UX1dJTkRPVz1tYWlufGVuZ2luZXMgIOaIquWbvuebruagh+eql+WPo++8jOm7mOiupCBtYWluCi8vCVhRX1NIT1RfREVMQVk9OCAgICAgICAgICDmiKrlm77lu7bov5/np5LmlbDvvIzpu5jorqQgOAovLwlYUV9RVUlUPTUgICAgICAgICAgICAgICAg5oiq5Zu+5ZCO5YaN562JIDUg56eS6Ieq5Yqo6YCA5Ye677yI55So5LqO6ISa5pys5YyW6aqM6K+B77yJCi8vCVhRX0NPTkZJRz1wYXRoLmpzb24gICAgICDnlKjmjIflrprphY3nva7mlofku7bov5DooYzvvIjkuI3norDnlKjmiLfnmoQgY29uZmlnLmpzb27vvIkKLy8JWFFfRElBRz0xICAgICAgICAgICAgICAgIOavj+enkuaJk+WNsOS4gOasoeeKtuaAgeacuuW/q+eFp++8iOaooeW8jyAvIOi9ruWIsOiwgSAvIOaji+ebmOWPr+WQpueCuSAvIOW8leaTjui/m+eoi++8iQovLwlYUV9NQVhTVFJFTkdUSD0xICAgICAgICAgMyDnp5LlkI7osIPnlKjjgIzmnIDlvLrlvJXmk47mqKHlvI/jgI3lvIDlhbPvvIhtZW51IOmHjOWQjOS4gOWFpeWPo++8iQovLwlYUV9CRU5DSD0xICAgICAgICAgICAgICAgMyDnp5LlkI7ot5HkuIDmrKHjgIwxMCDnp5Lln7rlh4bjgI0KLy8JWFFfQkVOQ0hfREVMQVk9MTUgICAgICAgIOS4iumdoumCo+asoeWfuuWHhueahOW7tui/n+enkuaVsO+8jOm7mOiupCAzCi8vCVhRX01PVkVTMj0iaDJlMiIgICAgICAgICDlkK/liqggTiDnp5LlkI4qKuWGjSoq57KY6LS05LiA5qyh552A5rOV5bqP5YiX77yI5aSN546wIuWQjOS4gOWxgOmdouesrOS6jOasoei1sOWIsCLvvIkKLy8JWFFfTU9WRVMyX0RFTEFZPTEwICAgICAgIOS4iumdoumCo+asoeeymOi0tOeahOW7tui/n+enkuaVsO+8jOm7mOiupCAxMAovLwovLyDkuLrku4DkuYjnlKggQ2FudmFzKCkuQ2FwdHVyZSgpIOiAjOS4jeaYr+aKk+Wxj++8muaKk+Wxj+S8mue7j+i/h+ezu+e7n+eahCBEUEkg6Jma5ouf5YyW77yMCi8vIOW+l+WIsOeahOWbvuWDj+S4jueVjOmdouecn+WunuW4g+WxgOS4jeaYryAxOjHvvJtDYXB0dXJlKCkg55u05o6l5Y+WIEZ5bmUg55S75biD77yM5YOP57Sg57qn5YeG56Gu44CCCmZ1bmMgKGEgKkFwcCkgYXBwbHlWZXJpZnlIb29rcygpIHsKCS8vIFhRX0RJQUc9Me+8muavj+enkuS4gOihjOeKtuaAgeacuuW/q+eFp+OAggoJLy8KCS8vIOS4uuS7gOS5iOmcgOimge+8muOAjOaji+ebmOagueacrOWKqOS4jeS6huOAjei/meWPpeivnemHjOiXj+edgOS4ieenjeWujOWFqOS4jeWQjOeahOaVhemanOKAlOKAlAoJLy8g4pGgIOi9ruWIsOW8leaTjuS9huW8leaTjuS4jeS6pOaLm++8iOW8leaTji/ml7bpmZDlsYLvvInvvJvikaEg5qOL55uY6KKr5Yik5a6a5Li65LiN5Y+v5Lqk5LqS77yI55WM6Z2i5bGC77yJ77ybCgkvLyDikaIg55WM6Z2i57q/56iL6KKr6aW/5q2777yI6L+b56iL5bGC77yM6KGo546w5Li6IGZ5bmUuRG8g5o6S6Zif44CB6L+Z5LiA6KGM5LiN5YaN5omT5Y2w77yJ44CCCgkvLyDku47nqpflj6PlpJbpnaLnnIvkuI3lh7rmmK/lk6rkuIDnp43vvIzmiYDku6XmiorliKTlrprnu5PmnpzlkozlvJXmk47ov5vnqIvlrp7lhrXmjInml7bpl7TovbTmiZPlh7rmnaXjgIIKCWlmIG9zLkdldGVudigiWFFfRElBRyIpICE9ICIiIHsKCQlnbyBmdW5jKCkgewoJCQl0ayA6PSB0aW1lLk5ld1RpY2tlcih0aW1lLlNlY29uZCkKCQkJZGVmZXIgdGsuU3RvcCgpCgkJCXN0YXJ0IDo9IHRpbWUuTm93KCkKCQkJZm9yIHJhbmdlIHRrLkMgewoJCQkJc2VsZWN0IHsKCQkJCWNhc2UgPC1hLmNsb3Npbmc6CgkJCQkJcmV0dXJuCgkJCQlkZWZhdWx0OgoJCQkJfQoJCQkJZnluZS5EbyhmdW5jKCkgewoJCQkJCXBpZCwgY3B1IDo9IDAsIDAuMAoJCQkJCWlmIGMgOj0gYS5hbmFseXNpc0NsaWVudCgpOyBjICE9IG5pbCB7CgkJCQkJCXBpZCA9IGMuUElEKCkKCQkJCQkJY3B1ID0gRW5naW5lQ1BVU2Vjb25kcyhwaWQpCgkJCQkJfQoJCQkJCWZtdC5GcHJpbnRmKG9zLlN0ZGVyciwKCQkJCQkJIltkaWFnXSB0PSUuMGZzIG1vZGU9JXMgZW5naW5lT2ZmPSV2IGh1bWFuVHVybj0ldiBpbnRlcmFjdGl2ZT0ldiB2aWV3aW5nPSVkIGVkaXQ9JXYgYW5hbHl6aW5nPSV2IG1vdmVzPSVkIHRvTW92ZT0ldiBwaWQ9JWQgZW5nQ1BVPSUuMWZzIGNmZ3t0PSVkIGg9JWQgbXVsdGk9JWQgbGltaXQ9JXMgZGVwdGg9JWQgbWF4PSV2fVxuIiwKCQkJCQkJdGltZS5TaW5jZShzdGFydCkuU2Vjb25kcygpLCBhLmN1ck1vZGUsIGEuZW5naW5lT2ZmLkxvYWQoKSwgYS5pc0h1bWFuVHVybigpLAoJCQkJCQlhLmNhbkJvYXJkQWNjZXB0SW5wdXQoKSwgYS52aWV3aW5nLCBhLmVkaXRNb2RlLCBhLmFuYWx5emluZy5Mb2FkKCksCgkJCQkJCWxlbihhLmdhbWUuTW92ZXMpLCBhLmdhbWUuQm9hcmQuU2lkZSwgcGlkLCBjcHUsCgkJCQkJCWEuY2ZnLlRocmVhZHMsIGEuY2ZnLkhhc2gsIGEuY2ZnLk11bHRpUFYsIGEuY2ZnLlRpbWVNb2RlLCBhLmNmZy5EZXB0aCwgYS5jZmcuTWF4U3RyZW5ndGgpCgkJCQl9KQoJCQl9CgkJfSgpCgl9CgkvLyBYUV9NT1ZFUzLvvJrlu7bov5/kuIDmrrXml7bpl7TlkI7lho3nspjotLTkuIDmrKHlkIzkuIDmrrXnnYDms5Xluo/liJfjgIIKCS8vCgkvLyDkuLrku4DkuYjpnIDopoHvvJrkurrmnLrlr7nlvIjph4wi5ZCM5LiA5Liq5bGA6Z2i56ys5LqM5qyh6LWw5YiwIu+8iOaClOaji+mHjei1sOOAgeaIlumHjeaWsOeymOi0tOWQjOS4gOauteW6j+WIl++8iQoJLy8g5Lya5ZG95Lit5bGA6Z2i5YiG5p6Q57yT5a2Y77yM6ICM57yT5a2Y5YiG5pSv5Y+q5Zue5pS+57uT5p6c44CB5LiN5Lqk5oubIOKAlOKAlCDpgqPmraPmmK8i5qOL55uY5Yqo5LiN5LqGIueahOS4gOenjeW9ouaAgeOAggoJLy8g6L+Z5Liq6ZKp5a2Q5oqK6K+l6Lev5b6E5Y+Y5oiQ5LiA5p2h5Y+v5aSN546w55qE5ZG95Luk44CCCglpZiBzZXEyIDo9IG9zLkdldGVudigiWFFfTU9WRVMyIik7IHNlcTIgIT0gIiIgewoJCWRlbGF5IDo9IDEwCgkJaWYgdiA6PSBvcy5HZXRlbnYoIlhRX01PVkVTMl9ERUxBWSIpOyB2ICE9ICIiIHsKCQkJaWYgaywgZXJyIDo9IHN0cmNvbnYuQXRvaSh2KTsgZXJyID09IG5pbCAmJiBrID49IDAgewoJCQkJZGVsYXkgPSBrCgkJCX0KCQl9CgkJZ28gZnVuYygpIHsKCQkJdGltZS5TbGVlcCh0aW1lLkR1cmF0aW9uKGRlbGF5KSAqIHRpbWUuU2Vjb25kKQoJCQlmeW5lLkRvKGZ1bmMoKSB7CgkJCQlmbXQuRnByaW50Zihvcy5TdGRlcnIsICJbaG9va10g56ys5LqM5qyh57KY6LS0552A5rOV5bqP5YiXICVx77yI56ysICVkIOenku+8iVxuIiwgc2VxMiwgZGVsYXkpCgkJCQlhLmFwcGx5U2VxdWVuY2Uoc2VxMiwgdHJ1ZSkKCQkJfSkKCQl9KCkKCX0KCS8vIFhRX01BWFNUUkVOR1RIPTHvvJrotbDkuIDpgY3jgIzmnIDlvLrlvJXmk47mqKHlvI/jgI3oj5zljZXpobnog4zlkI7nmoTlkIzkuIDkuKrlh73mlbDjgIIKCWlmIG9zLkdldGVudigiWFFfTUFYU1RSRU5HVEgiKSAhPSAiIiB7CgkJZ28gZnVuYygpIHsKCQkJdGltZS5TbGVlcCgzICogdGltZS5TZWNvbmQpCgkJCWZ5bmUuRG8oZnVuYygpIHsKCQkJCWZtdC5GcHJpbnRmKG9zLlN0ZGVyciwgIltob29rXSDosIPnlKggVG9nZ2xlTWF4U3RyZW5ndGjvvIjliY3vvJptYXg9JXYgdD0lZCBoPSVk77yJXG4iLAoJCQkJCWEuY2ZnLk1heFN0cmVuZ3RoLCBhLmNmZy5UaHJlYWRzLCBhLmNmZy5IYXNoKQoJCQkJYS5Ub2dnbGVNYXhTdHJlbmd0aCgpCgkJCX0pCgkJfSgpCgl9CgkvLyBYUV9CRU5DSD0x77ya6LWw5LiA6YGN44CM6LeRIDEwIOenkuWfuuWHhuOAjeiPnOWNlemhueiDjOWQjueahOWQjOS4gOS4quWHveaVsO+8iOe7k+aenOiHquW3seaJk+WIsCBzdGRlcnLvvInjgIIKCWlmIG9zLkdldGVudigiWFFfQkVOQ0giKSAhPSAiIiB7CgkJZGVsYXkgOj0gMwoJCWlmIHYgOj0gb3MuR2V0ZW52KCJYUV9CRU5DSF9ERUxBWSIpOyB2ICE9ICIiIHsKCQkJaWYgaywgZXJyIDo9IHN0cmNvbnYuQXRvaSh2KTsgZXJyID09IG5pbCAmJiBrID49IDAgewoJCQkJZGVsYXkgPSBrCgkJCX0KCQl9CgkJZ28gZnVuYygpIHsKCQkJdGltZS5TbGVlcCh0aW1lLkR1cmF0aW9uKGRlbGF5KSAqIHRpbWUuU2Vjb25kKQoJCQlmeW5lLkRvKGZ1bmMoKSB7IGEuUnVuQmVuY2htYXJrKCkgfSkKCQl9KCkKCX0KCWlmIHNlcSA6PSBvcy5HZXRlbnYoIlhRX01PVkVTIik7IHNlcSAhPSAiIiB7CgkJYS5hcHBseVNlcXVlbmNlKHNlcSwgdHJ1ZSkKCX0KCWlmIG0gOj0gb3MuR2V0ZW52KCJYUV9NT0RFIik7IG0gIT0gIiIgewoJCWEuU2V0TW9kZShtKQoJfQoJLy8g44CQdjEuNSDnroDljJbjgJHljp/mnaXnmoQgWFFfVEFC77yI5YiH5bqV6YOo6aG1562+77yJ6ZqP6aG1562+5LiA6LW35Y+W5raI77yaCgkvLyDlupXpg6jlj6rlianjgIznspjotLTovpPlhaXjgI3kuIDku7bkuovvvIzlj4LmlbDpnaLmnb/lt7Lnp7vov5voj5zljZXjgIzlvJXmk47lj4LmlbDigKbjgI3jgIIKCS8vIOmcgOimgeiEmuacrOWMluaJk+W8gOWPguaVsOWvueivneahhuaXtueUqCBYUV9QQVJBTVM9MeOAggoJaWYgb3MuR2V0ZW52KCJYUV9QQVJBTVMiKSAhPSAiIiB7CgkJZ28gZnVuYygpIHsKCQkJdGltZS5TbGVlcCgyICogdGltZS5TZWNvbmQpCgkJCWZ5bmUuRG8oZnVuYygpIHsgYS5TaG93RW5naW5lUGFyYW1zKCkgfSkKCQl9KCkKCX0KCWlmIG9zLkdldGVudigiWFFfU0hPV19FTkdJTkVTIikgIT0gIiIgewoJCWEuU2hvd0VuZ2luZU1hbmFnZXIoKQoJfQoJaWYgb3MuR2V0ZW52KCJYUV9SRVNDQU4iKSAhPSAiIiB7CgkJZ28gZnVuYygpIHsKCQkJdGltZS5TbGVlcCgxMjAwICogdGltZS5NaWxsaXNlY29uZCkKCQkJZnluZS5EbyhmdW5jKCkgeyBhLlJlc2NhbkVuZ2luZXMoZmFsc2UpIH0pCgkJfSgpCgl9CgkvLyBYUV9GT05UPXN0YW5kYXJkfGxhcmdlfHhsYXJnZe+8muWQr+WKqOWQjioq5a6e5pe2KirliIfmjaLlrZflj7fmoaPkvY3vvIjotbDnmoTmmK/oj5zljZXlkIzkuIDmnaHku6PnoIHot6/lvoTvvInvvIwKCS8vIOeUqOS6jumqjOivgeOAjOS4jemHjeWQr+S5n+iDveaNouaho+OAjeOAguS8muaKiuWIh+aNouWJjeWQjueahOaho+S9jeaJk+WIsCBzdGRlcnLvvIzkvpvohJrmnKzlj5bor4HjgIIKCWlmIHYgOj0gb3MuR2V0ZW52KCJYUV9GT05UIik7IHYgIT0gIiIgewoJCWdvIGZ1bmMoKSB7CgkJCXRpbWUuU2xlZXAoMjUwMCAqIHRpbWUuTWlsbGlzZWNvbmQpCgkJCWZ5bmUuRG8oZnVuYygpIHsKCQkJCWJlZm9yZSA6PSBkZXNjcmliZUZvbnRTY2FsZSgpCgkJCQlhLlNldEZvbnRUaWVyKHYpCgkJCQlmbXQuRnByaW50Zihvcy5TdGRlcnIsICJbZm9udF0gJXMgLT4gJXPvvIjlrp7ml7bliIfmjaLvvIzmnKrph43lkK/vvIlcbiIsIGJlZm9yZSwgZGVzY3JpYmVGb250U2NhbGUoKSkKCQkJfSkKCQl9KCkKCX0KCS8vIFhRX0hFTFA9Me+8muWQr+WKqOWQjuaJk+W8gOOAjOW/q+mAn+S4iuaJi+OAje+8jOeUqOS6juS6uuW3peaguOWvuei/meS7veivtOaYjueahOWPr+ivu+aAp+OAggoJaWYgb3MuR2V0ZW52KCJYUV9IRUxQIikgIT0gIiIgewoJCWdvIGZ1bmMoKSB7CgkJCXRpbWUuU2xlZXAoMiAqIHRpbWUuU2Vjb25kKQoJCQlmeW5lLkRvKGZ1bmMoKSB7IGEuU2hvd1F1aWNrU3RhcnQoKSB9KQoJCX0oKQoJfQoJLy8gWFFfTUVOVVNNT0tFPTHvvJoqKumAkOS4queCueS4gOmBjeiPnOWNlemHjOeahOavj+S4gOmhuSoq77yM55So5LqO5p+l5Ye644CM54K55LqG5rKh5Y+N5bqU44CN44CM5LiA54K55bCx5bSp44CNCgkvLyDov5nnsbvoj5zljZXnvLrpmbfjgILlgZrkuInku7bkuovvvJoKCS8vICAgMS4g5omT5Y2w6I+c5Y2V57uT5p6E77yI6aG257qn6aG5ICsg5a2Q6aG55pWw6YeP77yJ77yM5qC45a+55pyJ5rKh5pyJ5ryP6aG577ybCgkvLyAgIDIuIOmAkOmhueiwg+eUqCBBY3Rpb27vvIjmr4/pobnkuYvpl7TlgZwgNDAwbXPvvIzmiKrlm74v5pel5b+X6IO955yL5Ye65Y2h5Zyo5ZOq5LiA6aG577yJ77ybCgkvLyAgIDMuIOiwg+WujOS4gOmhueWwseaKiuW8ueWHuuadpeeahOWvueivneahhuaUtuaOie+8jOmBv+WFjeWNgeWHoOWxguWPoOWcqOS4gOi1t+S6kuebuOmBruaMoeOAggoJLy8g5Lu75L2V5LiA6aG5IHBhbmljIOmDveS8muW4puedgOOAjOWImueCueeahOaYr+WTquS4gOmhueOAjeaJk+WIsCBzdGRlcnLvvIzov5nlsLHmmK/nvLrpmbflrprkvY3jgIIKCWlmIG9zLkdldGVudigiWFFfTUVOVVNNT0tFIikgIT0gIiIgewoJCWdvIGZ1bmMoKSB7CgkJCXRpbWUuU2xlZXAoMyAqIHRpbWUuU2Vjb25kKQoJCQlpdGVtcyA6PSBhLmNvbGxlY3RNZW51SXRlbXMoKQoJCQlmbXQuRnByaW50Zihvcy5TdGRlcnIsICJbbWVudV0g5YWxICVkIOS4quiPnOWNlemhuVxuIiwgbGVuKGl0ZW1zKSkKCQkJZm9yIGksIGl0IDo9IHJhbmdlIGl0ZW1zIHsKCQkJCW4gOj0gaQoJCQkJaXRlbSA6PSBpdAoJCQkJZnVuYygpIHsKCQkJCQlkZWZlciBmdW5jKCkgewoJCQkJCQlpZiByIDo9IHJlY292ZXIoKTsgciAhPSBuaWwgewoJCQkJCQkJZm10LkZwcmludGYob3MuU3RkZXJyLCAiW21lbnVdIFBBTklDICMlZCAlczogJXZcbiIsIG4rMSwgaXRlbS5MYWJlbCwgcikKCQkJCQkJfQoJCQkJCX0oKQoJCQkJCWZtdC5GcHJpbnRmKG9zLlN0ZGVyciwgIlttZW51XSAjJWQgJXNcbiIsIG4rMSwgaXRlbS5MYWJlbCkKCQkJCQlmeW5lLkRvKGZ1bmMoKSB7CgkJCQkJCWlmIGl0ZW0uQWN0aW9uICE9IG5pbCB7CgkJCQkJCQlpdGVtLkFjdGlvbigpCgkJCQkJCX0KCQkJCQl9KQoJCQkJfSgpCgkJCQl0aW1lLlNsZWVwKDQwMCAqIHRpbWUuTWlsbGlzZWNvbmQpCgkJCQlmeW5lLkRvKGZ1bmMoKSB7IGEuY2xvc2VUb3BPdmVybGF5KCkgfSkKCQkJCXRpbWUuU2xlZXAoMTUwICogdGltZS5NaWxsaXNlY29uZCkKCQkJfQoJCQlmbXQuRnByaW50Zihvcy5TdGRlcnIsICJbbWVudV0g6I+c5Y2V5L2T5qOA57uT5p2fXG4iKQoJCX0oKQoJfQoJLy8gWFFfQ0FORFBWPTHvvJrlsZXlvIDnrKwgMSDmnaHlj5jmi5vnmoTjgIzlkI7nu63otbDms5XjgI3vvIznlKjkuo7moLjlr7nngrnlvIDlkI7nmoTmmL7npLrjgIIKCWlmIG9zLkdldGVudigiWFFfQ0FORFBWIikgIT0gIiIgewoJCWdvIGZ1bmMoKSB7CgkJCXRpbWUuU2xlZXAoOSAqIHRpbWUuU2Vjb25kKQoJCQlmeW5lLkRvKGZ1bmMoKSB7CgkJCQlpZiBhLmNhbmRzICE9IG5pbCAmJiBsZW4oYS5jYW5kcy5yb3dzKSA+IDAgewoJCQkJCWEuY2FuZHMucm93c1swXS50b2dnbGVEZXRhaWwoKQoJCQkJCWZtdC5GcHJpbnRsbihvcy5TdGRlcnIsICJbY2FuZHB2XSDlt7LlsZXlvIDnrKwgMSDmnaHlj5jmi5vnmoTlkI7nu63otbDms5UiKQoJCQkJfQoJCQl9KQoJCX0oKQoJfQoJLy8gWFFfREVCVUc9Me+8mumZpOWQr+WKqOaXtueahOeJiOmdouaJk+WNsOWklu+8jDEyIOenkuWQjuWGjeaJk+S4gOasoeKAlOKAlAoJLy8g5bGV5byA5Y+Y5oub5ZCO57ut6LWw5rOV5LmL57G755qE5pON5L2c5Lya6K6p5pyA5bCP5bC65a+45Y+Y5YyW77yM56ys5LqM5qyh5b+r54Wn5omN5Y+N5pig55yf5a6e54q25oCB44CCCglpZiBvcy5HZXRlbnYoIlhRX0RFQlVHIikgIT0gIiIgewoJCWdvIGZ1bmMoKSB7CgkJCXRpbWUuU2xlZXAoMTIgKiB0aW1lLlNlY29uZCkKCQkJZnluZS5EbyhmdW5jKCkgewoJCQkJZm10LkZwcmludGxuKG9zLlN0ZGVyciwgIj09PT09IOW7tuaXtueJiOmdouW/q+eFp++8iOmSqeWtkOaJp+ihjOS5i+WQju+8iT09PT09IikKCQkJCWEuZHVtcExheW91dCgpCgkJCX0pCgkJfSgpCgl9CgkvLyBYUV9USElOS1NFVD1OTu+8mioq55So5Luj56CB6LWw5LiA6YGN55yf5a6e6Lev5b6EKirigJTigJTmiZPlvIDmgJ3ogIPorr7nva7jgIHmiorovpPlhaXmoYbmlLnmiJAgTk7jgIEKCS8vIOeCueOAjOS/neWtmOW5tueri+WNs+eUn+aViOOAje+8jOW5tuaKiuavj+S4gOatpeaJk+WIsCBzdGRlcnLjgILnlKjkuo7lrprkvY3jgIzmlLnkuobkuI3nlJ/mlYjjgI3ov5nnsbvpl67popjjgIIKCWlmIHYgOj0gb3MuR2V0ZW52KCJYUV9USElOS1NFVCIpOyB2ICE9ICIiIHsKCQlnbyBmdW5jKCkgewoJCQl0aW1lLlNsZWVwKDMgKiB0aW1lLlNlY29uZCkKCQkJZnluZS5EbyhmdW5jKCkgewoJCQkJZm10LkZwcmludGYob3MuU3RkZXJyLCAiW3RoaW5rXSDliY3vvJpjZmcuRGVwdGg9JWQgdGltZU1vZGU9JXFcbiIsIGEuY2ZnLkRlcHRoLCBhLmNmZy5UaW1lTW9kZSkKCQkJCWEuU2hvd1RoaW5rU2V0dGluZ3MoKQoJCQl9KQoJCQl0aW1lLlNsZWVwKDEgKiB0aW1lLlNlY29uZCkKCQkJZnluZS5EbyhmdW5jKCkgewoJCQkJaWYgYS50aGlua0RlcHRoID09IG5pbCB7CgkJCQkJZm10LkZwcmludGxuKG9zLlN0ZGVyciwgIlt0aGlua10g5o6n5Lu25Li656m677ya5a+56K+d5qGG5rKh5bu65Ye65p2lIikKCQkJCQlyZXR1cm4KCQkJCX0KCQkJCWEudGhpbmtEZXB0aC5TZXRUZXh0KHYpCgkJCQlmbXQuRnByaW50Zihvcy5TdGRlcnIsICJbdGhpbmtdIOW3suaKiui+k+WFpeahhuiuvuS4uiAlce+8iOWvueivneahhuWGheW9k+WJjeWAvCAlce+8iVxuIiwgdiwgYS50aGlua0RlcHRoLlRleHQpCgkJCX0pCgkJCXRpbWUuU2xlZXAoNTAwICogdGltZS5NaWxsaXNlY29uZCkKCQkJZnluZS5EbyhmdW5jKCkgewoJCQkJaWYgYS50aGlua01vZGUgIT0gbmlsIHsKCQkJCQlhLnRoaW5rTW9kZS5TZXRTZWxlY3RlZCgi5Zu65a6a5rex5bqmIikKCQkJCX0KCQkJCWlmIGEudGhpbmtTYXZlQnRuICE9IG5pbCB7CgkJCQkJYS50aGlua1NhdmVCdG4uT25UYXBwZWQoKQoJCQkJfSBlbHNlIHsKCQkJCQlmbXQuRnByaW50bG4ob3MuU3RkZXJyLCAiW3RoaW5rXSDkv53lrZjmjInpkq7kuLrnqboiKQoJCQkJfQoJCQkJZm10LkZwcmludGYob3MuU3RkZXJyLCAiW3RoaW5rXSDlkI7vvJpjZmcuRGVwdGg9JWQgdGltZU1vZGU9JXFcbiIsIGEuY2ZnLkRlcHRoLCBhLmNmZy5UaW1lTW9kZSkKCQkJfSkKCQl9KCkKCX0KCS8vIFhRX1RISU5LPTHvvJrmiZPlvIDjgIzmgJ3ogIPorr7nva7jgI3lr7nor53moYbvvIjmoLjlr7nml6DkuIrpmZDmt7HluqbovpPlhaXmoYbkuI7mlL7lpKflkI7nmoTmjInpkq7vvInjgIIKCWlmIG9zLkdldGVudigiWFFfVEhJTksiKSAhPSAiIiB7CgkJZ28gZnVuYygpIHsKCQkJdGltZS5TbGVlcCgyICogdGltZS5TZWNvbmQpCgkJCWZ5bmUuRG8oZnVuYygpIHsgYS5TaG93VGhpbmtTZXR0aW5ncygpIH0pCgkJfSgpCgl9CgkvLyBYUV9ERVRBSUw9Me+8muWxleW8gOOAjOaAneiAg+e7huiKguOAje+8jOeUqOS6juaguOWvuee7n+iuoeihjOagvOW8j++8iOa3seW6piAvIOWIhuaVsCAvIE5QUyAvIOaXtumXtO+8ieOAggoJaWYgb3MuR2V0ZW52KCJYUV9ERVRBSUwiKSAhPSAiIiB7CgkJZ28gZnVuYygpIHsKCQkJdGltZS5TbGVlcCgzICogdGltZS5TZWNvbmQpCgkJCWZ5bmUuRG8oZnVuYygpIHsKCQkJCWlmIGEuYmVzdCAhPSBuaWwgJiYgYS5iZXN0LmJ0bkRldGFpbCAhPSBuaWwgewoJCQkJCWEuYmVzdC5idG5EZXRhaWwuT25UYXBwZWQoKQoJCQkJfQoJCQl9KQoJCX0oKQoJfQoJaWYgbiA6PSBvcy5HZXRlbnYoIlhRX0FVVE9NQVRDSCIpOyBuICE9ICIiIHsKCQlpZiBnYW1lcywgZXJyIDo9IHN0cmNvbnYuQXRvaShuKTsgZXJyID09IG5pbCAmJiBnYW1lcyA+IDAgewoJCQlhLmNmZy5NYXRjaEdhbWVzID0gZ2FtZXMKCQkJaWYgYS5tYXRjaFZpZXcgIT0gbmlsIHsKCQkJCWEubWF0Y2hWaWV3LmdhbWVzU2xpZGVyLlZhbHVlID0gZmxvYXQ2NChnYW1lcykKCQkJCWEubWF0Y2hWaWV3LnJlZnJlc2hWYWx1ZXMoKQoJCQl9CgkJCWEuc2V0U3RhdHVzSW5mbyhmbXQuU3ByaW50Zigi6aqM6K+B6ZKp5a2Q77yaJWQg56eS5ZCO6Ieq5Yqo5byA5aeLICVkIOWxgOWvueaImCIsIDMsIGdhbWVzKSkKCQkJZ28gZnVuYygpIHsKCQkJCXRpbWUuU2xlZXAoMyAqIHRpbWUuU2Vjb25kKQoJCQkJZnluZS5EbyhmdW5jKCkgeyBhLm1hdGNoVmlldy5TdGFydCgpIH0pCgkJCX0oKQoJCX0KCX0KCWlmIHYgOj0gb3MuR2V0ZW52KCJYUV9TVFJFU1MiKTsgdiAhPSAiIiB7CgkJaWYgbiwgZXJyIDo9IHN0cmNvbnYuQXRvaSh2KTsgZXJyID09IG5pbCAmJiBuID4gMCB7CgkJCWdvIGZ1bmMoKSB7CgkJCQl0aW1lLlNsZWVwKDYgKiB0aW1lLlNlY29uZCkKCQkJCWZ5bmUuRG8oZnVuYygpIHsgYS5ydW5TdHJlc3MobikgfSkKCQkJfSgpCgkJfQoJfQoJLy8gWFFfQVVUT1NQTElUPTHvvJrlkK/liqjlkI7osIPnlKjjgIzmjInmoLjlv4PmlbDoh6rliqjlubPlnYfliIbphY3jgI3mjInpkq7og4zlkI7nmoQqKuWQjOS4gOS4quWHveaVsCoq77yMCgkvLyDnlKjkuo7lnKjml6Dms5XnlKjnnJ/lrp7ngrnlh7vop6bovr7or6XmjInpkq7vvIjpnaLmnb/pnIDopoHmu5rliqjvvInml7bpqozor4EgUjUg55qE5YiG6YWN6YC76L6R44CCCgkvLyDlroPlj6rmlLkgY2ZnLlNlbGZUaHJlYWRzIC8gY2ZnLk9wcFRocmVhZHMg5bm2IFNhdmVDb25maWfvvIzkuI3op6bnorDku7vkvZXlhbblroPnirbmgIHjgIIKCWlmIG9zLkdldGVudigiWFFfQVVUT1NQTElUIikgIT0gIiIgewoJCWdvIGZ1bmMoKSB7CgkJCXRpbWUuU2xlZXAoNCAqIHRpbWUuU2Vjb25kKQoJCQlmeW5lLkRvKGZ1bmMoKSB7CgkJCQlpZiBhLm1hdGNoVmlldyAhPSBuaWwgewoJCQkJCWEubWF0Y2hWaWV3LmF1dG9TcGxpdFRocmVhZHMoKQoJCQkJCWZtdC5GcHJpbnRmKG9zLlN0ZGVyciwgIltob29rXSBYUV9BVVRPU1BMSVQg5bey5omn6KGMIGF1dG9TcGxpdFRocmVhZHMoKVxuIikKCQkJCQlhLmR1bXBMYXlvdXQoKQoJCQkJfQoJCQl9KQoJCX0oKQoJfQoJaWYgcGF0aCA6PSBvcy5HZXRlbnYoIlhRX1NIT1QiKTsgcGF0aCAhPSAiIiB7CgkJZGVsYXkgOj0gOAoJCWlmIHYgOj0gb3MuR2V0ZW52KCJYUV9TSE9UX0RFTEFZIik7IHYgIT0gIiIgewoJCQlpZiBrLCBlcnIgOj0gc3RyY29udi5BdG9pKHYpOyBlcnIgPT0gbmlsICYmIGsgPj0gMCB7CgkJCQlkZWxheSA9IGsKCQkJfQoJCX0KCQlnbyBmdW5jKCkgewoJCQl0aW1lLlNsZWVwKHRpbWUuRHVyYXRpb24oZGVsYXkpICogdGltZS5TZWNvbmQpCgkJCWZ5bmUuRG8oZnVuYygpIHsgYS5zYXZlQ2FudmFzU2hvdChwYXRoKSB9KQoJCQlpZiB2IDo9IG9zLkdldGVudigiWFFfUVVJVCIpOyB2ICE9ICIiIHsKCQkJCWlmIGssIGVyciA6PSBzdHJjb252LkF0b2kodik7IGVyciA9PSBuaWwgJiYgayA+PSAwIHsKCQkJCQl0aW1lLlNsZWVwKHRpbWUuRHVyYXRpb24oaykgKiB0aW1lLlNlY29uZCkKCQkJCQlhLnNodXRkb3duKCkKCQkJCQlmeW5lLkRvKGZ1bmMoKSB7IGEuZnluZUFwcC5RdWl0KCkgfSkKCQkJCX0KCQkJfQoJCX0oKQoJfSBlbHNlIGlmIHYgOj0gb3MuR2V0ZW52KCJYUV9RVUlUIik7IHYgIT0gIiIgewoJCWlmIGssIGVyciA6PSBzdHJjb252LkF0b2kodik7IGVyciA9PSBuaWwgJiYgayA+PSAwIHsKCQkJZ28gZnVuYygpIHsKCQkJCXRpbWUuU2xlZXAodGltZS5EdXJhdGlvbihrKSAqIHRpbWUuU2Vjb25kKQoJCQkJYS5zaHV0ZG93bigpCgkJCQlmeW5lLkRvKGZ1bmMoKSB7IGEuZnluZUFwcC5RdWl0KCkgfSkKCQkJfSgpCgkJfQoJfQp9CgpmdW5jIChhICpBcHApIHNhdmVDYW52YXNTaG90KHBhdGggc3RyaW5nKSB7Cgl0YXJnZXQgOj0gYS53aW4KCWlmIG9zLkdldGVudigiWFFfU0hPVF9XSU5ET1ciKSA9PSAiZW5naW5lcyIgJiYgYS5lbmdNZ3JXaW4gIT0gbmlsIHsKCQl0YXJnZXQgPSBhLmVuZ01ncldpbgoJfQoJaWYgdGFyZ2V0ID09IG5pbCB7CgkJcmV0dXJuCgl9CglpbWcgOj0gdGFyZ2V0LkNhbnZhcygpLkNhcHR1cmUoKQoJaWYgaW1nID09IG5pbCB7CgkJZm10LkZwcmludGxuKG9zLlN0ZGVyciwgIltzaG90XSBjYW52YXMgY2FwdHVyZSByZXR1cm5lZCBuaWwiKQoJCXJldHVybgoJfQoJZiwgZXJyIDo9IG9zLkNyZWF0ZShwYXRoKQoJaWYgZXJyICE9IG5pbCB7CgkJZm10LkZwcmludGYob3MuU3RkZXJyLCAiW3Nob3RdIGNyZWF0ZSBmYWlsZWQ6ICV2XG4iLCBlcnIpCgkJcmV0dXJuCgl9CglkZWZlciBmLkNsb3NlKCkKCWlmIGVyciA6PSBwbmcuRW5jb2RlKGYsIGltZyk7IGVyciAhPSBuaWwgewoJCWZtdC5GcHJpbnRmKG9zLlN0ZGVyciwgIltzaG90XSBlbmNvZGUgZmFpbGVkOiAldlxuIiwgZXJyKQoJCXJldHVybgoJfQoJZm10LkZwcmludGYob3MuU3RkZXJyLCAiW3Nob3RdIHNhdmVkICVzICV2XG4iLCBwYXRoLCBpbWcuQm91bmRzKCkuU2l6ZSgpKQp9CgovLyBydW5TdHJlc3Mg6L+e57utIG4g5qyh44CM5LuO57KY6LS05Yy65bqU55So552A5rOV5bqP5YiXICsg5LiA6ZSu5aSN5Yi25pyA5L2z552A5rOV44CN77yMCi8vIOeUqOS6jumqjOivgeahpeaOpeaooeW8j+eahOmrmOmikei+k+WFpeS4jeS8muWNoeS9j+eVjOmdou+8iOWvueW6lOmcgOaxguOAjOi/nue7reeymOi0tC/lpI3liLYgNTAg5qyh5peg5Y2h6aG/44CN77yJ44CCCi8vCi8vIOavj+asoei/reS7o+mDveWcqOS4uyBnb3JvdXRpbmUg5LiK5ZCM5q2l5omn6KGM77yI5LiO55So5oi355yf5a6e5pON5L2c5LiA6Ie077yJ77yMCi8vIOWboOatpOWNleasoeiAl+aXtueahOacgOWkp+WAvOWwseaYr+eVjOmdouWPr+iDveiiq+mYu+WhnueahOacgOmVv+aXtumXtOOAggpmdW5jIChhICpBcHApIHJ1blN0cmVzcyhuIGludCkgewoJY29uc3QgZnVsbCA9ICJoMmUyIGg5ZzcgYzNjNCBpOWg5IGIwYzIgYjljNyBhMGIwIGE5YjkgaDBnMiBoN2gzIGkwaDAgYjdiMyIKCWJhc2UsIF8gOj0gbm90YXRpb24uUGFyc2VNb3ZlTGlzdChmdWxsKQoJaWYgbGVuKGJhc2UpID09IDAgewoJCXJldHVybgoJfQoJc2VxIDo9IG1ha2UoW11zdHJpbmcsIDAsIGxlbihiYXNlKSkKCXZhciB3b3JzdCB0aW1lLkR1cmF0aW9uCglzdGFydCA6PSB0aW1lLk5vdygpCglmb3IgaSA6PSAwOyBpIDwgbjsgaSsrIHsKCQlrIDo9IChpICUgbGVuKGJhc2UpKSArIDEKCQlzZXEgPSBzZXFbOjBdCgkJZm9yIF8sIG0gOj0gcmFuZ2UgYmFzZVs6a10gewoJCQlzZXEgPSBhcHBlbmQoc2VxLCBtLlN0cmluZygpKQoJCX0KCQl0MCA6PSB0aW1lLk5vdygpCgkJYS5hcHBseVNlcXVlbmNlKHN0cmluZ3MuSm9pbihzZXEsICIgIiksIHRydWUpCgkJYS5jb3B5QmVzdE1vdmUoKQoJCWlmIGQgOj0gdGltZS5TaW5jZSh0MCk7IGQgPiB3b3JzdCB7CgkJCXdvcnN0ID0gZAoJCX0KCX0KCWVsYXBzZWQgOj0gdGltZS5TaW5jZShzdGFydCkKCW1zZyA6PSBmbXQuU3ByaW50Zigi5Y6L5Yqb5rWL6K+V77ya6L+e57utICVkIOasoeOAjOeymOi0tOedgOazleW6j+WIlyArIOWkjeWItuacgOS9s+edgOazleOAjeaAu+eUqOaXtiAlc++8jOWNleasoeacgOaFoiAlc++8iOW5s+WdhyAlc++8iSIsCgkJbiwgZWxhcHNlZC5Sb3VuZCh0aW1lLk1pbGxpc2Vjb25kKSwgd29yc3QuUm91bmQodGltZS5NaWxsaXNlY29uZCksCgkJKGVsYXBzZWQgLyB0aW1lLkR1cmF0aW9uKG4pKS5Sb3VuZCh0aW1lLk1pY3Jvc2Vjb25kKSkKCWEuc2V0U3RhdHVzSW5mbyhtc2cpCglhLnRvYXN0KG1zZykKCWZtdC5GcHJpbnRmKG9zLlN0ZGVyciwgIltzdHJlc3NdICVzXG4iLCBtc2cpCn0K
+package ui
+
+import (
+	"fmt"
+	"image/png"
+	"os"
+	"strconv"
+	"strings"
+	"time"
+
+	"fyne.io/fyne/v2"
+
+	"xiangqi/notation"
+)
+
+// 本文件提供「可复现验证钩子」。
+//
+// 设计原则：这些钩子**只在设置了对应环境变量时生效**；用户双击 xiangqi.exe
+// 正常运行时一个都不会触发，因此不影响交付物的行为。
+//
+//	XQ_MOVES="h2e2 h9g7"     启动后自动应用一段 UCI 着法序列（等价于在「粘贴输入」里粘贴）
+//	XQ_MODE=bridge|match     启动后切换到指定模式
+//	XQ_PARAMS=1              启动后打开「引擎参数」对话框（v1.5：参数面板已移进菜单）
+//	XQ_SHOW_ENGINES=1        启动后打开「引擎管理」窗口
+//	XQ_AUTOMATCH=3           启动后自动开始 3 局对战（用当前引擎与时间控制设置）
+//	XQ_FONT=standard|large|xlarge  启动后**实时**切换字号档位（默认档是 standard）
+//	XQ_HELP=1                启动后打开「新手三步上手」
+//	XQ_SHOT=path.png         在 XQ_SHOT_DELAY 秒后把界面自身渲染结果存为 PNG
+//	XQ_SHOT_WINDOW=main|engines  截图目标窗口，默认 main
+//	XQ_SHOT_DELAY=8          截图延迟秒数，默认 8
+//	XQ_QUIT=5                截图后再等 5 秒自动退出（用于脚本化验证）
+//	XQ_CONFIG=path.json      用指定配置文件运行（不碰用户的 config.json）
+//	XQ_DIAG=1                每秒打印一次状态机快照（模式 / 轮到谁 / 棋盘可否点 / 引擎进程）
+//	XQ_MAXSTRENGTH=1         3 秒后调用「最强引擎模式」开关（menu 里同一入口）
+//	XQ_BENCH=1               3 秒后跑一次「10 秒基准」
+//	XQ_BENCH_DELAY=15        上面那次基准的延迟秒数，默认 3
+//	XQ_MOVES2="h2e2"         启动 N 秒后**再**粘贴一次着法序列（复现"同一局面第二次走到"）
+//	XQ_MOVES2_DELAY=10       上面那次粘贴的延迟秒数，默认 10
+//
+// 为什么用 Canvas().Capture() 而不是抓屏：抓屏会经过系统的 DPI 虚拟化，
+// 得到的图像与界面真实布局不是 1:1；Capture() 直接取 Fyne 画布，像素级准确。
+func (a *App) applyVerifyHooks() {
+	// XQ_DIAG=1：每秒一行状态机快照。
+	//
+	// 为什么需要：「棋盘根本动不了」这句话里藏着三种完全不同的故障——
+	// ① 轮到引擎但引擎不交招（引擎/时限层）；② 棋盘被判定为不可交互（界面层）；
+	// ③ 界面线程被饿死（进程层，表现为 fyne.Do 排队、这一行不再打印）。
+	// 从窗口外面看不出是哪一种，所以把判定结果和引擎进程实况按时间轴打出来。
+	if os.Getenv("XQ_DIAG") != "" {
+		go func() {
+			tk := time.NewTicker(time.Second)
+			defer tk.Stop()
+			start := time.Now()
+			for range tk.C {
+				select {
+				case <-a.closing:
+					return
+				default:
+				}
+				fyne.Do(func() {
+					pid, cpu := 0, 0.0
+					if c := a.analysisClient(); c != nil {
+						pid = c.PID()
+						cpu = EngineCPUSeconds(pid)
+					}
+					fmt.Fprintf(os.Stderr,
+						"[diag] t=%.0fs mode=%s engineOff=%v humanTurn=%v interactive=%v viewing=%d edit=%v analyzing=%v moves=%d toMove=%v pid=%d engCPU=%.1fs cfg{t=%d h=%d multi=%d limit=%s depth=%d max=%v}\n",
+						time.Since(start).Seconds(), a.curMode, a.engineOff.Load(), a.isHumanTurn(),
+						a.canBoardAcceptInput(), a.viewing, a.editMode, a.analyzing.Load(),
+						len(a.game.Moves), a.game.Board.Side, pid, cpu,
+						a.cfg.Threads, a.cfg.Hash, a.cfg.MultiPV, a.cfg.TimeMode, a.cfg.Depth, a.cfg.MaxStrength)
+				})
+			}
+		}()
+	}
+	// XQ_MOVES2：延迟一段时间后再粘贴一次同一段着法序列。
+	//
+	// 为什么需要：人机对弈里"同一个局面第二次走到"（悔棋重走、或重新粘贴同一段序列）
+	// 会命中局面分析缓存，而缓存分支只回放结果、不交招 —— 那正是"棋盘动不了"的一种形态。
+	// 这个钩子把该路径变成一条可复现的命令。
+	if seq2 := os.Getenv("XQ_MOVES2"); seq2 != "" {
+		delay := 10
+		if v := os.Getenv("XQ_MOVES2_DELAY"); v != "" {
+			if k, err := strconv.Atoi(v); err == nil && k >= 0 {
+				delay = k
+			}
+		}
+		go func() {
+			time.Sleep(time.Duration(delay) * time.Second)
+			fyne.Do(func() {
+				fmt.Fprintf(os.Stderr, "[hook] 第二次粘贴着法序列 %q（第 %d 秒）\n", seq2, delay)
+				a.applySequence(seq2, true)
+			})
+		}()
+	}
+	// XQ_MAXSTRENGTH=1：走一遍「最强引擎模式」菜单项背后的同一个函数。
+	if os.Getenv("XQ_MAXSTRENGTH") != "" {
+		go func() {
+			time.Sleep(3 * time.Second)
+			fyne.Do(func() {
+				fmt.Fprintf(os.Stderr, "[hook] 调用 ToggleMaxStrength（前：max=%v t=%d h=%d）\n",
+					a.cfg.MaxStrength, a.cfg.Threads, a.cfg.Hash)
+				a.ToggleMaxStrength()
+			})
+		}()
+	}
+	// XQ_BENCH=1：走一遍「跑 10 秒基准」菜单项背后的同一个函数（结果自己打到 stderr）。
+	if os.Getenv("XQ_BENCH") != "" {
+		delay := 3
+		if v := os.Getenv("XQ_BENCH_DELAY"); v != "" {
+			if k, err := strconv.Atoi(v); err == nil && k >= 0 {
+				delay = k
+			}
+		}
+		go func() {
+			time.Sleep(time.Duration(delay) * time.Second)
+			fyne.Do(func() { a.RunBenchmark() })
+		}()
+	}
+	if seq := os.Getenv("XQ_MOVES"); seq != "" {
+		a.applySequence(seq, true)
+	}
+	if m := os.Getenv("XQ_MODE"); m != "" {
+		a.SetMode(m)
+	}
+	// 【v1.5 简化】原来的 XQ_TAB（切底部页签）随页签一起取消：
+	// 底部只剩「粘贴输入」一件事，参数面板已移进菜单「引擎参数…」。
+	// 需要脚本化打开参数对话框时用 XQ_PARAMS=1。
+	if os.Getenv("XQ_PARAMS") != "" {
+		go func() {
+			time.Sleep(2 * time.Second)
+			fyne.Do(func() { a.ShowEngineParams() })
+		}()
+	}
+	if os.Getenv("XQ_SHOW_ENGINES") != "" {
+		a.ShowEngineManager()
+	}
+	if os.Getenv("XQ_RESCAN") != "" {
+		go func() {
+			time.Sleep(1200 * time.Millisecond)
+			fyne.Do(func() { a.RescanEngines(false) })
+		}()
+	}
+	// XQ_FONT=standard|large|xlarge：启动后**实时**切换字号档位（走的是菜单同一条代码路径），
+	// 用于验证「不重启也能换档」。会把切换前后的档位打到 stderr，供脚本取证。
+	if v := os.Getenv("XQ_FONT"); v != "" {
+		go func() {
+			time.Sleep(2500 * time.Millisecond)
+			fyne.Do(func() {
+				before := describeFontScale()
+				a.SetFontTier(v)
+				fmt.Fprintf(os.Stderr, "[font] %s -> %s（实时切换，未重启）\n", before, describeFontScale())
+			})
+		}()
+	}
+	// XQ_HELP=1：启动后打开「快速上手」，用于人工核对这份说明的可读性。
+	if os.Getenv("XQ_HELP") != "" {
+		go func() {
+			time.Sleep(2 * time.Second)
+			fyne.Do(func() { a.ShowQuickStart() })
+		}()
+	}
+	// XQ_MENUSMOKE=1：**逐个点一遍菜单里的每一项**，用于查出「点了没反应」「一点就崩」
+	// 这类菜单缺陷。做三件事：
+	//   1. 打印菜单结构（顶级项 + 子项数量），核对有没有漏项；
+	//   2. 逐项调用 Action（每项之间停 400ms，截图/日志能看出卡在哪一项）；
+	//   3. 调完一项就把弹出来的对话框收掉，避免十几层叠在一起互相遮挡。
+	// 任何一项 panic 都会带着「刚点的是哪一项」打到 stderr，这就是缺陷定位。
+	if os.Getenv("XQ_MENUSMOKE") != "" {
+		go func() {
+			time.Sleep(3 * time.Second)
+			items := a.collectMenuItems()
+			fmt.Fprintf(os.Stderr, "[menu] 共 %d 个菜单项\n", len(items))
+			for i, it := range items {
+				n := i
+				item := it
+				func() {
+					defer func() {
+						if r := recover(); r != nil {
+							fmt.Fprintf(os.Stderr, "[menu] PANIC #%d %s: %v\n", n+1, item.Label, r)
+						}
+					}()
+					fmt.Fprintf(os.Stderr, "[menu] #%d %s\n", n+1, item.Label)
+					fyne.Do(func() {
+						if item.Action != nil {
+							item.Action()
+						}
+					})
+				}()
+				time.Sleep(400 * time.Millisecond)
+				fyne.Do(func() { a.closeTopOverlay() })
+				time.Sleep(150 * time.Millisecond)
+			}
+			fmt.Fprintf(os.Stderr, "[menu] 菜单体检结束\n")
+		}()
+	}
+	// XQ_CANDPV=1：展开第 1 条变招的「后续走法」，用于核对点开后的显示。
+	if os.Getenv("XQ_CANDPV") != "" {
+		go func() {
+			time.Sleep(9 * time.Second)
+			fyne.Do(func() {
+				if a.cands != nil && len(a.cands.rows) > 0 {
+					a.cands.rows[0].toggleDetail()
+					fmt.Fprintln(os.Stderr, "[candpv] 已展开第 1 条变招的后续走法")
+				}
+			})
+		}()
+	}
+	// XQ_DEBUG=1：除启动时的版面打印外，12 秒后再打一次——
+	// 展开变招后续走法之类的操作会让最小尺寸变化，第二次快照才反映真实状态。
+	if os.Getenv("XQ_DEBUG") != "" {
+		go func() {
+			time.Sleep(12 * time.Second)
+			fyne.Do(func() {
+				fmt.Fprintln(os.Stderr, "===== 延时版面快照（钩子执行之后）=====")
+				a.dumpLayout()
+			})
+		}()
+	}
+	// XQ_THINKSET=NN：**用代码走一遍真实路径**——打开思考设置、把输入框改成 NN、
+	// 点「保存并立即生效」，并把每一步打到 stderr。用于定位「改了不生效」这类问题。
+	if v := os.Getenv("XQ_THINKSET"); v != "" {
+		go func() {
+			time.Sleep(3 * time.Second)
+			fyne.Do(func() {
+				fmt.Fprintf(os.Stderr, "[think] 前：cfg.Depth=%d timeMode=%q\n", a.cfg.Depth, a.cfg.TimeMode)
+				a.ShowThinkSettings()
+			})
+			time.Sleep(1 * time.Second)
+			fyne.Do(func() {
+				if a.thinkDepth == nil {
+					fmt.Fprintln(os.Stderr, "[think] 控件为空：对话框没建出来")
+					return
+				}
+				a.thinkDepth.SetText(v)
+				fmt.Fprintf(os.Stderr, "[think] 已把输入框设为 %q（对话框内当前值 %q）\n", v, a.thinkDepth.Text)
+			})
+			time.Sleep(500 * time.Millisecond)
+			fyne.Do(func() {
+				if a.thinkMode != nil {
+					a.thinkMode.SetSelected("固定深度")
+				}
+				if a.thinkSaveBtn != nil {
+					a.thinkSaveBtn.OnTapped()
+				} else {
+					fmt.Fprintln(os.Stderr, "[think] 保存按钮为空")
+				}
+				fmt.Fprintf(os.Stderr, "[think] 后：cfg.Depth=%d timeMode=%q\n", a.cfg.Depth, a.cfg.TimeMode)
+			})
+		}()
+	}
+	// XQ_THINK=1：打开「思考设置」对话框（核对无上限深度输入框与放大后的按钮）。
+	if os.Getenv("XQ_THINK") != "" {
+		go func() {
+			time.Sleep(2 * time.Second)
+			fyne.Do(func() { a.ShowThinkSettings() })
+		}()
+	}
+	// XQ_DETAIL=1：展开「思考细节」，用于核对统计行格式（深度 / 分数 / NPS / 时间）。
+	if os.Getenv("XQ_DETAIL") != "" {
+		go func() {
+			time.Sleep(3 * time.Second)
+			fyne.Do(func() {
+				if a.best != nil && a.best.btnDetail != nil {
+					a.best.btnDetail.OnTapped()
+				}
+			})
+		}()
+	}
+	if n := os.Getenv("XQ_AUTOMATCH"); n != "" {
+		if games, err := strconv.Atoi(n); err == nil && games > 0 {
+			a.cfg.MatchGames = games
+			if a.matchView != nil {
+				a.matchView.gamesSlider.Value = float64(games)
+				a.matchView.refreshValues()
+			}
+			a.setStatusInfo(fmt.Sprintf("验证钩子：%d 秒后自动开始 %d 局对战", 3, games))
+			go func() {
+				time.Sleep(3 * time.Second)
+				fyne.Do(func() { a.matchView.Start() })
+			}()
+		}
+	}
+	if v := os.Getenv("XQ_STRESS"); v != "" {
+		if n, err := strconv.Atoi(v); err == nil && n > 0 {
+			go func() {
+				time.Sleep(6 * time.Second)
+				fyne.Do(func() { a.runStress(n) })
+			}()
+		}
+	}
+	// XQ_AUTOSPLIT=1：启动后调用「按核心数自动平均分配」按钮背后的**同一个函数**，
+	// 用于在无法用真实点击触达该按钮（面板需要滚动）时验证 R5 的分配逻辑。
+	// 它只改 cfg.SelfThreads / cfg.OppThreads 并 SaveConfig，不触碰任何其它状态。
+	if os.Getenv("XQ_AUTOSPLIT") != "" {
+		go func() {
+			time.Sleep(4 * time.Second)
+			fyne.Do(func() {
+				if a.matchView != nil {
+					a.matchView.autoSplitThreads()
+					fmt.Fprintf(os.Stderr, "[hook] XQ_AUTOSPLIT 已执行 autoSplitThreads()\n")
+					a.dumpLayout()
+				}
+			})
+		}()
+	}
+	if path := os.Getenv("XQ_SHOT"); path != "" {
+		delay := 8
+		if v := os.Getenv("XQ_SHOT_DELAY"); v != "" {
+			if k, err := strconv.Atoi(v); err == nil && k >= 0 {
+				delay = k
+			}
+		}
+		go func() {
+			time.Sleep(time.Duration(delay) * time.Second)
+			fyne.Do(func() { a.saveCanvasShot(path) })
+			if v := os.Getenv("XQ_QUIT"); v != "" {
+				if k, err := strconv.Atoi(v); err == nil && k >= 0 {
+					time.Sleep(time.Duration(k) * time.Second)
+					a.shutdown()
+					fyne.Do(func() { a.fyneApp.Quit() })
+				}
+			}
+		}()
+	} else if v := os.Getenv("XQ_QUIT"); v != "" {
+		if k, err := strconv.Atoi(v); err == nil && k >= 0 {
+			go func() {
+				time.Sleep(time.Duration(k) * time.Second)
+				a.shutdown()
+				fyne.Do(func() { a.fyneApp.Quit() })
+			}()
+		}
+	}
+}
+
+func (a *App) saveCanvasShot(path string) {
+	target := a.win
+	if os.Getenv("XQ_SHOT_WINDOW") == "engines" && a.engMgrWin != nil {
+		target = a.engMgrWin
+	}
+	if target == nil {
+		return
+	}
+	img := target.Canvas().Capture()
+	if img == nil {
+		fmt.Fprintln(os.Stderr, "[shot] canvas capture returned nil")
+		return
+	}
+	f, err := os.Create(path)
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "[shot] create failed: %v\n", err)
+		return
+	}
+	defer f.Close()
+	if err := png.Encode(f, img); err != nil {
+		fmt.Fprintf(os.Stderr, "[shot] encode failed: %v\n", err)
+		return
+	}
+	fmt.Fprintf(os.Stderr, "[shot] saved %s %v\n", path, img.Bounds().Size())
+}
+
+// runStress 连续 n 次「从粘贴区应用着法序列 + 一键复制最佳着法」，
+// 用于验证桥接模式的高频输入不会卡住界面（对应需求「连续粘贴/复制 50 次无卡顿」）。
+//
+// 每次迭代都在主 goroutine 上同步执行（与用户真实操作一致），
+// 因此单次耗时的最大值就是界面可能被阻塞的最长时间。
+func (a *App) runStress(n int) {
+	const full = "h2e2 h9g7 c3c4 i9h9 b0c2 b9c7 a0b0 a9b9 h0g2 h7h3 i0h0 b7b3"
+	base, _ := notation.ParseMoveList(full)
+	if len(base) == 0 {
+		return
+	}
+	seq := make([]string, 0, len(base))
+	var worst time.Duration
+	start := time.Now()
+	for i := 0; i < n; i++ {
+		k := (i % len(base)) + 1
+		seq = seq[:0]
+		for _, m := range base[:k] {
+			seq = append(seq, m.String())
+		}
+		t0 := time.Now()
+		a.applySequence(strings.Join(seq, " "), true)
+		a.copyBestMove()
+		if d := time.Since(t0); d > worst {
+			worst = d
+		}
+	}
+	elapsed := time.Since(start)
+	msg := fmt.Sprintf("压力测试：连续 %d 次「粘贴着法序列 + 复制最佳着法」总用时 %s，单次最慢 %s（平均 %s）",
+		n, elapsed.Round(time.Millisecond), worst.Round(time.Millisecond),
+		(elapsed / time.Duration(n)).Round(time.Microsecond))
+	a.setStatusInfo(msg)
+	a.toast(msg)
+	fmt.Fprintf(os.Stderr, "[stress] %s\n", msg)
+}

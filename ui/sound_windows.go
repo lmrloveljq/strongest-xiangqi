@@ -1,1 +1,158 @@
-Ly9nbzpidWlsZCB3aW5kb3dzCgpwYWNrYWdlIHVpCgppbXBvcnQgKAoJImVuY29kaW5nL2JpbmFyeSIKCSJtYXRoIgoJIm9zIgoJInBhdGgvZmlsZXBhdGgiCgkic3luYyIKCSJzeW5jL2F0b21pYyIKCSJzeXNjYWxsIgoJInVuc2FmZSIKKQoKLy8g5pys5paH5Lu25a6e546w6LWw5a2QIC8g5ZCD5a2QIC8g5bCG5Yab5LiJ56eN6Z+z5pWI44CCCi8vCi8vIOiuvuiuoeWPluiIje+8mgovLyAgIC0gKirkuI3lvJXlhaXku7vkvZXnrKzkuInmlrnpn7PpopHlupMqKu+8iOacrOS+i+imgeS6pOS7mOWNleaWh+S7tiBleGXjgIHpm7bov5DooYzml7bkvp3otZbvvInvvJsKLy8gICAtIOS4ieS4qumfs+aViOWcqOmmluasoeS9v+eUqOaXtueUqOS7o+eggeWQiOaIkCAxNmJpdCBQQ00gV0FW77yM6JC95YiwICVURU1QJSDkuIvkuIDmrKHvvIwKLy8gICAgIOS5i+WQjueUqCBXaW4zMiDnmoQgUGxheVNvdW5kKFNORF9BU1lOQykg5byC5q2l5pKt5pS+77yM57ud5LiN6Zi75aGe55WM6Z2i77ybCi8vICAgLSDmkq3mlL7lpLHotKXvvIjorr7lpIflv5kgLyDml6Dpn7PpopHorr7lpIfvvInkuIDlvovpnZnpu5jlv73nlaXvvIzkuI3lvbHlk43kuIvmo4vjgIIKLy8KLy8g55So5oi36KaB5rGC77ya5bCG5YabKirlj6ropoHkuI3lkIznmoTpn7PmlYgqKu+8jOS4jeimgeOAjOiiq+WwhuWGm+eahOWwhi/luIXnuqLmoYbpl6rng4HjgI3igJTigJQKLy8g5omA5Lul5qOL55uY6YKj6L655bey57uP5LiN55S75Lu75L2V5bCG5Yab6auY5Lqu5LqG77yM5o+Q56S65Y+q6Z2g5aOw6Z+zICsg54q25oCB5qCP5paH5a2X44CCCgp2YXIgKAoJd2lubW0gICAgICAgICAgPSBzeXNjYWxsLk5ld0xhenlETEwoIndpbm1tLmRsbCIpCglwcm9jUGxheVNvdW5kVyA9IHdpbm1tLk5ld1Byb2MoIlBsYXlTb3VuZFciKQopCgpjb25zdCAoCglzbmRBc3luYyAgICAgPSAweDAwMDEKCXNuZE5vRGVmYXVsdCA9IDB4MDAwMgoJc25kRmlsZW5hbWUgID0gMHgwMDAyMDAwMAopCgp2YXIgKAoJc291bmRPbmNlICBzeW5jLk9uY2UKCXNvdW5kUGF0aHMgWzNdc3RyaW5nIC8vIDA96LWw5a2QIDE95ZCD5a2QIDI95bCG5YabCgkvLyBzb3VuZE9mZu+8mueUqOaIt+WcqOOAjOiuvue9riDihpIg6LWw5qOL6Z+z5pWI44CN6YeM5YWz5o6J5ZCO5Li655yfCglzb3VuZE9mZiBhdG9taWMuQm9vbAopCgovLyBzZXRTb3VuZEVuYWJsZWQg6K6+572u6Z+z5pWI5oC75byA5YWz44CCCmZ1bmMgc2V0U291bmRFbmFibGVkKG9uIGJvb2wpIHsgc291bmRPZmYuU3RvcmUoIW9uKSB9CgovLyBwbGF5U291bmQg5byC5q2l5pKt5pS+56ysIGlkeCDkuKrpn7PmlYjvvIgwPei1sOWtkCAxPeWQg+WtkCAyPeWwhuWGm++8ieOAggpmdW5jIHBsYXlTb3VuZChpZHggaW50KSB7CglpZiBzb3VuZE9mZi5Mb2FkKCkgewoJCXJldHVybgoJfQoJc291bmRPbmNlLkRvKHByZXBhcmVTb3VuZHMpCglpZiBpZHggPCAwIHx8IGlkeCA+PSBsZW4oc291bmRQYXRocykgfHwgc291bmRQYXRoc1tpZHhdID09ICIiIHsKCQlyZXR1cm4KCX0KCXAsIGVyciA6PSBzeXNjYWxsLlVURjE2UHRyRnJvbVN0cmluZyhzb3VuZFBhdGhzW2lkeF0pCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4KCX0KCXByb2NQbGF5U291bmRXLkNhbGwodWludHB0cih1bnNhZmUuUG9pbnRlcihwKSksIDAsCgkJdWludHB0cihzbmRBc3luY3xzbmRGaWxlbmFtZXxzbmROb0RlZmF1bHQpKQp9CgovLyBwcmVwYXJlU291bmRzIOWQiOaIkOS4ieS4qiBXQVYg5bm25YaZ5Yiw5Li05pe255uu5b2V44CCCmZ1bmMgcHJlcGFyZVNvdW5kcygpIHsKCWRpciA6PSBmaWxlcGF0aC5Kb2luKG9zLlRlbXBEaXIoKSwgInhpYW5ncWktc291bmQiKQoJXyA9IG9zLk1rZGlyQWxsKGRpciwgMG83NTUpCgoJLy8g6LWw5a2Q77ya55+t5L+D5bmy5YeA55qE44CM5ZeS44CNCgltb3ZlIDo9IHN5bnRoVG9uZShbXXRvbmVTZWd7e2ZyZXE6IDEwMDAsIG1zOiAzOCwgZ2FpbjogMC4zOCwgZGVjYXk6IDMwfX0pCgkvLyDlkIPlrZDvvJrmuIXohIbnmoTjgIzlkpTjgI3jgIIKCS8vIOazqOaEj++8muWOn+adpeeUqOeahOaYryAyNDBIeiDigJTigJQg6YKj5piv56yU6K6w5pys5ZaH5Y+t5Yeg5LmO5pS+5LiN5Ye65p2l55qE5L2O6aKR77yMCgkvLyDmiYDku6XnlKjmiLflj43ppojjgIzlkIPlrZDml6Dpn7PmlYjjgI3jgILmlLnmiJAgNjIwSHog5Li76Z+zICsgMzAwSHog5bC+6Z+z77yMCgkvLyDliY0gMjVtcyDmt7flhaXlmarlo7DlgZrjgIzmkp7lh7vlpLTjgI3vvIzlkozotbDlrZDlo7DlnKjpn7PoibLkuIrljLrliIblvpflvojmmI7mmL7jgIIKCWNhcHR1cmUgOj0gc3ludGhUb25lKFtddG9uZVNlZ3sKCQl7ZnJlcTogNjIwLCBtczogNDUsIGdhaW46IDAuNjIsIGRlY2F5OiAzNCwgbm9pc2U6IDAuNjJ9LAoJCXtmcmVxOiAzMDAsIG1zOiA3MCwgZ2FpbjogMC40MCwgZGVjYXk6IDIyLCBub2lzZTogMC4xOH0sCgl9KQoJLy8g5bCG5Yab77ya5Lik5q615LiL6KGM6K2m56S66Z+z77yM5LiO5LiK6Z2i5Lik5Liq5piO5pi+5LiN5ZCM77yIMTI0MEh64oaSODIwSHrvvIzlhbEgMTgwbXPvvIkKCWNoZWNrIDo9IHN5bnRoVG9uZShbXXRvbmVTZWd7CgkJe2ZyZXE6IDEyNDAsIG1zOiA5MCwgZ2FpbjogMC40MiwgZGVjYXk6IDEyfSwKCQl7ZnJlcTogODIwLCBtczogOTAsIGdhaW46IDAuNDIsIGRlY2F5OiAxMn0sCgl9KQoKCW5hbWVzIDo9IFszXXN0cmluZ3sibW92ZS53YXYiLCAiY2FwdHVyZS53YXYiLCAiY2hlY2sud2F2In0KCWRhdGEgOj0gWzNdW11ieXRle21vdmUsIGNhcHR1cmUsIGNoZWNrfQoJZm9yIGkgOj0gcmFuZ2UgbmFtZXMgewoJCXAgOj0gZmlsZXBhdGguSm9pbihkaXIsIG5hbWVzW2ldKQoJCWlmIGVyciA6PSBvcy5Xcml0ZUZpbGUocCwgZGF0YVtpXSwgMG82NDQpOyBlcnIgPT0gbmlsIHsKCQkJc291bmRQYXRoc1tpXSA9IHAKCQl9Cgl9Cn0KCnR5cGUgdG9uZVNlZyBzdHJ1Y3QgewoJZnJlcSAgZmxvYXQ2NCAvLyDln7rpopEgSHoKCW1zICAgIGludCAgICAgLy8g5pe26ZW/CglnYWluICBmbG9hdDY0IC8vIOaMr+W5hSAwfjEKCWRlY2F5IGZsb2F0NjQgLy8g5oyH5pWw6KGw5YeP57O75pWw77yI6LaK5aSn6KGw5YeP6LaK5b+r77yJCglub2lzZSBmbG9hdDY0IC8vIOWZquWjsOa3t+WFpeavlOS+iyAwfjEKfQoKY29uc3Qgc291bmRSYXRlID0gMjIwNTAKCi8vIHN5bnRoVG9uZSDmioroi6XlubLpn7PmrrXlkIjmiJDkuLogMTZiaXQg5Y2V5aOw6YGTIFdBViDlrZfoioLmtYHjgIIKZnVuYyBzeW50aFRvbmUoc2VncyBbXXRvbmVTZWcpIFtdYnl0ZSB7Cgl2YXIgcGNtIFtdaW50MTYKCXBoYXNlIDo9IDAuMAoJLy8g5Zu65a6a56eN5a2Q55qE566A5Y2VIExDR++8jOS/neivgeavj+asoeeUn+aIkOeahOWZquWjsOWujOWFqOS4gOiHtO+8iOS+v+S6juWkjeeOsO+8iQoJc2VlZCA6PSB1aW50MzIoMjAyNjEwMDcpCglmb3IgXywgcyA6PSByYW5nZSBzZWdzIHsKCQluIDo9IHNvdW5kUmF0ZSAqIHMubXMgLyAxMDAwCgkJZm9yIGkgOj0gMDsgaSA8IG47IGkrKyB7CgkJCXQgOj0gZmxvYXQ2NChpKSAvIGZsb2F0NjQoc291bmRSYXRlKQoJCQllbnYgOj0gbWF0aC5FeHAoLXMuZGVjYXkgKiB0KQoJCQl2IDo9IG1hdGguU2luKHBoYXNlKQoJCQlwaGFzZSArPSAyICogbWF0aC5QaSAqIHMuZnJlcSAvIGZsb2F0NjQoc291bmRSYXRlKQoJCQlpZiBzLm5vaXNlID4gMCB7CgkJCQlzZWVkID0gc2VlZCoxNjY0NTI1ICsgMTAxMzkwNDIyMwoJCQkJbnogOj0gZmxvYXQ2NChpbnQzMihzZWVkPj44KSUyMDAwMS0xMDAwMCkgLyAxMDAwMC4wCgkJCQl2ID0gdiooMS1zLm5vaXNlKSArIG56KnMubm9pc2UKCQkJfQoJCQlzYW1wbGUgOj0gdiAqIGVudiAqIHMuZ2FpbgoJCQlpZiBzYW1wbGUgPiAxIHsKCQkJCXNhbXBsZSA9IDEKCQkJfSBlbHNlIGlmIHNhbXBsZSA8IC0xIHsKCQkJCXNhbXBsZSA9IC0xCgkJCX0KCQkJcGNtID0gYXBwZW5kKHBjbSwgaW50MTYoc2FtcGxlKjMyMDAwKSkKCQl9Cgl9CgoJLy8gV0FWIOWktO+8iDQ0IOWtl+iKgu+8iQoJZGF0YUxlbiA6PSBsZW4ocGNtKSAqIDIKCWJ1ZiA6PSBtYWtlKFtdYnl0ZSwgMCwgNDQrZGF0YUxlbikKCWxlIDo9IGJpbmFyeS5MaXR0bGVFbmRpYW4KCXB1dDMyIDo9IGZ1bmModiB1aW50MzIpIHsgYiA6PSBtYWtlKFtdYnl0ZSwgNCk7IGxlLlB1dFVpbnQzMihiLCB2KTsgYnVmID0gYXBwZW5kKGJ1ZiwgYi4uLikgfQoJcHV0MTYgOj0gZnVuYyh2IHVpbnQxNikgeyBiIDo9IG1ha2UoW11ieXRlLCAyKTsgbGUuUHV0VWludDE2KGIsIHYpOyBidWYgPSBhcHBlbmQoYnVmLCBiLi4uKSB9CgoJYnVmID0gYXBwZW5kKGJ1ZiwgJ1InLCAnSScsICdGJywgJ0YnKQoJcHV0MzIodWludDMyKDM2ICsgZGF0YUxlbikpCglidWYgPSBhcHBlbmQoYnVmLCAnVycsICdBJywgJ1YnLCAnRScpCglidWYgPSBhcHBlbmQoYnVmLCAnZicsICdtJywgJ3QnLCAnICcpCglwdXQzMigxNikgICAgICAgICAgICAvLyBmbXQg5Z2X6ZW/5bqmCglwdXQxNigxKSAgICAgICAgICAgICAvLyBQQ00KCXB1dDE2KDEpICAgICAgICAgICAgIC8vIOWNleWjsOmBkwoJcHV0MzIoc291bmRSYXRlKSAgICAgLy8g6YeH5qC3546HCglwdXQzMihzb3VuZFJhdGUgKiAyKSAvLyDlrZfoioLnjocKCXB1dDE2KDIpICAgICAgICAgICAgIC8vIOWdl+Wvuem9kAoJcHV0MTYoMTYpICAgICAgICAgICAgLy8g5L2N5rexCglidWYgPSBhcHBlbmQoYnVmLCAnZCcsICdhJywgJ3QnLCAnYScpCglwdXQzMih1aW50MzIoZGF0YUxlbikpCglmb3IgXywgcyA6PSByYW5nZSBwY20gewoJCXB1dDE2KHVpbnQxNihzKSkKCX0KCXJldHVybiBidWYKfQo=
+//go:build windows
+
+package ui
+
+import (
+	"encoding/binary"
+	"math"
+	"os"
+	"path/filepath"
+	"sync"
+	"sync/atomic"
+	"syscall"
+	"unsafe"
+)
+
+// 本文件实现走子 / 吃子 / 将军三种音效。
+//
+// 设计取舍：
+//   - **不引入任何第三方音频库**（本例要交付单文件 exe、零运行时依赖）；
+//   - 三个音效在首次使用时用代码合成 16bit PCM WAV，落到 %TEMP% 下一次，
+//     之后用 Win32 的 PlaySound(SND_ASYNC) 异步播放，绝不阻塞界面；
+//   - 播放失败（设备忙 / 无音频设备）一律静默忽略，不影响下棋。
+//
+// 用户要求：将军**只要不同的音效**，不要「被将军的将/帅红框闪烁」——
+// 所以棋盘那边已经不画任何将军高亮了，提示只靠声音 + 状态栏文字。
+
+var (
+	winmm          = syscall.NewLazyDLL("winmm.dll")
+	procPlaySoundW = winmm.NewProc("PlaySoundW")
+)
+
+const (
+	sndAsync     = 0x0001
+	sndNoDefault = 0x0002
+	sndFilename  = 0x00020000
+)
+
+var (
+	soundOnce  sync.Once
+	soundPaths [3]string // 0=走子 1=吃子 2=将军
+	// soundOff：用户在「设置 → 走棋音效」里关掉后为真
+	soundOff atomic.Bool
+)
+
+// setSoundEnabled 设置音效总开关。
+func setSoundEnabled(on bool) { soundOff.Store(!on) }
+
+// playSound 异步播放第 idx 个音效（0=走子 1=吃子 2=将军）。
+func playSound(idx int) {
+	if soundOff.Load() {
+		return
+	}
+	soundOnce.Do(prepareSounds)
+	if idx < 0 || idx >= len(soundPaths) || soundPaths[idx] == "" {
+		return
+	}
+	p, err := syscall.UTF16PtrFromString(soundPaths[idx])
+	if err != nil {
+		return
+	}
+	procPlaySoundW.Call(uintptr(unsafe.Pointer(p)), 0,
+		uintptr(sndAsync|sndFilename|sndNoDefault))
+}
+
+// prepareSounds 合成三个 WAV 并写到临时目录。
+func prepareSounds() {
+	dir := filepath.Join(os.TempDir(), "xiangqi-sound")
+	_ = os.MkdirAll(dir, 0o755)
+
+	// 走子：短促干净的「嗒」
+	move := synthTone([]toneSeg{{freq: 1000, ms: 38, gain: 0.38, decay: 30}})
+	// 吃子：清脆的「咔」。
+	// 注意：原来用的是 240Hz —— 那是笔记本喇叭几乎放不出来的低频，
+	// 所以用户反馈「吃子无音效」。改成 620Hz 主音 + 300Hz 尾音，
+	// 前 25ms 混入噪声做「撞击头」，和走子声在音色上区分得很明显。
+	capture := synthTone([]toneSeg{
+		{freq: 620, ms: 45, gain: 0.62, decay: 34, noise: 0.62},
+		{freq: 300, ms: 70, gain: 0.40, decay: 22, noise: 0.18},
+	})
+	// 将军：两段下行警示音，与上面两个明显不同（1240Hz→820Hz，共 180ms）
+	check := synthTone([]toneSeg{
+		{freq: 1240, ms: 90, gain: 0.42, decay: 12},
+		{freq: 820, ms: 90, gain: 0.42, decay: 12},
+	})
+
+	names := [3]string{"move.wav", "capture.wav", "check.wav"}
+	data := [3][]byte{move, capture, check}
+	for i := range names {
+		p := filepath.Join(dir, names[i])
+		if err := os.WriteFile(p, data[i], 0o644); err == nil {
+			soundPaths[i] = p
+		}
+	}
+}
+
+type toneSeg struct {
+	freq  float64 // 基频 Hz
+	ms    int     // 时长
+	gain  float64 // 振幅 0~1
+	decay float64 // 指数衰减系数（越大衰减越快）
+	noise float64 // 噪声混入比例 0~1
+}
+
+const soundRate = 22050
+
+// synthTone 把若干音段合成为 16bit 单声道 WAV 字节流。
+func synthTone(segs []toneSeg) []byte {
+	var pcm []int16
+	phase := 0.0
+	// 固定种子的简单 LCG，保证每次生成的噪声完全一致（便于复现）
+	seed := uint32(20261007)
+	for _, s := range segs {
+		n := soundRate * s.ms / 1000
+		for i := 0; i < n; i++ {
+			t := float64(i) / float64(soundRate)
+			env := math.Exp(-s.decay * t)
+			v := math.Sin(phase)
+			phase += 2 * math.Pi * s.freq / float64(soundRate)
+			if s.noise > 0 {
+				seed = seed*1664525 + 1013904223
+				nz := float64(int32(seed>>8)%20001-10000) / 10000.0
+				v = v*(1-s.noise) + nz*s.noise
+			}
+			sample := v * env * s.gain
+			if sample > 1 {
+				sample = 1
+			} else if sample < -1 {
+				sample = -1
+			}
+			pcm = append(pcm, int16(sample*32000))
+		}
+	}
+
+	// WAV 头（44 字节）
+	dataLen := len(pcm) * 2
+	buf := make([]byte, 0, 44+dataLen)
+	le := binary.LittleEndian
+	put32 := func(v uint32) { b := make([]byte, 4); le.PutUint32(b, v); buf = append(buf, b...) }
+	put16 := func(v uint16) { b := make([]byte, 2); le.PutUint16(b, v); buf = append(buf, b...) }
+
+	buf = append(buf, 'R', 'I', 'F', 'F')
+	put32(uint32(36 + dataLen))
+	buf = append(buf, 'W', 'A', 'V', 'E')
+	buf = append(buf, 'f', 'm', 't', ' ')
+	put32(16)            // fmt 块长度
+	put16(1)             // PCM
+	put16(1)             // 单声道
+	put32(soundRate)     // 采样率
+	put32(soundRate * 2) // 字节率
+	put16(2)             // 块对齐
+	put16(16)            // 位深
+	buf = append(buf, 'd', 'a', 't', 'a')
+	put32(uint32(dataLen))
+	for _, s := range pcm {
+		put16(uint16(s))
+	}
+	return buf
+}

@@ -1,1 +1,157 @@
-cGFja2FnZSB1aQoKaW1wb3J0ICgKCSJzeXNjYWxsIgoJInVuc2FmZSIKKQoKLy8g5pys5paH5Lu25o+Q5L6b5byV5pOO6L+b56iL5bGC6Z2i55qE5LiJ5Liq6IO95Yqb77yIV2luZG93c++8ie+8mgovLyAgIC0g6L+b56iL5LyY5YWI57qn77ya5ruh6YWN5pe25oqK5byV5pOO5o+Q5Yiw44CM6auY5LqO5q2j5bi444CN77yM5YeP5bCR6KKr55WM6Z2iL+ezu+e7n+aKouWNoO+8mwovLyAgIC0gQ1BVIOS6suWSjOaAp++8muaKiuW8leaTjue7keWIsOaMh+WumuaguOW/g+S4iu+8jOaKluWKqOabtOWwj++8mwovLyAgIC0gQ1BVIOWNoOeUqOWunua1i++8mueUqCBHZXRQcm9jZXNzVGltZXMg5beu5YiG566X5byV5pOO55yf5q2j5ZCD5LqG5aSa5bCR5qC477yI5q+U5Lu75Yqh566h55CG5Zmo55u06KeC77yJ44CCCi8vCi8vIOS4uuS7gOS5iOaUviBVSSDlsYLogIzkuI3mmK8gZW5naW5lIOWMhe+8mui/meS6m+aYr+OAjOi3keWIhi/mu6HphY3jgI3ov5nnsbvnlYzpnaLlip/og73nmoTovoXliqnvvIwKLy8gZW5naW5lIOWMheWPqueuoSBVQ0kg6YCa5L+h77yM5LiN6K+l5L6d6LWWIFdpbjMy44CCCgp2YXIgKAoJa2VybmVsMzIgICAgICAgICAgICAgICAgICAgPSBzeXNjYWxsLk5ld0xhenlETEwoImtlcm5lbDMyLmRsbCIpCglwcm9jT3BlblByb2Nlc3MgICAgICAgICAgICA9IGtlcm5lbDMyLk5ld1Byb2MoIk9wZW5Qcm9jZXNzIikKCXByb2NDbG9zZUhhbmRsZSAgICAgICAgICAgID0ga2VybmVsMzIuTmV3UHJvYygiQ2xvc2VIYW5kbGUiKQoJcHJvY1NldFByaW9yaXR5Q2xhc3MgICAgICAgPSBrZXJuZWwzMi5OZXdQcm9jKCJTZXRQcmlvcml0eUNsYXNzIikKCXByb2NTZXRQcm9jZXNzQWZmaW5pdHlNYXNrID0ga2VybmVsMzIuTmV3UHJvYygiU2V0UHJvY2Vzc0FmZmluaXR5TWFzayIpCglwcm9jR2V0UHJvY2Vzc1RpbWVzICAgICAgICA9IGtlcm5lbDMyLk5ld1Byb2MoIkdldFByb2Nlc3NUaW1lcyIpCgoJZHdtYXBpICAgICAgICAgICAgICAgICAgICA9IHN5c2NhbGwuTmV3TGF6eURMTCgiZHdtYXBpLmRsbCIpCglwcm9jRHdtU2V0V2luZG93QXR0cmlidXRlID0gZHdtYXBpLk5ld1Byb2MoIkR3bVNldFdpbmRvd0F0dHJpYnV0ZSIpCikKCi8vIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQovLyDmt7HoibLmoIfpopjmoI/vvJrmt7HoibLnlYzpnaLphY3kuIDmnaHns7vnu5/nmb3moIfpopjmoI/vvIzmmK/mnIDlrrnmmJMi6Zyy6aaFIueahOWcsOaWuQovLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCi8vIFNldERhcmtUaXRsZUJhciDorqkgV2luZG93cyDnmoTmoIfpopjmoI/ot5/pmo/mt7HoibLnlYzpnaLvvIhXaW4xMCAxODA5KyDmlK/mjIHvvInjgIIKLy8KLy8g5bGe5oCn5Y+35pyJ5Lik5Liq5Y6G5Y+y54mI5pys77yaMjAg5pivIDIwSDEg5LmL5ZCO55qE77yMMTkg5pivIDE4MDl+MTkwOSDnmoTvvJsKLy8g5YWI6K+VIDIw77yM5aSx6LSl5YaN6K+VIDE544CC6ICB57O757uf77yI5oiW6Z2eIFdpbmRvd3PvvInkuIrkuKTkuKrpg73kvJrlpLHotKUg4oCU4oCUIOmCo+WwseS/neaMgeezu+e7n+m7mOiupO+8jAovLyDlj6rlvbHlk43op4LmhJ/jgIHkuI3lvbHlk43lip/og73vvIzmiYDku6XosIPnlKjmlrnkuI3pnIDopoHlpITnkIbplJnor6/jgIIKLy8KLy8g56qX5Y+j5Y+l5p+E55SoIHNjcmVlbl93aW5kb3dzLmdvIOmHjOW3suacieeahCBvd25HbGZ3V2luZG93cygp77yI6K6k57G75ZCNIEdMRlczMO+8ieOAggpmdW5jIFNldERhcmtUaXRsZUJhcihod25kIHVpbnRwdHIsIGRhcmsgYm9vbCkgYm9vbCB7CglpZiBod25kID09IDAgewoJCXJldHVybiBmYWxzZQoJfQoJaWYgZXJyIDo9IHByb2NEd21TZXRXaW5kb3dBdHRyaWJ1dGUuRmluZCgpOyBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gZmFsc2UKCX0KCXZhciB2YWwgdWludHB0cgoJaWYgZGFyayB7CgkJdmFsID0gMQoJfQoJZm9yIF8sIGF0dHIgOj0gcmFuZ2UgW111aW50cHRyezIwLCAxOX0gewoJCXJldCwgXywgXyA6PSBwcm9jRHdtU2V0V2luZG93QXR0cmlidXRlLkNhbGwoaHduZCwgYXR0ciwKCQkJdWludHB0cih1bnNhZmUuUG9pbnRlcigmdmFsKSksIHVuc2FmZS5TaXplb2YodmFsKSkKCQlpZiByZXQgPT0gMCB7CgkJCXJldHVybiB0cnVlCgkJfQoJfQoJcmV0dXJuIGZhbHNlCn0KCmNvbnN0ICgKCXByb2Nlc3NTZXRJbmZvcm1hdGlvbiAgID0gMHgwMjAwCglwcm9jZXNzUXVlcnlJbmZvcm1hdGlvbiA9IDB4MDQwMAoJLy8g44CQ57y66Zm35L+u5aSN44CR5Y6f5p2l55So55qE5pivIEhJR0hfUFJJT1JJVFlfQ0xBU1PvvIgi6auYIu+8ie+8jOWvueWkluWNtOivtCLpq5jkuo7mraPluLgi77yaCgkvLyDlkI3lrZfkuI3lr7nvvIzmm7TopoHntKfnmoTmmK8i6auYIuWcqCAxNSDkuKrmkJzntKLnur/nqIvmu6Hovb3ml7botrPku6XmiornlYzpnaLnur/nqIvppb/mrbsKCS8vIO+8iOihqOeOsOWwseaYryLosaHmo4vova/ku7bngrnkuI3liqgi77yJ44CC55yf5q2j6KaB55qE5pivIEFCT1ZFX05PUk1BTO+8iCLpq5jkuo7mraPluLgi77yJ77yaCgkvLyDmr5TnlYzpnaLpq5jkuIDnuqfjgIHmi7/lvpfliLAgQ1BV77yM5Y+I5LiN5Lya5oqK5pW05Liq5qGM6Z2i5Y6L5L2P44CCCglhYm92ZU5vcm1hbFByaW9yaXR5Q2xhc3MgPSAweDAwMDA4MDAwCglub3JtYWxQcmlvcml0eUNsYXNzICAgICAgPSAweDAwMjAKKQoKdHlwZSBmaWxldGltZVdpbiBzdHJ1Y3QgewoJTG93ICB1aW50MzIKCUhpZ2ggdWludDMyCn0KCmZ1bmMgZnRTZWNvbmRzKGZ0IGZpbGV0aW1lV2luKSBmbG9hdDY0IHsKCXYgOj0gdWludDY0KGZ0LkhpZ2gpPDwzMiB8IHVpbnQ2NChmdC5Mb3cpCglyZXR1cm4gZmxvYXQ2NCh2KSAvIDFlNyAvLyAxMDBucyDljZXkvY0KfQoKZnVuYyBvcGVuUHJvYyhwaWQgaW50KSB1aW50cHRyIHsKCWlmIHBpZCA8PSAwIHsKCQlyZXR1cm4gMAoJfQoJaCwgXywgXyA6PSBwcm9jT3BlblByb2Nlc3MuQ2FsbCgKCQl1aW50cHRyKHByb2Nlc3NTZXRJbmZvcm1hdGlvbnxwcm9jZXNzUXVlcnlJbmZvcm1hdGlvbiksIDAsIHVpbnRwdHIocGlkKSkKCXJldHVybiBoCn0KCi8vIFNldEVuZ2luZVByaW9yaXR5IOaKiuW8leaTjui/m+eoi+iuvuS4uuOAjOmrmOS6juato+W4uOOAjS/jgIzmraPluLjjgI3kvJjlhYjnuqfjgIIKZnVuYyBTZXRFbmdpbmVQcmlvcml0eShwaWQgaW50LCBoaWdoIGJvb2wpIGJvb2wgewoJaCA6PSBvcGVuUHJvYyhwaWQpCglpZiBoID09IDAgewoJCXJldHVybiBmYWxzZQoJfQoJZGVmZXIgcHJvY0Nsb3NlSGFuZGxlLkNhbGwoaCkKCWNscyA6PSB1aW50cHRyKG5vcm1hbFByaW9yaXR5Q2xhc3MpCglpZiBoaWdoIHsKCQljbHMgPSBhYm92ZU5vcm1hbFByaW9yaXR5Q2xhc3MKCX0KCXJldCwgXywgXyA6PSBwcm9jU2V0UHJpb3JpdHlDbGFzcy5DYWxsKGgsIGNscykKCXJldHVybiByZXQgIT0gMAp9CgovLyBTZXRFbmdpbmVBZmZpbml0eU1hc2sg6K6+572u5byV5pOO6L+b56iL5Y+v55So55qEIENQVSDpgLvovpHmoLjmjqnnoIHvvIjkvY0gMCA9IOesrCAxIOS4qumAu+i+keaguO+8ieOAggpmdW5jIFNldEVuZ2luZUFmZmluaXR5TWFzayhwaWQgaW50LCBtYXNrIHVpbnRwdHIpIGJvb2wgewoJaCA6PSBvcGVuUHJvYyhwaWQpCglpZiBoID09IDAgfHwgbWFzayA9PSAwIHsKCQlyZXR1cm4gZmFsc2UKCX0KCWRlZmVyIHByb2NDbG9zZUhhbmRsZS5DYWxsKGgpCglyZXQsIF8sIF8gOj0gcHJvY1NldFByb2Nlc3NBZmZpbml0eU1hc2suQ2FsbChoLCBtYXNrKQoJcmV0dXJuIHJldCAhPSAwCn0KCi8vIEVuZ2luZUNQVVNlY29uZHMg6L+U5Zue5byV5pOO6L+b56iL57Sv6K6h5Y2g55SoIENQVSDnmoTnp5LmlbDvvIjlhoXmoLggKyDnlKjmiLfvvInjgIIKZnVuYyBFbmdpbmVDUFVTZWNvbmRzKHBpZCBpbnQpIGZsb2F0NjQgewoJaCA6PSBvcGVuUHJvYyhwaWQpCglpZiBoID09IDAgewoJCXJldHVybiAwCgl9CglkZWZlciBwcm9jQ2xvc2VIYW5kbGUuQ2FsbChoKQoJdmFyIGNyZWF0ZSwgZXhpdCwga2VybmVsLCB1c2VyIGZpbGV0aW1lV2luCglyZXQsIF8sIF8gOj0gcHJvY0dldFByb2Nlc3NUaW1lcy5DYWxsKGgsCgkJdWludHB0cih1bnNhZmUuUG9pbnRlcigmY3JlYXRlKSksIHVpbnRwdHIodW5zYWZlLlBvaW50ZXIoJmV4aXQpKSwKCQl1aW50cHRyKHVuc2FmZS5Qb2ludGVyKCZrZXJuZWwpKSwgdWludHB0cih1bnNhZmUuUG9pbnRlcigmdXNlcikpKQoJaWYgcmV0ID09IDAgewoJCXJldHVybiAwCgl9CglyZXR1cm4gZnRTZWNvbmRzKGtlcm5lbCkgKyBmdFNlY29uZHModXNlcikKfQoKLy8gTWF4U3RyZW5ndGhBZmZpbml0eU1hc2sg6YCg5LiA5Liq44CM5oqK5YmN6Z2iIHJlc2VydmUg5Liq6YC76L6R5qC455WZ57uZ55WM6Z2i44CN55qE5o6p56CB44CCCi8vCi8vIOS+i++8mjE2IOmAu+i+keaguOOAgeW8leaTjiAxMiDnur/nqIsg4oaSIHJlc2VydmUgPSA0IOKGkiAweEZGRjAKLy8g77yIYml0MC4uMyDnlZnnu5nnlYzpnaIv57O757uf77yM5byV5pOO5Y+q55SoIGJpdDQuLjE177yJ44CCCi8vCi8vIOOAkOS4uuS7gOS5iOaMieWunumZhee6v+eoi+aVsOeVmeaguOOAkeWOn+adpeaYr+OAjOWPqueVmeesrCAxIOaguOOAgeWFtuS9mSAxNSDkuKrlhajnu5nlvJXmk47jgI3vvIzogIzlvJXmk47lj6rlvIAKLy8gMTIg5Liq57q/56iL5pe26L+Z562J5LqO55m957uR77yaMTIg5Liq57q/56iL5ZyoIDE1IOS4quaguOS5i+mXtOS5sei3s++8jOeVjOmdoui/mOaYr+WPr+iDveiiq+aMpOOAggovLyDnjrDlnKjnlZnlh7rnmoTmoLjmlbDkuI7lvJXmk47nur/nqIvmlbDkupLooaXvvIznlYzpnaLmi7/liLDnmoTmmK8qKuehruWumueahCoqIDQg5Liq5qC444CCCmZ1bmMgTWF4U3RyZW5ndGhBZmZpbml0eU1hc2sobG9naWNhbCwgZW5naW5lVGhyZWFkcyBpbnQpIHVpbnRwdHIgewoJaWYgbG9naWNhbCA8PSAyIHsKCQlyZXR1cm4gMAoJfQoJcmVzZXJ2ZSA6PSBsb2dpY2FsIC0gZW5naW5lVGhyZWFkcwoJaWYgcmVzZXJ2ZSA8IDEgewoJCXJlc2VydmUgPSAxIC8vIOiHs+WwkeeVmSAxIOS4quaguO+8jOe7neS4jeaKiuaVtOacuuWNoOa7oQoJfQoJaWYgcmVzZXJ2ZSA+PSBsb2dpY2FsIHsKCQlyZXR1cm4gMAoJfQoJbWFzayA6PSB1aW50cHRyKDApCglmb3IgaSA6PSByZXNlcnZlOyBpIDwgbG9naWNhbDsgaSsrIHsKCQltYXNrIHw9IDEgPDwgdWludChpKQoJfQoJcmV0dXJuIG1hc2sKfQo=
+package ui
+
+import (
+	"syscall"
+	"unsafe"
+)
+
+// 本文件提供引擎进程层面的三个能力（Windows）：
+//   - 进程优先级：满配时把引擎提到「高于正常」，减少被界面/系统抢占；
+//   - CPU 亲和性：把引擎绑到指定核心上，抖动更小；
+//   - CPU 占用实测：用 GetProcessTimes 差分算引擎真正吃了多少核（比任务管理器直观）。
+//
+// 为什么放 UI 层而不是 engine 包：这些是「跑分/满配」这类界面功能的辅助，
+// engine 包只管 UCI 通信，不该依赖 Win32。
+
+var (
+	kernel32                   = syscall.NewLazyDLL("kernel32.dll")
+	procOpenProcess            = kernel32.NewProc("OpenProcess")
+	procCloseHandle            = kernel32.NewProc("CloseHandle")
+	procSetPriorityClass       = kernel32.NewProc("SetPriorityClass")
+	procSetProcessAffinityMask = kernel32.NewProc("SetProcessAffinityMask")
+	procGetProcessTimes        = kernel32.NewProc("GetProcessTimes")
+
+	dwmapi                    = syscall.NewLazyDLL("dwmapi.dll")
+	procDwmSetWindowAttribute = dwmapi.NewProc("DwmSetWindowAttribute")
+)
+
+// ---------------------------------------------------------------------------
+// 深色标题栏：深色界面配一条系统白标题栏，是最容易"露馅"的地方
+// ---------------------------------------------------------------------------
+
+// SetDarkTitleBar 让 Windows 的标题栏跟随深色界面（Win10 1809+ 支持）。
+//
+// 属性号有两个历史版本：20 是 20H1 之后的，19 是 1809~1909 的；
+// 先试 20，失败再试 19。老系统（或非 Windows）上两个都会失败 —— 那就保持系统默认，
+// 只影响观感、不影响功能，所以调用方不需要处理错误。
+//
+// 窗口句柄用 screen_windows.go 里已有的 ownGlfwWindows()（认类名 GLFW30）。
+func SetDarkTitleBar(hwnd uintptr, dark bool) bool {
+	if hwnd == 0 {
+		return false
+	}
+	if err := procDwmSetWindowAttribute.Find(); err != nil {
+		return false
+	}
+	var val uintptr
+	if dark {
+		val = 1
+	}
+	for _, attr := range []uintptr{20, 19} {
+		ret, _, _ := procDwmSetWindowAttribute.Call(hwnd, attr,
+			uintptr(unsafe.Pointer(&val)), unsafe.Sizeof(val))
+		if ret == 0 {
+			return true
+		}
+	}
+	return false
+}
+
+const (
+	processSetInformation   = 0x0200
+	processQueryInformation = 0x0400
+	// 【缺陷修复】原来用的是 HIGH_PRIORITY_CLASS（"高"），对外却说"高于正常"：
+	// 名字不对，更要紧的是"高"在 15 个搜索线程满载时足以把界面线程饿死
+	// （表现就是"象棋软件点不动"）。真正要的是 ABOVE_NORMAL（"高于正常"）：
+	// 比界面高一级、拿得到 CPU，又不会把整个桌面压住。
+	aboveNormalPriorityClass = 0x00008000
+	normalPriorityClass      = 0x0020
+)
+
+type filetimeWin struct {
+	Low  uint32
+	High uint32
+}
+
+func ftSeconds(ft filetimeWin) float64 {
+	v := uint64(ft.High)<<32 | uint64(ft.Low)
+	return float64(v) / 1e7 // 100ns 单位
+}
+
+func openProc(pid int) uintptr {
+	if pid <= 0 {
+		return 0
+	}
+	h, _, _ := procOpenProcess.Call(
+		uintptr(processSetInformation|processQueryInformation), 0, uintptr(pid))
+	return h
+}
+
+// SetEnginePriority 把引擎进程设为「高于正常」/「正常」优先级。
+func SetEnginePriority(pid int, high bool) bool {
+	h := openProc(pid)
+	if h == 0 {
+		return false
+	}
+	defer procCloseHandle.Call(h)
+	cls := uintptr(normalPriorityClass)
+	if high {
+		cls = aboveNormalPriorityClass
+	}
+	ret, _, _ := procSetPriorityClass.Call(h, cls)
+	return ret != 0
+}
+
+// SetEngineAffinityMask 设置引擎进程可用的 CPU 逻辑核掩码（位 0 = 第 1 个逻辑核）。
+func SetEngineAffinityMask(pid int, mask uintptr) bool {
+	h := openProc(pid)
+	if h == 0 || mask == 0 {
+		return false
+	}
+	defer procCloseHandle.Call(h)
+	ret, _, _ := procSetProcessAffinityMask.Call(h, mask)
+	return ret != 0
+}
+
+// EngineCPUSeconds 返回引擎进程累计占用 CPU 的秒数（内核 + 用户）。
+func EngineCPUSeconds(pid int) float64 {
+	h := openProc(pid)
+	if h == 0 {
+		return 0
+	}
+	defer procCloseHandle.Call(h)
+	var create, exit, kernel, user filetimeWin
+	ret, _, _ := procGetProcessTimes.Call(h,
+		uintptr(unsafe.Pointer(&create)), uintptr(unsafe.Pointer(&exit)),
+		uintptr(unsafe.Pointer(&kernel)), uintptr(unsafe.Pointer(&user)))
+	if ret == 0 {
+		return 0
+	}
+	return ftSeconds(kernel) + ftSeconds(user)
+}
+
+// MaxStrengthAffinityMask 造一个「把前面 reserve 个逻辑核留给界面」的掩码。
+//
+// 例：16 逻辑核、引擎 12 线程 → reserve = 4 → 0xFFF0
+// （bit0..3 留给界面/系统，引擎只用 bit4..15）。
+//
+// 【为什么按实际线程数留核】原来是「只留第 1 核、其余 15 个全给引擎」，而引擎只开
+// 12 个线程时这等于白绑：12 个线程在 15 个核之间乱跳，界面还是可能被挤。
+// 现在留出的核数与引擎线程数互补，界面拿到的是**确定的** 4 个核。
+func MaxStrengthAffinityMask(logical, engineThreads int) uintptr {
+	if logical <= 2 {
+		return 0
+	}
+	reserve := logical - engineThreads
+	if reserve < 1 {
+		reserve = 1 // 至少留 1 个核，绝不把整机占满
+	}
+	if reserve >= logical {
+		return 0
+	}
+	mask := uintptr(0)
+	for i := reserve; i < logical; i++ {
+		mask |= 1 << uint(i)
+	}
+	return mask
+}

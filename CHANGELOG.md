@@ -1,1 +1,43 @@
-IyDlj5jmm7Tml6Xlv5fvvIhDaGFuZ2Vsb2fvvIkKCuacrOaWh+S7tuiusOW9leWQhOeJiOacrOeahOS4u+imgeWPmOabtOOAguWujOaVtOeahOW8gOWPkei/h+eoi+iusOW9leOAgeS/ruWkjea4heWNleS4juWuoeiuoee7huiKguW3suW9kuaho+S6jgpbYGRvY3MvbGVnYWN5LXJlYWRtZS5tZGBdKGRvY3MvbGVnYWN5LXJlYWRtZS5tZCnjgIIKCiMjIFtVbnJlbGVhc2VkXQoKLSDlpJrlvJXmk47lkIzlsYDpnaLlr7nmr5TvvIhLaWJpdHplcu+8jOaXgeinguWIhuaekOW8leaTju+8ie+8muiuvuiuoeW3suWumueov++8jOWunuaWveS4reOAggoKIyMgdjEuNi54CgotICoqdjEuNi45KirvvJrmi5bliqjokL3ngrnpooTop4jjgIHmmL7npLrooYzmo4vnur/ot6/jgIHphY3nva7lpIfku73kuI7ov5jljp/jgIIKLSAqKnYxLjYuOCoq77ya5LiA6L2uIDYg5p2h5L2T6aqM5pS56L+b5ZCI5YWl44CCCi0gKip2MS42LjcqKu+8muaQnOe0oua3seW6puS4jeiuvuS4iumZkOOAgeaMiemSruaUvuWkp+OAgeWvueaImOW8leaTjuWunuWGteaYvuekuuOAggotICoqdjEuNi42KirvvJrmoaXmjqXkuI7lr7nmiJjkuKTnp43mqKHlvI/lnYflj6/osIPmlbTmgJ3ogIPml7bpl7QgLyDlsYLmlbDvvIzlj7PkvqfmoI/lj6/op4HjgIIKLSAqKnYxLjYuNSoq77ya5pi+56S65YWo6YOo5ZCO57ut552A5rOV44CB5byV5pOO5Y+C5pWw6K+05piO5pu05piT5oeC44CCCi0gKip2MS42LjQqKu+8muWAmemAieWQjue7rei1sOazleWxleekuuOAgeWvueaImOWPr+WPlua2iOOAggotICoqdjEuNi4zKirvvJrmmL7npLrkuI7liIboibLkvJjljJbvvJvlhajpg6joj5zljZXmjInplK7pgJDpobnkvZPmo4DjgIIKLSAqKnYxLjYuMioq77ya5bGA5Yq/5Zu+5pS55Li65YWo5a6977yI57qmIDYg5YCN6Z2i56ev77yJ77yb5Y+Y5oub5Y675qaC546H5p2h44CB5Y6L57yp6KGM6auY44CCCi0gKip2MS42LjEqKu+8muWPs+agj+aUueS4uuWIhuaekCAvIOaji+iwseW3puWPs+S4pOWNiuOAggoKIyMgdjEuNQoKLSDku6Ui5pyA5oyR5YmUIuagh+WHhuWBmui0qOmHj+Wuoeiuoe+8jOS/ruWkjSAxNCDpobnnnJ/lrp7nvLrpmbfjgIIKLSDlr7nnhaflkIznsbvova/ku7bvvIhUQ0hFU1PjgIHosaHmo4vlt6vluIjjgIFzd2lmdHhpYW5ncWkg562J77yJ5pS56YCg55WM6Z2i77ya5Li755WM6Z2i5YeP6LSf44CB5ZG95ZCN5a+56b2Q44CBCiAg5a2X5L2T5LiO5a+G5bqm5a+56b2Q44CB5Y+v6YCJ5a2X5Y+35qGj5L2N77yI5qCH5YeGIC8g5aSnIC8g54m55aSn77yJ44CCCgojIyB2MS40CgotIOS/ruWkjeaji+ebmOWFieagheWMlua8j+S5mOe8qeaUvuezu+aVsOWvvOiHtOeahOaji+WtkOmUmeS9jeOAggotIOiusOiwseaUueS4uiLkuIDooYzkuIDlm57lkIgi77yI5bem57qi5Y+z6buR5Lik5YiX44CB5bqP5Y+35YiX44CB54K55Ye76Lez6L2s44CB5b2T5YmN5q2l6auY5Lqu77yJ44CCCi0g5paw5aKe5Yeg5L2V562J5q+U44CB54K55Ye75ZG95Lit44CB6LWw5a2Q5pa557+76L2s562J5Zue5b2S5rWL6K+V44CCCgojIyB2MS4zLjEKCi0gUjEg5qOL55uY5Yeg5L2V5Y2V5LiA5p2l5rqQ77ya5biD5bGAIC8g5YWJ5qCF5YyWIC8g54K55Ye75ZG95Lit5LiJ6ICF5Lil5qC85ZCM5rqQ44CCCi0gUjIg5biD5bGA5rqi5Ye66Ziy5oqk77ya5bqV6YOo5pON5L2c5qCP5oGS5Y+v6KeB77yM5paw5aKe56qX5Y+j6L+H5bCP57qg5q2j44CCCi0gUjMg5byV5pOO5Y+v55So5oCn5pS55Li6IGBvcy5TdGF0YCDlrp7ml7bmoKHpqozvvIzkuI3lho3kvp3otZbmjIHkuYXljJbluIPlsJTlrZfmrrXjgIIKLSBSNCDlvJXmk47nrqHnkIbmr4/ooYzmjInpkq7mjaLooYzluIPlsYDvvIzku7vmhI/nqpflj6Plrr3luqbkuIvlnYflj6/ngrnjgIIKLSBSNSDlr7nmiJjnur/nqIvotoXorqLorablkYogKyDmjInmoLjlv4PmlbDoh6rliqjlubPlnYfliIbphY3jgIIKLSBSNiDnqpflj6Ppobbpg6jkuI3lho3otornlYzvvJtSNyDliIbmoI/mi5bmi73miYvmn4TliqDlrr3vvJtSOCDlvJXmk47nrqHnkIbnqpflj6Pnu5/kuIDmiqTnnLzlupXoibLjgIIKLSBSOSDmgKfog73mlbDlrZfooaXpvZDlj6PlvoTvvJtSMTAg6aqM6K+B5pa55rOV5pS55Li655yf56qX5Y+j5oiq5Zu+5LiO55yf5a6e54K55Ye744CCCi0g5paw5aKeIGDov5DooYzpqozor4EuYmF0YCDkuIDplK7mupDnoIHpqozor4HlhaXlj6PjgIIK
+# 变更日志（Changelog）
+
+本文件记录各版本的主要变更。完整的开发过程记录、修复清单与审计细节已归档于
+[`docs/legacy-readme.md`](docs/legacy-readme.md)。
+
+## [Unreleased]
+
+- 多引擎同局面对比（Kibitzer，旁观分析引擎）：设计已定稿，实施中。
+
+## v1.6.x
+
+- **v1.6.9**：拖动落点预览、显示行棋线路、配置备份与还原。
+- **v1.6.8**：一轮 6 条体验改进合入。
+- **v1.6.7**：搜索深度不设上限、按钮放大、对战引擎实况显示。
+- **v1.6.6**：桥接与对战两种模式均可调整思考时间 / 层数，右侧栏可见。
+- **v1.6.5**：显示全部后续着法、引擎参数说明更易懂。
+- **v1.6.4**：候选后续走法展示、对战可取消。
+- **v1.6.3**：显示与分色优化；全部菜单按键逐项体检。
+- **v1.6.2**：局势图改为全宽（约 6 倍面积）；变招去概率条、压缩行高。
+- **v1.6.1**：右栏改为分析 / 棋谱左右两半。
+
+## v1.5
+
+- 以"最挑剔"标准做质量审计，修复 14 项真实缺陷。
+- 对照同类软件（TCHESS、象棋巫师、swiftxiangqi 等）改造界面：主界面减负、命名对齐、
+  字体与密度对齐、可选字号档位（标准 / 大 / 特大）。
+
+## v1.4
+
+- 修复棋盘光栅化漏乘缩放系数导致的棋子错位。
+- 记谱改为"一行一回合"（左红右黑两列、序号列、点击跳转、当前步高亮）。
+- 新增几何等比、点击命中、走子方翻转等回归测试。
+
+## v1.3.1
+
+- R1 棋盘几何单一来源：布局 / 光栅化 / 点击命中三者严格同源。
+- R2 布局溢出防护：底部操作栏恒可见，新增窗口过小纠正。
+- R3 引擎可用性改为 `os.Stat` 实时校验，不再依赖持久化布尔字段。
+- R4 引擎管理每行按钮换行布局，任意窗口宽度下均可点。
+- R5 对战线程超订警告 + 按核心数自动平均分配。
+- R6 窗口顶部不再越界；R7 分栏拖拽手柄加宽；R8 引擎管理窗口统一护眼底色。
+- R9 性能数字补齐口径；R10 验证方法改为真窗口截图与真实点击。
+- 新增 `运行验证.bat` 一键源码验证入口。

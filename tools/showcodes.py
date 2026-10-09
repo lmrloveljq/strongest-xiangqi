@@ -1,1 +1,10 @@
-aW1wb3J0IHN5cwoKcGF0aCA9IHN5cy5hcmd2WzFdCm5lZWRsZSA9IHN5cy5hcmd2WzJdCndpdGggb3BlbihwYXRoLCBlbmNvZGluZz0idXRmLTgiKSBhcyBmOgogICAgZm9yIGksIGxpbmUgaW4gZW51bWVyYXRlKGYsIDEpOgogICAgICAgIGlmIG5lZWRsZSBpbiBsaW5lOgogICAgICAgICAgICBwcmludCgiTElORSIsIGkpCiAgICAgICAgICAgIHByaW50KCJURVhUIiwgbGluZS5yc3RyaXAoKSkKICAgICAgICAgICAgcHJpbnQoIkNPREVTIiwgIiAiLmpvaW4oIlUrJTA0WCglcykiICUgKG9yZChjaCksIGNoIGlmIGNoLmlzcHJpbnRhYmxlKCkgZWxzZSAiPyIpIGZvciBjaCBpbiBsaW5lLnJzdHJpcCgpKSkK
+import sys
+
+path = sys.argv[1]
+needle = sys.argv[2]
+with open(path, encoding="utf-8") as f:
+    for i, line in enumerate(f, 1):
+        if needle in line:
+            print("LINE", i)
+            print("TEXT", line.rstrip())
+            print("CODES", " ".join("U+%04X(%s)" % (ord(ch), ch if ch.isprintable() else "?") for ch in line.rstrip()))

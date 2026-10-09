@@ -1,1 +1,21 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KIiIi55Sf5oiQ44CM5aKo546J6YeR44CN55qu6IKkICsg5Li76aKY5bqV57q555qE5rWL6K+V6YWN572u77yI5oiq5Zu+5LiO6aqM5pS255So77yJ44CCIiIiCmltcG9ydCBqc29uLCBpbywgc3lzLCBvcwoKc3lzLnN0ZG91dC5yZWNvbmZpZ3VyZShlbmNvZGluZz0idXRmLTgiKQpyb290ID0gciJDOlzmnIDlvLrosaHmo4vova/ku7bns7vnu58iCmJhc2UgPSBqc29uLmxvYWQoaW8ub3Blbihvcy5wYXRoLmpvaW4ocm9vdCwgImNvbmZpZy5qc29uIiksIGVuY29kaW5nPSJ1dGYtOCIpKQoKdmFyaWFudHMgPSB7CiAgICAiY2ZnLWlua2dvbGQuanNvbiI6IHsidGhlbWUiOiAiaW5rZ29sZCIsICJiYWNrZ3JvdW5kX3N0eWxlIjogInRleHR1cmUiLCAibGFzdF9tb2RlIjogImJyaWRnZSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAibWF4X3N0cmVuZ3RoIjogVHJ1ZSwgInRocmVhZHMiOiAxMiwgImhhc2giOiA0MDk2LCAibXVsdGlwdiI6IDEsICJzb3VuZF9vbiI6IEZhbHNlfSwKICAgICJjZmctY2xhc3NpYy5qc29uIjogeyJ0aGVtZSI6ICJkZWZhdWx0IiwgImJhY2tncm91bmRfc3R5bGUiOiAidGV4dHVyZSIsICJsYXN0X21vZGUiOiAiYnJpZGdlIiwKICAgICAgICAgICAgICAgICAgICAgICAgICJtYXhfc3RyZW5ndGgiOiBUcnVlLCAidGhyZWFkcyI6IDEyLCAiaGFzaCI6IDQwOTYsICJtdWx0aXB2IjogMSwgInNvdW5kX29uIjogRmFsc2V9LAp9CmZvciBuYW1lLCBvdmVyIGluIHZhcmlhbnRzLml0ZW1zKCk6CiAgICBjZmcgPSBkaWN0KGJhc2UpCiAgICBjZmcuc2V0ZGVmYXVsdCgiYmFja2dyb3VuZF9zdHlsZSIsICJ0ZXh0dXJlIikKICAgIGNmZy51cGRhdGUob3ZlcikKICAgIHAgPSBvcy5wYXRoLmpvaW4ocm9vdCwgIl92ZXJpZnkiLCBuYW1lKQogICAgaW8ub3BlbihwLCAidyIsIGVuY29kaW5nPSJ1dGYtOCIsIG5ld2xpbmU9IlxuIikud3JpdGUoanNvbi5kdW1wcyhjZmcsIGVuc3VyZV9hc2NpaT1GYWxzZSwgaW5kZW50PTIpKQogICAgcHJpbnQoIndyb3RlIiwgbmFtZSwgInRoZW1lPSIsIG92ZXJbInRoZW1lIl0sICJiZz0iLCBvdmVyWyJiYWNrZ3JvdW5kX3N0eWxlIl0pCg==
+# -*- coding: utf-8 -*-
+"""生成「墨玉金」皮肤 + 主题底纹的测试配置（截图与验收用）。"""
+import json, io, sys, os
+
+sys.stdout.reconfigure(encoding="utf-8")
+root = r"C:\最强象棋软件系统"
+base = json.load(io.open(os.path.join(root, "config.json"), encoding="utf-8"))
+
+variants = {
+    "cfg-inkgold.json": {"theme": "inkgold", "background_style": "texture", "last_mode": "bridge",
+                         "max_strength": True, "threads": 12, "hash": 4096, "multipv": 1, "sound_on": False},
+    "cfg-classic.json": {"theme": "default", "background_style": "texture", "last_mode": "bridge",
+                         "max_strength": True, "threads": 12, "hash": 4096, "multipv": 1, "sound_on": False},
+}
+for name, over in variants.items():
+    cfg = dict(base)
+    cfg.setdefault("background_style", "texture")
+    cfg.update(over)
+    p = os.path.join(root, "_verify", name)
+    io.open(p, "w", encoding="utf-8", newline="\n").write(json.dumps(cfg, ensure_ascii=False, indent=2))
+    print("wrote", name, "theme=", over["theme"], "bg=", over["background_style"])

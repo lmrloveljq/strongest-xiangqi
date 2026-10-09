@@ -1,1 +1,115 @@
-cGFja2FnZSB1aQoKaW1wb3J0ICgKCSJtYXRoIgoJInRlc3RpbmciCgoJImZ5bmUuaW8vZnluZS92MiIKCgkieGlhbmdxaS9ydWxlcyIKKQoKLy8gVGVzdEJvYXJkR2VvbVNjYWxlZElzRXhhY3Qg5a6I5L2PIHYxLjMuMSDouKnov4fnmoTlnZHvvJoKLy8g5YWJ5qCF5YyW5bqV5p2/5pe244CM6YC76L6R5Yeg5L2VIOKGkiDniannkIblh6DkvZXjgI3lv4XpobvmlbTkvZPnrYnmr5TmlL7lpKfjgIIKLy8KLy8g5LqL5pWF5Zue6aG+77yaZ2VuZXJhdGVQbGF0ZSDph4zmiYvlhpnmiJAge2NlbGw6IGJhc2UuY2VsbCwgb3g6IGJhc2Uub3gqc3gsIG95OiBiYXNlLm95KnN5fe+8jAovLyAqKua8j+S5mOS6hiBjZWxsKirjgILkuo7mmK/lupXmnb/moLzot53lgZznlZnlnKjpgLvovpHlgLzjgIHogIzmo4vlrZDmjInniannkIblgLzmkYbmlL7vvIzkuKTogIXlt64gMS4zIOWAje+8jAovLyDooajnjrDkuLrjgIzmo4vlrZDpg73msqHokL3lnKjmoLznur/kuqTlj4nngrnkuIrjgIHlpJbkvqfmo4vlrZDot5Hlh7rlupXmnb/jgI3jgIIKLy8KLy8g5pys5rWL6K+V5LuO5Lik5L6n5aS55L2P6L+Z5Liq5LiN5Y+Y6YeP77yaCi8vICAxLiBzY2FsZWQoaykg5LiO55u05o6l55So5pS+5aSn5ZCO55qE5bC65a+4566X5Ye65p2l55qE5Yeg5L2V5b+F6aG75LiA6Ie077yI5qC86Led44CB5Y6f54K56YO95a+55b6X5LiK77yJ77ybCi8vICAyLiDkuqTlj4nngrnpl7Tot53lv4XpobvnrYnkuo4gY2VsbCprIOKAlOKAlCDkuZ/lsLHmmK/mo4vlrZDmkYbmlL7nlKjnmoTpgqPlpZfpl7Tot53jgIIKZnVuYyBUZXN0Qm9hcmRHZW9tU2NhbGVkSXNFeGFjdCh0ICp0ZXN0aW5nLlQpIHsKCWNvbnN0ICgKCQlsdyA9IDQ0Ni45IC8vIOmAu+i+keWuve+8iOacrOacuum7mOiupOeql+WPo+Wunua1i+WAvO+8iQoJCWxoID0gNTk1LjggLy8g6YC76L6R6auYCgkJayAgPSAxLjMgICAvLyBGeW5lIGNvbnRlbnQgc2NhbGUKCSkKCWxvZ2ljYWwgOj0gbmV3Qm9hcmRHZW9tKGx3LCBsaCkKCXNjYWxlZCA6PSBsb2dpY2FsLnNjYWxlZChrKQoKCS8vIDEuIOS4juOAjOaMieeJqeeQhuWwuuWvuOebtOaOpeeul+OAjeeahOWHoOS9leS4gOiHtAoJZGlyZWN0IDo9IG5ld0JvYXJkR2VvbShsdyprLCBsaCprKQoJaWYgbWF0aC5BYnMoc2NhbGVkLmNlbGwtZGlyZWN0LmNlbGwpID4gMWUtOSB7CgkJdC5GYXRhbGYoInNjYWxlZCgpLmNlbGwgPSAldiwg55u05o6l5oyJ54mp55CG5bC65a+4566XID0gJXbvvIzkuozogIXlv4Xpobvnm7jnrYkiLCBzY2FsZWQuY2VsbCwgZGlyZWN0LmNlbGwpCgl9CglpZiBtYXRoLkFicyhzY2FsZWQub3gtZGlyZWN0Lm94KSA+IDFlLTkgfHwgbWF0aC5BYnMoc2NhbGVkLm95LWRpcmVjdC5veSkgPiAxZS05IHsKCQl0LkZhdGFsZigic2NhbGVkKCkg5Y6f54K5ID0gKCV2LCV2Ke+8jOebtOaOpeeulyA9ICgldiwldikiLAoJCQlzY2FsZWQub3gsIHNjYWxlZC5veSwgZGlyZWN0Lm94LCBkaXJlY3Qub3kpCgl9CgoJLy8gMi4g5qC86Led5b+F6aG75piv6YC76L6R5qC86LedIMOXIGvvvIjov5nlsLHmmK/kuovmlYXngrnvvJrmvI/kuZggayDml7bov5nph4zkvJrlt64gMS4zIOWAje+8iQoJaWYgbWF0aC5BYnMoc2NhbGVkLmNlbGwtbG9naWNhbC5jZWxsKmspID4gMWUtOSB7CgkJdC5GYXRhbGYoInNjYWxlZCgpLmNlbGwgPSAldu+8jOacn+acmyAldu+8iD0g6YC76L6R5qC86LedICV2IMOXICV277yJIiwKCQkJc2NhbGVkLmNlbGwsIGxvZ2ljYWwuY2VsbCprLCBsb2dpY2FsLmNlbGwsIGspCgl9CgoJLy8gMy4g55u46YK75Lqk5Y+J54K55Zyo5Lik5Liq5pa55ZCR5LiK6YO95b+F6aG75q2j5aW95beu5LiA5LiqIGNlbGwKCS8vICAgIOazqOaEjyB5IOmajyByYW5rIOWinuWkp+iAjCoq5YeP5bCPKirvvIhyYW5rIDkg5Zyo5LiK77yJ77yM5omA5Lul5Y+W57ud5a+55YC844CCCglmb3IgZmlsZSA6PSAwOyBmaWxlIDwgcnVsZXMuRmlsZXMtMTsgZmlsZSsrIHsKCQlnb3QgOj0gbWF0aC5BYnMoc2NhbGVkLngoZmlsZSsxKSAtIHNjYWxlZC54KGZpbGUpKQoJCWlmIG1hdGguQWJzKGdvdC1zY2FsZWQuY2VsbCkgPiAxZS05IHsKCQkJdC5GYXRhbGYoImZpbGUgJWTihpIlZCDnmoTmqKrlkJHpl7Tot50gPSAldu+8jOW6lOetieS6jiBjZWxsID0gJXYiLCBmaWxlLCBmaWxlKzEsIGdvdCwgc2NhbGVkLmNlbGwpCgkJfQoJfQoJZm9yIHJhbmsgOj0gMDsgcmFuayA8IHJ1bGVzLlJhbmtzLTE7IHJhbmsrKyB7CgkJZ290IDo9IG1hdGguQWJzKHNjYWxlZC55KHJhbmsrMSkgLSBzY2FsZWQueShyYW5rKSkKCQlpZiBtYXRoLkFicyhnb3Qtc2NhbGVkLmNlbGwpID4gMWUtOSB7CgkJCXQuRmF0YWxmKCJyYW5rICVk4oaSJWQg55qE57q15ZCR6Ze06LedID0gJXbvvIzlupTnrYnkuo4gY2VsbCA9ICV2IiwgcmFuaywgcmFuaysxLCBnb3QsIHNjYWxlZC5jZWxsKQoJCX0KCX0KfQoKLy8gVGVzdEhpdE1hdGNoZXNSZW5kZXJHZW9tIOWuiOS9j+OAjOeCueWHu+WRveS4reWwuuWvuCA9IOa4suafk+WwuuWvuOOAje+8mgovLyDnlKjmuLLmn5Plh6DkvZXnrpflh7rmn5DkuKrkuqTlj4nngrnnmoTlg4/ntKDkvY3nva7vvIzlho3miorlroPkuqTnu5kgaGl0KCnvvIzlv4Xpobvlm57liLDlkIzkuIDkuKrmoLzlrZDjgIIKLy8KLy8g5rOo5oSP5pa55ZCR5o2i566X77ya5Yeg5L2V6YeM55qEIHkocmFuaykg55So55qE5pivIHJ1bGVzLlNjcmVlblJvdyhyYW5rKe+8iHJhbmsgOSDlnKjlsY/luZXmnIDkuIrmlrnvvInvvIwKLy8g6ICM6KeE5YiZ5bGC6Z2i55qE57Si5byV5pivIHJ1bGVzLkluZGV4KGZpbGUsIHJhbmsp77yIcmFuayAwID0g57qi5pa55bqV57q/77yJ44CCCmZ1bmMgVGVzdEhpdE1hdGNoZXNSZW5kZXJHZW9tKHQgKnRlc3RpbmcuVCkgewoJc2l6ZSA6PSBmeW5lLk5ld1NpemUoNDQ2LjksIDU5NS44KQoJZ2VvbSA6PSBuZXdCb2FyZEdlb20oZmxvYXQ2NChzaXplLldpZHRoKSwgZmxvYXQ2NChzaXplLkhlaWdodCkpCgoJZm9yIGZpbGUgOj0gMDsgZmlsZSA8IHJ1bGVzLkZpbGVzOyBmaWxlKysgewoJCWZvciByYW5rIDo9IDA7IHJhbmsgPCBydWxlcy5SYW5rczsgcmFuaysrIHsKCQkJLy8g5riy5p+T5pe25qOL5a2Q5ZyG5b+D5omA5Zyo55qE5L2N572u77yI6YC76L6R5Z2Q5qCH77yJCgkJCXBvcyA6PSBmeW5lLk5ld1BvcyhmbG9hdDMyKGdlb20ueChmaWxlKSksIGZsb2F0MzIoZ2VvbS55KHJhbmspKSkKCQkJc3EsIG9rIDo9IGdlb20uaGl0KHBvcykKCQkJaWYgIW9rIHsKCQkJCXQuRmF0YWxmKCLkuqTlj4nngrkgZmlsZT0lZCByYW5rPSVkIOeahOS9jee9riAldiDooqvliKTkuLrml6DmlYjngrnlh7siLCBmaWxlLCByYW5rLCBwb3MpCgkJCX0KCQkJd2FudCA6PSBydWxlcy5JbmRleChmaWxlLCByYW5rKQoJCQlpZiBzcSAhPSB3YW50IHsKCQkJCXQuRmF0YWxmKCLkuqTlj4nngrkgZmlsZT0lZCByYW5rPSVkIOWRveS4reWIsCBzcT0lZO+8iCVz77yJ77yM5pyf5pybIHNxPSVk77yIJXPvvIkiLAoJCQkJCWZpbGUsIHJhbmssIHNxLCBydWxlcy5TcXVhcmVOYW1lKHNxKSwgd2FudCwgcnVsZXMuU3F1YXJlTmFtZSh3YW50KSkKCQkJfQoJCX0KCX0KfQoKLy8gVGVzdFBsYXRlR2VvbWV0cnlDb3ZlcnNBbGxQaWVjZXMg5a6I5L2P44CM5omA5pyJ5qOL5a2Q6YO95Zyo5bqV5p2/6IyD5Zu05YaF44CN77yaCi8vIOW6leadv+W/hemhu+WujOaVtOWMheS9jyA5w5cxMCDkuKrkuqTlj4nngrnkuIrnmoTmo4vlrZDlnIbvvIjljYrlvoQgY2VsbCowLjQzNe+8ieOAggovLyDov5nmnaHkuI3lj5jph4/mraPmmK/jgIzmo4vlrZDmsqHokL3lnKjmo4vnm5jkuIrjgI3pgqPkuKrop4LmhJ/nmoTliKTmja7jgIIKZnVuYyBUZXN0UGxhdGVHZW9tZXRyeUNvdmVyc0FsbFBpZWNlcyh0ICp0ZXN0aW5nLlQpIHsKCWNvbnN0IGx3LCBsaCA9IDQ0Ni45LCA1OTUuOAoJZyA6PSBuZXdCb2FyZEdlb20obHcsIGxoKQoKCS8vIOW6leadv+iMg+WbtO+8muagvOe6v+WMuuWfn+WkluaJqSBnZW9tUGFkRnJhYyDmoLzvvIjkuI4gZHJhd0JvYXJkUGxhdGUg5LiA6Ie077yJCgl4MCA6PSBnLngoMCkgLSBnZW9tUGFkRnJhYypnLmNlbGwKCXgxIDo9IGcueCg4KSArIGdlb21QYWRGcmFjKmcuY2VsbAoJeTAgOj0gZy55KDkpIC0gZ2VvbVBhZEZyYWMqZy5jZWxsCgl5MSA6PSBnLnkoMCkgKyBnZW9tUGFkRnJhYypnLmNlbGwKCglwaWVjZVIgOj0gZy5jZWxsICogMC40MzUgLy8gTGF5b3V0IOmHjOaji+WtkOWNiuW+hAoJaWYgeDAgPiBnLngoMCktcGllY2VSIHsKCQl0LkZhdGFsZigi5bqV5p2/5bem6L6555WMICUuMmYg5ZyoIGEg57q/5qOL5a2Q5bem57yYICUuMmYg5LmL5YaFIOKAlOKAlCDmo4vlrZDkvJrmjqLlh7rlupXmnb8iLCB4MCwgZy54KDApLXBpZWNlUikKCX0KCWlmIHgxIDwgZy54KDgpK3BpZWNlUiB7CgkJdC5GYXRhbGYoIuW6leadv+WPs+i+ueeVjCAlLjJmIOWcqCBpIOe6v+aji+WtkOWPs+e8mCAlLjJmIOS5i+WGhSDigJTigJQg5qOL5a2Q5Lya5o6i5Ye65bqV5p2/IiwgeDEsIGcueCg4KStwaWVjZVIpCgl9CglpZiB5MCA+IGcueSg5KS1waWVjZVIgewoJCXQuRmF0YWxmKCLlupXmnb/kuIrovrnnlYwgJS4yZiDlnKggcmFuazkg5qOL5a2Q6aG257yYICUuMmYg5LmL5YaFIOKAlOKAlCDmo4vlrZDkvJrmjqLlh7rlupXmnb8iLCB5MCwgZy55KDkpLXBpZWNlUikKCX0KCWlmIHkxIDwgZy55KDApK3BpZWNlUiB7CgkJdC5GYXRhbGYoIuW6leadv+S4i+i+ueeVjCAlLjJmIOWcqCByYW5rMCDmo4vlrZDlupXnvJggJS4yZiDkuYvlhoUg4oCU4oCUIOaji+WtkOS8muaOouWHuuW6leadvyIsIHkxLCBnLnkoMCkrcGllY2VSKQoJfQp9Cg==
+package ui
+
+import (
+	"math"
+	"testing"
+
+	"fyne.io/fyne/v2"
+
+	"xiangqi/rules"
+)
+
+// TestBoardGeomScaledIsExact 守住 v1.3.1 踩过的坑：
+// 光栅化底板时「逻辑几何 → 物理几何」必须整体等比放大。
+//
+// 事故回顾：generatePlate 里手写成 {cell: base.cell, ox: base.ox*sx, oy: base.oy*sy}，
+// **漏乘了 cell**。于是底板格距停留在逻辑值、而棋子按物理值摆放，两者差 1.3 倍，
+// 表现为「棋子都没落在格线交叉点上、外侧棋子跑出底板」。
+//
+// 本测试从两侧夹住这个不变量：
+//  1. scaled(k) 与直接用放大后的尺寸算出来的几何必须一致（格距、原点都对得上）；
+//  2. 交叉点间距必须等于 cell*k —— 也就是棋子摆放用的那套间距。
+func TestBoardGeomScaledIsExact(t *testing.T) {
+	const (
+		lw = 446.9 // 逻辑宽（本机默认窗口实测值）
+		lh = 595.8 // 逻辑高
+		k  = 1.3   // Fyne content scale
+	)
+	logical := newBoardGeom(lw, lh)
+	scaled := logical.scaled(k)
+
+	// 1. 与「按物理尺寸直接算」的几何一致
+	direct := newBoardGeom(lw*k, lh*k)
+	if math.Abs(scaled.cell-direct.cell) > 1e-9 {
+		t.Fatalf("scaled().cell = %v, 直接按物理尺寸算 = %v，二者必须相等", scaled.cell, direct.cell)
+	}
+	if math.Abs(scaled.ox-direct.ox) > 1e-9 || math.Abs(scaled.oy-direct.oy) > 1e-9 {
+		t.Fatalf("scaled() 原点 = (%v,%v)，直接算 = (%v,%v)",
+			scaled.ox, scaled.oy, direct.ox, direct.oy)
+	}
+
+	// 2. 格距必须是逻辑格距 × k（这就是事故点：漏乘 k 时这里会差 1.3 倍）
+	if math.Abs(scaled.cell-logical.cell*k) > 1e-9 {
+		t.Fatalf("scaled().cell = %v，期望 %v（= 逻辑格距 %v × %v）",
+			scaled.cell, logical.cell*k, logical.cell, k)
+	}
+
+	// 3. 相邻交叉点在两个方向上都必须正好差一个 cell
+	//    注意 y 随 rank 增大而**减小**（rank 9 在上），所以取绝对值。
+	for file := 0; file < rules.Files-1; file++ {
+		got := math.Abs(scaled.x(file+1) - scaled.x(file))
+		if math.Abs(got-scaled.cell) > 1e-9 {
+			t.Fatalf("file %d→%d 的横向间距 = %v，应等于 cell = %v", file, file+1, got, scaled.cell)
+		}
+	}
+	for rank := 0; rank < rules.Ranks-1; rank++ {
+		got := math.Abs(scaled.y(rank+1) - scaled.y(rank))
+		if math.Abs(got-scaled.cell) > 1e-9 {
+			t.Fatalf("rank %d→%d 的纵向间距 = %v，应等于 cell = %v", rank, rank+1, got, scaled.cell)
+		}
+	}
+}
+
+// TestHitMatchesRenderGeom 守住「点击命中尺寸 = 渲染尺寸」：
+// 用渲染几何算出某个交叉点的像素位置，再把它交给 hit()，必须回到同一个格子。
+//
+// 注意方向换算：几何里的 y(rank) 用的是 rules.ScreenRow(rank)（rank 9 在屏幕最上方），
+// 而规则层面的索引是 rules.Index(file, rank)（rank 0 = 红方底线）。
+func TestHitMatchesRenderGeom(t *testing.T) {
+	size := fyne.NewSize(446.9, 595.8)
+	geom := newBoardGeom(float64(size.Width), float64(size.Height))
+
+	for file := 0; file < rules.Files; file++ {
+		for rank := 0; rank < rules.Ranks; rank++ {
+			// 渲染时棋子圆心所在的位置（逻辑坐标）
+			pos := fyne.NewPos(float32(geom.x(file)), float32(geom.y(rank)))
+			sq, ok := geom.hit(pos)
+			if !ok {
+				t.Fatalf("交叉点 file=%d rank=%d 的位置 %v 被判为无效点击", file, rank, pos)
+			}
+			want := rules.Index(file, rank)
+			if sq != want {
+				t.Fatalf("交叉点 file=%d rank=%d 命中到 sq=%d（%s），期望 sq=%d（%s）",
+					file, rank, sq, rules.SquareName(sq), want, rules.SquareName(want))
+			}
+		}
+	}
+}
+
+// TestPlateGeometryCoversAllPieces 守住「所有棋子都在底板范围内」：
+// 底板必须完整包住 9×10 个交叉点上的棋子圆（半径 cell*0.435）。
+// 这条不变量正是「棋子没落在棋盘上」那个观感的判据。
+func TestPlateGeometryCoversAllPieces(t *testing.T) {
+	const lw, lh = 446.9, 595.8
+	g := newBoardGeom(lw, lh)
+
+	// 底板范围：格线区域外扩 geomPadFrac 格（与 drawBoardPlate 一致）
+	x0 := g.x(0) - geomPadFrac*g.cell
+	x1 := g.x(8) + geomPadFrac*g.cell
+	y0 := g.y(9) - geomPadFrac*g.cell
+	y1 := g.y(0) + geomPadFrac*g.cell
+
+	pieceR := g.cell * 0.435 // Layout 里棋子半径
+	if x0 > g.x(0)-pieceR {
+		t.Fatalf("底板左边界 %.2f 在 a 线棋子左缘 %.2f 之内 —— 棋子会探出底板", x0, g.x(0)-pieceR)
+	}
+	if x1 < g.x(8)+pieceR {
+		t.Fatalf("底板右边界 %.2f 在 i 线棋子右缘 %.2f 之内 —— 棋子会探出底板", x1, g.x(8)+pieceR)
+	}
+	if y0 > g.y(9)-pieceR {
+		t.Fatalf("底板上边界 %.2f 在 rank9 棋子顶缘 %.2f 之内 —— 棋子会探出底板", y0, g.y(9)-pieceR)
+	}
+	if y1 < g.y(0)+pieceR {
+		t.Fatalf("底板下边界 %.2f 在 rank0 棋子底缘 %.2f 之内 —— 棋子会探出底板", y1, g.y(0)+pieceR)
+	}
+}

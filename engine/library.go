@@ -1,1 +1,415 @@
-cGFja2FnZSBlbmdpbmUKCmltcG9ydCAoCgkiZW5jb2RpbmcvanNvbiIKCSJmbXQiCgkiaGFzaC9mbnYiCgkiaW8vZnMiCgkib3MiCgkicGF0aC9maWxlcGF0aCIKCSJzb3J0IgoJInN0cmluZ3MiCgkidGltZSIKKQoKLy8gUHJlc2V0RW5naW5lRGlyIOaYr+mihOe9ruW8leaTjuebruW9leWQje+8jOebuOWvueS6juacrOeoi+W6j+WPr+aJp+ihjOaWh+S7tuaJgOWcqOebruW9le+8iGJhc2VEaXLvvInjgIIKLy8g55So5oi35oyJIFJFQURNRSDmjIflvJXmioogUGlrYWZpc2gg5pS+5YWl6K+l55uu5b2V5ZCO77yM6aaW5qyh6L+Q6KGM5Lya6Ieq5Yqo5rOo5YaM44CCCmNvbnN0IFByZXNldEVuZ2luZURpciA9ICJlbmdpbmVzIgoKLy8gRW5naW5lRW50cnkg5piv5byV5pOO5bqT5Lit55qE5LiA5p2h5byV5pOO6K6w5b2V77yM5a+55bqUIGVuZ2luZXMuanNvbiDph4wgZW5naW5lcyDmlbDnu4TnmoTkuIDkuKrlhYPntKDjgIIKdHlwZSBFbmdpbmVFbnRyeSBzdHJ1Y3QgewoJSUQgICAgICAgc3RyaW5nICAgYGpzb246ImlkImAgICAgICAgICAgICAgICAvLyDnqLPlrprllK/kuIAgaWTvvIjnlLHot6/lvoTlk4jluIzlvpfliLDvvIzlvaLlpoIgZW5nLTFhMmIzYzRk77yJCglOYW1lICAgICBzdHJpbmcgICBganNvbjoibmFtZSJgICAgICAgICAgICAgIC8vIOW8leaTjuiHquaKpeWQjeensO+8iGlkIG5hbWXvvIkKCVByb3RvY29sIHN0cmluZyAgIGBqc29uOiJwcm90b2NvbCJgICAgICAgICAgLy8gIlVDSSIg5oiWICJVQ0NJIgoJQXV0aG9yICAgc3RyaW5nICAgYGpzb246ImF1dGhvcixvbWl0ZW1wdHkiYCAvLyDlvJXmk47oh6rmiqXkvZzogIUKCVBhdGggICAgIHN0cmluZyAgIGBqc29uOiJwYXRoImAgICAgICAgICAgICAgLy8gZXhlIOe7neWvuei3r+W+hAoJRGlyICAgICAgc3RyaW5nICAgYGpzb246ImRpciJgICAgICAgICAgICAgICAvLyDlvJXmk47lt6XkvZznm67lvZXvvIg9IGV4ZSDmiYDlnKjnm67lvZXvvIkKCVNvdXJjZSAgIHN0cmluZyAgIGBqc29uOiJzb3VyY2UiYCAgICAgICAgICAgLy8gcHJlc2V0PemihOe9riAvIGxpYnJhcnk95byV5pOO5bqT55uu5b2VIC8gZXh0ZXJuYWw95aSW6YOo5re75YqgCglPcHRpb25zICBbXU9wdGlvbiBganNvbjoib3B0aW9uc19jYWNoZWQiYCAgIC8vIOS4iuasoeaOoua1i+e8k+WtmOWIsOeahOWPguaVsOWIl+ihqAoKCS8vIEV4ZWN1dGFibGUg5piv44CM5pys5qyh6L+Q6KGM5YaF44CN55qE5a2Y5Zyo5oCn57yT5a2Y77yMKirkuI3lj4LkuI7luo/liJfljJYqKu+8iGpzb246Ii0i77yJ44CCCgkvLwoJLy8g44CQUjMg5L+u5aSN44CR5a6D5Lul5YmN5piv55WM6Z2i5Yik5pat44CM5Y+v55SoIC8g5paH5Lu25bey5Lii5aSx44CN55qE5ZSv5LiA5L6d5o2u77yM5LqO5piv5Ye6546w77yaCgkvLyBlbmdpbmVzLmpzb24g6YeM5qC55pys5rKh5pyJ6L+Z5Liq5a2X5q61IOKGkiDlj43luo/liJfljJblvpfliLAgR28g55qE6Zu25YC8IGZhbHNlIOKGkgoJLy8g5piO5piO5paH5Lu255yf5a6e5a2Y5Zyo44CB5Li755WM6Z2i5q2j5Zyo55So6K+l5byV5pOO5YiG5p6Q77yM5YiX6KGo5Y205oqK5omA5pyJ5byV5pOO5qCH57qi44CM5paH5Lu25bey5Lii5aSx44CN44CCCgkvLwoJLy8g546w5Zyo55qE57qq5b6L77yaKirku7vkvZXmmL7npLrpgLvovpHpg73kuI3lvpfor7vlj5bmnKzlrZfmrrUqKu+8jOW/hemhu+iwg+eUqCBDaGVja0V4ZWN1dGFibGUoKQoJLy8g5YGa5a6e5pe2IG9zLlN0YXQg5qCh6aqM77yb5pys5a2X5q615Y+q5L2c5Li65omr5o+P57uT5p2f5ZCO55qE5b+r54Wn77yM5L6b5YaF6YOo57uf6K6h5L2/55So44CCCgkvLwoJLy8gRGVwcmVjYXRlZDog6K+35pS555SoIENoZWNrRXhlY3V0YWJsZSgp44CCCglFeGVjdXRhYmxlIGJvb2wgYGpzb246Ii0iYAp9CgovLyBBdmFpbGFiaWxpdHkg5o+P6L+w5LiA5Liq5byV5pOO5Y+v5omn6KGM5paH5Lu25Zyo56OB55uY5LiK55qE55yf5a6e54q25oCB44CCCnR5cGUgQXZhaWxhYmlsaXR5IHN0cnVjdCB7CglPSyAgICAgYm9vbCAgIC8vIGV4ZSDlrZjlnKjjgIHmmK/mma7pgJrmlofku7bjgIHkuJTlvZPliY3ov5vnqIvlj6/or7sKCVJlYXNvbiBzdHJpbmcgLy8g5LiN5Y+v55So5pe255qE5Lit5paH5Y6f5Zug77yI5Y+v55So5pe25Li656m677yJCn0KCi8vIENoZWNrRXhlY3V0YWJsZSDlrp7ml7bmoKHpqozlvJXmk47lj6/miafooYzmlofku7bvvJrlrZjlnKjmgKcgKyDmmK/lkKbmma7pgJrmlofku7YgKyDlj6/or7vmnYPpmZDjgIIKLy8KLy8g6L+Z5piv5Yik5pat44CM5Y+v55SoIC8g5paH5Lu25bey5Lii5aSx44CN55qE5ZSv5LiA5p2D5aiB5YWl5Y+j77yIUjPvvInvvJoKLy8gICAtIOavj+asoeW8leaTjuWIl+ihqCBSZWZyZXNoIC8g5omr5o+P5pe26YO96KaB6YeN5paw6LCD55So77yM57ud5LiN57yT5a2Y5YiwIEpTT07vvJsKLy8gICAtIOWNs+S9vyBlbmdpbmVzLmpzb24g6YeM57y65aSx5Lu75L2V5a2X5q6177yM5Lmf5LiN5Lya5b2x5ZON5Yik5pat57uT5p6c44CCCmZ1bmMgKGUgRW5naW5lRW50cnkpIENoZWNrRXhlY3V0YWJsZSgpIEF2YWlsYWJpbGl0eSB7CglwYXRoIDo9IHN0cmluZ3MuVHJpbVNwYWNlKGUuUGF0aCkKCWlmIHBhdGggPT0gIiIgewoJCXJldHVybiBBdmFpbGFiaWxpdHl7UmVhc29uOiAi5byV5pOO6K6w5b2V6YeM5rKh5pyJIGV4ZSDot6/lvoQifQoJfQoJaW5mbywgZXJyIDo9IG9zLlN0YXQocGF0aCkKCWlmIGVyciAhPSBuaWwgewoJCWlmIG9zLklzTm90RXhpc3QoZXJyKSB7CgkJCXJldHVybiBBdmFpbGFiaWxpdHl7UmVhc29uOiAi5paH5Lu25bey5Lii5aSxIn0KCQl9CgkJcmV0dXJuIEF2YWlsYWJpbGl0eXtSZWFzb246ICLml6Dms5Xorr/pl67vvJoiICsgZXJyLkVycm9yKCl9Cgl9CglpZiBpbmZvLklzRGlyKCkgewoJCXJldHVybiBBdmFpbGFiaWxpdHl7UmVhc29uOiAi6K+l6Lev5b6E5piv55uu5b2V77yM5LiN5piv5Y+v5omn6KGM5paH5Lu2In0KCX0KCS8vIOWPr+ivu+adg+mZkO+8muecn+ato+aJk+W8gOS4gOasoeOAgldpbmRvd3Mg5LiK6KKr54us5Y2g6ZSB5a6a55qEIGV4ZSDkuZ/kvJrlnKjov5nph4zmmrTpnLLjgIIKCWYsIGVyciA6PSBvcy5PcGVuKHBhdGgpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gQXZhaWxhYmlsaXR5e1JlYXNvbjogIuaWh+S7tuS4jeWPr+ivu++8miIgKyBlcnIuRXJyb3IoKX0KCX0KCV8gPSBmLkNsb3NlKCkKCXJldHVybiBBdmFpbGFiaWxpdHl7T0s6IHRydWV9Cn0KCi8vIFJlZnJlc2hFeGlzdGVuY2Ug5Yi35paw5q+P5p2h6K6w5b2V55qE44CM5paH5Lu25piv5ZCm5LuN5a2Y5Zyo44CN5b+r54Wn77yIUjPvvInjgIIKLy8KLy8g5rOo5oSP77ya55WM6Z2iKirkuI0qKuS+nei1lui/meS4quW/q+eFp++8jOWug+WPquS4uuaJq+aPj+aKpeWRiuS4juWGhemDqOe7n+iuoeacjeWKoe+8mwovLyDnlYzpnaLmmL7npLror7fkuIDlvovosIPnlKggRW5naW5lRW50cnkuQ2hlY2tFeGVjdXRhYmxlKCnjgIIKZnVuYyAociAqUmVnaXN0cnkpIFJlZnJlc2hFeGlzdGVuY2UoKSB7Cglmb3IgaSA6PSByYW5nZSByLkVuZ2luZXMgewoJCXIuRW5naW5lc1tpXS5FeGVjdXRhYmxlID0gci5FbmdpbmVzW2ldLkNoZWNrRXhlY3V0YWJsZSgpLk9LCgl9Cn0KCi8vIFJlZ2lzdHJ5IOaYr+W8leaTjuazqOWGjOihqO+8jOaVtOS9k+W6j+WIl+WMluS4uiBlbmdpbmVzLmpzb27jgIIKdHlwZSBSZWdpc3RyeSBzdHJ1Y3QgewoJRW5naW5lcyAgICAgICBbXUVuZ2luZUVudHJ5IGBqc29uOiJlbmdpbmVzImAKCURlZmF1bHRFbmdpbmUgc3RyaW5nICAgICAgICBganNvbjoiZGVmYXVsdF9lbmdpbmUiYCAvLyDpu5jorqTlt7HmlrnlvJXmk44gaWQKCVNlYXJjaERpcnMgICAgW11zdHJpbmcgICAgICBganNvbjoic2VhcmNoX2RpcnMiYCAgICAvLyDpop3lpJbmiavmj4/nmoTjgIzlpJbpg6jlvJXmk47nm67lvZXjgI0KCVVwZGF0ZWRBdCAgICAgc3RyaW5nICAgICAgICBganNvbjoidXBkYXRlZF9hdCJgCn0KCi8vIE1ha2VJRCDnlLHlvJXmk47ot6/lvoTnlJ/miJDnqLPlrpogaWTjgIIKZnVuYyBNYWtlSUQocGF0aCBzdHJpbmcpIHN0cmluZyB7CgloIDo9IGZudi5OZXczMmEoKQoJXywgXyA9IGguV3JpdGUoW11ieXRlKHN0cmluZ3MuVG9Mb3dlcihmaWxlcGF0aC5DbGVhbihwYXRoKSkpKQoJcmV0dXJuIGZtdC5TcHJpbnRmKCJlbmctJTA4eCIsIGguU3VtMzIoKSkKfQoKLy8gTmV3UmVnaXN0cnkg6L+U5Zue5LiA5Liq56m655qE5byV5pOO5rOo5YaM6KGo44CCCmZ1bmMgTmV3UmVnaXN0cnkoKSAqUmVnaXN0cnkgewoJcmV0dXJuICZSZWdpc3RyeXtFbmdpbmVzOiBbXUVuZ2luZUVudHJ5e319Cn0KCi8vIExvYWRSZWdpc3RyeSDor7vlj5YgZW5naW5lcy5qc29u77yb5paH5Lu25LiN5a2Y5Zyo5oiW5o2f5Z2P5pe26L+U5Zue5LiA5Liq5oyJ6aKE572u6KeE5YiZ5Yid5aeL5YyW55qE5paw5rOo5YaM6KGo44CCCmZ1bmMgTG9hZFJlZ2lzdHJ5KHBhdGggc3RyaW5nKSAoKlJlZ2lzdHJ5LCBlcnJvcikgewoJZGF0YSwgZXJyIDo9IG9zLlJlYWRGaWxlKHBhdGgpCglpZiBlcnIgIT0gbmlsIHsKCQlpZiBvcy5Jc05vdEV4aXN0KGVycikgewoJCQlyZXR1cm4gTmV3UmVnaXN0cnkoKSwgbmlsCgkJfQoJCXJldHVybiBuaWwsIGVycgoJfQoJdmFyIHIgUmVnaXN0cnkKCWlmIGVyciA6PSBqc29uLlVubWFyc2hhbChkYXRhLCAmcik7IGVyciAhPSBuaWwgewoJCS8vIOaWh+S7tuaNn+Wdj++8muWkh+S7veWQjumHjeW7uu+8jOmBv+WFjeeUqOaIt+ebtOaOpeS4ouWkseaVsOaNrgoJCV8gPSBvcy5Xcml0ZUZpbGUocGF0aCsiLmJhayIsIGRhdGEsIDBvNjQ0KQoJCXJldHVybiBOZXdSZWdpc3RyeSgpLCBmbXQuRXJyb3JmKCJlbmdpbmVzLmpzb24g6Kej5p6Q5aSx6LSl77yI5bey5aSH5Lu95Li6IGVuZ2luZXMuanNvbi5iYWvvvIzlsIbph43mlrDmiavmj4/vvIk6ICV3IiwgZXJyKQoJfQoJaWYgci5FbmdpbmVzID09IG5pbCB7CgkJci5FbmdpbmVzID0gW11FbmdpbmVFbnRyeXt9Cgl9CgkvLyDjgJBSM+OAkeWKoOi9veWQjueri+WIu+eUqCBvcy5TdGF0IOWIt+aWsOS4gOasoeWtmOWcqOaAp+W/q+eFp+OAggoJLy8g6L+Z5qC35Y2z5L2/IGVuZ2luZXMuanNvbiDmmK/kurrmiYvnvJbovpHnmoTjgIHnvLrlrZfmrrXnmoTjgIHmiJbnlLHml6fniYjmnKzlhpnlh7rnmoTvvIwKCS8vIOWIl+ihqOS5n+S4jeS8muaKiuecn+WunuWtmOWcqOeahOW8leaTjuivr+WIpOS4uuOAjOaWh+S7tuW3suS4ouWkseOAjeOAggoJci5SZWZyZXNoRXhpc3RlbmNlKCkKCXJldHVybiAmciwgbmlsCn0KCi8vIFNhdmUg5YaZ5ZueIGVuZ2luZXMuanNvbu+8iFVURi0444CB57yp6L+b44CB5L6/5LqO5omL5bel5p+l55yL77yJ44CCCmZ1bmMgKHIgKlJlZ2lzdHJ5KSBTYXZlKHBhdGggc3RyaW5nKSBlcnJvciB7CglyLlVwZGF0ZWRBdCA9IHRpbWUuTm93KCkuRm9ybWF0KCIyMDA2LTAxLTAyIDE1OjA0OjA1IikKCWRhdGEsIGVyciA6PSBqc29uLk1hcnNoYWxJbmRlbnQociwgIiIsICIgICIpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gZXJyCgl9CglpZiBlcnIgOj0gb3MuTWtkaXJBbGwoZmlsZXBhdGguRGlyKHBhdGgpLCAwbzc1NSk7IGVyciAhPSBuaWwgewoJCXJldHVybiBlcnIKCX0KCXJldHVybiBvcy5Xcml0ZUZpbGUocGF0aCwgZGF0YSwgMG82NDQpCn0KCi8vIEZpbmQg5oyJIGlkIOafpeaJvuW8leaTjuOAggpmdW5jIChyICpSZWdpc3RyeSkgRmluZChpZCBzdHJpbmcpICpFbmdpbmVFbnRyeSB7Cglmb3IgaSA6PSByYW5nZSByLkVuZ2luZXMgewoJCWlmIHIuRW5naW5lc1tpXS5JRCA9PSBpZCB7CgkJCXJldHVybiAmci5FbmdpbmVzW2ldCgkJfQoJfQoJcmV0dXJuIG5pbAp9CgovLyBGaW5kQnlQYXRoIOaMiei3r+W+hOafpeaJvuW8leaTjuOAggpmdW5jIChyICpSZWdpc3RyeSkgRmluZEJ5UGF0aChwYXRoIHN0cmluZykgKkVuZ2luZUVudHJ5IHsKCWNsZWFuIDo9IHN0cmluZ3MuVG9Mb3dlcihmaWxlcGF0aC5DbGVhbihwYXRoKSkKCWZvciBpIDo9IHJhbmdlIHIuRW5naW5lcyB7CgkJaWYgc3RyaW5ncy5Ub0xvd2VyKGZpbGVwYXRoLkNsZWFuKHIuRW5naW5lc1tpXS5QYXRoKSkgPT0gY2xlYW4gewoJCQlyZXR1cm4gJnIuRW5naW5lc1tpXQoJCX0KCX0KCXJldHVybiBuaWwKfQoKLy8gUmVtb3ZlIOWIoOmZpOS4gOadoeW8leaTjuiusOW9leOAggpmdW5jIChyICpSZWdpc3RyeSkgUmVtb3ZlKGlkIHN0cmluZykgYm9vbCB7Cglmb3IgaSA6PSByYW5nZSByLkVuZ2luZXMgewoJCWlmIHIuRW5naW5lc1tpXS5JRCA9PSBpZCB7CgkJCXIuRW5naW5lcyA9IGFwcGVuZChyLkVuZ2luZXNbOmldLCByLkVuZ2luZXNbaSsxOl0uLi4pCgkJCWlmIHIuRGVmYXVsdEVuZ2luZSA9PSBpZCB7CgkJCQlyLkRlZmF1bHRFbmdpbmUgPSAiIgoJCQl9CgkJCXJldHVybiB0cnVlCgkJfQoJfQoJcmV0dXJuIGZhbHNlCn0KCi8vIEFkZFNlYXJjaERpciDorrDlvZXkuIDkuKrlpJbpg6jlvJXmk47nm67lvZXvvIjljrvph43vvInjgIIKZnVuYyAociAqUmVnaXN0cnkpIEFkZFNlYXJjaERpcihkaXIgc3RyaW5nKSBib29sIHsKCWRpciA9IGZpbGVwYXRoLkNsZWFuKGRpcikKCWZvciBfLCBkIDo9IHJhbmdlIHIuU2VhcmNoRGlycyB7CgkJaWYgc3RyaW5ncy5FcXVhbEZvbGQoZmlsZXBhdGguQ2xlYW4oZCksIGRpcikgewoJCQlyZXR1cm4gZmFsc2UKCQl9Cgl9CglyLlNlYXJjaERpcnMgPSBhcHBlbmQoci5TZWFyY2hEaXJzLCBkaXIpCglyZXR1cm4gdHJ1ZQp9CgovLyBSZW1vdmVTZWFyY2hEaXIg56e76Zmk5LiA5Liq5aSW6YOo5byV5pOO55uu5b2V77yM5bm25Yig6Zmk5p2l5rqQ5LqO6K+l55uu5b2V55qE5byV5pOO6K6w5b2V44CCCmZ1bmMgKHIgKlJlZ2lzdHJ5KSBSZW1vdmVTZWFyY2hEaXIoZGlyIHN0cmluZykgYm9vbCB7CglkaXIgPSBmaWxlcGF0aC5DbGVhbihkaXIpCglmb3VuZCA6PSBmYWxzZQoJdmFyIGtlZXAgW11zdHJpbmcKCWZvciBfLCBkIDo9IHJhbmdlIHIuU2VhcmNoRGlycyB7CgkJaWYgc3RyaW5ncy5FcXVhbEZvbGQoZmlsZXBhdGguQ2xlYW4oZCksIGRpcikgewoJCQlmb3VuZCA9IHRydWUKCQkJY29udGludWUKCQl9CgkJa2VlcCA9IGFwcGVuZChrZWVwLCBkKQoJfQoJci5TZWFyY2hEaXJzID0ga2VlcAoJaWYgZm91bmQgewoJCXZhciBlbmdpbmVzIFtdRW5naW5lRW50cnkKCQlwcmVmaXggOj0gc3RyaW5ncy5Ub0xvd2VyKGRpcikgKyBzdHJpbmcoZmlsZXBhdGguU2VwYXJhdG9yKQoJCWZvciBfLCBlIDo9IHJhbmdlIHIuRW5naW5lcyB7CgkJCWlmIHN0cmluZ3MuSGFzUHJlZml4KHN0cmluZ3MuVG9Mb3dlcihmaWxlcGF0aC5DbGVhbihlLlBhdGgpKSwgcHJlZml4KSB7CgkJCQljb250aW51ZQoJCQl9CgkJCWVuZ2luZXMgPSBhcHBlbmQoZW5naW5lcywgZSkKCQl9CgkJci5FbmdpbmVzID0gZW5naW5lcwoJfQoJcmV0dXJuIGZvdW5kCn0KCi8vIExpc3Qg6L+U5Zue5oyJ5ZCN56ew5o6S5bqP55qE5byV5pOO5YiX6KGo5Ymv5pys44CCCmZ1bmMgKHIgKlJlZ2lzdHJ5KSBMaXN0KCkgW11FbmdpbmVFbnRyeSB7CglvdXQgOj0gbWFrZShbXUVuZ2luZUVudHJ5LCBsZW4oci5FbmdpbmVzKSkKCWNvcHkob3V0LCByLkVuZ2luZXMpCglzb3J0LlNsaWNlU3RhYmxlKG91dCwgZnVuYyhpLCBqIGludCkgYm9vbCB7CgkJaWYgb3V0W2ldLlNvdXJjZSAhPSBvdXRbal0uU291cmNlIHsKCQkJcmV0dXJuIG91dFtpXS5Tb3VyY2UgPT0gInByZXNldCIKCQl9CgkJcmV0dXJuIHN0cmluZ3MuVG9Mb3dlcihvdXRbaV0uTmFtZSkgPCBzdHJpbmdzLlRvTG93ZXIob3V0W2pdLk5hbWUpCgl9KQoJcmV0dXJuIG91dAp9CgovLyBMYWJlbCDov5Tlm57nlYzpnaLkuIrmmL7npLrnmoTjgIzlkI3np7AgKOWNj+iurinjgI3mlofmnKzjgIIKZnVuYyAoZSBFbmdpbmVFbnRyeSkgTGFiZWwoKSBzdHJpbmcgewoJcmV0dXJuIGZtdC5TcHJpbnRmKCIlcyAoJXMpIiwgZS5OYW1lLCBlLlByb3RvY29sKQp9CgovLyBTY2FuRm9yRXhlcyDpgJLlvZLmiavmj48gcm9vdCDkuIvnmoTmiYDmnIkgLmV4Ze+8iOa3seW6puS4iumZkCAzIOWxgu+8ieOAggpmdW5jIFNjYW5Gb3JFeGVzKHJvb3Qgc3RyaW5nLCBza2lwIG1hcFtzdHJpbmddYm9vbCkgW11zdHJpbmcgewoJdmFyIG91dCBbXXN0cmluZwoJcm9vdCA9IGZpbGVwYXRoLkNsZWFuKHJvb3QpCglpbmZvLCBlcnIgOj0gb3MuU3RhdChyb290KQoJaWYgZXJyICE9IG5pbCB8fCAhaW5mby5Jc0RpcigpIHsKCQlyZXR1cm4gbmlsCgl9CglfID0gZmlsZXBhdGguV2Fsa0Rpcihyb290LCBmdW5jKHAgc3RyaW5nLCBkIGZzLkRpckVudHJ5LCBlcnIgZXJyb3IpIGVycm9yIHsKCQlpZiBlcnIgIT0gbmlsIHsKCQkJcmV0dXJuIG5pbCAvLyDml6DmnYPpmZDnm67lvZXnm7TmjqXot7Pov4fvvIzkuI3kuK3mlq3mlbTmrKHmiavmj48KCQl9CgkJaWYgZC5Jc0RpcigpIHsKCQkJcmVsLCBlIDo9IGZpbGVwYXRoLlJlbChyb290LCBwKQoJCQlpZiBlID09IG5pbCAmJiByZWwgIT0gIi4iICYmIHN0cmluZ3MuQ291bnQocmVsLCBzdHJpbmcoZmlsZXBhdGguU2VwYXJhdG9yKSkgPj0gMyB7CgkJCQlyZXR1cm4gZnMuU2tpcERpcgoJCQl9CgkJCXJldHVybiBuaWwKCQl9CgkJaWYgIXN0cmluZ3MuRXF1YWxGb2xkKGZpbGVwYXRoLkV4dChwKSwgIi5leGUiKSB7CgkJCXJldHVybiBuaWwKCQl9CgkJYWJzLCBlIDo9IGZpbGVwYXRoLkFicyhwKQoJCWlmIGUgIT0gbmlsIHsKCQkJYWJzID0gcAoJCX0KCQlpZiBza2lwICE9IG5pbCAmJiBza2lwW3N0cmluZ3MuVG9Mb3dlcihmaWxlcGF0aC5DbGVhbihhYnMpKV0gewoJCQlyZXR1cm4gbmlsCgkJfQoJCW91dCA9IGFwcGVuZChvdXQsIGFicykKCQlyZXR1cm4gbmlsCgl9KQoJc29ydC5TdHJpbmdzKG91dCkKCXJldHVybiBvdXQKfQoKLy8gU2NhbkZhaWx1cmUg6K6w5b2V5LiA5Liq5peg5rOV6K+G5Yir5Li66LGh5qOL5byV5pOO55qE5Y+v5omn6KGM5paH5Lu244CCCnR5cGUgU2NhbkZhaWx1cmUgc3RydWN0IHsKCVBhdGggICBzdHJpbmcKCVJlYXNvbiBzdHJpbmcKfQoKLy8gU2NhblJlcG9ydCDmmK/kuIDmrKHjgIzph43mlrDmiavmj4/lvJXmk47jgI3nmoTnu5PmnpzmsYfmgLvjgIIKdHlwZSBTY2FuUmVwb3J0IHN0cnVjdCB7CglBZGRlZCAgICBbXUVuZ2luZUVudHJ5CglVcGRhdGVkICBbXUVuZ2luZUVudHJ5CglGYWlsZWQgICBbXVNjYW5GYWlsdXJlCglTY2FubmVkICBpbnQKCURpckNvdW50IGludAp9CgovLyBTdW1tYXJ5IOi/lOWbnumdouWQkeeVjOmdoueahOS4reaWh+aRmOimgeOAggpmdW5jIChzciBTY2FuUmVwb3J0KSBTdW1tYXJ5KCkgc3RyaW5nIHsKCXZhciBzYiBzdHJpbmdzLkJ1aWxkZXIKCWZtdC5GcHJpbnRmKCZzYiwgIuaJq+aPjyAlZCDkuKrnm67lvZXjgIElZCDkuKogZXhl77ya5paw5aKeICVkIOS4quW8leaTju+8jOabtOaWsCAlZCDkuKoiLAoJCXNyLkRpckNvdW50LCBzci5TY2FubmVkLCBsZW4oc3IuQWRkZWQpLCBsZW4oc3IuVXBkYXRlZCkpCglpZiBsZW4oc3IuRmFpbGVkKSA+IDAgewoJCWZtdC5GcHJpbnRmKCZzYiwgIu+8jCVkIOS4quaWh+S7tuaXoOazleivhuWIq+S4uuixoeaji+W8leaTjiIsIGxlbihzci5GYWlsZWQpKQoJfQoJcmV0dXJuIHNiLlN0cmluZygpCn0KCi8vIFByb2JlRXhlIOWQr+WKqOS4gOS4qiBleGUg5bm25YGa5Y2P6K6u5o6i5rWL77yM5oiQ5Yqf5YiZ6L+U5Zue5byV5pOO6K6w5b2V44CCCi8vCi8vIOaXoOazleivhuWIq++8iOmdnuixoeaji+W8leaTjuOAgee8uuWwkei/kOihjOW6k+OAgeWQr+WKqOWksei0pe+8ieaXtui/lOWbnumUmeivr++8jOiwg+eUqOaWueaNruatpOaPkOekuueUqOaIt++8jAovLyDkvYbnu53kuI3og73lm6DmraTltKnmuoPmiJbkuK3mlq3miavmj4/jgIIKZnVuYyBQcm9iZUV4ZShwYXRoIHN0cmluZywgdGltZW91dCB0aW1lLkR1cmF0aW9uLCBzb3VyY2Ugc3RyaW5nKSAoKkVuZ2luZUVudHJ5LCBlcnJvcikgewoJYyA6PSBOZXdDbGllbnQocGF0aCkKCWlmIGVyciA6PSBjLlN0YXJ0KHRpbWVvdXQpOyBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gbmlsLCBlcnIKCX0KCWRlZmVyIGMuUXVpdCgyICogdGltZS5TZWNvbmQpCglyZXR1cm4gJkVuZ2luZUVudHJ5ewoJCUlEOiAgICAgICBNYWtlSUQocGF0aCksCgkJTmFtZTogICAgIGMuTmFtZSgpLAoJCVByb3RvY29sOiBjLlByb3RvY29sKCkuU3RyaW5nKCksCgkJQXV0aG9yOiAgIGMuQXV0aG9yKCksCgkJUGF0aDogICAgIHBhdGgsCgkJRGlyOiAgICAgIGZpbGVwYXRoLkRpcihwYXRoKSwKCQlTb3VyY2U6ICAgc291cmNlLAoJCU9wdGlvbnM6ICBjLk9wdGlvbnMoKSwKCX0sIG5pbAp9CgovLyBzb3VyY2VGb3Ig5Yik5pat5p+Q5LiqIGV4ZSDlsZ7kuo7lk6rnsbvmnaXmupDjgIIKZnVuYyBzb3VyY2VGb3IocGF0aCBzdHJpbmcsIHByZXNldERpcnMgW11zdHJpbmcpIHN0cmluZyB7CglscCA6PSBzdHJpbmdzLlRvTG93ZXIoZmlsZXBhdGguQ2xlYW4ocGF0aCkpCglmb3IgXywgZCA6PSByYW5nZSBwcmVzZXREaXJzIHsKCQlpZiBzdHJpbmdzLkhhc1ByZWZpeChscCwgc3RyaW5ncy5Ub0xvd2VyKGZpbGVwYXRoLkNsZWFuKGQpKStzdHJpbmcoZmlsZXBhdGguU2VwYXJhdG9yKSkgewoJCQlyZXR1cm4gInByZXNldCIKCQl9Cgl9CglyZXR1cm4gImxpYnJhcnkiCn0KCi8vIEVuc3VyZVByZXNldCDpppbmrKHov5DooYzml7bmiorpooTnva7lvJXmk47nm67lvZXvvIhiYXNlRGlyXGVuZ2luZXPvvInms6jlhozov5vlvJXmk47lupPjgIIKLy8g5bey5rOo5YaM5oiW55uu5b2V5LiN5a2Y5Zyo5pe25LiN5YGa5Lu75L2V5LqL77yI5LiN5oql6ZSZ77yJ44CCCmZ1bmMgRW5zdXJlUHJlc2V0KHIgKlJlZ2lzdHJ5LCBiYXNlRGlyIHN0cmluZywgdGltZW91dCB0aW1lLkR1cmF0aW9uKSAoKkVuZ2luZUVudHJ5LCBlcnJvcikgewoJcHJlc2V0RGlyIDo9IGZpbGVwYXRoLkpvaW4oYmFzZURpciwgUHJlc2V0RW5naW5lRGlyKQoJZXhlcyA6PSBTY2FuRm9yRXhlcyhwcmVzZXREaXIsIG5pbCkKCWlmIGxlbihleGVzKSA9PSAwIHsKCQlyZXR1cm4gbmlsLCBmbXQuRXJyb3JmKCLmnKrlnKjpooTnva7nm67lvZXmib7liLDlvJXmk47lj6/miafooYzmlofku7bvvJolcyIsIHByZXNldERpcikKCX0KCS8vIOS8mOWFiOmAieaLqeaWh+S7tuWQjeWQqyBwaWthZmlzaCDnmoQgZXhlCglwaWNrIDo9IGV4ZXNbMF0KCWZvciBfLCBlIDo9IHJhbmdlIGV4ZXMgewoJCWlmIHN0cmluZ3MuQ29udGFpbnMoc3RyaW5ncy5Ub0xvd2VyKGZpbGVwYXRoLkJhc2UoZSkpLCAicGlrYWZpc2giKSB7CgkJCXBpY2sgPSBlCgkJCWJyZWFrCgkJfQoJfQoJaWYgZXhpc3QgOj0gci5GaW5kQnlQYXRoKHBpY2spOyBleGlzdCAhPSBuaWwgewoJCWV4aXN0LkV4ZWN1dGFibGUgPSB0cnVlCgkJaWYgci5EZWZhdWx0RW5naW5lID09ICIiIHsKCQkJci5EZWZhdWx0RW5naW5lID0gZXhpc3QuSUQKCQl9CgkJcmV0dXJuIGV4aXN0LCBuaWwKCX0KCWVudHJ5LCBlcnIgOj0gUHJvYmVFeGUocGljaywgdGltZW91dCwgInByZXNldCIpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gbmlsLCBlcnIKCX0KCXIuRW5naW5lcyA9IGFwcGVuZChyLkVuZ2luZXMsICplbnRyeSkKCWlmIHIuRGVmYXVsdEVuZ2luZSA9PSAiIiB7CgkJci5EZWZhdWx0RW5naW5lID0gZW50cnkuSUQKCX0KCXJldHVybiBlbnRyeSwgbmlsCn0KCi8vIFJlc2NhbiDmiavmj4/jgIxleGUg5ZCM55uu5b2V55qEIGVuZ2luZXNcIOWtkOebruW9leOAjeS4juWFqOmDqOW3sueZu+iusOeahOWklumDqOW8leaTjuebruW9leOAggovLwovLyBiYXNlRGlyIOS4gOiIrOaYr+acrOeoi+W6jyBleGUg5omA5Zyo55uu5b2V44CCc2tpcCDpm4blkIjnlKjkuo7mjpLpmaTmnKznqIvluo/oh6rouqvjgIIKLy8gcHJvZ3Jlc3Mg5Y+v5Li6IG5pbO+8m+avj+S4quWAmemAieaWh+S7tuaOoua1i+WJjeiwg+eUqOS4gOasoe+8jOS+m+eVjOmdouaYvuekuui/m+W6puOAggpmdW5jIFJlc2NhbihyICpSZWdpc3RyeSwgYmFzZURpciBzdHJpbmcsIHRpbWVvdXQgdGltZS5EdXJhdGlvbiwgc2tpcCBtYXBbc3RyaW5nXWJvb2wsIHByb2dyZXNzIGZ1bmMoc3RyaW5nKSkgU2NhblJlcG9ydCB7Cgl2YXIgcmVwIFNjYW5SZXBvcnQKCWRpcnMgOj0gW11zdHJpbmd7ZmlsZXBhdGguSm9pbihiYXNlRGlyLCAiZW5naW5lcyIpfQoJZGlycyA9IGFwcGVuZChkaXJzLCByLlNlYXJjaERpcnMuLi4pCglwcmVzZXREaXJzIDo9IFtdc3RyaW5ne2ZpbGVwYXRoLkpvaW4oYmFzZURpciwgUHJlc2V0RW5naW5lRGlyKX0KCglzZWVuIDo9IG1hcFtzdHJpbmddYm9vbHt9Cglmb3IgXywgZGlyIDo9IHJhbmdlIGRpcnMgewoJCWlmIF8sIGVyciA6PSBvcy5TdGF0KGRpcik7IGVyciAhPSBuaWwgewoJCQljb250aW51ZQoJCX0KCQlyZXAuRGlyQ291bnQrKwoJCWZvciBfLCBleGUgOj0gcmFuZ2UgU2NhbkZvckV4ZXMoZGlyLCBza2lwKSB7CgkJCWtleSA6PSBzdHJpbmdzLlRvTG93ZXIoZmlsZXBhdGguQ2xlYW4oZXhlKSkKCQkJaWYgc2VlbltrZXldIHsKCQkJCWNvbnRpbnVlCgkJCX0KCQkJc2VlbltrZXldID0gdHJ1ZQoJCQlyZXAuU2Nhbm5lZCsrCgkJCWlmIHByb2dyZXNzICE9IG5pbCB7CgkJCQlwcm9ncmVzcyhmaWxlcGF0aC5CYXNlKGV4ZSkpCgkJCX0KCQkJZW50cnksIGVyciA6PSBQcm9iZUV4ZShleGUsIHRpbWVvdXQsIHNvdXJjZUZvcihleGUsIHByZXNldERpcnMpKQoJCQlpZiBlcnIgIT0gbmlsIHsKCQkJCXJlcC5GYWlsZWQgPSBhcHBlbmQocmVwLkZhaWxlZCwgU2NhbkZhaWx1cmV7UGF0aDogZXhlLCBSZWFzb246IGVyci5FcnJvcigpfSkKCQkJCWNvbnRpbnVlCgkJCX0KCQkJaWYgb2xkIDo9IHIuRmluZEJ5UGF0aChleGUpOyBvbGQgIT0gbmlsIHsKCQkJCW9sZC5OYW1lID0gZW50cnkuTmFtZQoJCQkJb2xkLlByb3RvY29sID0gZW50cnkuUHJvdG9jb2wKCQkJCW9sZC5BdXRob3IgPSBlbnRyeS5BdXRob3IKCQkJCW9sZC5PcHRpb25zID0gZW50cnkuT3B0aW9ucwoJCQkJb2xkLklEID0gZW50cnkuSUQKCQkJCW9sZC5FeGVjdXRhYmxlID0gdHJ1ZQoJCQkJcmVwLlVwZGF0ZWQgPSBhcHBlbmQocmVwLlVwZGF0ZWQsICpvbGQpCgkJCX0gZWxzZSB7CgkJCQllbnRyeS5FeGVjdXRhYmxlID0gdHJ1ZQoJCQkJci5FbmdpbmVzID0gYXBwZW5kKHIuRW5naW5lcywgKmVudHJ5KQoJCQkJcmVwLkFkZGVkID0gYXBwZW5kKHJlcC5BZGRlZCwgKmVudHJ5KQoJCQl9CgkJfQoJfQoJci5SZWZyZXNoRXhpc3RlbmNlKCkKCXJldHVybiByZXAKfQo=
+package engine
+
+import (
+	"encoding/json"
+	"fmt"
+	"hash/fnv"
+	"io/fs"
+	"os"
+	"path/filepath"
+	"sort"
+	"strings"
+	"time"
+)
+
+// PresetEngineDir 是预置引擎目录名，相对于本程序可执行文件所在目录（baseDir）。
+// 用户按 README 指引把 Pikafish 放入该目录后，首次运行会自动注册。
+const PresetEngineDir = "engines"
+
+// EngineEntry 是引擎库中的一条引擎记录，对应 engines.json 里 engines 数组的一个元素。
+type EngineEntry struct {
+	ID       string   `json:"id"`               // 稳定唯一 id（由路径哈希得到，形如 eng-1a2b3c4d）
+	Name     string   `json:"name"`             // 引擎自报名称（id name）
+	Protocol string   `json:"protocol"`         // "UCI" 或 "UCCI"
+	Author   string   `json:"author,omitempty"` // 引擎自报作者
+	Path     string   `json:"path"`             // exe 绝对路径
+	Dir      string   `json:"dir"`              // 引擎工作目录（= exe 所在目录）
+	Source   string   `json:"source"`           // preset=预置 / library=引擎库目录 / external=外部添加
+	Options  []Option `json:"options_cached"`   // 上次探测缓存到的参数列表
+
+	// Executable 是「本次运行内」的存在性缓存，**不参与序列化**（json:"-"）。
+	//
+	// 【R3 修复】它以前是界面判断「可用 / 文件已丢失」的唯一依据，于是出现：
+	// engines.json 里根本没有这个字段 → 反序列化得到 Go 的零值 false →
+	// 明明文件真实存在、主界面正在用该引擎分析，列表却把所有引擎标红「文件已丢失」。
+	//
+	// 现在的纪律：**任何显示逻辑都不得读取本字段**，必须调用 CheckExecutable()
+	// 做实时 os.Stat 校验；本字段只作为扫描结束后的快照，供内部统计使用。
+	//
+	// Deprecated: 请改用 CheckExecutable()。
+	Executable bool `json:"-"`
+}
+
+// Availability 描述一个引擎可执行文件在磁盘上的真实状态。
+type Availability struct {
+	OK     bool   // exe 存在、是普通文件、且当前进程可读
+	Reason string // 不可用时的中文原因（可用时为空）
+}
+
+// CheckExecutable 实时校验引擎可执行文件：存在性 + 是否普通文件 + 可读权限。
+//
+// 这是判断「可用 / 文件已丢失」的唯一权威入口（R3）：
+//   - 每次引擎列表 Refresh / 扫描时都要重新调用，绝不缓存到 JSON；
+//   - 即使 engines.json 里缺失任何字段，也不会影响判断结果。
+func (e EngineEntry) CheckExecutable() Availability {
+	path := strings.TrimSpace(e.Path)
+	if path == "" {
+		return Availability{Reason: "引擎记录里没有 exe 路径"}
+	}
+	info, err := os.Stat(path)
+	if err != nil {
+		if os.IsNotExist(err) {
+			return Availability{Reason: "文件已丢失"}
+		}
+		return Availability{Reason: "无法访问：" + err.Error()}
+	}
+	if info.IsDir() {
+		return Availability{Reason: "该路径是目录，不是可执行文件"}
+	}
+	// 可读权限：真正打开一次。Windows 上被独占锁定的 exe 也会在这里暴露。
+	f, err := os.Open(path)
+	if err != nil {
+		return Availability{Reason: "文件不可读：" + err.Error()}
+	}
+	_ = f.Close()
+	return Availability{OK: true}
+}
+
+// RefreshExistence 刷新每条记录的「文件是否仍存在」快照（R3）。
+//
+// 注意：界面**不**依赖这个快照，它只为扫描报告与内部统计服务；
+// 界面显示请一律调用 EngineEntry.CheckExecutable()。
+func (r *Registry) RefreshExistence() {
+	for i := range r.Engines {
+		r.Engines[i].Executable = r.Engines[i].CheckExecutable().OK
+	}
+}
+
+// Registry 是引擎注册表，整体序列化为 engines.json。
+type Registry struct {
+	Engines       []EngineEntry `json:"engines"`
+	DefaultEngine string        `json:"default_engine"` // 默认己方引擎 id
+	SearchDirs    []string      `json:"search_dirs"`    // 额外扫描的「外部引擎目录」
+	UpdatedAt     string        `json:"updated_at"`
+}
+
+// MakeID 由引擎路径生成稳定 id。
+func MakeID(path string) string {
+	h := fnv.New32a()
+	_, _ = h.Write([]byte(strings.ToLower(filepath.Clean(path))))
+	return fmt.Sprintf("eng-%08x", h.Sum32())
+}
+
+// NewRegistry 返回一个空的引擎注册表。
+func NewRegistry() *Registry {
+	return &Registry{Engines: []EngineEntry{}}
+}
+
+// LoadRegistry 读取 engines.json；文件不存在或损坏时返回一个按预置规则初始化的新注册表。
+func LoadRegistry(path string) (*Registry, error) {
+	data, err := os.ReadFile(path)
+	if err != nil {
+		if os.IsNotExist(err) {
+			return NewRegistry(), nil
+		}
+		return nil, err
+	}
+	var r Registry
+	if err := json.Unmarshal(data, &r); err != nil {
+		// 文件损坏：备份后重建，避免用户直接丢失数据
+		_ = os.WriteFile(path+".bak", data, 0o644)
+		return NewRegistry(), fmt.Errorf("engines.json 解析失败（已备份为 engines.json.bak，将重新扫描）: %w", err)
+	}
+	if r.Engines == nil {
+		r.Engines = []EngineEntry{}
+	}
+	// 【R3】加载后立刻用 os.Stat 刷新一次存在性快照。
+	// 这样即使 engines.json 是人手编辑的、缺字段的、或由旧版本写出的，
+	// 列表也不会把真实存在的引擎误判为「文件已丢失」。
+	r.RefreshExistence()
+	return &r, nil
+}
+
+// Save 写回 engines.json（UTF-8、缩进、便于手工查看）。
+func (r *Registry) Save(path string) error {
+	r.UpdatedAt = time.Now().Format("2006-01-02 15:04:05")
+	data, err := json.MarshalIndent(r, "", "  ")
+	if err != nil {
+		return err
+	}
+	if err := os.MkdirAll(filepath.Dir(path), 0o755); err != nil {
+		return err
+	}
+	return os.WriteFile(path, data, 0o644)
+}
+
+// Find 按 id 查找引擎。
+func (r *Registry) Find(id string) *EngineEntry {
+	for i := range r.Engines {
+		if r.Engines[i].ID == id {
+			return &r.Engines[i]
+		}
+	}
+	return nil
+}
+
+// FindByPath 按路径查找引擎。
+func (r *Registry) FindByPath(path string) *EngineEntry {
+	clean := strings.ToLower(filepath.Clean(path))
+	for i := range r.Engines {
+		if strings.ToLower(filepath.Clean(r.Engines[i].Path)) == clean {
+			return &r.Engines[i]
+		}
+	}
+	return nil
+}
+
+// Remove 删除一条引擎记录。
+func (r *Registry) Remove(id string) bool {
+	for i := range r.Engines {
+		if r.Engines[i].ID == id {
+			r.Engines = append(r.Engines[:i], r.Engines[i+1:]...)
+			if r.DefaultEngine == id {
+				r.DefaultEngine = ""
+			}
+			return true
+		}
+	}
+	return false
+}
+
+// AddSearchDir 记录一个外部引擎目录（去重）。
+func (r *Registry) AddSearchDir(dir string) bool {
+	dir = filepath.Clean(dir)
+	for _, d := range r.SearchDirs {
+		if strings.EqualFold(filepath.Clean(d), dir) {
+			return false
+		}
+	}
+	r.SearchDirs = append(r.SearchDirs, dir)
+	return true
+}
+
+// RemoveSearchDir 移除一个外部引擎目录，并删除来源于该目录的引擎记录。
+func (r *Registry) RemoveSearchDir(dir string) bool {
+	dir = filepath.Clean(dir)
+	found := false
+	var keep []string
+	for _, d := range r.SearchDirs {
+		if strings.EqualFold(filepath.Clean(d), dir) {
+			found = true
+			continue
+		}
+		keep = append(keep, d)
+	}
+	r.SearchDirs = keep
+	if found {
+		var engines []EngineEntry
+		prefix := strings.ToLower(dir) + string(filepath.Separator)
+		for _, e := range r.Engines {
+			if strings.HasPrefix(strings.ToLower(filepath.Clean(e.Path)), prefix) {
+				continue
+			}
+			engines = append(engines, e)
+		}
+		r.Engines = engines
+	}
+	return found
+}
+
+// List 返回按名称排序的引擎列表副本。
+func (r *Registry) List() []EngineEntry {
+	out := make([]EngineEntry, len(r.Engines))
+	copy(out, r.Engines)
+	sort.SliceStable(out, func(i, j int) bool {
+		if out[i].Source != out[j].Source {
+			return out[i].Source == "preset"
+		}
+		return strings.ToLower(out[i].Name) < strings.ToLower(out[j].Name)
+	})
+	return out
+}
+
+// Label 返回界面上显示的「名称 (协议)」文本。
+func (e EngineEntry) Label() string {
+	return fmt.Sprintf("%s (%s)", e.Name, e.Protocol)
+}
+
+// ScanForExes 递归扫描 root 下的所有 .exe（深度上限 3 层）。
+func ScanForExes(root string, skip map[string]bool) []string {
+	var out []string
+	root = filepath.Clean(root)
+	info, err := os.Stat(root)
+	if err != nil || !info.IsDir() {
+		return nil
+	}
+	_ = filepath.WalkDir(root, func(p string, d fs.DirEntry, err error) error {
+		if err != nil {
+			return nil // 无权限目录直接跳过，不中断整次扫描
+		}
+		if d.IsDir() {
+			rel, e := filepath.Rel(root, p)
+			if e == nil && rel != "." && strings.Count(rel, string(filepath.Separator)) >= 3 {
+				return fs.SkipDir
+			}
+			return nil
+		}
+		if !strings.EqualFold(filepath.Ext(p), ".exe") {
+			return nil
+		}
+		abs, e := filepath.Abs(p)
+		if e != nil {
+			abs = p
+		}
+		if skip != nil && skip[strings.ToLower(filepath.Clean(abs))] {
+			return nil
+		}
+		out = append(out, abs)
+		return nil
+	})
+	sort.Strings(out)
+	return out
+}
+
+// ScanFailure 记录一个无法识别为象棋引擎的可执行文件。
+type ScanFailure struct {
+	Path   string
+	Reason string
+}
+
+// ScanReport 是一次「重新扫描引擎」的结果汇总。
+type ScanReport struct {
+	Added    []EngineEntry
+	Updated  []EngineEntry
+	Failed   []ScanFailure
+	Scanned  int
+	DirCount int
+}
+
+// Summary 返回面向界面的中文摘要。
+func (sr ScanReport) Summary() string {
+	var sb strings.Builder
+	fmt.Fprintf(&sb, "扫描 %d 个目录、%d 个 exe：新增 %d 个引擎，更新 %d 个",
+		sr.DirCount, sr.Scanned, len(sr.Added), len(sr.Updated))
+	if len(sr.Failed) > 0 {
+		fmt.Fprintf(&sb, "，%d 个文件无法识别为象棋引擎", len(sr.Failed))
+	}
+	return sb.String()
+}
+
+// ProbeExe 启动一个 exe 并做协议探测，成功则返回引擎记录。
+//
+// 无法识别（非象棋引擎、缺少运行库、启动失败）时返回错误，调用方据此提示用户，
+// 但绝不能因此崩溃或中断扫描。
+func ProbeExe(path string, timeout time.Duration, source string) (*EngineEntry, error) {
+	c := NewClient(path)
+	if err := c.Start(timeout); err != nil {
+		return nil, err
+	}
+	defer c.Quit(2 * time.Second)
+	return &EngineEntry{
+		ID:       MakeID(path),
+		Name:     c.Name(),
+		Protocol: c.Protocol().String(),
+		Author:   c.Author(),
+		Path:     path,
+		Dir:      filepath.Dir(path),
+		Source:   source,
+		Options:  c.Options(),
+	}, nil
+}
+
+// sourceFor 判断某个 exe 属于哪类来源。
+func sourceFor(path string, presetDirs []string) string {
+	lp := strings.ToLower(filepath.Clean(path))
+	for _, d := range presetDirs {
+		if strings.HasPrefix(lp, strings.ToLower(filepath.Clean(d))+string(filepath.Separator)) {
+			return "preset"
+		}
+	}
+	return "library"
+}
+
+// EnsurePreset 首次运行时把预置引擎目录（baseDir\engines）注册进引擎库。
+// 已注册或目录不存在时不做任何事（不报错）。
+func EnsurePreset(r *Registry, baseDir string, timeout time.Duration) (*EngineEntry, error) {
+	presetDir := filepath.Join(baseDir, PresetEngineDir)
+	exes := ScanForExes(presetDir, nil)
+	if len(exes) == 0 {
+		return nil, fmt.Errorf("未在预置目录找到引擎可执行文件：%s", presetDir)
+	}
+	// 优先选择文件名含 pikafish 的 exe
+	pick := exes[0]
+	for _, e := range exes {
+		if strings.Contains(strings.ToLower(filepath.Base(e)), "pikafish") {
+			pick = e
+			break
+		}
+	}
+	if exist := r.FindByPath(pick); exist != nil {
+		exist.Executable = true
+		if r.DefaultEngine == "" {
+			r.DefaultEngine = exist.ID
+		}
+		return exist, nil
+	}
+	entry, err := ProbeExe(pick, timeout, "preset")
+	if err != nil {
+		return nil, err
+	}
+	r.Engines = append(r.Engines, *entry)
+	if r.DefaultEngine == "" {
+		r.DefaultEngine = entry.ID
+	}
+	return entry, nil
+}
+
+// Rescan 扫描「exe 同目录的 engines\ 子目录」与全部已登记的外部引擎目录。
+//
+// baseDir 一般是本程序 exe 所在目录。skip 集合用于排除本程序自身。
+// progress 可为 nil；每个候选文件探测前调用一次，供界面显示进度。
+func Rescan(r *Registry, baseDir string, timeout time.Duration, skip map[string]bool, progress func(string)) ScanReport {
+	var rep ScanReport
+	dirs := []string{filepath.Join(baseDir, "engines")}
+	dirs = append(dirs, r.SearchDirs...)
+	presetDirs := []string{filepath.Join(baseDir, PresetEngineDir)}
+
+	seen := map[string]bool{}
+	for _, dir := range dirs {
+		if _, err := os.Stat(dir); err != nil {
+			continue
+		}
+		rep.DirCount++
+		for _, exe := range ScanForExes(dir, skip) {
+			key := strings.ToLower(filepath.Clean(exe))
+			if seen[key] {
+				continue
+			}
+			seen[key] = true
+			rep.Scanned++
+			if progress != nil {
+				progress(filepath.Base(exe))
+			}
+			entry, err := ProbeExe(exe, timeout, sourceFor(exe, presetDirs))
+			if err != nil {
+				rep.Failed = append(rep.Failed, ScanFailure{Path: exe, Reason: err.Error()})
+				continue
+			}
+			if old := r.FindByPath(exe); old != nil {
+				old.Name = entry.Name
+				old.Protocol = entry.Protocol
+				old.Author = entry.Author
+				old.Options = entry.Options
+				old.ID = entry.ID
+				old.Executable = true
+				rep.Updated = append(rep.Updated, *old)
+			} else {
+				entry.Executable = true
+				r.Engines = append(r.Engines, *entry)
+				rep.Added = append(rep.Added, *entry)
+			}
+		}
+	}
+	r.RefreshExistence()
+	return rep
+}

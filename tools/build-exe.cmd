@@ -1,1 +1,58 @@
-QGVjaG8gb2ZmDQpyZW0gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KcmVtICBYaWFuZ3FpIHYxLjMuMSAtIGJ1aWxkIHRoZSBmaW5hbCBzaW5nbGUtZmlsZSBleGUgKHJlYWwgYm9keSkNCnJlbQ0KcmVtICBETyBOT1QgUlVOIFRISVMgVU5USUwgVEhFIFZFUklGSUNBVElPTiBQQVNTRUQuDQpyZW0NCnJlbSAgUFVSRSBBU0NJSSBPTiBQVVJQT1NFIC0gc2VlIHRvb2xzXHJ1bi12ZXJpZnkuY21kIGZvciB0aGUgZnVsbCBleHBsYW5hdGlvbi4NCnJlbSAgQ2hpbmVzZSB1c2VyLWZhY2luZyB0ZXh0IGxpdmVzIGluIHRvb2xzXG1zZy1idWlsZC50eHQgKFVURi04KSBhbmQgaXMNCnJlbSAgcHJpbnRlZCB3aXRoIGB0eXBlYC4NCnJlbSA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09DQoNCnNldGxvY2FsDQpjaGNwIDY1MDAxID5udWwNCmNkIC9kICIlfmRwMC4uIg0KdGl0bGUgWGlhbmdxaSB2MS4zLjEgLSBidWlsZCBleGUNCg0KdHlwZSAiJX5kcDBtc2ctYnVpbGQudHh0Ig0KDQp3aGVyZSBnbyA+bnVsIDI+bnVsDQppZiBlcnJvcmxldmVsIDEgKA0KCWVjaG8uDQoJZWNobyAgIFtFUlJPUl0gImdvIiB3YXMgbm90IGZvdW5kIGluIFBBVEguDQoJZWNobyAgIEluc3RhbGwgR28gMS4yMis6ICB3aW5nZXQgaW5zdGFsbCBHb0xhbmcuR28NCgllY2hvLg0KCXBhdXNlDQoJZXhpdCAvYiAxDQopDQoNCmlmIGV4aXN0ICJ4aWFuZ3FpLmV4ZSIgKA0KCWVjaG8gW05PVEVdIHhpYW5ncWkuZXhlIGFscmVhZHkgZXhpc3RzIGFuZCB3aWxsIGJlIG92ZXJ3cml0dGVuLg0KCWVjaG8gICAgICAgIENsb3NlIHRoZSBydW5uaW5nIGFwcGxpY2F0aW9uIGZpcnN0IGlmIGl0IGlzIG9wZW4uDQoJZWNoby4NCikNCg0KZWNobyBbMS8yXSBCdWlsZGluZyB3aXRoOiAgZ28gYnVpbGQgLWxkZmxhZ3MgIi1IIHdpbmRvd3NndWkgLXMgLXciIC1vIHhpYW5ncWkuZXhlIC4NCmVjaG8uDQoNCmdvIGJ1aWxkIC1sZGZsYWdzICItSCB3aW5kb3dzZ3VpIC1zIC13IiAtbyB4aWFuZ3FpLmV4ZSAuDQpzZXQgIlJDPSVFUlJPUkxFVkVMJSINCg0KZWNoby4NCmlmIG5vdCAiJVJDJSI9PSIwIiAoDQoJZWNobyAgIFtGQUlMRURdIGJ1aWxkIGV4aXQgY29kZSA9ICVSQyUNCgllY2hvICAgSWYgdGhlIGZpbGUgaXMgbG9ja2VkLCBjbG9zZSB0aGUgcnVubmluZyBhcHBsaWNhdGlvbiBhbmQgcmV0cnkuDQoJZWNoby4NCglwYXVzZQ0KCWV4aXQgL2IgJVJDJQ0KKQ0KDQplY2hvIFsyLzJdIEJ1aWxkIGZpbmlzaGVkLg0KaWYgZXhpc3QgInhpYW5ncWkuZXhlIiAoDQoJZm9yICUlZiBpbiAoInhpYW5ncWkuZXhlIikgZG8gZWNobyAgICAgICBvdXRwdXQ6ICUlfmZmICAgc2l6ZTogJSV+emYgYnl0ZXMNCikNCmVjaG8uDQplY2hvICAgRG91YmxlLWNsaWNrIHhpYW5ncWkuZXhlIHRvIHJ1biBpdC4gTm8gR28gaW5zdGFsbCBhbmQgbm8gcnVudGltZSBuZWVkZWQuDQplY2hvLg0KcGF1c2UNCmVuZGxvY2Fs
+@echo off
+rem ============================================================================
+rem  Xiangqi v1.3.1 - build the final single-file exe (real body)
+rem
+rem  DO NOT RUN THIS UNTIL THE VERIFICATION PASSED.
+rem
+rem  PURE ASCII ON PURPOSE - see tools\run-verify.cmd for the full explanation.
+rem  Chinese user-facing text lives in tools\msg-build.txt (UTF-8) and is
+rem  printed with `type`.
+rem ============================================================================
+
+setlocal
+chcp 65001 >nul
+cd /d "%~dp0.."
+title Xiangqi v1.3.1 - build exe
+
+type "%~dp0msg-build.txt"
+
+where go >nul 2>nul
+if errorlevel 1 (
+	echo.
+	echo   [ERROR] "go" was not found in PATH.
+	echo   Install Go 1.22+:  winget install GoLang.Go
+	echo.
+	pause
+	exit /b 1
+)
+
+if exist "xiangqi.exe" (
+	echo [NOTE] xiangqi.exe already exists and will be overwritten.
+	echo        Close the running application first if it is open.
+	echo.
+)
+
+echo [1/2] Building with:  go build -ldflags "-H windowsgui -s -w" -o xiangqi.exe .
+echo.
+
+go build -ldflags "-H windowsgui -s -w" -o xiangqi.exe .
+set "RC=%ERRORLEVEL%"
+
+echo.
+if not "%RC%"=="0" (
+	echo   [FAILED] build exit code = %RC%
+	echo   If the file is locked, close the running application and retry.
+	echo.
+	pause
+	exit /b %RC%
+)
+
+echo [2/2] Build finished.
+if exist "xiangqi.exe" (
+	for %%f in ("xiangqi.exe") do echo       output: %%~ff   size: %%~zf bytes
+)
+echo.
+echo   Double-click xiangqi.exe to run it. No Go install and no runtime needed.
+echo.
+pause
+endlocal

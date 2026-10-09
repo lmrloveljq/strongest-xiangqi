@@ -1,1 +1,13 @@
-aW1wb3J0IHN5cwpmcm9tIFBJTCBpbXBvcnQgSW1hZ2UKCnNyYywgZHN0ID0gc3lzLmFyZ3ZbMV0sIHN5cy5hcmd2WzJdCmJveCA9IFtpbnQodikgZm9yIHYgaW4gc3lzLmFyZ3ZbM10uc3BsaXQoIiwiKV0gICMgbGVmdCx0b3AscmlnaHQsYm90dG9tCnNjYWxlID0gZmxvYXQoc3lzLmFyZ3ZbNF0pIGlmIGxlbihzeXMuYXJndikgPiA0IGVsc2UgMi4wCgppbWcgPSBJbWFnZS5vcGVuKHNyYykuY29udmVydCgiUkdCIikKY3JvcCA9IGltZy5jcm9wKHR1cGxlKGJveCkpCncsIGggPSBjcm9wLnNpemUKY3JvcCA9IGNyb3AucmVzaXplKChpbnQodyAqIHNjYWxlKSwgaW50KGggKiBzY2FsZSkpLCBJbWFnZS5MQU5DWk9TKQpjcm9wLnNhdmUoZHN0KQpwcmludCgic2F2ZWQiLCBkc3QsIGNyb3Auc2l6ZSkK
+import sys
+from PIL import Image
+
+src, dst = sys.argv[1], sys.argv[2]
+box = [int(v) for v in sys.argv[3].split(",")]  # left,top,right,bottom
+scale = float(sys.argv[4]) if len(sys.argv) > 4 else 2.0
+
+img = Image.open(src).convert("RGB")
+crop = img.crop(tuple(box))
+w, h = crop.size
+crop = crop.resize((int(w * scale), int(h * scale)), Image.LANCZOS)
+crop.save(dst)
+print("saved", dst, crop.size)

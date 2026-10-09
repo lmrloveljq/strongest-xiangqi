@@ -1,1 +1,104 @@
-cGFja2FnZSB1aQoKaW1wb3J0ICgKCSJmbXQiCgoJInhpYW5ncWkvZW5naW5lIgoJInhpYW5ncWkvcnVsZXMiCikKCi8vIOacrOaWh+S7tuWunueOsOOAjOWxgOmdouWIhuaekOe8k+WtmOOAjeOAggovLwovLyDnlKjmiLfopoHmsYLvvIjljp/or53vvInvvJoKLy8KLy8J54K55Ye76Lez6L2s5bGA6Z2i5pe277yM5bGA6Z2i5YiG5p6Q6KaB5Zue6YCA5Yiw5Yia5omN6YKj5Liq5L2N572u77yM5L2G5piv55So57yT5a2Y6K6w5b2V5YWo5bGA5YiG5p6Q77yMCi8vCeS4jeimgei3s+i9rOaXtumHjeaWsOWIhuaekOOAggovLwovLyDkuYvliY3mr4/mrKHngrnorrDosLHph4znmoTmn5DkuIDmraXvvIzpg73kvJrph43mlrDlkJHlvJXmk47lj5HkuIDmrKHmkJzntKLor7fmsYLvvJrml6LljaHvvIjopoHnrYnlvJXmk44KLy8g6YeN5paw566X77yJ77yM5Y+I5Lmx77yI57uT5p6c5Zue5p2l5pe25bGA6Z2i5Y+v6IO95bey57uP5Y+I5Y+Y5LqG77yM5Li75Y+Y5L6LL+iDnOeOh+WvueS4jeS4iu+8jAovLyDov5jkvJrlvoDotbDlir/mm7Lnur/kuIrlpJrloZ7ngrnvvInjgILnjrDlnKjmjInlsYDpnaLnvJPlrZjmlbTlsYDnmoTliIbmnpDnu5PmnpzvvJoKLy8gICAtIOi3s+WIsOS4gOS4queul+i/h+eahOWxgOmdoiDihpIg55u05o6l5Zue5pS+57yT5a2Y77yM5byV5pOO5LiA5Yqo5LiN5Yqo77ybCi8vICAgLSDot7PliLDmsqHnrpfov4fnmoTlsYDpnaIg4oaSIOaJjeecn+ato+ivt+axguW8leaTju+8mwovLyAgIC0g5byV5pOO566X5a6MIOKGkiDnu5Pmnpzlhpnov5vnvJPlrZjvvIzkuYvlkI7lho3ot7Plm57lkIzkuIDlsYDpnaLlsLHmmK/nnqzml7bnmoTjgIIKCi8vIGFuYUtleSDorqHnrpflsYDpnaLnvJPlrZjplK7jgIIKLy8KLy8g6ZSu5b+F6aG75YyF5ZCr5omA5pyJ44CM5Lya5b2x5ZON57uT5p6c5YaF5a6544CN55qE6L6T5YWl77ya5bGA6Z2i5pys6LqrICsgTXVsdGlQViArIOaAneiAg+mZkOWItiArCi8vIOa4qeW6pu+8iOa4qeW6puWPquW9seWTjSBzb2Z0bWF4IOamgueOh+eahOWxleekuu+8jOS9huWxleekuuS5n+WxnuS6jue7k+aenOeahOS4gOmDqOWIhu+8ieOAggpmdW5jIChhICpBcHApIGFuYUtleShnICpydWxlcy5HYW1lKSBzdHJpbmcgewoJbW9kZSA6PSBhLmNmZy5UaW1lTW9kZQoJbGltaXRWYWwgOj0gYS5jZmcuTW92ZVRpbWVNUwoJaWYgbW9kZSA9PSAiZGVwdGgiIHsKCQlsaW1pdFZhbCA9IGEuY2ZnLkRlcHRoCgl9CgkvLyDjgJDnvLrpmbfkv67lpI3jgJHplK7ph4zlv4XpobvluKbkuIoqKuW8leaTjui6q+S7vSoq77ya5o2i5byV5pOO5LmL5ZCO5ZCM5LiA5Liq5bGA6Z2i55qE57uT5p6c5a6M5YWo5LiN5ZCM77yMCgkvLyDljp/mnaXkuI3luKYgU2VsZkVuZ2luZe+8jOWIh+S6huW8leaTjui/mOS8muWRveS4reaXp+W8leaTjueahOe8k+WtmO+8jOWPs+S+p+aYvuekuueahOaYr+WIq+eahOW8leaTjueahOe7k+iuuuOAggoJcmV0dXJuIGZtdC5TcHJpbnRmKCIlc3xlbmclc3xwdiVkfCVzJWR8VCVkIiwKCQlnLkJvYXJkLkZFTigpLCBhLmNmZy5TZWxmRW5naW5lLCBhLmNmZy5NdWx0aVBWLCBtb2RlLCBsaW1pdFZhbCwgYS5jZmcuVGVtcGVyYXR1cmUpCn0KCmNvbnN0IGFuYUNhY2hlTWF4ID0gNTEyCgovLyBhbmFDYWNoZUdldCDlj5bnvJPlrZjnu5PmnpzjgIIKZnVuYyAoYSAqQXBwKSBhbmFDYWNoZUdldChrZXkgc3RyaW5nKSAoZW5naW5lLlJlc3VsdCwgYm9vbCkgewoJaWYga2V5ID09ICIiIHsKCQlyZXR1cm4gZW5naW5lLlJlc3VsdHt9LCBmYWxzZQoJfQoJYS5hbmFDYWNoZU11LkxvY2soKQoJZGVmZXIgYS5hbmFDYWNoZU11LlVubG9jaygpCglyLCBvayA6PSBhLmFuYUNhY2hlW2tleV0KCXJldHVybiByLCBvawp9CgovLyBhbmFDYWNoZVB1dCDlhpnnvJPlrZjvvIjotoXov4fkuIrpmZDml7bmlbTkvZPmuIXnqbrvvIzpgb/lhY3ml6DpmZDlop7plb/vvInjgIIKZnVuYyAoYSAqQXBwKSBhbmFDYWNoZVB1dChrZXkgc3RyaW5nLCByZXMgZW5naW5lLlJlc3VsdCkgewoJaWYga2V5ID09ICIiIHsKCQlyZXR1cm4KCX0KCWEuYW5hQ2FjaGVNdS5Mb2NrKCkKCWRlZmVyIGEuYW5hQ2FjaGVNdS5VbmxvY2soKQoJaWYgYS5hbmFDYWNoZSA9PSBuaWwgewoJCWEuYW5hQ2FjaGUgPSBtYXBbc3RyaW5nXWVuZ2luZS5SZXN1bHR7fQoJfQoJaWYgbGVuKGEuYW5hQ2FjaGUpID49IGFuYUNhY2hlTWF4IHsKCQlhLmFuYUNhY2hlID0gbWFwW3N0cmluZ11lbmdpbmUuUmVzdWx0e30KCX0KCWEuYW5hQ2FjaGVba2V5XSA9IHJlcwp9CgovLyBhbmFDYWNoZUNsZWFyIOa4heepuue8k+WtmO+8iOaNouW8leaTjiAvIOaUueWPguaVsOaXtuiwg+eUqO+8ieOAggpmdW5jIChhICpBcHApIGFuYUNhY2hlQ2xlYXIoKSB7CglhLmFuYUNhY2hlTXUuTG9jaygpCglhLmFuYUNhY2hlID0gbWFwW3N0cmluZ11lbmdpbmUuUmVzdWx0e30KCWEuYW5hQ2FjaGVNdS5VbmxvY2soKQp9CgovLyBhbmFDYWNoZUxlbiDlvZPliY3nvJPlrZjmnaHnm67mlbDvvIhYUV9ERUJVRyDlj5bor4HnlKjvvInjgIIKZnVuYyAoYSAqQXBwKSBhbmFDYWNoZUxlbigpIGludCB7CglhLmFuYUNhY2hlTXUuTG9jaygpCglkZWZlciBhLmFuYUNhY2hlTXUuVW5sb2NrKCkKCXJldHVybiBsZW4oYS5hbmFDYWNoZSkKfQoKLy8gcmVuZGVyQW5hbHlzaXNGcm9tQ2FjaGVPbmx5IOWPqueUqOe8k+WtmOWIt+aWsOWIhuaekOmdouadv++8jOWRveS4reS4jeS6huWwseS4jeaJk+aJsOW8leaTjuOAggovLwovLyDnlKjkuo7jgIzngrnlh7vorrDosLHot7PovazlsYDpnaLjgI3vvJrnlKjmiLfmmI7noa7opoHmsYLjgIzkuI3opoHot7Povazml7bph43mlrDliIbmnpDjgI3jgIIKLy8g5q+P5LiA5Liq55yf5q2j6LWw6L+H55qE5bGA6Z2i5Zyo6LWw5a2Q5ZCO6YO95Lya6Ieq5Yqo5YiG5p6Q5bm26L+b57yT5a2Y77yM5omA5Lul5q2j5bi45a+55bGA5LitCi8vIOi3s+i9rOawuOi/nOiDveWRveS4ree8k+WtmO+8jOi3s+i9rOWboOatpOayoeacieS7u+S9leW8leaTjuetieW+heOAggpmdW5jIChhICpBcHApIHJlbmRlckFuYWx5c2lzRnJvbUNhY2hlT25seSgpIHsKCWcgOj0gYS5nYW1lCglpZiBhLnZpZXdHYW1lICE9IG5pbCB7CgkJZyA9IGEudmlld0dhbWUKCX0KCWEuYW5hR2FtZSA9IGcKCWtleSA6PSBhLmFuYUtleShnKQoJYS5hbmFLZXlDdXIgPSBrZXkKCWlmIHJlcywgb2sgOj0gYS5hbmFDYWNoZUdldChrZXkpOyBvayB7CgkJYS5yZW5kZXJSZXN1bHQocmVzLCB0cnVlKQoJCWEuc2V0RW5naW5lU3RhdGUoIuW8leaTju+8mue8k+WtmOWbnuaUvu+8iOacqumHjeaWsOaAneiAg++8iSIsIGNvbEZvcmVEaW0pCgkJcmV0dXJuCgl9CglhLmJlc3QuU2V0U3RhdHVzKCLor6XlsYDpnaLov5jmsqHmnInliIbmnpDnu5PmnpzvvIjotbDkuIDmraXlkI7kvJroh6rliqjliIbmnpDlubbov5vnvJPlrZjvvIkiKQoJYS5jYW5kcy5TZXRDYW5kaWRhdGVzKG5pbCwgbmlsLCBuaWwsIG5pbCwgbmlsLCBuaWwpCglhLnNldEVuZ2luZVN0YXRlKCLlvJXmk47vvJror6XlsYDpnaLmnKrliIbmnpAiLCBjb2xGb3JlRGltKQp9Cg==
+package ui
+
+import (
+	"fmt"
+
+	"xiangqi/engine"
+	"xiangqi/rules"
+)
+
+// 本文件实现「局面分析缓存」。
+//
+// 用户要求（原话）：
+//
+//	点击跳转局面时，局面分析要回退到刚才那个位置，但是用缓存记录全局分析，
+//	不要跳转时重新分析。
+//
+// 之前每次点记谱里的某一步，都会重新向引擎发一次搜索请求：既卡（要等引擎
+// 重新算），又乱（结果回来时局面可能已经又变了，主变例/胜率对不上，
+// 还会往走势曲线上多塞点）。现在按局面缓存整局的分析结果：
+//   - 跳到一个算过的局面 → 直接回放缓存，引擎一动不动；
+//   - 跳到没算过的局面 → 才真正请求引擎；
+//   - 引擎算完 → 结果写进缓存，之后再跳回同一局面就是瞬时的。
+
+// anaKey 计算局面缓存键。
+//
+// 键必须包含所有「会影响结果内容」的输入：局面本身 + MultiPV + 思考限制 +
+// 温度（温度只影响 softmax 概率的展示，但展示也属于结果的一部分）。
+func (a *App) anaKey(g *rules.Game) string {
+	mode := a.cfg.TimeMode
+	limitVal := a.cfg.MoveTimeMS
+	if mode == "depth" {
+		limitVal = a.cfg.Depth
+	}
+	// 【缺陷修复】键里必须带上**引擎身份**：换引擎之后同一个局面的结果完全不同，
+	// 原来不带 SelfEngine，切了引擎还会命中旧引擎的缓存，右侧显示的是别的引擎的结论。
+	return fmt.Sprintf("%s|eng%s|pv%d|%s%d|T%d",
+		g.Board.FEN(), a.cfg.SelfEngine, a.cfg.MultiPV, mode, limitVal, a.cfg.Temperature)
+}
+
+const anaCacheMax = 512
+
+// anaCacheGet 取缓存结果。
+func (a *App) anaCacheGet(key string) (engine.Result, bool) {
+	if key == "" {
+		return engine.Result{}, false
+	}
+	a.anaCacheMu.Lock()
+	defer a.anaCacheMu.Unlock()
+	r, ok := a.anaCache[key]
+	return r, ok
+}
+
+// anaCachePut 写缓存（超过上限时整体清空，避免无限增长）。
+func (a *App) anaCachePut(key string, res engine.Result) {
+	if key == "" {
+		return
+	}
+	a.anaCacheMu.Lock()
+	defer a.anaCacheMu.Unlock()
+	if a.anaCache == nil {
+		a.anaCache = map[string]engine.Result{}
+	}
+	if len(a.anaCache) >= anaCacheMax {
+		a.anaCache = map[string]engine.Result{}
+	}
+	a.anaCache[key] = res
+}
+
+// anaCacheClear 清空缓存（换引擎 / 改参数时调用）。
+func (a *App) anaCacheClear() {
+	a.anaCacheMu.Lock()
+	a.anaCache = map[string]engine.Result{}
+	a.anaCacheMu.Unlock()
+}
+
+// anaCacheLen 当前缓存条目数（XQ_DEBUG 取证用）。
+func (a *App) anaCacheLen() int {
+	a.anaCacheMu.Lock()
+	defer a.anaCacheMu.Unlock()
+	return len(a.anaCache)
+}
+
+// renderAnalysisFromCacheOnly 只用缓存刷新分析面板，命中不了就不打扰引擎。
+//
+// 用于「点击记谱跳转局面」：用户明确要求「不要跳转时重新分析」。
+// 每一个真正走过的局面在走子后都会自动分析并进缓存，所以正常对局中
+// 跳转永远能命中缓存，跳转因此没有任何引擎等待。
+func (a *App) renderAnalysisFromCacheOnly() {
+	g := a.game
+	if a.viewGame != nil {
+		g = a.viewGame
+	}
+	a.anaGame = g
+	key := a.anaKey(g)
+	a.anaKeyCur = key
+	if res, ok := a.anaCacheGet(key); ok {
+		a.renderResult(res, true)
+		a.setEngineState("引擎：缓存回放（未重新思考）", colForeDim)
+		return
+	}
+	a.best.SetStatus("该局面还没有分析结果（走一步后会自动分析并进缓存）")
+	a.cands.SetCandidates(nil, nil, nil, nil, nil, nil)
+	a.setEngineState("引擎：该局面未分析", colForeDim)
+}

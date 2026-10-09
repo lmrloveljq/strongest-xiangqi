@@ -1,1 +1,31 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KaW1wb3J0IGlvLCBzeXMsIHJlCgpzeXMuc3Rkb3V0LnJlY29uZmlndXJlKGVuY29kaW5nPSJ1dGYtOCIpCnBhdGggPSByIkM6XOacgOW8uuixoeaji+i9r+S7tuezu+e7n1xfdmVyaWZ5XHJhY2UxLmVyciIKdHh0ID0gaW8ub3BlbihwYXRoLCBlbmNvZGluZz0idXRmLTgiLCBlcnJvcnM9InJlcGxhY2UiKS5yZWFkKCkKYmxvY2tzID0gdHh0LnNwbGl0KCJXQVJOSU5HOiBEQVRBIFJBQ0UiKQoKaWR4ID0gaW50KHN5cy5hcmd2WzFdKSBpZiBsZW4oc3lzLmFyZ3YpID4gMSBlbHNlIDEKbiA9IGludChzeXMuYXJndlsyXSkgaWYgbGVuKHN5cy5hcmd2KSA+IDIgZWxzZSAxCmZvciBiIGluIGJsb2Nrc1tpZHg6aWR4ICsgbl06CiAgICBsaW5lcyA9IGIuc3BsaXQoIlxuIikKICAgICMg5Y+q5L+d55WZICJhdCAuLi4gYnkgWDoiIOWktCArIOavj+S+p+eahCBhcHAg5binICsg5L6n5aS0CiAgICBvdXQgPSBbXQogICAga2VlcCA9IEZhbHNlCiAgICBmb3IgbG4gaW4gbGluZXM6CiAgICAgICAgcyA9IGxuLnN0cmlwKCkKICAgICAgICBpZiByZS5tYXRjaChyIihQcmV2aW91cyApPyhXcml0ZXxSZWFkfEF0b21pYykiLCBzKToKICAgICAgICAgICAgb3V0LmFwcGVuZCgiLS0tLSAiICsgc1s6MTIwXSkKICAgICAgICAgICAga2VlcCA9IFRydWUKICAgICAgICAgICAgY29udGludWUKICAgICAgICBpZiBzLnN0YXJ0c3dpdGgoIkdvcm91dGluZSIpIG9yIHMuc3RhcnRzd2l0aCgiZ29yb3V0aW5lIik6CiAgICAgICAgICAgIG91dC5hcHBlbmQoc1s6MTIwXSkKICAgICAgICAgICAgY29udGludWUKICAgICAgICBpZiAi5pyA5by66LGh5qOL6L2v5Lu257O757ufIiBpbiBzIG9yIHMuc3RhcnRzd2l0aCgieGlhbmdxaS91aS4iKSBvciAiZnluZS5pby9meW5lIiBpbiBzOgogICAgICAgICAgICBvdXQuYXBwZW5kKCIgICAgIiArIHNbOjE1MF0pCiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgaWYgcy5zdGFydHN3aXRoKCI9PT09PT09PT09PT09PT09PT0iKToKICAgICAgICAgICAgYnJlYWsKICAgIHByaW50KCJcbiIuam9pbihvdXQpKQogICAgcHJpbnQoIj0iICogMTAwKQo=
+# -*- coding: utf-8 -*-
+import io, sys, re
+
+sys.stdout.reconfigure(encoding="utf-8")
+path = r"C:\最强象棋软件系统\_verify\race1.err"
+txt = io.open(path, encoding="utf-8", errors="replace").read()
+blocks = txt.split("WARNING: DATA RACE")
+
+idx = int(sys.argv[1]) if len(sys.argv) > 1 else 1
+n = int(sys.argv[2]) if len(sys.argv) > 2 else 1
+for b in blocks[idx:idx + n]:
+    lines = b.split("\n")
+    # 只保留 "at ... by X:" 头 + 每侧的 app 帧 + 侧头
+    out = []
+    keep = False
+    for ln in lines:
+        s = ln.strip()
+        if re.match(r"(Previous )?(Write|Read|Atomic)", s):
+            out.append("---- " + s[:120])
+            keep = True
+            continue
+        if s.startswith("Goroutine") or s.startswith("goroutine"):
+            out.append(s[:120])
+            continue
+        if "最强象棋软件系统" in s or s.startswith("xiangqi/ui.") or "fyne.io/fyne" in s:
+            out.append("    " + s[:150])
+            continue
+        if s.startswith("=================="):
+            break
+    print("\n".join(out))
+    print("=" * 100)

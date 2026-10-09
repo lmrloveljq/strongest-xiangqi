@@ -1,1 +1,215 @@
-Ly9nbzpidWlsZCB3aW5kb3dzCgpwYWNrYWdlIHVpCgppbXBvcnQgKAoJInN0cmluZ3MiCgkic3lzY2FsbCIKCSJ1bnNhZmUiCikKCi8vIOacrOaWh+S7tuWwgeijheOAjOeql+WPo+W/hemhu+WcqOWxj+W5leWPr+ingeWMuuWfn+WGheOAjeaJgOmcgOeahCBXaW4zMiDosIPnlKjvvIhSNu+8ieOAggovLwovLyDog4zmma/vvJpGeW5lIHYyIOeahCBXaW5kb3cg5o6l5Y+j5Y+q5pyJIENlbnRlck9uU2NyZWVuKCnvvIzmsqHmnInorr7nva7nqpflj6PkvY3nva7nmoQgQVBJ44CCCi8vIOiAjCBDZW50ZXJPblNjcmVlbiDmmK8qKuaMieWuouaIt+WMuuWwuuWvuCoq5bGF5Lit55qE77yM5a6M5YWo5LiN6K6h5YWl5qCH6aKY5qCP77yI5pys5py6IDM4IOeJqeeQhuWDj+e0oO+8iQovLyDkuI7ovrnmoYbvvIjlt6blj7PlkIQgOSDniannkIblg4/ntKDvvInjgILkuo7mmK/lsYXkuK3lkI7nqpflj6PmoYbmnrbkvJrkuIrnp7vljYrkuKrmoIfpopjmoI/vvJoKLy8g5bGP5bmV6auYIDEwODDjgIHlrqLmiLfljLrpq5ggMTAxNiDml7blsYXkuK0geSA9IDMy77yM6ICM56qX5Y+j5a6e6ZmFIHRvcCA9IDMyIC0gMzggPSAtNu+8jAovLyDmoIfpopjmoI/mnIkgNiDlg4/ntKDpobblh7rlsY/luZXkuYvlpJbigJTigJTov5nmraPmmK8gUjYg56iz5a6a5aSN546w55qE546w6LGh44CCCi8vCi8vIOS/ruazle+8muaLv+WIsOacrOi/m+eoi+eahCBHTEZXIOmhtuWxgueql+WPo+WPpeafhO+8jOeUqCBTZXRXaW5kb3dQb3Mg5oqK5pW056qX77yI5ZCr5qCH6aKY5qCP77yJCi8vIOWkueWbnuWxj+W5leWPr+ingeiMg+WbtO+8jOS/neivgSB0b3AgPj0gMOOAggoKdmFyICgKCXVzZXIzMiAgICAgICAgICAgICAgICAgID0gc3lzY2FsbC5OZXdMYXp5RExMKCJ1c2VyMzIuZGxsIikKCXByb2NHZXRTeXN0ZW1NZXRyaWNzICAgID0gdXNlcjMyLk5ld1Byb2MoIkdldFN5c3RlbU1ldHJpY3MiKQoJcHJvY0VudW1XaW5kb3dzICAgICAgICAgPSB1c2VyMzIuTmV3UHJvYygiRW51bVdpbmRvd3MiKQoJcHJvY0dldFdpbmRvd1RocmVhZFByYyAgPSB1c2VyMzIuTmV3UHJvYygiR2V0V2luZG93VGhyZWFkUHJvY2Vzc0lkIikKCXByb2NJc1dpbmRvd1Zpc2libGUgICAgID0gdXNlcjMyLk5ld1Byb2MoIklzV2luZG93VmlzaWJsZSIpCglwcm9jR2V0Q2xhc3NOYW1lVyAgICAgICA9IHVzZXIzMi5OZXdQcm9jKCJHZXRDbGFzc05hbWVXIikKCXByb2NHZXRXaW5kb3dSZWN0ICAgICAgID0gdXNlcjMyLk5ld1Byb2MoIkdldFdpbmRvd1JlY3QiKQoJcHJvY1NldFdpbmRvd1BvcyAgICAgICAgPSB1c2VyMzIuTmV3UHJvYygiU2V0V2luZG93UG9zIikKCXByb2NTeXN0ZW1QYXJhbWV0ZXJzSW5mID0gdXNlcjMyLk5ld1Byb2MoIlN5c3RlbVBhcmFtZXRlcnNJbmZvVyIpCikKCmNvbnN0ICgKCXNtQ1hTY3JlZW4gPSAwIC8vIFNNX0NYU0NSRUVOCglzbUNZU2NyZWVuID0gMSAvLyBTTV9DWVNDUkVFTgoKCXNwaUdldFdvcmtBcmVhID0gMHgwMDMwIC8vIFNQSV9HRVRXT1JLQVJFQQoKCXN3cE5vWk9yZGVyICAgPSAweDAwMDQKCXN3cE5vQWN0aXZhdGUgPSAweDAwMTAKKQoKdHlwZSB3aW5SZWN0IHN0cnVjdCB7CglMZWZ0LCBUb3AsIFJpZ2h0LCBCb3R0b20gaW50MzIKfQoKLy8gU2NyZWVuU2l6ZSDov5Tlm57kuLvmmL7npLrlmajniannkIblg4/ntKDlrr3pq5jvvJvlpLHotKXml7bov5Tlm54gKDAsIDAp44CCCi8vCi8vIOazqOaEj++8muacrOi/m+eoi+aYryBEUEkg5oSf55+l55qE77yIR0xGVyDkvJrmmL7lvI/orr7nva4gUGVyLU1vbml0b3IgdjLvvInvvIwKLy8g5Zug5q2k6L+Z6YeM5ou/5Yiw55qE5piv55yf5a6e54mp55CG5YOP57Sg77yM6ICM5LiN5piv6KKr57O757uf6Jma5ouf5YyW6L+H55qE5pWw5YC844CCCmZ1bmMgU2NyZWVuU2l6ZSgpIChpbnQsIGludCkgewoJdywgXywgXyA6PSBwcm9jR2V0U3lzdGVtTWV0cmljcy5DYWxsKHVpbnRwdHIoc21DWFNjcmVlbikpCgloLCBfLCBfIDo9IHByb2NHZXRTeXN0ZW1NZXRyaWNzLkNhbGwodWludHB0cihzbUNZU2NyZWVuKSkKCXJldHVybiBpbnQodyksIGludChoKQp9CgovLyBXb3JrQXJlYSDov5Tlm57ljrvmjonku7vliqHmoI/kuYvlkI7nmoTkuLvmmL7npLrlmajlj6/nlKjljLrln5/vvIjniannkIblg4/ntKDvvInjgIIKLy8g5aSx6LSl5pe25Zue6YCA5Li65pW05bGP44CCCmZ1bmMgV29ya0FyZWEoKSAoeCwgeSwgdywgaCBpbnQpIHsKCXZhciByIHdpblJlY3QKCXJldCwgXywgXyA6PSBwcm9jU3lzdGVtUGFyYW1ldGVyc0luZi5DYWxsKHVpbnRwdHIoc3BpR2V0V29ya0FyZWEpLCAwLAoJCXVpbnRwdHIodW5zYWZlLlBvaW50ZXIoJnIpKSwgMCkKCWlmIHJldCA9PSAwIHsKCQlzdywgc2ggOj0gU2NyZWVuU2l6ZSgpCgkJcmV0dXJuIDAsIDAsIHN3LCBzaAoJfQoJcmV0dXJuIGludChyLkxlZnQpLCBpbnQoci5Ub3ApLCBpbnQoci5SaWdodCAtIHIuTGVmdCksIGludChyLkJvdHRvbSAtIHIuVG9wKQp9CgovLyB3aW5kb3dIYW5kbGUg5pivIEVudW1XaW5kb3dzIOWbnuiwg+mHjOeUqOeahOWAmemAieeql+WPo+OAggp0eXBlIHdpbmRvd0hhbmRsZSBzdHJ1Y3QgewoJaHduZCB1aW50cHRyCn0KCi8vIE1haW5XaW5kb3dIYW5kbGUg6L+U5Zue5pys6L+b56iL5Li756qX5Y+j55qE5Y+l5p+E77yI5om+5LiN5Yiw6L+U5ZueIDDvvInjgIIKLy8KLy8g55So6YCU77ya6K6+572uIFdpbmRvd3Mg5rex6Imy5qCH6aKY5qCP77yIU2V0RGFya1RpdGxlQmFy77yJ562J57O757uf57qn5aSW6KeC44CCCi8vIEZ5bmUgdjIuOCDkuI3lho3lr7nlpJbmmrTpnLLnqpflj6Plj6Xmn4TvvIzmiYDku6Xlj6rog73oh6rlt7HmjInnsbvlkI3mnprkuL7jgIIKZnVuYyBNYWluV2luZG93SGFuZGxlKCkgdWludHB0ciB7CglpZiB3cyA6PSBvd25HbGZ3V2luZG93cygpOyBsZW4od3MpID4gMCB7CgkJcmV0dXJuIHdzWzBdCgl9CglyZXR1cm4gMAp9CgovLyBvd25HbGZ3V2luZG93cyDmnprkuL7mnKzov5vnqIvmiYDmnInlj6/op4HnmoTpobblsYIgR0xGVzMwIOeql+WPo+WPpeafhOOAggovLwovLyDlj6rorqTnsbvlkI0gR0xGVzMw77yaRnluZSDnmoQgR0xGVyDpqbHliqjlm7rlrprnlKjov5nkuKrnsbvlkI3liJvlu7rnqpflj6PvvIwKLy8g55So5a6D6L+H5ruk5Y+v5Lul6YG/5byA5a+56K+d5qGG44CB5o6n5Yi25Y+w562J5YW25a6D56qX5Y+j44CCCmZ1bmMgb3duR2xmd1dpbmRvd3MoKSBbXXVpbnRwdHIgewoJdmFyIG91dCBbXXVpbnRwdHIKCXBpZCA6PSB1aW50MzIoc3lzY2FsbC5HZXRwaWQoKSkKCgljYiA6PSBzeXNjYWxsLk5ld0NhbGxiYWNrKGZ1bmMoaHduZCB1aW50cHRyLCBfIHVpbnRwdHIpIHVpbnRwdHIgewoJCXZhciB3cGlkIHVpbnQzMgoJCXByb2NHZXRXaW5kb3dUaHJlYWRQcmMuQ2FsbChod25kLCB1aW50cHRyKHVuc2FmZS5Qb2ludGVyKCZ3cGlkKSkpCgkJaWYgd3BpZCAhPSBwaWQgewoJCQlyZXR1cm4gMSAvLyDnu6fnu63mnprkuL4KCQl9CgkJdmlzLCBfLCBfIDo9IHByb2NJc1dpbmRvd1Zpc2libGUuQ2FsbChod25kKQoJCWlmIHZpcyA9PSAwIHsKCQkJcmV0dXJuIDEKCQl9CgkJdmFyIGJ1ZiBbNjRddWludDE2CgkJbiwgXywgXyA6PSBwcm9jR2V0Q2xhc3NOYW1lVy5DYWxsKGh3bmQsIHVpbnRwdHIodW5zYWZlLlBvaW50ZXIoJmJ1ZlswXSkpLCB1aW50cHRyKGxlbihidWYpKSkKCQlpZiBuID09IDAgewoJCQlyZXR1cm4gMQoJCX0KCQluYW1lIDo9IHN5c2NhbGwuVVRGMTZUb1N0cmluZyhidWZbOl0pCgkJaWYgc3RyaW5ncy5FcXVhbEZvbGQobmFtZSwgIkdMRlczMCIpIHsKCQkJb3V0ID0gYXBwZW5kKG91dCwgaHduZCkKCQl9CgkJcmV0dXJuIDEKCX0pCglwcm9jRW51bVdpbmRvd3MuQ2FsbChjYiwgMCkKCXJldHVybiBvdXQKfQoKLy8gRW5mb3JjZVdpbmRvd3NPblNjcmVlbiDmiormnKzov5vnqIvmiYDmnIkgR0xGVyDpobblsYLnqpflj6PlpLnov5vlsY/luZXlj6/nlKjljLrln5/jgIIKLy8KLy8g6KeE5YiZ77yI5a+55bqUIFI277yJ77yaCi8vICAgLSDnqpflj6Plrr3pq5jotoXov4flj6/nlKjljLrln5/ml7blhYjnrYnmr5TnvKnlsI/liLDlj6/nlKjljLrln5/vvJsKLy8gICAtIHRvcCDmnIDlsI8gMOOAgWxlZnQg5pyA5bCPIDDvvIjmoIfpopjmoI/kuI7lt6bovrnmoYbnu53kuI3lhYHorrjpobblh7rlsY/luZXvvInvvJsKLy8gICAtIOWPsy/kuIvovrnotoXlh7rml7bmlbTkvZPlt6bnp7sv5LiK56e744CCCi8vCi8vIOi/lOWbnuiiq+S/ruato+eahOeql+WPo+aVsOmHj++8jOS+v+S6jiBYUV9ERUJVRyDovpPlh7rlj5bor4HjgIIKLy8gU2V0QWx3YXlzT25Ub3Ag5oqK5pys6L2v5Lu255qE5omA5pyJ56qX5Y+j6K6+5Li6572u6aG2IC8g5Y+W5raI572u6aG244CCCi8vCi8vIOS4uuS7gOS5iOeUqCBXaW4zMiDogIzkuI3mmK8gRnluZSDnmoQgQVBJ77yaKipGeW5lIHYyLjgg55qEIGZ5bmUuV2luZG93IOagueacrOayoeaciSBTZXRQaW5uZWQqKgovLyDvvIjmn6Xov4fmupDnoIHvvIzlhajlupPml6DmraTmlrnms5XvvInjgILlkIznsbvova/ku7bvvIhUQ0hFU1PvvInnmoTorr7nva7oj5zljZXph4zmnInjgIznqpflj6Pnva7pobbjgI3vvIwKLy8g6L+Z6YeM55SoIFNldFdpbmRvd1BvcyDnmoQgSFdORF9UT1BNT1NUIC8gSFdORF9OT1RPUE1PU1Qg6L6+5Yiw5ZCM5qC35pWI5p6c44CCCmZ1bmMgU2V0QWx3YXlzT25Ub3Aob24gYm9vbCkgaW50IHsKCWNvbnN0ICgKCQlod25kVG9wbW9zdCAgICA9IF51aW50cHRyKDApIC8vIChIV05EKS0xCgkJaHduZE5vdFRvcG1vc3QgPSBedWludHB0cigxKSAvLyAoSFdORCktMgoJCXN3cE5vU2l6ZSAgICAgID0gMHgwMDAxCgkJc3dwTm9Nb3ZlICAgICAgPSAweDAwMDIKCQlzd3BOb0FjdGl2YXRlICA9IDB4MDAxMAoJKQoJYWZ0ZXIgOj0gaHduZE5vdFRvcG1vc3QKCWlmIG9uIHsKCQlhZnRlciA9IGh3bmRUb3Btb3N0Cgl9CgluIDo9IDAKCWZvciBfLCBod25kIDo9IHJhbmdlIG93bkdsZndXaW5kb3dzKCkgewoJCXJldCwgXywgXyA6PSBwcm9jU2V0V2luZG93UG9zLkNhbGwoaHduZCwgYWZ0ZXIsIDAsIDAsIDAsIDAsCgkJCXVpbnRwdHIoc3dwTm9TaXplfHN3cE5vTW92ZXxzd3BOb0FjdGl2YXRlKSkKCQlpZiByZXQgIT0gMCB7CgkJCW4rKwoJCX0KCX0KCXJldHVybiBuCn0KCmZ1bmMgRW5mb3JjZVdpbmRvd3NPblNjcmVlbigpIGludCB7CglheCwgYXksIGF3LCBhaCA6PSBXb3JrQXJlYSgpCglpZiBhdyA8PSAwIHx8IGFoIDw9IDAgewoJCXJldHVybiAwCgl9CglmaXhlZCA6PSAwCglmb3IgXywgaHduZCA6PSByYW5nZSBvd25HbGZ3V2luZG93cygpIHsKCQl2YXIgciB3aW5SZWN0CgkJcmV0LCBfLCBfIDo9IHByb2NHZXRXaW5kb3dSZWN0LkNhbGwoaHduZCwgdWludHB0cih1bnNhZmUuUG9pbnRlcigmcikpKQoJCWlmIHJldCA9PSAwIHsKCQkJY29udGludWUKCQl9CgkJdyA6PSBpbnQoci5SaWdodCAtIHIuTGVmdCkKCQloIDo9IGludChyLkJvdHRvbSAtIHIuVG9wKQoJCWlmIHcgPD0gMCB8fCBoIDw9IDAgewoJCQljb250aW51ZQoJCX0KCQludywgbmggOj0gdywgaAoJCWlmIG53ID4gYXcgewoJCQludyA9IGF3CgkJfQoJCWlmIG5oID4gYWggewoJCQluaCA9IGFoCgkJfQoJCXgsIHkgOj0gaW50KHIuTGVmdCksIGludChyLlRvcCkKCQlpZiB4K253ID4gYXgrYXcgewoJCQl4ID0gYXggKyBhdyAtIG53CgkJfQoJCWlmIHkrbmggPiBheSthaCB7CgkJCXkgPSBheSArIGFoIC0gbmgKCQl9CgkJaWYgeCA8IGF4IHsKCQkJeCA9IGF4CgkJfQoJCWlmIHkgPCBheSB7CgkJCXkgPSBheQoJCX0KCQlpZiB4ID09IGludChyLkxlZnQpICYmIHkgPT0gaW50KHIuVG9wKSAmJiBudyA9PSB3ICYmIG5oID09IGggewoJCQljb250aW51ZQoJCX0KCQlwcm9jU2V0V2luZG93UG9zLkNhbGwoaHduZCwgMCwKCQkJdWludHB0cih4KSwgdWludHB0cih5KSwgdWludHB0cihudyksIHVpbnRwdHIobmgpLAoJCQl1aW50cHRyKHN3cE5vWk9yZGVyfHN3cE5vQWN0aXZhdGUpKQoJCWZpeGVkKysKCX0KCXJldHVybiBmaXhlZAp9CgovLyBXaW5kb3dSZWN0cyDov5Tlm57mnKzov5vnqIvmiYDmnIkgR0xGVyDnqpflj6PnmoTniannkIbnn6nlvaLvvIh4LCB5LCB3LCBoIOS+neasoeaOkuWIl++8ie+8jAovLyDkvpsgWFFfREVCVUcg5omT5Y2w5Y+W6K+B44CCCmZ1bmMgV2luZG93UmVjdHMoKSBbXWludCB7Cgl2YXIgb3V0IFtdaW50Cglmb3IgXywgaHduZCA6PSByYW5nZSBvd25HbGZ3V2luZG93cygpIHsKCQl2YXIgciB3aW5SZWN0CgkJaWYgcmV0LCBfLCBfIDo9IHByb2NHZXRXaW5kb3dSZWN0LkNhbGwoaHduZCwgdWludHB0cih1bnNhZmUuUG9pbnRlcigmcikpKTsgcmV0ICE9IDAgewoJCQlvdXQgPSBhcHBlbmQob3V0LCBpbnQoci5MZWZ0KSwgaW50KHIuVG9wKSwgaW50KHIuUmlnaHQtci5MZWZ0KSwgaW50KHIuQm90dG9tLXIuVG9wKSkKCQl9Cgl9CglyZXR1cm4gb3V0Cn0K
+//go:build windows
+
+package ui
+
+import (
+	"strings"
+	"syscall"
+	"unsafe"
+)
+
+// 本文件封装「窗口必须在屏幕可见区域内」所需的 Win32 调用（R6）。
+//
+// 背景：Fyne v2 的 Window 接口只有 CenterOnScreen()，没有设置窗口位置的 API。
+// 而 CenterOnScreen 是**按客户区尺寸**居中的，完全不计入标题栏（本机 38 物理像素）
+// 与边框（左右各 9 物理像素）。于是居中后窗口框架会上移半个标题栏：
+// 屏幕高 1080、客户区高 1016 时居中 y = 32，而窗口实际 top = 32 - 38 = -6，
+// 标题栏有 6 像素顶出屏幕之外——这正是 R6 稳定复现的现象。
+//
+// 修法：拿到本进程的 GLFW 顶层窗口句柄，用 SetWindowPos 把整窗（含标题栏）
+// 夹回屏幕可见范围，保证 top >= 0。
+
+var (
+	user32                  = syscall.NewLazyDLL("user32.dll")
+	procGetSystemMetrics    = user32.NewProc("GetSystemMetrics")
+	procEnumWindows         = user32.NewProc("EnumWindows")
+	procGetWindowThreadPrc  = user32.NewProc("GetWindowThreadProcessId")
+	procIsWindowVisible     = user32.NewProc("IsWindowVisible")
+	procGetClassNameW       = user32.NewProc("GetClassNameW")
+	procGetWindowRect       = user32.NewProc("GetWindowRect")
+	procSetWindowPos        = user32.NewProc("SetWindowPos")
+	procSystemParametersInf = user32.NewProc("SystemParametersInfoW")
+)
+
+const (
+	smCXScreen = 0 // SM_CXSCREEN
+	smCYScreen = 1 // SM_CYSCREEN
+
+	spiGetWorkArea = 0x0030 // SPI_GETWORKAREA
+
+	swpNoZOrder   = 0x0004
+	swpNoActivate = 0x0010
+)
+
+type winRect struct {
+	Left, Top, Right, Bottom int32
+}
+
+// ScreenSize 返回主显示器物理像素宽高；失败时返回 (0, 0)。
+//
+// 注意：本进程是 DPI 感知的（GLFW 会显式设置 Per-Monitor v2），
+// 因此这里拿到的是真实物理像素，而不是被系统虚拟化过的数值。
+func ScreenSize() (int, int) {
+	w, _, _ := procGetSystemMetrics.Call(uintptr(smCXScreen))
+	h, _, _ := procGetSystemMetrics.Call(uintptr(smCYScreen))
+	return int(w), int(h)
+}
+
+// WorkArea 返回去掉任务栏之后的主显示器可用区域（物理像素）。
+// 失败时回退为整屏。
+func WorkArea() (x, y, w, h int) {
+	var r winRect
+	ret, _, _ := procSystemParametersInf.Call(uintptr(spiGetWorkArea), 0,
+		uintptr(unsafe.Pointer(&r)), 0)
+	if ret == 0 {
+		sw, sh := ScreenSize()
+		return 0, 0, sw, sh
+	}
+	return int(r.Left), int(r.Top), int(r.Right - r.Left), int(r.Bottom - r.Top)
+}
+
+// windowHandle 是 EnumWindows 回调里用的候选窗口。
+type windowHandle struct {
+	hwnd uintptr
+}
+
+// MainWindowHandle 返回本进程主窗口的句柄（找不到返回 0）。
+//
+// 用途：设置 Windows 深色标题栏（SetDarkTitleBar）等系统级外观。
+// Fyne v2.8 不再对外暴露窗口句柄，所以只能自己按类名枚举。
+func MainWindowHandle() uintptr {
+	if ws := ownGlfwWindows(); len(ws) > 0 {
+		return ws[0]
+	}
+	return 0
+}
+
+// ownGlfwWindows 枚举本进程所有可见的顶层 GLFW30 窗口句柄。
+//
+// 只认类名 GLFW30：Fyne 的 GLFW 驱动固定用这个类名创建窗口，
+// 用它过滤可以避开对话框、控制台等其它窗口。
+func ownGlfwWindows() []uintptr {
+	var out []uintptr
+	pid := uint32(syscall.Getpid())
+
+	cb := syscall.NewCallback(func(hwnd uintptr, _ uintptr) uintptr {
+		var wpid uint32
+		procGetWindowThreadPrc.Call(hwnd, uintptr(unsafe.Pointer(&wpid)))
+		if wpid != pid {
+			return 1 // 继续枚举
+		}
+		vis, _, _ := procIsWindowVisible.Call(hwnd)
+		if vis == 0 {
+			return 1
+		}
+		var buf [64]uint16
+		n, _, _ := procGetClassNameW.Call(hwnd, uintptr(unsafe.Pointer(&buf[0])), uintptr(len(buf)))
+		if n == 0 {
+			return 1
+		}
+		name := syscall.UTF16ToString(buf[:])
+		if strings.EqualFold(name, "GLFW30") {
+			out = append(out, hwnd)
+		}
+		return 1
+	})
+	procEnumWindows.Call(cb, 0)
+	return out
+}
+
+// EnforceWindowsOnScreen 把本进程所有 GLFW 顶层窗口夹进屏幕可用区域。
+//
+// 规则（对应 R6）：
+//   - 窗口宽高超过可用区域时先等比缩小到可用区域；
+//   - top 最小 0、left 最小 0（标题栏与左边框绝不允许顶出屏幕）；
+//   - 右/下边超出时整体左移/上移。
+//
+// 返回被修正的窗口数量，便于 XQ_DEBUG 输出取证。
+// SetAlwaysOnTop 把本软件的所有窗口设为置顶 / 取消置顶。
+//
+// 为什么用 Win32 而不是 Fyne 的 API：**Fyne v2.8 的 fyne.Window 根本没有 SetPinned**
+// （查过源码，全库无此方法）。同类软件（TCHESS）的设置菜单里有「窗口置顶」，
+// 这里用 SetWindowPos 的 HWND_TOPMOST / HWND_NOTOPMOST 达到同样效果。
+func SetAlwaysOnTop(on bool) int {
+	const (
+		hwndTopmost    = ^uintptr(0) // (HWND)-1
+		hwndNotTopmost = ^uintptr(1) // (HWND)-2
+		swpNoSize      = 0x0001
+		swpNoMove      = 0x0002
+		swpNoActivate  = 0x0010
+	)
+	after := hwndNotTopmost
+	if on {
+		after = hwndTopmost
+	}
+	n := 0
+	for _, hwnd := range ownGlfwWindows() {
+		ret, _, _ := procSetWindowPos.Call(hwnd, after, 0, 0, 0, 0,
+			uintptr(swpNoSize|swpNoMove|swpNoActivate))
+		if ret != 0 {
+			n++
+		}
+	}
+	return n
+}
+
+func EnforceWindowsOnScreen() int {
+	ax, ay, aw, ah := WorkArea()
+	if aw <= 0 || ah <= 0 {
+		return 0
+	}
+	fixed := 0
+	for _, hwnd := range ownGlfwWindows() {
+		var r winRect
+		ret, _, _ := procGetWindowRect.Call(hwnd, uintptr(unsafe.Pointer(&r)))
+		if ret == 0 {
+			continue
+		}
+		w := int(r.Right - r.Left)
+		h := int(r.Bottom - r.Top)
+		if w <= 0 || h <= 0 {
+			continue
+		}
+		nw, nh := w, h
+		if nw > aw {
+			nw = aw
+		}
+		if nh > ah {
+			nh = ah
+		}
+		x, y := int(r.Left), int(r.Top)
+		if x+nw > ax+aw {
+			x = ax + aw - nw
+		}
+		if y+nh > ay+ah {
+			y = ay + ah - nh
+		}
+		if x < ax {
+			x = ax
+		}
+		if y < ay {
+			y = ay
+		}
+		if x == int(r.Left) && y == int(r.Top) && nw == w && nh == h {
+			continue
+		}
+		procSetWindowPos.Call(hwnd, 0,
+			uintptr(x), uintptr(y), uintptr(nw), uintptr(nh),
+			uintptr(swpNoZOrder|swpNoActivate))
+		fixed++
+	}
+	return fixed
+}
+
+// WindowRects 返回本进程所有 GLFW 窗口的物理矩形（x, y, w, h 依次排列），
+// 供 XQ_DEBUG 打印取证。
+func WindowRects() []int {
+	var out []int
+	for _, hwnd := range ownGlfwWindows() {
+		var r winRect
+		if ret, _, _ := procGetWindowRect.Call(hwnd, uintptr(unsafe.Pointer(&r))); ret != 0 {
+			out = append(out, int(r.Left), int(r.Top), int(r.Right-r.Left), int(r.Bottom-r.Top))
+		}
+	}
+	return out
+}

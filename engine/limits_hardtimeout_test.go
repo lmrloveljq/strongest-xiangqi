@@ -1,1 +1,35 @@
-cGFja2FnZSBlbmdpbmUKCmltcG9ydCAoCgkidGVzdGluZyIKCSJ0aW1lIgopCgovLyBUZXN0SW5maW5pdGVMaW1pdEhhcmRUaW1lb3V0SXNOb3REZXB0aE9uZSDml6DpmZDliIbmnpDkuI3og73ooqvlvZPmiJAi5Zu65a6a5rex5bqmIDEg5bGCIuOAggovLwovLyDnvLrpmbfljp/lnovvvJpMaW1pdC5JbmZpbml0ZSDlj6rnva7kuobmoIflv5fkvY3jgIHmsqHliqggTW9kZe+8jOiAjCBMaW1pdERlcHRoIOeahOmbtuWAvOWwseaYryAw77yMCi8vIOS6juaYryBgZ28gaW5maW5pdGVgIOiQvei/myBMaW1pdERlcHRoIOWIhuaUr++8mmQ9MOKGkjEg4oaSIOehrOi2heaXtiA2MyDnp5LvvIwKLy8g5byV5pOO5Zyo56ysIDYzIOenkuiiq+W8uuihjCBzdG9w44CC6KGo546w5pivIuaXoOmZkOWIhuaekCLlhbblrp7lj6rnrpfkuIDliIbpkp/vvIwKLy8g5Lq65py65a+55byI6YeM5YiZ5pivIueUteiEkeaDs+S6huWNiuWkqeaJjei1sOS4gOatpSLvvIzmo4vnm5jnnIvnnYDlsLHmmK/plIHmrbvnmoTjgIIKZnVuYyBUZXN0SW5maW5pdGVMaW1pdEhhcmRUaW1lb3V0SXNOb3REZXB0aE9uZSh0ICp0ZXN0aW5nLlQpIHsKCWxpbSA6PSBMaW1pdHtJbmZpbml0ZTogdHJ1ZX0KCWlmIGdvdCA6PSBsaW0uQ29tbWFuZChQcm90b1VDSSk7IGdvdCAhPSAiZ28gaW5maW5pdGUiIHsKCQl0LkZhdGFsZigi5peg6ZmQ5YiG5p6Q55qE5ZG95LukID0gJXHvvIzmnJ/mnJsgZ28gaW5maW5pdGUiLCBnb3QpCgl9CglpZiBnb3QgOj0gbGltLkhhcmRUaW1lb3V0KCk7IGdvdCA8PSAxMCp0aW1lLk1pbnV0ZSB7CgkJdC5GYXRhbGYoIuaXoOmZkOWIhuaekOeahOehrOi2heaXtiA9ICV277yM5aSq5bCP77ya5peg6ZmQ5YiG5p6Q5Lya6KKr6Ieq5Yqo5omT5pat77yI5pen54mI5pivIDYzIOenku+8iSIsIGdvdCkKCX0KCWlmIGxpbS5IYXJkVGltZW91dCgpID09IChMaW1pdHtNb2RlOiBMaW1pdERlcHRoLCBEZXB0aDogMX0pLkhhcmRUaW1lb3V0KCkgewoJCXQuRmF0YWwoIuaXoOmZkOWIhuaekOeahOehrOi2heaXtuS4juOAjOWbuuWumua3seW6piAxIOWxguOAjeebuOWQjO+8muivtOaYjuWPiOaOiei/m+S6hiBMaW1pdERlcHRoIOWIhuaUryIpCgl9Cn0KCi8vIFRlc3RGaW5pdGVMaW1pdHNTdGlsbEhhdmVIYXJkVGltZW91dCDlhZzlupXkuI3og73miormnInpmZDpmZDml7bnmoTkv53miqTkuIDotbfmirnmjonjgIIKZnVuYyBUZXN0RmluaXRlTGltaXRzU3RpbGxIYXZlSGFyZFRpbWVvdXQodCAqdGVzdGluZy5UKSB7CglpZiBnb3QgOj0gKExpbWl0e01vZGU6IExpbWl0TW92ZVRpbWUsIE1vdmVUaW1lTVM6IDIwMDB9KS5IYXJkVGltZW91dCgpOyBnb3QgIT0gNjIqdGltZS5TZWNvbmQgewoJCXQuRmF0YWxmKCLmr4/mraXpmZDml7YgMiDnp5LnmoTnoazotoXml7YgPSAldu+8jOacn+acmyA2MnPvvIjpmZDml7YgKyA2MHMg5a696ZmQ77yJIiwgZ290KQoJfQoJaWYgZ290IDo9IChMaW1pdHtNb2RlOiBMaW1pdERlcHRoLCBEZXB0aDogMjB9KS5IYXJkVGltZW91dCgpOyBnb3QgIT0gMTIwKnRpbWUuU2Vjb25kIHsKCQl0LkZhdGFsZigi5Zu65a6a5rex5bqmIDIwIOWxgueahOehrOi2heaXtiA9ICV277yM5pyf5pybIDEyMHMiLCBnb3QpCgl9Cn0K
+package engine
+
+import (
+	"testing"
+	"time"
+)
+
+// TestInfiniteLimitHardTimeoutIsNotDepthOne 无限分析不能被当成"固定深度 1 层"。
+//
+// 缺陷原型：Limit.Infinite 只置了标志位、没动 Mode，而 LimitDepth 的零值就是 0，
+// 于是 `go infinite` 落进 LimitDepth 分支：d=0→1 → 硬超时 63 秒，
+// 引擎在第 63 秒被强行 stop。表现是"无限分析"其实只算一分钟，
+// 人机对弈里则是"电脑想了半天才走一步"，棋盘看着就是锁死的。
+func TestInfiniteLimitHardTimeoutIsNotDepthOne(t *testing.T) {
+	lim := Limit{Infinite: true}
+	if got := lim.Command(ProtoUCI); got != "go infinite" {
+		t.Fatalf("无限分析的命令 = %q，期望 go infinite", got)
+	}
+	if got := lim.HardTimeout(); got <= 10*time.Minute {
+		t.Fatalf("无限分析的硬超时 = %v，太小：无限分析会被自动打断（旧版是 63 秒）", got)
+	}
+	if lim.HardTimeout() == (Limit{Mode: LimitDepth, Depth: 1}).HardTimeout() {
+		t.Fatal("无限分析的硬超时与「固定深度 1 层」相同：说明又掉进了 LimitDepth 分支")
+	}
+}
+
+// TestFiniteLimitsStillHaveHardTimeout 兜底不能把有限限时的保护一起抹掉。
+func TestFiniteLimitsStillHaveHardTimeout(t *testing.T) {
+	if got := (Limit{Mode: LimitMoveTime, MoveTimeMS: 2000}).HardTimeout(); got != 62*time.Second {
+		t.Fatalf("每步限时 2 秒的硬超时 = %v，期望 62s（限时 + 60s 宽限）", got)
+	}
+	if got := (Limit{Mode: LimitDepth, Depth: 20}).HardTimeout(); got != 120*time.Second {
+		t.Fatalf("固定深度 20 层的硬超时 = %v，期望 120s", got)
+	}
+}

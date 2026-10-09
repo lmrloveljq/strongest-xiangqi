@@ -1,1 +1,70 @@
-IyBtb3ZldGVzdC5wczEg4oCU4oCUIOeUqOecn+Wunum8oOagh+WujOaIkOOAjOmAieWtkCDihpIg6JC95a2Q44CN5Lik5q2l54K55Ye777yM5bm25LuOIFhRX0hJVCDml6Xlv5fmoLjlr7nlkb3kuK3moLzjgIIKIyDnlKjms5U6IHB3c2ggLUZpbGUgbW92ZXRlc3QucHMxIC1Gcm9tICJiMCIgLVRvICJjMiIKcGFyYW0oCglbc3RyaW5nXSRGcm9tID0gJ2IwJywKCVtzdHJpbmddJFRvID0gJ2MyJywKCVtzdHJpbmddJExvZyA9ICcnLAoJW2ludF0kUHJvYmVYID0gLTEsCglbaW50XSRQcm9iZVkgPSAtMSwKCVtzd2l0Y2hdJFByb2JlCikKJEVycm9yQWN0aW9uUHJlZmVyZW5jZSA9ICdTdG9wJwokcm9vdCA9IFNwbGl0LVBhdGggLVBhcmVudCAoU3BsaXQtUGF0aCAtUGFyZW50ICRNeUludm9jYXRpb24uTXlDb21tYW5kLlBhdGgpCmlmICgkTG9nIC1lcSAnJykgeyAkTG9nID0gSm9pbi1QYXRoICRyb290ICdfdmVyaWZ5XGJhdC1maXgubG9nJyB9CgpmdW5jdGlvbiBSZWFkLUxvZyB7CgkkZnMgPSBbU3lzdGVtLklPLkZpbGVdOjpPcGVuKCRMb2csICdPcGVuJywgJ1JlYWQnLCAnUmVhZFdyaXRlJykKCSRzciA9IE5ldy1PYmplY3QgU3lzdGVtLklPLlN0cmVhbVJlYWRlcigkZnMsIChOZXctT2JqZWN0IFN5c3RlbS5UZXh0LlVURjhFbmNvZGluZygkZmFsc2UpKSkKCSR0ID0gJHNyLlJlYWRUb0VuZCgpOyAkc3IuQ2xvc2UoKTsgJGZzLkNsb3NlKCk7IHJldHVybiAkdAp9CmZ1bmN0aW9uIExhc3QtSGl0IHsKCSR0ID0gUmVhZC1Mb2cKCSRtID0gW3JlZ2V4XTo6TWF0Y2hlcygkdCwgJ1xbaGl0XF0gZXZcLlBvc2l0aW9uPVwoKFstXGQuXSspLChbLVxkLl0rKVwpIGJvYXJkTG9naWNhbD0oW1xkLl0rKSB4IChbXGQuXSspIGNlbGw9KFtcZC5dKykgb3g9KFtcZC5dKykgb3k9KFstXGQuXSspIC0+IHNxPSgtP1xkKykgb2s9KFx3KyknKQoJaWYgKCRtLkNvdW50IC1lcSAwKSB7IHJldHVybiAkbnVsbCB9CgkkZyA9ICRtWyRtLkNvdW50IC0gMV0uR3JvdXBzCglyZXR1cm4gW3BzY3VzdG9tb2JqZWN0XUB7CgkJcHggPSBbZG91YmxlXSRnWzFdLlZhbHVlOyBweSA9IFtkb3VibGVdJGdbMl0uVmFsdWUKCQljZWxsID0gW2RvdWJsZV0kZ1s1XS5WYWx1ZTsgb3ggPSBbZG91YmxlXSRnWzZdLlZhbHVlOyBveSA9IFtkb3VibGVdJGdbN10uVmFsdWUKCQlzcSA9IFtpbnRdJGdbOF0uVmFsdWU7IG9rID0gJGdbOV0uVmFsdWUKCX0KfQpmdW5jdGlvbiBTcTJGaWxlUmFuaygkcykgewoJJGYgPSBbaW50XVtjaGFyXShbc3RyaW5nXSRzKS5Ub0NoYXJBcnJheSgpWzBdIC0gW2ludF1bY2hhcl0nYScKCSRyID0gW2ludF0oW3N0cmluZ10kcykuU3Vic3RyaW5nKDEsIDEpCglyZXR1cm4gQCgkZiwgJHIpCn0KCiRnZW8gPSBMYXN0LUhpdAppZiAoLW5vdCAkZ2VvKSB7IFdyaXRlLU91dHB1dCAnRVJST1I6IOaXpeW/l+mHjOayoeaciSBbaGl0XSDorrDlvZXvvIzlhYjnlKggLVByb2JlIOeCueS4gOasoSc7IGV4aXQgMSB9CgojIOaji+ebmOWOn+eCue+8iOWuouaIt+WMuumAu+i+keWdkOagh++8iT0g5LiK5qyh5o6i5rWL54K55Ye755qE5a6i5oi35Yy654mp55CG5Z2Q5qCHIC8gc2NhbGUg4oiSIOivpeasoeeCueWHu+WcqOaji+ebmOWGheeahOmAu+i+keS9jee9rgojICAg5rOo5oSP77ya5b+F6aG755So44CM5o6i5rWL54K55Ye76Ieq5bex55qE5a6i5oi35Yy65Z2Q5qCH44CN77yM5LiN6IO955SoIG94IOKAlOKAlCDlkI7ogIXmmK/moLznur/ljp/ngrnvvIzkuI3mmK/mjqfku7bljp/ngrnjgIIKJHNjYWxlID0gMS4zCmlmICgkUHJvYmVYIC1sdCAwIC1vciAkUHJvYmVZIC1sdCAwKSB7CglXcml0ZS1PdXRwdXQgJ0VSUk9SOiDpnIDopoEgLVByb2JlWCAvIC1Qcm9iZVkg5oyH5a6a5LiK5LiA5qyh5o6i5rWL54K55Ye755qE5a6i5oi35Yy654mp55CG5Z2Q5qCHJwoJZXhpdCAxCn0KJGJvYXJkQWJzWCA9ICRQcm9iZVggLyAkc2NhbGUgLSAkZ2VvLnB4CiRib2FyZEFic1kgPSAkUHJvYmVZIC8gJHNjYWxlIC0gJGdlby5weQoKZnVuY3Rpb24gQ2VsbFB4KCRjZWxsKSB7CgkkZnIgPSBTcTJGaWxlUmFuayAkY2VsbAoJJGx4ID0gJGJvYXJkQWJzWCArICRnZW8ub3ggKyAkZnJbMF0gKiAkZ2VvLmNlbGwKCSRseSA9ICRib2FyZEFic1kgKyAkZ2VvLm95ICsgKDkgLSAkZnJbMV0pICogJGdlby5jZWxsCglyZXR1cm4gQChbaW50XVttYXRoXTo6Um91bmQoJGx4ICogJHNjYWxlKSwgW2ludF1bbWF0aF06OlJvdW5kKCRseSAqICRzY2FsZSkpCn0KCiRod25kQXJnID0gQCgpCiRwMSA9IENlbGxQeCAkRnJvbQokcDIgPSBDZWxsUHggJFRvCldyaXRlLU91dHB1dCAoImJvYXJkQWJzPSglLjFmLCUuMWYpIGNlbGw9JS4zZiBzY2FsZT0lLjJmIiAtZiAkYm9hcmRBYnNYLCAkYm9hcmRBYnNZLCAkZ2VvLmNlbGwsICRzY2FsZSkKV3JpdGUtT3V0cHV0ICgiY2xpY2sgezB9IGF0IGNsaWVudD0oezF9LHsyfSkgOyB7M30gYXQgY2xpZW50PSh7NH0sezV9KSIgLWYgJEZyb20sICRwMVswXSwgJHAxWzFdLCAkVG8sICRwMlswXSwgJHAyWzFdKQoKJiBwd3NoIC1Ob1Byb2ZpbGUgLUZpbGUgKEpvaW4tUGF0aCAkcm9vdCAndG9vbHNceHF3aW4ucHMxJykgLUFjdGlvbiBjbGljayAtWCAkcDFbMF0gLVkgJHAxWzFdIHwgU2VsZWN0LU9iamVjdCAtTGFzdCAxClN0YXJ0LVNsZWVwIC1NaWxsaXNlY29uZHMgOTAwCiYgcHdzaCAtTm9Qcm9maWxlIC1GaWxlIChKb2luLVBhdGggJHJvb3QgJ3Rvb2xzXHhxd2luLnBzMScpIC1BY3Rpb24gY2xpY2sgLVggJHAyWzBdIC1ZICRwMlsxXSB8IFNlbGVjdC1PYmplY3QgLUxhc3QgMQpTdGFydC1TbGVlcCAtU2Vjb25kcyAyCgokdCA9IFJlYWQtTG9nCldyaXRlLU91dHB1dCAnPT09IOacgOi/kSA0IOadoSBbaGl0XSA9PT0nCigkdCAtc3BsaXQgImByP2BuIikgfCBXaGVyZS1PYmplY3QgeyAkXyAtbWF0Y2ggJ15cW2hpdFxdJyB9IHwgU2VsZWN0LU9iamVjdCAtTGFzdCA0Cg==
+# movetest.ps1 —— 用真实鼠标完成「选子 → 落子」两步点击，并从 XQ_HIT 日志核对命中格。
+# 用法: pwsh -File movetest.ps1 -From "b0" -To "c2"
+param(
+	[string]$From = 'b0',
+	[string]$To = 'c2',
+	[string]$Log = '',
+	[int]$ProbeX = -1,
+	[int]$ProbeY = -1,
+	[switch]$Probe
+)
+$ErrorActionPreference = 'Stop'
+$root = Split-Path -Parent (Split-Path -Parent $MyInvocation.MyCommand.Path)
+if ($Log -eq '') { $Log = Join-Path $root '_verify\bat-fix.log' }
+
+function Read-Log {
+	$fs = [System.IO.File]::Open($Log, 'Open', 'Read', 'ReadWrite')
+	$sr = New-Object System.IO.StreamReader($fs, (New-Object System.Text.UTF8Encoding($false)))
+	$t = $sr.ReadToEnd(); $sr.Close(); $fs.Close(); return $t
+}
+function Last-Hit {
+	$t = Read-Log
+	$m = [regex]::Matches($t, '\[hit\] ev\.Position=\(([-\d.]+),([-\d.]+)\) boardLogical=([\d.]+) x ([\d.]+) cell=([\d.]+) ox=([\d.]+) oy=([-\d.]+) -> sq=(-?\d+) ok=(\w+)')
+	if ($m.Count -eq 0) { return $null }
+	$g = $m[$m.Count - 1].Groups
+	return [pscustomobject]@{
+		px = [double]$g[1].Value; py = [double]$g[2].Value
+		cell = [double]$g[5].Value; ox = [double]$g[6].Value; oy = [double]$g[7].Value
+		sq = [int]$g[8].Value; ok = $g[9].Value
+	}
+}
+function Sq2FileRank($s) {
+	$f = [int][char]([string]$s).ToCharArray()[0] - [int][char]'a'
+	$r = [int]([string]$s).Substring(1, 1)
+	return @($f, $r)
+}
+
+$geo = Last-Hit
+if (-not $geo) { Write-Output 'ERROR: 日志里没有 [hit] 记录，先用 -Probe 点一次'; exit 1 }
+
+# 棋盘原点（客户区逻辑坐标）= 上次探测点击的客户区物理坐标 / scale − 该次点击在棋盘内的逻辑位置
+#   注意：必须用「探测点击自己的客户区坐标」，不能用 ox —— 后者是格线原点，不是控件原点。
+$scale = 1.3
+if ($ProbeX -lt 0 -or $ProbeY -lt 0) {
+	Write-Output 'ERROR: 需要 -ProbeX / -ProbeY 指定上一次探测点击的客户区物理坐标'
+	exit 1
+}
+$boardAbsX = $ProbeX / $scale - $geo.px
+$boardAbsY = $ProbeY / $scale - $geo.py
+
+function CellPx($cell) {
+	$fr = Sq2FileRank $cell
+	$lx = $boardAbsX + $geo.ox + $fr[0] * $geo.cell
+	$ly = $boardAbsY + $geo.oy + (9 - $fr[1]) * $geo.cell
+	return @([int][math]::Round($lx * $scale), [int][math]::Round($ly * $scale))
+}
+
+$hwndArg = @()
+$p1 = CellPx $From
+$p2 = CellPx $To
+Write-Output ("boardAbs=(%.1f,%.1f) cell=%.3f scale=%.2f" -f $boardAbsX, $boardAbsY, $geo.cell, $scale)
+Write-Output ("click {0} at client=({1},{2}) ; {3} at client=({4},{5})" -f $From, $p1[0], $p1[1], $To, $p2[0], $p2[1])
+
+& pwsh -NoProfile -File (Join-Path $root 'tools\xqwin.ps1') -Action click -X $p1[0] -Y $p1[1] | Select-Object -Last 1
+Start-Sleep -Milliseconds 900
+& pwsh -NoProfile -File (Join-Path $root 'tools\xqwin.ps1') -Action click -X $p2[0] -Y $p2[1] | Select-Object -Last 1
+Start-Sleep -Seconds 2
+
+$t = Read-Log
+Write-Output '=== 最近 4 条 [hit] ==='
+($t -split "`r?`n") | Where-Object { $_ -match '^\[hit\]' } | Select-Object -Last 4

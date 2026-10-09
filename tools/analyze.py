@@ -1,1 +1,94 @@
-IyBhbmFseXplLnB5IOKAlOKAlCDku47nnJ/lrp7nqpflj6PmiKrlm77ph4zph4/lh7rmo4vnm5jlupXmnb8v5qC857q/55qE5YOP57Sg5L2N572u77yM5LiO5biD5bGA5pel5b+X5a+554Wn44CCCiMg55So5rOVOiBweXRob24gYW5hbHl6ZS5weSA8cG5nPiBbLS1sZWZ0LWhhbGZdIFstLWRvdHNdCmltcG9ydCBzeXMKZnJvbSBQSUwgaW1wb3J0IEltYWdlCgpQTEFURSA9ICgweEYwLCAweEUwLCAweEJDKQpET1RTID0gKDB4MkUsIDB4N0QsIDB4NEYpClNFTCA9ICgweEY0LCAweENFLCAweDVBKQoKCmRlZiBuZWFyKHAsIGMsIHRvbD02KToKICAgIHJldHVybiBhYnMocFswXSAtIGNbMF0pIDw9IHRvbCBhbmQgYWJzKHBbMV0gLSBjWzFdKSA8PSB0b2wgYW5kIGFicyhwWzJdIC0gY1syXSkgPD0gdG9sCgoKZGVmIGJib3hfb2YoaW1nLCBjb2xvciwgdG9sPTYsIHgwPTAsIHkwPTAsIHgxPU5vbmUsIHkxPU5vbmUsIHN0ZXA9MSk6CiAgICB3LCBoID0gaW1nLnNpemUKICAgIHgxID0gdyBpZiB4MSBpcyBOb25lIGVsc2UgeDEKICAgIHkxID0gaCBpZiB5MSBpcyBOb25lIGVsc2UgeTEKICAgIG1pbngsIG1pbnksIG1heHgsIG1heHksIG4gPSAxMCoqOSwgMTAqKjksIC0xLCAtMSwgMAogICAgcHggPSBpbWcubG9hZCgpCiAgICBmb3IgeSBpbiByYW5nZSh5MCwgeTEsIHN0ZXApOgogICAgICAgIGZvciB4IGluIHJhbmdlKHgwLCB4MSwgc3RlcCk6CiAgICAgICAgICAgIGlmIG5lYXIocHhbeCwgeV0sIGNvbG9yLCB0b2wpOgogICAgICAgICAgICAgICAgbiArPSAxCiAgICAgICAgICAgICAgICBpZiB4IDwgbWlueDogbWlueCA9IHgKICAgICAgICAgICAgICAgIGlmIHkgPCBtaW55OiBtaW55ID0geQogICAgICAgICAgICAgICAgaWYgeCA+IG1heHg6IG1heHggPSB4CiAgICAgICAgICAgICAgICBpZiB5ID4gbWF4eTogbWF4eSA9IHkKICAgIGlmIG4gPT0gMDoKICAgICAgICByZXR1cm4gTm9uZQogICAgcmV0dXJuIG1pbngsIG1pbnksIG1heHgsIG1heHksIG4KCgpkZWYgYmxvYnMoaW1nLCBjb2xvciwgdG9sPTEwLCB4MD0wLCB5MD0wLCB4MT1Ob25lLCB5MT1Ob25lLCBtaW5weD00MCk6CiAgICAiIiLov57pgJrln5/vvIg0IOmCu+Wfn++8ieeugOWNleWunueOsO+8jOi/lOWbnuavj+S4quewh+eahOWMheWbtOebkuS4jui0qOW/g+OAgiIiIgogICAgdywgaCA9IGltZy5zaXplCiAgICB4MSA9IHcgaWYgeDEgaXMgTm9uZSBlbHNlIHgxCiAgICB5MSA9IGggaWYgeTEgaXMgTm9uZSBlbHNlIHkxCiAgICBweCA9IGltZy5sb2FkKCkKICAgIHNlZW4gPSBzZXQoKQogICAgb3V0ID0gW10KICAgIGZvciB5IGluIHJhbmdlKHkwLCB5MSk6CiAgICAgICAgZm9yIHggaW4gcmFuZ2UoeDAsIHgxKToKICAgICAgICAgICAgaWYgKHgsIHkpIGluIHNlZW4gb3Igbm90IG5lYXIocHhbeCwgeV0sIGNvbG9yLCB0b2wpOgogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgc3RhY2sgPSBbKHgsIHkpXQogICAgICAgICAgICBzZWVuLmFkZCgoeCwgeSkpCiAgICAgICAgICAgIG1pbnggPSBtYXh4ID0geAogICAgICAgICAgICBtaW55ID0gbWF4eSA9IHkKICAgICAgICAgICAgY250ID0gMAogICAgICAgICAgICBzeCA9IHN5ID0gMAogICAgICAgICAgICB3aGlsZSBzdGFjazoKICAgICAgICAgICAgICAgIGN4LCBjeSA9IHN0YWNrLnBvcCgpCiAgICAgICAgICAgICAgICBjbnQgKz0gMQogICAgICAgICAgICAgICAgc3ggKz0gY3g7IHN5ICs9IGN5CiAgICAgICAgICAgICAgICBpZiBjeCA8IG1pbng6IG1pbnggPSBjeAogICAgICAgICAgICAgICAgaWYgY3ggPiBtYXh4OiBtYXh4ID0gY3gKICAgICAgICAgICAgICAgIGlmIGN5IDwgbWlueTogbWlueSA9IGN5CiAgICAgICAgICAgICAgICBpZiBjeSA+IG1heHk6IG1heHkgPSBjeQogICAgICAgICAgICAgICAgZm9yIG54LCBueSBpbiAoKGN4KzEsIGN5KSwgKGN4LTEsIGN5KSwgKGN4LCBjeSsxKSwgKGN4LCBjeS0xKSk6CiAgICAgICAgICAgICAgICAgICAgaWYgeDAgPD0gbnggPCB4MSBhbmQgeTAgPD0gbnkgPCB5MSBhbmQgKG54LCBueSkgbm90IGluIHNlZW4gYW5kIG5lYXIocHhbbngsIG55XSwgY29sb3IsIHRvbCk6CiAgICAgICAgICAgICAgICAgICAgICAgIHNlZW4uYWRkKChueCwgbnkpKQogICAgICAgICAgICAgICAgICAgICAgICBzdGFjay5hcHBlbmQoKG54LCBueSkpCiAgICAgICAgICAgIGlmIGNudCA+PSBtaW5weDoKICAgICAgICAgICAgICAgIG91dC5hcHBlbmQoKGNudCwgbWlueCwgbWlueSwgbWF4eCwgbWF4eSwgc3gvY250LCBzeS9jbnQpKQogICAgb3V0LnNvcnQocmV2ZXJzZT1UcnVlKQogICAgcmV0dXJuIG91dAoKCmRlZiBtYWluKCk6CiAgICBwYXRoID0gc3lzLmFyZ3ZbMV0KICAgIGltZyA9IEltYWdlLm9wZW4ocGF0aCkuY29udmVydCgnUkdCJykKICAgIFcsIEggPSBpbWcuc2l6ZQogICAgcHJpbnQoZiJpbWFnZToge3BhdGh9ICBzaXplPXtXfXh7SH0iKQogICAgaGFsZiA9IFcgLy8gMgoKICAgIGJiID0gYmJveF9vZihpbWcsIFBMQVRFLCA2LCAwLCAwLCBoYWxmLCBILCAyKQogICAgcHJpbnQoZiJwbGF0ZSBiYm94IChsZWZ0IGhhbGYpOiB7YmJ9IikKICAgIGlmIGJiOgogICAgICAgIG1pbngsIG1pbnksIG1heHgsIG1heHksIG4gPSBiYgogICAgICAgIHByaW50KGYiICBwbGF0ZSB3PXttYXh4LW1pbngrMX0gaD17bWF4eS1taW55KzF9IikKCiAgICBkb3RzID0gYmxvYnMoaW1nLCBET1RTLCAxMiwgMCwgMCwgaGFsZiwgSCwgMzApCiAgICBwcmludChmInRhcmdldCBkb3RzIChncmVlbik6IHtsZW4oZG90cyl9IikKICAgIGZvciBjLCBtbngsIG1ueSwgbXh4LCBteHksIGN4LCBjeSBpbiBkb3RzWzo4XToKICAgICAgICBwcmludChmIiAgcHg9e2N9IGJib3g9KHttbnh9LHttbnl9KS0oe214eH0se214eX0pIGNlbnRlcj0oe2N4Oi4xZn0se2N5Oi4xZn0pIikKCiAgICBzZWwgPSBibG9icyhpbWcsIFNFTCwgMjUsIDAsIDAsIGhhbGYsIEgsIDIwMCkKICAgIHByaW50KGYic2VsZWN0aW9uIGZpbGwgKGFtYmVyKToge2xlbihzZWwpfSIpCiAgICBmb3IgYywgbW54LCBtbnksIG14eCwgbXh5LCBjeCwgY3kgaW4gc2VsWzo0XToKICAgICAgICBwcmludChmIiAgcHg9e2N9IGJib3g9KHttbnh9LHttbnl9KS0oe214eH0se214eX0pIGNlbnRlcj0oe2N4Oi4xZn0se2N5Oi4xZn0pIHc9e214eC1tbngrMX0gaD17bXh5LW1ueSsxfSIpCgoKbWFpbigpCg==
+# analyze.py —— 从真实窗口截图里量出棋盘底板/格线的像素位置，与布局日志对照。
+# 用法: python analyze.py <png> [--left-half] [--dots]
+import sys
+from PIL import Image
+
+PLATE = (0xF0, 0xE0, 0xBC)
+DOTS = (0x2E, 0x7D, 0x4F)
+SEL = (0xF4, 0xCE, 0x5A)
+
+
+def near(p, c, tol=6):
+    return abs(p[0] - c[0]) <= tol and abs(p[1] - c[1]) <= tol and abs(p[2] - c[2]) <= tol
+
+
+def bbox_of(img, color, tol=6, x0=0, y0=0, x1=None, y1=None, step=1):
+    w, h = img.size
+    x1 = w if x1 is None else x1
+    y1 = h if y1 is None else y1
+    minx, miny, maxx, maxy, n = 10**9, 10**9, -1, -1, 0
+    px = img.load()
+    for y in range(y0, y1, step):
+        for x in range(x0, x1, step):
+            if near(px[x, y], color, tol):
+                n += 1
+                if x < minx: minx = x
+                if y < miny: miny = y
+                if x > maxx: maxx = x
+                if y > maxy: maxy = y
+    if n == 0:
+        return None
+    return minx, miny, maxx, maxy, n
+
+
+def blobs(img, color, tol=10, x0=0, y0=0, x1=None, y1=None, minpx=40):
+    """连通域（4 邻域）简单实现，返回每个簇的包围盒与质心。"""
+    w, h = img.size
+    x1 = w if x1 is None else x1
+    y1 = h if y1 is None else y1
+    px = img.load()
+    seen = set()
+    out = []
+    for y in range(y0, y1):
+        for x in range(x0, x1):
+            if (x, y) in seen or not near(px[x, y], color, tol):
+                continue
+            stack = [(x, y)]
+            seen.add((x, y))
+            minx = maxx = x
+            miny = maxy = y
+            cnt = 0
+            sx = sy = 0
+            while stack:
+                cx, cy = stack.pop()
+                cnt += 1
+                sx += cx; sy += cy
+                if cx < minx: minx = cx
+                if cx > maxx: maxx = cx
+                if cy < miny: miny = cy
+                if cy > maxy: maxy = cy
+                for nx, ny in ((cx+1, cy), (cx-1, cy), (cx, cy+1), (cx, cy-1)):
+                    if x0 <= nx < x1 and y0 <= ny < y1 and (nx, ny) not in seen and near(px[nx, ny], color, tol):
+                        seen.add((nx, ny))
+                        stack.append((nx, ny))
+            if cnt >= minpx:
+                out.append((cnt, minx, miny, maxx, maxy, sx/cnt, sy/cnt))
+    out.sort(reverse=True)
+    return out
+
+
+def main():
+    path = sys.argv[1]
+    img = Image.open(path).convert('RGB')
+    W, H = img.size
+    print(f"image: {path}  size={W}x{H}")
+    half = W // 2
+
+    bb = bbox_of(img, PLATE, 6, 0, 0, half, H, 2)
+    print(f"plate bbox (left half): {bb}")
+    if bb:
+        minx, miny, maxx, maxy, n = bb
+        print(f"  plate w={maxx-minx+1} h={maxy-miny+1}")
+
+    dots = blobs(img, DOTS, 12, 0, 0, half, H, 30)
+    print(f"target dots (green): {len(dots)}")
+    for c, mnx, mny, mxx, mxy, cx, cy in dots[:8]:
+        print(f"  px={c} bbox=({mnx},{mny})-({mxx},{mxy}) center=({cx:.1f},{cy:.1f})")
+
+    sel = blobs(img, SEL, 25, 0, 0, half, H, 200)
+    print(f"selection fill (amber): {len(sel)}")
+    for c, mnx, mny, mxx, mxy, cx, cy in sel[:4]:
+        print(f"  px={c} bbox=({mnx},{mny})-({mxx},{mxy}) center=({cx:.1f},{cy:.1f}) w={mxx-mnx+1} h={mxy-mny+1}")
+
+
+main()

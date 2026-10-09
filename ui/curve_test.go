@@ -1,1 +1,47 @@
-cGFja2FnZSB1aQoKaW1wb3J0ICgKCSJ0ZXN0aW5nIgopCgovLyBUZXN0Q3VydmVGaWxsc0dhcHMg5puy57q/5b+F6aG76ZO65ruhIFgg6L2077ya5Lit6Ze05rKh5pyJ5YiG5p6Q55qE552A5pWw5oyJ5LiK5LiA5Liq5bey55+l5YC86KGl6b2Q77yMCi8vIOesrOS4gOS4queCueiQveWcqOS4reWQjuebmOaXtuS7juW8gOWxgOi1t+ihpeS4gOadoeawtOW5s+e6v+OAggovLwovLyDkuovmlYXog4zmma/vvIjnlKjmiLflrp7mtYvvvInvvJrkurrmnLrlr7nlvIjph4zmiorlvJXmk47lhbPmjonpgqPmrrXml7bpl7TmsqHkurrliIbmnpDvvIzpgqPkupvnnYDmlbDkuIDkuKrngrnpg73msqHmnInvvIwKLy8gWCDovbTpnaDov5Hljp/ngrnnmoTkuIDljYrmlbTniYfnqbrnmb3vvIznnIvnnYDlg4/jgIzmm7Lnur/lgY/lj7PjgI3jgIIKZnVuYyBUZXN0Q3VydmVGaWxsc0dhcHModCAqdGVzdGluZy5UKSB7CgljIDo9IE5ld0N1cnZlKCJ0ZXN0IikKCgkvLyDnrKzkuIDkuKrngrnokL3lnKjnrKwgNiDnnYDvvJowfjUg552A5Lmf6KaB5pyJ5YC877yM5ZCm5YiZ5bem6L655LiA5Y2K56m655m9CgljLkFkZFBvaW50KDYsIDYwKQoJcHRzIDo9IGMuUG9pbnRzKCkKCWlmIGxlbihwdHMpICE9IDcgewoJCXQuRmF0YWxmKCLpppbkuKrngrnlnKjnrKwgNiDnnYDml7blupTmnIkgMH42IOWFsSA3IOS4queCue+8jOWunumZhSAlZCDkuKrvvJolK3YiLCBsZW4ocHRzKSwgcHRzKQoJfQoJaWYgcHRzWzBdLlBseSAhPSAwIHx8IHB0c1swXS5SZWQgIT0gNjAgewoJCXQuRXJyb3JmKCLlvIDlsYDooaXpvZDlgLzkuI3lr7nvvJolK3YiLCBwdHNbMF0pCgl9CgoJLy8g6Leo6L+H5LiA5q6156m65qGj77yIN34xMSDnnYDmsqHmnInliIbmnpDvvInnm7TmjqXliLDnrKwgMTIg552A77ya5Lit6Ze05oyJ5LiK5LiA5Liq5YC86KGl6b2QCgljLkFkZFBvaW50KDEyLCA0NSkKCXB0cyA9IGMuUG9pbnRzKCkKCWlmIGxlbihwdHMpICE9IDEzIHsKCQl0LkZhdGFsZigiMH4xMiDnnYDlupTlhbEgMTMg5Liq54K577yM5a6e6ZmFICVkIOS4qiIsIGxlbihwdHMpKQoJfQoJaWYgcHRzWzldLlBseSAhPSA5IHx8IHB0c1s5XS5SZWQgIT0gNjAgewoJCXQuRXJyb3JmKCLnqbrmoaPlupTlu7bnu63kuIrkuIDkuKrlt7Lnn6XlgLwgNjDvvJolK3YiLCBwdHNbOV0pCgl9CglpZiBwdHNbMTJdLlJlZCAhPSA0NSB7CgkJdC5FcnJvcmYoIuesrCAxMiDnnYDlupTmmK/mlrDlgLwgNDXvvJolK3YiLCBwdHNbMTJdKQoJfQoKCS8vIOWQjOS4gOatpeaVsOmHjeWkjea3u+WKoOaYr+imhuebluivreS5ie+8jOS4jeW6lOS6p+eUn+mHjeWkjeeCuQoJYy5BZGRQb2ludCgxMiwgNTApCglwdHMgPSBjLlBvaW50cygpCglpZiBsZW4ocHRzKSAhPSAxMyB7CgkJdC5GYXRhbGYoIuWQjOedgOaVsOimhuebluWQjuS7jeW6lOaYryAxMyDkuKrngrnvvIzlrp7pmYUgJWQg5LiqIiwgbGVuKHB0cykpCgl9CglpZiBwdHNbMTJdLlJlZCAhPSA1MCB7CgkJdC5FcnJvcmYoIuimhuebluWQjuesrCAxMiDnnYDlupTmmK8gNTDvvJolK3YiLCBwdHNbMTJdKQoJfQp9Cg==
+package ui
+
+import (
+	"testing"
+)
+
+// TestCurveFillsGaps 曲线必须铺满 X 轴：中间没有分析的着数按上一个已知值补齐，
+// 第一个点落在中后盘时从开局起补一条水平线。
+//
+// 事故背景（用户实测）：人机对弈里把引擎关掉那段时间没人分析，那些着数一个点都没有，
+// X 轴靠近原点的一半整片空白，看着像「曲线偏右」。
+func TestCurveFillsGaps(t *testing.T) {
+	c := NewCurve("test")
+
+	// 第一个点落在第 6 着：0~5 着也要有值，否则左边一半空白
+	c.AddPoint(6, 60)
+	pts := c.Points()
+	if len(pts) != 7 {
+		t.Fatalf("首个点在第 6 着时应有 0~6 共 7 个点，实际 %d 个：%+v", len(pts), pts)
+	}
+	if pts[0].Ply != 0 || pts[0].Red != 60 {
+		t.Errorf("开局补齐值不对：%+v", pts[0])
+	}
+
+	// 跨过一段空档（7~11 着没有分析）直接到第 12 着：中间按上一个值补齐
+	c.AddPoint(12, 45)
+	pts = c.Points()
+	if len(pts) != 13 {
+		t.Fatalf("0~12 着应共 13 个点，实际 %d 个", len(pts))
+	}
+	if pts[9].Ply != 9 || pts[9].Red != 60 {
+		t.Errorf("空档应延续上一个已知值 60：%+v", pts[9])
+	}
+	if pts[12].Red != 45 {
+		t.Errorf("第 12 着应是新值 45：%+v", pts[12])
+	}
+
+	// 同一步数重复添加是覆盖语义，不应产生重复点
+	c.AddPoint(12, 50)
+	pts = c.Points()
+	if len(pts) != 13 {
+		t.Fatalf("同着数覆盖后仍应是 13 个点，实际 %d 个", len(pts))
+	}
+	if pts[12].Red != 50 {
+		t.Errorf("覆盖后第 12 着应是 50：%+v", pts[12])
+	}
+}

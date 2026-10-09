@@ -1,1 +1,17 @@
-QGVjaG8gb2ZmDQpjaGNwIDY1MDAxID5udWwNCnJlbSA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09DQpyZW0gIFhpYW5ncWkgdjEuMy4xICAtLSAgYnVpbGQgdGhlIGZpbmFsIHNpbmdsZS1maWxlIGV4ZQ0KcmVtDQpyZW0gIFJVTiBUSElTIE9OTFkgQUZURVIgVEhFIFZFUklGSUNBVElPTiBQQVNTRUQuDQpyZW0NCnJlbSAgUHVyZSBBU0NJSSBvbiBwdXJwb3NlOiBhIENoaW5lc2UtbmFtZWQgYmF0Y2ggZmlsZSBtdXN0IG5vdCBjb250YWluDQpyZW0gIENoaW5lc2UgY29udGVudCwgYmVjYXVzZSBjbWQuZXhlIGxvc2VzIHRoZSBieXRlIG9mZnNldCB3aGVuIGl0IHJlLW9wZW5zDQpyZW0gIHRoZSBmaWxlIGJ5IG5hbWUuIFNlZSB0b29sc1xydW4tdmVyaWZ5LmNtZCBmb3IgdGhlIGZ1bGwgZXhwbGFuYXRpb24uDQpyZW0gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KDQpzZXRsb2NhbA0KY2hjcCA2NTAwMSA+bnVsDQpjYWxsICIlfmRwMHRvb2xzXGJ1aWxkLWV4ZS5jbWQiICUqDQpzZXQgIlJDPSVFUlJPUkxFVkVMJSINCmVuZGxvY2FsICYgZXhpdCAvYiAlUkMl
+@echo off
+chcp 65001 >nul
+rem ============================================================================
+rem  Xiangqi v1.3.1  --  build the final single-file exe
+rem
+rem  RUN THIS ONLY AFTER THE VERIFICATION PASSED.
+rem
+rem  Pure ASCII on purpose: a Chinese-named batch file must not contain
+rem  Chinese content, because cmd.exe loses the byte offset when it re-opens
+rem  the file by name. See tools\run-verify.cmd for the full explanation.
+rem ============================================================================
+
+setlocal
+chcp 65001 >nul
+call "%~dp0tools\build-exe.cmd" %*
+set "RC=%ERRORLEVEL%"
+endlocal & exit /b %RC%

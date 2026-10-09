@@ -1,1 +1,115 @@
-cGFja2FnZSB1aQoKaW1wb3J0ICgKCSJpbWFnZS9jb2xvciIKCgkiZnluZS5pby9meW5lL3YyL2NhbnZhcyIKKQoKLy8g5pys5paH5Lu255Sf5oiQ44CM5Li76aKY6Ieq5bim55qE57uG6IW75bqV57q544CN77ya5b6u6aKX57KSICsg5LiA6KeS5p+U5YWJICsg5Zub5ZGo5Y6L5pqX44CCCi8vCi8vIOS4uuS7gOS5iOS4jeeUqOeFp+eJh+iDjOaZr++8mgovLyAgIC0g54Wn54mH5Lya6Lef5qOL55uY5oqi5rOo5oSP5Yqb77yM57yp5pS+5ZCO5b+F54S25Y+R6Jma77yM5rex6Imy55WM6Z2i5LiK6L+Y5Lya5Ye6546w6Imy5YGP77ybCi8vICAgLSDnqIvluo/nlJ/miJDnmoTlupXnurnlnKjku7vmhI/liIbovqjnjocvRFBJIOS4i+mDvea4heaZsO+8jOiAjOS4lCoq6Lef552A55qu6IKk6LWwKirvvJoKLy8gICAgIOaNouiCpOaXtuW6leiJsuOAgemil+eykuW8uuW6puOAgeaflOWFieiJsuS4gOi1t+WPmO+8jOS4jeeUqOWGjeWHhuWkh+esrOS6jOW8oOWbvuOAggovLwovLyDlrp7njrDnlKggY2FudmFzLk5ld1Jhc3RlcldpdGhQaXhlbHPvvJpGeW5lIOWcqOmcgOimgeaXtuaMieWunumZheWDj+e0oOWwuuWvuOWbnuiwg+WPluiJsu+8jAovLyDlm6DmraTkuI3pnIDopoHnvJPlrZjmlofku7bvvIzkuZ/kuI3pnIDopoHlhbPlv4Pnqpflj6PlpKflsI/vvIjnvKnmlL7ml7boh6rliqjph43nrpfvvInjgIIKCi8vIG5ld0JhY2tncm91bmRSYXN0ZXIg5oyJ5bqV57q55Y+C5pWw6YCg5LiA5Liq6ZO65ruh56qX5Y+j55qE5bqV57q55Zu+5bGC44CCCmZ1bmMgbmV3QmFja2dyb3VuZFJhc3RlcihzcGVjIEJhY2tncm91bmRTcGVjKSAqY2FudmFzLlJhc3RlciB7CglyIDo9IGNhbnZhcy5OZXdSYXN0ZXJXaXRoUGl4ZWxzKGJhY2tncm91bmRQaXhlbChzcGVjKSkKCXIuU2NhbGVNb2RlID0gY2FudmFzLkltYWdlU2NhbGVGYXN0ZXN0CglyZXR1cm4gcgp9CgovLyBiYWNrZ3JvdW5kUGl4ZWwg6L+U5Zue44CM5oyJ5YOP57Sg5Y+W6Imy44CN55qE5Ye95pWw77yI5Y2V54us5ou/5Ye65p2l5piv5Li65LqG6IO955u05o6l5pat6KiA5a6D55qE5oCn6LSo77yJ44CCCmZ1bmMgYmFja2dyb3VuZFBpeGVsKHNwZWMgQmFja2dyb3VuZFNwZWMpIGZ1bmMoeCwgeSwgdywgaCBpbnQpIGNvbG9yLkNvbG9yIHsKCWdyYWluIDo9IGludChzcGVjLkdyYWluKQoJdmlnIDo9IGludChzcGVjLlZpZ25ldHRlKQoJZ2xvdyA6PSBzcGVjLkdsb3cKCWJhc2UgOj0gc3BlYy5CYXNlCglneCwgZ3ksIGdzIDo9IHNwZWMuR2xvd1gsIHNwZWMuR2xvd1ksIHNwZWMuR2xvd1NjYWxlCglpZiBncyA8PSAwIHsKCQlncyA9IDEuMAoJfQoKCXJldHVybiBmdW5jKHgsIHksIHcsIGggaW50KSBjb2xvci5Db2xvciB7CgkJYyA6PSBiYXNlCgkJaWYgZ3JhaW4gPiAwIHsKCQkJLy8g56Gu5a6a5oCn5Lyq6ZqP5py66aKX57KS77yI5ZCM5qC355qE5Z2Q5qCH5rC46L+c5b6X5Yiw5ZCM5qC355qE5YC877yM56qX5Y+j6YeN57uY5LiN5Lya6Zeq77yJ44CCCgkJCS8vIOeUqOS4pOS4quS4jeWQjOWRqOacn+eahOWTiOW4jOWGjeebuOWHj++8jOW+l+WIsOi/keS8vOmbtuWdh+WAvOeahOWZquWjsO+8muaVtOS9k+S4jeWPmOS6ruS5n+S4jeWPmOaal++8jAoJCQkvLyDlj6rlnKjmnoHlsI/nmoTojIPlm7TlhoXotbfkvI8g4oCU4oCUIOi/meWwseaYryLnu4bohbsi6ICM5LiN5pivIuWZqueCuSLnmoTlhbPplK7jgIIKCQkJYSA6PSBoYXNoMih4LCB5KQoJCQliIDo9IGhhc2gyKHg+PjEsIHk+PjEpCgkJCWQgOj0gaW50KGEpIC0gaW50KGIpIC8vIOe6piBbLTI1NSwyNTVdCgkJCWMgPSBzaGFkZShjLCBkKmdyYWluLzUxMikKCQl9CgkJaWYgZ2xvdy5BID4gMCAmJiB3ID4gMCAmJiBoID4gMCB7CgkJCWR4IDo9IChmbG9hdDY0KHgpL2Zsb2F0NjQodykgLSBneCkKCQkJZHkgOj0gKGZsb2F0NjQoeSkvZmxvYXQ2NChoKSAtIGd5KQoJCQlkIDo9IChkeCpkeCArIGR5KmR5KSAvIChncyAqIGdzKQoJCQlpZiBkIDwgMSB7CgkJCQlmIDo9ICgxIC0gZCkgKiAoMSAtIGQpIC8vIOW5s+aWueihsOWHj++8jOi+ueeVjOWkhOiHqueEtua2iOWksQoJCQkJYyA9IG1peChjLCB0b05SR0JBKGdsb3cpLCBmKmZsb2F0NjQoZ2xvdy5BKS8yNTUuMCkKCQkJfQoJCX0KCQlpZiB2aWcgPiAwICYmIHcgPiAwICYmIGggPiAwIHsKCQkJLy8g5Zub5ZGo5Y6L5pqX77ya5Lit5b+DIDDjgIHovrnop5LmnIDlvLrvvIzorqnop4bnur/oh6rnhLbmlLbliLDkuK3pl7TnmoTmo4vnm5jkuIrjgIIKCQkJY3ggOj0gZmxvYXQ2NCh4KS9mbG9hdDY0KHcpKjIgLSAxCgkJCWN5IDo9IGZsb2F0NjQoeSkvZmxvYXQ2NChoKSoyIC0gMQoJCQlkIDo9IGN4KmN4ICsgY3kqY3kgLy8gMO+8iOS4reW/g++8iX4y77yI6L656KeS77yJCgkJCWlmIGQgPiAwLjM1IHsKCQkJCWYgOj0gKGQgLSAwLjM1KSAvIDEuNjUKCQkJCWlmIGYgPiAxIHsKCQkJCQlmID0gMQoJCQkJfQoJCQkJYyA9IG1peChjLCBjb2xvci5OUkdCQXtBOiAweEZGfSwgZipmbG9hdDY0KHZpZykvMjU1LjApCgkJCX0KCQl9CgkJcmV0dXJuIGMKCX0KfQoKLy8gaGFzaDIg5piv5Z2Q5qCHIOKGkiAwLi4yNTUg55qE56Gu5a6a5oCn5ZOI5biM44CCCmZ1bmMgaGFzaDIoeCwgeSBpbnQpIHVpbnQ4IHsKCWggOj0gdWludDMyKHgpKjB4OUUzNzc5QjEgXiB1aW50MzIoeSkqMHg4NUVCQ0E3NwoJaCBePSBoID4+IDE1CgloICo9IDB4MjU0NUY0OTEKCWggXj0gaCA+PiAxMwoJcmV0dXJuIHVpbnQ4KGggPj4gOCkKfQoKLy8gc2hhZGUg5oqK6aKc6Imy5oyJIGRlbHRh77yILTI1NS4uMjU177yJ5pW05L2T5o+Q5Lqu5oiW5Y6L5pqX77yM5L+d5oyBIGFscGhhIOS4jeWPmOOAggpmdW5jIHNoYWRlKGMgY29sb3IuTlJHQkEsIGRlbHRhIGludCkgY29sb3IuTlJHQkEgewoJYWRqIDo9IGZ1bmModiB1aW50OCkgdWludDggewoJCW4gOj0gaW50KHYpICsgZGVsdGEKCQlpZiBuIDwgMCB7CgkJCXJldHVybiAwCgkJfQoJCWlmIG4gPiAyNTUgewoJCQlyZXR1cm4gMjU1CgkJfQoJCXJldHVybiB1aW50OChuKQoJfQoJcmV0dXJuIGNvbG9yLk5SR0JBe1I6IGFkaihjLlIpLCBHOiBhZGooYy5HKSwgQjogYWRqKGMuQiksIEE6IGMuQX0KfQoKLy8gbWl4IOaMieavlOS+iyBm77yIMH4x77yJ5oqKIG92ZXIg5re35YiwIHVuZGVyIOS4iu+8iOagh+WHhiBzb3VyY2Utb3Zlcu+8jOS/neeVmSB1bmRlciDnmoQgYWxwaGHvvInjgIIKZnVuYyBtaXgodW5kZXIsIG92ZXIgY29sb3IuTlJHQkEsIGYgZmxvYXQ2NCkgY29sb3IuTlJHQkEgewoJaWYgZiA8PSAwIHsKCQlyZXR1cm4gdW5kZXIKCX0KCWlmIGYgPiAxIHsKCQlmID0gMQoJfQoJYmxlbmRDaCA6PSBmdW5jKHUsIG8gdWludDgpIHVpbnQ4IHsKCQlyZXR1cm4gdWludDgoZmxvYXQ2NCh1KSooMS1mKSArIGZsb2F0NjQobykqZiArIDAuNSkKCX0KCXJldHVybiBjb2xvci5OUkdCQXsKCQlSOiBibGVuZENoKHVuZGVyLlIsIG92ZXIuUiksCgkJRzogYmxlbmRDaCh1bmRlci5HLCBvdmVyLkcpLAoJCUI6IGJsZW5kQ2godW5kZXIuQiwgb3Zlci5CKSwKCQlBOiB1bmRlci5BLAoJfQp9Cg==
+package ui
+
+import (
+	"image/color"
+
+	"fyne.io/fyne/v2/canvas"
+)
+
+// 本文件生成「主题自带的细腻底纹」：微颗粒 + 一角柔光 + 四周压暗。
+//
+// 为什么不用照片背景：
+//   - 照片会跟棋盘抢注意力，缩放后必然发虚，深色界面上还会出现色偏；
+//   - 程序生成的底纹在任意分辨率/DPI 下都清晰，而且**跟着皮肤走**：
+//     换肤时底色、颗粒强度、柔光色一起变，不用再准备第二张图。
+//
+// 实现用 canvas.NewRasterWithPixels：Fyne 在需要时按实际像素尺寸回调取色，
+// 因此不需要缓存文件，也不需要关心窗口大小（缩放时自动重算）。
+
+// newBackgroundRaster 按底纹参数造一个铺满窗口的底纹图层。
+func newBackgroundRaster(spec BackgroundSpec) *canvas.Raster {
+	r := canvas.NewRasterWithPixels(backgroundPixel(spec))
+	r.ScaleMode = canvas.ImageScaleFastest
+	return r
+}
+
+// backgroundPixel 返回「按像素取色」的函数（单独拿出来是为了能直接断言它的性质）。
+func backgroundPixel(spec BackgroundSpec) func(x, y, w, h int) color.Color {
+	grain := int(spec.Grain)
+	vig := int(spec.Vignette)
+	glow := spec.Glow
+	base := spec.Base
+	gx, gy, gs := spec.GlowX, spec.GlowY, spec.GlowScale
+	if gs <= 0 {
+		gs = 1.0
+	}
+
+	return func(x, y, w, h int) color.Color {
+		c := base
+		if grain > 0 {
+			// 确定性伪随机颗粒（同样的坐标永远得到同样的值，窗口重绘不会闪）。
+			// 用两个不同周期的哈希再相减，得到近似零均值的噪声：整体不变亮也不变暗，
+			// 只在极小的范围内起伏 —— 这就是"细腻"而不是"噪点"的关键。
+			a := hash2(x, y)
+			b := hash2(x>>1, y>>1)
+			d := int(a) - int(b) // 约 [-255,255]
+			c = shade(c, d*grain/512)
+		}
+		if glow.A > 0 && w > 0 && h > 0 {
+			dx := (float64(x)/float64(w) - gx)
+			dy := (float64(y)/float64(h) - gy)
+			d := (dx*dx + dy*dy) / (gs * gs)
+			if d < 1 {
+				f := (1 - d) * (1 - d) // 平方衰减，边界处自然消失
+				c = mix(c, toNRGBA(glow), f*float64(glow.A)/255.0)
+			}
+		}
+		if vig > 0 && w > 0 && h > 0 {
+			// 四周压暗：中心 0、边角最强，让视线自然收到中间的棋盘上。
+			cx := float64(x)/float64(w)*2 - 1
+			cy := float64(y)/float64(h)*2 - 1
+			d := cx*cx + cy*cy // 0（中心）~2（边角）
+			if d > 0.35 {
+				f := (d - 0.35) / 1.65
+				if f > 1 {
+					f = 1
+				}
+				c = mix(c, color.NRGBA{A: 0xFF}, f*float64(vig)/255.0)
+			}
+		}
+		return c
+	}
+}
+
+// hash2 是坐标 → 0..255 的确定性哈希。
+func hash2(x, y int) uint8 {
+	h := uint32(x)*0x9E3779B1 ^ uint32(y)*0x85EBCA77
+	h ^= h >> 15
+	h *= 0x2545F491
+	h ^= h >> 13
+	return uint8(h >> 8)
+}
+
+// shade 把颜色按 delta（-255..255）整体提亮或压暗，保持 alpha 不变。
+func shade(c color.NRGBA, delta int) color.NRGBA {
+	adj := func(v uint8) uint8 {
+		n := int(v) + delta
+		if n < 0 {
+			return 0
+		}
+		if n > 255 {
+			return 255
+		}
+		return uint8(n)
+	}
+	return color.NRGBA{R: adj(c.R), G: adj(c.G), B: adj(c.B), A: c.A}
+}
+
+// mix 按比例 f（0~1）把 over 混到 under 上（标准 source-over，保留 under 的 alpha）。
+func mix(under, over color.NRGBA, f float64) color.NRGBA {
+	if f <= 0 {
+		return under
+	}
+	if f > 1 {
+		f = 1
+	}
+	blendCh := func(u, o uint8) uint8 {
+		return uint8(float64(u)*(1-f) + float64(o)*f + 0.5)
+	}
+	return color.NRGBA{
+		R: blendCh(under.R, over.R),
+		G: blendCh(under.G, over.G),
+		B: blendCh(under.B, over.B),
+		A: under.A,
+	}
+}

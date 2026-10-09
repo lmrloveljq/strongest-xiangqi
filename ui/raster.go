@@ -1,1 +1,272 @@
-cGFja2FnZSB1aQoKaW1wb3J0ICgKCSJpbWFnZSIKCSJpbWFnZS9jb2xvciIKCSJtYXRoIgopCgovLyDmnKzmlofku7blrp7njrDmo4vnm5jnu5jliLbmiYDpnIDnmoTmipfplK/pvb/nn6Lph4/nu5jliLbljp/or63jgIIKLy8KLy8g5Li65LuA5LmI5LiN55SoIGNhbnZhcy5MaW5lIOebtOaOpeaLvOaji+ebmO+8mgovLyAgIC0gY2FudmFzLkxpbmUg55SxIE9wZW5HTCDlhYnmoIXljJbvvIzml6Dms5XmjqfliLbnur/lrr3kuI7nq6/ngrnvvIzmlpznur/vvIjkuZ3lrqvvvInplK/pvb/mmI7mmL7vvJsKLy8gICAtIOeUqCBjYW52YXMuUmFzdGVyIOiHquihjOWFieagheWMluWPr+S7peW+l+WIsOS4juWIhui+qOeOh+aXoOWFs+OAgei+uee8mOW5s+a7keeahOaji+ebmO+8jAovLyAgICAg5bm25LiU5ZyoIEhpRFBJ77yIMTUwJSAvIDIwMCUg57yp5pS+77yJ5LiL5oyJ54mp55CG5YOP57Sg57uY5Yi277yM5LiN5Lya5qih57OK44CCCi8vCi8vIOaJgOacieWOn+ivremDveWfuuS6juOAjOWDj+e0oOimhueblueOh+OAjeWBmiBhbHBoYSDlkIjmiJDvvJoKLy8g6KaG55uW546HID0g6K+l5YOP57Sg6KKr5Zu+5b2i6KaG55uW55qE6Z2i56ev5q+U5L6L77yIMH4x77yJ77yM5YaN5oyJ6KaG55uW546H5re35ZCI6aKc6Imy44CCCgovLyB0b05SR0JBIOaKiuS7u+aEjyBjb2xvci5Db2xvciDlvZLkuIDljJbkuLogY29sb3IuTlJHQkHjgIIKZnVuYyB0b05SR0JBKGMgY29sb3IuQ29sb3IpIGNvbG9yLk5SR0JBIHsKCWlmIGMgPT0gbmlsIHsKCQlyZXR1cm4gY29sb3IuTlJHQkF7fQoJfQoJaWYgbiwgb2sgOj0gYy4oY29sb3IuTlJHQkEpOyBvayB7CgkJcmV0dXJuIG4KCX0KCXIsIGcsIGIsIGEgOj0gYy5SR0JBKCkKCXJldHVybiBjb2xvci5OUkdCQXtSOiB1aW50OChyID4+IDgpLCBHOiB1aW50OChnID4+IDgpLCBCOiB1aW50OChiID4+IDgpLCBBOiB1aW50OChhID4+IDgpfQp9CgpmdW5jIGNsYW1wOCh2IGZsb2F0NjQpIHVpbnQ4IHsKCWlmIHYgPD0gMCB7CgkJcmV0dXJuIDAKCX0KCWlmIHYgPj0gMSB7CgkJcmV0dXJuIDI1NQoJfQoJcmV0dXJuIHVpbnQ4KHYqMjU1ICsgMC41KQp9CgovLyBibGVuZCDmiorpopzoibIgYyDku6Xopobnm5bnjocgY292IOWQiOaIkOWIsCBpbWcg55qEICh4LHkpIOWDj+e0oOS4iu+8iOagh+WHhiBzb3VyY2Utb3Zlcu+8ieOAggpmdW5jIGJsZW5kKGltZyAqaW1hZ2UuUkdCQSwgeCwgeSBpbnQsIGMgY29sb3IuTlJHQkEsIGNvdiBmbG9hdDY0KSB7CglpZiBjb3YgPD0gMCB8fCBjLkEgPT0gMCB7CgkJcmV0dXJuCgl9CglpZiBjb3YgPiAxIHsKCQljb3YgPSAxCgl9CgliIDo9IGltZy5Cb3VuZHMoKQoJaWYgeCA8IGIuTWluLlggfHwgeCA+PSBiLk1heC5YIHx8IHkgPCBiLk1pbi5ZIHx8IHkgPj0gYi5NYXguWSB7CgkJcmV0dXJuCgl9CglzYSA6PSBmbG9hdDY0KGMuQSkgLyAyNTUuMCAqIGNvdgoJaSA6PSBpbWcuUGl4T2Zmc2V0KHgsIHkpCglwIDo9IGltZy5QaXgKCWRhIDo9IGZsb2F0NjQocFtpKzNdKSAvIDI1NS4wCglvYSA6PSBzYSArIGRhKigxLXNhKQoJaWYgb2EgPD0gMCB7CgkJcmV0dXJuCgl9CglzciA6PSBmbG9hdDY0KGMuUikgLyAyNTUuMCAqIHNhCglzZyA6PSBmbG9hdDY0KGMuRykgLyAyNTUuMCAqIHNhCglzYiA6PSBmbG9hdDY0KGMuQikgLyAyNTUuMCAqIHNhCglkciA6PSBmbG9hdDY0KHBbaV0pIC8gMjU1LjAgKiBkYQoJZGcgOj0gZmxvYXQ2NChwW2krMV0pIC8gMjU1LjAgKiBkYQoJZGIgOj0gZmxvYXQ2NChwW2krMl0pIC8gMjU1LjAgKiBkYQoJcFtpXSA9IGNsYW1wOCgoc3IgKyBkciooMS1zYSkpIC8gb2EpCglwW2krMV0gPSBjbGFtcDgoKHNnICsgZGcqKDEtc2EpKSAvIG9hKQoJcFtpKzJdID0gY2xhbXA4KChzYiArIGRiKigxLXNhKSkgLyBvYSkKCXBbaSszXSA9IGNsYW1wOChvYSkKfQoKLy8gb3ZlcmxhcCDov5Tlm57ljLrpl7QgW2EwLGExXSDkuI7lg4/ntKDmoLwgW3AscCsxXSDnmoTph43lj6Dplb/luqbjgIIKZnVuYyBvdmVybGFwKGEwLCBhMSBmbG9hdDY0LCBwIGludCkgZmxvYXQ2NCB7CglsbyA6PSBtYXRoLk1heChhMCwgZmxvYXQ2NChwKSkKCWhpIDo9IG1hdGguTWluKGExLCBmbG9hdDY0KHArMSkpCglpZiBoaSA8PSBsbyB7CgkJcmV0dXJuIDAKCX0KCXJldHVybiBoaSAtIGxvCn0KCi8vIGZpbGxSZWN0IOWhq+WFheefqeW9ou+8iOi9tOWvuem9kO+8jOaMieeyvuehruimhueblueOh+aKl+mUr+m9v++8ieOAggpmdW5jIGZpbGxSZWN0KGltZyAqaW1hZ2UuUkdCQSwgeDAsIHkwLCB4MSwgeTEgZmxvYXQ2NCwgYyBjb2xvci5OUkdCQSkgewoJaWYgYy5BID09IDAgewoJCXJldHVybgoJfQoJaWYgeDEgPCB4MCB7CgkJeDAsIHgxID0geDEsIHgwCgl9CglpZiB5MSA8IHkwIHsKCQl5MCwgeTEgPSB5MSwgeTAKCX0KCWl4MCA6PSBpbnQobWF0aC5GbG9vcih4MCAtIDEpKQoJaXgxIDo9IGludChtYXRoLkNlaWwoeDEgKyAxKSkKCWl5MCA6PSBpbnQobWF0aC5GbG9vcih5MCAtIDEpKQoJaXkxIDo9IGludChtYXRoLkNlaWwoeTEgKyAxKSkKCWZvciB5IDo9IGl5MDsgeSA8PSBpeTE7IHkrKyB7CgkJY3kgOj0gb3ZlcmxhcCh5MCwgeTEsIHkpCgkJaWYgY3kgPD0gMCB7CgkJCWNvbnRpbnVlCgkJfQoJCWZvciB4IDo9IGl4MDsgeCA8PSBpeDE7IHgrKyB7CgkJCWN4IDo9IG92ZXJsYXAoeDAsIHgxLCB4KQoJCQlpZiBjeCA8PSAwIHsKCQkJCWNvbnRpbnVlCgkJCX0KCQkJYmxlbmQoaW1nLCB4LCB5LCBjLCBjeCpjeSkKCQl9Cgl9Cn0KCi8vIHN0cm9rZVJlY3Qg5o+P6L6555+p5b2i77yI6L655qGG5a695bqmIGx377yM5ZCR5YaF57uY5Yi277yJ44CCCmZ1bmMgc3Ryb2tlUmVjdChpbWcgKmltYWdlLlJHQkEsIHgwLCB5MCwgeDEsIHkxLCBsdyBmbG9hdDY0LCBjIGNvbG9yLk5SR0JBKSB7CglpZiBsdyA8PSAwIHsKCQlyZXR1cm4KCX0KCWZpbGxSZWN0KGltZywgeDAsIHkwLCB4MSwgeTArbHcsIGMpCglmaWxsUmVjdChpbWcsIHgwLCB5MS1sdywgeDEsIHkxLCBjKQoJZmlsbFJlY3QoaW1nLCB4MCwgeTArbHcsIHgwK2x3LCB5MS1sdywgYykKCWZpbGxSZWN0KGltZywgeDEtbHcsIHkwK2x3LCB4MSwgeTEtbHcsIGMpCn0KCi8vIGRyYXdMaW5lIOe7mOWItuaKl+mUr+m9v+e6v+aute+8iOS7u+aEj+aWueWQke+8jOWuveW6piB3aWR0aO+8ieOAggpmdW5jIGRyYXdMaW5lKGltZyAqaW1hZ2UuUkdCQSwgeDAsIHkwLCB4MSwgeTEsIHdpZHRoIGZsb2F0NjQsIGMgY29sb3IuTlJHQkEpIHsKCWlmIGMuQSA9PSAwIHx8IHdpZHRoIDw9IDAgewoJCXJldHVybgoJfQoJLy8g6L205a+56b2Q57q/5q616LWw55+p5b2i5b+r6Lev5b6E77yM5pei5pu05b+r5Lmf5pu06ZSQ5YipCglpZiBtYXRoLkFicyh4MC14MSkgPCAxZS02IHsKCQlmaWxsUmVjdChpbWcsIHgwLXdpZHRoLzIsIG1hdGguTWluKHkwLCB5MSksIHgwK3dpZHRoLzIsIG1hdGguTWF4KHkwLCB5MSksIGMpCgkJcmV0dXJuCgl9CglpZiBtYXRoLkFicyh5MC15MSkgPCAxZS02IHsKCQlmaWxsUmVjdChpbWcsIG1hdGguTWluKHgwLCB4MSksIHkwLXdpZHRoLzIsIG1hdGguTWF4KHgwLCB4MSksIHkwK3dpZHRoLzIsIGMpCgkJcmV0dXJuCgl9CglodyA6PSB3aWR0aCAvIDIKCWl4MCA6PSBpbnQobWF0aC5GbG9vcihtYXRoLk1pbih4MCwgeDEpIC0gaHcgLSAxKSkKCWl4MSA6PSBpbnQobWF0aC5DZWlsKG1hdGguTWF4KHgwLCB4MSkgKyBodyArIDEpKQoJaXkwIDo9IGludChtYXRoLkZsb29yKG1hdGguTWluKHkwLCB5MSkgLSBodyAtIDEpKQoJaXkxIDo9IGludChtYXRoLkNlaWwobWF0aC5NYXgoeTAsIHkxKSArIGh3ICsgMSkpCglkeCwgZHkgOj0geDEteDAsIHkxLXkwCglsZW4yIDo9IGR4KmR4ICsgZHkqZHkKCWZvciB5IDo9IGl5MDsgeSA8PSBpeTE7IHkrKyB7CgkJZm9yIHggOj0gaXgwOyB4IDw9IGl4MTsgeCsrIHsKCQkJcHgsIHB5IDo9IGZsb2F0NjQoeCkrMC41LCBmbG9hdDY0KHkpKzAuNQoJCQl0IDo9ICgocHgteDApKmR4ICsgKHB5LXkwKSpkeSkgLyBsZW4yCgkJCWlmIHQgPCAwIHsKCQkJCXQgPSAwCgkJCX0gZWxzZSBpZiB0ID4gMSB7CgkJCQl0ID0gMQoJCQl9CgkJCWV4LCBleSA6PSB4MCt0KmR4LXB4LCB5MCt0KmR5LXB5CgkJCWQgOj0gbWF0aC5TcXJ0KGV4KmV4ICsgZXkqZXkpCgkJCWlmIGNvdiA6PSBodyArIDAuNSAtIGQ7IGNvdiA+IDAgewoJCQkJYmxlbmQoaW1nLCB4LCB5LCBjLCBjb3YpCgkJCX0KCQl9Cgl9Cn0KCi8vIGZpbGxDaXJjbGUg5aGr5YWF5oqX6ZSv6b2/5ZyG44CCCmZ1bmMgZmlsbENpcmNsZShpbWcgKmltYWdlLlJHQkEsIGN4LCBjeSwgciBmbG9hdDY0LCBjIGNvbG9yLk5SR0JBKSB7CglpZiBjLkEgPT0gMCB8fCByIDw9IDAgewoJCXJldHVybgoJfQoJaXgwIDo9IGludChtYXRoLkZsb29yKGN4IC0gciAtIDEpKQoJaXgxIDo9IGludChtYXRoLkNlaWwoY3ggKyByICsgMSkpCglpeTAgOj0gaW50KG1hdGguRmxvb3IoY3kgLSByIC0gMSkpCglpeTEgOj0gaW50KG1hdGguQ2VpbChjeSArIHIgKyAxKSkKCWZvciB5IDo9IGl5MDsgeSA8PSBpeTE7IHkrKyB7CgkJZm9yIHggOj0gaXgwOyB4IDw9IGl4MTsgeCsrIHsKCQkJZHgsIGR5IDo9IGZsb2F0NjQoeCkrMC41LWN4LCBmbG9hdDY0KHkpKzAuNS1jeQoJCQlpZiBjb3YgOj0gciArIDAuNSAtIG1hdGguU3FydChkeCpkeCtkeSpkeSk7IGNvdiA+IDAgewoJCQkJYmxlbmQoaW1nLCB4LCB5LCBjLCBjb3YpCgkJCX0KCQl9Cgl9Cn0KCi8vIHN0cm9rZUNpcmNsZSDmj4/ovrnmipfplK/pvb/lnIbjgIIKZnVuYyBzdHJva2VDaXJjbGUoaW1nICppbWFnZS5SR0JBLCBjeCwgY3ksIHIsIGx3IGZsb2F0NjQsIGMgY29sb3IuTlJHQkEpIHsKCWlmIGMuQSA9PSAwIHx8IHIgPD0gMCB8fCBsdyA8PSAwIHsKCQlyZXR1cm4KCX0KCW91dGVyIDo9IHIgKyBsdy8yCglpeDAgOj0gaW50KG1hdGguRmxvb3IoY3ggLSBvdXRlciAtIDEpKQoJaXgxIDo9IGludChtYXRoLkNlaWwoY3ggKyBvdXRlciArIDEpKQoJaXkwIDo9IGludChtYXRoLkZsb29yKGN5IC0gb3V0ZXIgLSAxKSkKCWl5MSA6PSBpbnQobWF0aC5DZWlsKGN5ICsgb3V0ZXIgKyAxKSkKCWZvciB5IDo9IGl5MDsgeSA8PSBpeTE7IHkrKyB7CgkJZm9yIHggOj0gaXgwOyB4IDw9IGl4MTsgeCsrIHsKCQkJZHgsIGR5IDo9IGZsb2F0NjQoeCkrMC41LWN4LCBmbG9hdDY0KHkpKzAuNS1jeQoJCQlkIDo9IG1hdGguU3FydChkeCpkeCArIGR5KmR5KQoJCQlpZiBjb3YgOj0gbHcvMiArIDAuNSAtIG1hdGguQWJzKGQtcik7IGNvdiA+IDAgewoJCQkJYmxlbmQoaW1nLCB4LCB5LCBjLCBjb3YpCgkJCX0KCQl9Cgl9Cn0KCi8vIGZpbGxSb3VuZFJlY3Qg5aGr5YWF5ZyG6KeS55+p5b2i77yI5Zub6KeS55So5ZyG6KaG55uW546H6L+R5Ly877yM6KeG6KeJ5bmz5ruR77yJ44CCCmZ1bmMgZmlsbFJvdW5kUmVjdChpbWcgKmltYWdlLlJHQkEsIHgwLCB5MCwgeDEsIHkxLCByIGZsb2F0NjQsIGMgY29sb3IuTlJHQkEpIHsKCWlmIGMuQSA9PSAwIHsKCQlyZXR1cm4KCX0KCWlmIHIgPD0gMCB7CgkJZmlsbFJlY3QoaW1nLCB4MCwgeTAsIHgxLCB5MSwgYykKCQlyZXR1cm4KCX0KCWlmIG1heFIgOj0gbWF0aC5NaW4oeDEteDAsIHkxLXkwKSAvIDI7IHIgPiBtYXhSIHsKCQlyID0gbWF4UgoJfQoJZmlsbFJlY3QoaW1nLCB4MCtyLCB5MCwgeDEtciwgeTEsIGMpCglmaWxsUmVjdChpbWcsIHgwLCB5MCtyLCB4MSwgeTEtciwgYykKCWZpbGxDaXJjbGUoaW1nLCB4MCtyLCB5MCtyLCByLCBjKQoJZmlsbENpcmNsZShpbWcsIHgxLXIsIHkwK3IsIHIsIGMpCglmaWxsQ2lyY2xlKGltZywgeDArciwgeTEtciwgciwgYykKCWZpbGxDaXJjbGUoaW1nLCB4MS1yLCB5MS1yLCByLCBjKQp9CgovLyBzdHJva2VSb3VuZFJlY3Qg5o+P6L655ZyG6KeS55+p5b2i44CCCmZ1bmMgc3Ryb2tlUm91bmRSZWN0KGltZyAqaW1hZ2UuUkdCQSwgeDAsIHkwLCB4MSwgeTEsIHIsIGx3IGZsb2F0NjQsIGMgY29sb3IuTlJHQkEpIHsKCWlmIGMuQSA9PSAwIHx8IGx3IDw9IDAgewoJCXJldHVybgoJfQoJaWYgciA8PSAwIHsKCQlzdHJva2VSZWN0KGltZywgeDAsIHkwLCB4MSwgeTEsIGx3LCBjKQoJCXJldHVybgoJfQoJaWYgbWF4UiA6PSBtYXRoLk1pbih4MS14MCwgeTEteTApIC8gMjsgciA+IG1heFIgewoJCXIgPSBtYXhSCgl9CgkvLyDlm5vmnaHnm7TovrkKCWZpbGxSZWN0KGltZywgeDArciwgeTAsIHgxLXIsIHkwK2x3LCBjKQoJZmlsbFJlY3QoaW1nLCB4MCtyLCB5MS1sdywgeDEtciwgeTEsIGMpCglmaWxsUmVjdChpbWcsIHgwLCB5MCtyLCB4MCtsdywgeTEtciwgYykKCWZpbGxSZWN0KGltZywgeDEtbHcsIHkwK3IsIHgxLCB5MS1yLCBjKQoJLy8g5Zub5Liq5ZyG6KeSCglzdHJva2VDaXJjbGVBcmMoaW1nLCB4MCtyLCB5MCtyLCByLCBsdywgYywgbWF0aC5QaSwgbWF0aC5QaSoxLjUpCglzdHJva2VDaXJjbGVBcmMoaW1nLCB4MS1yLCB5MCtyLCByLCBsdywgYywgbWF0aC5QaSoxLjUsIG1hdGguUGkqMikKCXN0cm9rZUNpcmNsZUFyYyhpbWcsIHgxLXIsIHkxLXIsIHIsIGx3LCBjLCAwLCBtYXRoLlBpKjAuNSkKCXN0cm9rZUNpcmNsZUFyYyhpbWcsIHgwK3IsIHkxLXIsIHIsIGx3LCBjLCBtYXRoLlBpKjAuNSwgbWF0aC5QaSkKfQoKLy8gc3Ryb2tlQ2lyY2xlQXJjIOaPj+i+ueWchuW8p++8iOinkuW6puS4uuW8p+W6pu+8jOWxj+W5leWdkOagh+ezuyB5IOWQkeS4i++8ieOAggpmdW5jIHN0cm9rZUNpcmNsZUFyYyhpbWcgKmltYWdlLlJHQkEsIGN4LCBjeSwgciwgbHcgZmxvYXQ2NCwgYyBjb2xvci5OUkdCQSwgYTAsIGExIGZsb2F0NjQpIHsKCW91dGVyIDo9IHIgKyBsdy8yCglpeDAgOj0gaW50KG1hdGguRmxvb3IoY3ggLSBvdXRlciAtIDEpKQoJaXgxIDo9IGludChtYXRoLkNlaWwoY3ggKyBvdXRlciArIDEpKQoJaXkwIDo9IGludChtYXRoLkZsb29yKGN5IC0gb3V0ZXIgLSAxKSkKCWl5MSA6PSBpbnQobWF0aC5DZWlsKGN5ICsgb3V0ZXIgKyAxKSkKCWZvciB5IDo9IGl5MDsgeSA8PSBpeTE7IHkrKyB7CgkJZm9yIHggOj0gaXgwOyB4IDw9IGl4MTsgeCsrIHsKCQkJZHgsIGR5IDo9IGZsb2F0NjQoeCkrMC41LWN4LCBmbG9hdDY0KHkpKzAuNS1jeQoJCQlkIDo9IG1hdGguU3FydChkeCpkeCArIGR5KmR5KQoJCQljb3YgOj0gbHcvMiArIDAuNSAtIG1hdGguQWJzKGQtcikKCQkJaWYgY292IDw9IDAgewoJCQkJY29udGludWUKCQkJfQoJCQlhbmcgOj0gbWF0aC5BdGFuMihkeSwgZHgpCgkJCWlmIGFuZyA8IDAgewoJCQkJYW5nICs9IDIgKiBtYXRoLlBpCgkJCX0KCQkJaWYgYW5nIDwgYTAgfHwgYW5nID4gYTEgewoJCQkJY29udGludWUKCQkJfQoJCQlibGVuZChpbWcsIHgsIHksIGMsIGNvdikKCQl9Cgl9Cn0K
+package ui
+
+import (
+	"image"
+	"image/color"
+	"math"
+)
+
+// 本文件实现棋盘绘制所需的抗锯齿矢量绘制原语。
+//
+// 为什么不用 canvas.Line 直接拼棋盘：
+//   - canvas.Line 由 OpenGL 光栅化，无法控制线宽与端点，斜线（九宫）锯齿明显；
+//   - 用 canvas.Raster 自行光栅化可以得到与分辨率无关、边缘平滑的棋盘，
+//     并且在 HiDPI（150% / 200% 缩放）下按物理像素绘制，不会模糊。
+//
+// 所有原语都基于「像素覆盖率」做 alpha 合成：
+// 覆盖率 = 该像素被图形覆盖的面积比例（0~1），再按覆盖率混合颜色。
+
+// toNRGBA 把任意 color.Color 归一化为 color.NRGBA。
+func toNRGBA(c color.Color) color.NRGBA {
+	if c == nil {
+		return color.NRGBA{}
+	}
+	if n, ok := c.(color.NRGBA); ok {
+		return n
+	}
+	r, g, b, a := c.RGBA()
+	return color.NRGBA{R: uint8(r >> 8), G: uint8(g >> 8), B: uint8(b >> 8), A: uint8(a >> 8)}
+}
+
+func clamp8(v float64) uint8 {
+	if v <= 0 {
+		return 0
+	}
+	if v >= 1 {
+		return 255
+	}
+	return uint8(v*255 + 0.5)
+}
+
+// blend 把颜色 c 以覆盖率 cov 合成到 img 的 (x,y) 像素上（标准 source-over）。
+func blend(img *image.RGBA, x, y int, c color.NRGBA, cov float64) {
+	if cov <= 0 || c.A == 0 {
+		return
+	}
+	if cov > 1 {
+		cov = 1
+	}
+	b := img.Bounds()
+	if x < b.Min.X || x >= b.Max.X || y < b.Min.Y || y >= b.Max.Y {
+		return
+	}
+	sa := float64(c.A) / 255.0 * cov
+	i := img.PixOffset(x, y)
+	p := img.Pix
+	da := float64(p[i+3]) / 255.0
+	oa := sa + da*(1-sa)
+	if oa <= 0 {
+		return
+	}
+	sr := float64(c.R) / 255.0 * sa
+	sg := float64(c.G) / 255.0 * sa
+	sb := float64(c.B) / 255.0 * sa
+	dr := float64(p[i]) / 255.0 * da
+	dg := float64(p[i+1]) / 255.0 * da
+	db := float64(p[i+2]) / 255.0 * da
+	p[i] = clamp8((sr + dr*(1-sa)) / oa)
+	p[i+1] = clamp8((sg + dg*(1-sa)) / oa)
+	p[i+2] = clamp8((sb + db*(1-sa)) / oa)
+	p[i+3] = clamp8(oa)
+}
+
+// overlap 返回区间 [a0,a1] 与像素格 [p,p+1] 的重叠长度。
+func overlap(a0, a1 float64, p int) float64 {
+	lo := math.Max(a0, float64(p))
+	hi := math.Min(a1, float64(p+1))
+	if hi <= lo {
+		return 0
+	}
+	return hi - lo
+}
+
+// fillRect 填充矩形（轴对齐，按精确覆盖率抗锯齿）。
+func fillRect(img *image.RGBA, x0, y0, x1, y1 float64, c color.NRGBA) {
+	if c.A == 0 {
+		return
+	}
+	if x1 < x0 {
+		x0, x1 = x1, x0
+	}
+	if y1 < y0 {
+		y0, y1 = y1, y0
+	}
+	ix0 := int(math.Floor(x0 - 1))
+	ix1 := int(math.Ceil(x1 + 1))
+	iy0 := int(math.Floor(y0 - 1))
+	iy1 := int(math.Ceil(y1 + 1))
+	for y := iy0; y <= iy1; y++ {
+		cy := overlap(y0, y1, y)
+		if cy <= 0 {
+			continue
+		}
+		for x := ix0; x <= ix1; x++ {
+			cx := overlap(x0, x1, x)
+			if cx <= 0 {
+				continue
+			}
+			blend(img, x, y, c, cx*cy)
+		}
+	}
+}
+
+// strokeRect 描边矩形（边框宽度 lw，向内绘制）。
+func strokeRect(img *image.RGBA, x0, y0, x1, y1, lw float64, c color.NRGBA) {
+	if lw <= 0 {
+		return
+	}
+	fillRect(img, x0, y0, x1, y0+lw, c)
+	fillRect(img, x0, y1-lw, x1, y1, c)
+	fillRect(img, x0, y0+lw, x0+lw, y1-lw, c)
+	fillRect(img, x1-lw, y0+lw, x1, y1-lw, c)
+}
+
+// drawLine 绘制抗锯齿线段（任意方向，宽度 width）。
+func drawLine(img *image.RGBA, x0, y0, x1, y1, width float64, c color.NRGBA) {
+	if c.A == 0 || width <= 0 {
+		return
+	}
+	// 轴对齐线段走矩形快路径，既更快也更锐利
+	if math.Abs(x0-x1) < 1e-6 {
+		fillRect(img, x0-width/2, math.Min(y0, y1), x0+width/2, math.Max(y0, y1), c)
+		return
+	}
+	if math.Abs(y0-y1) < 1e-6 {
+		fillRect(img, math.Min(x0, x1), y0-width/2, math.Max(x0, x1), y0+width/2, c)
+		return
+	}
+	hw := width / 2
+	ix0 := int(math.Floor(math.Min(x0, x1) - hw - 1))
+	ix1 := int(math.Ceil(math.Max(x0, x1) + hw + 1))
+	iy0 := int(math.Floor(math.Min(y0, y1) - hw - 1))
+	iy1 := int(math.Ceil(math.Max(y0, y1) + hw + 1))
+	dx, dy := x1-x0, y1-y0
+	len2 := dx*dx + dy*dy
+	for y := iy0; y <= iy1; y++ {
+		for x := ix0; x <= ix1; x++ {
+			px, py := float64(x)+0.5, float64(y)+0.5
+			t := ((px-x0)*dx + (py-y0)*dy) / len2
+			if t < 0 {
+				t = 0
+			} else if t > 1 {
+				t = 1
+			}
+			ex, ey := x0+t*dx-px, y0+t*dy-py
+			d := math.Sqrt(ex*ex + ey*ey)
+			if cov := hw + 0.5 - d; cov > 0 {
+				blend(img, x, y, c, cov)
+			}
+		}
+	}
+}
+
+// fillCircle 填充抗锯齿圆。
+func fillCircle(img *image.RGBA, cx, cy, r float64, c color.NRGBA) {
+	if c.A == 0 || r <= 0 {
+		return
+	}
+	ix0 := int(math.Floor(cx - r - 1))
+	ix1 := int(math.Ceil(cx + r + 1))
+	iy0 := int(math.Floor(cy - r - 1))
+	iy1 := int(math.Ceil(cy + r + 1))
+	for y := iy0; y <= iy1; y++ {
+		for x := ix0; x <= ix1; x++ {
+			dx, dy := float64(x)+0.5-cx, float64(y)+0.5-cy
+			if cov := r + 0.5 - math.Sqrt(dx*dx+dy*dy); cov > 0 {
+				blend(img, x, y, c, cov)
+			}
+		}
+	}
+}
+
+// strokeCircle 描边抗锯齿圆。
+func strokeCircle(img *image.RGBA, cx, cy, r, lw float64, c color.NRGBA) {
+	if c.A == 0 || r <= 0 || lw <= 0 {
+		return
+	}
+	outer := r + lw/2
+	ix0 := int(math.Floor(cx - outer - 1))
+	ix1 := int(math.Ceil(cx + outer + 1))
+	iy0 := int(math.Floor(cy - outer - 1))
+	iy1 := int(math.Ceil(cy + outer + 1))
+	for y := iy0; y <= iy1; y++ {
+		for x := ix0; x <= ix1; x++ {
+			dx, dy := float64(x)+0.5-cx, float64(y)+0.5-cy
+			d := math.Sqrt(dx*dx + dy*dy)
+			if cov := lw/2 + 0.5 - math.Abs(d-r); cov > 0 {
+				blend(img, x, y, c, cov)
+			}
+		}
+	}
+}
+
+// fillRoundRect 填充圆角矩形（四角用圆覆盖率近似，视觉平滑）。
+func fillRoundRect(img *image.RGBA, x0, y0, x1, y1, r float64, c color.NRGBA) {
+	if c.A == 0 {
+		return
+	}
+	if r <= 0 {
+		fillRect(img, x0, y0, x1, y1, c)
+		return
+	}
+	if maxR := math.Min(x1-x0, y1-y0) / 2; r > maxR {
+		r = maxR
+	}
+	fillRect(img, x0+r, y0, x1-r, y1, c)
+	fillRect(img, x0, y0+r, x1, y1-r, c)
+	fillCircle(img, x0+r, y0+r, r, c)
+	fillCircle(img, x1-r, y0+r, r, c)
+	fillCircle(img, x0+r, y1-r, r, c)
+	fillCircle(img, x1-r, y1-r, r, c)
+}
+
+// strokeRoundRect 描边圆角矩形。
+func strokeRoundRect(img *image.RGBA, x0, y0, x1, y1, r, lw float64, c color.NRGBA) {
+	if c.A == 0 || lw <= 0 {
+		return
+	}
+	if r <= 0 {
+		strokeRect(img, x0, y0, x1, y1, lw, c)
+		return
+	}
+	if maxR := math.Min(x1-x0, y1-y0) / 2; r > maxR {
+		r = maxR
+	}
+	// 四条直边
+	fillRect(img, x0+r, y0, x1-r, y0+lw, c)
+	fillRect(img, x0+r, y1-lw, x1-r, y1, c)
+	fillRect(img, x0, y0+r, x0+lw, y1-r, c)
+	fillRect(img, x1-lw, y0+r, x1, y1-r, c)
+	// 四个圆角
+	strokeCircleArc(img, x0+r, y0+r, r, lw, c, math.Pi, math.Pi*1.5)
+	strokeCircleArc(img, x1-r, y0+r, r, lw, c, math.Pi*1.5, math.Pi*2)
+	strokeCircleArc(img, x1-r, y1-r, r, lw, c, 0, math.Pi*0.5)
+	strokeCircleArc(img, x0+r, y1-r, r, lw, c, math.Pi*0.5, math.Pi)
+}
+
+// strokeCircleArc 描边圆弧（角度为弧度，屏幕坐标系 y 向下）。
+func strokeCircleArc(img *image.RGBA, cx, cy, r, lw float64, c color.NRGBA, a0, a1 float64) {
+	outer := r + lw/2
+	ix0 := int(math.Floor(cx - outer - 1))
+	ix1 := int(math.Ceil(cx + outer + 1))
+	iy0 := int(math.Floor(cy - outer - 1))
+	iy1 := int(math.Ceil(cy + outer + 1))
+	for y := iy0; y <= iy1; y++ {
+		for x := ix0; x <= ix1; x++ {
+			dx, dy := float64(x)+0.5-cx, float64(y)+0.5-cy
+			d := math.Sqrt(dx*dx + dy*dy)
+			cov := lw/2 + 0.5 - math.Abs(d-r)
+			if cov <= 0 {
+				continue
+			}
+			ang := math.Atan2(dy, dx)
+			if ang < 0 {
+				ang += 2 * math.Pi
+			}
+			if ang < a0 || ang > a1 {
+				continue
+			}
+			blend(img, x, y, c, cov)
+		}
+	}
+}

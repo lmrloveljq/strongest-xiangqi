@@ -1,1 +1,124 @@
-cGFja2FnZSBhbmFseXRpY3MKCmltcG9ydCAoCgkibWF0aCIKCSJ0ZXN0aW5nIgopCgovLyBUZXN0V2luUmF0ZUZvcm11bGEg5qCh6aqM6ZyA5rGC5oyH5a6a55qE6IOc546H5YWs5byP77yaCi8vCi8vCXdpbnJhdGUlID0gNTAgKyA1MCooMi8oMStleHAoLTAuMDAzNjgyMDgqY3ApKSAtIDEpCmZ1bmMgVGVzdFdpblJhdGVGb3JtdWxhKHQgKnRlc3RpbmcuVCkgewoJY2FzZXMgOj0gW11zdHJ1Y3QgewoJCWNwICAgZmxvYXQ2NAoJCXdhbnQgZmxvYXQ2NAoJfXsKCQl7MCwgNTB9LAoJCXsxMDAsIDUwICsgNTAqKDIvKDErbWF0aC5FeHAoLTAuMDAzNjgyMDgqMTAwKSktMSl9LAoJCXstMTAwLCA1MCArIDUwKigyLygxK21hdGguRXhwKDAuMDAzNjgyMDgqMTAwKSktMSl9LAoJCXs1MDAsIDUwICsgNTAqKDIvKDErbWF0aC5FeHAoLTAuMDAzNjgyMDgqNTAwKSktMSl9LAoJfQoJZm9yIF8sIGMgOj0gcmFuZ2UgY2FzZXMgewoJCWdvdCA6PSBXaW5SYXRlKGMuY3ApCgkJaWYgbWF0aC5BYnMoZ290LWMud2FudCkgPiAxZS05IHsKCQkJdC5FcnJvcmYoIldpblJhdGUoJS4wZikgPSAlLjZm77yM5pyf5pybICUuNmYiLCBjLmNwLCBnb3QsIGMud2FudCkKCQl9Cgl9CgkvLyDljZXosIPmgKfkuI7lgLzln58KCWlmIFdpblJhdGUoLTEwMDAwMCkgPCAwIHx8IFdpblJhdGUoMTAwMDAwKSA+IDEwMCB7CgkJdC5FcnJvcigi6IOc546H6LaF5Ye6IDB+MTAwIOWAvOWfnyIpCgl9CglpZiAhKFdpblJhdGUoLTMwMCkgPCA1MCAmJiBXaW5SYXRlKDMwMCkgPiA1MCkgewoJCXQuRXJyb3IoIuiDnOeOh+S4jea7oei2s+WNleiwg+aApyIpCgl9CgkvLyDpnIDmsYLpqozmlLbngrnvvJrnuqLmlrnlpJrkuIDou4rnmoTlhbjlnovliIblgLzvvIjnuqYgKzkwMCDljpjlhbXvvInog5znjoflupTov5zpq5jkuo4gNzAlCglpZiBXaW5SYXRlKDkwMCkgPD0gNzAgewoJCXQuRXJyb3JmKCIrOTAwIOWOmOWFteeahOiDnOeOhyA9ICUuMmYlJe+8jOW6lCA+IDcwJSUiLCBXaW5SYXRlKDkwMCkpCgl9CglpZiBXaW5SYXRlKC05MDApID49IDMwIHsKCQl0LkVycm9yZigiLTkwMCDljpjlhbXnmoTog5znjocgPSAlLjJmJSXvvIzlupQgPCAzMCUlIiwgV2luUmF0ZSgtOTAwKSkKCX0KfQoKLy8gVGVzdFJlZFdpblJhdGVQZXJzcGVjdGl2ZSDmoKHpqozjgIzotbDlrZDmlrnop4bop5LjgI3liLDjgIznuqLmlrnop4bop5LjgI3nmoTmjaLnrpfjgIIKZnVuYyBUZXN0UmVkV2luUmF0ZVBlcnNwZWN0aXZlKHQgKnRlc3RpbmcuVCkgewoJcmVkR29vZCA6PSBTY29yZXtDUDogNTAwLCBWYWxpZDogdHJ1ZX0KCWlmIGdvdCA6PSBSZWRXaW5SYXRlKHJlZEdvb2QsIDApOyBnb3QgPD0gNzAgewoJCXQuRXJyb3JmKCLnuqLmlrnotbDlrZDkuJQgKzUwMCDml7bnuqLmlrnog5znjocgPSAlLjJmJSXvvIzlupQgPiA3MCUlIiwgZ290KQoJfQoJLy8g5ZCM5LiA5YiG5YC86Iul55Sx6buR5pa56LWw5a2Q57uZ5Ye677yM5YiZ5a+557qi5pa56ICM6KiA5piv5Yqj5Yq/CglpZiBnb3QgOj0gUmVkV2luUmF0ZShyZWRHb29kLCAxKTsgZ290ID49IDMwIHsKCQl0LkVycm9yZigi6buR5pa56LWw5a2Q5LiUICs1MDAg5pe257qi5pa56IOc546HID0gJS4yZiUl77yM5bqUIDwgMzAlJSIsIGdvdCkKCX0KCS8vIOWwhuatu+WIhuWAvOebtOaOpeWPliAxMDAgLyAwCglpZiBnb3QgOj0gUmVkV2luUmF0ZShTY29yZXtNYXRlOiB0cnVlLCBOOiAzLCBWYWxpZDogdHJ1ZX0sIDApOyBnb3QgIT0gMTAwIHsKCQl0LkVycm9yZigi57qi5pa5IDMg5q2l5bCG5q275pe257qi5pa56IOc546HID0gJS4xZiUl77yM5bqU5Li6IDEwMCUlIiwgZ290KQoJfQoJaWYgZ290IDo9IFJlZFdpblJhdGUoU2NvcmV7TWF0ZTogdHJ1ZSwgTjogLTMsIFZhbGlkOiB0cnVlfSwgMCk7IGdvdCAhPSAwIHsKCQl0LkVycm9yZigi57qi5pa56KKr5p2A5pe257qi5pa56IOc546HID0gJS4xZiUl77yM5bqU5Li6IDAlJSIsIGdvdCkKCX0KfQoKLy8gVGVzdFNvZnRtYXhTdW1JczEwMCDmoKHpqozmuKnluqYgc29mdG1heCDnmoTmpoLnjoflkozmgZLkuLogMTAwJe+8iOmcgOaxgumqjOaUtueCue+8muivr+W3riA8IDEl77yJ44CCCmZ1bmMgVGVzdFNvZnRtYXhTdW1JczEwMCh0ICp0ZXN0aW5nLlQpIHsKCXNjb3JlcyA6PSBbXWZsb2F0NjR7MzUsIDIwLCAxMCwgNSwgMCwgLTEwLCAtMzAsIC02MH0KCWZvciBfLCB0ZW1wIDo9IHJhbmdlIFtdZmxvYXQ2NHs0MCwgMTIwLCAzMDB9IHsKCQlwIDo9IFNvZnRtYXgoc2NvcmVzLCB0ZW1wKQoJCXN1bSA6PSAwLjAKCQlmb3IgXywgdiA6PSByYW5nZSBwIHsKCQkJc3VtICs9IHYKCQl9CgkJaWYgbWF0aC5BYnMoc3VtLTEwMCkgPiAwLjAwMSB7CgkJCXQuRXJyb3JmKCJUPSUuMGYg5pe25qaC546H5ZKMID0gJS42ZiUl77yM6K+v5beu6LaF6L+HIDAuMDAxJSUiLCB0ZW1wLCBzdW0pCgkJfQoJCWlmIGxlbihwKSAhPSBsZW4oc2NvcmVzKSB7CgkJCXQuRXJyb3JmKCJUPSUuMGYg5pe26L+U5Zue5p2h5pWwID0gJWTvvIzmnJ/mnJsgJWQiLCB0ZW1wLCBsZW4ocCksIGxlbihzY29yZXMpKQoJCX0KCX0KfQoKLy8gVGVzdFRlbXBlcmF0dXJlQ2hhbmdlc0Rpc3RyaWJ1dGlvbiDmoKHpqowgVD00MCDkuI4gVD0xMjAg55qE5qaC546H5YiG5biD5piO5pi+5LiN5ZCM77yMCi8vIOS4lCBUIOi2iuWwj+WIhuW4g+i2iumbhuS4re+8iOacgOS8mOedgOazleamgueOh+abtOWkp++8ieOAggpmdW5jIFRlc3RUZW1wZXJhdHVyZUNoYW5nZXNEaXN0cmlidXRpb24odCAqdGVzdGluZy5UKSB7CglzY29yZXMgOj0gW11mbG9hdDY0ezM1LCAyMCwgMTAsIDUsIDAsIC0xMCwgLTMwLCAtNjB9CglwNDAgOj0gU29mdG1heChzY29yZXMsIDQwKQoJcDEyMCA6PSBTb2Z0bWF4KHNjb3JlcywgMTIwKQoJaWYgbWF0aC5BYnMocDQwWzBdLXAxMjBbMF0pIDwgMC4wMSB7CgkJdC5FcnJvcmYoIlQ9NDAg5LiOIFQ9MTIwIOeahOmmluS9jeamgueOh+WHoOS5juebuOWQjO+8iCUuNGYgdnMgJS40Zu+8ie+8jOa4qeW6puacqueUn+aViCIsIHA0MFswXSwgcDEyMFswXSkKCX0KCWlmIHA0MFswXSA8PSBwMTIwWzBdIHsKCQl0LkVycm9yZigiVCDotorlsI/mnIDkvJjnnYDms5XmpoLnjoflupTotorlpKfvvJpUPTQwIOKGkiAlLjRmJSXvvIxUPTEyMCDihpIgJS40ZiUlIiwgcDQwWzBdLCBwMTIwWzBdKQoJfQoJLy8g5beu5YC85bqU4oCc5piO5pi+4oCd77ya6aaW5L2N5qaC546H5beu6Iez5bCRIDEg5Liq55m+5YiG54K5CglpZiBwNDBbMF0tcDEyMFswXSA8IDEuMCB7CgkJdC5FcnJvcmYoIua4qeW6puWvueWIhuW4g+W9seWTjei/h+Wwj++8mlQ9NDAg4oaSICUuNGYlJe+8jFQ9MTIwIOKGkiAlLjRmJSUiLCBwNDBbMF0sIHAxMjBbMF0pCgl9Cn0KCi8vIFRlc3RTb2Z0bWF4TWF0ZURvbWluYXRlcyDmoKHpqozlsIbmrbvlgJnpgInlh6DkuY7ni6zljaDmpoLnjofjgIIKZnVuYyBUZXN0U29mdG1heE1hdGVEb21pbmF0ZXModCAqdGVzdGluZy5UKSB7Cgl2YWx1ZXMgOj0gW11mbG9hdDY0ewoJCVNjb3Jle01hdGU6IHRydWUsIE46IDMsIFZhbGlkOiB0cnVlfS5WYWx1ZSgpLAoJCVNjb3Jle0NQOiAxMDAsIFZhbGlkOiB0cnVlfS5WYWx1ZSgpLAoJCVNjb3Jle0NQOiAtNTAsIFZhbGlkOiB0cnVlfS5WYWx1ZSgpLAoJfQoJcCA6PSBTb2Z0bWF4KHZhbHVlcywgMTIwKQoJaWYgcFswXSA8IDk5LjkgewoJCXQuRXJyb3JmKCLlsIbmrbvlgJnpgInmpoLnjocgPSAlLjRmJSXvvIzlupTmjqXov5EgMTAwJSUiLCBwWzBdKQoJfQp9CgovLyBUZXN0U29mdG1heERlZ2VuZXJhdGUg5qCh6aqM56m66L6T5YWl5LiO6Zu25rip5bqm55qE5YGl5aOu5oCn44CCCmZ1bmMgVGVzdFNvZnRtYXhEZWdlbmVyYXRlKHQgKnRlc3RpbmcuVCkgewoJaWYgZ290IDo9IFNvZnRtYXgobmlsLCAxMjApOyBsZW4oZ290KSAhPSAwIHsKCQl0LkVycm9yZigi56m66L6T5YWl5bqU6L+U5Zue56m65YiH54mH77yM5a6e6ZmFICV2IiwgZ290KQoJfQoJcCA6PSBTb2Z0bWF4KFtdZmxvYXQ2NHsxLCAyLCAzfSwgMCkKCXN1bSA6PSAwLjAKCWZvciBfLCB2IDo9IHJhbmdlIHAgewoJCXN1bSArPSB2Cgl9CglpZiBtYXRoLkFicyhzdW0tMTAwKSA+IDAuMDAxIHsKCQl0LkVycm9yZigiVD0wIOaXtuW6lOWbnumAgOWIsOm7mOiupOa4qeW6puW5tuS9v+amgueOh+WSjOS4uiAxMDAlJe+8jOWunumZhSAlLjRmIiwgc3VtKQoJfQp9Cg==
+package analytics
+
+import (
+	"math"
+	"testing"
+)
+
+// TestWinRateFormula 校验需求指定的胜率公式：
+//
+//	winrate% = 50 + 50*(2/(1+exp(-0.00368208*cp)) - 1)
+func TestWinRateFormula(t *testing.T) {
+	cases := []struct {
+		cp   float64
+		want float64
+	}{
+		{0, 50},
+		{100, 50 + 50*(2/(1+math.Exp(-0.00368208*100))-1)},
+		{-100, 50 + 50*(2/(1+math.Exp(0.00368208*100))-1)},
+		{500, 50 + 50*(2/(1+math.Exp(-0.00368208*500))-1)},
+	}
+	for _, c := range cases {
+		got := WinRate(c.cp)
+		if math.Abs(got-c.want) > 1e-9 {
+			t.Errorf("WinRate(%.0f) = %.6f，期望 %.6f", c.cp, got, c.want)
+		}
+	}
+	// 单调性与值域
+	if WinRate(-100000) < 0 || WinRate(100000) > 100 {
+		t.Error("胜率超出 0~100 值域")
+	}
+	if !(WinRate(-300) < 50 && WinRate(300) > 50) {
+		t.Error("胜率不满足单调性")
+	}
+	// 需求验收点：红方多一車的典型分值（约 +900 厘兵）胜率应远高于 70%
+	if WinRate(900) <= 70 {
+		t.Errorf("+900 厘兵的胜率 = %.2f%%，应 > 70%%", WinRate(900))
+	}
+	if WinRate(-900) >= 30 {
+		t.Errorf("-900 厘兵的胜率 = %.2f%%，应 < 30%%", WinRate(-900))
+	}
+}
+
+// TestRedWinRatePerspective 校验「走子方视角」到「红方视角」的换算。
+func TestRedWinRatePerspective(t *testing.T) {
+	redGood := Score{CP: 500, Valid: true}
+	if got := RedWinRate(redGood, 0); got <= 70 {
+		t.Errorf("红方走子且 +500 时红方胜率 = %.2f%%，应 > 70%%", got)
+	}
+	// 同一分值若由黑方走子给出，则对红方而言是劣势
+	if got := RedWinRate(redGood, 1); got >= 30 {
+		t.Errorf("黑方走子且 +500 时红方胜率 = %.2f%%，应 < 30%%", got)
+	}
+	// 将死分值直接取 100 / 0
+	if got := RedWinRate(Score{Mate: true, N: 3, Valid: true}, 0); got != 100 {
+		t.Errorf("红方 3 步将死时红方胜率 = %.1f%%，应为 100%%", got)
+	}
+	if got := RedWinRate(Score{Mate: true, N: -3, Valid: true}, 0); got != 0 {
+		t.Errorf("红方被杀时红方胜率 = %.1f%%，应为 0%%", got)
+	}
+}
+
+// TestSoftmaxSumIs100 校验温度 softmax 的概率和恒为 100%（需求验收点：误差 < 1%）。
+func TestSoftmaxSumIs100(t *testing.T) {
+	scores := []float64{35, 20, 10, 5, 0, -10, -30, -60}
+	for _, temp := range []float64{40, 120, 300} {
+		p := Softmax(scores, temp)
+		sum := 0.0
+		for _, v := range p {
+			sum += v
+		}
+		if math.Abs(sum-100) > 0.001 {
+			t.Errorf("T=%.0f 时概率和 = %.6f%%，误差超过 0.001%%", temp, sum)
+		}
+		if len(p) != len(scores) {
+			t.Errorf("T=%.0f 时返回条数 = %d，期望 %d", temp, len(p), len(scores))
+		}
+	}
+}
+
+// TestTemperatureChangesDistribution 校验 T=40 与 T=120 的概率分布明显不同，
+// 且 T 越小分布越集中（最优着法概率更大）。
+func TestTemperatureChangesDistribution(t *testing.T) {
+	scores := []float64{35, 20, 10, 5, 0, -10, -30, -60}
+	p40 := Softmax(scores, 40)
+	p120 := Softmax(scores, 120)
+	if math.Abs(p40[0]-p120[0]) < 0.01 {
+		t.Errorf("T=40 与 T=120 的首位概率几乎相同（%.4f vs %.4f），温度未生效", p40[0], p120[0])
+	}
+	if p40[0] <= p120[0] {
+		t.Errorf("T 越小最优着法概率应越大：T=40 → %.4f%%，T=120 → %.4f%%", p40[0], p120[0])
+	}
+	// 差值应“明显”：首位概率差至少 1 个百分点
+	if p40[0]-p120[0] < 1.0 {
+		t.Errorf("温度对分布影响过小：T=40 → %.4f%%，T=120 → %.4f%%", p40[0], p120[0])
+	}
+}
+
+// TestSoftmaxMateDominates 校验将死候选几乎独占概率。
+func TestSoftmaxMateDominates(t *testing.T) {
+	values := []float64{
+		Score{Mate: true, N: 3, Valid: true}.Value(),
+		Score{CP: 100, Valid: true}.Value(),
+		Score{CP: -50, Valid: true}.Value(),
+	}
+	p := Softmax(values, 120)
+	if p[0] < 99.9 {
+		t.Errorf("将死候选概率 = %.4f%%，应接近 100%%", p[0])
+	}
+}
+
+// TestSoftmaxDegenerate 校验空输入与零温度的健壮性。
+func TestSoftmaxDegenerate(t *testing.T) {
+	if got := Softmax(nil, 120); len(got) != 0 {
+		t.Errorf("空输入应返回空切片，实际 %v", got)
+	}
+	p := Softmax([]float64{1, 2, 3}, 0)
+	sum := 0.0
+	for _, v := range p {
+		sum += v
+	}
+	if math.Abs(sum-100) > 0.001 {
+		t.Errorf("T=0 时应回退到默认温度并使概率和为 100%%，实际 %.4f", sum)
+	}
+}

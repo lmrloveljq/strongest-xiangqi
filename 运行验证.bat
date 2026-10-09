@@ -1,1 +1,18 @@
-QGVjaG8gb2ZmDQpjaGNwIDY1MDAxID5udWwNCnJlbSA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09DQpyZW0gIFhpYW5ncWkgdjEuMy4xICAtLSAgb25lLWNsaWNrIHNvdXJjZSB2ZXJpZmljYXRpb24gbGF1bmNoZXINCnJlbQ0KcmVtICBUaGlzIGxhdW5jaGVyIGlzIGludGVudGlvbmFsbHkgUFVSRSBBU0NJSS4NCnJlbSAgY21kLmV4ZSByZS1vcGVucyBhIGJhdGNoIGZpbGUgYnkgTkFNRSBmb3IgZXZlcnkgYnVmZmVyZWQgcmVhZDsgd2hlbiB0aGUNCnJlbSAgZmlsZSBuYW1lIGNvbnRhaW5zIG5vbi1BU0NJSSBjaGFyYWN0ZXJzIHRoYXQgcmUtb3BlbiBsb3NlcyB0aGUgYnl0ZQ0KcmVtICBvZmZzZXQsIGFuZCBDaGluZXNlIGxpbmVzIGdldCB0cnVuY2F0ZWQgLyBoYWxmLWxpbmVzIHdvdWxkIGJlIHJ1biBhcw0KcmVtICBjb21tYW5kcyAocmVwcm9kdWNlZCBvbiB0aGlzIG1hY2hpbmUpLiBTbyB0aGUgQ2hpbmVzZSBVSSB0ZXh0IGxpdmVzIGluDQpyZW0gIHRvb2xzXHJ1bi12ZXJpZnkuY21kLCB3aG9zZSBmaWxlIG5hbWUgaXMgQVNDSUkuDQpyZW0gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KDQpzZXRsb2NhbA0KY2hjcCA2NTAwMSA+bnVsDQpjYWxsICIlfmRwMHRvb2xzXHJ1bi12ZXJpZnkuY21kIiAlKg0Kc2V0ICJSQz0lRVJST1JMRVZFTCUiDQplbmRsb2NhbCAmIGV4aXQgL2IgJVJDJQ==
+@echo off
+chcp 65001 >nul
+rem ============================================================================
+rem  Xiangqi v1.3.1  --  one-click source verification launcher
+rem
+rem  This launcher is intentionally PURE ASCII.
+rem  cmd.exe re-opens a batch file by NAME for every buffered read; when the
+rem  file name contains non-ASCII characters that re-open loses the byte
+rem  offset, and Chinese lines get truncated / half-lines would be run as
+rem  commands (reproduced on this machine). So the Chinese UI text lives in
+rem  tools\run-verify.cmd, whose file name is ASCII.
+rem ============================================================================
+
+setlocal
+chcp 65001 >nul
+call "%~dp0tools\run-verify.cmd" %*
+set "RC=%ERRORLEVEL%"
+endlocal & exit /b %RC%

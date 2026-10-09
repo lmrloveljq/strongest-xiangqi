@@ -1,1 +1,252 @@
-Ly8gUGFja2FnZSBub3RhdGlvbiDotJ/otKMgVUNJIOWdkOagh+edgOazlSA8LT4g5Lit5paH6K6w6LCx55qE5Y+M5ZCR6L2s5o2i44CCCi8vCi8vIOS4reaWh+iusOiwseinhOWIme+8iOacrOWMheWunueOsOeahOWtkOmbhu+8jOimhuebluWunuaImOS4juW8leaTjui+k+WHuuaJgOmcgOeahOWFqOmDqOaDheW9ou+8ie+8mgovLwovLwnorrDosLHmoLzlvI/vvJpb5YmN5ZCO5LitXeaji+WtkOWQjSArIOWKqOS9nCArIOebruaghyAgIOaIliAgIOaji+WtkOWQjSArIOe6tee6v+WPtyArIOWKqOS9nCArIOebruaghwovLwovLwnnurXnur/lj7fvvJrnuqLmlrnku6XmsYnlrZfjgIzkuIDjgI0uLuOAjOS5neOAjeiHque6ouaWueWPs+S+p+WQkeW3puaVsO+8iOe6ouaWueinhuinkiBhIOe6v+S4uuS5neOAgWkg57q/5Li65LiA77yJ77ybCi8vCSAgICAgICAg6buR5pa55Lul6Zi/5ouJ5Lyv5pWw5a2XIDEuLjkg6Ieq6buR5pa55Y+z5L6n5ZCR5bem5pWw77yI6buR5pa56KeG6KeSIGEg57q/5Li6IDHjgIFpIOe6v+S4uiA577yJ44CCCi8vCeWKqOS9nO+8miAg5bmz77yI5ZCM6KGM6LWw5a2Q77yJ44CB6L+b77yI5ZCR5a+55pa55bqV57q/5pa55ZCR77yJ44CB6YCA77yI5ZCR6Ieq5bex5bqV57q/5pa55ZCR77yJ44CCCi8vCeebruagh++8miAg6LuKL+eCri/lhbUv5Y2SL+W4hS/lsIYg55So44CM56e75Yqo55qE5q2l5pWw44CN77yb6aasL+ebuC/osaEv5LuVL+WjqyDnlKjjgIznm67moIfnurXnur/lj7fjgI3jgIIKLy8J5ZCM5LiA57q157q/5LiK5pyJ5Lik5p6a5ZCM5YW156eN5qOL5a2Q5pe277yM55So44CM5YmNIC8g5ZCO44CN5Luj5pu/57q157q/5Y+377yIMyDmnprml7bkuK3pl7TpgqPmnprnlKjjgIzkuK3jgI3vvIwKLy8J5pu05aSa5p6a5pe25L6d5qyh55SoIOWJjeOAgeS6jOOAgeS4ieOAgeKApuOAgeWQju+8jOS4jumAmuihjOaji+iwseWGmeazleS4gOiHtO+8ieOAggovLwovLyDkvovvvJpoMmUyIOKGkiDngq7kuozlubPkupTvvIjnuqLngq7ku44gaDIg5bmz5YiwIGUy77yJ77ybYjBjMiDihpIg6aas5YWr6L+b5LiD44CCCnBhY2thZ2Ugbm90YXRpb24KCmltcG9ydCAoCgkiZm10IgoJInN0cmNvbnYiCgkic3RyaW5ncyIKCgkieGlhbmdxaS9ydWxlcyIKKQoKLy8g57qi5pa55rGJ5a2X5pWw5a2X77yI5LiALi7kuZ3vvIkKdmFyIHJlZE51bWVyYWxzID0gWy4uLl1zdHJpbmd7IuS4gCIsICLkuowiLCAi5LiJIiwgIuWbmyIsICLkupQiLCAi5YWtIiwgIuS4gyIsICLlhasiLCAi5LmdIn0KCi8vIG51bSDmioogMS4uOSDnmoTmlbDlrZfmjInpmLXokKXovazmiJDorrDosLHnlKjlrZfjgIIKZnVuYyBudW0oc2lkZSwgbiBpbnQpIHN0cmluZyB7CglpZiBuIDwgMSB8fCBuID4gOSB7CgkJcmV0dXJuIHN0cmNvbnYuSXRvYShuKQoJfQoJaWYgc2lkZSA9PSBydWxlcy5SZWQgewoJCXJldHVybiByZWROdW1lcmFsc1tuLTFdCgl9CglyZXR1cm4gc3RyY29udi5JdG9hKG4pCn0KCi8vIGZpbGVOdW1iZXIg5oqK5YaF6YOo5paH5Lu25Y+377yIMC4uOO+8jGE9MO+8iei9rOaIkOivpeaWueeahOe6tee6v+WPt++8iDEuLjnvvInjgIIKLy8KLy8J57qi5pa577ya57q157q/5Y+3ID0gOSAtIGZpbGUgICDvvIjnuqLmlrnlj7PkvqcgaSDnur8gPSDkuIDvvIkKLy8J6buR5pa577ya57q157q/5Y+3ID0gZmlsZSArIDEgICDvvIjpu5Hmlrnlj7PkvqcgYSDnur8gPSAx77yJCmZ1bmMgZmlsZU51bWJlcihzaWRlLCBmaWxlIGludCkgaW50IHsKCWlmIHNpZGUgPT0gcnVsZXMuUmVkIHsKCQlyZXR1cm4gOSAtIGZpbGUKCX0KCXJldHVybiBmaWxlICsgMQp9CgovLyBVQ0lUb01vdmUg6Kej5p6QIDQg5a2X56ymIFVDSSDlnZDmoIfnnYDms5XvvIjlpoIgImgyZTIi77yJ44CC5aSn5bCP5YaZ5LiN5pWP5oSf44CCCmZ1bmMgVUNJVG9Nb3ZlKHMgc3RyaW5nKSAocnVsZXMuTW92ZSwgYm9vbCkgewoJcyA9IHN0cmluZ3MuVHJpbVNwYWNlKHN0cmluZ3MuVG9Mb3dlcihzKSkKCWlmIGxlbihzKSAhPSA0IHsKCQlyZXR1cm4gcnVsZXMuTW92ZXt9LCBmYWxzZQoJfQoJZjEgOj0gaW50KHNbMF0gLSAnYScpCglyMSA6PSBpbnQoc1sxXSAtICcwJykKCWYyIDo9IGludChzWzJdIC0gJ2EnKQoJcjIgOj0gaW50KHNbM10gLSAnMCcpCglpZiAhcnVsZXMuT25Cb2FyZChmMSwgcjEpIHx8ICFydWxlcy5PbkJvYXJkKGYyLCByMikgewoJCXJldHVybiBydWxlcy5Nb3Zle30sIGZhbHNlCgl9CglyZXR1cm4gcnVsZXMuTmV3TW92ZShydWxlcy5JbmRleChmMSwgcjEpLCBydWxlcy5JbmRleChmMiwgcjIpKSwgdHJ1ZQp9CgovLyBNb3ZlVG9VQ0kg5oqK552A5rOV6L2s5oiQIDQg5a2X56ymIFVDSSDlnZDmoIflrZfnrKbkuLLjgIIKZnVuYyBNb3ZlVG9VQ0kobSBydWxlcy5Nb3ZlKSBzdHJpbmcgeyByZXR1cm4gbS5TdHJpbmcoKSB9CgovLyBJc1VDSU1vdmUg5Yik5pat5a2X56ym5Liy5piv5ZCm5piv5ZCI5rOV55qEIDQg5a2X56ymIFVDSSDlnZDmoIfnnYDms5XjgIIKZnVuYyBJc1VDSU1vdmUocyBzdHJpbmcpIGJvb2wgewoJXywgb2sgOj0gVUNJVG9Nb3ZlKHMpCglyZXR1cm4gb2sKfQoKLy8gcG9zaXRpb25OYW1lcyDov5Tlm57lkIzkuIDnurXnur/kuIrjgIHmjInjgIzliY3ihpLlkI7jgI3mjpLluo/nmoTlkIzlhbXnp43mo4vlrZDmiYDlnKjmoLzjgIIKLy8KLy8g57qi5pa555qE44CM5YmN44CNPSDooYzlj7fmm7TlpKfogIXvvIjmm7TpnaDov5Hpu5HmlrnlupXnur/vvInvvJvpu5HmlrnnmoTjgIzliY3jgI09IOihjOWPt+abtOWwj+iAheOAggpmdW5jIHBvc2l0aW9uTmFtZXMoYiAqcnVsZXMuQm9hcmQsIHAgcnVsZXMuUGllY2UsIGZpbGUgaW50KSBbXWludCB7Cgl2YXIgc3FzIFtdaW50Cglmb3IgciA6PSAwOyByIDwgcnVsZXMuUmFua3M7IHIrKyB7CgkJc3EgOj0gcnVsZXMuSW5kZXgoZmlsZSwgcikKCQlpZiBiLlNxW3NxXSA9PSBwIHsKCQkJc3FzID0gYXBwZW5kKHNxcywgc3EpCgkJfQoJfQoJLy8g5o+S5YWl5o6S5bqP77ya57qi5pa55oyJ6KGM5Y+36ZmN5bqP77yI5YmN5Zyo5YmN77yJ77yM6buR5pa55oyJ6KGM5Y+35Y2H5bqPCglmb3IgaSA6PSAxOyBpIDwgbGVuKHNxcyk7IGkrKyB7CgkJZm9yIGogOj0gaTsgaiA+IDA7IGotLSB7CgkJCXJqLCByajEgOj0gcnVsZXMuUmFua09mKHNxc1tqXSksIHJ1bGVzLlJhbmtPZihzcXNbai0xXSkKCQkJbGVzcyA6PSBmYWxzZQoJCQlpZiBwLlNpZGUoKSA9PSBydWxlcy5SZWQgewoJCQkJbGVzcyA9IHJqID4gcmoxCgkJCX0gZWxzZSB7CgkJCQlsZXNzID0gcmogPCByajEKCQkJfQoJCQlpZiBsZXNzIHsKCQkJCXNxc1tqXSwgc3FzW2otMV0gPSBzcXNbai0xXSwgc3FzW2pdCgkJCX0gZWxzZSB7CgkJCQlicmVhawoJCQl9CgkJfQoJfQoJcmV0dXJuIHNxcwp9CgovLyBvcmRpbmFsUHJlZml4IOi/lOWbnuesrCBpZHgg5p6a77yIMCDotbfvvIzlt7LmjInliY3ihpLlkI7mjpLluo/vvInmo4vlrZDnmoTliY3nvIDjgIIKZnVuYyBvcmRpbmFsUHJlZml4KHNpZGUsIGlkeCwgdG90YWwgaW50KSBzdHJpbmcgewoJc3dpdGNoIHsKCWNhc2UgdG90YWwgPT0gMjoKCQlpZiBpZHggPT0gMCB7CgkJCXJldHVybiAi5YmNIgoJCX0KCQlyZXR1cm4gIuWQjiIKCWNhc2UgdG90YWwgPT0gMzoKCQlzd2l0Y2ggaWR4IHsKCQljYXNlIDA6CgkJCXJldHVybiAi5YmNIgoJCWNhc2UgMToKCQkJcmV0dXJuICLkuK0iCgkJZGVmYXVsdDoKCQkJcmV0dXJuICLlkI4iCgkJfQoJZGVmYXVsdDoKCQlpZiBpZHggPT0gMCB7CgkJCXJldHVybiAi5YmNIgoJCX0KCQlpZiBpZHggPT0gdG90YWwtMSB7CgkJCXJldHVybiAi5ZCOIgoJCX0KCQlyZXR1cm4gbnVtKHNpZGUsIGlkeCsxKQoJfQp9CgovLyBUb0NoaW5lc2Ug5oqK552A5rOV6L2s5oiQ5Lit5paH6K6w6LCx44CCYiDlv4XpobvmmK8qKui1sOivpeedgOazleS5i+WJjSoq55qE5bGA6Z2i44CCCi8vCi8vIOiLpeaXoOazleivhuWIq+i1t+eCueaji+WtkO+8iOS+i+WmguepuuebmOaIluWdkOagh+i2iueVjO+8ie+8jOWbnumAgOS4uiBVQ0kg5a2X56ym5Liy77yM5L+d6K+B55WM6Z2i5rC45LiN5bSp5rqD44CCCmZ1bmMgVG9DaGluZXNlKGIgKnJ1bGVzLkJvYXJkLCBtIHJ1bGVzLk1vdmUpIHN0cmluZyB7CglpZiBiID09IG5pbCB8fCBtLkZyb20gPCAwIHx8IG0uRnJvbSA+PSBydWxlcy5TcXVhcmVzIHx8IG0uVG8gPCAwIHx8IG0uVG8gPj0gcnVsZXMuU3F1YXJlcyB7CgkJcmV0dXJuIG0uU3RyaW5nKCkKCX0KCXAgOj0gYi5TcVttLkZyb21dCglpZiBwLklzRW1wdHkoKSB7CgkJcmV0dXJuIG0uU3RyaW5nKCkKCX0KCXNpZGUgOj0gcC5TaWRlKCkKCW5hbWUgOj0gcC5OYW1lKCkKCWZmLCBmciA6PSBydWxlcy5GaWxlT2YobS5Gcm9tKSwgcnVsZXMuUmFua09mKG0uRnJvbSkKCXRmLCB0ciA6PSBydWxlcy5GaWxlT2YobS5UbyksIHJ1bGVzLlJhbmtPZihtLlRvKQoKCS8vIDEpIOe6tee6v+mDqOWIhu+8muWQjOe6v+WQjOWFteenjeWkmuS6juS4gOaemuaXtueUqCDliY0v5ZCOL+S4re+8jOWQpuWImeeUqOe6tee6v+WPtwoJc2FtZSA6PSBwb3NpdGlvbk5hbWVzKGIsIHAsIGZmKQoJaGVhZCA6PSAiIgoJaWYgbGVuKHNhbWUpID4gMSB7CgkJaWR4IDo9IDAKCQlmb3IgaSwgc3EgOj0gcmFuZ2Ugc2FtZSB7CgkJCWlmIHNxID09IG0uRnJvbSB7CgkJCQlpZHggPSBpCgkJCQlicmVhawoJCQl9CgkJfQoJCWhlYWQgPSBvcmRpbmFsUHJlZml4KHNpZGUsIGlkeCwgbGVuKHNhbWUpKSArIG5hbWUKCX0gZWxzZSB7CgkJaGVhZCA9IG5hbWUgKyBudW0oc2lkZSwgZmlsZU51bWJlcihzaWRlLCBmZikpCgl9CgoJLy8gMikg5Yqo5L2c5LiO55uu5qCHCglpZiB0ciA9PSBmciB7CgkJcmV0dXJuIGhlYWQgKyAi5bmzIiArIG51bShzaWRlLCBmaWxlTnVtYmVyKHNpZGUsIHRmKSkKCX0KCWFkdmFuY2luZyA6PSAoc2lkZSA9PSBydWxlcy5SZWQgJiYgdHIgPiBmcikgfHwgKHNpZGUgPT0gcnVsZXMuQmxhY2sgJiYgdHIgPCBmcikKCWFjdGlvbiA6PSAi6YCAIgoJaWYgYWR2YW5jaW5nIHsKCQlhY3Rpb24gPSAi6L+bIgoJfQoJc3dpdGNoIHAuVHlwZSgpIHsKCWNhc2UgcnVsZXMuUEhvcnNlLCBydWxlcy5QRWxlcGhhbnQsIHJ1bGVzLlBBZHZpc29yOgoJCS8vIOaWnOihjOaji+WtkOeUqOebruagh+e6tee6v+WPtwoJCXJldHVybiBoZWFkICsgYWN0aW9uICsgbnVtKHNpZGUsIGZpbGVOdW1iZXIoc2lkZSwgdGYpKQoJZGVmYXVsdDoKCQkvLyDnm7TooYzmo4vlrZDnlKjnp7vliqjmraXmlbAKCQlkIDo9IHRyIC0gZnIKCQlpZiBkIDwgMCB7CgkJCWQgPSAtZAoJCX0KCQlyZXR1cm4gaGVhZCArIGFjdGlvbiArIG51bShzaWRlLCBkKQoJfQp9CgovLyBGb3JtYXRNb3ZlIOi/lOWbnuOAjOS4reaWh+iusOiwse+8iFVDSe+8ieOAjeW9ouW8j++8jOWmgiAi54Ku5LqM5bmz5LqUKGgyZTIpIuOAggpmdW5jIEZvcm1hdE1vdmUoYiAqcnVsZXMuQm9hcmQsIG0gcnVsZXMuTW92ZSkgc3RyaW5nIHsKCXJldHVybiBmbXQuU3ByaW50ZigiJXMoJXMpIiwgVG9DaGluZXNlKGIsIG0pLCBtLlN0cmluZygpKQp9CgovLyBQYXJzZU1vdmVMaXN0IOS7juS4gOauteaWh+acrOS4reaPkOWPluWFqOmDqCBVQ0kg552A5rOV44CCCi8vCi8vIOWFvOWuueeUqOaIt+S7juesrOS4ieaWuei9r+S7tuWkjeWItuadpeeahOWkmuenjeagvOW8j++8mgovLwovLwkiaDJlMiBoOWc3IGMzYzQiCi8vCSIxLiBoMmUyIGg5ZzcgMi4gYzNjNCIKLy8JInBvc2l0aW9uIHN0YXJ0cG9zIG1vdmVzIGgyZTIgaDlnNyIKLy8J5o2i6KGM44CB6YCX5Y+344CB6aG/5Y+344CB5YiG5Y+35YiG6ZqU5Z2H5Y+v44CCCi8vCi8vIOi/lOWbnuaIkOWKn+ino+aekOeahOedgOazleS4juaXoOazleivhuWIq+eahOiusOWPt++8iOS+m+eVjOmdouaPkOekuu+8ieOAggpmdW5jIFBhcnNlTW92ZUxpc3QodGV4dCBzdHJpbmcpIChbXXJ1bGVzLk1vdmUsIFtdc3RyaW5nKSB7Cgl0ZXh0ID0gc3RyaW5ncy5SZXBsYWNlQWxsKHRleHQsICJcciIsICIgIikKCXRleHQgPSBzdHJpbmdzLlJlcGxhY2VBbGwodGV4dCwgIlxuIiwgIiAiKQoJdGV4dCA9IHN0cmluZ3MuUmVwbGFjZUFsbCh0ZXh0LCAiXHQiLCAiICIpCglmb3IgXywgc2VwIDo9IHJhbmdlIFtdc3RyaW5neyIsIiwgIu+8jCIsICLjgIEiLCAiOyIsICLvvJsiLCAifCJ9IHsKCQl0ZXh0ID0gc3RyaW5ncy5SZXBsYWNlQWxsKHRleHQsIHNlcCwgIiAiKQoJfQoJLy8g5Y675o6JICJwb3NpdGlvbiBzdGFydHBvcyBtb3ZlcyIgLyAicG9zaXRpb24gZmVuIC4uLiBtb3ZlcyIg5LmL57G755qE5YmN57yACglmaWVsZHMgOj0gc3RyaW5ncy5GaWVsZHModGV4dCkKCXN0YXJ0IDo9IDAKCWZvciBpLCBmIDo9IHJhbmdlIGZpZWxkcyB7CgkJbGYgOj0gc3RyaW5ncy5Ub0xvd2VyKGYpCgkJaWYgbGYgPT0gIm1vdmVzIiB7CgkJCXN0YXJ0ID0gaSArIDEKCQkJYnJlYWsKCQl9Cgl9Cgl2YXIgbW92ZXMgW11ydWxlcy5Nb3ZlCgl2YXIgc2tpcHBlZCBbXXN0cmluZwoJZm9yIF8sIGYgOj0gcmFuZ2UgZmllbGRzW3N0YXJ0Ol0gewoJCXRvayA6PSBzdHJpbmdzLlRyaW1TcGFjZShmKQoJCS8vIOi3s+i/h+edgOazleW6j+WPt++8jOWmgiAiMS4iICIxLi4uIiAiMTIiICIxKSIKCQl0cmltbWVkIDo9IHN0cmluZ3MuVHJpbSh0b2ssICIuIikKCQlpZiB0cmltbWVkID09ICIiIHsKCQkJY29udGludWUKCQl9CgkJaWYgXywgZXJyIDo9IHN0cmNvbnYuQXRvaSh0cmltbWVkKTsgZXJyID09IG5pbCB7CgkJCWNvbnRpbnVlCgkJfQoJCWlmIG0sIG9rIDo9IFVDSVRvTW92ZSh0b2spOyBvayB7CgkJCW1vdmVzID0gYXBwZW5kKG1vdmVzLCBtKQoJCQljb250aW51ZQoJCX0KCQlza2lwcGVkID0gYXBwZW5kKHNraXBwZWQsIHRvaykKCX0KCXJldHVybiBtb3Zlcywgc2tpcHBlZAp9CgovLyBNb3ZlTGlzdFRvVUNJIOaKiuedgOazleW6j+WIl+aLvOaIkOepuuagvOWIhumalOeahCBVQ0kg5Liy44CCCmZ1bmMgTW92ZUxpc3RUb1VDSShtb3ZlcyBbXXJ1bGVzLk1vdmUpIHN0cmluZyB7CglwYXJ0cyA6PSBtYWtlKFtdc3RyaW5nLCAwLCBsZW4obW92ZXMpKQoJZm9yIF8sIG0gOj0gcmFuZ2UgbW92ZXMgewoJCXBhcnRzID0gYXBwZW5kKHBhcnRzLCBtLlN0cmluZygpKQoJfQoJcmV0dXJuIHN0cmluZ3MuSm9pbihwYXJ0cywgIiAiKQp9CgovLyBQaWVjZUNoYXIg6L+U5Zue5qOL5a2Q55qE5Y2V5a2X5ZCN77yI55So5LqO5qOL55uY57uY5Yi277yJ44CCCmZ1bmMgUGllY2VDaGFyKHAgcnVsZXMuUGllY2UpIHN0cmluZyB7IHJldHVybiBwLk5hbWUoKSB9Cg==
+// Package notation 负责 UCI 坐标着法 <-> 中文记谱的双向转换。
+//
+// 中文记谱规则（本包实现的子集，覆盖实战与引擎输出所需的全部情形）：
+//
+//	记谱格式：[前后中]棋子名 + 动作 + 目标   或   棋子名 + 纵线号 + 动作 + 目标
+//
+//	纵线号：红方以汉字「一」..「九」自红方右侧向左数（红方视角 a 线为九、i 线为一）；
+//	        黑方以阿拉伯数字 1..9 自黑方右侧向左数（黑方视角 a 线为 1、i 线为 9）。
+//	动作：  平（同行走子）、进（向对方底线方向）、退（向自己底线方向）。
+//	目标：  車/炮/兵/卒/帅/将 用「移动的步数」；馬/相/象/仕/士 用「目标纵线号」。
+//	同一纵线上有两枚同兵种棋子时，用「前 / 后」代替纵线号（3 枚时中间那枚用「中」，
+//	更多枚时依次用 前、二、三、…、后，与通行棋谱写法一致）。
+//
+// 例：h2e2 → 炮二平五（红炮从 h2 平到 e2）；b0c2 → 馬八进七。
+package notation
+
+import (
+	"fmt"
+	"strconv"
+	"strings"
+
+	"xiangqi/rules"
+)
+
+// 红方汉字数字（一..九）
+var redNumerals = [...]string{"一", "二", "三", "四", "五", "六", "七", "八", "九"}
+
+// num 把 1..9 的数字按阵营转成记谱用字。
+func num(side, n int) string {
+	if n < 1 || n > 9 {
+		return strconv.Itoa(n)
+	}
+	if side == rules.Red {
+		return redNumerals[n-1]
+	}
+	return strconv.Itoa(n)
+}
+
+// fileNumber 把内部文件号（0..8，a=0）转成该方的纵线号（1..9）。
+//
+//	红方：纵线号 = 9 - file   （红方右侧 i 线 = 一）
+//	黑方：纵线号 = file + 1   （黑方右侧 a 线 = 1）
+func fileNumber(side, file int) int {
+	if side == rules.Red {
+		return 9 - file
+	}
+	return file + 1
+}
+
+// UCIToMove 解析 4 字符 UCI 坐标着法（如 "h2e2"）。大小写不敏感。
+func UCIToMove(s string) (rules.Move, bool) {
+	s = strings.TrimSpace(strings.ToLower(s))
+	if len(s) != 4 {
+		return rules.Move{}, false
+	}
+	f1 := int(s[0] - 'a')
+	r1 := int(s[1] - '0')
+	f2 := int(s[2] - 'a')
+	r2 := int(s[3] - '0')
+	if !rules.OnBoard(f1, r1) || !rules.OnBoard(f2, r2) {
+		return rules.Move{}, false
+	}
+	return rules.NewMove(rules.Index(f1, r1), rules.Index(f2, r2)), true
+}
+
+// MoveToUCI 把着法转成 4 字符 UCI 坐标字符串。
+func MoveToUCI(m rules.Move) string { return m.String() }
+
+// IsUCIMove 判断字符串是否是合法的 4 字符 UCI 坐标着法。
+func IsUCIMove(s string) bool {
+	_, ok := UCIToMove(s)
+	return ok
+}
+
+// positionNames 返回同一纵线上、按「前→后」排序的同兵种棋子所在格。
+//
+// 红方的「前」= 行号更大者（更靠近黑方底线）；黑方的「前」= 行号更小者。
+func positionNames(b *rules.Board, p rules.Piece, file int) []int {
+	var sqs []int
+	for r := 0; r < rules.Ranks; r++ {
+		sq := rules.Index(file, r)
+		if b.Sq[sq] == p {
+			sqs = append(sqs, sq)
+		}
+	}
+	// 插入排序：红方按行号降序（前在前），黑方按行号升序
+	for i := 1; i < len(sqs); i++ {
+		for j := i; j > 0; j-- {
+			rj, rj1 := rules.RankOf(sqs[j]), rules.RankOf(sqs[j-1])
+			less := false
+			if p.Side() == rules.Red {
+				less = rj > rj1
+			} else {
+				less = rj < rj1
+			}
+			if less {
+				sqs[j], sqs[j-1] = sqs[j-1], sqs[j]
+			} else {
+				break
+			}
+		}
+	}
+	return sqs
+}
+
+// ordinalPrefix 返回第 idx 枚（0 起，已按前→后排序）棋子的前缀。
+func ordinalPrefix(side, idx, total int) string {
+	switch {
+	case total == 2:
+		if idx == 0 {
+			return "前"
+		}
+		return "后"
+	case total == 3:
+		switch idx {
+		case 0:
+			return "前"
+		case 1:
+			return "中"
+		default:
+			return "后"
+		}
+	default:
+		if idx == 0 {
+			return "前"
+		}
+		if idx == total-1 {
+			return "后"
+		}
+		return num(side, idx+1)
+	}
+}
+
+// ToChinese 把着法转成中文记谱。b 必须是**走该着法之前**的局面。
+//
+// 若无法识别起点棋子（例如空盘或坐标越界），回退为 UCI 字符串，保证界面永不崩溃。
+func ToChinese(b *rules.Board, m rules.Move) string {
+	if b == nil || m.From < 0 || m.From >= rules.Squares || m.To < 0 || m.To >= rules.Squares {
+		return m.String()
+	}
+	p := b.Sq[m.From]
+	if p.IsEmpty() {
+		return m.String()
+	}
+	side := p.Side()
+	name := p.Name()
+	ff, fr := rules.FileOf(m.From), rules.RankOf(m.From)
+	tf, tr := rules.FileOf(m.To), rules.RankOf(m.To)
+
+	// 1) 纵线部分：同线同兵种多于一枚时用 前/后/中，否则用纵线号
+	same := positionNames(b, p, ff)
+	head := ""
+	if len(same) > 1 {
+		idx := 0
+		for i, sq := range same {
+			if sq == m.From {
+				idx = i
+				break
+			}
+		}
+		head = ordinalPrefix(side, idx, len(same)) + name
+	} else {
+		head = name + num(side, fileNumber(side, ff))
+	}
+
+	// 2) 动作与目标
+	if tr == fr {
+		return head + "平" + num(side, fileNumber(side, tf))
+	}
+	advancing := (side == rules.Red && tr > fr) || (side == rules.Black && tr < fr)
+	action := "退"
+	if advancing {
+		action = "进"
+	}
+	switch p.Type() {
+	case rules.PHorse, rules.PElephant, rules.PAdvisor:
+		// 斜行棋子用目标纵线号
+		return head + action + num(side, fileNumber(side, tf))
+	default:
+		// 直行棋子用移动步数
+		d := tr - fr
+		if d < 0 {
+			d = -d
+		}
+		return head + action + num(side, d)
+	}
+}
+
+// FormatMove 返回「中文记谱（UCI）」形式，如 "炮二平五(h2e2)"。
+func FormatMove(b *rules.Board, m rules.Move) string {
+	return fmt.Sprintf("%s(%s)", ToChinese(b, m), m.String())
+}
+
+// ParseMoveList 从一段文本中提取全部 UCI 着法。
+//
+// 兼容用户从第三方软件复制来的多种格式：
+//
+//	"h2e2 h9g7 c3c4"
+//	"1. h2e2 h9g7 2. c3c4"
+//	"position startpos moves h2e2 h9g7"
+//	换行、逗号、顿号、分号分隔均可。
+//
+// 返回成功解析的着法与无法识别的记号（供界面提示）。
+func ParseMoveList(text string) ([]rules.Move, []string) {
+	text = strings.ReplaceAll(text, "\r", " ")
+	text = strings.ReplaceAll(text, "\n", " ")
+	text = strings.ReplaceAll(text, "\t", " ")
+	for _, sep := range []string{",", "，", "、", ";", "；", "|"} {
+		text = strings.ReplaceAll(text, sep, " ")
+	}
+	// 去掉 "position startpos moves" / "position fen ... moves" 之类的前缀
+	fields := strings.Fields(text)
+	start := 0
+	for i, f := range fields {
+		lf := strings.ToLower(f)
+		if lf == "moves" {
+			start = i + 1
+			break
+		}
+	}
+	var moves []rules.Move
+	var skipped []string
+	for _, f := range fields[start:] {
+		tok := strings.TrimSpace(f)
+		// 跳过着法序号，如 "1." "1..." "12" "1)"
+		trimmed := strings.Trim(tok, ".")
+		if trimmed == "" {
+			continue
+		}
+		if _, err := strconv.Atoi(trimmed); err == nil {
+			continue
+		}
+		if m, ok := UCIToMove(tok); ok {
+			moves = append(moves, m)
+			continue
+		}
+		skipped = append(skipped, tok)
+	}
+	return moves, skipped
+}
+
+// MoveListToUCI 把着法序列拼成空格分隔的 UCI 串。
+func MoveListToUCI(moves []rules.Move) string {
+	parts := make([]string, 0, len(moves))
+	for _, m := range moves {
+		parts = append(parts, m.String())
+	}
+	return strings.Join(parts, " ")
+}
+
+// PieceChar 返回棋子的单字名（用于棋盘绘制）。
+func PieceChar(p rules.Piece) string { return p.Name() }

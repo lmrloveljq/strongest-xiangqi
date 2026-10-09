@@ -1,1 +1,471 @@
-cGFja2FnZSB1aQoKaW1wb3J0ICgKCSJpbWFnZSIKCSJtYXRoIgoJInN5bmMiCgoJImZ5bmUuaW8vZnluZS92MiIKCSJmeW5lLmlvL2Z5bmUvdjIvY2FudmFzIgoJImZ5bmUuaW8vZnluZS92Mi93aWRnZXQiCikKCi8vIEN1cnZlUG9pbnQg5piv6IOc546H5puy57q/5LiK55qE5LiA5Liq5pWw5o2u54K544CCCnR5cGUgQ3VydmVQb2ludCBzdHJ1Y3QgewoJUGx5IGludCAgICAgLy8g56ys5Yeg5q2l77yIMCA9IOW8gOWni+WxgOmdou+8iQoJUmVkIGZsb2F0NjQgLy8g57qi5pa56IOc546HIDB+MTAwCn0KCi8vIEN1cnZlIOaYr+OAjOe6oum7keWPjOe6v+OAjeiDnOeOh+absue6v+aOp+S7tu+8iENhbnZhcyDoh6rnu5jvvInjgIIKLy8KLy8gWCDovbQgPSDmraXmlbDvvIxZIOi9tCA9IOiDnOeOhyAwfjEwMCXvvJoKLy8gICAtIOe6oue6vyA9IOe6ouaWueiDnOeOhwovLyAgIC0gdjEuNSDotbfmjInnlKjmiLfopoHmsYIqKuWPqueUu+e6oue6vyoq77yI6buR5pa56IOc546H5pivIDEwMC3nuqLmlrnvvIzlsZ7kuo7lkIzkuIDkv6Hmga/nmoTplZzlg4/vvIkKLy8KLy8g5byV5pOO5oCd6ICD5Lit5Lya5pi+56S65LiA5Liq6aKE6KeI54K577yI56m65b+D5ZyG77yJ77yM6YeN5byA5oiW5riF56m65ZCO5puy57q/5b2S6Zu244CCCnR5cGUgQ3VydmUgc3RydWN0IHsKCXdpZGdldC5CYXNlV2lkZ2V0CgoJbXUgICAgICAgICBzeW5jLk11dGV4CglwdHMgICAgICAgIFtdQ3VydmVQb2ludAoJcHJldmlldyAgICBmbG9hdDY0CgloYXNQcmV2aWV3IGJvb2wKCW1hcmtlclBseSAgaW50CgloYXNNYXJrZXIgIGJvb2wKCXRpdGxlICAgICAgc3RyaW5nCgltaW5IICAgICAgIGZsb2F0MzIgLy8g5pyA5bCP6auY5bqm77yIMCA9IOeUqOm7mOiupCBzeig4OCnvvInvvIznlLHosIPnlKjmlrnmjInniYjpnaLpnIDopoHorr7nva4KCXZlciAgICAgICAgdWludDY0ICAvLyDmlbDmja7niYjmnKzlj7fvvJrmuLLmn5Plmajmja7mraTlhrPlrprmmK/lkKbpnIDopoHph43mlrDlhYnmoIXljJbkvY3lm74KCglyZW5kICpjdXJ2ZVJlbmRlcmVyCn0KCi8vIGJ1bXBMb2NrZWQg6YCS5aKe5pWw5o2u54mI5pys5Y+377yI6LCD55So5pa56ZyA5oyB5pyJIGMubXXvvInjgIIKZnVuYyAoYyAqQ3VydmUpIGJ1bXBMb2NrZWQoKSB7IGMudmVyKysgfQoKLy8gTmV3Q3VydmUg5Yib5bu65puy57q/5o6n5Lu244CCCmZ1bmMgTmV3Q3VydmUodGl0bGUgc3RyaW5nKSAqQ3VydmUgewoJYyA6PSAmQ3VydmV7dGl0bGU6IHRpdGxlLCBtYXJrZXJQbHk6IC0xfQoJYy5FeHRlbmRCYXNlV2lkZ2V0KGMpCglyZXR1cm4gYwp9CgovLyBTZXRQb2ludHMg5pW05L2T5pu/5o2i5puy57q/5pWw5o2u44CCCmZ1bmMgKGMgKkN1cnZlKSBTZXRQb2ludHMocHRzIFtdQ3VydmVQb2ludCkgewoJYy5tdS5Mb2NrKCkKCWMucHRzID0gYXBwZW5kKFtdQ3VydmVQb2ludChuaWwpLCBwdHMuLi4pCgljLmJ1bXBMb2NrZWQoKQoJYy5tdS5VbmxvY2soKQoJYy5SZWZyZXNoKCkKfQoKLy8gQWRkUG9pbnQg6L+95Yqg5LiA5Liq5pWw5o2u54K577yI5ZCM5LiA5q2l5pWw6YeN5aSN5re75Yqg5Lya6KaG55uW77yJ44CCCmZ1bmMgKGMgKkN1cnZlKSBBZGRQb2ludChwbHkgaW50LCByZWQgZmxvYXQ2NCkgewoJaWYgbWF0aC5Jc05hTihyZWQpIHsKCQlyZXR1cm4KCX0KCWlmIHJlZCA8IDAgewoJCXJlZCA9IDAKCX0KCWlmIHJlZCA+IDEwMCB7CgkJcmVkID0gMTAwCgl9CgljLm11LkxvY2soKQoJLy8g44CQ57y66Zm35L+u5aSN44CR5oqK44CM5LiK5LiA5Liq54K5IOKGkiDlvZPliY3ngrnjgI3kuYvpl7TnmoTnnYDmlbDmjInkuIrkuIDkuKrlgLzooaXpvZDvvJoKCS8vIOW8leaTjuWFs+aOiS/msqHliIbmnpDnmoTpgqPkupvnnYDmlbDljp/mnKzkuIDkuKrngrnpg73msqHmnInvvIxYIOi9tOmdoOi/keWOn+eCueeahOS4gOWNiuWwseaVtOeJh+epuueZvQoJLy/vvIjnlKjmiLflrp7mtYvvvJrliY3ljYHlh6DmraXlnYflir/ml7bmm7Lnur/ku4DkuYjpg73kuI3mmL7npLrvvIznnIvnnYDlg48i5YGP5Y+zIu+8ieOAggoJLy8g6KGl6b2Q55So55qE5pivKirkuIrkuIDkuKrlt7Lnn6XlgLwqKu+8iOS/oeaBr+ayoeWPmOWMluWwseS/neaMgeawtOW5s+e6v++8ie+8jOS4jeaYr+e8lumAoOaWsOaVsOaNruOAggoJaWYgbGVuKGMucHRzKSA+IDAgewoJCWxhc3QgOj0gYy5wdHNbbGVuKGMucHRzKS0xXQoJCWZvciBwIDo9IGxhc3QuUGx5ICsgMTsgcCA8IHBseTsgcCsrIHsKCQkJYy5wdHMgPSBhcHBlbmQoYy5wdHMsIEN1cnZlUG9pbnR7UGx5OiBwLCBSZWQ6IGxhc3QuUmVkfSkKCQl9Cgl9IGVsc2UgaWYgcGx5ID4gMCB7CgkJLy8g56ys5LiA5Liq54K55pys6Lqr5bCx6JC95Zyo5Lit5ZCO55uY77yI5L6L5aaC57KY6LS05LiA5q61552A5rOV5bqP5YiX5ZCO5Y+q5YiG5p6Q5LqG5pyA5paw5bGA6Z2i77yJ5pe277yMCgkJLy8g5LuO5byA5bGA6LW355So6L+Z5Liq5YC86ZO65LiA5p2h5rC05bmz57q/77yM5ZCm5YiZIFgg6L206Z2g6L+R5Y6f54K555qE5LiA5Y2K5rC46L+c5piv56m655qE44CCCgkJZm9yIHAgOj0gMDsgcCA8IHBseTsgcCsrIHsKCQkJYy5wdHMgPSBhcHBlbmQoYy5wdHMsIEN1cnZlUG9pbnR7UGx5OiBwLCBSZWQ6IHJlZH0pCgkJfQoJfQoJcmVwbGFjZWQgOj0gZmFsc2UKCWZvciBpIDo9IHJhbmdlIGMucHRzIHsKCQlpZiBjLnB0c1tpXS5QbHkgPT0gcGx5IHsKCQkJYy5wdHNbaV0uUmVkID0gcmVkCgkJCXJlcGxhY2VkID0gdHJ1ZQoJCQlicmVhawoJCX0KCX0KCWlmICFyZXBsYWNlZCB7CgkJYy5wdHMgPSBhcHBlbmQoYy5wdHMsIEN1cnZlUG9pbnR7UGx5OiBwbHksIFJlZDogcmVkfSkKCX0KCWMuaGFzUHJldmlldyA9IGZhbHNlCgljLmJ1bXBMb2NrZWQoKQoJYy5tdS5VbmxvY2soKQoJYy5SZWZyZXNoKCkKfQoKLy8gU2V0UHJldmlldyDorr7nva7lvJXmk47mgJ3ogIPkuK3nmoTpooTop4jngrnjgIIKZnVuYyAoYyAqQ3VydmUpIFNldFByZXZpZXcocmVkIGZsb2F0NjQsIGhhcyBib29sKSB7CgljLm11LkxvY2soKQoJYy5wcmV2aWV3LCBjLmhhc1ByZXZpZXcgPSByZWQsIGhhcwoJYy5idW1wTG9ja2VkKCkKCWMubXUuVW5sb2NrKCkKCWMuUmVmcmVzaCgpCn0KCi8vIFNldE1hcmtlciDorr7nva7jgIzlvZPliY3mn6XnnIvmraXmlbDjgI3nmoTnq5bnur/moIforrDvvIjngrnlh7vnnYDms5XliJfooajml7bkvb/nlKjvvInjgIIKZnVuYyAoYyAqQ3VydmUpIFNldE1hcmtlcihwbHkgaW50LCBoYXMgYm9vbCkgewoJYy5tdS5Mb2NrKCkKCWMubWFya2VyUGx5LCBjLmhhc01hcmtlciA9IHBseSwgaGFzCgljLmJ1bXBMb2NrZWQoKQoJYy5tdS5VbmxvY2soKQoJYy5SZWZyZXNoKCkKfQoKLy8gQ2xlYXIg5riF56m65puy57q/44CCCmZ1bmMgKGMgKkN1cnZlKSBDbGVhcigpIHsKCWMubXUuTG9jaygpCgljLnB0cyA9IG5pbAoJYy5oYXNQcmV2aWV3ID0gZmFsc2UKCWMuaGFzTWFya2VyID0gZmFsc2UKCWMuYnVtcExvY2tlZCgpCgljLm11LlVubG9jaygpCgljLlJlZnJlc2goKQp9CgovLyDmlbDmja7niYjmnKzlj7fvvJrkuIrpnaLmr4/kuKrkv67mlLnmlbDmja7nmoTmlrnms5Xpg73kvJrosIPnlKggYnVtcExvY2tlZO+8jAovLyDmuLLmn5Plmajmja7mraTliKTmlq3mmK/lkKbpnIDopoHph43mlrDlhYnmoIXljJbkvY3lm77vvIjlkKbliJnmr4/mrKHnlYzpnaLph43nu5jpg73opoHph43nlLvmlbTlvKDlm77vvInjgIIKZnVuYyAoYyAqQ3VydmUpIHZlcnNpb24oKSB1aW50NjQgewoJYy5tdS5Mb2NrKCkKCWRlZmVyIGMubXUuVW5sb2NrKCkKCXJldHVybiBjLnZlcgp9CgovLyBQb2ludHMg6L+U5Zue5puy57q/5pWw5o2u5Ymv5pys44CCCmZ1bmMgKGMgKkN1cnZlKSBQb2ludHMoKSBbXUN1cnZlUG9pbnQgewoJYy5tdS5Mb2NrKCkKCWRlZmVyIGMubXUuVW5sb2NrKCkKCXJldHVybiBhcHBlbmQoW11DdXJ2ZVBvaW50KG5pbCksIGMucHRzLi4uKQp9CgovLyBTZXRNaW5IZWlnaHQg6K6+572u5pyA5bCP6auY5bqm77yIMCDooajnpLrlm57liLDpu5jorqTlgLzvvInjgIIKLy8KLy8g44CQdjEuNi4y44CR55So5oi35Zyo44CM5bGA5Yq/5Zu+5aSq5bCP44CN5LiK5o+Q5LqG5Lik6L2u77ya6LWw5Yq/5Zu+5piv5qiq552A55yL55qE5Zu+77yMCi8vIOe7meWug+S4gOadoeWFqOWuveeahOaoquW4pu+8iOWPs+agj+W6lemDqO+8ieavlOWhnui/m+WNiuagj+mHjOabtOiDveeci+a4hei2i+WKv+OAggovLyDpq5jluqbnlLHosIPnlKjmlrnmjInniYjpnaLnu5nvvIjliIbmnpDmqKHlvI/nu5kgMTUw77yM5a+55oiY5qih5byP5LuN5oyJ6buY6K6k77yJ44CCCmZ1bmMgKGMgKkN1cnZlKSBTZXRNaW5IZWlnaHQoaCBmbG9hdDMyKSB7CgljLm1pbkggPSBoCgljLlJlZnJlc2goKQp9CgovLyBNaW5TaXplIOabsue6v+acgOWwj+mrmOW6puOAggpmdW5jIChjICpDdXJ2ZSkgTWluU2l6ZSgpIGZ5bmUuU2l6ZSB7CgloIDo9IGMubWluSAoJaWYgaCA8PSAwIHsKCQloID0gc3ooODgpCgl9CglyZXR1cm4gZnluZS5OZXdTaXplKHN6KDIwMCksIGgpCn0KCi8vIENyZWF0ZVJlbmRlcmVyIOaehOW7uua4suafk+WZqOOAggpmdW5jIChjICpDdXJ2ZSkgQ3JlYXRlUmVuZGVyZXIoKSBmeW5lLldpZGdldFJlbmRlcmVyIHsKCXIgOj0gbmV3Q3VydmVSZW5kZXJlcihjKQoJYy5yZW5kID0gcgoJcmV0dXJuIHIKfQoKLy8gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgp0eXBlIGN1cnZlUmVuZGVyZXIgc3RydWN0IHsKCWMgICAgICAqQ3VydmUKCXJhc3RlciAqY2FudmFzLlJhc3RlcgoKCXRpdGxlICAqY2FudmFzLlRleHQKCWxlZ2VuZCBbMl0qY2FudmFzLlRleHQKCXlsYWIgICBbNV0qY2FudmFzLlRleHQKCXhsYWIgICBbXSpjYW52YXMuVGV4dAoJZW1wdHkgICpjYW52YXMuVGV4dAoKCWltZyAgICAgICAgKmltYWdlLlJHQkEKCWltZ1csIGltZ0ggaW50CgljYWNoZWRWZXIgIHVpbnQ2NAoJY2FjaGVJbml0ICBib29sCglvYmplY3RzICAgIFtdZnluZS5DYW52YXNPYmplY3QKfQoKY29uc3QgY3VydmVYTGFiZWxQb29sID0gMTQKCmZ1bmMgbmV3Q3VydmVSZW5kZXJlcihjICpDdXJ2ZSkgKmN1cnZlUmVuZGVyZXIgewoJciA6PSAmY3VydmVSZW5kZXJlcntjOiBjfQoJci5yYXN0ZXIgPSBjYW52YXMuTmV3UmFzdGVyKHIuZ2VuZXJhdGUpCglyLnRpdGxlID0gY2FudmFzLk5ld1RleHQoYy50aXRsZSwgY29sRm9yZSkKCXIudGl0bGUuVGV4dFNpemUgPSB0ZXh0U2l6ZSh0ZXh0TGFiZWwpCglyLnRpdGxlLlRleHRTdHlsZSA9IGZ5bmUuVGV4dFN0eWxle0JvbGQ6IHRydWV9CgkvLyDlm77kvovvvJrmjInlkIznsbvova/ku7YgVENIRVNTIOeahOWBmuazlSoq5LiN5pi+56S6KioKCS8vIO+8iGBsaW5lQ2hhcnQuc2V0TGVnZW5kVmlzaWJsZShmYWxzZSlg77yJ44CC6Z2i5p2/5qCH6aKY5bey57uP5YaZ552A44CM5bGA5Yq/5Zu+44CN77yMCgkvLyDkuIDmnaHnur/kuZ/kuI3pnIDopoHlm77kvovor7TmmI7mmK/nuqLmmK/pu5HjgIIKCXIubGVnZW5kWzBdID0gY2FudmFzLk5ld1RleHQoIiIsIGNvbFJlZExpbmUpCgkvLyDnlKjmiLfopoHmsYLvvJrlj6rnlKjkuIDmnaHnur/nnIvotbDlir/vvIgxMDAt57qi5pa56IOc546H5piv5ZCM5LiA5L+h5oGv55qE6ZWc5YOP77yM57qv5bGe5bmy5omw77yJCglyLmxlZ2VuZFsxXSA9IGNhbnZhcy5OZXdUZXh0KCIiLCBjb2xCbGFja0xpbmUpCglmb3IgXywgdCA6PSByYW5nZSByLmxlZ2VuZCB7CgkJdC5UZXh0U2l6ZSA9IHRleHRTaXplKHRleHRTbWFsbCkKCX0KCWZvciBpIDo9IHJhbmdlIHIueWxhYiB7CgkJci55bGFiW2ldID0gY2FudmFzLk5ld1RleHQoIiIsIGNvbEZvcmVEaW0pCgkJci55bGFiW2ldLlRleHRTaXplID0gdGV4dFNpemUodGV4dFNtYWxsKQoJfQoJZm9yIGkgOj0gMDsgaSA8IGN1cnZlWExhYmVsUG9vbDsgaSsrIHsKCQl0IDo9IGNhbnZhcy5OZXdUZXh0KCIiLCBjb2xGb3JlRGltKQoJCXQuVGV4dFNpemUgPSB0ZXh0U2l6ZSh0ZXh0U21hbGwpCgkJci54bGFiID0gYXBwZW5kKHIueGxhYiwgdCkKCX0KCXIuZW1wdHkgPSBjYW52YXMuTmV3VGV4dCgi5pqC5peg5pWw5o2u77ya6LWw5LiA5q2l5qOL5oiW5byA5aeL5YiG5p6Q5ZCO5pi+56S66IOc546H5puy57q/IiwgY29sRm9yZURpbSkKCXIuZW1wdHkuVGV4dFNpemUgPSB0ZXh0U2l6ZSh0ZXh0U21hbGwpCgoJci5vYmplY3RzID0gYXBwZW5kKHIub2JqZWN0cywgci5yYXN0ZXIsIHIudGl0bGUsIHIubGVnZW5kWzBdLCByLmxlZ2VuZFsxXSkKCWZvciBpIDo9IHJhbmdlIHIueWxhYiB7CgkJci5vYmplY3RzID0gYXBwZW5kKHIub2JqZWN0cywgci55bGFiW2ldKQoJfQoJZm9yIF8sIHQgOj0gcmFuZ2Ugci54bGFiIHsKCQlyLm9iamVjdHMgPSBhcHBlbmQoci5vYmplY3RzLCB0KQoJfQoJci5vYmplY3RzID0gYXBwZW5kKHIub2JqZWN0cywgci5lbXB0eSkKCXJldHVybiByCn0KCnZhciAoCgljb2xSZWRMaW5lICAgPSB0b05SR0JBKERlZmF1bHRCb2FyZFNraW4uUmVkRWRnZSkKCWNvbEJsYWNrTGluZSA9IHRvTlJHQkEoRGVmYXVsdEJvYXJkU2tpbi5CbGFja0VkZ2UpCikKCi8vIOi+uei3ne+8iOmAu+i+keWDj+e0oO+8iQpjb25zdCAoCgljdXJ2ZU1MID0gMzguMAoJY3VydmVNUiA9IDEwLjAKCWN1cnZlTVQgPSAyMi4wCgljdXJ2ZU1CID0gMjAuMAopCgpmdW5jIChyICpjdXJ2ZVJlbmRlcmVyKSBnZW5lcmF0ZSh3LCBoIGludCkgaW1hZ2UuSW1hZ2UgewoJaWYgdyA8PSAwIHx8IGggPD0gMCB7CgkJcmV0dXJuIGltYWdlLk5ld1JHQkEoaW1hZ2UuUmVjdCgwLCAwLCAxLCAxKSkKCX0KCWMgOj0gci5jCgkvLyDkvY3lm77nvJPlrZjvvJrlsLrlr7jkuI7mlbDmja7niYjmnKzpg73msqHlj5jml7bnm7TmjqXlpI3nlKjvvIzpgb/lhY3mr4/mrKHnlYzpnaLph43nu5jpg73ph43nlLvmlbTlvKDmm7Lnur/lm74KCWlmIHZlciA6PSBjLnZlcnNpb24oKTsgci5jYWNoZUluaXQgJiYgci5pbWcgIT0gbmlsICYmIHIuaW1nVyA9PSB3ICYmIHIuaW1nSCA9PSBoICYmIHIuY2FjaGVkVmVyID09IHZlciB7CgkJcmV0dXJuIHIuaW1nCgl9CglzaXplIDo9IGMuU2l6ZSgpCglsdywgbGggOj0gZmxvYXQ2NChzaXplLldpZHRoKSwgZmxvYXQ2NChzaXplLkhlaWdodCkKCWlmIGx3IDwgMSB8fCBsaCA8IDEgewoJCWx3LCBsaCA9IGZsb2F0NjQodyksIGZsb2F0NjQoaCkKCX0KCXN4LCBzeSA6PSBmbG9hdDY0KHcpL2x3LCBmbG9hdDY0KGgpL2xoCgoJYy5tdS5Mb2NrKCkKCXB0cyA6PSBhcHBlbmQoW11DdXJ2ZVBvaW50KG5pbCksIGMucHRzLi4uKQoJcHJldmlldywgaGFzUHJldiA6PSBjLnByZXZpZXcsIGMuaGFzUHJldmlldwoJbWFya2VyLCBoYXNNYXJrZXIgOj0gYy5tYXJrZXJQbHksIGMuaGFzTWFya2VyCgljLm11LlVubG9jaygpCgoJaW1nIDo9IGltYWdlLk5ld1JHQkEoaW1hZ2UuUmVjdCgwLCAwLCB3LCBoKSkKCWJnIDo9IHRvTlJHQkEoY29sUGFuZWxCRykKCWdyaWQgOj0gdG9OUkdCQShjb2xTZXApCgltaWQgOj0gdG9OUkdCQShjb2xGb3JlRGltKQoJZmlsbFJvdW5kUmVjdChpbWcsIDAsIDAsIGZsb2F0NjQodyksIGZsb2F0NjQoaCksIDYqc3gsIGJnKQoKCXgwIDo9IGN1cnZlTUwgKiBzeAoJeDEgOj0gZmxvYXQ2NCh3KSAtIGN1cnZlTVIqc3gKCXkwIDo9IGN1cnZlTVQgKiBzeQoJeTEgOj0gZmxvYXQ2NChoKSAtIGN1cnZlTUIqc3kKCWlmIHgxIDw9IHgwKzQgfHwgeTEgPD0geTArNCB7CgkJcmV0dXJuIGltZwoJfQoJcGxvdFcsIHBsb3RIIDo9IHgxLXgwLCB5MS15MAoKCW1hcFggOj0gZnVuYyhwbHkgaW50LCBtYXhQbHkgaW50KSBmbG9hdDY0IHsKCQlpZiBtYXhQbHkgPD0gMCB7CgkJCXJldHVybiB4MAoJCX0KCQlyZXR1cm4geDAgKyBmbG9hdDY0KHBseSkvZmxvYXQ2NChtYXhQbHkpKnBsb3RXCgl9CgltYXBZIDo9IGZ1bmMod3IgZmxvYXQ2NCkgZmxvYXQ2NCB7IHJldHVybiB5MSAtIHdyLzEwMC4wKnBsb3RIIH0KCgkvLyDmqKrlkJHnvZHmoLznur/vvIgwLzI1LzUwLzc1LzEwMO+8iQoJbHdpZCA6PSBtYXRoLk1heCgxLCBzeCkKCWZvciBpIDo9IDA7IGkgPD0gNDsgaSsrIHsKCQl3ciA6PSBmbG9hdDY0KGkpICogMjUKCQl5eSA6PSBtYXBZKHdyKQoJCWlmIGkgPT0gMiB7CgkJCS8vIDUwJSDkuK3nur/ljovmiJDnvZHmoLzngbDjgIHlubblj5jnu4bvvJrlvIDlsYDlj4zmlrnog5znjoflsLHlnKggNTAlIOmZhOi/ke+8jAoJCQkvLyDkuK3nur/lpKrmiqLnnLzkvJrorqnmlbDmja7nur/jgIzns4rjgI3lnKjkuK3nur/kuIrnnIvkuI3op4HvvIjnlKjmiLflj43ppojnmoTpl67popjvvInjgIIKCQkJZHJhd0xpbmUoaW1nLCB4MCwgeXksIHgxLCB5eSwgbHdpZCowLjcsIGdyaWQpCgkJfSBlbHNlIHsKCQkJZHJhd0xpbmUoaW1nLCB4MCwgeXksIHgxLCB5eSwgbHdpZCwgZ3JpZCkKCQl9Cgl9CglkcmF3TGluZShpbWcsIHgwLCB5MCwgeDAsIHkxLCBsd2lkLCBncmlkKQoJZHJhd0xpbmUoaW1nLCB4MCwgeTEsIHgxLCB5MSwgbHdpZCwgZ3JpZCkKCgkvLyDmnIDlpKfmraXmlbDvvJroh7PlsJEgMjDvvIzmjInlrp7pmYXnnYDmlbDmianlsZUKCW1heFBseSA6PSAyMAoJaWYgbGVuKHB0cykgPiAwIHsKCQlpZiBsYXN0IDo9IHB0c1tsZW4ocHRzKS0xXS5QbHk7IGxhc3QgPiBtYXhQbHkgewoJCQltYXhQbHkgPSBsYXN0CgkJfQoJfQoJaWYgaGFzUHJldiAmJiBtYXJrZXIgPiBtYXhQbHkgewoJCW1heFBseSA9IG1hcmtlcgoJfQoKCS8vIOe6teWQkee9keagvOe6v++8mioq5LiN55S7KirjgIIKCS8vIOS+neaNruWQjOexu+i9r+S7tiBUQ0hFU1Mg55qE5bGA5Yq/5Zu+6YWN572u77yIQ29udHJvbGxlci5pbml0TGluZUNoYXJ077yaCgkvLyBgbGluZUNoYXJ0LnNldFZlcnRpY2FsR3JpZExpbmVzVmlzaWJsZShmYWxzZSlg44CBYHNldExlZ2VuZFZpc2libGUoZmFsc2UpYOOAgQoJLy8gYHNldENyZWF0ZVN5bWJvbHMoZmFsc2UpYO+8ieKAlOKAlOe6teWQkee9keagvOS4juWbvuS+i+Wvueivu+i1sOWKv+ayoeacieW4ruWKqe+8jOWPquWinuWKoOWZquWjsOOAggoKCS8vIOW9k+WJjeafpeeci+atpeaVsOeahOerlue6v+agh+iusO+8iOi/meadoeaYr+WKn+iDveaAp+eahO+8muWRiuivieS9oOeOsOWcqOeci+eahOaYr+esrOWHoOatpe+8iQoJaWYgaGFzTWFya2VyICYmIG1hcmtlciA+PSAwIHsKCQl4eCA6PSBtYXBYKG1hcmtlciwgbWF4UGx5KQoJCWRyYXdMaW5lKGltZywgeHgsIHkwLCB4eCwgeTEsIGx3aWQqMS41LCBtaWQpCgl9CgoJLy8g6LWw5Yq/57q/77yaKirlj6rnlLvnur/vvIzkuI3nlLvph4fmoLfngrkqKgoJLy8g77yIVENIRVNTIGBzZXRDcmVhdGVTeW1ib2xzKGZhbHNlKWDvvJvngrnlnKjlr4bpm4bml7bkvJrns4rmiJDkuIDmnaHnspfnur/vvIzlj43ogIznnIvkuI3lh7rotbDlir/vvIkKCWx3TGluZSA6PSBtYXRoLk1heCgxLjQsIDEuOCpzeCkKCWlmIGxlbihwdHMpID49IDIgewoJCWZvciBpIDo9IDE7IGkgPCBsZW4ocHRzKTsgaSsrIHsKCQkJeGEsIHlhIDo9IG1hcFgocHRzW2ktMV0uUGx5LCBtYXhQbHkpLCBtYXBZKHB0c1tpLTFdLlJlZCkKCQkJeGIsIHliIDo9IG1hcFgocHRzW2ldLlBseSwgbWF4UGx5KSwgbWFwWShwdHNbaV0uUmVkKQoJCQlkcmF3TGluZShpbWcsIHhhLCB5YSwgeGIsIHliLCBsd0xpbmUsIGNvbFJlZExpbmUpCgkJfQoJfSBlbHNlIGlmIGxlbihwdHMpID09IDEgewoJCS8vIOWPquacieS4gOS4queCueaXtueUuyoq5LiA5LiqKirlnIbngrnjgIIKCQkvLyDljp/mnaXov5nph4znuqLpu5HlkITnlLvkuIDkuKrngrnvvIgxMDAt57qiIOeahOmVnOWDj++8ie+8jOeUqOaIt+eci+WIsOeahOWwseaYr+OAjOS4pOS4queCueOAje+8jAoJCS8vIOaXoueci+S4jeWHuui1sOWKv+S5n+WIhuS4jea4heWTquadoeaYr+WTquadoeOAggoJCWZpbGxDaXJjbGUoaW1nLCBtYXBYKHB0c1swXS5QbHksIG1heFBseSksIG1hcFkocHRzWzBdLlJlZCksIGx3TGluZSoxLjgsIGNvbFJlZExpbmUpCgl9CgoJLy8g5byV5pOO5oCd6ICD5Lit55qE6aKE6KeI54K577yI56m65b+D5ZyG77yM5ZCM5qC35Y+q55S75LiA5Liq77yJCglpZiBoYXNQcmV2IHsKCQlweCA6PSBtYXBYKG1heFBseSwgbWF4UGx5KQoJCWlmIGxlbihwdHMpID4gMCB7CgkJCXB4ID0gbWFwWChwdHNbbGVuKHB0cyktMV0uUGx5KzEsIG1heFBseSkKCQl9CgkJc3Ryb2tlQ2lyY2xlKGltZywgcHgsIG1hcFkocHJldmlldyksIGx3TGluZSoyLjIsIGx3TGluZSwgY29sUmVkTGluZSkKCX0KCglyLmltZywgci5pbWdXLCByLmltZ0ggPSBpbWcsIHcsIGgKCXIuY2FjaGVkVmVyLCByLmNhY2hlSW5pdCA9IGMudmVyc2lvbigpLCB0cnVlCglyZXR1cm4gaW1nCn0KCmZ1bmMgKHIgKmN1cnZlUmVuZGVyZXIpIExheW91dChzaXplIGZ5bmUuU2l6ZSkgewoJci5yYXN0ZXIuTW92ZShmeW5lLk5ld1BvcygwLCAwKSkKCXIucmFzdGVyLlJlc2l6ZShzaXplKQoKCXcgOj0gZmxvYXQ2NChzaXplLldpZHRoKQoJLy8g5qCH6aKY77ya5b+F6aG7Kirpgb/lvIDlt6bkvqfliLvluqbliJcqKuOAggoJLy8g5Y6f5p2l5pS+5ZyoIHg9OO+8jOiAjOacgOS4iumdoueahOOAjDEwMOOAjeWIu+W6puWcqCB4PTQg6LW377yM5qCH6aKY5LiA6ZW/5bCx5Y6L5Zyo5Yi75bqm5LiKCgkvLyDvvIjnlKjmiLfnnIvliLDnmoTjgIzmoIfpopjlkozliLvluqbns4rlnKjkuIDotbfjgI3vvInjgILlt6bkvqfliLvluqbliJflrr3nuqYgMjbvvIzmoIfpopjku44gMzAg6LW344CCCgl0cyA6PSBmeW5lLk1lYXN1cmVUZXh0KHIudGl0bGUuVGV4dCwgci50aXRsZS5UZXh0U2l6ZSwgci50aXRsZS5UZXh0U3R5bGUpCglyLnRpdGxlLlJlc2l6ZSh0cykKCXIudGl0bGUuTW92ZShmeW5lLk5ld1BvcygzMCwgMikpCgoJLy8g5Zu+5L6L77ya5Y+z5a+56b2Q77yI5Y6f5p2l56Gs57yW56CBIC0xNjAvLTky77yM5paH5a2X5LiA5pS55bCx6ZSZ5L2N5oiW6ICF5Y6L5Yiw6L655LiK77yJCglsZWdlbmRYIDo9IGZsb2F0MzIodykgLSA4Cglmb3IgaSA6PSBsZW4oci5sZWdlbmQpIC0gMTsgaSA+PSAwOyBpLS0gewoJCWx0IDo9IHIubGVnZW5kW2ldCgkJcyA6PSBmeW5lLk1lYXN1cmVUZXh0KGx0LlRleHQsIGx0LlRleHRTaXplLCBsdC5UZXh0U3R5bGUpCgkJbHQuUmVzaXplKHMpCgkJaWYgbHQuVGV4dCA9PSAiIiB7CgkJCWNvbnRpbnVlCgkJfQoJCWxlZ2VuZFggLT0gcy5XaWR0aAoJCWx0Lk1vdmUoZnluZS5OZXdQb3MobGVnZW5kWCwgMykpCgkJbGVnZW5kWCAtPSAxMAoJfQoKCS8vIFkg6L205Yi75bqmCgloIDo9IGZsb2F0NjQoc2l6ZS5IZWlnaHQpCgl5MCwgeTEgOj0gY3VydmVNVCwgaC1jdXJ2ZU1CCglmb3IgaSA6PSAwOyBpIDw9IDQ7IGkrKyB7CgkJd3IgOj0gZmxvYXQ2NChpKSAqIDI1CgkJeXkgOj0geTEgLSB3ci8xMDAuMCooeTEteTApCgkJdCA6PSByLnlsYWJbNC1pXQoJCXMgOj0gZnluZS5NZWFzdXJlVGV4dCh0LlRleHQsIHQuVGV4dFNpemUsIHQuVGV4dFN0eWxlKQoJCXQuUmVzaXplKHMpCgkJdC5Nb3ZlKGZ5bmUuTmV3UG9zKDQsIGZsb2F0MzIoeXktZmxvYXQ2NChzLkhlaWdodCkvMikpKQoJfQoKCS8vIFgg6L205Yi75bqmCglyLmMubXUuTG9jaygpCglwdHMgOj0gci5jLnB0cwoJci5jLm11LlVubG9jaygpCgltYXhQbHkgOj0gMjAKCWlmIGxlbihwdHMpID4gMCAmJiBwdHNbbGVuKHB0cyktMV0uUGx5ID4gbWF4UGx5IHsKCQltYXhQbHkgPSBwdHNbbGVuKHB0cyktMV0uUGx5Cgl9CglzdGVwIDo9IDEwCglmb3IgbWF4UGx5L3N0ZXAgPiA4IHsKCQlzdGVwICo9IDIKCX0KCWlkeCA6PSAwCgl4MCA6PSBjdXJ2ZU1MCgl4MSA6PSB3IC0gY3VydmVNUgoJZm9yIHAgOj0gc3RlcDsgcCA8PSBtYXhQbHkgJiYgaWR4IDwgbGVuKHIueGxhYik7IHAgKz0gc3RlcCB7CgkJeHggOj0geDAgKyBmbG9hdDY0KHApL2Zsb2F0NjQobWF4UGx5KSooeDEteDApCgkJdCA6PSByLnhsYWJbaWR4XQoJCWlkeCsrCgkJdC5UZXh0ID0gaXRvYShwKQoJCXMgOj0gZnluZS5NZWFzdXJlVGV4dCh0LlRleHQsIHQuVGV4dFNpemUsIHQuVGV4dFN0eWxlKQoJCXQuUmVzaXplKHMpCgkJdC5Nb3ZlKGZ5bmUuTmV3UG9zKGZsb2F0MzIoeHgtZmxvYXQ2NChzLldpZHRoKS8yKSwgZmxvYXQzMihoLWN1cnZlTUIrMykpKQoJCXQuU2hvdygpCgl9Cglmb3IgOyBpZHggPCBsZW4oci54bGFiKTsgaWR4KysgewoJCXIueGxhYltpZHhdLkhpZGUoKQoJfQoKCXIuZW1wdHkuTW92ZShmeW5lLk5ld1BvcyhmbG9hdDMyKHgwKzEwKSwgZmxvYXQzMigoeTAreTEpLzIpKSkKCWlmIGxlbihwdHMpID09IDAgewoJCXIuZW1wdHkuU2hvdygpCgl9IGVsc2UgewoJCXIuZW1wdHkuSGlkZSgpCgl9Cn0KCmZ1bmMgKHIgKmN1cnZlUmVuZGVyZXIpIE1pblNpemUoKSBmeW5lLlNpemUgeyByZXR1cm4gci5jLk1pblNpemUoKSB9CgpmdW5jIChyICpjdXJ2ZVJlbmRlcmVyKSBSZWZyZXNoKCkgewoJZm9yIGkgOj0gMDsgaSA8PSA0OyBpKysgewoJCXIueWxhYltpXS5UZXh0ID0gaXRvYSgoNCAtIGkpICogMjUpCgl9CglyLnJhc3Rlci5SZWZyZXNoKCkKCXIuTGF5b3V0KHIuYy5TaXplKCkpCgljYW52YXMuUmVmcmVzaChyLmMpCn0KCmZ1bmMgKHIgKmN1cnZlUmVuZGVyZXIpIE9iamVjdHMoKSBbXWZ5bmUuQ2FudmFzT2JqZWN0IHsgcmV0dXJuIHIub2JqZWN0cyB9CgpmdW5jIChyICpjdXJ2ZVJlbmRlcmVyKSBEZXN0cm95KCkge30KCmZ1bmMgaXRvYSh2IGludCkgc3RyaW5nIHsKCWlmIHYgPT0gMCB7CgkJcmV0dXJuICIwIgoJfQoJbmVnIDo9IHYgPCAwCglpZiBuZWcgewoJCXYgPSAtdgoJfQoJdmFyIGIgWzhdYnl0ZQoJaSA6PSBsZW4oYikKCWZvciB2ID4gMCB7CgkJaS0tCgkJYltpXSA9IGJ5dGUoJzAnICsgdiUxMCkKCQl2IC89IDEwCgl9CglpZiBuZWcgewoJCWktLQoJCWJbaV0gPSAnLScKCX0KCXJldHVybiBzdHJpbmcoYltpOl0pCn0K
+package ui
+
+import (
+	"image"
+	"math"
+	"sync"
+
+	"fyne.io/fyne/v2"
+	"fyne.io/fyne/v2/canvas"
+	"fyne.io/fyne/v2/widget"
+)
+
+// CurvePoint 是胜率曲线上的一个数据点。
+type CurvePoint struct {
+	Ply int     // 第几步（0 = 开始局面）
+	Red float64 // 红方胜率 0~100
+}
+
+// Curve 是「红黑双线」胜率曲线控件（Canvas 自绘）。
+//
+// X 轴 = 步数，Y 轴 = 胜率 0~100%：
+//   - 红线 = 红方胜率
+//   - v1.5 起按用户要求**只画红线**（黑方胜率是 100-红方，属于同一信息的镜像）
+//
+// 引擎思考中会显示一个预览点（空心圆），重开或清空后曲线归零。
+type Curve struct {
+	widget.BaseWidget
+
+	mu         sync.Mutex
+	pts        []CurvePoint
+	preview    float64
+	hasPreview bool
+	markerPly  int
+	hasMarker  bool
+	title      string
+	minH       float32 // 最小高度（0 = 用默认 sz(88)），由调用方按版面需要设置
+	ver        uint64  // 数据版本号：渲染器据此决定是否需要重新光栅化位图
+
+	rend *curveRenderer
+}
+
+// bumpLocked 递增数据版本号（调用方需持有 c.mu）。
+func (c *Curve) bumpLocked() { c.ver++ }
+
+// NewCurve 创建曲线控件。
+func NewCurve(title string) *Curve {
+	c := &Curve{title: title, markerPly: -1}
+	c.ExtendBaseWidget(c)
+	return c
+}
+
+// SetPoints 整体替换曲线数据。
+func (c *Curve) SetPoints(pts []CurvePoint) {
+	c.mu.Lock()
+	c.pts = append([]CurvePoint(nil), pts...)
+	c.bumpLocked()
+	c.mu.Unlock()
+	c.Refresh()
+}
+
+// AddPoint 追加一个数据点（同一步数重复添加会覆盖）。
+func (c *Curve) AddPoint(ply int, red float64) {
+	if math.IsNaN(red) {
+		return
+	}
+	if red < 0 {
+		red = 0
+	}
+	if red > 100 {
+		red = 100
+	}
+	c.mu.Lock()
+	// 【缺陷修复】把「上一个点 → 当前点」之间的着数按上一个值补齐：
+	// 引擎关掉/没分析的那些着数原本一个点都没有，X 轴靠近原点的一半就整片空白
+	//（用户实测：前十几步均势时曲线什么都不显示，看着像"偏右"）。
+	// 补齐用的是**上一个已知值**（信息没变化就保持水平线），不是编造新数据。
+	if len(c.pts) > 0 {
+		last := c.pts[len(c.pts)-1]
+		for p := last.Ply + 1; p < ply; p++ {
+			c.pts = append(c.pts, CurvePoint{Ply: p, Red: last.Red})
+		}
+	} else if ply > 0 {
+		// 第一个点本身就落在中后盘（例如粘贴一段着法序列后只分析了最新局面）时，
+		// 从开局起用这个值铺一条水平线，否则 X 轴靠近原点的一半永远是空的。
+		for p := 0; p < ply; p++ {
+			c.pts = append(c.pts, CurvePoint{Ply: p, Red: red})
+		}
+	}
+	replaced := false
+	for i := range c.pts {
+		if c.pts[i].Ply == ply {
+			c.pts[i].Red = red
+			replaced = true
+			break
+		}
+	}
+	if !replaced {
+		c.pts = append(c.pts, CurvePoint{Ply: ply, Red: red})
+	}
+	c.hasPreview = false
+	c.bumpLocked()
+	c.mu.Unlock()
+	c.Refresh()
+}
+
+// SetPreview 设置引擎思考中的预览点。
+func (c *Curve) SetPreview(red float64, has bool) {
+	c.mu.Lock()
+	c.preview, c.hasPreview = red, has
+	c.bumpLocked()
+	c.mu.Unlock()
+	c.Refresh()
+}
+
+// SetMarker 设置「当前查看步数」的竖线标记（点击着法列表时使用）。
+func (c *Curve) SetMarker(ply int, has bool) {
+	c.mu.Lock()
+	c.markerPly, c.hasMarker = ply, has
+	c.bumpLocked()
+	c.mu.Unlock()
+	c.Refresh()
+}
+
+// Clear 清空曲线。
+func (c *Curve) Clear() {
+	c.mu.Lock()
+	c.pts = nil
+	c.hasPreview = false
+	c.hasMarker = false
+	c.bumpLocked()
+	c.mu.Unlock()
+	c.Refresh()
+}
+
+// 数据版本号：上面每个修改数据的方法都会调用 bumpLocked，
+// 渲染器据此判断是否需要重新光栅化位图（否则每次界面重绘都要重画整张图）。
+func (c *Curve) version() uint64 {
+	c.mu.Lock()
+	defer c.mu.Unlock()
+	return c.ver
+}
+
+// Points 返回曲线数据副本。
+func (c *Curve) Points() []CurvePoint {
+	c.mu.Lock()
+	defer c.mu.Unlock()
+	return append([]CurvePoint(nil), c.pts...)
+}
+
+// SetMinHeight 设置最小高度（0 表示回到默认值）。
+//
+// 【v1.6.2】用户在「局势图太小」上提了两轮：走势图是横着看的图，
+// 给它一条全宽的横带（右栏底部）比塞进半栏里更能看清趋势。
+// 高度由调用方按版面给（分析模式给 150，对战模式仍按默认）。
+func (c *Curve) SetMinHeight(h float32) {
+	c.minH = h
+	c.Refresh()
+}
+
+// MinSize 曲线最小高度。
+func (c *Curve) MinSize() fyne.Size {
+	h := c.minH
+	if h <= 0 {
+		h = sz(88)
+	}
+	return fyne.NewSize(sz(200), h)
+}
+
+// CreateRenderer 构建渲染器。
+func (c *Curve) CreateRenderer() fyne.WidgetRenderer {
+	r := newCurveRenderer(c)
+	c.rend = r
+	return r
+}
+
+// ---------------------------------------------------------------------------
+
+type curveRenderer struct {
+	c      *Curve
+	raster *canvas.Raster
+
+	title  *canvas.Text
+	legend [2]*canvas.Text
+	ylab   [5]*canvas.Text
+	xlab   []*canvas.Text
+	empty  *canvas.Text
+
+	img        *image.RGBA
+	imgW, imgH int
+	cachedVer  uint64
+	cacheInit  bool
+	objects    []fyne.CanvasObject
+}
+
+const curveXLabelPool = 14
+
+func newCurveRenderer(c *Curve) *curveRenderer {
+	r := &curveRenderer{c: c}
+	r.raster = canvas.NewRaster(r.generate)
+	r.title = canvas.NewText(c.title, colFore)
+	r.title.TextSize = textSize(textLabel)
+	r.title.TextStyle = fyne.TextStyle{Bold: true}
+	// 图例：按同类软件 TCHESS 的做法**不显示**
+	// （`lineChart.setLegendVisible(false)`）。面板标题已经写着「局势图」，
+	// 一条线也不需要图例说明是红是黑。
+	r.legend[0] = canvas.NewText("", colRedLine)
+	// 用户要求：只用一条线看走势（100-红方胜率是同一信息的镜像，纯属干扰）
+	r.legend[1] = canvas.NewText("", colBlackLine)
+	for _, t := range r.legend {
+		t.TextSize = textSize(textSmall)
+	}
+	for i := range r.ylab {
+		r.ylab[i] = canvas.NewText("", colForeDim)
+		r.ylab[i].TextSize = textSize(textSmall)
+	}
+	for i := 0; i < curveXLabelPool; i++ {
+		t := canvas.NewText("", colForeDim)
+		t.TextSize = textSize(textSmall)
+		r.xlab = append(r.xlab, t)
+	}
+	r.empty = canvas.NewText("暂无数据：走一步棋或开始分析后显示胜率曲线", colForeDim)
+	r.empty.TextSize = textSize(textSmall)
+
+	r.objects = append(r.objects, r.raster, r.title, r.legend[0], r.legend[1])
+	for i := range r.ylab {
+		r.objects = append(r.objects, r.ylab[i])
+	}
+	for _, t := range r.xlab {
+		r.objects = append(r.objects, t)
+	}
+	r.objects = append(r.objects, r.empty)
+	return r
+}
+
+var (
+	colRedLine   = toNRGBA(DefaultBoardSkin.RedEdge)
+	colBlackLine = toNRGBA(DefaultBoardSkin.BlackEdge)
+)
+
+// 边距（逻辑像素）
+const (
+	curveML = 38.0
+	curveMR = 10.0
+	curveMT = 22.0
+	curveMB = 20.0
+)
+
+func (r *curveRenderer) generate(w, h int) image.Image {
+	if w <= 0 || h <= 0 {
+		return image.NewRGBA(image.Rect(0, 0, 1, 1))
+	}
+	c := r.c
+	// 位图缓存：尺寸与数据版本都没变时直接复用，避免每次界面重绘都重画整张曲线图
+	if ver := c.version(); r.cacheInit && r.img != nil && r.imgW == w && r.imgH == h && r.cachedVer == ver {
+		return r.img
+	}
+	size := c.Size()
+	lw, lh := float64(size.Width), float64(size.Height)
+	if lw < 1 || lh < 1 {
+		lw, lh = float64(w), float64(h)
+	}
+	sx, sy := float64(w)/lw, float64(h)/lh
+
+	c.mu.Lock()
+	pts := append([]CurvePoint(nil), c.pts...)
+	preview, hasPrev := c.preview, c.hasPreview
+	marker, hasMarker := c.markerPly, c.hasMarker
+	c.mu.Unlock()
+
+	img := image.NewRGBA(image.Rect(0, 0, w, h))
+	bg := toNRGBA(colPanelBG)
+	grid := toNRGBA(colSep)
+	mid := toNRGBA(colForeDim)
+	fillRoundRect(img, 0, 0, float64(w), float64(h), 6*sx, bg)
+
+	x0 := curveML * sx
+	x1 := float64(w) - curveMR*sx
+	y0 := curveMT * sy
+	y1 := float64(h) - curveMB*sy
+	if x1 <= x0+4 || y1 <= y0+4 {
+		return img
+	}
+	plotW, plotH := x1-x0, y1-y0
+
+	mapX := func(ply int, maxPly int) float64 {
+		if maxPly <= 0 {
+			return x0
+		}
+		return x0 + float64(ply)/float64(maxPly)*plotW
+	}
+	mapY := func(wr float64) float64 { return y1 - wr/100.0*plotH }
+
+	// 横向网格线（0/25/50/75/100）
+	lwid := math.Max(1, sx)
+	for i := 0; i <= 4; i++ {
+		wr := float64(i) * 25
+		yy := mapY(wr)
+		if i == 2 {
+			// 50% 中线压成网格灰、并变细：开局双方胜率就在 50% 附近，
+			// 中线太抢眼会让数据线「糊」在中线上看不见（用户反馈的问题）。
+			drawLine(img, x0, yy, x1, yy, lwid*0.7, grid)
+		} else {
+			drawLine(img, x0, yy, x1, yy, lwid, grid)
+		}
+	}
+	drawLine(img, x0, y0, x0, y1, lwid, grid)
+	drawLine(img, x0, y1, x1, y1, lwid, grid)
+
+	// 最大步数：至少 20，按实际着数扩展
+	maxPly := 20
+	if len(pts) > 0 {
+		if last := pts[len(pts)-1].Ply; last > maxPly {
+			maxPly = last
+		}
+	}
+	if hasPrev && marker > maxPly {
+		maxPly = marker
+	}
+
+	// 纵向网格线：**不画**。
+	// 依据同类软件 TCHESS 的局势图配置（Controller.initLineChart：
+	// `lineChart.setVerticalGridLinesVisible(false)`、`setLegendVisible(false)`、
+	// `setCreateSymbols(false)`）——纵向网格与图例对读走势没有帮助，只增加噪声。
+
+	// 当前查看步数的竖线标记（这条是功能性的：告诉你现在看的是第几步）
+	if hasMarker && marker >= 0 {
+		xx := mapX(marker, maxPly)
+		drawLine(img, xx, y0, xx, y1, lwid*1.5, mid)
+	}
+
+	// 走势线：**只画线，不画采样点**
+	// （TCHESS `setCreateSymbols(false)`；点在密集时会糊成一条粗线，反而看不出走势）
+	lwLine := math.Max(1.4, 1.8*sx)
+	if len(pts) >= 2 {
+		for i := 1; i < len(pts); i++ {
+			xa, ya := mapX(pts[i-1].Ply, maxPly), mapY(pts[i-1].Red)
+			xb, yb := mapX(pts[i].Ply, maxPly), mapY(pts[i].Red)
+			drawLine(img, xa, ya, xb, yb, lwLine, colRedLine)
+		}
+	} else if len(pts) == 1 {
+		// 只有一个点时画**一个**圆点。
+		// 原来这里红黑各画一个点（100-红 的镜像），用户看到的就是「两个点」，
+		// 既看不出走势也分不清哪条是哪条。
+		fillCircle(img, mapX(pts[0].Ply, maxPly), mapY(pts[0].Red), lwLine*1.8, colRedLine)
+	}
+
+	// 引擎思考中的预览点（空心圆，同样只画一个）
+	if hasPrev {
+		px := mapX(maxPly, maxPly)
+		if len(pts) > 0 {
+			px = mapX(pts[len(pts)-1].Ply+1, maxPly)
+		}
+		strokeCircle(img, px, mapY(preview), lwLine*2.2, lwLine, colRedLine)
+	}
+
+	r.img, r.imgW, r.imgH = img, w, h
+	r.cachedVer, r.cacheInit = c.version(), true
+	return img
+}
+
+func (r *curveRenderer) Layout(size fyne.Size) {
+	r.raster.Move(fyne.NewPos(0, 0))
+	r.raster.Resize(size)
+
+	w := float64(size.Width)
+	// 标题：必须**避开左侧刻度列**。
+	// 原来放在 x=8，而最上面的「100」刻度在 x=4 起，标题一长就压在刻度上
+	// （用户看到的「标题和刻度糊在一起」）。左侧刻度列宽约 26，标题从 30 起。
+	ts := fyne.MeasureText(r.title.Text, r.title.TextSize, r.title.TextStyle)
+	r.title.Resize(ts)
+	r.title.Move(fyne.NewPos(30, 2))
+
+	// 图例：右对齐（原来硬编码 -160/-92，文字一改就错位或者压到边上）
+	legendX := float32(w) - 8
+	for i := len(r.legend) - 1; i >= 0; i-- {
+		lt := r.legend[i]
+		s := fyne.MeasureText(lt.Text, lt.TextSize, lt.TextStyle)
+		lt.Resize(s)
+		if lt.Text == "" {
+			continue
+		}
+		legendX -= s.Width
+		lt.Move(fyne.NewPos(legendX, 3))
+		legendX -= 10
+	}
+
+	// Y 轴刻度
+	h := float64(size.Height)
+	y0, y1 := curveMT, h-curveMB
+	for i := 0; i <= 4; i++ {
+		wr := float64(i) * 25
+		yy := y1 - wr/100.0*(y1-y0)
+		t := r.ylab[4-i]
+		s := fyne.MeasureText(t.Text, t.TextSize, t.TextStyle)
+		t.Resize(s)
+		t.Move(fyne.NewPos(4, float32(yy-float64(s.Height)/2)))
+	}
+
+	// X 轴刻度
+	r.c.mu.Lock()
+	pts := r.c.pts
+	r.c.mu.Unlock()
+	maxPly := 20
+	if len(pts) > 0 && pts[len(pts)-1].Ply > maxPly {
+		maxPly = pts[len(pts)-1].Ply
+	}
+	step := 10
+	for maxPly/step > 8 {
+		step *= 2
+	}
+	idx := 0
+	x0 := curveML
+	x1 := w - curveMR
+	for p := step; p <= maxPly && idx < len(r.xlab); p += step {
+		xx := x0 + float64(p)/float64(maxPly)*(x1-x0)
+		t := r.xlab[idx]
+		idx++
+		t.Text = itoa(p)
+		s := fyne.MeasureText(t.Text, t.TextSize, t.TextStyle)
+		t.Resize(s)
+		t.Move(fyne.NewPos(float32(xx-float64(s.Width)/2), float32(h-curveMB+3)))
+		t.Show()
+	}
+	for ; idx < len(r.xlab); idx++ {
+		r.xlab[idx].Hide()
+	}
+
+	r.empty.Move(fyne.NewPos(float32(x0+10), float32((y0+y1)/2)))
+	if len(pts) == 0 {
+		r.empty.Show()
+	} else {
+		r.empty.Hide()
+	}
+}
+
+func (r *curveRenderer) MinSize() fyne.Size { return r.c.MinSize() }
+
+func (r *curveRenderer) Refresh() {
+	for i := 0; i <= 4; i++ {
+		r.ylab[i].Text = itoa((4 - i) * 25)
+	}
+	r.raster.Refresh()
+	r.Layout(r.c.Size())
+	canvas.Refresh(r.c)
+}
+
+func (r *curveRenderer) Objects() []fyne.CanvasObject { return r.objects }
+
+func (r *curveRenderer) Destroy() {}
+
+func itoa(v int) string {
+	if v == 0 {
+		return "0"
+	}
+	neg := v < 0
+	if neg {
+		v = -v
+	}
+	var b [8]byte
+	i := len(b)
+	for v > 0 {
+		i--
+		b[i] = byte('0' + v%10)
+		v /= 10
+	}
+	if neg {
+		i--
+		b[i] = '-'
+	}
+	return string(b[i:])
+}

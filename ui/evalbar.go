@@ -1,1 +1,133 @@
-cGFja2FnZSB1aQoKaW1wb3J0ICgKCSJmbXQiCgkiaW1hZ2UvY29sb3IiCgkic3luYyIKCgkiZnluZS5pby9meW5lL3YyIgoJImZ5bmUuaW8vZnluZS92Mi9jYW52YXMiCgkiZnluZS5pby9meW5lL3YyL3dpZGdldCIKKQoKLy8gRXZhbEJhciDmmK/jgIzor4TkvLDmnaHjgI3vvJrkuIDmnaHmqKrlkJHplb/mnaHvvIznuqLoibLpg6jliIYgPSDnuqLmlrnog5znjofljaDmr5TjgIIKLy8KLy8g5Y+C54Wn5ZCM57G76L2v5Lu255qE6YCa6KGM5YGa5rOV77yIc3dpZnR4aWFuZ3FpIOeahOWIhuaekOebmOaciSBldmFsIGJhcu+8jFRDSEVTUyDmnInnirbmgIHmoI/nu4boioLvvInvvIwKLy8g5a6D55qE5Lu35YC85pivKirkuIDnnLznnIvlh7rkvJjliqMqKuKAlOKAlOeci+aji+iwsei3s+i9rOaXtu+8jOaVsOWAvOimgeivu+WNiuWkqe+8jOmVv+adoeS4gOecvOWwseWkn+OAggp0eXBlIEV2YWxCYXIgc3RydWN0IHsKCXdpZGdldC5CYXNlV2lkZ2V0CgoJbXUgICAgICAgc3luYy5NdXRleAoJcmVkICAgICAgZmxvYXQ2NCAvLyDnuqLmlrnog5znjocgMH4xMDAKCXZhbGlkICAgIGJvb2wKCXNjb3JlVHh0IHN0cmluZyAvLyDliIblgLzmlofmnKzvvIzkvovlpoIgIis1OCIgLyAiLTEuMiIgLyAi5bCG5q27IDMiCn0KCi8vIE5ld0V2YWxCYXIg5Yib5bu66K+E5Lyw5p2h44CCCmZ1bmMgTmV3RXZhbEJhcigpICpFdmFsQmFyIHsKCWIgOj0gJkV2YWxCYXJ7cmVkOiA1MH0KCWIuRXh0ZW5kQmFzZVdpZGdldChiKQoJcmV0dXJuIGIKfQoKLy8gU2V0IOabtOaWsOivhOS8sOadoeOAgnZhbGlkPWZhbHNlIOaXtuaYvuekuuS4uuOAjOacquWIhuaekOOAjeeahOS4reaAp+eKtuaAgeOAggpmdW5jIChiICpFdmFsQmFyKSBTZXQocmVkV2luUmF0ZSBmbG9hdDY0LCB2YWxpZCBib29sLCBzY29yZVRleHQgc3RyaW5nKSB7CgliLm11LkxvY2soKQoJYi5yZWQgPSByZWRXaW5SYXRlCgliLnZhbGlkID0gdmFsaWQKCWIuc2NvcmVUeHQgPSBzY29yZVRleHQKCWIubXUuVW5sb2NrKCkKCWIuUmVmcmVzaCgpCn0KCi8vIENyZWF0ZVJlbmRlcmVyIOaehOW7uua4suafk+WZqOOAggpmdW5jIChiICpFdmFsQmFyKSBDcmVhdGVSZW5kZXJlcigpIGZ5bmUuV2lkZ2V0UmVuZGVyZXIgewoJciA6PSAmZXZhbEJhclJlbmRlcmVye2I6IGJ9CglyLmJnUmVkID0gY2FudmFzLk5ld1JlY3RhbmdsZShjb2xFdmFsUmVkKQoJci5iZ0JsYWNrID0gY2FudmFzLk5ld1JlY3RhbmdsZShjb2xFdmFsQmxhY2spCglyLmZyYW1lID0gY2FudmFzLk5ld1JlY3RhbmdsZShjb2xvci5UcmFuc3BhcmVudCkKCXIuZnJhbWUuU3Ryb2tlQ29sb3IgPSBjb2xDYXJkTGluZQoJci5mcmFtZS5TdHJva2VXaWR0aCA9IDEKCXIuZnJhbWUuQ29ybmVyUmFkaXVzID0gNgoJci5iZ1JlZC5Db3JuZXJSYWRpdXMgPSA2CglyLmJnQmxhY2suQ29ybmVyUmFkaXVzID0gNgoJci50ZXh0ID0gY2FudmFzLk5ld1RleHQoIiIsIGNvbFByaW1hcnlGZykKCXIudGV4dC5UZXh0U2l6ZSA9IHRleHRTaXplKHRleHRMYWJlbCkKCXIudGV4dC5UZXh0U3R5bGUgPSBmeW5lLlRleHRTdHlsZXtCb2xkOiB0cnVlfQoJci5vYmplY3RzID0gW11meW5lLkNhbnZhc09iamVjdHtyLmJnQmxhY2ssIHIuYmdSZWQsIHIuZnJhbWUsIHIudGV4dH0KCXJldHVybiByCn0KCi8vIE1pblNpemUg57uZ5LiA5Liq57Sn5YeR55qE6auY5bqm77yI44CQdjEuNi4x44CRMjYg4oaSIDE477ya5Y+z5qCP5a+55Y2K5YiH5ZCO5q+P5LiA5qCP6YO95Y+Y56qE77yMCi8vIOWxgOWKv+adoei/meenjeOAjOS4gOadoeWwseWkn+OAjeeahOmdouadv+ayoeW/heimgeWGjeWNoOS4gOihjOmrmOW6pu+8ieOAggpmdW5jIChiICpFdmFsQmFyKSBNaW5TaXplKCkgZnluZS5TaXplIHsgcmV0dXJuIGZ5bmUuTmV3U2l6ZShzeigxMTApLCBzeigxOCkpIH0KCnR5cGUgZXZhbEJhclJlbmRlcmVyIHN0cnVjdCB7CgliICAgICAgICpFdmFsQmFyCgliZ1JlZCAgICpjYW52YXMuUmVjdGFuZ2xlCgliZ0JsYWNrICpjYW52YXMuUmVjdGFuZ2xlCglmcmFtZSAgICpjYW52YXMuUmVjdGFuZ2xlCgl0ZXh0ICAgICpjYW52YXMuVGV4dAoJb2JqZWN0cyBbXWZ5bmUuQ2FudmFzT2JqZWN0Cn0KCmZ1bmMgKHIgKmV2YWxCYXJSZW5kZXJlcikgTGF5b3V0KHNpemUgZnluZS5TaXplKSB7CglyLmIubXUuTG9jaygpCglyZWQgOj0gci5iLnJlZAoJdmFsaWQgOj0gci5iLnZhbGlkCglzY29yZSA6PSByLmIuc2NvcmVUeHQKCXIuYi5tdS5VbmxvY2soKQoKCWlmICF2YWxpZCB7CgkJcmVkID0gNTAKCX0KCWlmIHJlZCA8IDAgewoJCXJlZCA9IDAKCX0KCWlmIHJlZCA+IDEwMCB7CgkJcmVkID0gMTAwCgl9CgkvLyDlupXoibLmlbTmnaEgPSDpu5HmlrnljaDmr5TvvIznuqLoibLopobnm5blt6bkvqcgPSDnuqLmlrnljaDmr5TvvIzkuK3pl7TnlZkgMXB4IOWIhueVjAoJci5iZ0JsYWNrLk1vdmUoZnluZS5OZXdQb3MoMCwgMCkpCglyLmJnQmxhY2suUmVzaXplKHNpemUpCgl3IDo9IGZsb2F0MzIoZmxvYXQ2NChzaXplLldpZHRoKSAqIHJlZCAvIDEwMC4wKQoJci5iZ1JlZC5Nb3ZlKGZ5bmUuTmV3UG9zKDAsIDApKQoJci5iZ1JlZC5SZXNpemUoZnluZS5OZXdTaXplKHcsIHNpemUuSGVpZ2h0KSkKCglyLmZyYW1lLk1vdmUoZnluZS5OZXdQb3MoMCwgMCkpCglyLmZyYW1lLlJlc2l6ZShzaXplKQoKCXR4dCA6PSBldmFsQmFyVGV4dChyZWQsIHZhbGlkLCBzY29yZSkKCXIudGV4dC5UZXh0ID0gdHh0Cgl0cyA6PSBmeW5lLk1lYXN1cmVUZXh0KHR4dCwgci50ZXh0LlRleHRTaXplLCByLnRleHQuVGV4dFN0eWxlKQoJci50ZXh0LlJlc2l6ZSh0cykKCXIudGV4dC5Nb3ZlKGZ5bmUuTmV3UG9zKChzaXplLldpZHRoLXRzLldpZHRoKS8yLCAoc2l6ZS5IZWlnaHQtdHMuSGVpZ2h0KS8yKSkKCXIudGV4dC5TaG93KCkKCXIudGV4dC5SZWZyZXNoKCkKfQoKZnVuYyAociAqZXZhbEJhclJlbmRlcmVyKSBNaW5TaXplKCkgZnluZS5TaXplIHsgcmV0dXJuIHIuYi5NaW5TaXplKCkgfQoKLy8gZXZhbEJhclRleHQg5ou86K+E5Lyw5p2h5LiK55qE5paH5a2X44CCCi8vCi8vIOOAkHYxLjYuM+OAkeiDnOeOh+eyvuehruWIsOS4pOS9jeWwj+aVsO+8iOeUqOaIt+imgeaxgu+8ie+8mgovLyDjgIznuqIgNTEuNTYlICA6ICA0OC40NCUg6buRICAtMTfjgI3jgILmir3miJDlh73mlbDmmK/kuLrkuobog73ooqvmtYvor5Xnm7TmjqXmlq3oqIDmoLzlvI/jgIIKZnVuYyBldmFsQmFyVGV4dChyZWQgZmxvYXQ2NCwgdmFsaWQgYm9vbCwgc2NvcmUgc3RyaW5nKSBzdHJpbmcgewoJaWYgIXZhbGlkIHsKCQlyZXR1cm4gIuacquWIhuaekCIKCX0KCXR4dCA6PSBmbXQuU3ByaW50Zigi57qiICUuMmYlJSAgOiAgJS4yZiUlIOm7kSIsIHJlZCwgMTAwLXJlZCkKCWlmIHNjb3JlICE9ICIiIHsKCQl0eHQgKz0gIiAgICAiICsgc2NvcmUKCX0KCXJldHVybiB0eHQKfQoKZnVuYyAociAqZXZhbEJhclJlbmRlcmVyKSBSZWZyZXNoKCkgewoJci5MYXlvdXQoci5iLlNpemUoKSkKCWNhbnZhcy5SZWZyZXNoKHIuYikKfQoKZnVuYyAociAqZXZhbEJhclJlbmRlcmVyKSBPYmplY3RzKCkgW11meW5lLkNhbnZhc09iamVjdCB7IHJldHVybiByLm9iamVjdHMgfQoKZnVuYyAociAqZXZhbEJhclJlbmRlcmVyKSBEZXN0cm95KCkge30K
+package ui
+
+import (
+	"fmt"
+	"image/color"
+	"sync"
+
+	"fyne.io/fyne/v2"
+	"fyne.io/fyne/v2/canvas"
+	"fyne.io/fyne/v2/widget"
+)
+
+// EvalBar 是「评估条」：一条横向长条，红色部分 = 红方胜率占比。
+//
+// 参照同类软件的通行做法（swiftxiangqi 的分析盘有 eval bar，TCHESS 有状态栏细节），
+// 它的价值是**一眼看出优劣**——看棋谱跳转时，数值要读半天，长条一眼就够。
+type EvalBar struct {
+	widget.BaseWidget
+
+	mu       sync.Mutex
+	red      float64 // 红方胜率 0~100
+	valid    bool
+	scoreTxt string // 分值文本，例如 "+58" / "-1.2" / "将死 3"
+}
+
+// NewEvalBar 创建评估条。
+func NewEvalBar() *EvalBar {
+	b := &EvalBar{red: 50}
+	b.ExtendBaseWidget(b)
+	return b
+}
+
+// Set 更新评估条。valid=false 时显示为「未分析」的中性状态。
+func (b *EvalBar) Set(redWinRate float64, valid bool, scoreText string) {
+	b.mu.Lock()
+	b.red = redWinRate
+	b.valid = valid
+	b.scoreTxt = scoreText
+	b.mu.Unlock()
+	b.Refresh()
+}
+
+// CreateRenderer 构建渲染器。
+func (b *EvalBar) CreateRenderer() fyne.WidgetRenderer {
+	r := &evalBarRenderer{b: b}
+	r.bgRed = canvas.NewRectangle(colEvalRed)
+	r.bgBlack = canvas.NewRectangle(colEvalBlack)
+	r.frame = canvas.NewRectangle(color.Transparent)
+	r.frame.StrokeColor = colCardLine
+	r.frame.StrokeWidth = 1
+	r.frame.CornerRadius = 6
+	r.bgRed.CornerRadius = 6
+	r.bgBlack.CornerRadius = 6
+	r.text = canvas.NewText("", colPrimaryFg)
+	r.text.TextSize = textSize(textLabel)
+	r.text.TextStyle = fyne.TextStyle{Bold: true}
+	r.objects = []fyne.CanvasObject{r.bgBlack, r.bgRed, r.frame, r.text}
+	return r
+}
+
+// MinSize 给一个紧凑的高度（【v1.6.1】26 → 18：右栏对半切后每一栏都变窄，
+// 局势条这种「一条就够」的面板没必要再占一行高度）。
+func (b *EvalBar) MinSize() fyne.Size { return fyne.NewSize(sz(110), sz(18)) }
+
+type evalBarRenderer struct {
+	b       *EvalBar
+	bgRed   *canvas.Rectangle
+	bgBlack *canvas.Rectangle
+	frame   *canvas.Rectangle
+	text    *canvas.Text
+	objects []fyne.CanvasObject
+}
+
+func (r *evalBarRenderer) Layout(size fyne.Size) {
+	r.b.mu.Lock()
+	red := r.b.red
+	valid := r.b.valid
+	score := r.b.scoreTxt
+	r.b.mu.Unlock()
+
+	if !valid {
+		red = 50
+	}
+	if red < 0 {
+		red = 0
+	}
+	if red > 100 {
+		red = 100
+	}
+	// 底色整条 = 黑方占比，红色覆盖左侧 = 红方占比，中间留 1px 分界
+	r.bgBlack.Move(fyne.NewPos(0, 0))
+	r.bgBlack.Resize(size)
+	w := float32(float64(size.Width) * red / 100.0)
+	r.bgRed.Move(fyne.NewPos(0, 0))
+	r.bgRed.Resize(fyne.NewSize(w, size.Height))
+
+	r.frame.Move(fyne.NewPos(0, 0))
+	r.frame.Resize(size)
+
+	txt := evalBarText(red, valid, score)
+	r.text.Text = txt
+	ts := fyne.MeasureText(txt, r.text.TextSize, r.text.TextStyle)
+	r.text.Resize(ts)
+	r.text.Move(fyne.NewPos((size.Width-ts.Width)/2, (size.Height-ts.Height)/2))
+	r.text.Show()
+	r.text.Refresh()
+}
+
+func (r *evalBarRenderer) MinSize() fyne.Size { return r.b.MinSize() }
+
+// evalBarText 拼评估条上的文字。
+//
+// 【v1.6.3】胜率精确到两位小数（用户要求）：
+// 「红 51.56%  :  48.44% 黑  -17」。抽成函数是为了能被测试直接断言格式。
+func evalBarText(red float64, valid bool, score string) string {
+	if !valid {
+		return "未分析"
+	}
+	txt := fmt.Sprintf("红 %.2f%%  :  %.2f%% 黑", red, 100-red)
+	if score != "" {
+		txt += "    " + score
+	}
+	return txt
+}
+
+func (r *evalBarRenderer) Refresh() {
+	r.Layout(r.b.Size())
+	canvas.Refresh(r.b)
+}
+
+func (r *evalBarRenderer) Objects() []fyne.CanvasObject { return r.objects }
+
+func (r *evalBarRenderer) Destroy() {}

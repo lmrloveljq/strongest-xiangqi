@@ -1,1 +1,240 @@
-cGFja2FnZSBydWxlcwoKaW1wb3J0ICJmbXQiCgovLyBTdGF0dXMg6KGo56S65LiA5bGA5qOL55qE5Yik5a6a57uT5p6c44CCCnR5cGUgU3RhdHVzIGludAoKY29uc3QgKAoJUGxheWluZyAgU3RhdHVzID0gaW90YSAvLyDlr7nlsYDov5vooYzkuK0KCVJlZFdpbiAgICAgICAgICAgICAgICAgLy8g57qi5pa56IOcCglCbGFja1dpbiAgICAgICAgICAgICAgIC8vIOm7keaWueiDnAoJRHJhdyAgICAgICAgICAgICAgICAgICAvLyDlkozmo4sKKQoKLy8gU3RyaW5nIOi/lOWbnuS4reaWh+aPj+i/sOOAggpmdW5jIChzIFN0YXR1cykgU3RyaW5nKCkgc3RyaW5nIHsKCXN3aXRjaCBzIHsKCWNhc2UgUmVkV2luOgoJCXJldHVybiAi57qi5pa56IOcIgoJY2FzZSBCbGFja1dpbjoKCQlyZXR1cm4gIum7keaWueiDnCIKCWNhc2UgRHJhdzoKCQlyZXR1cm4gIuWSjOajiyIKCWRlZmF1bHQ6CgkJcmV0dXJuICLov5vooYzkuK0iCgl9Cn0KCi8vIFBHTlJlc3VsdCDov5Tlm54gUEdOIOe7k+aenOWtl+espuS4suOAggpmdW5jIChzIFN0YXR1cykgUEdOUmVzdWx0KCkgc3RyaW5nIHsKCXN3aXRjaCBzIHsKCWNhc2UgUmVkV2luOgoJCXJldHVybiAiMS0wIgoJY2FzZSBCbGFja1dpbjoKCQlyZXR1cm4gIjAtMSIKCWNhc2UgRHJhdzoKCQlyZXR1cm4gIjEvMi0xLzIiCglkZWZhdWx0OgoJCXJldHVybiAiKiIKCX0KfQoKLy8gR2FtZSDlnKggQm9hcmQg5LmL5LiK57u05oqk5LiA5bGA5qOL55qE5a6M5pW05Y6G5Y+y77yM5L6b55WM6Z2i5oKU5qOL44CB5puy57q/6K6w5b2V5LiO6YeN5aSN5bGA6Z2i5Yik5a6a5L2/55So44CCCnR5cGUgR2FtZSBzdHJ1Y3QgewoJQm9hcmQgICAgKkJvYXJkCglTdGFydEZFTiBzdHJpbmcKCU1vdmVzICAgIFtdTW92ZSAgIC8vIOW3sui1sOedgOeahOedgOazlQoJQ2FwdHVyZWQgW11QaWVjZSAgLy8gQ2FwdHVyZWRbaV0g5pivIE1vdmVzW2ldIOWQg+aOieeahOWtkAoJS2V5cyAgICAgW11zdHJpbmcgLy8gS2V5c1tpXSDmmK/otbDnrKwgaSDmraXjgIzkuYvliY3jgI3nmoTlsYDpnaLplK7vvJtLZXlzW2xlbihNb3ZlcyldIOaYr+W9k+WJjeWxgOmdoumUrgp9CgovLyBOZXdHYW1lIOaWsOW7uuS4gOWxgO+8jOS7juagh+WHhuWIneWni+WxgOmdouW8gOWni+OAggpmdW5jIE5ld0dhbWUoKSAqR2FtZSB7CgliIDo9IE5ld1N0YXJ0Qm9hcmQoKQoJcmV0dXJuICZHYW1le0JvYXJkOiBiLCBTdGFydEZFTjogU3RhcnRGRU4sIEtleXM6IFtdc3RyaW5ne2IuS2V5KCl9fQp9CgovLyBOZXdHYW1lRnJvbUZFTiDku47mjIflrprlsYDpnaLmlrDlu7rkuIDlsYDvvIjnlKjkuo7miYvliqjmkYbnm5jlkI7nmoTlr7nlvIgv5YiG5p6Q77yJ44CCCmZ1bmMgTmV3R2FtZUZyb21GRU4oZmVuIHN0cmluZykgKCpHYW1lLCBlcnJvcikgewoJYiwgZXJyIDo9IFBhcnNlRkVOKGZlbikKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiBuaWwsIGVycgoJfQoJcmV0dXJuICZHYW1le0JvYXJkOiBiLCBTdGFydEZFTjogYi5GRU4oKSwgS2V5czogW11zdHJpbmd7Yi5LZXkoKX19LCBuaWwKfQoKLy8gTGVnYWxNb3ZlcyDov5Tlm57lvZPliY3lsYDpnaLnmoTlrozlhajlkIjms5XnnYDms5XjgIIKZnVuYyAoZyAqR2FtZSkgTGVnYWxNb3ZlcygpIFtdTW92ZSB7IHJldHVybiBnLkJvYXJkLkxlZ2FsTW92ZXMoKSB9CgovLyBMZWdhbFRhcmdldHMg6L+U5ZueIGZyb20g5qC85LiK55qE5qOL5a2Q5omA5pyJ5ZCI5rOV6JC954K577yI55So5LqO54K55Ye76LWw5a2Q6auY5Lqu77yJ44CCCmZ1bmMgKGcgKkdhbWUpIExlZ2FsVGFyZ2V0cyhmcm9tIGludCkgW11pbnQgewoJaWYgZnJvbSA8IDAgfHwgZnJvbSA+PSBTcXVhcmVzIHsKCQlyZXR1cm4gbmlsCgl9Cgl2YXIgb3V0IFtdaW50Cglmb3IgXywgbSA6PSByYW5nZSBnLkxlZ2FsTW92ZXMoKSB7CgkJaWYgbS5Gcm9tID09IGZyb20gewoJCQlvdXQgPSBhcHBlbmQob3V0LCBtLlRvKQoJCX0KCX0KCXJldHVybiBvdXQKfQoKLy8gSXNMZWdhbCDliKTmlq3nnYDms5XmmK/lkKblrozlhajlkIjms5XjgIIKZnVuYyAoZyAqR2FtZSkgSXNMZWdhbChtIE1vdmUpIGJvb2wgewoJZm9yIF8sIGxtIDo9IHJhbmdlIGcuTGVnYWxNb3ZlcygpIHsKCQlpZiBsbSA9PSBtIHsKCQkJcmV0dXJuIHRydWUKCQl9Cgl9CglyZXR1cm4gZmFsc2UKfQoKLy8gVHJ5TW92ZSDmoKHpqozlubbmiafooYznnYDms5XvvIzpnZ7ms5XliJnov5Tlm57plJnor6/kuJTkuI3mlLnlj5jlsYDpnaLjgIIKZnVuYyAoZyAqR2FtZSkgVHJ5TW92ZShtIE1vdmUpIGVycm9yIHsKCWlmIG0uRnJvbSA8IDAgfHwgbS5Gcm9tID49IFNxdWFyZXMgfHwgbS5UbyA8IDAgfHwgbS5UbyA+PSBTcXVhcmVzIHsKCQlyZXR1cm4gZm10LkVycm9yZigi552A5rOV5Z2Q5qCH6LaK55WMOiAlcyIsIG0pCgl9CglpZiAhZy5Jc0xlZ2FsKG0pIHsKCQlwIDo9IGcuQm9hcmQuU3FbbS5Gcm9tXQoJCWlmIHAuSXNFbXB0eSgpIHsKCQkJcmV0dXJuIGZtdC5FcnJvcmYoIui1t+eCuSAlcyDmsqHmnInmo4vlrZAiLCBTcXVhcmVOYW1lKG0uRnJvbSkpCgkJfQoJCWlmIHAuU2lkZSgpICE9IGcuQm9hcmQuU2lkZSB7CgkJCXJldHVybiBmbXQuRXJyb3JmKCLor6XotbAlc+aWue+8jOS9hiAlcyDkuIrmmK8lc+aWueaji+WtkCIsIHNpZGVOYW1lKGcuQm9hcmQuU2lkZSksIFNxdWFyZU5hbWUobS5Gcm9tKSwgc2lkZU5hbWUocC5TaWRlKCkpKQoJCX0KCQlyZXR1cm4gZm10LkVycm9yZigi6Z2e5rOV552A5rOVICVz77yI6K+l552A5rOV5Lya5a+86Ie06KKr5bCG5Yab5oiW5bCG5biF54Wn6Z2i77yJIiwgbSkKCX0KCWNhcHR1cmVkIDo9IGcuQm9hcmQuQXBwbHkobSkKCWcuTW92ZXMgPSBhcHBlbmQoZy5Nb3ZlcywgbSkKCWcuQ2FwdHVyZWQgPSBhcHBlbmQoZy5DYXB0dXJlZCwgY2FwdHVyZWQpCglnLktleXMgPSBhcHBlbmQoZy5LZXlzLCBnLkJvYXJkLktleSgpKQoJcmV0dXJuIG5pbAp9CgovLyBGb3JjZU1vdmUg5LiN5YGa5ZCI5rOV5oCn5qCh6aqM55u05o6l5omn6KGM552A5rOV77yI5LuF5L6b5Zue5pS+5aSW6YOo552A5rOV5bqP5YiX55qE5q2j5bi46Lev5b6E5L2/55So77yMCi8vIOiwg+eUqOaWueW6lOWFiOiHquihjOeUqCBJc0xlZ2FsIOagoemqjO+8ieOAggpmdW5jIChnICpHYW1lKSBGb3JjZU1vdmUobSBNb3ZlKSB7CgljYXB0dXJlZCA6PSBnLkJvYXJkLkFwcGx5KG0pCglnLk1vdmVzID0gYXBwZW5kKGcuTW92ZXMsIG0pCglnLkNhcHR1cmVkID0gYXBwZW5kKGcuQ2FwdHVyZWQsIGNhcHR1cmVkKQoJZy5LZXlzID0gYXBwZW5kKGcuS2V5cywgZy5Cb2FyZC5LZXkoKSkKfQoKLy8gVW5kbyDmkqTplIDkuIDmraXvvIzov5Tlm57mmK/lkKbmiJDlip/jgIIKZnVuYyAoZyAqR2FtZSkgVW5kbygpIGJvb2wgewoJbiA6PSBsZW4oZy5Nb3ZlcykKCWlmIG4gPT0gMCB7CgkJcmV0dXJuIGZhbHNlCgl9CgltIDo9IGcuTW92ZXNbbi0xXQoJY2FwIDo9IGcuQ2FwdHVyZWRbbi0xXQoJZy5Cb2FyZC5SZXZlcnQobSwgY2FwKQoJZy5Nb3ZlcyA9IGcuTW92ZXNbOm4tMV0KCWcuQ2FwdHVyZWQgPSBnLkNhcHR1cmVkWzpuLTFdCglnLktleXMgPSBnLktleXNbOm5dCglyZXR1cm4gdHJ1ZQp9CgovLyBVbmRvTiDmkqTplIDmnIDlkI4gbiDmraXjgIIKZnVuYyAoZyAqR2FtZSkgVW5kb04obiBpbnQpIHsKCWZvciBpIDo9IDA7IGkgPCBuOyBpKysgewoJCWlmICFnLlVuZG8oKSB7CgkJCXJldHVybgoJCX0KCX0KfQoKLy8gUmVzZXQg5Zue5Yiw5byA5aeL5bGA6Z2i44CCCmZ1bmMgKGcgKkdhbWUpIFJlc2V0KCkgewoJYiwgZXJyIDo9IFBhcnNlRkVOKGcuU3RhcnRGRU4pCglpZiBlcnIgIT0gbmlsIHsKCQliID0gTmV3U3RhcnRCb2FyZCgpCgl9CglnLkJvYXJkID0gYgoJZy5Nb3ZlcyA9IG5pbAoJZy5DYXB0dXJlZCA9IG5pbAoJZy5LZXlzID0gW11zdHJpbmd7Yi5LZXkoKX0KfQoKLy8gUmVwZXRpdGlvbkNvdW50IOi/lOWbnuOAjOW9k+WJjeWxgOmdoumUruOAjeWcqOWOhuWPsuS4reWHuueOsOeahOasoeaVsOOAggovLyDlkIzkuIDlsYDpnaLnrKwgMyDmrKHlh7rnjrDljbPliKTlkozvvIjlr7nlupTplb/lsIYv6ZW/5o2J5b6q546v77yM6YG/5YWN6Ieq5Yqo5a+55oiY5q275b6q546v77yJ44CCCmZ1bmMgKGcgKkdhbWUpIFJlcGV0aXRpb25Db3VudCgpIGludCB7CglpZiBsZW4oZy5LZXlzKSA9PSAwIHsKCQlyZXR1cm4gMAoJfQoJY3VyIDo9IGcuS2V5c1tsZW4oZy5LZXlzKS0xXQoJbiA6PSAwCglmb3IgXywgayA6PSByYW5nZSBnLktleXMgewoJCWlmIGsgPT0gY3VyIHsKCQkJbisrCgkJfQoJfQoJcmV0dXJuIG4KfQoKLy8gTWF4UGxpZXMg5piv6Ieq5Yqo5a+55oiY55qE56Gs5oCn552A5pWw5LiK6ZmQ77yb6LaF6L+H5Y2z5Yik5ZKM77yM5L+d6K+B5rC45LiN5peg6ZmQ5b6q546v44CCCmNvbnN0IE1heFBsaWVzID0gNDAwCgovLyBBZGp1ZGljYXRlIOWIpOWumuW9k+WJjeWxgOmdoue7k+aenOOAgui/lOWbniBQbGF5aW5nIOihqOekuuaji+WxgOe7p+e7reOAggovLwovLyDliKTlrprpobrluo/vvJoKLy8gIDEuIOaXoOWQiOazleedgOazle+8muiiq+WwhuWGmyDihpIg5bCG5q2777yI6LWw5a2Q5pa56LSf77yJ77yb5pyq6KKr5bCG5YabIOKGkiDlm7Dmr5nvvIjkuK3lm73osaHmo4vop4TliJnlkIzmoLfliKTotbDlrZDmlrnotJ/vvIkKLy8gIDIuIOWQjOS4gOWxgOmdouWHuueOsCAzIOasoSDihpIg5Yik5ZKMCi8vICAzLiDnnYDmlbDovr7liLAgTWF4UGxpZXMg4oaSIOWIpOWSjApmdW5jIChnICpHYW1lKSBBZGp1ZGljYXRlKCkgKFN0YXR1cywgc3RyaW5nKSB7CglpZiBsZW4oZy5MZWdhbE1vdmVzKCkpID09IDAgewoJCWxvc2VyIDo9IGcuQm9hcmQuU2lkZQoJCWlmIGcuQm9hcmQuSW5DaGVjayhsb3NlcikgewoJCQlpZiBsb3NlciA9PSBSZWQgewoJCQkJcmV0dXJuIEJsYWNrV2luLCAi5bCG5q27IgoJCQl9CgkJCXJldHVybiBSZWRXaW4sICLlsIbmrbsiCgkJfQoJCS8vIOWbsOavme+8muS4reWbveixoeaji+inhOWImeS4reaXoOWtkOWPr+WKqOWQjOagt+WIpOi0nwoJCWlmIGxvc2VyID09IFJlZCB7CgkJCXJldHVybiBCbGFja1dpbiwgIuWbsOavmSIKCQl9CgkJcmV0dXJuIFJlZFdpbiwgIuWbsOavmSIKCX0KCWlmIGcuUmVwZXRpdGlvbkNvdW50KCkgPj0gMyB7CgkJcmV0dXJuIERyYXcsICLkuInmrKHph43lpI3lsYDpnaLliKTlkowiCgl9CglpZiBsZW4oZy5Nb3ZlcykgPj0gTWF4UGxpZXMgewoJCXJldHVybiBEcmF3LCBmbXQuU3ByaW50Zigi6L6+5YiwICVkIOedgOS4iumZkOWIpOWSjCIsIE1heFBsaWVzKQoJfQoJcmV0dXJuIFBsYXlpbmcsICIiCn0KCi8vIEluQ2hlY2sg5b2T5YmN6LWw5a2Q5pa55piv5ZCm6KKr5bCG5Yab44CCCmZ1bmMgKGcgKkdhbWUpIEluQ2hlY2soKSBib29sIHsgcmV0dXJuIGcuQm9hcmQuSW5DaGVjayhnLkJvYXJkLlNpZGUpIH0KCi8vIEJvYXJkQXQg6L+U5Zue6LWw6L+HIHBseSDmraXkuYvlkI7nmoTlsYDpnaLvvIhwbHk9MCDljbPlvIDlp4vlsYDpnaLvvInjgIIKLy8g552A5rOV5YiX6KGo6ZyA6KaB6YCQ6KGM57uZ5Ye644CM6LWw6K+l5q2l5LmL5YmN55qE5bGA6Z2i44CN5Lul55Sf5oiQ5Lit5paH6K6w6LCx77yM5pWF5o+Q5L6b5q2k5pa55rOV44CCCmZ1bmMgKGcgKkdhbWUpIEJvYXJkQXQocGx5IGludCkgKkJvYXJkIHsKCWlmIHBseSA8IDAgewoJCXBseSA9IDAKCX0KCWlmIHBseSA+IGxlbihnLk1vdmVzKSB7CgkJcGx5ID0gbGVuKGcuTW92ZXMpCgl9CgliLCBlcnIgOj0gUGFyc2VGRU4oZy5TdGFydEZFTikKCWlmIGVyciAhPSBuaWwgewoJCWIgPSBOZXdTdGFydEJvYXJkKCkKCX0KCWZvciBpIDo9IDA7IGkgPCBwbHk7IGkrKyB7CgkJYi5BcHBseShnLk1vdmVzW2ldKQoJfQoJcmV0dXJuIGIKfQoKZnVuYyBzaWRlTmFtZShzaWRlIGludCkgc3RyaW5nIHsKCWlmIHNpZGUgPT0gUmVkIHsKCQlyZXR1cm4gIue6oiIKCX0KCXJldHVybiAi6buRIgp9CgovLyBTaWRlTmFtZSDlr7zlh7rpmLXokKXkuK3mloflkI3jgIIKZnVuYyBTaWRlTmFtZShzaWRlIGludCkgc3RyaW5nIHsgcmV0dXJuIHNpZGVOYW1lKHNpZGUpIH0K
+package rules
+
+import "fmt"
+
+// Status 表示一局棋的判定结果。
+type Status int
+
+const (
+	Playing  Status = iota // 对局进行中
+	RedWin                 // 红方胜
+	BlackWin               // 黑方胜
+	Draw                   // 和棋
+)
+
+// String 返回中文描述。
+func (s Status) String() string {
+	switch s {
+	case RedWin:
+		return "红方胜"
+	case BlackWin:
+		return "黑方胜"
+	case Draw:
+		return "和棋"
+	default:
+		return "进行中"
+	}
+}
+
+// PGNResult 返回 PGN 结果字符串。
+func (s Status) PGNResult() string {
+	switch s {
+	case RedWin:
+		return "1-0"
+	case BlackWin:
+		return "0-1"
+	case Draw:
+		return "1/2-1/2"
+	default:
+		return "*"
+	}
+}
+
+// Game 在 Board 之上维护一局棋的完整历史，供界面悔棋、曲线记录与重复局面判定使用。
+type Game struct {
+	Board    *Board
+	StartFEN string
+	Moves    []Move   // 已走着的着法
+	Captured []Piece  // Captured[i] 是 Moves[i] 吃掉的子
+	Keys     []string // Keys[i] 是走第 i 步「之前」的局面键；Keys[len(Moves)] 是当前局面键
+}
+
+// NewGame 新建一局，从标准初始局面开始。
+func NewGame() *Game {
+	b := NewStartBoard()
+	return &Game{Board: b, StartFEN: StartFEN, Keys: []string{b.Key()}}
+}
+
+// NewGameFromFEN 从指定局面新建一局（用于手动摆盘后的对弈/分析）。
+func NewGameFromFEN(fen string) (*Game, error) {
+	b, err := ParseFEN(fen)
+	if err != nil {
+		return nil, err
+	}
+	return &Game{Board: b, StartFEN: b.FEN(), Keys: []string{b.Key()}}, nil
+}
+
+// LegalMoves 返回当前局面的完全合法着法。
+func (g *Game) LegalMoves() []Move { return g.Board.LegalMoves() }
+
+// LegalTargets 返回 from 格上的棋子所有合法落点（用于点击走子高亮）。
+func (g *Game) LegalTargets(from int) []int {
+	if from < 0 || from >= Squares {
+		return nil
+	}
+	var out []int
+	for _, m := range g.LegalMoves() {
+		if m.From == from {
+			out = append(out, m.To)
+		}
+	}
+	return out
+}
+
+// IsLegal 判断着法是否完全合法。
+func (g *Game) IsLegal(m Move) bool {
+	for _, lm := range g.LegalMoves() {
+		if lm == m {
+			return true
+		}
+	}
+	return false
+}
+
+// TryMove 校验并执行着法，非法则返回错误且不改变局面。
+func (g *Game) TryMove(m Move) error {
+	if m.From < 0 || m.From >= Squares || m.To < 0 || m.To >= Squares {
+		return fmt.Errorf("着法坐标越界: %s", m)
+	}
+	if !g.IsLegal(m) {
+		p := g.Board.Sq[m.From]
+		if p.IsEmpty() {
+			return fmt.Errorf("起点 %s 没有棋子", SquareName(m.From))
+		}
+		if p.Side() != g.Board.Side {
+			return fmt.Errorf("该走%s方，但 %s 上是%s方棋子", sideName(g.Board.Side), SquareName(m.From), sideName(p.Side()))
+		}
+		return fmt.Errorf("非法着法 %s（该着法会导致被将军或将帅照面）", m)
+	}
+	captured := g.Board.Apply(m)
+	g.Moves = append(g.Moves, m)
+	g.Captured = append(g.Captured, captured)
+	g.Keys = append(g.Keys, g.Board.Key())
+	return nil
+}
+
+// ForceMove 不做合法性校验直接执行着法（仅供回放外部着法序列的正常路径使用，
+// 调用方应先自行用 IsLegal 校验）。
+func (g *Game) ForceMove(m Move) {
+	captured := g.Board.Apply(m)
+	g.Moves = append(g.Moves, m)
+	g.Captured = append(g.Captured, captured)
+	g.Keys = append(g.Keys, g.Board.Key())
+}
+
+// Undo 撤销一步，返回是否成功。
+func (g *Game) Undo() bool {
+	n := len(g.Moves)
+	if n == 0 {
+		return false
+	}
+	m := g.Moves[n-1]
+	cap := g.Captured[n-1]
+	g.Board.Revert(m, cap)
+	g.Moves = g.Moves[:n-1]
+	g.Captured = g.Captured[:n-1]
+	g.Keys = g.Keys[:n]
+	return true
+}
+
+// UndoN 撤销最后 n 步。
+func (g *Game) UndoN(n int) {
+	for i := 0; i < n; i++ {
+		if !g.Undo() {
+			return
+		}
+	}
+}
+
+// Reset 回到开始局面。
+func (g *Game) Reset() {
+	b, err := ParseFEN(g.StartFEN)
+	if err != nil {
+		b = NewStartBoard()
+	}
+	g.Board = b
+	g.Moves = nil
+	g.Captured = nil
+	g.Keys = []string{b.Key()}
+}
+
+// RepetitionCount 返回「当前局面键」在历史中出现的次数。
+// 同一局面第 3 次出现即判和（对应长将/长捉循环，避免自动对战死循环）。
+func (g *Game) RepetitionCount() int {
+	if len(g.Keys) == 0 {
+		return 0
+	}
+	cur := g.Keys[len(g.Keys)-1]
+	n := 0
+	for _, k := range g.Keys {
+		if k == cur {
+			n++
+		}
+	}
+	return n
+}
+
+// MaxPlies 是自动对战的硬性着数上限；超过即判和，保证永不无限循环。
+const MaxPlies = 400
+
+// Adjudicate 判定当前局面结果。返回 Playing 表示棋局继续。
+//
+// 判定顺序：
+//  1. 无合法着法：被将军 → 将死（走子方负）；未被将军 → 困毙（中国象棋规则同样判走子方负）
+//  2. 同一局面出现 3 次 → 判和
+//  3. 着数达到 MaxPlies → 判和
+func (g *Game) Adjudicate() (Status, string) {
+	if len(g.LegalMoves()) == 0 {
+		loser := g.Board.Side
+		if g.Board.InCheck(loser) {
+			if loser == Red {
+				return BlackWin, "将死"
+			}
+			return RedWin, "将死"
+		}
+		// 困毙：中国象棋规则中无子可动同样判负
+		if loser == Red {
+			return BlackWin, "困毙"
+		}
+		return RedWin, "困毙"
+	}
+	if g.RepetitionCount() >= 3 {
+		return Draw, "三次重复局面判和"
+	}
+	if len(g.Moves) >= MaxPlies {
+		return Draw, fmt.Sprintf("达到 %d 着上限判和", MaxPlies)
+	}
+	return Playing, ""
+}
+
+// InCheck 当前走子方是否被将军。
+func (g *Game) InCheck() bool { return g.Board.InCheck(g.Board.Side) }
+
+// BoardAt 返回走过 ply 步之后的局面（ply=0 即开始局面）。
+// 着法列表需要逐行给出「走该步之前的局面」以生成中文记谱，故提供此方法。
+func (g *Game) BoardAt(ply int) *Board {
+	if ply < 0 {
+		ply = 0
+	}
+	if ply > len(g.Moves) {
+		ply = len(g.Moves)
+	}
+	b, err := ParseFEN(g.StartFEN)
+	if err != nil {
+		b = NewStartBoard()
+	}
+	for i := 0; i < ply; i++ {
+		b.Apply(g.Moves[i])
+	}
+	return b
+}
+
+func sideName(side int) string {
+	if side == Red {
+		return "红"
+	}
+	return "黑"
+}
+
+// SideName 导出阵营中文名。
+func SideName(side int) string { return sideName(side) }

@@ -1,1 +1,65 @@
-cGFja2FnZSB1aQoKaW1wb3J0ICgKCSJpbWFnZS9jb2xvciIKCgkiZnluZS5pby9meW5lL3YyIgoJImZ5bmUuaW8vZnluZS92Mi9jYW52YXMiCgkiZnluZS5pby9meW5lL3YyL2NvbnRhaW5lciIKKQoKLy8g5pys5paH5Lu25piv55WM6Z2i57uf5LiA6aOO5qC85bGC77yI5Y2h54mHIC8g5p2hIC8g5paR6ams57q577yJ44CCCi8vCi8vIOebruagh++8iOeUqOaIt+WPjemmiOOAjOW4g+WxgOWSjOS+p+i+ueagj+S4jee+juinguOAjeOAjOeci+S4jeWHuumrmOe6p+aEn+OAje+8ie+8mgovLyAgIC0g5Y+z5L6n5L+h5oGv5piv5LiA5byg5bygKirljaHniYcqKu+8muWxguasoeW6leiJsiArIOWchuinkiArIOi9u+aKleW9se+8iOa3seiJsuearuiCpOS4i+S4jeeUqOehrOaPj+i+ue+8jAovLyAgICAg6Z2g5piO5bqm5beu5YiG5bGC5pu05YOP5LiT5Lia6L2v5Lu277yb5rWF6Imy55qu6IKk5L+d55WZ5LiA5qC55p6B57uG55qE5o+P6L6577yJ77ybCi8vICAgLSDorrDosLHooYzliqAqKuaWkemprOe6uSoq77yM6ZW/5YiX6KGo5LiA55y86IO95YiG5riF6KGM77ybCi8vICAgLSDpopzoibLkuI7lnIbop5IqKuWFqOmDqCoq5p2l6Ieq5b2T5YmN55qu6IKk77yIdGhlbWUuZ28g55qEIHBhbGV0dGXvvInvvIzov5nph4zkuI3lhpnmrbvku7vkvZXkuIDkuKrlgLwg4oCU4oCUCi8vICAgICDmjaLogqTml7bov5nkupvljaHniYfkvJrot5/nnYDmlbTkvZPlj5jvvIzkuI3kvJrlh7rnjrDljYrmiKrmjaLogqTjgIIKCi8vIGNhcmRCb3gg5oqK5YaF5a655YyF5oiQ5LiA5byg5Y2h54mH77ya5bGC5qyh5bqV6ImyICsg5ZyG6KeSICvvvIjmjInnmq7ogqTvvInnu4bmj4/ovrnmiJbovbvmipXlvbHjgIIKZnVuYyBjYXJkQm94KGNvbnRlbnQgZnluZS5DYW52YXNPYmplY3QpIGZ5bmUuQ2FudmFzT2JqZWN0IHsKCWJnIDo9IGNhbnZhcy5OZXdSZWN0YW5nbGUoY29sQ2FyZEJHKQoJYmcuQ29ybmVyUmFkaXVzID0gY29sQ2FyZFJhZGl1cwoJaWYgY29sQ2FyZExpbmUuQSAhPSAwIHsKCQliZy5TdHJva2VDb2xvciA9IGNvbENhcmRMaW5lCgkJYmcuU3Ryb2tlV2lkdGggPSAxCgl9CglpZiBjb2xDYXJkU2hhZG93LkEgIT0gMCB7CgkJLy8g5oqV5b2xID0g5bGC5qyh5oSf55qE5Li76KaB5p2l5rqQ77yITWF0ZXJpYWwg55qEIGVsZXZhdGlvbiDmgJ3ot6/vvInvvJoKCQkvLyDljYrlvoTkuI3lpKfjgIHlgY/np7vlvojlsI/vvIzlj6rkuLrorqnljaHniYci5rWuIui1t+adpeS4gOeCueeCue+8jOS4jeWWp+WuvuWkuuS4u+OAggoJCWJnLlNoYWRvdyA9IGNhbnZhcy5TaGFkb3d7CgkJCUNvbG9yOiAgICAgIGNvbENhcmRTaGFkb3csCgkJCUJsdXJSYWRpdXM6IDEyLAoJCQlPZmZzZXQ6ICAgICBmeW5lLk5ld1BvcygwLCAyKSwKCQkJVmFyaWFudDogICAgY2FudmFzLkRyb3BTaGFkb3csCgkJfQoJfQoJcmV0dXJuIGNvbnRhaW5lci5OZXdTdGFjayhiZywgY29udGFpbmVyLk5ld1BhZGRlZChjb250ZW50KSkKfQoKLy8gYmFyQm94IOe7meWGheWuuemTuuS4gOadoeW6leiJsu+8iOeUqOS6juW6lemDqOeKtuaAgeagj+i/meexu+OAjOadoeOAje+8ieOAggpmdW5jIGJhckJveChjb250ZW50IGZ5bmUuQ2FudmFzT2JqZWN0KSBmeW5lLkNhbnZhc09iamVjdCB7CgliZyA6PSBjYW52YXMuTmV3UmVjdGFuZ2xlKGNvbEJhckJHKQoJcmV0dXJuIGNvbnRhaW5lci5OZXdTdGFjayhiZywgY29udGFpbmVyLk5ld1BhZGRlZChjb250ZW50KSkKfQoKLy8gemVicmEg5oyJ6KGM5Y+357uZ5YaF5a655Z6r5LiA5bGC6ZqU6KGM5bqV6Imy77yI5aWH5pWw6KGM5omN5pyJ77yJ44CCCmZ1bmMgemVicmEobm8gaW50LCBjb250ZW50IGZ5bmUuQ2FudmFzT2JqZWN0KSBmeW5lLkNhbnZhc09iamVjdCB7CglpZiBubyUyID09IDAgewoJCXJldHVybiBjb250ZW50Cgl9CgliZyA6PSBjYW52YXMuTmV3UmVjdGFuZ2xlKGNvbFJvd0FsdCkKCXJldHVybiBjb250YWluZXIuTmV3U3RhY2soYmcsIGNvbnRlbnQpCn0KCi8vIHNjcm9sbFBhZFJpZ2h0IOe7mea7muWKqOWGheWuueWPs+S+p+mihOeVmea7muWKqOadoeWuveW6puOAggovLwovLyDkuLrku4DkuYjlv4XpobvmnInvvJrpnaLmnb/ph4zjgIznur/nqIsgLyDlk4jluIwgLyDlgJnpgInmpoLnjofjgI3ov5nkupvmlbDlgLzpg73mmK8qKuWPs+Wvuem9kCoq55qE77yMCi8vIOiAjCBjb250YWluZXIuVlNjcm9sbCDnmoTmu5rliqjmnaHmta7lnKjlhoXlrrnlj7PnvJjkuIrigJTigJTkuI3pooTnlZnnmoTor53vvIzmlbDlgLzkvJrooqvmu5rliqjmnaEKLy8g5Y6L5L2P55Sa6Iez5YiH5o6J5Y2K5Liq5a2X77yI55So5oi355yL5Yiw44CMNCDnur/nqIvjgI3jgIwzMy4wJeOAjeiiq+ijge+8ieOAggpmdW5jIHNjcm9sbFBhZFJpZ2h0KGNvbnRlbnQgZnluZS5DYW52YXNPYmplY3QpIGZ5bmUuQ2FudmFzT2JqZWN0IHsKCXNwIDo9IGNhbnZhcy5OZXdSZWN0YW5nbGUoY29sb3IuVHJhbnNwYXJlbnQpCglzcC5TZXRNaW5TaXplKGZ5bmUuTmV3U2l6ZSgxNiwgMSkpCglyZXR1cm4gY29udGFpbmVyLk5ld0JvcmRlcihuaWwsIG5pbCwgbmlsLCBzcCwgY29udGVudCkKfQo=
+package ui
+
+import (
+	"image/color"
+
+	"fyne.io/fyne/v2"
+	"fyne.io/fyne/v2/canvas"
+	"fyne.io/fyne/v2/container"
+)
+
+// 本文件是界面统一风格层（卡片 / 条 / 斑马纹）。
+//
+// 目标（用户反馈「布局和侧边栏不美观」「看不出高级感」）：
+//   - 右侧信息是一张张**卡片**：层次底色 + 圆角 + 轻投影（深色皮肤下不用硬描边，
+//     靠明度差分层更像专业软件；浅色皮肤保留一根极细的描边）；
+//   - 记谱行加**斑马纹**，长列表一眼能分清行；
+//   - 颜色与圆角**全部**来自当前皮肤（theme.go 的 palette），这里不写死任何一个值 ——
+//     换肤时这些卡片会跟着整体变，不会出现半截换肤。
+
+// cardBox 把内容包成一张卡片：层次底色 + 圆角 +（按皮肤）细描边或轻投影。
+func cardBox(content fyne.CanvasObject) fyne.CanvasObject {
+	bg := canvas.NewRectangle(colCardBG)
+	bg.CornerRadius = colCardRadius
+	if colCardLine.A != 0 {
+		bg.StrokeColor = colCardLine
+		bg.StrokeWidth = 1
+	}
+	if colCardShadow.A != 0 {
+		// 投影 = 层次感的主要来源（Material 的 elevation 思路）：
+		// 半径不大、偏移很小，只为让卡片"浮"起来一点点，不喧宾夺主。
+		bg.Shadow = canvas.Shadow{
+			Color:      colCardShadow,
+			BlurRadius: 12,
+			Offset:     fyne.NewPos(0, 2),
+			Variant:    canvas.DropShadow,
+		}
+	}
+	return container.NewStack(bg, container.NewPadded(content))
+}
+
+// barBox 给内容铺一条底色（用于底部状态栏这类「条」）。
+func barBox(content fyne.CanvasObject) fyne.CanvasObject {
+	bg := canvas.NewRectangle(colBarBG)
+	return container.NewStack(bg, container.NewPadded(content))
+}
+
+// zebra 按行号给内容垫一层隔行底色（奇数行才有）。
+func zebra(no int, content fyne.CanvasObject) fyne.CanvasObject {
+	if no%2 == 0 {
+		return content
+	}
+	bg := canvas.NewRectangle(colRowAlt)
+	return container.NewStack(bg, content)
+}
+
+// scrollPadRight 给滚动内容右侧预留滚动条宽度。
+//
+// 为什么必须有：面板里「线程 / 哈希 / 候选概率」这些数值都是**右对齐**的，
+// 而 container.VScroll 的滚动条浮在内容右缘上——不预留的话，数值会被滚动条
+// 压住甚至切掉半个字（用户看到「4 线程」「33.0%」被裁）。
+func scrollPadRight(content fyne.CanvasObject) fyne.CanvasObject {
+	sp := canvas.NewRectangle(color.Transparent)
+	sp.SetMinSize(fyne.NewSize(16, 1))
+	return container.NewBorder(nil, nil, nil, sp, content)
+}

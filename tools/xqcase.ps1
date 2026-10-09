@@ -1,1 +1,58 @@
-cGFyYW0oCiAgICBbUGFyYW1ldGVyKE1hbmRhdG9yeT0kdHJ1ZSldW3N0cmluZ10kQ2ZnLAogICAgW1BhcmFtZXRlcihNYW5kYXRvcnk9JHRydWUpXVtzdHJpbmddJE5hbWUsCiAgICBbaW50XSRRdWl0ID0gNTAsCiAgICBbc3RyaW5nXSRNb2RlID0gJ2h1bWFuJywKICAgIFtzdHJpbmddJE1vdmVzID0gJ2gyZTInLAogICAgW3N0cmluZ10kTWF4U3RyZW5ndGggPSAnJywKICAgIFtzdHJpbmddJEJlbmNoID0gJycsCiAgICBbaW50XSRCZW5jaERlbGF5ID0gMywKICAgIFtzdHJpbmddJE1vdmVzMiA9ICcnLAogICAgW2ludF0kTW92ZXMyRGVsYXkgPSAxMiwKICAgIFtzd2l0Y2hdJERpYWcKKQoKJHJvb3QgPSAnQzpc5pyA5by66LGh5qOL6L2v5Lu257O757ufJwpTZXQtTG9jYXRpb24gJHJvb3QKCiRlbnY6WFFfQ09ORklHID0gJENmZwokZW52OlhRX01PREUgPSAkTW9kZQokZW52OlhRX01PVkVTID0gJE1vdmVzCiRlbnY6WFFfUVVJVCA9ICIkUXVpdCIKaWYgKCREaWFnKSB7ICRlbnY6WFFfRElBRyA9ICcxJyB9IGVsc2UgeyBSZW1vdmUtSXRlbSBlbnY6WFFfRElBRyAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSB9CmlmICgkTWF4U3RyZW5ndGgpIHsgJGVudjpYUV9NQVhTVFJFTkdUSCA9ICRNYXhTdHJlbmd0aCB9IGVsc2UgeyBSZW1vdmUtSXRlbSBlbnY6WFFfTUFYU1RSRU5HVEggLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUgfQppZiAoJEJlbmNoKSB7ICRlbnY6WFFfQkVOQ0ggPSAkQmVuY2g7ICRlbnY6WFFfQkVOQ0hfREVMQVkgPSAiJEJlbmNoRGVsYXkiIH0gZWxzZSB7IFJlbW92ZS1JdGVtIGVudjpYUV9CRU5DSCwgZW52OlhRX0JFTkNIX0RFTEFZIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlIH0KaWYgKCRNb3ZlczIpIHsgJGVudjpYUV9NT1ZFUzIgPSAkTW92ZXMyOyAkZW52OlhRX01PVkVTMl9ERUxBWSA9ICIkTW92ZXMyRGVsYXkiIH0gZWxzZSB7IFJlbW92ZS1JdGVtIGVudjpYUV9NT1ZFUzIsIGVudjpYUV9NT1ZFUzJfREVMQVkgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUgfQoKJGVyciA9IEpvaW4tUGF0aCAkcm9vdCAiX3ZlcmlmeVwkTmFtZS5lcnIiCiRvdXQgPSBKb2luLVBhdGggJHJvb3QgIl92ZXJpZnlcJE5hbWUub3V0IgpSZW1vdmUtSXRlbSAkZXJyLCAkb3V0IC1Gb3JjZSAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZQoKJHQwID0gR2V0LURhdGUKJHAgPSBTdGFydC1Qcm9jZXNzIC1GaWxlUGF0aCAiJHJvb3RcX3Nob3RzLmV4ZSIgLVdvcmtpbmdEaXJlY3RvcnkgJHJvb3QgLVBhc3NUaHJ1IC1SZWRpcmVjdFN0YW5kYXJkRXJyb3IgJGVyciAtUmVkaXJlY3RTdGFuZGFyZE91dHB1dCAkb3V0CldyaXRlLU91dHB1dCAic3RhcnRlZCBfc2hvdHMuZXhlIHBpZD0kKCRwLklkKSBjZmc9JENmZyBxdWl0PSR7UXVpdH1zIgoKJHNhbXBsZXMgPSBOZXctT2JqZWN0IFN5c3RlbS5Db2xsZWN0aW9ucy5BcnJheUxpc3QKJGRlYWRsaW5lID0gJHQwLkFkZFNlY29uZHMoJFF1aXQpCndoaWxlICgoR2V0LURhdGUpIC1sdCAkZGVhZGxpbmUgLWFuZCAtbm90ICRwLkhhc0V4aXRlZCkgewogICAgU3RhcnQtU2xlZXAgLU1pbGxpc2Vjb25kcyAxNTAwCiAgICAka2lkcyA9IEAoR2V0LUNpbUluc3RhbmNlIFdpbjMyX1Byb2Nlc3MgLUZpbHRlciAiUGFyZW50UHJvY2Vzc0lkPSQoJHAuSWQpIiAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSB8CiAgICAgICAgICAgICAgV2hlcmUtT2JqZWN0IHsgJF8uTmFtZSAtbGlrZSAnUGlrYWZpc2gqJyB9KQogICAgZm9yZWFjaCAoJGsgaW4gJGtpZHMpIHsKICAgICAgICAkcHIgPSBHZXQtUHJvY2VzcyAtSWQgJGsuUHJvY2Vzc0lkIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCiAgICAgICAgaWYgKCRwcikgewogICAgICAgICAgICAkYWZmID0gMAogICAgICAgICAgICB0cnkgeyAkYWZmID0gJHByLlByb2Nlc3NvckFmZmluaXR5LlRvSW50NjQoKSB9IGNhdGNoIHsgfQogICAgICAgICAgICAkbnVsbCA9ICRzYW1wbGVzLkFkZCgoInQ9ezAsMzpOMH1zIHBpZD17MX0gdGhyPXsyLDJ9IHByaT17MywtMTJ9IGFmZj0weHs0Olh9IGNwdT17NSw3Ok4xfXMgd3M9ezYsNX1NQiIgLWYgYAogICAgICAgICAgICAgICAgKChHZXQtRGF0ZSkgLSAkdDApLlRvdGFsU2Vjb25kcywgJHByLklkLCAkcHIuVGhyZWFkcy5Db3VudCwgJHByLlByaW9yaXR5Q2xhc3MsICRhZmYsICRwci5DUFUsIFtpbnRdKCRwci5Xb3JraW5nU2V0NjQgLyAxTUIpKSkKICAgICAgICB9CiAgICB9Cn0KCmlmICgtbm90ICRwLkhhc0V4aXRlZCkgeyBTdG9wLVByb2Nlc3MgLUlkICRwLklkIC1Gb3JjZSB9ClN0YXJ0LVNsZWVwIC1NaWxsaXNlY29uZHMgNTAwCgpXcml0ZS1PdXRwdXQgIj09PSBfc2hvdHMgZW5naW5lIHByb2Nlc3Mgc2FtcGxlcyAoZXZlcnkgcm93KSA9PT0iCmZvcmVhY2ggKCRzIGluICRzYW1wbGVzKSB7IFdyaXRlLU91dHB1dCAkcyB9CldyaXRlLU91dHB1dCAiPT09IHN0ZGVyciB0YWlsID09PSIKaWYgKFRlc3QtUGF0aCAkZXJyKSB7IEdldC1Db250ZW50ICRlcnIgfCBTZWxlY3QtT2JqZWN0IC1MYXN0IDQwIH0K
+param(
+    [Parameter(Mandatory=$true)][string]$Cfg,
+    [Parameter(Mandatory=$true)][string]$Name,
+    [int]$Quit = 50,
+    [string]$Mode = 'human',
+    [string]$Moves = 'h2e2',
+    [string]$MaxStrength = '',
+    [string]$Bench = '',
+    [int]$BenchDelay = 3,
+    [string]$Moves2 = '',
+    [int]$Moves2Delay = 12,
+    [switch]$Diag
+)
+
+$root = 'C:\最强象棋软件系统'
+Set-Location $root
+
+$env:XQ_CONFIG = $Cfg
+$env:XQ_MODE = $Mode
+$env:XQ_MOVES = $Moves
+$env:XQ_QUIT = "$Quit"
+if ($Diag) { $env:XQ_DIAG = '1' } else { Remove-Item env:XQ_DIAG -ErrorAction SilentlyContinue }
+if ($MaxStrength) { $env:XQ_MAXSTRENGTH = $MaxStrength } else { Remove-Item env:XQ_MAXSTRENGTH -ErrorAction SilentlyContinue }
+if ($Bench) { $env:XQ_BENCH = $Bench; $env:XQ_BENCH_DELAY = "$BenchDelay" } else { Remove-Item env:XQ_BENCH, env:XQ_BENCH_DELAY -ErrorAction SilentlyContinue }
+if ($Moves2) { $env:XQ_MOVES2 = $Moves2; $env:XQ_MOVES2_DELAY = "$Moves2Delay" } else { Remove-Item env:XQ_MOVES2, env:XQ_MOVES2_DELAY -ErrorAction SilentlyContinue }
+
+$err = Join-Path $root "_verify\$Name.err"
+$out = Join-Path $root "_verify\$Name.out"
+Remove-Item $err, $out -Force -ErrorAction SilentlyContinue
+
+$t0 = Get-Date
+$p = Start-Process -FilePath "$root\_shots.exe" -WorkingDirectory $root -PassThru -RedirectStandardError $err -RedirectStandardOutput $out
+Write-Output "started _shots.exe pid=$($p.Id) cfg=$Cfg quit=${Quit}s"
+
+$samples = New-Object System.Collections.ArrayList
+$deadline = $t0.AddSeconds($Quit)
+while ((Get-Date) -lt $deadline -and -not $p.HasExited) {
+    Start-Sleep -Milliseconds 1500
+    $kids = @(Get-CimInstance Win32_Process -Filter "ParentProcessId=$($p.Id)" -ErrorAction SilentlyContinue |
+              Where-Object { $_.Name -like 'Pikafish*' })
+    foreach ($k in $kids) {
+        $pr = Get-Process -Id $k.ProcessId -ErrorAction SilentlyContinue
+        if ($pr) {
+            $aff = 0
+            try { $aff = $pr.ProcessorAffinity.ToInt64() } catch { }
+            $null = $samples.Add(("t={0,3:N0}s pid={1} thr={2,2} pri={3,-12} aff=0x{4:X} cpu={5,7:N1}s ws={6,5}MB" -f `
+                ((Get-Date) - $t0).TotalSeconds, $pr.Id, $pr.Threads.Count, $pr.PriorityClass, $aff, $pr.CPU, [int]($pr.WorkingSet64 / 1MB)))
+        }
+    }
+}
+
+if (-not $p.HasExited) { Stop-Process -Id $p.Id -Force }
+Start-Sleep -Milliseconds 500
+
+Write-Output "=== _shots engine process samples (every row) ==="
+foreach ($s in $samples) { Write-Output $s }
+Write-Output "=== stderr tail ==="
+if (Test-Path $err) { Get-Content $err | Select-Object -Last 40 }

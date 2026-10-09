@@ -1,1 +1,697 @@
-Ly8gUGFja2FnZSBtYXRjaCDlrp7njrDjgIzlvJXmk47oh6rliqjlr7nmiJjjgI3vvJrkuKTkuKrlvJXmk47lrZDov5vnqIvkuLLooYzkuqTmm7/otbDlrZDjgIHop4TliJnmoKHpqozjgIEKLy8g6IOc6LSf5Yik5a6a44CB5qOL6LCx5LiO5oql5ZGK55Sf5oiQ44CCCi8vCi8vIOW5tuWPkeaooeWei++8mgovLwovLwlSdW5uZXIuUnVuIOi/kOihjOWcqOS4gOS4queLrOeriyBnb3JvdXRpbmUg5Lit77yM6YCa6L+HIEV2ZW50cyBjaGFubmVsIOWQkSBVSSDmjqjpgIHkuovku7bvvJsKLy8J5Lik5Liq5byV5pOO5a6i5oi356uv5ZCE6Ieq5oul5pyJ54us56uL55qE6K+75Y+WIGdvcm91dGluZe+8jOS6kuS4jeW9seWTje+8mwovLwnku7vkuIDlvJXmk47ltKnmuoPlj6rliKTor6XlsYDotJ/vvIzkuI3kvJrmi5blnq7lj6bkuIDkuKrlvJXmk47vvIzkuZ/kuI3kvJrorqkgUnVubmVyIOWNoeatu+OAggovLwovLyDliKTotJ/op4TliJnvvIjkuI7pnIDmsYLkuIDoh7TnmoTnoazmgKfnuqbmnZ/vvInvvJoKLy8gICAtIGJlc3Rtb3ZlIOmdnuazle+8iOagvOW8j+mUmeivryAvIOS4jeespuWQiOS4reWbveixoeaji+inhOWIme+8ieKGkiDor6Xmlrnnq4vljbPliKTotJ/vvJsKLy8gICAtIGJlc3Rtb3ZlIOS4uiBub25lLzAwMDAg4oaSIOivpeaWueeri+WNs+WIpOi0n++8mwovLyAgIC0g5byV5pOO5oCd6ICD6LaF5pe25oiW6L+b56iL5bSp5rqDIOKGkiDor6Xmlrnnq4vljbPliKTotJ/vvJsKLy8gICAtIOaXoOWQiOazleedgOazle+8muiiq+WwhuWGm+S4uuOAjOWwhuatu+OAjeOAgeacquiiq+WwhuWGm+S4uuOAjOWbsOavmeOAje+8jOS4reWbveixoeaji+inhOWImeS4i+Wdh+S4uui1sOWtkOaWuei0n++8mwovLyAgIC0g5ZCM5LiA5bGA6Z2i5Ye6546wIDMg5qyhIOKGkiDliKTlkozvvJvovr7liLDnnYDmlbDkuIrpmZAg4oaSIOWIpOWSjOOAgue7neS4jeaXoOmZkOW+queOr+OAggpwYWNrYWdlIG1hdGNoCgppbXBvcnQgKAoJImNvbnRleHQiCgkiZm10IgoJInBhdGgvZmlsZXBhdGgiCgkic3RyaW5ncyIKCSJzeW5jIgoJInN5bmMvYXRvbWljIgoJInRpbWUiCgoJInhpYW5ncWkvYW5hbHl0aWNzIgoJInhpYW5ncWkvZW5naW5lIgoJInhpYW5ncWkvbm90YXRpb24iCgkieGlhbmdxaS9ydWxlcyIKKQoKLy8gRXZlbnRUeXBlIOaYryBSdW5uZXIg5o6o6YCB55qE5LqL5Lu257G75Z6L44CCCnR5cGUgRXZlbnRUeXBlIGludAoKY29uc3QgKAoJRXZNYXRjaFN0YXJ0IEV2ZW50VHlwZSA9IGlvdGEgLy8g5a+55oiY5byA5aeLCglFdkdhbWVTdGFydCAgICAgICAgICAgICAgICAgICAvLyDkuIDlsYDlvIDlp4sKCUV2TW92ZSAgICAgICAgICAgICAgICAgICAgICAgIC8vIOi1sOS6huS4gOatpQoJRXZHYW1lRW5kICAgICAgICAgICAgICAgICAgICAgLy8g5LiA5bGA57uT5p2fCglFdk1hdGNoRW5kICAgICAgICAgICAgICAgICAgICAvLyDlhajpg6jnu5PmnZ/vvIjpmYTmiqXlkYrvvIkKCUV2RXJyb3IgICAgICAgICAgICAgICAgICAgICAgIC8vIOWHuumUme+8iOS4jeiHtOWRve+8iQoJRXZTdGF0dXMgICAgICAgICAgICAgICAgICAgICAgLy8g54q25oCB5paH5pysCikKCi8vIE1vdmVSZWNvcmQg6K6w5b2V5LiA5q2l5qOL55qE5a6M5pW05L+h5oGv44CCCnR5cGUgTW92ZVJlY29yZCBzdHJ1Y3QgewoJUGx5ICAgICAgaW50ICAgICAgICAgICAgIGBqc29uOiJwbHkiYAoJU2lkZSAgICAgc3RyaW5nICAgICAgICAgIGBqc29uOiJzaWRlImAgICAvLyAicmVkIiAvICJibGFjayIKCUVuZ2luZSAgIHN0cmluZyAgICAgICAgICBganNvbjoiZW5naW5lImAgLy8g6LWw5a2Q5byV5pOO5ZCNCglVQ0kgICAgICBzdHJpbmcgICAgICAgICAgYGpzb246InVjaSJgCglDaGluZXNlICBzdHJpbmcgICAgICAgICAgYGpzb246ImNoaW5lc2UiYAoJU2NvcmUgICAgYW5hbHl0aWNzLlNjb3JlIGBqc29uOiJzY29yZSJgCglEZXB0aCAgICBpbnQgICAgICAgICAgICAgYGpzb246ImRlcHRoImAKCU5vZGVzICAgIGludDY0ICAgICAgICAgICBganNvbjoibm9kZXMiYAoJTlBTICAgICAgaW50NjQgICAgICAgICAgIGBqc29uOiJucHMiYAoJRW5naW5lTVMgaW50NjQgICAgICAgICAgIGBqc29uOiJlbmdpbmVfbXMiYCAvLyDlvJXmk47oh6rmiqXmgJ3ogIPml7bpl7QKCVdhbGxNUyAgIGludDY0ICAgICAgICAgICBganNvbjoid2FsbF9tcyJgICAgLy8g5pys6L2v5Lu25a6e5rWL6ICX5pe2CglCZXN0ICAgICBib29sICAgICAgICAgICAgYGpzb246ImJlc3QiYCAgICAgIC8vIOaYr+WQpuS4juW8leaTjummlumAieS4gOiHtAp9CgovLyBHYW1lUmVjb3JkIOaYr+S4gOWxgOaji+eahOWujOaVtOiusOW9leOAggp0eXBlIEdhbWVSZWNvcmQgc3RydWN0IHsKCUluZGV4ICAgICBpbnQKCVJlZE5hbWUgICBzdHJpbmcKCUJsYWNrTmFtZSBzdHJpbmcKCVJlZElzU2VsZiBib29sCglTdGFydEZFTiAgc3RyaW5nCglUaW1lQ3RybCAgc3RyaW5nCglEYXRlICAgICAgc3RyaW5nCglSZXN1bHQgICAgcnVsZXMuU3RhdHVzCglSZWFzb24gICAgc3RyaW5nCglNb3ZlcyAgICAgW11Nb3ZlUmVjb3JkCglQR05QYXRoICAgc3RyaW5nCglFbmRlZEF0ICAgdGltZS5UaW1lCn0KCi8vIFJlc3VsdFRleHQg6L+U5ZueIFBHTiDnu5PmnpzkuLLjgIIKZnVuYyAoZyAqR2FtZVJlY29yZCkgUmVzdWx0VGV4dCgpIHN0cmluZyB7IHJldHVybiBnLlJlc3VsdC5QR05SZXN1bHQoKSB9CgovLyBSZXN1bHRDTiDov5Tlm57kuK3mlofnu5PmnpzjgIIKZnVuYyAoZyAqR2FtZVJlY29yZCkgUmVzdWx0Q04oKSBzdHJpbmcgewoJc3dpdGNoIGcuUmVzdWx0IHsKCWNhc2UgcnVsZXMuUmVkV2luOgoJCWlmIGcuUmVkSXNTZWxmIHsKCQkJcmV0dXJuICLlt7Hmlrnog5wiCgkJfQoJCXJldHVybiAi5a+55omL6IOcIgoJY2FzZSBydWxlcy5CbGFja1dpbjoKCQlpZiBnLlJlZElzU2VsZiB7CgkJCXJldHVybiAi5a+55omL6IOcIgoJCX0KCQlyZXR1cm4gIuW3seaWueiDnCIKCWRlZmF1bHQ6CgkJcmV0dXJuICLlkozmo4siCgl9Cn0KCi8vIE9wdGlvbnMg5piv5a+55oiY6K6+572u44CCCnR5cGUgT3B0aW9ucyBzdHJ1Y3QgewoJR2FtZXMgICAgICAgICAgIGludCAgICAgICAgICAvLyDlr7nlsYDmlbAKCUxpbWl0U2VsZiAgICAgICBlbmdpbmUuTGltaXQgLy8g5bex5pa55byV5pOO5oCd6ICD6ZmQ5Yi2CglMaW1pdE9wcCAgICAgICAgZW5naW5lLkxpbWl0IC8vIOWvueaJi+W8leaTjuaAneiAg+mZkOWItgoJU2VsZlRocmVhZHMgICAgIGludAoJU2VsZkhhc2ggICAgICAgIGludAoJT3BwVGhyZWFkcyAgICAgIGludAoJT3BwSGFzaCAgICAgICAgIGludAoJQWx0ZXJuYXRlQ29sb3JzIGJvb2wKCU91dHB1dERpciAgICAgICBzdHJpbmcgLy8g5qOL6LCx5LiO5oql5ZGK55qE6L6T5Ye655uu5b2VCglNb3ZlVGltZW91dCAgICAgdGltZS5EdXJhdGlvbgp9CgovLyBTaWRlU3RhdHMg5piv5oyJ5YWI5ZCO5omL5YiG5YiX55qE5oiY57up44CCCnR5cGUgU2lkZVN0YXRzIHN0cnVjdCB7CglHYW1lcyAgaW50CglXaW5zICAgaW50CglEcmF3cyAgaW50CglMb3NzZXMgaW50Cn0KCi8vIFJlcG9ydCDmmK/lr7nmiJjmiqXlkYrjgIIKdHlwZSBSZXBvcnQgc3RydWN0IHsKCVRvdGFsICAgICAgIGludAoJU2VsZldpbnMgICAgaW50CglEcmF3cyAgICAgICBpbnQKCVNlbGZMb3NzZXMgIGludAoJU2VsZldpblJhdGUgZmxvYXQ2NCAvLyDog5znjofvvIjog5wgKyAwLjUq5ZKM77yJLyDmgLvlsYDmlbAKCUFzUmVkICAgICAgIFNpZGVTdGF0cwoJQXNCbGFjayAgICAgU2lkZVN0YXRzCgoJQXZnRGVwdGhTZWxmIGZsb2F0NjQKCUF2Z0RlcHRoT3BwICBmbG9hdDY0CglBdmdOUFNTZWxmICAgZmxvYXQ2NAoJQXZnTlBTT3BwICAgIGZsb2F0NjQKCUF2Z05vZGVzU2VsZiBmbG9hdDY0CglBdmdOb2Rlc09wcCAgZmxvYXQ2NAoKCVNlbGZOYW1lIHN0cmluZwoJT3BwTmFtZSAgc3RyaW5nCglMaW1pdENOICBzdHJpbmcKCUVsYXBzZWQgIHRpbWUuRHVyYXRpb24KCUdhbWVzICAgIFtdKkdhbWVSZWNvcmQKCUZpbGVQYXRoIHN0cmluZwoJRGlyICAgICAgc3RyaW5nCn0KCi8vIEV2ZW50IOaYryBSdW5uZXIg5o6o6YCB57uZ55WM6Z2i55qE5LqL5Lu244CCCnR5cGUgRXZlbnQgc3RydWN0IHsKCVR5cGUgICAgICAgRXZlbnRUeXBlCglHYW1lSW5kZXggIGludAoJVG90YWxHYW1lcyBpbnQKCVNlbGZXaW5zICAgaW50CglEcmF3cyAgICAgIGludAoJU2VsZkxvc3NlcyBpbnQKCUJvYXJkICAgICAgKnJ1bGVzLkJvYXJkIC8vIOW9k+WJjeWxgOmdouW/q+eFp++8iEV2TW92ZSAvIEV2R2FtZVN0YXJ077yJCglNb3ZlICAgICAgIE1vdmVSZWNvcmQKCUdhbWUgICAgICAgKkdhbWVSZWNvcmQKCVJlcG9ydCAgICAgKlJlcG9ydAoJTWVzc2FnZSAgICBzdHJpbmcKCUVyciAgICAgICAgZXJyb3IKfQoKLy8gUnVubmVyIOmpseWKqOaVtOWcuuiHquWKqOWvueaImOOAggp0eXBlIFJ1bm5lciBzdHJ1Y3QgewoJLy8gc3dhcHBlZO+8mueUqOaIt+eCuei/h+OAjOS6pOaNouWPjOaWueW8leaTjuOAjeS5i+WQjuS4uuecn++8iOingSBTd2FwU2lkZXPvvIkKCXN3YXBwZWQgYXRvbWljLkJvb2wKCW11ICAgICAgc3luYy5NdXRleAoJb3B0cyAgICBPcHRpb25zCglzZWxmICAgIGVuZ2luZS5FbmdpbmVFbnRyeQoJb3BwICAgICBlbmdpbmUuRW5naW5lRW50cnkKCWV2ZW50cyAgY2hhbiBFdmVudAoJcGF1c2VDaCBjaGFuIHN0cnVjdHt9IC8vIOaaguWBnOmXuOmXqO+8muWFs+mXrSA9IOaaguWBnOS4rQoJc3RvcENoICBjaGFuIHN0cnVjdHt9CglzdG9wcGVkIGJvb2wKCXBhdXNlZCAgYm9vbAoJY2xpZW50cyBbMl0qZW5naW5lLkNsaWVudCAvLyAwPeW3seaWuSAxPeWvueaJiwoJc2NvcmUgICBbM11pbnQgICAgICAgICAgICAvLyDlt7Hmlrnog5wv5ZKML+i0nwoJcmVjb3JkcyBbXSpHYW1lUmVjb3JkCglzdGFydEF0IHRpbWUuVGltZQoJb25Eb25lICBmdW5jKCpSZXBvcnQpCn0KCi8vIE5ldyDliJvlu7ogUnVubmVy44CCCmZ1bmMgTmV3KHNlbGYsIG9wcCBlbmdpbmUuRW5naW5lRW50cnksIG9wdHMgT3B0aW9ucykgKlJ1bm5lciB7CglpZiBvcHRzLkdhbWVzIDwgMSB7CgkJb3B0cy5HYW1lcyA9IDEKCX0KCWlmIG9wdHMuTW92ZVRpbWVvdXQgPD0gMCB7CgkJb3B0cy5Nb3ZlVGltZW91dCA9IDEwICogdGltZS5NaW51dGUKCX0KCXJldHVybiAmUnVubmVyewoJCW9wdHM6ICAgIG9wdHMsCgkJc2VsZjogICAgc2VsZiwKCQlvcHA6ICAgICBvcHAsCgkJZXZlbnRzOiAgbWFrZShjaGFuIEV2ZW50LCAyNTYpLAoJCXBhdXNlQ2g6IG1ha2UoY2hhbiBzdHJ1Y3R7fSksCgkJc3RvcENoOiAgbWFrZShjaGFuIHN0cnVjdHt9KSwKCX0KfQoKLy8gRXZlbnRzIOi/lOWbnuS6i+S7tumAmumBk++8iOWuuemHjyAyNTbvvIzmtojotLnnq6/lv4XpobvlnKjni6znq4sgZ29yb3V0aW5lIOS4reaMgee7reivu+WPlu+8ieOAggpmdW5jIChyICpSdW5uZXIpIEV2ZW50cygpIDwtY2hhbiBFdmVudCB7IHJldHVybiByLmV2ZW50cyB9CgovLyBVcGRhdGVPcHRpb25zIOWcqOWvueaImOi/m+ihjOS4reabtOaWsOiuvue9ru+8iOWvueWxgOaVsOOAgeaXtumXtOaOp+WItuOAgee6v+eoi+OAgeWTiOW4jOWcqCoq5LiL5LiA5bGAKirnlJ/mlYjvvInjgIIKZnVuYyAociAqUnVubmVyKSBVcGRhdGVPcHRpb25zKGZuIGZ1bmMoKk9wdGlvbnMpKSB7CglyLm11LkxvY2soKQoJZm4oJnIub3B0cykKCXIubXUuVW5sb2NrKCkKfQoKLy8gUGF1c2Ug5pqC5YGc77yI5b2T5YmN5q2l6LWw5a6M5ZCO5YGc5Zyo5Y6f5Zyw77yJ44CCCmZ1bmMgKHIgKlJ1bm5lcikgUGF1c2UoKSB7CglyLm11LkxvY2soKQoJZGVmZXIgci5tdS5VbmxvY2soKQoJaWYgIXIucGF1c2VkIHsKCQlyLnBhdXNlZCA9IHRydWUKCQljbG9zZShyLnBhdXNlQ2gpCgl9Cn0KCi8vIFJlc3VtZSDnu6fnu63jgIIKZnVuYyAociAqUnVubmVyKSBSZXN1bWUoKSB7CglyLm11LkxvY2soKQoJZGVmZXIgci5tdS5VbmxvY2soKQoJaWYgci5wYXVzZWQgewoJCXIucGF1c2VkID0gZmFsc2UKCQlyLnBhdXNlQ2ggPSBtYWtlKGNoYW4gc3RydWN0e30pCgl9Cn0KCi8vIFBhdXNlZCDov5Tlm57mmK/lkKbmmoLlgZzkuK3jgIIKZnVuYyAociAqUnVubmVyKSBQYXVzZWQoKSBib29sIHsKCXIubXUuTG9jaygpCglkZWZlciByLm11LlVubG9jaygpCglyZXR1cm4gci5wYXVzZWQKfQoKLy8gU3RvcCDnu4jmraLlr7nmiJjvvIjlt7LlrozmiJDnmoTlr7nlsYDkuI7miqXlkYrkvJrkv53nlZnvvInjgIIKZnVuYyAociAqUnVubmVyKSBTdG9wKCkgewoJci5tdS5Mb2NrKCkKCWRlZmVyIHIubXUuVW5sb2NrKCkKCWlmICFyLnN0b3BwZWQgewoJCXIuc3RvcHBlZCA9IHRydWUKCQljbG9zZShyLnN0b3BDaCkKCX0KfQoKLy8gU3RvcHBlZCDov5Tlm57mmK/lkKblt7Lor7fmsYLnu4jmraLjgIIKZnVuYyAociAqUnVubmVyKSBTdG9wcGVkKCkgYm9vbCB7CglyLm11LkxvY2soKQoJZGVmZXIgci5tdS5VbmxvY2soKQoJcmV0dXJuIHIuc3RvcHBlZAp9CgovLyB3YWl0R2F0ZSDlnKjmmoLlgZzpl7jpl6jlpITnrYnlvoXvvJvov5Tlm54gZmFsc2Ug6KGo56S65bey6KKr6KaB5rGC57uI5q2i44CCCmZ1bmMgKHIgKlJ1bm5lcikgd2FpdEdhdGUoY3R4IGNvbnRleHQuQ29udGV4dCkgYm9vbCB7Cglmb3IgewoJCXIubXUuTG9jaygpCgkJcGF1c2VkLCBzdG9wcGVkIDo9IHIucGF1c2VkLCByLnN0b3BwZWQKCQlnYXRlIDo9IHIucGF1c2VDaAoJCXIubXUuVW5sb2NrKCkKCQlpZiBzdG9wcGVkIHsKCQkJcmV0dXJuIGZhbHNlCgkJfQoJCWlmICFwYXVzZWQgewoJCQlyZXR1cm4gdHJ1ZQoJCX0KCQlzZWxlY3QgewoJCWNhc2UgPC1nYXRlOgoJCWNhc2UgPC1jdHguRG9uZSgpOgoJCQlyZXR1cm4gZmFsc2UKCQl9Cgl9Cn0KCmZ1bmMgKHIgKlJ1bm5lcikgZW1pdChldiBFdmVudCkgewoJc2VsZWN0IHsKCWNhc2Ugci5ldmVudHMgPC0gZXY6CgljYXNlIDwtdGltZS5BZnRlcigzICogdGltZS5TZWNvbmQpOgoJCS8vIOa2iOi0ueerr+W8guW4uOaXtuS4jeiuqSBSdW5uZXIg5rC45LmF6Zi75aGeCgl9Cn0KCi8vIFJ1biDmiafooYzmlbTlnLrlr7nmiJjjgILlv4XpobvlnKjni6znq4sgZ29yb3V0aW5lIOS4reiwg+eUqO+8m+e7k+adn+aXtuWFs+mXrSBFdmVudHPjgIIKZnVuYyAociAqUnVubmVyKSBSdW4oY3R4IGNvbnRleHQuQ29udGV4dCkgewoJZGVmZXIgY2xvc2Uoci5ldmVudHMpCglyLnN0YXJ0QXQgPSB0aW1lLk5vdygpCgoJci5tdS5Mb2NrKCkKCW9wdHMgOj0gci5vcHRzCglyLm11LlVubG9jaygpCgoJLy8g5ZCv5Yqo5Lik5Liq5byV5pOOCgluYW1lMCwgZXJyMCA6PSByLnN0YXJ0U2lkZShjdHgsIDAsIHIuc2VsZiwgb3B0cy5TZWxmVGhyZWFkcywgb3B0cy5TZWxmSGFzaCkKCWlmIGVycjAgIT0gbmlsIHsKCQlyLmVtaXQoRXZlbnR7VHlwZTogRXZFcnJvciwgRXJyOiBmbXQuRXJyb3JmKCLlt7HmlrnlvJXmk47lkK/liqjlpLHotKXvvJoldyIsIGVycjApLCBNZXNzYWdlOiAi5bex5pa55byV5pOO5ZCv5Yqo5aSx6LSlIn0pCgkJci5lbWl0KEV2ZW50e1R5cGU6IEV2TWF0Y2hFbmQsIFJlcG9ydDogci5idWlsZFJlcG9ydChvcHRzLCB0aW1lLlNpbmNlKHIuc3RhcnRBdCkpfSkKCQlyZXR1cm4KCX0KCW5hbWUxLCBlcnIxIDo9IHIuc3RhcnRTaWRlKGN0eCwgMSwgci5vcHAsIG9wdHMuT3BwVGhyZWFkcywgb3B0cy5PcHBIYXNoKQoJaWYgZXJyMSAhPSBuaWwgewoJCXIuZW1pdChFdmVudHtUeXBlOiBFdkVycm9yLCBFcnI6IGZtdC5FcnJvcmYoIuWvueaJi+W8leaTjuWQr+WKqOWksei0pe+8miV3IiwgZXJyMSksIE1lc3NhZ2U6ICLlr7nmiYvlvJXmk47lkK/liqjlpLHotKUifSkKCQlyLmVtaXQoRXZlbnR7VHlwZTogRXZNYXRjaEVuZCwgUmVwb3J0OiByLmJ1aWxkUmVwb3J0KG9wdHMsIHRpbWUuU2luY2Uoci5zdGFydEF0KSl9KQoJCXIuY2xvc2VDbGllbnRzKCkKCQlyZXR1cm4KCX0KCWRlZmVyIHIuY2xvc2VDbGllbnRzKCkKCglyLmVtaXQoRXZlbnR7CgkJVHlwZTogICAgICAgRXZNYXRjaFN0YXJ0LAoJCVRvdGFsR2FtZXM6IG9wdHMuR2FtZXMsCgkJTWVzc2FnZTogICAgZm10LlNwcmludGYoIuWvueaImOW8gOWni++8miVzICB2cyAgJXPvvIzlhbEgJWQg5bGAIiwgbmFtZTAsIG5hbWUxLCBvcHRzLkdhbWVzKSwKCX0pCgoJZm9yIGdpIDo9IDE7IGdpIDw9IG9wdHMuR2FtZXM7IGdpKysgewoJCWlmICFyLndhaXRHYXRlKGN0eCkgewoJCQlicmVhawoJCX0KCQlyLm11LkxvY2soKQoJCW9wdHMgPSByLm9wdHMgLy8g5q+P5bGA6YeN5paw6K+75Y+W6K6+572u77yM5a6e546w44CM5pS55a6M5LiL5bGA55Sf5pWI44CNCgkJci5tdS5VbmxvY2soKQoKCQlzZWxmSXNSZWQgOj0gdHJ1ZQoJCWlmIG9wdHMuQWx0ZXJuYXRlQ29sb3JzIHsKCQkJc2VsZklzUmVkID0gZ2klMiA9PSAxIC8vIOWlh+aVsOWxgOW3seaWueaJp+e6ou+8jOWBtuaVsOWxgOaJp+m7ke+8iOWFiOWQjuaJi+i9ruaNou+8iQoJCX0KCQlyZWMgOj0gci5wbGF5R2FtZShjdHgsIGdpLCBvcHRzLCBzZWxmSXNSZWQpCgkJci5zYXZlUEdOKG9wdHMuT3V0cHV0RGlyLCByZWMpCgkJci5yZWNvcmRzID0gYXBwZW5kKHIucmVjb3JkcywgcmVjKQoKCQkvLyDjgJDnvLrpmbfkv67lpI3jgJHog5zotJ/lvZLlsZ7lv4XpobvnlKggcmVjLlJlZElzU2VsZu+8jOiAjOS4jeaYr+acrOWxgOeahOWfuuWHhuaMh+a0viBzZWxmSXNSZWTjgIIKCQkvLyDnlKjmiLflnKjlsYDkuK3ngrnov4fjgIznv7vovazvvIjkuqTmjaLlj4zmlrnlvJXmk47vvInjgI3ml7bvvIxwbGF5R2FtZSDlt7Lnu4/mjIkqKue7k+adn+aXtioq55qE5a6e6ZmFCgkJLy8g5omn5a2Q5pa55L+u5q2j6L+HIHJlYy5SZWRJc1NlbGbvvJvov5nph4zoi6Xku43nlKggc2VsZklzUmVk77yM6IOc6LSf5Lya6K6w5Yiw6ZSZ6K+v55qE5byV5pOO5aS05LiK44CCCgkJcmVjU2VsZklzUmVkIDo9IHJlYy5SZWRJc1NlbGYKCQlzd2l0Y2ggcmVjLlJlc3VsdCB7CgkJY2FzZSBydWxlcy5EcmF3OgoJCQlyLnNjb3JlWzFdKysKCQljYXNlIHJ1bGVzLlJlZFdpbjoKCQkJaWYgcmVjU2VsZklzUmVkIHsKCQkJCXIuc2NvcmVbMF0rKwoJCQl9IGVsc2UgewoJCQkJci5zY29yZVsyXSsrCgkJCX0KCQljYXNlIHJ1bGVzLkJsYWNrV2luOgoJCQlpZiByZWNTZWxmSXNSZWQgewoJCQkJci5zY29yZVsyXSsrCgkJCX0gZWxzZSB7CgkJCQlyLnNjb3JlWzBdKysKCQkJfQoJCX0KCgkJci5lbWl0KEV2ZW50ewoJCQlUeXBlOiAgICAgICBFdkdhbWVFbmQsCgkJCUdhbWVJbmRleDogIGdpLAoJCQlUb3RhbEdhbWVzOiBvcHRzLkdhbWVzLAoJCQlTZWxmV2luczogICByLnNjb3JlWzBdLAoJCQlEcmF3czogICAgICByLnNjb3JlWzFdLAoJCQlTZWxmTG9zc2VzOiByLnNjb3JlWzJdLAoJCQlHYW1lOiAgICAgICByZWMsCgkJCUJvYXJkOiAgICAgIGxhc3RCb2FyZChyZWMpLAoJCQlNZXNzYWdlOiBmbXQuU3ByaW50Zigi56ysICVkLyVkIOWxgOe7k+adn++8miVz77yIJXPvvInvvIzmr5TliIYgJWQtJWQtJWQiLAoJCQkJZ2ksIG9wdHMuR2FtZXMsIHJlYy5SZXN1bHRDTigpLCByZWMuUmVhc29uLCByLnNjb3JlWzBdLCByLnNjb3JlWzFdLCByLnNjb3JlWzJdKSwKCQl9KQoJfQoKCXJlcCA6PSByLmJ1aWxkUmVwb3J0KG9wdHMsIHRpbWUuU2luY2Uoci5zdGFydEF0KSkKCWlmIHJlcC5EaXIgIT0gIiIgJiYgbGVuKHJlcC5HYW1lcykgPiAwIHsKCQlpZiBwLCBlcnIgOj0gV3JpdGVSZXBvcnQocmVwLkRpciwgcmVwKTsgZXJyID09IG5pbCB7CgkJCXJlcC5GaWxlUGF0aCA9IHAKCQl9IGVsc2UgewoJCQlyLmVtaXQoRXZlbnR7VHlwZTogRXZFcnJvciwgRXJyOiBlcnIsIE1lc3NhZ2U6ICLlhpnlhaXmiqXlkYrlpLHotKXvvJoiICsgZXJyLkVycm9yKCl9KQoJCX0KCX0KCXIuZW1pdChFdmVudHtUeXBlOiBFdk1hdGNoRW5kLCBSZXBvcnQ6IHJlcCwgTWVzc2FnZTogIuWvueaImOe7k+adnyJ9KQp9CgovLyBzdGFydFNpZGUg5ZCv5Yqo5LiA5L6n5byV5pOO5bm25LiL5Y+R5Z+656GA5Y+C5pWw44CCCi8vIGNsaWVudEF0IOWPluWHuuafkOS4gOS+p+eahOW8leaTjuWuouaIt+err++8iOWPr+iDveS4uiBuaWzvvInjgIIKZnVuYyAociAqUnVubmVyKSBjbGllbnRBdChpZHggaW50KSAqZW5naW5lLkNsaWVudCB7CglyLm11LkxvY2soKQoJZGVmZXIgci5tdS5VbmxvY2soKQoJaWYgaWR4IDwgMCB8fCBpZHggPiAxIHsKCQlyZXR1cm4gbmlsCgl9CglyZXR1cm4gci5jbGllbnRzW2lkeF0KfQoKLy8gcmVzdGFydFNpZGUg6YeN5ZCv5p+Q5LiA5L6n55qE5byV5pOO6L+b56iL77yI55So5LqO5byC5bi46Ieq5Yqo6ZmN57qn77yJ44CCCmZ1bmMgKHIgKlJ1bm5lcikgcmVzdGFydFNpZGUoY3R4IGNvbnRleHQuQ29udGV4dCwgaWR4IGludCkgKHN0cmluZywgZXJyb3IpIHsKCXIubXUuTG9jaygpCglpZiBpZHggPCAwIHx8IGlkeCA+IDEgewoJCXIubXUuVW5sb2NrKCkKCQlyZXR1cm4gIiIsIGZtdC5FcnJvcmYoIuW8leaTjuS4i+agh+i2iueVjCIpCgl9CglvbGQgOj0gci5jbGllbnRzW2lkeF0KCWVudHJ5IDo9IHIuc2VsZgoJdGhyZWFkcywgaGFzaCA6PSByLm9wdHMuU2VsZlRocmVhZHMsIHIub3B0cy5TZWxmSGFzaAoJaWYgaWR4ID09IDEgewoJCWVudHJ5ID0gci5vcHAKCQl0aHJlYWRzLCBoYXNoID0gci5vcHRzLk9wcFRocmVhZHMsIHIub3B0cy5PcHBIYXNoCgl9CglyLmNsaWVudHNbaWR4XSA9IG5pbAoJci5tdS5VbmxvY2soKQoJaWYgb2xkICE9IG5pbCB7CgkJb2xkLktpbGwoKQoJfQoJcmV0dXJuIHIuc3RhcnRTaWRlKGN0eCwgaWR4LCBlbnRyeSwgdGhyZWFkcywgaGFzaCkKfQoKZnVuYyAociAqUnVubmVyKSBzdGFydFNpZGUoY3R4IGNvbnRleHQuQ29udGV4dCwgaWR4IGludCwgZW50cnkgZW5naW5lLkVuZ2luZUVudHJ5LCB0aHJlYWRzLCBoYXNoIGludCkgKHN0cmluZywgZXJyb3IpIHsKCWMgOj0gZW5naW5lLk5ld0NsaWVudChlbnRyeS5QYXRoKQoJaWYgZXJyIDo9IGMuU3RhcnQoOCAqIHRpbWUuU2Vjb25kKTsgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGVudHJ5Lk5hbWUsIGVycgoJfQoJLy8g5Z+656GA5Y+C5pWw77ya57q/56iLIC8g5ZOI5biM77yI55So5oi35Y+v5Zyo5Y+C5pWw6Z2i5p2/6LCD5pW077yM5LiL5LiA5bGA6YeN5paw5LiL5Y+R77yJCglpZiBfLCBvayA6PSBjLkZpbmRPcHRpb24oIlRocmVhZHMiKTsgb2sgJiYgdGhyZWFkcyA+IDAgewoJCV8gPSBjLlNldE9wdGlvbigiVGhyZWFkcyIsIGZtdC5TcHJpbnQodGhyZWFkcykpCgl9CglpZiBfLCBvayA6PSBjLkZpbmRPcHRpb24oIkhhc2giKTsgb2sgJiYgaGFzaCA+IDAgewoJCV8gPSBjLlNldE9wdGlvbigiSGFzaCIsIGZtdC5TcHJpbnQoaGFzaCkpCgl9CglpZiBlcnIgOj0gYy5Jc1JlYWR5KDEwICogdGltZS5TZWNvbmQpOyBlcnIgIT0gbmlsIHsKCQljLktpbGwoKQoJCXJldHVybiBlbnRyeS5OYW1lLCBlcnIKCX0KCXIubXUuTG9jaygpCglyLmNsaWVudHNbaWR4XSA9IGMKCXIubXUuVW5sb2NrKCkKCXJldHVybiBjLk5hbWUoKSwgbmlsCn0KCmZ1bmMgKHIgKlJ1bm5lcikgY2xvc2VDbGllbnRzKCkgewoJci5tdS5Mb2NrKCkKCWNzIDo9IHIuY2xpZW50cwoJci5jbGllbnRzID0gWzJdKmVuZ2luZS5DbGllbnR7fQoJci5tdS5VbmxvY2soKQoJZm9yIF8sIGMgOj0gcmFuZ2UgY3MgewoJCWlmIGMgIT0gbmlsIHsKCQkJYy5RdWl0KDIgKiB0aW1lLlNlY29uZCkKCQl9Cgl9Cn0KCi8vIGxpbWl0Rm9yIOaKiuaXtumXtOaOp+WItuaNoueul+aIkOafkOS4gOS+p+eahOavj+atpemZkOWItuOAggovLwovLyDjgIzmr4/lsYDmgLvml7bpl7TjgI3mjInmr4/mlrnnuqYgNjAg5q2l5Z2H5pGK77yM5LiL6ZmQIDIwMG1z77yM5L+d6K+B5LiN5Lya5Ye6546wIDAg5pe26ZmQ5a+86Ie05byV5pOO56uL5Y2z5byD5p2D44CCCmZ1bmMgbGltaXRGb3IoYmFzZSBlbmdpbmUuTGltaXQpIGVuZ2luZS5MaW1pdCB7CglpZiBiYXNlLk1vZGUgPT0gZW5naW5lLkxpbWl0R2FtZVRpbWUgewoJCXBlciA6PSBiYXNlLkdhbWVUaW1lTVMgLyA2MAoJCWlmIHBlciA8IDIwMCB7CgkJCXBlciA9IDIwMAoJCX0KCQlyZXR1cm4gZW5naW5lLkxpbWl0e01vZGU6IGVuZ2luZS5MaW1pdE1vdmVUaW1lLCBNb3ZlVGltZU1TOiBwZXJ9Cgl9CglyZXR1cm4gYmFzZQp9CgovLyBwbGF5R2FtZSDotbDlrozkuIDlsYDvvIzov5Tlm57lrozmlbTorrDlvZXjgIIKZnVuYyAociAqUnVubmVyKSBwbGF5R2FtZUlubmVyKGN0eCBjb250ZXh0LkNvbnRleHQsIGlkeCBpbnQsIG9wdHMgT3B0aW9ucywgc2VsZklzUmVkIGJvb2wpICpHYW1lUmVjb3JkIHsKCWdhbWUgOj0gcnVsZXMuTmV3R2FtZSgpCglyZWMgOj0gJkdhbWVSZWNvcmR7CgkJSW5kZXg6ICAgICBpZHgsCgkJU3RhcnRGRU46ICBnYW1lLkJvYXJkLkZFTigpLAoJCVJlZElzU2VsZjogc2VsZklzUmVkLAoJCURhdGU6ICAgICAgdGltZS5Ob3coKS5Gb3JtYXQoIjIwMDYuMDEuMDIiKSwKCQlNb3ZlczogICAgIFtdTW92ZVJlY29yZHt9LAoJfQoJci5tdS5Mb2NrKCkKCXNlbGZOYW1lLCBvcHBOYW1lIDo9IHIuc2VsZi5OYW1lLCByLm9wcC5OYW1lCgljcyA6PSByLmNsaWVudHMKCXIubXUuVW5sb2NrKCkKCWlmIGMgOj0gY3NbMF07IGMgIT0gbmlsICYmIGMuQWxpdmUoKSB7CgkJc2VsZk5hbWUgPSBjLk5hbWUoKQoJfQoJaWYgYyA6PSBjc1sxXTsgYyAhPSBuaWwgJiYgYy5BbGl2ZSgpIHsKCQlvcHBOYW1lID0gYy5OYW1lKCkKCX0KCXJlYy5SZWROYW1lLCByZWMuQmxhY2tOYW1lID0gc2VsZk5hbWUsIG9wcE5hbWUKCWlmICFzZWxmSXNSZWQgewoJCXJlYy5SZWROYW1lLCByZWMuQmxhY2tOYW1lID0gb3BwTmFtZSwgc2VsZk5hbWUKCX0KCXJlYy5UaW1lQ3RybCA9IG9wdHMuTGltaXRTZWxmLkxhYmVsKCkgKyAiIC8gIiArIG9wdHMuTGltaXRPcHAuTGFiZWwoKQoKCXIuZW1pdChFdmVudHsKCQlUeXBlOiAgICAgICBFdkdhbWVTdGFydCwKCQlHYW1lSW5kZXg6ICBpZHgsCgkJVG90YWxHYW1lczogb3B0cy5HYW1lcywKCQlCb2FyZDogICAgICBnYW1lLkJvYXJkLkNsb25lKCksCgkJTWVzc2FnZTogICAgZm10LlNwcmludGYoIuesrCAlZCDlsYDlvIDlp4vvvJrnuqIgJXMgIHZzICDpu5EgJXMiLCBpZHgsIHJlYy5SZWROYW1lLCByZWMuQmxhY2tOYW1lKSwKCX0pCgoJLy8g6YCa55+l5byV5pOO5byA5paw5bGACglyLm11LkxvY2soKQoJY3MgPSByLmNsaWVudHMKCXIubXUuVW5sb2NrKCkKCWZvciBfLCBjIDo9IHJhbmdlIGNzIHsKCQlpZiBjICE9IG5pbCB7CgkJCV8gPSBjLk5ld0dhbWUoKQoJCX0KCX0KCglmb3IgewoJCWlmICFyLndhaXRHYXRlKGN0eCkgewoJCQlyZWMuUmVzdWx0ID0gcnVsZXMuRHJhdwoJCQlyZWMuUmVhc29uID0gIueUqOaIt+e7iOatouWvueaImCIKCQkJcmV0dXJuIHJlYwoJCX0KCQlpZiBzdCwgcmVhc29uIDo9IGdhbWUuQWRqdWRpY2F0ZSgpOyBzdCAhPSBydWxlcy5QbGF5aW5nIHsKCQkJcmVjLlJlc3VsdCwgcmVjLlJlYXNvbiA9IHN0LCByZWFzb24KCQkJcmV0dXJuIHJlYwoJCX0KCgkJc2lkZVRvTW92ZSA6PSBnYW1lLkJvYXJkLlNpZGUKCQkvLyDjgJDlsYDpnaLlr7nosIPCt+eUteiEkeWvueeUteiEkeOAkXNlbGZJc1JlZCDmmK/mnKzlsYDnmoTln7rlh4bmjIfmtL7vvJvnlKjmiLflnKjnqpflj6Pph4zngrnov4cKCQkvLyDjgIzkuqTmjaLlj4zmlrnlvJXmk47jgI3kuYvlkI7vvIxzd2FwcGVkIOS4uuecn++8jOWwseiuqeS4pOi+ueW8leaTjuS4remAlOaNoui+ueKAlOKAlAoJCS8vIOWxgOmdouS4jui1sOWtkOasoeW6j+mDveS4jeWKqO+8jOWPquaYr+S4i+S4gOedgOaNouWPpuS4gOWPsOW8leaTjuadpeW6lOaLm+OAggoJCXNlbGZJc1JlZE5vdyA6PSBzZWxmSXNSZWQgIT0gci5zd2FwcGVkLkxvYWQoKQoJCWlzU2VsZlR1cm4gOj0gKHNpZGVUb01vdmUgPT0gcnVsZXMuUmVkKSA9PSBzZWxmSXNSZWROb3cKCQljaSA6PSAxCgkJdmFyIGxpbWl0IGVuZ2luZS5MaW1pdAoJCXZhciBlbmdOYW1lIHN0cmluZwoJCWlmIGlzU2VsZlR1cm4gewoJCQljaSA9IDAKCQkJbGltaXQgPSBsaW1pdEZvcihvcHRzLkxpbWl0U2VsZikKCQkJaWYgc2VsZklzUmVkIHsKCQkJCWVuZ05hbWUgPSByZWMuUmVkTmFtZQoJCQl9IGVsc2UgewoJCQkJZW5nTmFtZSA9IHJlYy5CbGFja05hbWUKCQkJfQoJCX0gZWxzZSB7CgkJCWxpbWl0ID0gbGltaXRGb3Iob3B0cy5MaW1pdE9wcCkKCQkJaWYgc2VsZklzUmVkIHsKCQkJCWVuZ05hbWUgPSByZWMuQmxhY2tOYW1lCgkJCX0gZWxzZSB7CgkJCQllbmdOYW1lID0gcmVjLlJlZE5hbWUKCQkJfQoJCX0KCgkJci5tdS5Mb2NrKCkKCQljbGllbnQgOj0gci5jbGllbnRzW2NpXQoJCXIubXUuVW5sb2NrKCkKCQlpZiBjbGllbnQgPT0gbmlsIHx8ICFjbGllbnQuQWxpdmUoKSB7CgkJCXJlYy5SZXN1bHQgPSBsb3NlRm9yKHNpZGVUb01vdmUpCgkJCXJlYy5SZWFzb24gPSBmbXQuU3ByaW50ZigiJXMg5byV5pOO6L+b56iL5LiN5Y+v55So77yI5bSp5rqD5oiW5bey6YCA5Ye677yJIiwgZW5nTmFtZSkKCQkJcmV0dXJuIHJlYwoJCX0KCgkJcG9zIDo9IGVuZ2luZS5Qb3NpdGlvbntTdGFydHBvczogZ2FtZS5TdGFydEZFTiA9PSBydWxlcy5TdGFydEZFTiwgRkVOOiBnYW1lLlN0YXJ0RkVOLCBNb3ZlczogdWNpTGlzdChnYW1lKX0KCQl3YWxsIDo9IHRpbWUuTm93KCkKCQlyZXMsIGVyciA6PSBjbGllbnQuQW5hbHl6ZShjdHgsIHBvcywgbGltaXQsIG5pbCkKCQl3YWxsTVMgOj0gdGltZS5TaW5jZSh3YWxsKS5NaWxsaXNlY29uZHMoKQoKCQlpZiBlcnIgIT0gbmlsIHsKCQkJaWYgY3R4LkVycigpICE9IG5pbCB8fCByLlN0b3BwZWQoKSB7CgkJCQlyZWMuUmVzdWx0ID0gcnVsZXMuRHJhdwoJCQkJcmVjLlJlYXNvbiA9ICLnlKjmiLfnu4jmraLlr7nmiJgiCgkJCQlyZXR1cm4gcmVjCgkJCX0KCQkJLy8g44CQdjEuNi44IC8g5aS06ISR6aOO5pq056ysIDE0IOadoeOAkeW8leaTjuW8guW4uCoq6Ieq5Yqo6ZmN57qnKirvvJoKCQkJLy8g5Lul5YmN5LiA6YGH5Yiw5byC5bi45bCx55u05o6l5Yik6L+Z5LiA5pa56LSf77yb5a6e6ZmF5LiK5b6I5aSa5byC5bi45piv5Li05pe255qECgkJCS8v77yI6L+b56iL5Y2h5L2P44CB566h6YGT5Y2K5q2744CB5byV5pOO6Ieq5bex6YeN5ZCv77yJ77yM6YeN5p2l5LiA5qyh5b6A5b6A5bCx5aW95LqG44CCCgkJCS8vIOi/memHjOS4iee6p+WkhOeQhu+8muKRoCDljp/lnLDph43or5XkuIDmrKEg4oaSIOKRoSDph43lkK/or6XlvJXmk47ov5vnqIvlho3or5XkuIDmrKEg4oaSCgkJCS8vIOKRoiDku43nhLblpLHotKXmiY3liKTotJ/vvIzlubbmiorjgIzlt7Loh6rliqjph43or5XjgI3lhpnov5vliKTotJ/ljp/lm6DvvIzlr7nmiJjnu6fnu63kuIvkuIDlsYDjgIIKCQkJci5lbWl0KEV2ZW50e1R5cGU6IEV2U3RhdHVzLCBNZXNzYWdlOiBmbXQuU3ByaW50ZigiJXMg5byV5pOO5byC5bi477yM5q2j5Zyo6Ieq5Yqo6YeN6K+V77yaJXYiLCBlbmdOYW1lLCBlcnIpfSkKCQkJdGltZS5TbGVlcCg0MDAgKiB0aW1lLk1pbGxpc2Vjb25kKQoJCQlyZXMsIGVyciA9IGNsaWVudC5BbmFseXplKGN0eCwgcG9zLCBsaW1pdCwgbmlsKQoJCQlpZiBlcnIgIT0gbmlsICYmIGN0eC5FcnIoKSA9PSBuaWwgJiYgIXIuU3RvcHBlZCgpIHsKCQkJCXIuZW1pdChFdmVudHtUeXBlOiBFdlN0YXR1cywgTWVzc2FnZTogZm10LlNwcmludGYoIiVzIOW8leaTjumHjeivleS7jeWksei0pe+8jOato+WcqOmHjeWQr+W8leaTjui/m+eoiyIsIGVuZ05hbWUpfSkKCQkJCWlmIG5hbWUyLCBuZXJyIDo9IHIucmVzdGFydFNpZGUoY3R4LCBjaSk7IG5lcnIgPT0gbmlsIHsKCQkJCQllbmdOYW1lID0gbmFtZTIKCQkJCQlpZiBjMiA6PSByLmNsaWVudEF0KGNpKTsgYzIgIT0gbmlsIHsKCQkJCQkJcmVzLCBlcnIgPSBjMi5BbmFseXplKGN0eCwgcG9zLCBsaW1pdCwgbmlsKQoJCQkJCX0KCQkJCX0KCQkJfQoJCQl3YWxsTVMgPSB0aW1lLlNpbmNlKHdhbGwpLk1pbGxpc2Vjb25kcygpCgkJCWlmIGVyciAhPSBuaWwgewoJCQkJaWYgY3R4LkVycigpICE9IG5pbCB8fCByLlN0b3BwZWQoKSB7CgkJCQkJcmVjLlJlc3VsdCA9IHJ1bGVzLkRyYXcKCQkJCQlyZWMuUmVhc29uID0gIueUqOaIt+e7iOatouWvueaImCIKCQkJCQlyZXR1cm4gcmVjCgkJCQl9CgkJCQlyZWMuUmVzdWx0ID0gbG9zZUZvcihzaWRlVG9Nb3ZlKQoJCQkJcmVjLlJlYXNvbiA9IGZtdC5TcHJpbnRmKCIlcyDlvJXmk47lvILluLjvvIjlt7Loh6rliqjph43or5Xlubbph43lkK/ov5vnqIvvvInvvJoldiIsIGVuZ05hbWUsIGVycikKCQkJCXJldHVybiByZWMKCQkJfQoJCX0KCgkJYm0gOj0gc3RyaW5ncy5UcmltU3BhY2UocmVzLkJlc3RNb3ZlKQoJCWlmIGJtID09ICIiIHx8IGJtID09ICJub25lIiB8fCBibSA9PSAiKG5vbmUpIiB8fCBibSA9PSAiMDAwMCIgewoJCQlyZWMuUmVzdWx0ID0gbG9zZUZvcihzaWRlVG9Nb3ZlKQoJCQlyZWMuUmVhc29uID0gZm10LlNwcmludGYoIiVzIOacqui/lOWbnuacieaViOedgOazle+8iGJlc3Rtb3ZlPSVx77yJIiwgZW5nTmFtZSwgcmVzLkJlc3RNb3ZlKQoJCQlyZXR1cm4gcmVjCgkJfQoJCW12LCBvayA6PSBub3RhdGlvbi5VQ0lUb01vdmUoYm0pCgkJaWYgIW9rIHsKCQkJcmVjLlJlc3VsdCA9IGxvc2VGb3Ioc2lkZVRvTW92ZSkKCQkJcmVjLlJlYXNvbiA9IGZtdC5TcHJpbnRmKCIlcyDov5Tlm57pnZ7ms5XnnYDms5XlnZDmoIcgJXEiLCBlbmdOYW1lLCBibSkKCQkJcmV0dXJuIHJlYwoJCX0KCQlib2FyZEJlZm9yZSA6PSBnYW1lLkJvYXJkLkNsb25lKCkKCQlpZiAhZ2FtZS5Jc0xlZ2FsKG12KSB7CgkJCXJlYy5SZXN1bHQgPSBsb3NlRm9yKHNpZGVUb01vdmUpCgkJCXJlYy5SZWFzb24gPSBmbXQuU3ByaW50ZigiJXMg6L+U5Zue5LiN5ZCI5rOV552A5rOVICVzIiwgZW5nTmFtZSwgbXYpCgkJCXJldHVybiByZWMKCQl9CgoJCXNpZGVOYW1lIDo9ICJyZWQiCgkJaWYgc2lkZVRvTW92ZSA9PSBydWxlcy5CbGFjayB7CgkJCXNpZGVOYW1lID0gImJsYWNrIgoJCX0KCQltciA6PSBNb3ZlUmVjb3JkewoJCQlQbHk6ICAgICAgbGVuKGdhbWUuTW92ZXMpICsgMSwKCQkJU2lkZTogICAgIHNpZGVOYW1lLAoJCQlFbmdpbmU6ICAgZW5nTmFtZSwKCQkJVUNJOiAgICAgIG12LlN0cmluZygpLAoJCQlDaGluZXNlOiAgbm90YXRpb24uVG9DaGluZXNlKGJvYXJkQmVmb3JlLCBtdiksCgkJCVNjb3JlOiAgICByZXMuU2NvcmUsCgkJCURlcHRoOiAgICByZXMuRGVwdGgsCgkJCU5vZGVzOiAgICByZXMuTm9kZXMsCgkJCU5QUzogICAgICByZXMuTlBTLAoJCQlFbmdpbmVNUzogcmVzLlRpbWVNUywKCQkJV2FsbE1TOiAgIHdhbGxNUywKCQkJQmVzdDogICAgIHRydWUsCgkJfQoJCV8gPSBnYW1lLlRyeU1vdmUobXYpCgkJcmVjLk1vdmVzID0gYXBwZW5kKHJlYy5Nb3ZlcywgbXIpCgoJCXIuZW1pdChFdmVudHsKCQkJVHlwZTogICAgICAgRXZNb3ZlLAoJCQlHYW1lSW5kZXg6ICBpZHgsCgkJCVRvdGFsR2FtZXM6IG9wdHMuR2FtZXMsCgkJCVNlbGZXaW5zOiAgIHIuc2NvcmVbMF0sCgkJCURyYXdzOiAgICAgIHIuc2NvcmVbMV0sCgkJCVNlbGZMb3NzZXM6IHIuc2NvcmVbMl0sCgkJCUJvYXJkOiAgICAgIGdhbWUuQm9hcmQuQ2xvbmUoKSwKCQkJTW92ZTogICAgICAgbXIsCgkJfSkKCX0KfQoKLy8gbG9zZUZvciDov5Tlm57jgIzotbDlrZDmlrnliKTotJ/jgI3lr7nlupTnmoTnu4jlsYDnirbmgIHjgIIKZnVuYyBsb3NlRm9yKHNpZGVUb01vdmUgaW50KSBydWxlcy5TdGF0dXMgewoJaWYgc2lkZVRvTW92ZSA9PSBydWxlcy5SZWQgewoJCXJldHVybiBydWxlcy5CbGFja1dpbgoJfQoJcmV0dXJuIHJ1bGVzLlJlZFdpbgp9CgpmdW5jIHVjaUxpc3QoZyAqcnVsZXMuR2FtZSkgW11zdHJpbmcgewoJb3V0IDo9IG1ha2UoW11zdHJpbmcsIDAsIGxlbihnLk1vdmVzKSkKCWZvciBfLCBtIDo9IHJhbmdlIGcuTW92ZXMgewoJCW91dCA9IGFwcGVuZChvdXQsIG0uU3RyaW5nKCkpCgl9CglyZXR1cm4gb3V0Cn0KCmZ1bmMgbGFzdEJvYXJkKHJlYyAqR2FtZVJlY29yZCkgKnJ1bGVzLkJvYXJkIHsKCWcsIGVyciA6PSBydWxlcy5OZXdHYW1lRnJvbUZFTihyZWMuU3RhcnRGRU4pCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gcnVsZXMuTmV3U3RhcnRCb2FyZCgpCgl9Cglmb3IgXywgbXIgOj0gcmFuZ2UgcmVjLk1vdmVzIHsKCQlpZiBtLCBvayA6PSBub3RhdGlvbi5VQ0lUb01vdmUobXIuVUNJKTsgb2sgewoJCQlnLkZvcmNlTW92ZShtKQoJCX0KCX0KCXJldHVybiBnLkJvYXJkCn0KCi8vIE91dHB1dFBhdGgg6L+U5Zue5p+Q5bGA55qEIFBHTiDmlofku7bot6/lvoTjgIIKZnVuYyBPdXRwdXRQYXRoKGRpciBzdHJpbmcsIGlkeCBpbnQpIHN0cmluZyB7CglyZXR1cm4gZmlsZXBhdGguSm9pbihkaXIsIGZtdC5TcHJpbnRmKCJnYW1lXyUwM2QucGduIiwgaWR4KSkKfQoKLy8gc3dhcHBlZCDorrDlvZXnlKjmiLfmmK/lkKbngrnov4fjgIzkuqTmjaLlj4zmlrnlvJXmk47jgI3jgIIKLy8KLy8g6K+t5LmJ5LiO44CM5bGA6Z2i5a+56LCD44CN5LiA6Ie077ya5Y+q5Lqk5o2i44CM5ZOq5Y+w5byV5pOO5omn5ZOq5LiA5pa544CN77yMCi8vIOWxgOmdouOAgeedgOazleWOhuWPsuOAgei9ruWIsOiwgei1sOmDveS4jeWPmOOAggpmdW5jIChyICpSdW5uZXIpIFN3YXBTaWRlcygpIHsKCXIuc3dhcHBlZC5TdG9yZSghci5zd2FwcGVkLkxvYWQoKSkKfQoKLy8gU3dhcFNpZGVzIOeUseeVjOmdouiwg+eUqO+8muiuqeS4pOWPsOW8leaTjuS4remAlOaNoui+ueOAggpmdW5jIChyICpSdW5uZXIpIHN3YXBOb3coKSBib29sIHsgcmV0dXJuIHIuc3dhcHBlZC5Mb2FkKCkgfQoKLy8gcGxheUdhbWUg5YyF5LiA5bGC77ya6LeR5a6M5LiA5bGA5ZCO77yM5oyJKirnu5PmnZ/ml7YqKueahOWunumZheaJp+WtkOaWueS/ruato+iusOW9le+8jAovLyDlhY3lvpfkuK3pgJTmjaLovrnkuYvlkI7og5zotJ/ooqvnrpfliLDplJnor6/nmoTlvJXmk47lpLTkuIrjgIIKZnVuYyAociAqUnVubmVyKSBwbGF5R2FtZShjdHggY29udGV4dC5Db250ZXh0LCBpZHggaW50LCBvcHRzIE9wdGlvbnMsIHNlbGZJc1JlZCBib29sKSAqR2FtZVJlY29yZCB7CglyZWMgOj0gci5wbGF5R2FtZUlubmVyKGN0eCwgaWR4LCBvcHRzLCBzZWxmSXNSZWQpCglpZiByLnN3YXBwZWQuTG9hZCgpIHsKCQlyZWMuUmVkSXNTZWxmID0gIXNlbGZJc1JlZAoJCXJlYy5SZWROYW1lLCByZWMuQmxhY2tOYW1lID0gcmVjLkJsYWNrTmFtZSwgcmVjLlJlZE5hbWUKCQlyZWMuVGltZUN0cmwgKz0gIu+8iOacrOWxgOS4remAlOS6pOaNoui/h+WPjOaWue+8iSIKCX0KCXJldHVybiByZWMKfQo=
+// Package match 实现「引擎自动对战」：两个引擎子进程串行交替走子、规则校验、
+// 胜负判定、棋谱与报告生成。
+//
+// 并发模型：
+//
+//	Runner.Run 运行在一个独立 goroutine 中，通过 Events channel 向 UI 推送事件；
+//	两个引擎客户端各自拥有独立的读取 goroutine，互不影响；
+//	任一引擎崩溃只判该局负，不会拖垮另一个引擎，也不会让 Runner 卡死。
+//
+// 判负规则（与需求一致的硬性约束）：
+//   - bestmove 非法（格式错误 / 不符合中国象棋规则）→ 该方立即判负；
+//   - bestmove 为 none/0000 → 该方立即判负；
+//   - 引擎思考超时或进程崩溃 → 该方立即判负；
+//   - 无合法着法：被将军为「将死」、未被将军为「困毙」，中国象棋规则下均为走子方负；
+//   - 同一局面出现 3 次 → 判和；达到着数上限 → 判和。绝不无限循环。
+package match
+
+import (
+	"context"
+	"fmt"
+	"path/filepath"
+	"strings"
+	"sync"
+	"sync/atomic"
+	"time"
+
+	"xiangqi/analytics"
+	"xiangqi/engine"
+	"xiangqi/notation"
+	"xiangqi/rules"
+)
+
+// EventType 是 Runner 推送的事件类型。
+type EventType int
+
+const (
+	EvMatchStart EventType = iota // 对战开始
+	EvGameStart                   // 一局开始
+	EvMove                        // 走了一步
+	EvGameEnd                     // 一局结束
+	EvMatchEnd                    // 全部结束（附报告）
+	EvError                       // 出错（不致命）
+	EvStatus                      // 状态文本
+)
+
+// MoveRecord 记录一步棋的完整信息。
+type MoveRecord struct {
+	Ply      int             `json:"ply"`
+	Side     string          `json:"side"`   // "red" / "black"
+	Engine   string          `json:"engine"` // 走子引擎名
+	UCI      string          `json:"uci"`
+	Chinese  string          `json:"chinese"`
+	Score    analytics.Score `json:"score"`
+	Depth    int             `json:"depth"`
+	Nodes    int64           `json:"nodes"`
+	NPS      int64           `json:"nps"`
+	EngineMS int64           `json:"engine_ms"` // 引擎自报思考时间
+	WallMS   int64           `json:"wall_ms"`   // 本软件实测耗时
+	Best     bool            `json:"best"`      // 是否与引擎首选一致
+}
+
+// GameRecord 是一局棋的完整记录。
+type GameRecord struct {
+	Index     int
+	RedName   string
+	BlackName string
+	RedIsSelf bool
+	StartFEN  string
+	TimeCtrl  string
+	Date      string
+	Result    rules.Status
+	Reason    string
+	Moves     []MoveRecord
+	PGNPath   string
+	EndedAt   time.Time
+}
+
+// ResultText 返回 PGN 结果串。
+func (g *GameRecord) ResultText() string { return g.Result.PGNResult() }
+
+// ResultCN 返回中文结果。
+func (g *GameRecord) ResultCN() string {
+	switch g.Result {
+	case rules.RedWin:
+		if g.RedIsSelf {
+			return "己方胜"
+		}
+		return "对手胜"
+	case rules.BlackWin:
+		if g.RedIsSelf {
+			return "对手胜"
+		}
+		return "己方胜"
+	default:
+		return "和棋"
+	}
+}
+
+// Options 是对战设置。
+type Options struct {
+	Games           int          // 对局数
+	LimitSelf       engine.Limit // 己方引擎思考限制
+	LimitOpp        engine.Limit // 对手引擎思考限制
+	SelfThreads     int
+	SelfHash        int
+	OppThreads      int
+	OppHash         int
+	AlternateColors bool
+	OutputDir       string // 棋谱与报告的输出目录
+	MoveTimeout     time.Duration
+}
+
+// SideStats 是按先后手分列的战绩。
+type SideStats struct {
+	Games  int
+	Wins   int
+	Draws  int
+	Losses int
+}
+
+// Report 是对战报告。
+type Report struct {
+	Total       int
+	SelfWins    int
+	Draws       int
+	SelfLosses  int
+	SelfWinRate float64 // 胜率（胜 + 0.5*和）/ 总局数
+	AsRed       SideStats
+	AsBlack     SideStats
+
+	AvgDepthSelf float64
+	AvgDepthOpp  float64
+	AvgNPSSelf   float64
+	AvgNPSOpp    float64
+	AvgNodesSelf float64
+	AvgNodesOpp  float64
+
+	SelfName string
+	OppName  string
+	LimitCN  string
+	Elapsed  time.Duration
+	Games    []*GameRecord
+	FilePath string
+	Dir      string
+}
+
+// Event 是 Runner 推送给界面的事件。
+type Event struct {
+	Type       EventType
+	GameIndex  int
+	TotalGames int
+	SelfWins   int
+	Draws      int
+	SelfLosses int
+	Board      *rules.Board // 当前局面快照（EvMove / EvGameStart）
+	Move       MoveRecord
+	Game       *GameRecord
+	Report     *Report
+	Message    string
+	Err        error
+}
+
+// Runner 驱动整场自动对战。
+type Runner struct {
+	// swapped：用户点过「交换双方引擎」之后为真（见 SwapSides）
+	swapped atomic.Bool
+	mu      sync.Mutex
+	opts    Options
+	self    engine.EngineEntry
+	opp     engine.EngineEntry
+	events  chan Event
+	pauseCh chan struct{} // 暂停闸门：关闭 = 暂停中
+	stopCh  chan struct{}
+	stopped bool
+	paused  bool
+	clients [2]*engine.Client // 0=己方 1=对手
+	score   [3]int            // 己方胜/和/负
+	records []*GameRecord
+	startAt time.Time
+	onDone  func(*Report)
+}
+
+// New 创建 Runner。
+func New(self, opp engine.EngineEntry, opts Options) *Runner {
+	if opts.Games < 1 {
+		opts.Games = 1
+	}
+	if opts.MoveTimeout <= 0 {
+		opts.MoveTimeout = 10 * time.Minute
+	}
+	return &Runner{
+		opts:    opts,
+		self:    self,
+		opp:     opp,
+		events:  make(chan Event, 256),
+		pauseCh: make(chan struct{}),
+		stopCh:  make(chan struct{}),
+	}
+}
+
+// Events 返回事件通道（容量 256，消费端必须在独立 goroutine 中持续读取）。
+func (r *Runner) Events() <-chan Event { return r.events }
+
+// UpdateOptions 在对战进行中更新设置（对局数、时间控制、线程、哈希在**下一局**生效）。
+func (r *Runner) UpdateOptions(fn func(*Options)) {
+	r.mu.Lock()
+	fn(&r.opts)
+	r.mu.Unlock()
+}
+
+// Pause 暂停（当前步走完后停在原地）。
+func (r *Runner) Pause() {
+	r.mu.Lock()
+	defer r.mu.Unlock()
+	if !r.paused {
+		r.paused = true
+		close(r.pauseCh)
+	}
+}
+
+// Resume 继续。
+func (r *Runner) Resume() {
+	r.mu.Lock()
+	defer r.mu.Unlock()
+	if r.paused {
+		r.paused = false
+		r.pauseCh = make(chan struct{})
+	}
+}
+
+// Paused 返回是否暂停中。
+func (r *Runner) Paused() bool {
+	r.mu.Lock()
+	defer r.mu.Unlock()
+	return r.paused
+}
+
+// Stop 终止对战（已完成的对局与报告会保留）。
+func (r *Runner) Stop() {
+	r.mu.Lock()
+	defer r.mu.Unlock()
+	if !r.stopped {
+		r.stopped = true
+		close(r.stopCh)
+	}
+}
+
+// Stopped 返回是否已请求终止。
+func (r *Runner) Stopped() bool {
+	r.mu.Lock()
+	defer r.mu.Unlock()
+	return r.stopped
+}
+
+// waitGate 在暂停闸门处等待；返回 false 表示已被要求终止。
+func (r *Runner) waitGate(ctx context.Context) bool {
+	for {
+		r.mu.Lock()
+		paused, stopped := r.paused, r.stopped
+		gate := r.pauseCh
+		r.mu.Unlock()
+		if stopped {
+			return false
+		}
+		if !paused {
+			return true
+		}
+		select {
+		case <-gate:
+		case <-ctx.Done():
+			return false
+		}
+	}
+}
+
+func (r *Runner) emit(ev Event) {
+	select {
+	case r.events <- ev:
+	case <-time.After(3 * time.Second):
+		// 消费端异常时不让 Runner 永久阻塞
+	}
+}
+
+// Run 执行整场对战。必须在独立 goroutine 中调用；结束时关闭 Events。
+func (r *Runner) Run(ctx context.Context) {
+	defer close(r.events)
+	r.startAt = time.Now()
+
+	r.mu.Lock()
+	opts := r.opts
+	r.mu.Unlock()
+
+	// 启动两个引擎
+	name0, err0 := r.startSide(ctx, 0, r.self, opts.SelfThreads, opts.SelfHash)
+	if err0 != nil {
+		r.emit(Event{Type: EvError, Err: fmt.Errorf("己方引擎启动失败：%w", err0), Message: "己方引擎启动失败"})
+		r.emit(Event{Type: EvMatchEnd, Report: r.buildReport(opts, time.Since(r.startAt))})
+		return
+	}
+	name1, err1 := r.startSide(ctx, 1, r.opp, opts.OppThreads, opts.OppHash)
+	if err1 != nil {
+		r.emit(Event{Type: EvError, Err: fmt.Errorf("对手引擎启动失败：%w", err1), Message: "对手引擎启动失败"})
+		r.emit(Event{Type: EvMatchEnd, Report: r.buildReport(opts, time.Since(r.startAt))})
+		r.closeClients()
+		return
+	}
+	defer r.closeClients()
+
+	r.emit(Event{
+		Type:       EvMatchStart,
+		TotalGames: opts.Games,
+		Message:    fmt.Sprintf("对战开始：%s  vs  %s，共 %d 局", name0, name1, opts.Games),
+	})
+
+	for gi := 1; gi <= opts.Games; gi++ {
+		if !r.waitGate(ctx) {
+			break
+		}
+		r.mu.Lock()
+		opts = r.opts // 每局重新读取设置，实现「改完下局生效」
+		r.mu.Unlock()
+
+		selfIsRed := true
+		if opts.AlternateColors {
+			selfIsRed = gi%2 == 1 // 奇数局己方执红，偶数局执黑（先后手轮换）
+		}
+		rec := r.playGame(ctx, gi, opts, selfIsRed)
+		r.savePGN(opts.OutputDir, rec)
+		r.records = append(r.records, rec)
+
+		// 【缺陷修复】胜负归属必须用 rec.RedIsSelf，而不是本局的基准指派 selfIsRed。
+		// 用户在局中点过「翻转（交换双方引擎）」时，playGame 已经按**结束时**的实际
+		// 执子方修正过 rec.RedIsSelf；这里若仍用 selfIsRed，胜负会记到错误的引擎头上。
+		recSelfIsRed := rec.RedIsSelf
+		switch rec.Result {
+		case rules.Draw:
+			r.score[1]++
+		case rules.RedWin:
+			if recSelfIsRed {
+				r.score[0]++
+			} else {
+				r.score[2]++
+			}
+		case rules.BlackWin:
+			if recSelfIsRed {
+				r.score[2]++
+			} else {
+				r.score[0]++
+			}
+		}
+
+		r.emit(Event{
+			Type:       EvGameEnd,
+			GameIndex:  gi,
+			TotalGames: opts.Games,
+			SelfWins:   r.score[0],
+			Draws:      r.score[1],
+			SelfLosses: r.score[2],
+			Game:       rec,
+			Board:      lastBoard(rec),
+			Message: fmt.Sprintf("第 %d/%d 局结束：%s（%s），比分 %d-%d-%d",
+				gi, opts.Games, rec.ResultCN(), rec.Reason, r.score[0], r.score[1], r.score[2]),
+		})
+	}
+
+	rep := r.buildReport(opts, time.Since(r.startAt))
+	if rep.Dir != "" && len(rep.Games) > 0 {
+		if p, err := WriteReport(rep.Dir, rep); err == nil {
+			rep.FilePath = p
+		} else {
+			r.emit(Event{Type: EvError, Err: err, Message: "写入报告失败：" + err.Error()})
+		}
+	}
+	r.emit(Event{Type: EvMatchEnd, Report: rep, Message: "对战结束"})
+}
+
+// startSide 启动一侧引擎并下发基础参数。
+// clientAt 取出某一侧的引擎客户端（可能为 nil）。
+func (r *Runner) clientAt(idx int) *engine.Client {
+	r.mu.Lock()
+	defer r.mu.Unlock()
+	if idx < 0 || idx > 1 {
+		return nil
+	}
+	return r.clients[idx]
+}
+
+// restartSide 重启某一侧的引擎进程（用于异常自动降级）。
+func (r *Runner) restartSide(ctx context.Context, idx int) (string, error) {
+	r.mu.Lock()
+	if idx < 0 || idx > 1 {
+		r.mu.Unlock()
+		return "", fmt.Errorf("引擎下标越界")
+	}
+	old := r.clients[idx]
+	entry := r.self
+	threads, hash := r.opts.SelfThreads, r.opts.SelfHash
+	if idx == 1 {
+		entry = r.opp
+		threads, hash = r.opts.OppThreads, r.opts.OppHash
+	}
+	r.clients[idx] = nil
+	r.mu.Unlock()
+	if old != nil {
+		old.Kill()
+	}
+	return r.startSide(ctx, idx, entry, threads, hash)
+}
+
+func (r *Runner) startSide(ctx context.Context, idx int, entry engine.EngineEntry, threads, hash int) (string, error) {
+	c := engine.NewClient(entry.Path)
+	if err := c.Start(8 * time.Second); err != nil {
+		return entry.Name, err
+	}
+	// 基础参数：线程 / 哈希（用户可在参数面板调整，下一局重新下发）
+	if _, ok := c.FindOption("Threads"); ok && threads > 0 {
+		_ = c.SetOption("Threads", fmt.Sprint(threads))
+	}
+	if _, ok := c.FindOption("Hash"); ok && hash > 0 {
+		_ = c.SetOption("Hash", fmt.Sprint(hash))
+	}
+	if err := c.IsReady(10 * time.Second); err != nil {
+		c.Kill()
+		return entry.Name, err
+	}
+	r.mu.Lock()
+	r.clients[idx] = c
+	r.mu.Unlock()
+	return c.Name(), nil
+}
+
+func (r *Runner) closeClients() {
+	r.mu.Lock()
+	cs := r.clients
+	r.clients = [2]*engine.Client{}
+	r.mu.Unlock()
+	for _, c := range cs {
+		if c != nil {
+			c.Quit(2 * time.Second)
+		}
+	}
+}
+
+// limitFor 把时间控制换算成某一侧的每步限制。
+//
+// 「每局总时间」按每方约 60 步均摊，下限 200ms，保证不会出现 0 时限导致引擎立即弃权。
+func limitFor(base engine.Limit) engine.Limit {
+	if base.Mode == engine.LimitGameTime {
+		per := base.GameTimeMS / 60
+		if per < 200 {
+			per = 200
+		}
+		return engine.Limit{Mode: engine.LimitMoveTime, MoveTimeMS: per}
+	}
+	return base
+}
+
+// playGame 走完一局，返回完整记录。
+func (r *Runner) playGameInner(ctx context.Context, idx int, opts Options, selfIsRed bool) *GameRecord {
+	game := rules.NewGame()
+	rec := &GameRecord{
+		Index:     idx,
+		StartFEN:  game.Board.FEN(),
+		RedIsSelf: selfIsRed,
+		Date:      time.Now().Format("2006.01.02"),
+		Moves:     []MoveRecord{},
+	}
+	r.mu.Lock()
+	selfName, oppName := r.self.Name, r.opp.Name
+	cs := r.clients
+	r.mu.Unlock()
+	if c := cs[0]; c != nil && c.Alive() {
+		selfName = c.Name()
+	}
+	if c := cs[1]; c != nil && c.Alive() {
+		oppName = c.Name()
+	}
+	rec.RedName, rec.BlackName = selfName, oppName
+	if !selfIsRed {
+		rec.RedName, rec.BlackName = oppName, selfName
+	}
+	rec.TimeCtrl = opts.LimitSelf.Label() + " / " + opts.LimitOpp.Label()
+
+	r.emit(Event{
+		Type:       EvGameStart,
+		GameIndex:  idx,
+		TotalGames: opts.Games,
+		Board:      game.Board.Clone(),
+		Message:    fmt.Sprintf("第 %d 局开始：红 %s  vs  黑 %s", idx, rec.RedName, rec.BlackName),
+	})
+
+	// 通知引擎开新局
+	r.mu.Lock()
+	cs = r.clients
+	r.mu.Unlock()
+	for _, c := range cs {
+		if c != nil {
+			_ = c.NewGame()
+		}
+	}
+
+	for {
+		if !r.waitGate(ctx) {
+			rec.Result = rules.Draw
+			rec.Reason = "用户终止对战"
+			return rec
+		}
+		if st, reason := game.Adjudicate(); st != rules.Playing {
+			rec.Result, rec.Reason = st, reason
+			return rec
+		}
+
+		sideToMove := game.Board.Side
+		// 【局面对调·电脑对电脑】selfIsRed 是本局的基准指派；用户在窗口里点过
+		// 「交换双方引擎」之后，swapped 为真，就让两边引擎中途换边——
+		// 局面与走子次序都不动，只是下一着换另一台引擎来应招。
+		selfIsRedNow := selfIsRed != r.swapped.Load()
+		isSelfTurn := (sideToMove == rules.Red) == selfIsRedNow
+		ci := 1
+		var limit engine.Limit
+		var engName string
+		if isSelfTurn {
+			ci = 0
+			limit = limitFor(opts.LimitSelf)
+			if selfIsRed {
+				engName = rec.RedName
+			} else {
+				engName = rec.BlackName
+			}
+		} else {
+			limit = limitFor(opts.LimitOpp)
+			if selfIsRed {
+				engName = rec.BlackName
+			} else {
+				engName = rec.RedName
+			}
+		}
+
+		r.mu.Lock()
+		client := r.clients[ci]
+		r.mu.Unlock()
+		if client == nil || !client.Alive() {
+			rec.Result = loseFor(sideToMove)
+			rec.Reason = fmt.Sprintf("%s 引擎进程不可用（崩溃或已退出）", engName)
+			return rec
+		}
+
+		pos := engine.Position{Startpos: game.StartFEN == rules.StartFEN, FEN: game.StartFEN, Moves: uciList(game)}
+		wall := time.Now()
+		res, err := client.Analyze(ctx, pos, limit, nil)
+		wallMS := time.Since(wall).Milliseconds()
+
+		if err != nil {
+			if ctx.Err() != nil || r.Stopped() {
+				rec.Result = rules.Draw
+				rec.Reason = "用户终止对战"
+				return rec
+			}
+			// 【v1.6.8 / 头脑风暴第 14 条】引擎异常**自动降级**：
+			// 以前一遇到异常就直接判这一方负；实际上很多异常是临时的
+			//（进程卡住、管道半死、引擎自己重启），重来一次往往就好了。
+			// 这里三级处理：① 原地重试一次 → ② 重启该引擎进程再试一次 →
+			// ③ 仍然失败才判负，并把「已自动重试」写进判负原因，对战继续下一局。
+			r.emit(Event{Type: EvStatus, Message: fmt.Sprintf("%s 引擎异常，正在自动重试：%v", engName, err)})
+			time.Sleep(400 * time.Millisecond)
+			res, err = client.Analyze(ctx, pos, limit, nil)
+			if err != nil && ctx.Err() == nil && !r.Stopped() {
+				r.emit(Event{Type: EvStatus, Message: fmt.Sprintf("%s 引擎重试仍失败，正在重启引擎进程", engName)})
+				if name2, nerr := r.restartSide(ctx, ci); nerr == nil {
+					engName = name2
+					if c2 := r.clientAt(ci); c2 != nil {
+						res, err = c2.Analyze(ctx, pos, limit, nil)
+					}
+				}
+			}
+			wallMS = time.Since(wall).Milliseconds()
+			if err != nil {
+				if ctx.Err() != nil || r.Stopped() {
+					rec.Result = rules.Draw
+					rec.Reason = "用户终止对战"
+					return rec
+				}
+				rec.Result = loseFor(sideToMove)
+				rec.Reason = fmt.Sprintf("%s 引擎异常（已自动重试并重启进程）：%v", engName, err)
+				return rec
+			}
+		}
+
+		bm := strings.TrimSpace(res.BestMove)
+		if bm == "" || bm == "none" || bm == "(none)" || bm == "0000" {
+			rec.Result = loseFor(sideToMove)
+			rec.Reason = fmt.Sprintf("%s 未返回有效着法（bestmove=%q）", engName, res.BestMove)
+			return rec
+		}
+		mv, ok := notation.UCIToMove(bm)
+		if !ok {
+			rec.Result = loseFor(sideToMove)
+			rec.Reason = fmt.Sprintf("%s 返回非法着法坐标 %q", engName, bm)
+			return rec
+		}
+		boardBefore := game.Board.Clone()
+		if !game.IsLegal(mv) {
+			rec.Result = loseFor(sideToMove)
+			rec.Reason = fmt.Sprintf("%s 返回不合法着法 %s", engName, mv)
+			return rec
+		}
+
+		sideName := "red"
+		if sideToMove == rules.Black {
+			sideName = "black"
+		}
+		mr := MoveRecord{
+			Ply:      len(game.Moves) + 1,
+			Side:     sideName,
+			Engine:   engName,
+			UCI:      mv.String(),
+			Chinese:  notation.ToChinese(boardBefore, mv),
+			Score:    res.Score,
+			Depth:    res.Depth,
+			Nodes:    res.Nodes,
+			NPS:      res.NPS,
+			EngineMS: res.TimeMS,
+			WallMS:   wallMS,
+			Best:     true,
+		}
+		_ = game.TryMove(mv)
+		rec.Moves = append(rec.Moves, mr)
+
+		r.emit(Event{
+			Type:       EvMove,
+			GameIndex:  idx,
+			TotalGames: opts.Games,
+			SelfWins:   r.score[0],
+			Draws:      r.score[1],
+			SelfLosses: r.score[2],
+			Board:      game.Board.Clone(),
+			Move:       mr,
+		})
+	}
+}
+
+// loseFor 返回「走子方判负」对应的终局状态。
+func loseFor(sideToMove int) rules.Status {
+	if sideToMove == rules.Red {
+		return rules.BlackWin
+	}
+	return rules.RedWin
+}
+
+func uciList(g *rules.Game) []string {
+	out := make([]string, 0, len(g.Moves))
+	for _, m := range g.Moves {
+		out = append(out, m.String())
+	}
+	return out
+}
+
+func lastBoard(rec *GameRecord) *rules.Board {
+	g, err := rules.NewGameFromFEN(rec.StartFEN)
+	if err != nil {
+		return rules.NewStartBoard()
+	}
+	for _, mr := range rec.Moves {
+		if m, ok := notation.UCIToMove(mr.UCI); ok {
+			g.ForceMove(m)
+		}
+	}
+	return g.Board
+}
+
+// OutputPath 返回某局的 PGN 文件路径。
+func OutputPath(dir string, idx int) string {
+	return filepath.Join(dir, fmt.Sprintf("game_%03d.pgn", idx))
+}
+
+// swapped 记录用户是否点过「交换双方引擎」。
+//
+// 语义与「局面对调」一致：只交换「哪台引擎执哪一方」，
+// 局面、着法历史、轮到谁走都不变。
+func (r *Runner) SwapSides() {
+	r.swapped.Store(!r.swapped.Load())
+}
+
+// SwapSides 由界面调用：让两台引擎中途换边。
+func (r *Runner) swapNow() bool { return r.swapped.Load() }
+
+// playGame 包一层：跑完一局后，按**结束时**的实际执子方修正记录，
+// 免得中途换边之后胜负被算到错误的引擎头上。
+func (r *Runner) playGame(ctx context.Context, idx int, opts Options, selfIsRed bool) *GameRecord {
+	rec := r.playGameInner(ctx, idx, opts, selfIsRed)
+	if r.swapped.Load() {
+		rec.RedIsSelf = !selfIsRed
+		rec.RedName, rec.BlackName = rec.BlackName, rec.RedName
+		rec.TimeCtrl += "（本局中途交换过双方）"
+	}
+	return rec
+}

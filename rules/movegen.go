@@ -1,1 +1,385 @@
-cGFja2FnZSBydWxlcwoKLy8g5pys5paH5Lu25a6e546w6LWw5rOV55Sf5oiQ5LiO5pS75Ye75Yik5a6a44CCCi8vCi8vIOi1sOazleeUn+aIkOWIhuS4pOWxgu+8mgovLyAgMS4gZ2VuUHNldWRvIOKAlOKAlCDkvKrlkIjms5XnnYDms5XvvJrlj6rogIPomZHmo4vlrZDoh6rouqvotbDlrZDop4TliJnvvIjpqazouanohb/jgIHosaHloZ7nnLzjgIHngq7pmpTlrZDjgIEKLy8gICAgIOWFtei/h+ays+OAgeS5neWuq+mZkOWItuetie+8ie+8jOS4jeajgOafpei1sOWujOWQjuW3seaWueaYr+WQpuiiq+WwhuWGm+OAgeaYr+WQpuW9ouaIkOWwhuW4heeFp+mdouOAggovLyAgMi4gTGVnYWxNb3ZlcyDigJTigJQg5Zyo5Lyq5ZCI5rOV552A5rOV5Z+656GA5LiK77yM6YCQ552A6K+V6LWw5bm25YmU6Zmk44CM6LWw5ZCO6KKr5bCG5Yab44CN5LiOCi8vICAgICDjgIzotbDlkI7lsIbluIXnhafpnaLjgI3nmoTnnYDms5XvvIzljbPlrozlhajlkIjms5XnnYDms5XjgIIKCi8vIE1vdmUg6KGo56S65LiA5q2l552A5rOV44CCCnR5cGUgTW92ZSBzdHJ1Y3QgewoJRnJvbSBpbnQgLy8g6LW354K577yI57q/5oCn57Si5byV77yJCglUbyAgIGludCAvLyDnu4jngrnvvIjnur/mgKfntKLlvJXvvIkKfQoKLy8gTmV3TW92ZSDnlLHotbfnu4jngrnmnoTpgKDnnYDms5XjgIIKZnVuYyBOZXdNb3ZlKGZyb20sIHRvIGludCkgTW92ZSB7IHJldHVybiBNb3Zle0Zyb206IGZyb20sIFRvOiB0b30gfQoKLy8gU3RyaW5nIOi/lOWbniBVQ0kg5b2i5byP55qE552A5rOV77yI5aaCICJoMmUyIu+8ieOAggpmdW5jIChtIE1vdmUpIFN0cmluZygpIHN0cmluZyB7IHJldHVybiBTcXVhcmVOYW1lKG0uRnJvbSkgKyBTcXVhcmVOYW1lKG0uVG8pIH0KCi8vIFBpZWNlIOi/lOWbnuivpeedgOazleWcqOe7meWumuWxgOmdouS4i+eahOi1sOWtkO+8iOi1sOWtkOWJjeiwg+eUqO+8ieOAggpmdW5jIChtIE1vdmUpIFBpZWNlKGIgKkJvYXJkKSBQaWVjZSB7IHJldHVybiBiLlNxW20uRnJvbV0gfQoKLy8g5q2j5Lqk5LiO5pac5ZCR5aKe6YeP77yI5paH5Lu25aKe6YePLCDooYzlop7ph4/vvIkKdmFyICgKCW9ydGhvRGlycyA9IFs0XVsyXWludHt7MCwgMX0sIHswLCAtMX0sIHsxLCAwfSwgey0xLCAwfX0KCWRpYWdEaXJzICA9IFs0XVsyXWludHt7MSwgMX0sIHsxLCAtMX0sIHstMSwgMX0sIHstMSwgLTF9fQopCgovLyDpqaznmoQgOCDnp43otbDms5XvvJp75paH5Lu25aKe6YePLCDooYzlop7ph48sIOmprOiFv+aWh+S7tuWinumHjywg6ams6IW/6KGM5aKe6YePfQp2YXIgaG9yc2VNb3ZlcyA9IFs4XVs0XWludHsKCXsxLCAyLCAwLCAxfSwgezEsIC0yLCAwLCAtMX0sIHstMSwgMiwgMCwgMX0sIHstMSwgLTIsIDAsIC0xfSwKCXsyLCAxLCAxLCAwfSwgezIsIC0xLCAxLCAwfSwgey0yLCAxLCAtMSwgMH0sIHstMiwgLTEsIC0xLCAwfSwKfQoKZnVuYyBhYnMoeCBpbnQpIGludCB7CglpZiB4IDwgMCB7CgkJcmV0dXJuIC14Cgl9CglyZXR1cm4geAp9CgovLyBpblBhbGFjZSDliKTmlq0gKGZpbGUscmFuaykg5piv5ZCm6JC95ZyoIHNpZGUg5pa555qE5Lmd5a6r5YaF44CCCi8vCi8vCee6ouaWueS5neWuq++8muaWh+S7tiAzLi4177yM6KGMIDAuLjIKLy8J6buR5pa55Lmd5a6r77ya5paH5Lu2IDMuLjXvvIzooYwgNy4uOQpmdW5jIGluUGFsYWNlKHNpZGUsIGZpbGUsIHJhbmsgaW50KSBib29sIHsKCWlmIGZpbGUgPCAzIHx8IGZpbGUgPiA1IHsKCQlyZXR1cm4gZmFsc2UKCX0KCWlmIHNpZGUgPT0gUmVkIHsKCQlyZXR1cm4gcmFuayA+PSAwICYmIHJhbmsgPD0gMgoJfQoJcmV0dXJuIHJhbmsgPj0gNyAmJiByYW5rIDw9IDkKfQoKLy8gaW5Pd25IYWxmIOWIpOaWreafkOihjOaYr+WQpuWcqCBzaWRlIOaWueiHquW3seeahOWNiuWcuuWGhe+8iOixoS/nm7jkuI3lj6/ov4fmsrPvvInjgIIKLy8KLy8J57qi5pa55Y2K5Zy677ya6KGMIDAuLjQgICAgICDpu5HmlrnljYrlnLrvvJrooYwgNS4uOQpmdW5jIGluT3duSGFsZihzaWRlLCByYW5rIGludCkgYm9vbCB7CglpZiBzaWRlID09IFJlZCB7CgkJcmV0dXJuIHJhbmsgPj0gMCAmJiByYW5rIDw9IDQKCX0KCXJldHVybiByYW5rID49IDUgJiYgcmFuayA8PSA5Cn0KCi8vIGNyb3NzZWRSaXZlciDliKTmlq3kvY3kuo4gKHNpZGUsIHJhbmspIOeahOWFtS/ljZLmmK/lkKblt7Lnu4/ov4fmsrPjgIIKLy8KLy8J57qi5YW16L+H5rKz77ya6KGMID49IDUgICAgICDpu5HljZLov4fmsrPvvJrooYwgPD0gNApmdW5jIGNyb3NzZWRSaXZlcihzaWRlLCByYW5rIGludCkgYm9vbCB7IHJldHVybiAhaW5Pd25IYWxmKHNpZGUsIHJhbmspIH0KCi8vIGZvcndhcmQg6L+U5ZueIHNpZGUg5pa555qE5YmN6L+b5pa55ZCR77yI57qi5pa55ZCR6KGM5Y+35aKe5aSn5pa55ZCR6LWw77yM6buR5pa555u45Y+N77yJ44CCCmZ1bmMgZm9yd2FyZChzaWRlIGludCkgaW50IHsKCWlmIHNpZGUgPT0gUmVkIHsKCQlyZXR1cm4gMQoJfQoJcmV0dXJuIC0xCn0KCi8vIGFkZE1vdmUg6IulIChmaWxlLHJhbmspIOWcqOebmOWGheWImei/veWKoOS4gOS4quedgOazleOAggpmdW5jIGFkZE1vdmUoZHN0IFtdTW92ZSwgZnJvbSwgZmlsZSwgcmFuayBpbnQpIFtdTW92ZSB7CglpZiAhT25Cb2FyZChmaWxlLCByYW5rKSB7CgkJcmV0dXJuIGRzdAoJfQoJcmV0dXJuIGFwcGVuZChkc3QsIE1vdmV7RnJvbTogZnJvbSwgVG86IEluZGV4KGZpbGUsIHJhbmspfSkKfQoKLy8gZ2VuUHNldWRvIOeUn+aIkCBzaWRlIOaWueWFqOmDqOS8quWQiOazleedgOazleOAggpmdW5jIChiICpCb2FyZCkgZ2VuUHNldWRvKHNpZGUgaW50KSBbXU1vdmUgewoJb3V0IDo9IG1ha2UoW11Nb3ZlLCAwLCA2NCkKCWZvciBmcm9tIDo9IDA7IGZyb20gPCBTcXVhcmVzOyBmcm9tKysgewoJCXAgOj0gYi5TcVtmcm9tXQoJCWlmIHAuSXNFbXB0eSgpIHx8IHAuU2lkZSgpICE9IHNpZGUgewoJCQljb250aW51ZQoJCX0KCQlmaWxlLCByYW5rIDo9IEZpbGVPZihmcm9tKSwgUmFua09mKGZyb20pCgkJc3dpdGNoIHAuVHlwZSgpIHsKCQljYXNlIFBLaW5nOgoJCQkvLyDluIUv5bCG77ya5Lmd5a6r5YaF55u06LWw5LiA5q2lCgkJCWZvciBfLCBkIDo9IHJhbmdlIG9ydGhvRGlycyB7CgkJCQluZiwgbnIgOj0gZmlsZStkWzBdLCByYW5rK2RbMV0KCQkJCWlmICFpblBhbGFjZShzaWRlLCBuZiwgbnIpIHsKCQkJCQljb250aW51ZQoJCQkJfQoJCQkJaWYgdCA6PSBiLlNxW0luZGV4KG5mLCBucildOyB0LklzRW1wdHkoKSB8fCB0LlNpZGUoKSAhPSBzaWRlIHsKCQkJCQlvdXQgPSBhcHBlbmQob3V0LCBNb3Zle0Zyb206IGZyb20sIFRvOiBJbmRleChuZiwgbnIpfSkKCQkJCX0KCQkJfQoJCWNhc2UgUEFkdmlzb3I6CgkJCS8vIOS7lS/lo6vvvJrkuZ3lrqvlhoXmlpzotbDkuIDmraUKCQkJZm9yIF8sIGQgOj0gcmFuZ2UgZGlhZ0RpcnMgewoJCQkJbmYsIG5yIDo9IGZpbGUrZFswXSwgcmFuaytkWzFdCgkJCQlpZiAhaW5QYWxhY2Uoc2lkZSwgbmYsIG5yKSB7CgkJCQkJY29udGludWUKCQkJCX0KCQkJCWlmIHQgOj0gYi5TcVtJbmRleChuZiwgbnIpXTsgdC5Jc0VtcHR5KCkgfHwgdC5TaWRlKCkgIT0gc2lkZSB7CgkJCQkJb3V0ID0gYXBwZW5kKG91dCwgTW92ZXtGcm9tOiBmcm9tLCBUbzogSW5kZXgobmYsIG5yKX0pCgkJCQl9CgkJCX0KCQljYXNlIFBFbGVwaGFudDoKCQkJLy8g55u4L+ixoe+8muaWnOi1sOS4pOagvO+8jOS4jeWPr+i/h+ays++8jOixoeecvOiiq+WNoOWImeS4jeWPr+i1sAoJCQlmb3IgXywgZCA6PSByYW5nZSBkaWFnRGlycyB7CgkJCQluZiwgbnIgOj0gZmlsZSsyKmRbMF0sIHJhbmsrMipkWzFdCgkJCQlpZiAhT25Cb2FyZChuZiwgbnIpIHx8ICFpbk93bkhhbGYoc2lkZSwgbnIpIHsKCQkJCQljb250aW51ZQoJCQkJfQoJCQkJLy8g5aGe6LGh55y8CgkJCQlpZiAhYi5TcVtJbmRleChmaWxlK2RbMF0sIHJhbmsrZFsxXSldLklzRW1wdHkoKSB7CgkJCQkJY29udGludWUKCQkJCX0KCQkJCWlmIHQgOj0gYi5TcVtJbmRleChuZiwgbnIpXTsgdC5Jc0VtcHR5KCkgfHwgdC5TaWRlKCkgIT0gc2lkZSB7CgkJCQkJb3V0ID0gYXBwZW5kKG91dCwgTW92ZXtGcm9tOiBmcm9tLCBUbzogSW5kZXgobmYsIG5yKX0pCgkJCQl9CgkJCX0KCQljYXNlIFBIb3JzZToKCQkJLy8g6aasL+mprO+8mui1sOaXpeWtl++8jOi5qemprOiFv+WImeS4jeWPr+i1sAoJCQlmb3IgXywgaG0gOj0gcmFuZ2UgaG9yc2VNb3ZlcyB7CgkJCQluZiwgbnIgOj0gZmlsZStobVswXSwgcmFuaytobVsxXQoJCQkJaWYgIU9uQm9hcmQobmYsIG5yKSB7CgkJCQkJY29udGludWUKCQkJCX0KCQkJCWlmICFiLlNxW0luZGV4KGZpbGUraG1bMl0sIHJhbmsraG1bM10pXS5Jc0VtcHR5KCkgewoJCQkJCWNvbnRpbnVlIC8vIOi5qemprOiFvwoJCQkJfQoJCQkJaWYgdCA6PSBiLlNxW0luZGV4KG5mLCBucildOyB0LklzRW1wdHkoKSB8fCB0LlNpZGUoKSAhPSBzaWRlIHsKCQkJCQlvdXQgPSBhcHBlbmQob3V0LCBNb3Zle0Zyb206IGZyb20sIFRvOiBJbmRleChuZiwgbnIpfSkKCQkJCX0KCQkJfQoJCWNhc2UgUFJvb2s6CgkJCS8vIOi7ii/ovabvvJrnm7Tnur/mu5HooYzvvIzpgYflrZDlgZzmraIKCQkJZm9yIF8sIGQgOj0gcmFuZ2Ugb3J0aG9EaXJzIHsKCQkJCW5mLCBuciA6PSBmaWxlK2RbMF0sIHJhbmsrZFsxXQoJCQkJZm9yIE9uQm9hcmQobmYsIG5yKSB7CgkJCQkJdCA6PSBiLlNxW0luZGV4KG5mLCBucildCgkJCQkJaWYgdC5Jc0VtcHR5KCkgewoJCQkJCQlvdXQgPSBhcHBlbmQob3V0LCBNb3Zle0Zyb206IGZyb20sIFRvOiBJbmRleChuZiwgbnIpfSkKCQkJCQl9IGVsc2UgewoJCQkJCQlpZiB0LlNpZGUoKSAhPSBzaWRlIHsKCQkJCQkJCW91dCA9IGFwcGVuZChvdXQsIE1vdmV7RnJvbTogZnJvbSwgVG86IEluZGV4KG5mLCBucil9KQoJCQkJCQl9CgkJCQkJCWJyZWFrCgkJCQkJfQoJCQkJCW5mLCBuciA9IG5mK2RbMF0sIG5yK2RbMV0KCQkJCX0KCQkJfQoJCWNhc2UgUENhbm5vbjoKCQkJLy8g54Ku77ya55u057q/5ruR6KGM5LiN5ZCD5a2Q77yb6ZqU5LiU5LuF6ZqU5LiA5a2Q5pe25Y+v5ZCD5a2QCgkJCWZvciBfLCBkIDo9IHJhbmdlIG9ydGhvRGlycyB7CgkJCQluZiwgbnIgOj0gZmlsZStkWzBdLCByYW5rK2RbMV0KCQkJCS8vIOesrOS4gOaute+8muepuuagvO+8jOWPr+S7peW5s+enu+WIsOatpOWkhAoJCQkJZm9yIE9uQm9hcmQobmYsIG5yKSAmJiBiLlNxW0luZGV4KG5mLCBucildLklzRW1wdHkoKSB7CgkJCQkJb3V0ID0gYXBwZW5kKG91dCwgTW92ZXtGcm9tOiBmcm9tLCBUbzogSW5kZXgobmYsIG5yKX0pCgkJCQkJbmYsIG5yID0gbmYrZFswXSwgbnIrZFsxXQoJCQkJfQoJCQkJLy8g6LaK6L+H54Ku5p62CgkJCQlpZiAhT25Cb2FyZChuZiwgbnIpIHsKCQkJCQljb250aW51ZQoJCQkJfQoJCQkJbmYsIG5yID0gbmYrZFswXSwgbnIrZFsxXQoJCQkJLy8g56ys5LqM5q6177ya5om+5Yiw56ys5LiA5Liq5qOL5a2Q77yM6Iul5piv5pWM5a2Q5YiZ5Y+v5ZCDCgkJCQlmb3IgT25Cb2FyZChuZiwgbnIpIHsKCQkJCQlpZiB0IDo9IGIuU3FbSW5kZXgobmYsIG5yKV07ICF0LklzRW1wdHkoKSB7CgkJCQkJCWlmIHQuU2lkZSgpICE9IHNpZGUgewoJCQkJCQkJb3V0ID0gYXBwZW5kKG91dCwgTW92ZXtGcm9tOiBmcm9tLCBUbzogSW5kZXgobmYsIG5yKX0pCgkJCQkJCX0KCQkJCQkJYnJlYWsKCQkJCQl9CgkJCQkJbmYsIG5yID0gbmYrZFswXSwgbnIrZFsxXQoJCQkJfQoJCQl9CgkJY2FzZSBQUGF3bjoKCQkJLy8g5YW1L+WNku+8muWQkeWJjeS4gOatpe+8m+i/h+ays+WQjuWPr+W3puWPs+S4gOatpe+8m+S4jeWPr+WQjumAgAoJCQlmdyA6PSBmb3J3YXJkKHNpZGUpCgkJCS8vIOWQkeWJjeS4gOatpe+8iOWIsOi+vuWvueaWueW6lee6v+WQjuS4jeWGjeWJjeenu++8jOS9huS7jeWPr+aoqui1sO+8iQoJCQlpZiBPbkJvYXJkKGZpbGUsIHJhbmsrZncpIHsKCQkJCWlmIHQgOj0gYi5TcVtJbmRleChmaWxlLCByYW5rK2Z3KV07IHQuSXNFbXB0eSgpIHx8IHQuU2lkZSgpICE9IHNpZGUgewoJCQkJCW91dCA9IGFwcGVuZChvdXQsIE1vdmV7RnJvbTogZnJvbSwgVG86IEluZGV4KGZpbGUsIHJhbmsrZncpfSkKCQkJCX0KCQkJfQoJCQlpZiBjcm9zc2VkUml2ZXIoc2lkZSwgcmFuaykgewoJCQkJZm9yIF8sIGRmIDo9IHJhbmdlIFtdaW50ey0xLCAxfSB7CgkJCQkJbmYgOj0gZmlsZSArIGRmCgkJCQkJaWYgIU9uQm9hcmQobmYsIHJhbmspIHsKCQkJCQkJY29udGludWUKCQkJCQl9CgkJCQkJaWYgdCA6PSBiLlNxW0luZGV4KG5mLCByYW5rKV07IHQuSXNFbXB0eSgpIHx8IHQuU2lkZSgpICE9IHNpZGUgewoJCQkJCQlvdXQgPSBhcHBlbmQob3V0LCBNb3Zle0Zyb206IGZyb20sIFRvOiBJbmRleChuZiwgcmFuayl9KQoJCQkJCX0KCQkJCX0KCQkJfQoJCX0KCX0KCXJldHVybiBvdXQKfQoKLy8gY291bnRCZXR3ZWVuIOe7n+iuoeWQjOS4gOebtOe6v+S4iiBmcm9tIOS4jiB0byDkuYvpl7TnmoTmo4vlrZDmlbDvvIjkuI3lkKvkuKTnq6/vvInjgIIKLy8g6Iul5Lik54K55LiN5Zyo5ZCM5LiA6KGML+WQjOS4gOWIl++8jOi/lOWbniAtMeOAggpmdW5jIChiICpCb2FyZCkgY291bnRCZXR3ZWVuKGZyb20sIHRvIGludCkgaW50IHsKCWZmLCBmciA6PSBGaWxlT2YoZnJvbSksIFJhbmtPZihmcm9tKQoJdGYsIHRyIDo9IEZpbGVPZih0byksIFJhbmtPZih0bykKCWRmLCBkciA6PSAwLCAwCglzd2l0Y2ggewoJY2FzZSBmciA9PSB0ciAmJiBmZiAhPSB0ZjoKCQlpZiB0ZiA+IGZmIHsKCQkJZGYgPSAxCgkJfSBlbHNlIHsKCQkJZGYgPSAtMQoJCX0KCWNhc2UgZmYgPT0gdGYgJiYgZnIgIT0gdHI6CgkJaWYgdHIgPiBmciB7CgkJCWRyID0gMQoJCX0gZWxzZSB7CgkJCWRyID0gLTEKCQl9CglkZWZhdWx0OgoJCXJldHVybiAtMQoJfQoJbiA6PSAwCglmLCByIDo9IGZmK2RmLCBmcitkcgoJZm9yIGYgIT0gdGYgfHwgciAhPSB0ciB7CgkJaWYgIU9uQm9hcmQoZiwgcikgewoJCQlyZXR1cm4gLTEKCQl9CgkJaWYgIWIuU3FbSW5kZXgoZiwgcildLklzRW1wdHkoKSB7CgkJCW4rKwoJCX0KCQlmLCByID0gZitkZiwgcitkcgoJfQoJcmV0dXJuIG4KfQoKLy8gcGllY2VBdHRhY2tzIOWIpOaWrSBmcm9tIOagvOeahOaji+WtkCBwIOaYr+WQpuaUu+WHuyB0byDmoLzjgIIKLy8KLy8g6K+t5LmJ5LiO44CMdG8g5qC85LiK5pS+552A5LiA5p6aIHAg55qE5pWM5a2Q44CN5pe255qE6LWw5rOV55Sf5oiQ5LiA6Ie077yaCi8vIOeCrumcgOimgeaBsOWlveS4gOS4queCruaetuaJjeiDveWQg+WtkO+8jOi7iumcgOimgeS4remXtOaXoOWtkO+8jOWFtemcgOimgeWJjei/m+aIlu+8iOi/h+ays+WQju+8ieaoqui1sOOAggovLyDlm6DmraTosIPnlKjmlrnlv4Xpobvkv53or4EgdG8g5qC85LiK5pivIHAg55qE5pWM5a2Q77yI5pys5YyF5LuF5Zyo44CM5Yik5pat5bex5pa55bCGL+W4heaYr+WQpuiiq+aUu+WHu+OAjeaXtuS9v+eUqO+8ieOAggpmdW5jIChiICpCb2FyZCkgcGllY2VBdHRhY2tzKGZyb20sIHRvIGludCwgcCBQaWVjZSkgYm9vbCB7CglpZiBmcm9tID09IHRvIHsKCQlyZXR1cm4gZmFsc2UKCX0KCWZmLCBmciA6PSBGaWxlT2YoZnJvbSksIFJhbmtPZihmcm9tKQoJdGYsIHRyIDo9IEZpbGVPZih0byksIFJhbmtPZih0bykKCWRmLCBkciA6PSB0Zi1mZiwgdHItZnIKCXN3aXRjaCBwLlR5cGUoKSB7CgljYXNlIFBLaW5nOgoJCWlmIGFicyhkZikrYWJzKGRyKSAhPSAxIHsKCQkJcmV0dXJuIGZhbHNlCgkJfQoJCXJldHVybiBpblBhbGFjZShwLlNpZGUoKSwgdGYsIHRyKQoJY2FzZSBQQWR2aXNvcjoKCQlpZiBhYnMoZGYpICE9IDEgfHwgYWJzKGRyKSAhPSAxIHsKCQkJcmV0dXJuIGZhbHNlCgkJfQoJCXJldHVybiBpblBhbGFjZShwLlNpZGUoKSwgdGYsIHRyKQoJY2FzZSBQRWxlcGhhbnQ6CgkJaWYgYWJzKGRmKSAhPSAyIHx8IGFicyhkcikgIT0gMiB7CgkJCXJldHVybiBmYWxzZQoJCX0KCQlpZiAhaW5Pd25IYWxmKHAuU2lkZSgpLCB0cikgewoJCQlyZXR1cm4gZmFsc2UKCQl9CgkJcmV0dXJuIGIuU3FbSW5kZXgoZmYrZGYvMiwgZnIrZHIvMildLklzRW1wdHkoKSAvLyDosaHnnLwKCWNhc2UgUEhvcnNlOgoJCWlmIGFicyhkZikgPT0gMSAmJiBhYnMoZHIpID09IDIgewoJCQlyZXR1cm4gYi5TcVtJbmRleChmZiwgZnIrZHIvMildLklzRW1wdHkoKSAvLyDpqazohb8KCQl9CgkJaWYgYWJzKGRmKSA9PSAyICYmIGFicyhkcikgPT0gMSB7CgkJCXJldHVybiBiLlNxW0luZGV4KGZmK2RmLzIsIGZyKV0uSXNFbXB0eSgpIC8vIOmprOiFvwoJCX0KCQlyZXR1cm4gZmFsc2UKCWNhc2UgUFJvb2s6CgkJaWYgZGYgIT0gMCAmJiBkciAhPSAwIHsKCQkJcmV0dXJuIGZhbHNlCgkJfQoJCXJldHVybiBiLmNvdW50QmV0d2Vlbihmcm9tLCB0bykgPT0gMAoJY2FzZSBQQ2Fubm9uOgoJCWlmIGRmICE9IDAgJiYgZHIgIT0gMCB7CgkJCXJldHVybiBmYWxzZQoJCX0KCQlyZXR1cm4gYi5jb3VudEJldHdlZW4oZnJvbSwgdG8pID09IDEgLy8g5oGw5aW95LiA5Liq54Ku5p62CgljYXNlIFBQYXduOgoJCWlmIGRmID09IDAgJiYgZHIgPT0gZm9yd2FyZChwLlNpZGUoKSkgewoJCQlyZXR1cm4gdHJ1ZQoJCX0KCQlpZiBkciA9PSAwICYmIGFicyhkZikgPT0gMSAmJiBjcm9zc2VkUml2ZXIocC5TaWRlKCksIGZyKSB7CgkJCXJldHVybiB0cnVlCgkJfQoJCXJldHVybiBmYWxzZQoJfQoJcmV0dXJuIGZhbHNlCn0KCi8vIFNxdWFyZUF0dGFja2VkQnkg5Yik5patIHNxIOagvOaYr+WQpuiiqyBieVNpZGUg5pa55pS75Ye744CCCi8vIHNxIOagvOS4iuW6lOaUvuaciSBieVNpZGUg5pa555qE5pWM5a2Q77yI5pys5YyF5Y+q5Zyo5Yik5pat5bCGL+W4heiiq+aUu+WHu+aXtuiwg+eUqO+8ieOAggpmdW5jIChiICpCb2FyZCkgU3F1YXJlQXR0YWNrZWRCeShzcSwgYnlTaWRlIGludCkgYm9vbCB7Cglmb3IgaSA6PSAwOyBpIDwgU3F1YXJlczsgaSsrIHsKCQlwIDo9IGIuU3FbaV0KCQlpZiBwLklzRW1wdHkoKSB8fCBwLlNpZGUoKSAhPSBieVNpZGUgewoJCQljb250aW51ZQoJCX0KCQlpZiBiLnBpZWNlQXR0YWNrcyhpLCBzcSwgcCkgewoJCQlyZXR1cm4gdHJ1ZQoJCX0KCX0KCXJldHVybiBmYWxzZQp9CgovLyBJbkNoZWNrIOWIpOaWrSBzaWRlIOaWueaYr+WQpuato+iiq+WwhuWGm+OAggpmdW5jIChiICpCb2FyZCkgSW5DaGVjayhzaWRlIGludCkgYm9vbCB7CglrIDo9IGIuRmluZEtpbmcoc2lkZSkKCWlmIGsgPCAwIHsKCQlyZXR1cm4gZmFsc2UKCX0KCXJldHVybiBiLlNxdWFyZUF0dGFja2VkQnkoaywgMS1zaWRlKQp9CgovLyBLaW5nc0ZhY2luZyDliKTmlq3lj4zmlrnlsIYv5biF5piv5ZCm54Wn6Z2i77yI5ZCM5LiA57q157q/5LiU5Lit6Ze05peg5a2Q77yJ44CCCi8vIOeFp+mdouWxgOmdouWcqOS4reWbveixoeaji+S4reaYr+mdnuazleWxgOmdou+8jOi1sOWHuuivpeWxgOmdoueahOS4gOaWueedgOazlemdnuazleOAggpmdW5jIChiICpCb2FyZCkgS2luZ3NGYWNpbmcoKSBib29sIHsKCXJrIDo9IGIuRmluZEtpbmcoUmVkKQoJYmsgOj0gYi5GaW5kS2luZyhCbGFjaykKCWlmIHJrIDwgMCB8fCBiayA8IDAgewoJCXJldHVybiBmYWxzZQoJfQoJaWYgRmlsZU9mKHJrKSAhPSBGaWxlT2YoYmspIHsKCQlyZXR1cm4gZmFsc2UKCX0KCXJldHVybiBiLmNvdW50QmV0d2VlbihyaywgYmspID09IDAKfQoKLy8gQXBwbHkg5Zyo5bGA6Z2i5LiK5omn6KGM552A5rOV77yM6L+U5Zue6KKr5ZCD5o6J55qE5a2Q77yI5L6bIFJldmVydCDkvb/nlKjvvInvvIzlubbkuqTmjaLotbDlrZDmlrnjgIIKZnVuYyAoYiAqQm9hcmQpIEFwcGx5KG0gTW92ZSkgUGllY2UgewoJY2FwdHVyZWQgOj0gYi5TcVttLlRvXQoJYi5TcVttLlRvXSA9IGIuU3FbbS5Gcm9tXQoJYi5TcVttLkZyb21dID0gUEVtcHR5CgliLlNpZGUgPSAxIC0gYi5TaWRlCglyZXR1cm4gY2FwdHVyZWQKfQoKLy8gUmV2ZXJ0IOaSpOmUgCBBcHBseSDmiafooYzov4fnmoTnnYDms5XjgIIKZnVuYyAoYiAqQm9hcmQpIFJldmVydChtIE1vdmUsIGNhcHR1cmVkIFBpZWNlKSB7CgliLlNxW20uRnJvbV0gPSBiLlNxW20uVG9dCgliLlNxW20uVG9dID0gY2FwdHVyZWQKCWIuU2lkZSA9IDEgLSBiLlNpZGUKfQoKLy8gTGVnYWxNb3ZlcyDnlJ/miJDlvZPliY3otbDlrZDmlrnnmoTlhajpg6jlrozlhajlkIjms5XnnYDms5UKLy8g77yI5bey5YmU6Zmk44CM6LWw5a6M5ZCO6KKr5bCG5Yab44CN5LiO44CM6LWw5a6M5ZCO5bCG5biF54Wn6Z2i44CN55qE552A5rOV77yJ44CCCmZ1bmMgKGIgKkJvYXJkKSBMZWdhbE1vdmVzKCkgW11Nb3ZlIHsKCXNpZGUgOj0gYi5TaWRlCglwc2V1ZG8gOj0gYi5nZW5Qc2V1ZG8oc2lkZSkKCS8vIOWOn+WcsOi/h+a7pO+8muWGmeaMh+mSiOS4jeS8mui2hei/h+ivu+aMh+mSiO+8jOWuieWFqOWkjeeUqOWQjOS4gOW6leWxguaVsOe7hAoJb3V0IDo9IHBzZXVkb1s6MF0KCWZvciBfLCBtIDo9IHJhbmdlIHBzZXVkbyB7CgkJY2FwdHVyZWQgOj0gYi5BcHBseShtKQoJCW9rIDo9ICFiLkluQ2hlY2soc2lkZSkgJiYgIWIuS2luZ3NGYWNpbmcoKQoJCWIuUmV2ZXJ0KG0sIGNhcHR1cmVkKQoJCWlmIG9rIHsKCQkJb3V0ID0gYXBwZW5kKG91dCwgbSkKCQl9Cgl9CglyZXR1cm4gb3V0Cn0K
+package rules
+
+// 本文件实现走法生成与攻击判定。
+//
+// 走法生成分两层：
+//  1. genPseudo —— 伪合法着法：只考虑棋子自身走子规则（马蹩腿、象塞眼、炮隔子、
+//     兵过河、九宫限制等），不检查走完后己方是否被将军、是否形成将帅照面。
+//  2. LegalMoves —— 在伪合法着法基础上，逐着试走并剔除「走后被将军」与
+//     「走后将帅照面」的着法，即完全合法着法。
+
+// Move 表示一步着法。
+type Move struct {
+	From int // 起点（线性索引）
+	To   int // 终点（线性索引）
+}
+
+// NewMove 由起终点构造着法。
+func NewMove(from, to int) Move { return Move{From: from, To: to} }
+
+// String 返回 UCI 形式的着法（如 "h2e2"）。
+func (m Move) String() string { return SquareName(m.From) + SquareName(m.To) }
+
+// Piece 返回该着法在给定局面下的走子（走子前调用）。
+func (m Move) Piece(b *Board) Piece { return b.Sq[m.From] }
+
+// 正交与斜向增量（文件增量, 行增量）
+var (
+	orthoDirs = [4][2]int{{0, 1}, {0, -1}, {1, 0}, {-1, 0}}
+	diagDirs  = [4][2]int{{1, 1}, {1, -1}, {-1, 1}, {-1, -1}}
+)
+
+// 马的 8 种走法：{文件增量, 行增量, 马腿文件增量, 马腿行增量}
+var horseMoves = [8][4]int{
+	{1, 2, 0, 1}, {1, -2, 0, -1}, {-1, 2, 0, 1}, {-1, -2, 0, -1},
+	{2, 1, 1, 0}, {2, -1, 1, 0}, {-2, 1, -1, 0}, {-2, -1, -1, 0},
+}
+
+func abs(x int) int {
+	if x < 0 {
+		return -x
+	}
+	return x
+}
+
+// inPalace 判断 (file,rank) 是否落在 side 方的九宫内。
+//
+//	红方九宫：文件 3..5，行 0..2
+//	黑方九宫：文件 3..5，行 7..9
+func inPalace(side, file, rank int) bool {
+	if file < 3 || file > 5 {
+		return false
+	}
+	if side == Red {
+		return rank >= 0 && rank <= 2
+	}
+	return rank >= 7 && rank <= 9
+}
+
+// inOwnHalf 判断某行是否在 side 方自己的半场内（象/相不可过河）。
+//
+//	红方半场：行 0..4      黑方半场：行 5..9
+func inOwnHalf(side, rank int) bool {
+	if side == Red {
+		return rank >= 0 && rank <= 4
+	}
+	return rank >= 5 && rank <= 9
+}
+
+// crossedRiver 判断位于 (side, rank) 的兵/卒是否已经过河。
+//
+//	红兵过河：行 >= 5      黑卒过河：行 <= 4
+func crossedRiver(side, rank int) bool { return !inOwnHalf(side, rank) }
+
+// forward 返回 side 方的前进方向（红方向行号增大方向走，黑方相反）。
+func forward(side int) int {
+	if side == Red {
+		return 1
+	}
+	return -1
+}
+
+// addMove 若 (file,rank) 在盘内则追加一个着法。
+func addMove(dst []Move, from, file, rank int) []Move {
+	if !OnBoard(file, rank) {
+		return dst
+	}
+	return append(dst, Move{From: from, To: Index(file, rank)})
+}
+
+// genPseudo 生成 side 方全部伪合法着法。
+func (b *Board) genPseudo(side int) []Move {
+	out := make([]Move, 0, 64)
+	for from := 0; from < Squares; from++ {
+		p := b.Sq[from]
+		if p.IsEmpty() || p.Side() != side {
+			continue
+		}
+		file, rank := FileOf(from), RankOf(from)
+		switch p.Type() {
+		case PKing:
+			// 帅/将：九宫内直走一步
+			for _, d := range orthoDirs {
+				nf, nr := file+d[0], rank+d[1]
+				if !inPalace(side, nf, nr) {
+					continue
+				}
+				if t := b.Sq[Index(nf, nr)]; t.IsEmpty() || t.Side() != side {
+					out = append(out, Move{From: from, To: Index(nf, nr)})
+				}
+			}
+		case PAdvisor:
+			// 仕/士：九宫内斜走一步
+			for _, d := range diagDirs {
+				nf, nr := file+d[0], rank+d[1]
+				if !inPalace(side, nf, nr) {
+					continue
+				}
+				if t := b.Sq[Index(nf, nr)]; t.IsEmpty() || t.Side() != side {
+					out = append(out, Move{From: from, To: Index(nf, nr)})
+				}
+			}
+		case PElephant:
+			// 相/象：斜走两格，不可过河，象眼被占则不可走
+			for _, d := range diagDirs {
+				nf, nr := file+2*d[0], rank+2*d[1]
+				if !OnBoard(nf, nr) || !inOwnHalf(side, nr) {
+					continue
+				}
+				// 塞象眼
+				if !b.Sq[Index(file+d[0], rank+d[1])].IsEmpty() {
+					continue
+				}
+				if t := b.Sq[Index(nf, nr)]; t.IsEmpty() || t.Side() != side {
+					out = append(out, Move{From: from, To: Index(nf, nr)})
+				}
+			}
+		case PHorse:
+			// 馬/马：走日字，蹩马腿则不可走
+			for _, hm := range horseMoves {
+				nf, nr := file+hm[0], rank+hm[1]
+				if !OnBoard(nf, nr) {
+					continue
+				}
+				if !b.Sq[Index(file+hm[2], rank+hm[3])].IsEmpty() {
+					continue // 蹩马腿
+				}
+				if t := b.Sq[Index(nf, nr)]; t.IsEmpty() || t.Side() != side {
+					out = append(out, Move{From: from, To: Index(nf, nr)})
+				}
+			}
+		case PRook:
+			// 車/车：直线滑行，遇子停止
+			for _, d := range orthoDirs {
+				nf, nr := file+d[0], rank+d[1]
+				for OnBoard(nf, nr) {
+					t := b.Sq[Index(nf, nr)]
+					if t.IsEmpty() {
+						out = append(out, Move{From: from, To: Index(nf, nr)})
+					} else {
+						if t.Side() != side {
+							out = append(out, Move{From: from, To: Index(nf, nr)})
+						}
+						break
+					}
+					nf, nr = nf+d[0], nr+d[1]
+				}
+			}
+		case PCannon:
+			// 炮：直线滑行不吃子；隔且仅隔一子时可吃子
+			for _, d := range orthoDirs {
+				nf, nr := file+d[0], rank+d[1]
+				// 第一段：空格，可以平移到此处
+				for OnBoard(nf, nr) && b.Sq[Index(nf, nr)].IsEmpty() {
+					out = append(out, Move{From: from, To: Index(nf, nr)})
+					nf, nr = nf+d[0], nr+d[1]
+				}
+				// 越过炮架
+				if !OnBoard(nf, nr) {
+					continue
+				}
+				nf, nr = nf+d[0], nr+d[1]
+				// 第二段：找到第一个棋子，若是敌子则可吃
+				for OnBoard(nf, nr) {
+					if t := b.Sq[Index(nf, nr)]; !t.IsEmpty() {
+						if t.Side() != side {
+							out = append(out, Move{From: from, To: Index(nf, nr)})
+						}
+						break
+					}
+					nf, nr = nf+d[0], nr+d[1]
+				}
+			}
+		case PPawn:
+			// 兵/卒：向前一步；过河后可左右一步；不可后退
+			fw := forward(side)
+			// 向前一步（到达对方底线后不再前移，但仍可横走）
+			if OnBoard(file, rank+fw) {
+				if t := b.Sq[Index(file, rank+fw)]; t.IsEmpty() || t.Side() != side {
+					out = append(out, Move{From: from, To: Index(file, rank+fw)})
+				}
+			}
+			if crossedRiver(side, rank) {
+				for _, df := range []int{-1, 1} {
+					nf := file + df
+					if !OnBoard(nf, rank) {
+						continue
+					}
+					if t := b.Sq[Index(nf, rank)]; t.IsEmpty() || t.Side() != side {
+						out = append(out, Move{From: from, To: Index(nf, rank)})
+					}
+				}
+			}
+		}
+	}
+	return out
+}
+
+// countBetween 统计同一直线上 from 与 to 之间的棋子数（不含两端）。
+// 若两点不在同一行/同一列，返回 -1。
+func (b *Board) countBetween(from, to int) int {
+	ff, fr := FileOf(from), RankOf(from)
+	tf, tr := FileOf(to), RankOf(to)
+	df, dr := 0, 0
+	switch {
+	case fr == tr && ff != tf:
+		if tf > ff {
+			df = 1
+		} else {
+			df = -1
+		}
+	case ff == tf && fr != tr:
+		if tr > fr {
+			dr = 1
+		} else {
+			dr = -1
+		}
+	default:
+		return -1
+	}
+	n := 0
+	f, r := ff+df, fr+dr
+	for f != tf || r != tr {
+		if !OnBoard(f, r) {
+			return -1
+		}
+		if !b.Sq[Index(f, r)].IsEmpty() {
+			n++
+		}
+		f, r = f+df, r+dr
+	}
+	return n
+}
+
+// pieceAttacks 判断 from 格的棋子 p 是否攻击 to 格。
+//
+// 语义与「to 格上放着一枚 p 的敌子」时的走法生成一致：
+// 炮需要恰好一个炮架才能吃子，車需要中间无子，兵需要前进或（过河后）横走。
+// 因此调用方必须保证 to 格上是 p 的敌子（本包仅在「判断己方将/帅是否被攻击」时使用）。
+func (b *Board) pieceAttacks(from, to int, p Piece) bool {
+	if from == to {
+		return false
+	}
+	ff, fr := FileOf(from), RankOf(from)
+	tf, tr := FileOf(to), RankOf(to)
+	df, dr := tf-ff, tr-fr
+	switch p.Type() {
+	case PKing:
+		if abs(df)+abs(dr) != 1 {
+			return false
+		}
+		return inPalace(p.Side(), tf, tr)
+	case PAdvisor:
+		if abs(df) != 1 || abs(dr) != 1 {
+			return false
+		}
+		return inPalace(p.Side(), tf, tr)
+	case PElephant:
+		if abs(df) != 2 || abs(dr) != 2 {
+			return false
+		}
+		if !inOwnHalf(p.Side(), tr) {
+			return false
+		}
+		return b.Sq[Index(ff+df/2, fr+dr/2)].IsEmpty() // 象眼
+	case PHorse:
+		if abs(df) == 1 && abs(dr) == 2 {
+			return b.Sq[Index(ff, fr+dr/2)].IsEmpty() // 马腿
+		}
+		if abs(df) == 2 && abs(dr) == 1 {
+			return b.Sq[Index(ff+df/2, fr)].IsEmpty() // 马腿
+		}
+		return false
+	case PRook:
+		if df != 0 && dr != 0 {
+			return false
+		}
+		return b.countBetween(from, to) == 0
+	case PCannon:
+		if df != 0 && dr != 0 {
+			return false
+		}
+		return b.countBetween(from, to) == 1 // 恰好一个炮架
+	case PPawn:
+		if df == 0 && dr == forward(p.Side()) {
+			return true
+		}
+		if dr == 0 && abs(df) == 1 && crossedRiver(p.Side(), fr) {
+			return true
+		}
+		return false
+	}
+	return false
+}
+
+// SquareAttackedBy 判断 sq 格是否被 bySide 方攻击。
+// sq 格上应放有 bySide 方的敌子（本包只在判断将/帅被攻击时调用）。
+func (b *Board) SquareAttackedBy(sq, bySide int) bool {
+	for i := 0; i < Squares; i++ {
+		p := b.Sq[i]
+		if p.IsEmpty() || p.Side() != bySide {
+			continue
+		}
+		if b.pieceAttacks(i, sq, p) {
+			return true
+		}
+	}
+	return false
+}
+
+// InCheck 判断 side 方是否正被将军。
+func (b *Board) InCheck(side int) bool {
+	k := b.FindKing(side)
+	if k < 0 {
+		return false
+	}
+	return b.SquareAttackedBy(k, 1-side)
+}
+
+// KingsFacing 判断双方将/帅是否照面（同一纵线且中间无子）。
+// 照面局面在中国象棋中是非法局面，走出该局面的一方着法非法。
+func (b *Board) KingsFacing() bool {
+	rk := b.FindKing(Red)
+	bk := b.FindKing(Black)
+	if rk < 0 || bk < 0 {
+		return false
+	}
+	if FileOf(rk) != FileOf(bk) {
+		return false
+	}
+	return b.countBetween(rk, bk) == 0
+}
+
+// Apply 在局面上执行着法，返回被吃掉的子（供 Revert 使用），并交换走子方。
+func (b *Board) Apply(m Move) Piece {
+	captured := b.Sq[m.To]
+	b.Sq[m.To] = b.Sq[m.From]
+	b.Sq[m.From] = PEmpty
+	b.Side = 1 - b.Side
+	return captured
+}
+
+// Revert 撤销 Apply 执行过的着法。
+func (b *Board) Revert(m Move, captured Piece) {
+	b.Sq[m.From] = b.Sq[m.To]
+	b.Sq[m.To] = captured
+	b.Side = 1 - b.Side
+}
+
+// LegalMoves 生成当前走子方的全部完全合法着法
+// （已剔除「走完后被将军」与「走完后将帅照面」的着法）。
+func (b *Board) LegalMoves() []Move {
+	side := b.Side
+	pseudo := b.genPseudo(side)
+	// 原地过滤：写指针不会超过读指针，安全复用同一底层数组
+	out := pseudo[:0]
+	for _, m := range pseudo {
+		captured := b.Apply(m)
+		ok := !b.InCheck(side) && !b.KingsFacing()
+		b.Revert(m, captured)
+		if ok {
+			out = append(out, m)
+		}
+	}
+	return out
+}

@@ -1,1 +1,47 @@
-PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KICDosaHmo4vlvLrova8gdjEuMy4xICAg5LiA6ZSu5rqQ56CB6L+Q6KGM6aqM6K+BDQo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09DQoNCuacrOiEmuacrOS4jeS+nei1luS7u+S9lSBleGXvvIznm7TmjqXlnKjmupDnoIHnm67lvZXmiafooYwgIGdvIHJ1biAuICDlkK/liqjova/ku7bvvIwNCueql+WPo+S8mueri+WNs+W8ueWHuu+8jOS+m+S9oOmqjOivgSB2MS4zLjEg55qE5L+u5aSN5pWI5p6c44CCDQoNCiAg6YeN6KaB77ya5pys6ISa5pys5LiN5Lya55Sf5oiQ5Lu75L2VIGV4Ze+8jOaJgOacieS6p+eJqemDveWPqueVmeWcqOW3peeoi+ebruW9leWGheOAgg0KICAgICAgICDpqozor4Hmu6HmhI/lkI7vvIzlho3lj4zlh7vjgIzmnoTlu7pleGUuYmF044CN55Sf5oiQ5pyA57uI55qE5Y2V5paH5Lu2IGV4ZeOAgg0KDQotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tDQogIOWQr+WKqOWQjuW7uuiuruaMieS4i+mdoueahOmhuuW6j+mAkOadoemqjOivgQ0KLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQ0KICAxLiDpu5jorqTnqpflj6PkuIvmo4vnm5jlrozmlbTvvIjnuqLpu5Hlj4zmlrnlhajpg6jmo4vlrZDlj6/op4HvvInvvIzlupXpg6jkuKTooYzmk43kvZzmoI/pg73nnIvlvpfop4HvvJoNCiAgICAg5LiK6Z2i5LiA6KGM5piv44CM5Z2Q5qCH6L6T5YWl5qGGICsg5bqU55So44CN77yM5LiL6Z2i5LiA6KGM5pivDQogICAgIOOAjOaClOaji+S4gOatpSAvIOaSpOmUgOWFqOmDqCAvIOmHjeW8gCAvIOaJi+WKqOaRhuebmCAvIOWkjeWItuacgOS9s+edgOazleOAjeOAgg0KICAyLiDnlKjpvKDmoIfngrnmo4vnm5jkuIrnmoTmo4vlrZDvvIzog73lh4bnoa7pgInkuK3lubbmmL7npLrlkIjms5XokL3ngrnvvIjnu7/oibLlnIbngrnvvInvvIzkuI3lho3ngrnkuI3kuK3jgIINCiAgMy4g5Zyo5Z2Q5qCH6L6T5YWl5qGG57KY6LS0ICBoMmUyIGg5ZzcgYzNjNCAg5Zue6L2m77yM5bGA6Z2i5q2j56Gu5bqU55So44CB5byV5pOO6Ieq5Yqo5YiG5p6Q44CCDQogIDQuIOeCueOAjOWkjeWItuacgOS9s+edgOazleOAje+8jOWJqui0tOadv+mHjOaYryA0IOWtl+espiBVQ0kg5Z2Q5qCH77yM5bm25pyJ5Lit5paH5o+Q56S644CCDQogIDUuIOeCueOAjOW8leaTjueuoeeQhuOAje+8muW8leaTjuW6lOaYvuekuue7v+iJsueahOOAjOWPr+eUqOOAje+8jOS4jeWGjeivr+aKpeOAjOaWh+S7tuW3suS4ouWkseOAje+8mw0KICAgICDlm5vkuKrmjInpkq7jgIzmtYvor5Xov57mjqUgLyDorr7kuLrlt7HmlrnlvJXmk44gLyDorr7kuLrlr7nmiYvlvJXmk44gLyDnp7vpmaTjgI3lhajpg6jlj6/op4Hlj6/ngrnvvJsNCiAgICAg56qX5Y+j5bqV6Imy5piv5oqk55y857Gz6buE77yM5LiN5piv57qv6buR44CCDQogIDYuIOWIh+WIsOOAjOW8leaTjuWvueaImOOAje+8mue6v+eoi+WIhumFjeWMuuiDveeci+WIsOi2heiuouitpuWRiu+8jOeCueOAjOaMieaguOW/g+aVsOiHquWKqOW5s+Wdh+WIhumFjeOAjQ0KICAgICDlkI7lj4zmlrnlkIQgOO+8m+WvueaImOe6v+eoi+S5i+WSjOi2hei/hyAxNiDkvJrnu5nlh7rphpLnm67mj5DnpLrjgIINCiAgNy4g5ouW5Yqo5qOL55uY5LiO5Y+z5qCP5LmL6Ze055qE5YiG6ZqU5p2h77ya5YiG6ZqU5p2h5Y+Y5a6944CB5oKs5YGc5Lya6auY5Lqu77yM6IO95LiA5qyh5ouW5Yiw5L2N44CCDQogIDguIOeql+WPo+agh+mimOagj+WujOaVtOWPr+inge+8iOmhtumDqOS4jei2iueVjO+8ie+8m+aKiueql+WPo+aLieWwj++8jOaji+ebmOetieavlOe8qeWwj+S4jeijgeWIh++8jA0KICAgICDlupXpg6jmk43kvZzmoI/lp4vnu4jkv53nlZnjgIINCg0KLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQ0KICDpgIDlh7rmlrnlvI8NCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0NCiAg55u05o6l5YWz6Zet6L2v5Lu256qX5Y+j5Y2z5Y+v77yM5pys5o6n5Yi25Y+w56qX5Y+j6ZqP5ZCO5Lmf5Lya57uT5p2f44CCDQoNCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0NCiAg5aaC5p6c5ZCv5Yqo5aSx6LSlDQotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tDQogIDEuIOa6kOeggee8luivkeaKpemUme+8muW+gOS4iue/u+eciyBnbyDmiZPljbDnmoTplJnor6/ooYzlj7fjgIINCiAgMi4g5o+Q56S65om+5LiN5YiwIGdv77ya6K+35YWI5a6J6KOFIEdvIDEuMjIg5oiW5pu06auY54mI5pysDQogICAgICAgIHdpbmdldCBpbnN0YWxsIEdvTGFuZy5Hbw0KICAgICDlronoo4XlrozmiJDlkI7lhbPpl63mnKznqpflj6PvvIzph43mlrDlj4zlh7vmnKzohJrmnKzjgIINCiAgMy4g5paH5Lu26KKr5Y2g55So77ya5YWI5YWz6Zet5bey57uP5Zyo6L+Q6KGM55qE44CM6LGh5qOL5by66L2v44CN56qX5Y+j44CCDQogIDQuIOS+nei1luayoeS4i+i9veWFqO+8muWcqOacrOebruW9leaJp+ihjCAgZ28gbW9kIGRvd25sb2FkICDlkI7ph43or5XjgIINCiAgNS4g5oOz56Gu6K6k5rqQ56CB5pys6Lqr5piv5ZCm5YGl5bq377yM5Zyo5pys55uu5b2V5omn6KGM77yaDQogICAgICAgIGdvIHZldCAuLy4uLg0KICAgICAgICBnbyB0ZXN0IC4vLi4uDQoNCj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCg==
+============================================================================
+  象棋强软 v1.3.1   一键源码运行验证
+============================================================================
+
+本脚本不依赖任何 exe，直接在源码目录执行  go run .  启动软件，
+窗口会立即弹出，供你验证 v1.3.1 的修复效果。
+
+  重要：本脚本不会生成任何 exe，所有产物都只留在工程目录内。
+        验证满意后，再双击「构建exe.bat」生成最终的单文件 exe。
+
+----------------------------------------------------------------------------
+  启动后建议按下面的顺序逐条验证
+----------------------------------------------------------------------------
+  1. 默认窗口下棋盘完整（红黑双方全部棋子可见），底部两行操作栏都看得见：
+     上面一行是「坐标输入框 + 应用」，下面一行是
+     「悔棋一步 / 撤销全部 / 重开 / 手动摆盘 / 复制最佳着法」。
+  2. 用鼠标点棋盘上的棋子，能准确选中并显示合法落点（绿色圆点），不再点不中。
+  3. 在坐标输入框粘贴  h2e2 h9g7 c3c4  回车，局面正确应用、引擎自动分析。
+  4. 点「复制最佳着法」，剪贴板里是 4 字符 UCI 坐标，并有中文提示。
+  5. 点「引擎管理」：引擎应显示绿色的「可用」，不再误报「文件已丢失」；
+     四个按钮「测试连接 / 设为己方引擎 / 设为对手引擎 / 移除」全部可见可点；
+     窗口底色是护眼米黄，不是纯黑。
+  6. 切到「引擎对战」：线程分配区能看到超订警告，点「按核心数自动平均分配」
+     后双方各 8；对战线程之和超过 16 会给出醒目提示。
+  7. 拖动棋盘与右栏之间的分隔条：分隔条变宽、悬停会高亮，能一次拖到位。
+  8. 窗口标题栏完整可见（顶部不越界）；把窗口拉小，棋盘等比缩小不裁切，
+     底部操作栏始终保留。
+
+----------------------------------------------------------------------------
+  退出方式
+----------------------------------------------------------------------------
+  直接关闭软件窗口即可，本控制台窗口随后也会结束。
+
+----------------------------------------------------------------------------
+  如果启动失败
+----------------------------------------------------------------------------
+  1. 源码编译报错：往上翻看 go 打印的错误行号。
+  2. 提示找不到 go：请先安装 Go 1.22 或更高版本
+        winget install GoLang.Go
+     安装完成后关闭本窗口，重新双击本脚本。
+  3. 文件被占用：先关闭已经在运行的「象棋强软」窗口。
+  4. 依赖没下载全：在本目录执行  go mod download  后重试。
+  5. 想确认源码本身是否健康，在本目录执行：
+        go vet ./...
+        go test ./...
+
+============================================================================

@@ -1,1 +1,128 @@
-cGFja2FnZSBub3RhdGlvbgoKaW1wb3J0ICgKCSJ0ZXN0aW5nIgoKCSJ4aWFuZ3FpL3J1bGVzIgopCgovLyBUZXN0VG9DaGluZXNlT3BlbmluZ3Mg5qCh6aqM5byA5bGA5bi46KeB552A5rOV55qE5Lit5paH6K6w6LCx44CCCmZ1bmMgVGVzdFRvQ2hpbmVzZU9wZW5pbmdzKHQgKnRlc3RpbmcuVCkgewoJY2FzZXMgOj0gW11zdHJ1Y3QgewoJCXVjaSAgc3RyaW5nCgkJd2FudCBzdHJpbmcKCX17CgkJeyJoMmUyIiwgIueCruS6jOW5s+S6lCJ9LCAvLyDnuqLngq7ku44gaDIg5bmz5YiwIGUy77yI5b2T5aS054Ku77yJCgkJeyJiMmUyIiwgIueCruWFq+W5s+S6lCJ9LCAvLyDnuqLngq7ku44gYjIg5bmz5YiwIGUyCgkJeyJiMGMyIiwgIummrOWFq+i/m+S4gyJ9LCAvLyDnuqLppqzku44gYjAg6Lez5YiwIGMyCgkJeyJoMGcyIiwgIummrOS6jOi/m+S4iSJ9LCAvLyDnuqLppqzku44gaDAg6Lez5YiwIGcyCgkJeyJhMGExIiwgIui7iuS5nei/m+S4gCJ9LCAvLyDnuqLou4rku44gYTAg5YiwIGExCgkJeyJpMGkxIiwgIui7iuS4gOi/m+S4gCJ9LCAvLyDnuqLou4rku44gaTAg5YiwIGkxCgkJeyJhM2E0IiwgIuWFteS5nei/m+S4gCJ9LCAvLyDnuqLlhbXku44gYTMg5YiwIGE0CgkJeyJlM2U0IiwgIuWFteS6lOi/m+S4gCJ9LCAvLyDnuqLlhbXku44gZTMg5YiwIGU0CgkJeyJjMGUyIiwgIuebuOS4g+i/m+S6lCJ9LCAvLyDnuqLnm7jku44gYzAg5YiwIGUyCgkJeyJkMGUxIiwgIuS7leWFrei/m+S6lCJ9LCAvLyDnuqLku5Xku44gZDAg5YiwIGUxCgkJeyJlMGUxIiwgIuW4heS6lOi/m+S4gCJ9LCAvLyDnuqLluIXku44gZTAg5YiwIGUxCgl9CglnIDo9IHJ1bGVzLk5ld0dhbWUoKQoJZm9yIF8sIGMgOj0gcmFuZ2UgY2FzZXMgewoJCW0sIG9rIDo9IFVDSVRvTW92ZShjLnVjaSkKCQlpZiAhb2sgewoJCQl0LkZhdGFsZigiJXMg6Kej5p6Q5aSx6LSlIiwgYy51Y2kpCgkJfQoJCWdvdCA6PSBUb0NoaW5lc2UoZy5Cb2FyZCwgbSkKCQlpZiBnb3QgIT0gYy53YW50IHsKCQkJdC5FcnJvcmYoIiVzIOeahOiusOiwsSA9ICVx77yM5pyf5pybICVxIiwgYy51Y2ksIGdvdCwgYy53YW50KQoJCX0KCX0KfQoKLy8gVGVzdFRvQ2hpbmVzZUJsYWNrIOagoemqjOm7keaWueeUqOmYv+aLieS8r+aVsOWtl+e6tee6v+WPt+OAggovLwovLyDpu5HmlrnnurXnur/lj7foh6rpu5Hmlrnlj7PkvqfvvIjlsY/luZXlt6bkvqfnmoQgYSDnur/vvInlkJHlt6bmlbDvvJphPTHjgIFiPTLjgIHigKbjgIFoPTjjgIFpPTnjgIIKLy8g5Zug5q2kIGg5IOKGkiDpu5HppqzlnKggOCDnur/vvIzot7PliLAgZzfvvIg3IOe6v++8ieiusOS9nOOAjOmprDjov5s344CN44CCCmZ1bmMgVGVzdFRvQ2hpbmVzZUJsYWNrKHQgKnRlc3RpbmcuVCkgewoJZyA6PSBydWxlcy5OZXdHYW1lKCkKCS8vIOWFiOi1sOe6oueCruS6jOW5s+S6lO+8jOWGjei1sOm7kemmrCBoOWc3CgltMSwgXyA6PSBVQ0lUb01vdmUoImgyZTIiKQoJaWYgZXJyIDo9IGcuVHJ5TW92ZShtMSk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCLnuqLmlrnnnYDms5XlpLHotKXvvJoldiIsIGVycikKCX0KCW0yLCBfIDo9IFVDSVRvTW92ZSgiaDlnNyIpCglpZiBnb3QgOj0gVG9DaGluZXNlKGcuQm9hcmQsIG0yKTsgZ290ICE9ICLpqaw46L+bNyIgewoJCXQuRXJyb3JmKCJoOWc3IOeahOiusOiwsSA9ICVx77yM5pyf5pybICVxIiwgZ290LCAi6amsOOi/mzciKQoJfQoJbTMsIF8gOj0gVUNJVG9Nb3ZlKCJiN2I2IikKCWlmIGdvdCA6PSBUb0NoaW5lc2UoZy5Cb2FyZCwgbTMpOyBnb3QgIT0gIueCrjLov5sxIiB7CgkJdC5FcnJvcmYoImI3YjYg55qE6K6w6LCxID0gJXHvvIzmnJ/mnJsgJXEiLCBnb3QsICLngq4y6L+bMSIpCgl9Cn0KCi8vIFRlc3RGcm9udEJhY2tQcmVmaXgg5qCh6aqM5ZCM5LiA57q157q/5LiK5Lik5p6a5ZCM5YW156eN5qOL5a2Q55So44CM5YmNL+WQjuOAjeWMuuWIhuOAggpmdW5jIFRlc3RGcm9udEJhY2tQcmVmaXgodCAqdGVzdGluZy5UKSB7CgkvLyDkuKTkuKrnuqLlhbXlkIzlnKggZSDnur/vvJplMyDkuI4gZTbvvIhlNiDmm7TpnaDov5Hpu5Hmlrkg4oaSIOWJje+8iQoJYiwgZXJyIDo9IHJ1bGVzLlBhcnNlRkVOKCIzazUvOS85LzRQNC85LzkvNFA0LzkvOS80SzQgdyAtIC0gMCAxIikKCWlmIGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCLop6PmnpAgRkVOIOWksei0pe+8miV2IiwgZXJyKQoJfQoJZnJvbnQsIF8gOj0gVUNJVG9Nb3ZlKCJlNmU3IikgLy8g5YmN5YW177yI5pu06Z2g6L+R6buR5pa577yJCgliYWNrLCBfIDo9IFVDSVRvTW92ZSgiZTNlNCIpICAvLyDlkI7lhbUKCWlmIGdvdCA6PSBUb0NoaW5lc2UoYiwgZnJvbnQpOyBnb3QgIT0gIuWJjeWFtei/m+S4gCIgewoJCXQuRXJyb3JmKCLliY3lhbXorrDosLEgPSAlce+8jOacn+acmyAlcSIsIGdvdCwgIuWJjeWFtei/m+S4gCIpCgl9CglpZiBnb3QgOj0gVG9DaGluZXNlKGIsIGJhY2spOyBnb3QgIT0gIuWQjuWFtei/m+S4gCIgewoJCXQuRXJyb3JmKCLlkI7lhbXorrDosLEgPSAlce+8jOacn+acmyAlcSIsIGdvdCwgIuWQjuWFtei/m+S4gCIpCgl9Cn0KCi8vIFRlc3RVQ0lSb3VuZFRyaXAg5qCh6aqM5Z2Q5qCHIOKGlCDnnYDms5XlrZfnrKbkuLLlvoDov5TjgIIKZnVuYyBUZXN0VUNJUm91bmRUcmlwKHQgKnRlc3RpbmcuVCkgewoJZm9yIF8sIHMgOj0gcmFuZ2UgW11zdHJpbmd7ImEwYTEiLCAiZTBlMSIsICJpOWk4IiwgImgyZTIiLCAiYjBjMiJ9IHsKCQltLCBvayA6PSBVQ0lUb01vdmUocykKCQlpZiAhb2sgewoJCQl0LkZhdGFsZigiJXMg6Kej5p6Q5aSx6LSlIiwgcykKCQl9CgkJaWYgZ290IDo9IE1vdmVUb1VDSShtKTsgZ290ICE9IHMgewoJCQl0LkVycm9yZigiJXMg5b6A6L+U5ZCO5b6X5YiwICVzIiwgcywgZ290KQoJCX0KCX0KfQoKLy8gVGVzdFBhcnNlTW92ZUxpc3Qg5qCh6aqM5LuO5aSa56eN57KY6LS05qC85byP5Lit5o+Q5Y+WIFVDSSDnnYDms5XjgIIKZnVuYyBUZXN0UGFyc2VNb3ZlTGlzdCh0ICp0ZXN0aW5nLlQpIHsKCWNhc2VzIDo9IFtdc3RydWN0IHsKCQlpbiAgIHN0cmluZwoJCXdhbnQgaW50Cgl9ewoJCXsiaDJlMiBoOWc3IGMzYzQiLCAzfSwKCQl7IjEuIGgyZTIgaDlnNyAyLiBjM2M0IiwgM30sCgkJeyJwb3NpdGlvbiBzdGFydHBvcyBtb3ZlcyBoMmUyIGg5ZzciLCAyfSwKCQl7ImgyZTIsaDlnN++8jGMzYzTjgIFpMGkxIiwgNH0sCgkJeyJoMmUyXG5oOWc3XG5jM2M0IiwgM30sCgkJeyJoMmUyICB4eCAgaDlnNyIsIDJ9LCAvLyB4eCDlupTooqvlv73nlaUKCQl7IiIsIDB9LAoJfQoJZm9yIF8sIGMgOj0gcmFuZ2UgY2FzZXMgewoJCW1vdmVzLCBfIDo9IFBhcnNlTW92ZUxpc3QoYy5pbikKCQlpZiBsZW4obW92ZXMpICE9IGMud2FudCB7CgkJCXQuRXJyb3JmKCJQYXJzZU1vdmVMaXN0KCVxKSDlvpfliLAgJWQg5q2l77yM5pyf5pybICVkIOatpSIsIGMuaW4sIGxlbihtb3ZlcyksIGMud2FudCkKCQl9Cgl9Cn0KCi8vIFRlc3RQYXJzZU1vdmVMaXN0QWxsTGVnYWwg5qCh6aqM6Kej5p6Q5Ye655qE5bqP5YiX6IO95YWo6YOo5ZCI5rOV6JC95Yiw5qOL55uY5LiK44CCCmZ1bmMgVGVzdFBhcnNlTW92ZUxpc3RBbGxMZWdhbCh0ICp0ZXN0aW5nLlQpIHsKCW1vdmVzLCBza2lwcGVkIDo9IFBhcnNlTW92ZUxpc3QoImgyZTIgaDlnNyBjM2M0IGk5aDkgYjBjMiBiOWM3IikKCWlmIGxlbihza2lwcGVkKSAhPSAwIHsKCQl0LkZhdGFsZigi5LiN5bqU5pyJ5peg5rOV6K+G5Yir55qE6K6w5Y+377yaJXYiLCBza2lwcGVkKQoJfQoJZyA6PSBydWxlcy5OZXdHYW1lKCkKCWZvciBpLCBtIDo9IHJhbmdlIG1vdmVzIHsKCQlpZiBlcnIgOj0gZy5UcnlNb3ZlKG0pOyBlcnIgIT0gbmlsIHsKCQkJdC5GYXRhbGYoIuesrCAlZCDmraUgJXMg6Z2e5rOV77yaJXYiLCBpKzEsIG0sIGVycikKCQl9Cgl9CglpZiBsZW4oZy5Nb3ZlcykgIT0gNiB7CgkJdC5GYXRhbGYoIuW6lOi1sOa7oSA2IOatpe+8jOWunumZhSAlZCDmraUiLCBsZW4oZy5Nb3ZlcykpCgl9Cn0K
+package notation
+
+import (
+	"testing"
+
+	"xiangqi/rules"
+)
+
+// TestToChineseOpenings 校验开局常见着法的中文记谱。
+func TestToChineseOpenings(t *testing.T) {
+	cases := []struct {
+		uci  string
+		want string
+	}{
+		{"h2e2", "炮二平五"}, // 红炮从 h2 平到 e2（当头炮）
+		{"b2e2", "炮八平五"}, // 红炮从 b2 平到 e2
+		{"b0c2", "馬八进七"}, // 红馬从 b0 跳到 c2
+		{"h0g2", "馬二进三"}, // 红馬从 h0 跳到 g2
+		{"a0a1", "車九进一"}, // 红車从 a0 到 a1
+		{"i0i1", "車一进一"}, // 红車从 i0 到 i1
+		{"a3a4", "兵九进一"}, // 红兵从 a3 到 a4
+		{"e3e4", "兵五进一"}, // 红兵从 e3 到 e4
+		{"c0e2", "相七进五"}, // 红相从 c0 到 e2
+		{"d0e1", "仕六进五"}, // 红仕从 d0 到 e1
+		{"e0e1", "帅五进一"}, // 红帅从 e0 到 e1
+	}
+	g := rules.NewGame()
+	for _, c := range cases {
+		m, ok := UCIToMove(c.uci)
+		if !ok {
+			t.Fatalf("%s 解析失败", c.uci)
+		}
+		got := ToChinese(g.Board, m)
+		if got != c.want {
+			t.Errorf("%s 的记谱 = %q，期望 %q", c.uci, got, c.want)
+		}
+	}
+}
+
+// TestToChineseBlack 校验黑方用阿拉伯数字纵线号。
+//
+// 黑方纵线号自黑方右侧（屏幕左侧的 a 线）向左数：a=1、b=2、…、h=8、i=9。
+// 因此 h9 → 黑馬在 8 线，跳到 g7（7 线）记作「马8进7」。
+func TestToChineseBlack(t *testing.T) {
+	g := rules.NewGame()
+	// 先走红炮二平五，再走黑馬 h9g7
+	m1, _ := UCIToMove("h2e2")
+	if err := g.TryMove(m1); err != nil {
+		t.Fatalf("红方着法失败：%v", err)
+	}
+	m2, _ := UCIToMove("h9g7")
+	if got := ToChinese(g.Board, m2); got != "马8进7" {
+		t.Errorf("h9g7 的记谱 = %q，期望 %q", got, "马8进7")
+	}
+	m3, _ := UCIToMove("b7b6")
+	if got := ToChinese(g.Board, m3); got != "炮2进1" {
+		t.Errorf("b7b6 的记谱 = %q，期望 %q", got, "炮2进1")
+	}
+}
+
+// TestFrontBackPrefix 校验同一纵线上两枚同兵种棋子用「前/后」区分。
+func TestFrontBackPrefix(t *testing.T) {
+	// 两个红兵同在 e 线：e3 与 e6（e6 更靠近黑方 → 前）
+	b, err := rules.ParseFEN("3k5/9/9/4P4/9/9/4P4/9/9/4K4 w - - 0 1")
+	if err != nil {
+		t.Fatalf("解析 FEN 失败：%v", err)
+	}
+	front, _ := UCIToMove("e6e7") // 前兵（更靠近黑方）
+	back, _ := UCIToMove("e3e4")  // 后兵
+	if got := ToChinese(b, front); got != "前兵进一" {
+		t.Errorf("前兵记谱 = %q，期望 %q", got, "前兵进一")
+	}
+	if got := ToChinese(b, back); got != "后兵进一" {
+		t.Errorf("后兵记谱 = %q，期望 %q", got, "后兵进一")
+	}
+}
+
+// TestUCIRoundTrip 校验坐标 ↔ 着法字符串往返。
+func TestUCIRoundTrip(t *testing.T) {
+	for _, s := range []string{"a0a1", "e0e1", "i9i8", "h2e2", "b0c2"} {
+		m, ok := UCIToMove(s)
+		if !ok {
+			t.Fatalf("%s 解析失败", s)
+		}
+		if got := MoveToUCI(m); got != s {
+			t.Errorf("%s 往返后得到 %s", s, got)
+		}
+	}
+}
+
+// TestParseMoveList 校验从多种粘贴格式中提取 UCI 着法。
+func TestParseMoveList(t *testing.T) {
+	cases := []struct {
+		in   string
+		want int
+	}{
+		{"h2e2 h9g7 c3c4", 3},
+		{"1. h2e2 h9g7 2. c3c4", 3},
+		{"position startpos moves h2e2 h9g7", 2},
+		{"h2e2,h9g7，c3c4、i0i1", 4},
+		{"h2e2\nh9g7\nc3c4", 3},
+		{"h2e2  xx  h9g7", 2}, // xx 应被忽略
+		{"", 0},
+	}
+	for _, c := range cases {
+		moves, _ := ParseMoveList(c.in)
+		if len(moves) != c.want {
+			t.Errorf("ParseMoveList(%q) 得到 %d 步，期望 %d 步", c.in, len(moves), c.want)
+		}
+	}
+}
+
+// TestParseMoveListAllLegal 校验解析出的序列能全部合法落到棋盘上。
+func TestParseMoveListAllLegal(t *testing.T) {
+	moves, skipped := ParseMoveList("h2e2 h9g7 c3c4 i9h9 b0c2 b9c7")
+	if len(skipped) != 0 {
+		t.Fatalf("不应有无法识别的记号：%v", skipped)
+	}
+	g := rules.NewGame()
+	for i, m := range moves {
+		if err := g.TryMove(m); err != nil {
+			t.Fatalf("第 %d 步 %s 非法：%v", i+1, m, err)
+		}
+	}
+	if len(g.Moves) != 6 {
+		t.Fatalf("应走满 6 步，实际 %d 步", len(g.Moves))
+	}
+}

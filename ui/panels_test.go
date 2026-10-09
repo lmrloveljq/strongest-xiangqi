@@ -1,1 +1,165 @@
-cGFja2FnZSB1aQoKaW1wb3J0ICgKCSJpbWFnZS9jb2xvciIKCSJzdHJpbmdzIgoJInRlc3RpbmciCgoJInhpYW5ncWkvZW5naW5lIgoJInhpYW5ncWkvcnVsZXMiCikKCi8vIOmdouadv+agvOW8j+WbnuW9kua1i+ivleOAggovLwovLyDov5nkupvlrZfnrKbkuLLmmK/jgIznhaflkIznsbvova/ku7blubPmm7/jgI3nmoTnu5PmnpzvvIzlsZ7kuo7lr7nlpJbooajnjrDnmoTkuIDpg6jliIbvvJoKLy8g5LiA5pem5pyJ5Lq66aG65omL5oqK5qC85byP5pS55Zue5Y6777yM55So5oi35LuO5Yir55qE6L2v5Lu25YiH6L+H5p2l5bCx5a+55LiN5LiK5LqG77yMCi8vIOaJgOS7peagvOW8j+acrOi6q+imgeaciea1i+ivleWuiOedgOOAggoKLy8gVGVzdFRoaW5rRGV0YWlsTGluZUZvcm1hdCDmgJ3ogIPnu4boioLooYzlv4XpobvmmK8qKuS4reaWh+WPr+ivuyoq55qE5a6M5pW057uf6K6h44CCCi8vCi8vIOeUqOaIt+imgeaxguOAjOaYvuekuuS4gOmDqOWIhuiDveeci+W+l+aHgueahOWPguaVsO+8jOavlOWmguW8leaTjuWQjue7reiuoeeul+eahOa3seW6puWSjOiuoeeul+aXtumXtOOAgeiuoeeul+mAn+W6puOAje+8mgovLyDlrZfmrrXpobrluo/msr/nlKjlkIznsbvova/ku7bvvIjmt7HluqYg4oaSIOWIhuaVsCDihpIg55So5pe2IOKGkiDpgJ/luqYg4oaSIOiKgueCue+8ie+8jAovLyDkvYbkuI3lho3lh7rnjrAgTlBTIC8gSyDov5nnsbvnvKnlhpnjgIIKZnVuYyBUZXN0VGhpbmtEZXRhaWxMaW5lRm9ybWF0KHQgKnRlc3RpbmcuVCkgewoJZ290IDo9IHRoaW5rRGV0YWlsTGluZSgxOCwgIisyMiIsIDI3NjE1MDUsIDI3NjE1MDUsIDEwMDAsIDM4MCkKCWZvciBfLCBtdXN0IDo9IHJhbmdlIFtdc3RyaW5neyLmt7HluqY6IDE4IOWxgiIsICLliIbmlbA6ICsyMiIsICLnlKjml7Y6IDEuMCDnp5IiLCAi6YCf5bqmOiAyLDc2MSDljYPoioLngrkv56eSIiwgIueul+i/hyAyLDc2MSw1MDUg5Liq5bGA6Z2iIiwgIuWTiOW4jOWNoOeUqDogMzglIn0gewoJCWlmICFzdHJpbmdzLkNvbnRhaW5zKGdvdCwgbXVzdCkgewoJCQl0LkVycm9yZigi5oCd6ICD57uG6IqC6KGM57y65bCRICVx77yaJXMiLCBtdXN0LCBnb3QpCgkJfQoJfQoJLy8g5a2X5q616aG65bqP5Lmf54Wn5oqE77ya5rex5bqmIOKGkiDliIbmlbAg4oaSIOeUqOaXtiDihpIg6YCf5bqmCglpZiBzdHJpbmdzLkluZGV4KGdvdCwgIua3seW6piIpID4gc3RyaW5ncy5JbmRleChnb3QsICLliIbmlbAiKSB8fAoJCXN0cmluZ3MuSW5kZXgoZ290LCAi5YiG5pWwIikgPiBzdHJpbmdzLkluZGV4KGdvdCwgIueUqOaXtiIpIHx8CgkJc3RyaW5ncy5JbmRleChnb3QsICLnlKjml7YiKSA+IHN0cmluZ3MuSW5kZXgoZ290LCAi6YCf5bqmIikgewoJCXQuRXJyb3JmKCLlrZfmrrXpobrluo/kuI3lr7nvvJolcyIsIGdvdCkKCX0KCS8vIOS4jeiuuOWGjeWHuueOsOeci+S4jeaHgueahOe8qeWGmQoJaWYgc3RyaW5ncy5Db250YWlucyhnb3QsICJOUFMiKSB8fCBzdHJpbmdzLkNvbnRhaW5zKGdvdCwgIksgIOaXtumXtCIpIHsKCQl0LkVycm9yZigi57uf6K6h6KGM6YeM6L+Y55WZ552AIE5QUy9LIOi/meexu+e8qeWGme+8miVzIiwgZ290KQoJfQoKCS8vIOWwhuadgO+8muS4jeiDveWQjOaXtuWHuueOsOOAjOWIhuaVsDrjgI3vvIzmjqrovp7opoHkuI7lkIznsbvova/ku7bkuIDoh7QKCW1hdGUgOj0gdGhpbmtEZXRhaWxMaW5lKDEyLCAi57ud5p2AIDMg5q2lIiwgMCwgMCwgNTAwLCAwKQoJaWYgIXN0cmluZ3MuQ29udGFpbnMobWF0ZSwgIue7neadgCIpIHsKCQl0LkVycm9yZigi5bCG5p2A5bGA6Z2i5rKh5pyJ55So44CM57ud5p2A44CN5o6q6L6e77yaJXMiLCBtYXRlKQoJfQoJaWYgc3RyaW5ncy5Db250YWlucyhtYXRlLCAi5YiG5pWwOiIpIHsKCQl0LkVycm9yZigi5bCG5p2A5bGA6Z2i5LiN5bqU5YaN5Ye6546w44CM5YiG5pWwOuOAje+8miVzIiwgbWF0ZSkKCX0KCgkvLyDml6DliIbmlbDml7blv4Xpobvnu5nljaDkvY3nrKbvvIzkuI3og73nlZnnqbrmiJblh7rnjrAgIuWIhuaVsDogIgoJbm9uZSA6PSB0aGlua0RldGFpbExpbmUoMCwgIiIsIDAsIDAsIDAsIDApCglpZiAhc3RyaW5ncy5Db250YWlucyhub25lLCAi5YiG5pWwOiDigJQiKSB7CgkJdC5FcnJvcmYoIuaXoOWIhuaVsOaXtueahOWNoOS9jeS4jeWvue+8miVzIiwgbm9uZSkKCX0KfQoKLy8gVGVzdENhbmRNZXRhTGluZUlzUGxhaW5DaGluZXNlIOWPmOaLm+ihjOWxleW8gOWQjueahOW8leaTjue7n+iuoeS5n+imgeivtOS6uuivneOAggpmdW5jIFRlc3RDYW5kTWV0YUxpbmVJc1BsYWluQ2hpbmVzZSh0ICp0ZXN0aW5nLlQpIHsKCWxpbmUgOj0gZW5naW5lLkluZm9MaW5le0RlcHRoOiAxOCwgU2VsRGVwdGg6IDI0LCBOb2RlczogMjc2MTUwNSwgTlBTOiAyNzYxNTA1LCBUaW1lTVM6IDEwMDB9Cglnb3QgOj0gY2FuZE1ldGFMaW5lKGxpbmUpCglmb3IgXywgbXVzdCA6PSByYW5nZSBbXXN0cmluZ3si5rex5bqmIDE4IOWxgiIsICLmnIDov5znrpfliLAgMjQg5bGCIiwgIueUqOaXtiAxLjAg56eSIiwgIumAn+W6piAyLDc2MSDljYPoioLngrkv56eSIiwgIueul+i/hyAyLDc2MSw1MDUg5Liq5bGA6Z2iIn0gewoJCWlmICFzdHJpbmdzLkNvbnRhaW5zKGdvdCwgbXVzdCkgewoJCQl0LkVycm9yZigi5Y+Y5oub57uf6K6h6KGM57y65bCRICVx77yaJXMiLCBtdXN0LCBnb3QpCgkJfQoJfQoJLy8g5rKh5pyJ5Lu75L2V5pWw5o2u5pe26L+U5Zue56m65Liy77yI6LCD55So5pa55Lya5pi+56S65Y2g5L2N77yJCglpZiBzIDo9IGNhbmRNZXRhTGluZShlbmdpbmUuSW5mb0xpbmV7fSk7IHMgIT0gIiIgewoJCXQuRXJyb3JmKCLml6DmlbDmja7ml7blupTov5Tlm57nqbrkuLLvvIzlrp7pmYUgJXEiLCBzKQoJfQp9CgovLyBUZXN0RXZhbEJhclRleHRLZWVwc1R3b0RlY2ltYWxzIOWxgOWKv+adoeiDnOeOh+W/hemhu+S/neeVmeS4pOS9jeWwj+aVsOOAggovLwovLyDnlKjmiLfopoHmsYLjgIzog5znjofnsr7noa7liLDkuKTkvY3lsI/mlbDjgI3igJTigJTmm77nu4/mmK8gJS4wZu+8iOaVtOaVsO+8ie+8jOWbm+iIjeS6lOWFpeWQjgovLyA1MS41NiUg5Lya5pi+56S65oiQIDUyJe+8jOS4pOi+ueeahOeZvuWIhuavlOi/mOS8muWHuueOsCA1Mis0OD05OSDov5nnp43lr7nkuI3kuIrnmoTop4LmhJ/jgIIKZnVuYyBUZXN0RXZhbEJhclRleHRLZWVwc1R3b0RlY2ltYWxzKHQgKnRlc3RpbmcuVCkgewoJZ290IDo9IGV2YWxCYXJUZXh0KDUxLjU2LCB0cnVlLCAiLTE3IikKCWlmICFzdHJpbmdzLkNvbnRhaW5zKGdvdCwgIue6oiA1MS41NiUiKSB7CgkJdC5FcnJvcmYoIue6ouaWueiDnOeOh+ayoeS/neeVmeS4pOS9jeWwj+aVsO+8miVzIiwgZ290KQoJfQoJaWYgIXN0cmluZ3MuQ29udGFpbnMoZ290LCAiNDguNDQlIOm7kSIpIHsKCQl0LkVycm9yZigi6buR5pa56IOc546H5rKh5L+d55WZ5Lik5L2N5bCP5pWw77yI5bqU5Li6IDEwMC01MS41Nj00OC40NO+8ie+8miVzIiwgZ290KQoJfQoJaWYgIXN0cmluZ3MuQ29udGFpbnMoZ290LCAiLTE3IikgewoJCXQuRXJyb3JmKCLliIblgLzmsqHmi7zov5vljrvvvJolcyIsIGdvdCkKCX0KCWlmIHMgOj0gZXZhbEJhclRleHQoNTAsIGZhbHNlLCAiIik7IHMgIT0gIuacquWIhuaekCIgewoJCXQuRXJyb3JmKCLmnKrliIbmnpDnirbmgIHlupTmmL7npLrjgIzmnKrliIbmnpDjgI3vvIzlrp7pmYUgJXEiLCBzKQoJfQp9CgovLyBUZXN0TW92ZVRleHRDb2xvckJ5U2lkZSDnnYDms5XliIboibLvvJrnuqLmlrnnnYDms5XnuqLlrZfvvIzpu5HmlrnnnYDms5XmraPmlofoibLjgIIKLy8KLy8g55So5oi36KaB5rGC44CM6K+l57qi5qOL6LWw5pe25paH5a2X5Y+Y5oiQ57qi6Imy77yM6buR5qOL6LWw5pe26aKc6Imy5LiN5Y+Y44CN77ybCi8vIOiusOiwseS4juWPmOaLm+mDveaMiei/meadoeinhOWImeS4iuiJsu+8jOaJgOS7peminOiJsuaYoOWwhOimgeWNleeLrOmSieS9j+OAggpmdW5jIFRlc3RNb3ZlVGV4dENvbG9yQnlTaWRlKHQgKnRlc3RpbmcuVCkgewoJaWYgZ290IDo9IG1vdmVUZXh0Q29sb3IocnVsZXMuUmVkKTsgZ290ICE9IGNvbG9yLkNvbG9yKGNvbE1vdmVSZWQpIHsKCQl0LkVycm9yZigi57qi5pa5552A5rOV6aKc6ImyID0gJXbvvIzlupTkuLogY29sTW92ZVJlZCAldiIsIGdvdCwgY29sTW92ZVJlZCkKCX0KCWlmIGdvdCA6PSBtb3ZlVGV4dENvbG9yKHJ1bGVzLkJsYWNrKTsgZ290ICE9IGNvbG9yLkNvbG9yKGNvbEZvcmUpIHsKCQl0LkVycm9yZigi6buR5pa5552A5rOV6aKc6ImyID0gJXbvvIzlupTkuLrmraPmlofoibIgY29sRm9yZSAldiIsIGdvdCwgY29sRm9yZSkKCX0KfQoKLy8gVGVzdENhbmRpZGF0ZURldGFpbENvbGxhcHNlZEJ5RGVmYXVsdCDlj5jmi5vooYzngrnlvIDmiY3mmL7npLrlkI7nu63otbDms5XvvIzkuJTpu5jorqTmmK/mlLbotbfnmoTjgIIKLy8KLy8g55So5oi36KaB5rGC77ya44CM54K55Ye76L+b5Lu75oSP5LiA5Liq5YCZ6YCJ5oub5pe277yM6KaB5pi+56S65Ye66L+Z5q2l5oub5LmL5ZCO55qE5YiG5p6Q6LWw5rOV77yMCi8vIOWQjumdoueahOWIhuaekOm7mOiupOaYr+WFs+mXreeKtuaAgeOAjeOAggpmdW5jIFRlc3RDYW5kaWRhdGVEZXRhaWxDb2xsYXBzZWRCeURlZmF1bHQodCAqdGVzdGluZy5UKSB7CgluZXdUZXN0VGhlbWVBcHAodCkKCglyb3cgOj0gbmV3Q2FuZGlkYXRlUm93KCkKCXJvdy5zZXQodHJ1ZSwgMSwgIueCruS6jOW5s+S6lCIsICJoMmUyIiwgMzQuNzIsICIrMjIiLAoJCSLngq7kuozlubPkupQg6amsOOi/mzcg6ams5LqM6L+b5LiJIiwgIua3seW6piAxOCDlsYLvvIjmnIDov5znrpfliLAgMjQg5bGC77yJIMK3IOeUqOaXtiAxLjAg56eSIMK3IOmAn+W6piAzMTg5IOWNg+iKgueCuS/np5IiKQoJaWYgcm93LmRldGFpbC5WaXNpYmxlKCkgewoJCXQuRXJyb3IoIuWQjue7rei1sOazlem7mOiupOW/hemhu+aYr+aUtui1t+eahCIpCgl9CglpZiByb3cubWV0YS5WaXNpYmxlKCkgewoJCXQuRXJyb3IoIuW8leaTjue7n+iuoem7mOiupOS5n+W/hemhu+aYr+aUtui1t+eahCIpCgl9CglpZiAhc3RyaW5ncy5Db250YWlucyhyb3cuZGV0YWlsLlRleHQsICLngq7kuozlubPkupQg6amsOOi/mzciKSB7CgkJdC5FcnJvcmYoIuWQjue7rei1sOazleWGheWuueS4jeWvue+8miVxIiwgcm93LmRldGFpbC5UZXh0KQoJfQoJaWYgIXN0cmluZ3MuQ29udGFpbnMocm93Lm1ldGEuVGV4dCwgIua3seW6piAxOCDlsYIiKSB7CgkJdC5FcnJvcmYoIuW8leaTjue7n+iuoeWGheWuueS4jeWvue+8miVxIiwgcm93Lm1ldGEuVGV4dCkKCX0KCWlmIHJvdy50YXAgPT0gbmlsIHx8IHJvdy50YXAuT25UYXAgPT0gbmlsIHsKCQl0LkZhdGFsKCLlj5jmi5vooYzngrnkuI3liqjvvIjmsqHmnInnu5Hlrprngrnlh7vlm57osIPvvIkiKQoJfQoJcm93LnRhcC5PblRhcCgpCglpZiAhcm93LmRldGFpbC5WaXNpYmxlKCkgewoJCXQuRXJyb3IoIueCueS4gOS4i+W6lOW9k+WxleW8gOWQjue7rei1sOazlSIpCgl9CglpZiAhcm93Lm1ldGEuVmlzaWJsZSgpIHsKCQl0LkVycm9yKCLlsZXlvIDml7blupTlvZPkuIDlubbmmL7npLrlvJXmk47nu5/orqHvvIjmt7HluqYv55So5pe2L+mAn+W6pu+8iSIpCgl9CglpZiAhcm93LnRhcC5ob3QgewoJCXQuRXJyb3IoIuWxleW8gOWQjui/meS4gOihjOW6lOW9k+aciemAieS4reW6leiJsu+8jOWQpuWImeeci+S4jeWHuuadpeWcqOeci+WTquS4gOadoSIpCgl9Cglyb3cudGFwLk9uVGFwKCkKCWlmIHJvdy5kZXRhaWwuVmlzaWJsZSgpIHx8IHJvdy5tZXRhLlZpc2libGUoKSB7CgkJdC5FcnJvcigi5YaN54K55LiA5LiL5bqU5b2T5pS26LW3IikKCX0KfQoKLy8gVGVzdENhbmRpZGF0ZURldGFpbEhpZGRlbldoZW5Ob1BWIOW8leaTjuayoee7meWQjue7rei1sOazleaXtuS4jeWxleW8gOepuuWGheWuueOAggpmdW5jIFRlc3RDYW5kaWRhdGVEZXRhaWxIaWRkZW5XaGVuTm9QVih0ICp0ZXN0aW5nLlQpIHsKCW5ld1Rlc3RUaGVtZUFwcCh0KQoJcm93IDo9IG5ld0NhbmRpZGF0ZVJvdygpCglyb3cuc2V0KHRydWUsIDEsICLngq7kuozlubPkupQiLCAiaDJlMiIsIDEwLCAiKzMiLCAiIiwgIiIpCglyb3cudGFwLk9uVGFwKCkKCWlmIHJvdy5kZXRhaWwuVmlzaWJsZSgpIHsKCQl0LkVycm9yKCLmsqHmnInlkI7nu63otbDms5Xml7bkuI3lupTlsZXlvIDnqbrooYwiKQoJfQp9CgovLyBUZXN0Rm9udFRpZXJMYWJlbHNBcmVDaGluZXNlIOaho+S9jeagh+etvuW/hemhu+aYr+S4reaWh+ivtOaYju+8jOS4jeiDveWPquWJqeiLseaWh+aho+S9jeWQjeOAggpmdW5jIFRlc3RGb250VGllckxhYmVsc0FyZUNoaW5lc2UodCAqdGVzdGluZy5UKSB7Cglmb3IgXywgdGllciA6PSByYW5nZSBbXXN0cmluZ3tmb250U2NhbGVTdGFuZGFyZCwgZm9udFNjYWxlTGFyZ2UsIGZvbnRTY2FsZVhMYXJnZX0gewoJCWxhYmVsIDo9IGZvbnRUaWVyTGFiZWwodGllcikKCQlpZiAhc3RyaW5ncy5IYXNQcmVmaXgobGFiZWwsICLmoIflh4YiKSAmJiAhc3RyaW5ncy5IYXNQcmVmaXgobGFiZWwsICLlpKciKSAmJiAhc3RyaW5ncy5IYXNQcmVmaXgobGFiZWwsICLnibnlpKciKSB7CgkJCXQuRXJyb3JmKCLmoaPkvY0gJXMg55qE5qCH562+ICVxIOS4jeaYr+WPr+ivu+eahOS4reaWh+ivtOaYjiIsIHRpZXIsIGxhYmVsKQoJCX0KCX0KfQo=
+package ui
+
+import (
+	"image/color"
+	"strings"
+	"testing"
+
+	"xiangqi/engine"
+	"xiangqi/rules"
+)
+
+// 面板格式回归测试。
+//
+// 这些字符串是「照同类软件平替」的结果，属于对外表现的一部分：
+// 一旦有人顺手把格式改回去，用户从别的软件切过来就对不上了，
+// 所以格式本身要有测试守着。
+
+// TestThinkDetailLineFormat 思考细节行必须是**中文可读**的完整统计。
+//
+// 用户要求「显示一部分能看得懂的参数，比如引擎后续计算的深度和计算时间、计算速度」：
+// 字段顺序沿用同类软件（深度 → 分数 → 用时 → 速度 → 节点），
+// 但不再出现 NPS / K 这类缩写。
+func TestThinkDetailLineFormat(t *testing.T) {
+	got := thinkDetailLine(18, "+22", 2761505, 2761505, 1000, 380)
+	for _, must := range []string{"深度: 18 层", "分数: +22", "用时: 1.0 秒", "速度: 2,761 千节点/秒", "算过 2,761,505 个局面", "哈希占用: 38%"} {
+		if !strings.Contains(got, must) {
+			t.Errorf("思考细节行缺少 %q：%s", must, got)
+		}
+	}
+	// 字段顺序也照抄：深度 → 分数 → 用时 → 速度
+	if strings.Index(got, "深度") > strings.Index(got, "分数") ||
+		strings.Index(got, "分数") > strings.Index(got, "用时") ||
+		strings.Index(got, "用时") > strings.Index(got, "速度") {
+		t.Errorf("字段顺序不对：%s", got)
+	}
+	// 不许再出现看不懂的缩写
+	if strings.Contains(got, "NPS") || strings.Contains(got, "K  时间") {
+		t.Errorf("统计行里还留着 NPS/K 这类缩写：%s", got)
+	}
+
+	// 将杀：不能同时出现「分数:」，措辞要与同类软件一致
+	mate := thinkDetailLine(12, "绝杀 3 步", 0, 0, 500, 0)
+	if !strings.Contains(mate, "绝杀") {
+		t.Errorf("将杀局面没有用「绝杀」措辞：%s", mate)
+	}
+	if strings.Contains(mate, "分数:") {
+		t.Errorf("将杀局面不应再出现「分数:」：%s", mate)
+	}
+
+	// 无分数时必须给占位符，不能留空或出现 "分数: "
+	none := thinkDetailLine(0, "", 0, 0, 0, 0)
+	if !strings.Contains(none, "分数: —") {
+		t.Errorf("无分数时的占位不对：%s", none)
+	}
+}
+
+// TestCandMetaLineIsPlainChinese 变招行展开后的引擎统计也要说人话。
+func TestCandMetaLineIsPlainChinese(t *testing.T) {
+	line := engine.InfoLine{Depth: 18, SelDepth: 24, Nodes: 2761505, NPS: 2761505, TimeMS: 1000}
+	got := candMetaLine(line)
+	for _, must := range []string{"深度 18 层", "最远算到 24 层", "用时 1.0 秒", "速度 2,761 千节点/秒", "算过 2,761,505 个局面"} {
+		if !strings.Contains(got, must) {
+			t.Errorf("变招统计行缺少 %q：%s", must, got)
+		}
+	}
+	// 没有任何数据时返回空串（调用方会显示占位）
+	if s := candMetaLine(engine.InfoLine{}); s != "" {
+		t.Errorf("无数据时应返回空串，实际 %q", s)
+	}
+}
+
+// TestEvalBarTextKeepsTwoDecimals 局势条胜率必须保留两位小数。
+//
+// 用户要求「胜率精确到两位小数」——曾经是 %.0f（整数），四舍五入后
+// 51.56% 会显示成 52%，两边的百分比还会出现 52+48=99 这种对不上的观感。
+func TestEvalBarTextKeepsTwoDecimals(t *testing.T) {
+	got := evalBarText(51.56, true, "-17")
+	if !strings.Contains(got, "红 51.56%") {
+		t.Errorf("红方胜率没保留两位小数：%s", got)
+	}
+	if !strings.Contains(got, "48.44% 黑") {
+		t.Errorf("黑方胜率没保留两位小数（应为 100-51.56=48.44）：%s", got)
+	}
+	if !strings.Contains(got, "-17") {
+		t.Errorf("分值没拼进去：%s", got)
+	}
+	if s := evalBarText(50, false, ""); s != "未分析" {
+		t.Errorf("未分析状态应显示「未分析」，实际 %q", s)
+	}
+}
+
+// TestMoveTextColorBySide 着法分色：红方着法红字，黑方着法正文色。
+//
+// 用户要求「该红棋走时文字变成红色，黑棋走时颜色不变」；
+// 记谱与变招都按这条规则上色，所以颜色映射要单独钉住。
+func TestMoveTextColorBySide(t *testing.T) {
+	if got := moveTextColor(rules.Red); got != color.Color(colMoveRed) {
+		t.Errorf("红方着法颜色 = %v，应为 colMoveRed %v", got, colMoveRed)
+	}
+	if got := moveTextColor(rules.Black); got != color.Color(colFore) {
+		t.Errorf("黑方着法颜色 = %v，应为正文色 colFore %v", got, colFore)
+	}
+}
+
+// TestCandidateDetailCollapsedByDefault 变招行点开才显示后续走法，且默认是收起的。
+//
+// 用户要求：「点击进任意一个候选招时，要显示出这步招之后的分析走法，
+// 后面的分析默认是关闭状态」。
+func TestCandidateDetailCollapsedByDefault(t *testing.T) {
+	newTestThemeApp(t)
+
+	row := newCandidateRow()
+	row.set(true, 1, "炮二平五", "h2e2", 34.72, "+22",
+		"炮二平五 马8进7 马二进三", "深度 18 层（最远算到 24 层） · 用时 1.0 秒 · 速度 3189 千节点/秒")
+	if row.detail.Visible() {
+		t.Error("后续走法默认必须是收起的")
+	}
+	if row.meta.Visible() {
+		t.Error("引擎统计默认也必须是收起的")
+	}
+	if !strings.Contains(row.detail.Text, "炮二平五 马8进7") {
+		t.Errorf("后续走法内容不对：%q", row.detail.Text)
+	}
+	if !strings.Contains(row.meta.Text, "深度 18 层") {
+		t.Errorf("引擎统计内容不对：%q", row.meta.Text)
+	}
+	if row.tap == nil || row.tap.OnTap == nil {
+		t.Fatal("变招行点不动（没有绑定点击回调）")
+	}
+	row.tap.OnTap()
+	if !row.detail.Visible() {
+		t.Error("点一下应当展开后续走法")
+	}
+	if !row.meta.Visible() {
+		t.Error("展开时应当一并显示引擎统计（深度/用时/速度）")
+	}
+	if !row.tap.hot {
+		t.Error("展开后这一行应当有选中底色，否则看不出来在看哪一条")
+	}
+	row.tap.OnTap()
+	if row.detail.Visible() || row.meta.Visible() {
+		t.Error("再点一下应当收起")
+	}
+}
+
+// TestCandidateDetailHiddenWhenNoPV 引擎没给后续走法时不展开空内容。
+func TestCandidateDetailHiddenWhenNoPV(t *testing.T) {
+	newTestThemeApp(t)
+	row := newCandidateRow()
+	row.set(true, 1, "炮二平五", "h2e2", 10, "+3", "", "")
+	row.tap.OnTap()
+	if row.detail.Visible() {
+		t.Error("没有后续走法时不应展开空行")
+	}
+}
+
+// TestFontTierLabelsAreChinese 档位标签必须是中文说明，不能只剩英文档位名。
+func TestFontTierLabelsAreChinese(t *testing.T) {
+	for _, tier := range []string{fontScaleStandard, fontScaleLarge, fontScaleXLarge} {
+		label := fontTierLabel(tier)
+		if !strings.HasPrefix(label, "标准") && !strings.HasPrefix(label, "大") && !strings.HasPrefix(label, "特大") {
+			t.Errorf("档位 %s 的标签 %q 不是可读的中文说明", tier, label)
+		}
+	}
+}

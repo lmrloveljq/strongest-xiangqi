@@ -1,1 +1,227 @@
-cGFja2FnZSB1aQoKaW1wb3J0ICgKCSJjb250ZXh0IgoJImZtdCIKCSJvcyIKCSJ0aW1lIgoKCSJmeW5lLmlvL2Z5bmUvdjIvZGlhbG9nIgoKCSJ4aWFuZ3FpL2NvbmZpZyIKCSJ4aWFuZ3FpL2VuZ2luZSIKCSJ4aWFuZ3FpL3J1bGVzIgopCgovLyDmnKzmlofku7blrp7njrDjgIzot5EgMTAg56eS5Z+65YeG44CN77ya55So5b2T5YmN6K6+572u6LeR5LiA5q615Zu65a6a5pe26Ze055qE5YiG5p6Q77yMCi8vIOaKpeWHuiBucHMgLyDmt7HluqYgLyDlk4jluIzljaDnlKggLyAqKuWunua1iyBDUFUg5Y2g55SoKirvvIznlKjmnaXpqozor4HjgIzmu6HphY3liLDlupXlkIPmu6HmsqHmnInjgI3jgIIKLy8KLy8g5Li65LuA5LmI6ZyA6KaB5a6D77ya5ruh6YWN77yI57q/56iLID0gTWF4U3RyZW5ndGhUaHJlYWRzKOmAu+i+keaguCnvvIzmnKzmnLogMTLjgIHlk4jluIwgNDA5Nu+8ieWcqOe6uOS4iuWlveeci++8jAovLyDlrp7pmYXkvJrooqvmuKnluqblopnjgIEKLy8g55S15rqQ6K6h5YiS44CB5YW25a6D6L+b56iL5YG35qC45ouW5LiL5p2l77yb5LiN55yL5a6e5rWL5pWw5a2X5bCx5LiN55+l6YGT5pyJ5rKh5pyJ55yf55qE6LeR5ruh44CCCgovLyBiZW5jaFNlY29uZHMg5piv5Z+65YeG5pe26ZW/77yI5Zu65a6aIDEwIOenku+8muWkn+mVv+eci+W+l+WHuueos+WumuWAvO+8jOWPiOS4jeiHs+S6juiuqeeUqOaIt+W5suetie+8ieOAggpjb25zdCBiZW5jaFNlY29uZHMgPSAxMAoKLy8gUnVuQmVuY2htYXJrIOi3keS4gOasoSAxMCDnp5Lln7rlh4blubbmiornu5PmnpzmiqXliLDnirbmgIHmoI8gKyDlr7nor53moYbjgIIKZnVuYyAoYSAqQXBwKSBSdW5CZW5jaG1hcmsoKSB7CgljIDo9IGEuYW5hbHlzaXNDbGllbnQoKQoJaWYgYyA9PSBuaWwgewoJCWRpYWxvZy5TaG93SW5mb3JtYXRpb24oIuW8leaTjuacquWwsee7qiIsCgkJCSLlhYjngrnlt6XlhbfmoI/jgIzlkK/liqjlvJXmk47jgI3vvIzmiJboj5zljZXjgIzlvJXmk47jgI3ph4znmoTjgIzlkK/liqggLyDlhbPpl63lvJXmk47jgI3vvIznhLblkI7lho3ot5Hln7rlh4bjgIIiLCBhLndpbikKCQlyZXR1cm4KCX0KCXBpZCA6PSBjLlBJRCgpCglpZiBwaWQgPT0gMCB7CgkJZGlhbG9nLlNob3dJbmZvcm1hdGlvbigi5ou/5LiN5Yiw5byV5pOO6L+b56iLIiwgIuW8leaTjuWuouaIt+err+ayoeacieaatOmcsui/m+eoi+WPt++8jOaXoOazlee7n+iuoSBDUFUg5Y2g55So44CCIiwgYS53aW4pCgkJcmV0dXJuCgl9CgoJLy8g5Z+65YeG6KaBKirni6zljaAqKuW8leaTju+8muW8leaTjuato+W/meaXtiBBbmFseXplIOS8muebtOaOpeWbnuOAjOW8leaTjuato+W/me+8iOS4iuS4gOasoeaAneiAg+Wwmuacque7k+adn++8ieOAje+8jAoJLy8g5LqO5piv5pyA5bi46KeB55qE55So5rOV77yI5byA552A5YiG5p6Q5bCx54K55Z+65YeG77yJ5b+F54S25aSx6LSl44CC5YWI5oqK5Zyo6LeR55qE6YKj5qyh5oCd6ICD5YGc5o6J5YaN6LeR44CCCglpZiAhYS5zdG9wQW5hbHlzaXNGb3JCZW5jaCgpIHsKCQltc2cgOj0gIuW8leaTjuayoeiDveWBnOS4i+adpe+8iOS4iuS4gOasoeaAneiAg+i/mOWcqOi3ke+8ieOAguivt+eojeetieWHoOenkuWGjeeCueS4gOasoeOAjOi3kSAxMCDnp5Lln7rlh4bjgI3vvIwiICsKCQkJIuaIluWFiOeUqOiPnOWNleOAjOW8leaTjuOAjemHjOeahOOAjOeri+WNs+WHuuaLm+OAjeWCrOWug+S6pOS4gOatpeOAgiIKCQlhLnNldFN0YXR1c0luZm8oIuWfuuWHhua1i+ivleWPlua2iO+8miIgKyBtc2cpCgkJZm10LkZwcmludGxuKG9zLlN0ZGVyciwgIltiZW5jaF0g5Y+W5raI77ya5byV5pOO5q2j5b+Z5LiU5pyq6IO95YGc5q2iIikKCQlkaWFsb2cuU2hvd0luZm9ybWF0aW9uKCLlvJXmk47mraPlv5kiLCBtc2csIGEud2luKQoJCXJldHVybgoJfQoKCS8vIOiusOW9leWfuue6v++8jDEwIOenkuWQjuWGjemHh+agt+S4gOasoeWBmuW3ruWIhgoJY3B1MCA6PSBFbmdpbmVDUFVTZWNvbmRzKHBpZCkKCXdhbGwwIDo9IHRpbWUuTm93KCkKCWEuc2V0U3RhdHVzSW5mbyhmbXQuU3ByaW50Zigi5Z+65YeG5rWL6K+V5Lit77ya5Yid5aeL5bGA6Z2i6LeRICVkIOenku+8iOe6v+eoiyAlZCAvIOWTiOW4jCAlZE1CIC8g5YCZ6YCJICVk77yJ4oCmIiwKCQliZW5jaFNlY29uZHMsIGEuY2ZnLlRocmVhZHMsIGEuY2ZnLkhhc2gsIGEuY2ZnLk11bHRpUFYpKQoJaWYgYS50b2FzdFRleHQgIT0gbmlsIHsKCQlhLnRvYXN0KCLln7rlh4bmtYvor5XlvIDlp4vvvIgxMCDnp5LvvIkiKQoJfQoKCXBvcyA6PSBlbmdpbmUuUG9zaXRpb257U3RhcnRwb3M6IHRydWUsIEZFTjogcnVsZXMuU3RhcnRGRU59CglsaW1pdCA6PSBlbmdpbmUuTGltaXR7TW9kZTogZW5naW5lLkxpbWl0TW92ZVRpbWUsIE1vdmVUaW1lTVM6IGJlbmNoU2Vjb25kcyAqIDEwMDB9Cgljb3JlcyA6PSBjb25maWcuQ1BVQ291bnQoKQoKCWdvIGZ1bmMoKSB7CgkJcmVzLCBlcnIgOj0gYy5BbmFseXplKGNvbnRleHQuQmFja2dyb3VuZCgpLCBwb3MsIGxpbWl0LCBuaWwpCgkJd2FsbCA6PSB0aW1lLlNpbmNlKHdhbGwwKS5TZWNvbmRzKCkKCQljcHUgOj0gRW5naW5lQ1BVU2Vjb25kcyhwaWQpIC0gY3B1MAoJCWNwdVBjdCA6PSAwLjAKCQlpZiB3YWxsID4gMCB7CgkJCWNwdVBjdCA9IGNwdSAvIHdhbGwgKiAxMDAgLy8gMTAwJSA9IOS4gOS4qumAu+i+keaguO+8mzE2IOaguOa7oei9vSA9IDE2MDAlCgkJfQoJCWEudWlEb1dhaXQoZnVuYygpIHsKCQkJaWYgZXJyICE9IG5pbCB7CgkJCQlhLnNldFN0YXR1c0luZm8oIuWfuuWHhua1i+ivleWksei0pe+8miIgKyBlcnIuRXJyb3IoKSkKCQkJCWZtdC5GcHJpbnRmKG9zLlN0ZGVyciwgIltiZW5jaF0g5aSx6LSl77yaJXZcbiIsIGVycikKCQkJCWRpYWxvZy5TaG93RXJyb3IoZXJyLCBhLndpbikKCQkJCXJldHVybgoJCQl9CgkJCW5wcyA6PSByZXMuTlBTCgkJCWlmIG5wcyA9PSAwICYmIHJlcy5UaW1lTVMgPiAwIHsKCQkJCW5wcyA9IHJlcy5Ob2RlcyAqIDEwMDAgLyByZXMuVGltZU1TCgkJCX0KCQkJbXNnIDo9IGZtdC5TcHJpbnRmKAoJCQkJIuWfuuWHhue7k+aenO+8iOWIneWni+WxgOmdou+8jCVkIOenku+8iVxuXG7mt7HluqbvvJolZCDlsYJcbuiKgueCue+8miVzXG7pgJ/luqbvvJolcyBucHNcbuWTiOW4jOWNoOeUqO+8miUuMGYlJVxuIisKCQkJCQki5a6e5rWLIENQVSDljaDnlKjvvJolLjBmJSXvvIjiiYggJS4xZiDkuKrpgLvovpHmoLggLyDlhbEgJWTvvIlcblxu6K6+572u77ya57q/56iLICVk44CB5ZOI5biMICVkTULjgIHlgJnpgIkgJWQg5p2hIiwKCQkJCWJlbmNoU2Vjb25kcywgcmVzLkRlcHRoLCBjb21tYXMocmVzLk5vZGVzKSwgY29tbWFzKG5wcyksIGZsb2F0NjQocmVzLkhhc2hGdWxsKS8xMCwKCQkJCWNwdVBjdCwgY3B1UGN0LzEwMCwgY29yZXMsCgkJCQlhLmNmZy5UaHJlYWRzLCBhLmNmZy5IYXNoLCBhLmNmZy5NdWx0aVBWKQoJCQkvLyDliKTlrprvvJrljaDnlKjkvY7kuo7nur/nqIvmlbDnmoQgODUlIOivtOaYjuayoeWQg+a7oQoJCQl3YW50IDo9IGZsb2F0NjQoYS5jZmcuVGhyZWFkcykgKiAxMDAKCQkJc3dpdGNoIHsKCQkJY2FzZSBjcHVQY3QgPCB3YW50KjAuODU6CgkJCQltc2cgKz0gZm10LlNwcmludGYoIlxuXG7imqAg5Y+q6LeR5YiwICUuMGYlJe+8jOS9juS6jue6v+eoi+aVsOW6lOacieeahCAlLjBmJSXigJTigJQiKwoJCQkJCSLluLjop4Hljp/lm6DvvJrnlLXmupDorqHliJLkuI3mmK/jgIzpq5jmgKfog73jgI3jgIHnrJTorrDmnKzmuKnluqblopnpmY3popHjgIHliKvnmoTnqIvluo/lnKjmiqLmoLjjgIIiLCBjcHVQY3QsIHdhbnQpCgkJCWRlZmF1bHQ6CgkJCQltc2cgKz0gIlxuXG7inIUg5Y2g55So5bey5o6l6L+R57q/56iL5LiK6ZmQ77yMQ1BVIOWfuuacrOiiq+W8leaTjuWQg+a7oeOAgiIKCQkJfQoJCQlhLnNldFN0YXR1c0luZm8oZm10LlNwcmludGYoIuWfuuWHhuWujOaIkO+8miVzIG5wc++8jOa3seW6piAlZO+8jOWunua1iyBDUFUgJS4wZiUlIiwgY29tbWFzKG5wcyksIHJlcy5EZXB0aCwgY3B1UGN0KSkKCQkJZGlhbG9nLlNob3dJbmZvcm1hdGlvbigi6LeRIDEwIOenkuWfuuWHhiIsIG1zZywgYS53aW4pCgkJCWZtdC5GcHJpbnRmKG9zLlN0ZGVyciwgIltiZW5jaF0gbnBzPSVkIGRlcHRoPSVkIGhhc2hmdWxsPSVkIGNwdT0lLjFmJSVcbiIsIG5wcywgcmVzLkRlcHRoLCByZXMuSGFzaEZ1bGwsIGNwdVBjdCkKCQl9KQoJfSgpCn0KCi8vIGFwcGx5TWF4U3RyZW5ndGhUb0VuZ2luZSDmiorjgIzmnIDlvLrlvJXmk47mqKHlvI/jgI3nmoTlj4LmlbDnnJ/mraPkuIvlj5HliLDlvJXmk47ov5vnqIvkuIrjgIIKLy8KLy8g5LiJ5q2l44CB6aG65bqP5LiN6IO95Y+N77yaCi8vCi8vCeKRoCDph43lkK/liIbmnpDlvJXmk44g4oCU4oCUIFN0YXJ0IOaXtuaJjeS8miBzZXRvcHRpb24gVGhyZWFkcy9IYXNoL011bHRpUFbvvJsKLy8J4pGhIOetieaWsOi/m+eoi+ecn+eahOi1t+adpe+8mwovLwnikaIg5Zyo5paw6L+b56iL5LiK5YGa5LyY5YWI57qnICsg5Lqy5ZKM5oCn6LCD5LyY44CCCi8vCi8vIOS4iuS4gOeJiOaYr+OAjOWPquiwg+S8mOOAgeS4jemHjeWQr+OAgeS4lOWcqOaXp+i/m+eoi+S4iuiwg+OAje+8mueKtuaAgeagj+ivtCLlt7Lnu5HlrprpmaTnrKwgMSDmoLjlpJbnmoQKLy8gMTUg5Liq6YC76L6R5qC4Iu+8jOWunua1i+i/m+eoi+i/mOaYryBOb3JtYWwgKyDlhaggMTYg5qC477yM6ICM5ruh6YWN55qE57q/56iL5pWw5qC55pys5rKh5LiL5Y+R44CCCmZ1bmMgKGEgKkFwcCkgYXBwbHlNYXhTdHJlbmd0aFRvRW5naW5lKCkgewoJaWYgYS5lbmdpbmVPZmYuTG9hZCgpIHsKCQlhLnVpRG9XYWl0KGZ1bmMoKSB7CgkJCWEuc2V0U3RhdHVzSW5mbyhmbXQuU3ByaW50ZigKCQkJCSLmnIDlvLrlvJXmk47mqKHlvI/vvJrlj4LmlbDlt7Lkv53lrZjvvIjnur/nqIsgJWQgLyDlk4jluIwgJWRNQu+8ie+8m+W8leaTjuW9k+WJjeaYr+WFs+mXreeKtuaAge+8jOS4i+asoeeCueOAjOWQr+WKqOW8leaTjuOAjeaXtuaMieatpOS4i+WPkSIsCgkJCQlhLmNmZy5UaHJlYWRzLCBhLmNmZy5IYXNoKSkKCQl9KQoJCXJldHVybgoJfQoJb2xkIDo9IDAKCWlmIGMgOj0gYS5hbmFseXNpc0NsaWVudCgpOyBjICE9IG5pbCB7CgkJb2xkID0gYy5QSUQoKQoJfQoJYS5yZXN0YXJ0QW5hbHlzaXNFbmdpbmUoKQoJaWYgYS53YWl0RW5naW5lUElEKG9sZCwgMjAqdGltZS5TZWNvbmQpID09IDAgewoJCWEudWlEb1dhaXQoZnVuYygpIHsKCQkJYS5zZXRTdGF0dXNJbmZvKCLmnIDlvLrlvJXmk47mqKHlvI/vvJrnrYnlvJXmk47ph43lkK/otoXml7bvvIzlj4LmlbDmmK/lkKbnlJ/mlYjor7fngrnjgIzot5EgMTAg56eS5Z+65YeG44CN5qC45a+5IikKCQl9KQoJCXJldHVybgoJfQoJbm90ZSA6PSBhLkFwcGx5RW5naW5lUHJvY2Vzc1R1bmluZygpCglhLnVpRG9XYWl0KGZ1bmMoKSB7CgkJc3RhdGUgOj0gIuW3suW8gOWQryIKCQlpZiAhYS5jZmcuTWF4U3RyZW5ndGggewoJCQlzdGF0ZSA9ICLlt7LlhbPpl60iCgkJfQoJCW1zZyA6PSBmbXQuU3ByaW50Zigi5pyA5by65byV5pOO5qih5byPJXPvvJrlvJXmk47lt7LmjIkgJWQg57q/56iLIC8gJWRNQiDlk4jluIwgLyDlgJnpgIkgJWQg5p2h6YeN5ZCv55Sf5pWIIiwKCQkJc3RhdGUsIGEuY2ZnLlRocmVhZHMsIGEuY2ZnLkhhc2gsIGEuY2ZnLk11bHRpUFYpCgkJaWYgbm90ZSAhPSAiIiB7CgkJCW1zZyArPSAi77ybIiArIG5vdGUKCQl9CgkJYS5zZXRTdGF0dXNJbmZvKG1zZykKCX0pCn0KCi8vIHdhaXRFbmdpbmVQSUQg562J5LiA5Liq44CM5LiN5ZCM5LqOIG9sZFBJROOAjeeahOW8leaTjui/m+eoi+WHuueOsO+8iOmHjeWQr+WujOaIkOeahOWIpOaNru+8ieOAggovLwovLyDkuLrku4DkuYjopoHnrYnvvJpyZXN0YXJ0QW5hbHlzaXNFbmdpbmUg5piv5byC5q2l55qE77yIU3RhcnQgKyBpc3JlYWR5IOacgOmVvyAyMCDnp5LvvInvvIwKLy8g6ICMIuW3sueUn+aViCLov5nlj6Xor53lv4XpobvlnKjmlrDov5vnqIvnnJ/nmoTotbfmnaXkuYvlkI7miY3or7Tlvpflh7rlj6Mg4oCU4oCUIOS4iuS4gOeJiOWwseaYrwovLyDor53lhYjor7TlnKjkuobov5vnqIvlrZjlnKjkuYvliY3vvIzkuo7mmK/nirbmgIHmoI/kuI7lrp7mtYvlr7nkuI3kuIrjgIIKZnVuYyAoYSAqQXBwKSB3YWl0RW5naW5lUElEKG9sZFBJRCBpbnQsIHRpbWVvdXQgdGltZS5EdXJhdGlvbikgaW50IHsKCWRlYWRsaW5lIDo9IHRpbWUuTm93KCkuQWRkKHRpbWVvdXQpCglmb3IgdGltZS5Ob3coKS5CZWZvcmUoZGVhZGxpbmUpIHsKCQlpZiBjIDo9IGEuYW5hbHlzaXNDbGllbnQoKTsgYyAhPSBuaWwgJiYgYy5BbGl2ZSgpIHsKCQkJaWYgcGlkIDo9IGMuUElEKCk7IHBpZCAhPSAwICYmIHBpZCAhPSBvbGRQSUQgewoJCQkJcmV0dXJuIHBpZAoJCQl9CgkJfQoJCXRpbWUuU2xlZXAoMTIwICogdGltZS5NaWxsaXNlY29uZCkKCX0KCXJldHVybiAwCn0KCi8vIHN0b3BBbmFseXNpc0ZvckJlbmNoIOS4uuWfuuWHhua1i+ivleiFvuWHuuW8leaTju+8muWBnOaOieato+WcqOi3keeahOmCo+asoeaAneiAg+W5tuetieWug+ecn+ato+e7k+adn+OAggovLwovLyDov5Tlm54gZmFsc2Ug6KGo56S6562J5LiN5Yiw77yI5byV5pOO5Y2h5L2P5oiWIHN0b3Ag5peg5pWI77yJ77yM6LCD55So5pa55bqU5b2T5aaC5a6e5ZGK6K+J55So5oi36ICM5LiN5piv56Gs6LeR44CCCi8vIOS4uuS7gOS5iOimgeetie+8mmVuZ2luZS5DbGllbnQg5pyJIGJ1c3kg5qCH5b+X77yM5LiA5qyh5oCd6ICD5rKh57uT5p2f5YmN56ys5LqM5qyhIEFuYWx5emUg5Lya6KKr55u05o6l5ouS57ud44CCCmZ1bmMgKGEgKkFwcCkgc3RvcEFuYWx5c2lzRm9yQmVuY2goKSBib29sIHsKCWlmICFhLmFuYWx5emluZy5Mb2FkKCkgewoJCXJldHVybiB0cnVlCgl9CglhLmFuYUdlbi5BZGQoMSkgLy8g5Zyo6YCU57uT5p6c5L2c5bqf77yIZ2VuIOWvueS4jeS4iuS8muiiq+S4ouW8g++8iQoJaWYgYyA6PSBhLmFuYWx5c2lzQ2xpZW50KCk7IGMgIT0gbmlsIHsKCQlfID0gYy5TdG9wKCkKCX0KCWRlYWRsaW5lIDo9IHRpbWUuTm93KCkuQWRkKDQgKiB0aW1lLlNlY29uZCkKCWZvciB0aW1lLk5vdygpLkJlZm9yZShkZWFkbGluZSkgewoJCWlmICFhLmFuYWx5emluZy5Mb2FkKCkgewoJCQlyZXR1cm4gdHJ1ZQoJCX0KCQl0aW1lLlNsZWVwKDYwICogdGltZS5NaWxsaXNlY29uZCkKCX0KCXJldHVybiBmYWxzZQp9CgovLyBBcHBseUVuZ2luZVByb2Nlc3NUdW5pbmcg5oqK44CM6L+b56iL5LyY5YWI57qnICsgQ1BVIOS6suWSjOaAp+OAjeW6lOeUqOWIsOWIhuaekOW8leaTjuOAggovLwovLyDlj6rlnKjmnIDlvLrlvJXmk47mqKHlvI/kuIvosIPnlKjvvJrmjIkqKuWunumZhee6v+eoi+aVsCoq55WZ5Ye65LqS6KGl55qE5Yeg5Liq6YC76L6R5qC457uZ55WM6Z2iCi8vIO+8iDEyIOe6v+eoiyDihpIg55WZIDQg5Liq5qC477yJ77yM5YW25L2Z5qC457uZ5byV5pOO5bm25oqK5LyY5YWI57qn5o+Q5Yiw44CM6auY5LqO5q2j5bi444CN44CCCmZ1bmMgKGEgKkFwcCkgQXBwbHlFbmdpbmVQcm9jZXNzVHVuaW5nKCkgc3RyaW5nIHsKCWMgOj0gYS5hbmFseXNpc0NsaWVudCgpCglpZiBjID09IG5pbCB7CgkJcmV0dXJuICIiCgl9CglwaWQgOj0gYy5QSUQoKQoJaWYgcGlkID09IDAgewoJCXJldHVybiAiIgoJfQoJaWYgIWEuY2ZnLk1heFN0cmVuZ3RoIHsKCQlTZXRFbmdpbmVQcmlvcml0eShwaWQsIGZhbHNlKQoJCVNldEVuZ2luZUFmZmluaXR5TWFzayhwaWQsIDApIC8vIDAg5Lya6KKrIEFQSSDmi5Lnu53vvIznrYnkuo4i5LiN5pS55Lqy5ZKM5oCnIgoJCXJldHVybiAiIgoJfQoJbG9naWNhbCA6PSBjb25maWcuQ1BVQ291bnQoKQoJdGhyZWFkcyA6PSBhLmNmZy5UaHJlYWRzCglyZXNlcnZlIDo9IGxvZ2ljYWwgLSB0aHJlYWRzCglpZiByZXNlcnZlIDwgMSB7CgkJcmVzZXJ2ZSA9IDEKCX0KCWhpZ2ggOj0gU2V0RW5naW5lUHJpb3JpdHkocGlkLCB0cnVlKQoJbWFzayA6PSBNYXhTdHJlbmd0aEFmZmluaXR5TWFzayhsb2dpY2FsLCB0aHJlYWRzKQoJYWZmIDo9IFNldEVuZ2luZUFmZmluaXR5TWFzayhwaWQsIG1hc2spCglib3VuZCA6PSBmbXQuU3ByaW50Zigi5byV5pOOICVkIOe6v+eoi+e7keWumuWIsCAlZCDkuKrpgLvovpHmoLjvvIznlZkgJWQg5Liq57uZ55WM6Z2iIiwgdGhyZWFkcywgbG9naWNhbC1yZXNlcnZlLCByZXNlcnZlKQoJc3dpdGNoIHsKCWNhc2UgaGlnaCAmJiBhZmY6CgkJcmV0dXJuICLlvJXmk47ov5vnqIvlt7Lorr7kuLrjgIzpq5jkuo7mraPluLjjgI3kvJjlhYjnuqfvvIwiICsgYm91bmQKCWNhc2UgaGlnaDoKCQlyZXR1cm4gIuW8leaTjui/m+eoi+W3suiuvuS4uuOAjOmrmOS6juato+W4uOOAjeS8mOWFiOe6p++8iOS6suWSjOaAp+iuvue9ruiiq+ezu+e7n+aLkue7ne+8iSIKCWNhc2UgYWZmOgoJCXJldHVybiBib3VuZCArICLvvIjkvJjlhYjnuqforr7nva7ooqvns7vnu5/mi5Lnu53vvIkiCgl9CglyZXR1cm4gIui/m+eoi+S8mOWFiOe6py/kurLlkozmgKforr7nva7pg73ooqvns7vnu5/mi5Lnu53vvIjlj6/og73pnIDopoHnrqHnkIblkZjmnYPpmZDvvIkiCn0K
+package ui
+
+import (
+	"context"
+	"fmt"
+	"os"
+	"time"
+
+	"fyne.io/fyne/v2/dialog"
+
+	"xiangqi/config"
+	"xiangqi/engine"
+	"xiangqi/rules"
+)
+
+// 本文件实现「跑 10 秒基准」：用当前设置跑一段固定时间的分析，
+// 报出 nps / 深度 / 哈希占用 / **实测 CPU 占用**，用来验证「满配到底吃满没有」。
+//
+// 为什么需要它：满配（线程 = MaxStrengthThreads(逻辑核)，本机 12、哈希 4096）在纸上好看，
+// 实际会被温度墙、
+// 电源计划、其它进程偷核拖下来；不看实测数字就不知道有没有真的跑满。
+
+// benchSeconds 是基准时长（固定 10 秒：够长看得出稳定值，又不至于让用户干等）。
+const benchSeconds = 10
+
+// RunBenchmark 跑一次 10 秒基准并把结果报到状态栏 + 对话框。
+func (a *App) RunBenchmark() {
+	c := a.analysisClient()
+	if c == nil {
+		dialog.ShowInformation("引擎未就绪",
+			"先点工具栏「启动引擎」，或菜单「引擎」里的「启动 / 关闭引擎」，然后再跑基准。", a.win)
+		return
+	}
+	pid := c.PID()
+	if pid == 0 {
+		dialog.ShowInformation("拿不到引擎进程", "引擎客户端没有暴露进程号，无法统计 CPU 占用。", a.win)
+		return
+	}
+
+	// 基准要**独占**引擎：引擎正忙时 Analyze 会直接回「引擎正忙（上一次思考尚未结束）」，
+	// 于是最常见的用法（开着分析就点基准）必然失败。先把在跑的那次思考停掉再跑。
+	if !a.stopAnalysisForBench() {
+		msg := "引擎没能停下来（上一次思考还在跑）。请稍等几秒再点一次「跑 10 秒基准」，" +
+			"或先用菜单「引擎」里的「立即出招」催它交一步。"
+		a.setStatusInfo("基准测试取消：" + msg)
+		fmt.Fprintln(os.Stderr, "[bench] 取消：引擎正忙且未能停止")
+		dialog.ShowInformation("引擎正忙", msg, a.win)
+		return
+	}
+
+	// 记录基线，10 秒后再采样一次做差分
+	cpu0 := EngineCPUSeconds(pid)
+	wall0 := time.Now()
+	a.setStatusInfo(fmt.Sprintf("基准测试中：初始局面跑 %d 秒（线程 %d / 哈希 %dMB / 候选 %d）…",
+		benchSeconds, a.cfg.Threads, a.cfg.Hash, a.cfg.MultiPV))
+	if a.toastText != nil {
+		a.toast("基准测试开始（10 秒）")
+	}
+
+	pos := engine.Position{Startpos: true, FEN: rules.StartFEN}
+	limit := engine.Limit{Mode: engine.LimitMoveTime, MoveTimeMS: benchSeconds * 1000}
+	cores := config.CPUCount()
+
+	go func() {
+		res, err := c.Analyze(context.Background(), pos, limit, nil)
+		wall := time.Since(wall0).Seconds()
+		cpu := EngineCPUSeconds(pid) - cpu0
+		cpuPct := 0.0
+		if wall > 0 {
+			cpuPct = cpu / wall * 100 // 100% = 一个逻辑核；16 核满载 = 1600%
+		}
+		a.uiDoWait(func() {
+			if err != nil {
+				a.setStatusInfo("基准测试失败：" + err.Error())
+				fmt.Fprintf(os.Stderr, "[bench] 失败：%v\n", err)
+				dialog.ShowError(err, a.win)
+				return
+			}
+			nps := res.NPS
+			if nps == 0 && res.TimeMS > 0 {
+				nps = res.Nodes * 1000 / res.TimeMS
+			}
+			msg := fmt.Sprintf(
+				"基准结果（初始局面，%d 秒）\n\n深度：%d 层\n节点：%s\n速度：%s nps\n哈希占用：%.0f%%\n"+
+					"实测 CPU 占用：%.0f%%（≈ %.1f 个逻辑核 / 共 %d）\n\n设置：线程 %d、哈希 %dMB、候选 %d 条",
+				benchSeconds, res.Depth, commas(res.Nodes), commas(nps), float64(res.HashFull)/10,
+				cpuPct, cpuPct/100, cores,
+				a.cfg.Threads, a.cfg.Hash, a.cfg.MultiPV)
+			// 判定：占用低于线程数的 85% 说明没吃满
+			want := float64(a.cfg.Threads) * 100
+			switch {
+			case cpuPct < want*0.85:
+				msg += fmt.Sprintf("\n\n⚠ 只跑到 %.0f%%，低于线程数应有的 %.0f%%——"+
+					"常见原因：电源计划不是「高性能」、笔记本温度墙降频、别的程序在抢核。", cpuPct, want)
+			default:
+				msg += "\n\n✅ 占用已接近线程上限，CPU 基本被引擎吃满。"
+			}
+			a.setStatusInfo(fmt.Sprintf("基准完成：%s nps，深度 %d，实测 CPU %.0f%%", commas(nps), res.Depth, cpuPct))
+			dialog.ShowInformation("跑 10 秒基准", msg, a.win)
+			fmt.Fprintf(os.Stderr, "[bench] nps=%d depth=%d hashfull=%d cpu=%.1f%%\n", nps, res.Depth, res.HashFull, cpuPct)
+		})
+	}()
+}
+
+// applyMaxStrengthToEngine 把「最强引擎模式」的参数真正下发到引擎进程上。
+//
+// 三步、顺序不能反：
+//
+//	① 重启分析引擎 —— Start 时才会 setoption Threads/Hash/MultiPV；
+//	② 等新进程真的起来；
+//	③ 在新进程上做优先级 + 亲和性调优。
+//
+// 上一版是「只调优、不重启、且在旧进程上调」：状态栏说"已绑定除第 1 核外的
+// 15 个逻辑核"，实测进程还是 Normal + 全 16 核，而满配的线程数根本没下发。
+func (a *App) applyMaxStrengthToEngine() {
+	if a.engineOff.Load() {
+		a.uiDoWait(func() {
+			a.setStatusInfo(fmt.Sprintf(
+				"最强引擎模式：参数已保存（线程 %d / 哈希 %dMB）；引擎当前是关闭状态，下次点「启动引擎」时按此下发",
+				a.cfg.Threads, a.cfg.Hash))
+		})
+		return
+	}
+	old := 0
+	if c := a.analysisClient(); c != nil {
+		old = c.PID()
+	}
+	a.restartAnalysisEngine()
+	if a.waitEnginePID(old, 20*time.Second) == 0 {
+		a.uiDoWait(func() {
+			a.setStatusInfo("最强引擎模式：等引擎重启超时，参数是否生效请点「跑 10 秒基准」核对")
+		})
+		return
+	}
+	note := a.ApplyEngineProcessTuning()
+	a.uiDoWait(func() {
+		state := "已开启"
+		if !a.cfg.MaxStrength {
+			state = "已关闭"
+		}
+		msg := fmt.Sprintf("最强引擎模式%s：引擎已按 %d 线程 / %dMB 哈希 / 候选 %d 条重启生效",
+			state, a.cfg.Threads, a.cfg.Hash, a.cfg.MultiPV)
+		if note != "" {
+			msg += "；" + note
+		}
+		a.setStatusInfo(msg)
+	})
+}
+
+// waitEnginePID 等一个「不同于 oldPID」的引擎进程出现（重启完成的判据）。
+//
+// 为什么要等：restartAnalysisEngine 是异步的（Start + isready 最长 20 秒），
+// 而"已生效"这句话必须在新进程真的起来之后才说得出口 —— 上一版就是
+// 话先说在了进程存在之前，于是状态栏与实测对不上。
+func (a *App) waitEnginePID(oldPID int, timeout time.Duration) int {
+	deadline := time.Now().Add(timeout)
+	for time.Now().Before(deadline) {
+		if c := a.analysisClient(); c != nil && c.Alive() {
+			if pid := c.PID(); pid != 0 && pid != oldPID {
+				return pid
+			}
+		}
+		time.Sleep(120 * time.Millisecond)
+	}
+	return 0
+}
+
+// stopAnalysisForBench 为基准测试腾出引擎：停掉正在跑的那次思考并等它真正结束。
+//
+// 返回 false 表示等不到（引擎卡住或 stop 无效），调用方应当如实告诉用户而不是硬跑。
+// 为什么要等：engine.Client 有 busy 标志，一次思考没结束前第二次 Analyze 会被直接拒绝。
+func (a *App) stopAnalysisForBench() bool {
+	if !a.analyzing.Load() {
+		return true
+	}
+	a.anaGen.Add(1) // 在途结果作废（gen 对不上会被丢弃）
+	if c := a.analysisClient(); c != nil {
+		_ = c.Stop()
+	}
+	deadline := time.Now().Add(4 * time.Second)
+	for time.Now().Before(deadline) {
+		if !a.analyzing.Load() {
+			return true
+		}
+		time.Sleep(60 * time.Millisecond)
+	}
+	return false
+}
+
+// ApplyEngineProcessTuning 把「进程优先级 + CPU 亲和性」应用到分析引擎。
+//
+// 只在最强引擎模式下调用：按**实际线程数**留出互补的几个逻辑核给界面
+// （12 线程 → 留 4 个核），其余核给引擎并把优先级提到「高于正常」。
+func (a *App) ApplyEngineProcessTuning() string {
+	c := a.analysisClient()
+	if c == nil {
+		return ""
+	}
+	pid := c.PID()
+	if pid == 0 {
+		return ""
+	}
+	if !a.cfg.MaxStrength {
+		SetEnginePriority(pid, false)
+		SetEngineAffinityMask(pid, 0) // 0 会被 API 拒绝，等于"不改亲和性"
+		return ""
+	}
+	logical := config.CPUCount()
+	threads := a.cfg.Threads
+	reserve := logical - threads
+	if reserve < 1 {
+		reserve = 1
+	}
+	high := SetEnginePriority(pid, true)
+	mask := MaxStrengthAffinityMask(logical, threads)
+	aff := SetEngineAffinityMask(pid, mask)
+	bound := fmt.Sprintf("引擎 %d 线程绑定到 %d 个逻辑核，留 %d 个给界面", threads, logical-reserve, reserve)
+	switch {
+	case high && aff:
+		return "引擎进程已设为「高于正常」优先级，" + bound
+	case high:
+		return "引擎进程已设为「高于正常」优先级（亲和性设置被系统拒绝）"
+	case aff:
+		return bound + "（优先级设置被系统拒绝）"
+	}
+	return "进程优先级/亲和性设置都被系统拒绝（可能需要管理员权限）"
+}

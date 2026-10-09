@@ -1,1 +1,265 @@
-IyB4cXdpbi5wczEg4oCU4oCUIOecn+Wunueql+WPo+WPluivgeW3peWFt++8iFByaW50V2luZG93ICsg55yf5a6e6byg5qCH54K55Ye777yJ77yM55So5LqOIHYxLjMuMSDpqozor4HjgIIKIwojIOS4uuS7gOS5iOW/hemhu+eUqOWug++8jOiAjOS4jeiDveeUqCBHREkgQ29weUZyb21TY3JlZW4gLyBDYW52YXMoKS5DYXB0dXJlKCnvvJoKIyAgICog5pys6L2v5Lu256qX5Y+j5pivIEdMRlczMCArIE9wZW5HTCDnoazku7bliqDpgJ/vvIzmma7pgJogQml0Qmx0IOaKk+S4jeWIsOWGheWuue+8jOWPquS8muaLjeWIsOahjOmdou+8mwojICAgICDlv4XpobvnlKggUHJpbnRXaW5kb3coaHduZCwgaGRjLCBQV19SRU5ERVJGVUxMQ09OVEVOVD0yKSDotbAgRFdNIOmHjeWumuWQkeihqOmdouOAggojICAgKiBDYW52YXMoKS5DYXB0dXJlKCkg5oyJIEZ5bmUg55CG5oOz54q25oCB5oiQ5YOP77yM57uV5byA55yf5a6eIEdMRlcg56qX5Y+j77yM5Lya5b6X5YiwIuWBh+mAmui/hyLjgIIKIyAgICog5pys6ISa5pys5omA5Zyo6L+b56iL6buY6K6k5pivIERQSSDkuI3mhJ/nn6XnmoTvvIzmiYDmnInnqpflj6PlnZDmoIfkvJrooqvns7vnu5/omZrmi5/ljJbvvIjDtzEuMjXvvInvvIwKIyAgICAg5Zug5q2k6ISa5pys56ys5LiA5Lu25LqL5bCx5pivIFNldFRocmVhZERwaUF3YXJlbmVzc0NvbnRleHQoUEVSX01PTklUT1JfQVdBUkVfVjIp77yMCiMgICAgIOiuqSBHZXRXaW5kb3dSZWN0IC8gQ2xpZW50VG9TY3JlZW4gLyBTZXRDdXJzb3JQb3Mg5YWo6YOo5bel5L2c5Zyo5ZCM5LiA5aWXKirniannkIblg4/ntKAqKuWdkOagh+ezu+mHjOOAggojCiMg55So5rOV77yaCiMgICBwd3NoIC1GaWxlIHhxd2luLnBzMSAtQWN0aW9uIGluZm8KIyAgIHB3c2ggLUZpbGUgeHF3aW4ucHMxIC1BY3Rpb24gc2hvdCAgLU91dCBzaG90LnBuZwojICAgcHdzaCAtRmlsZSB4cXdpbi5wczEgLUFjdGlvbiBjbGljayAtWCAzMDAgLVkgMjUwICAgICAgICAgICMg55u45a+55a6i5oi35Yy65bem5LiK6KeS77yI54mp55CG5YOP57Sg77yJCiMgICBwd3NoIC1GaWxlIHhxd2luLnBzMSAtQWN0aW9uIGRyYWcgIC1YIDcwMCAtWSA0MDAgLVgyIDUwMCAtWTIgNDAwCiMgICBwd3NoIC1GaWxlIHhxd2luLnBzMSAtQWN0aW9uIG1vdmUgIC1YIDMwMCAtWSAyNTAKcGFyYW0oCglbc3RyaW5nXSRBY3Rpb24gPSAnaW5mbycsCglbc3RyaW5nXSRPdXQgPSAnc2hvdC5wbmcnLAoJW2ludF0kWCA9IDAsCglbaW50XSRZID0gMCwKCVtpbnRdJFgyID0gMCwKCVtpbnRdJFkyID0gMCwKCVtzdHJpbmddJFByb2NOYW1lID0gJycsCglbaW50XSRJbmRleCA9IDAKKQoKQWRkLVR5cGUgLUFzc2VtYmx5TmFtZSBTeXN0ZW0uRHJhd2luZwoKQWRkLVR5cGUgQCIKdXNpbmcgU3lzdGVtOwp1c2luZyBTeXN0ZW0uUnVudGltZS5JbnRlcm9wU2VydmljZXM7CnVzaW5nIFN5c3RlbS5UZXh0OwoKcHVibGljIGNsYXNzIFhRVyB7CiAgICBbRGxsSW1wb3J0KCJ1c2VyMzIuZGxsIildIHB1YmxpYyBzdGF0aWMgZXh0ZXJuIEludFB0ciBTZXRUaHJlYWREcGlBd2FyZW5lc3NDb250ZXh0KEludFB0ciBjdHgpOwogICAgW0RsbEltcG9ydCgidXNlcjMyLmRsbCIpXSBwdWJsaWMgc3RhdGljIGV4dGVybiB1aW50IEdldERwaUZvcldpbmRvdyhJbnRQdHIgaFduZCk7CiAgICBbRGxsSW1wb3J0KCJ1c2VyMzIuZGxsIildIHB1YmxpYyBzdGF0aWMgZXh0ZXJuIGJvb2wgU2V0UHJvY2Vzc0RwaUF3YXJlbmVzc0NvbnRleHQoSW50UHRyIGN0eCk7CiAgICBbRGxsSW1wb3J0KCJ1c2VyMzIuZGxsIildIHB1YmxpYyBzdGF0aWMgZXh0ZXJuIGludCBHZXRTeXN0ZW1NZXRyaWNzKGludCBpKTsKCiAgICBbRGxsSW1wb3J0KCJ1c2VyMzIuZGxsIildIHB1YmxpYyBzdGF0aWMgZXh0ZXJuIGJvb2wgR2V0V2luZG93UmVjdChJbnRQdHIgaFduZCwgb3V0IFJFQ1Qgcik7CiAgICBbRGxsSW1wb3J0KCJ1c2VyMzIuZGxsIildIHB1YmxpYyBzdGF0aWMgZXh0ZXJuIGJvb2wgR2V0Q2xpZW50UmVjdChJbnRQdHIgaFduZCwgb3V0IFJFQ1Qgcik7CiAgICBbRGxsSW1wb3J0KCJ1c2VyMzIuZGxsIildIHB1YmxpYyBzdGF0aWMgZXh0ZXJuIGJvb2wgQ2xpZW50VG9TY3JlZW4oSW50UHRyIGhXbmQsIHJlZiBQT0lOVCBwKTsKICAgIFtEbGxJbXBvcnQoInVzZXIzMi5kbGwiKV0gcHVibGljIHN0YXRpYyBleHRlcm4gYm9vbCBTY3JlZW5Ub0NsaWVudChJbnRQdHIgaFduZCwgcmVmIFBPSU5UIHApOwogICAgW0RsbEltcG9ydCgidXNlcjMyLmRsbCIpXSBwdWJsaWMgc3RhdGljIGV4dGVybiBpbnQgR2V0V2luZG93VGV4dExlbmd0aChJbnRQdHIgaFduZCk7CiAgICBbRGxsSW1wb3J0KCJ1c2VyMzIuZGxsIiwgQ2hhclNldD1DaGFyU2V0LlVuaWNvZGUpXSBwdWJsaWMgc3RhdGljIGV4dGVybiBpbnQgR2V0V2luZG93VGV4dChJbnRQdHIgaFduZCwgU3RyaW5nQnVpbGRlciBzLCBpbnQgbik7CiAgICBbRGxsSW1wb3J0KCJ1c2VyMzIuZGxsIiwgQ2hhclNldD1DaGFyU2V0LlVuaWNvZGUpXSBwdWJsaWMgc3RhdGljIGV4dGVybiBpbnQgR2V0Q2xhc3NOYW1lKEludFB0ciBoV25kLCBTdHJpbmdCdWlsZGVyIHMsIGludCBuKTsKICAgIFtEbGxJbXBvcnQoInVzZXIzMi5kbGwiKV0gcHVibGljIHN0YXRpYyBleHRlcm4gYm9vbCBJc1dpbmRvd1Zpc2libGUoSW50UHRyIGhXbmQpOwogICAgW0RsbEltcG9ydCgidXNlcjMyLmRsbCIpXSBwdWJsaWMgc3RhdGljIGV4dGVybiBJbnRQdHIgR2V0Rm9yZWdyb3VuZFdpbmRvdygpOwogICAgW0RsbEltcG9ydCgidXNlcjMyLmRsbCIpXSBwdWJsaWMgc3RhdGljIGV4dGVybiBib29sIFNldEZvcmVncm91bmRXaW5kb3coSW50UHRyIGhXbmQpOwogICAgW0RsbEltcG9ydCgidXNlcjMyLmRsbCIpXSBwdWJsaWMgc3RhdGljIGV4dGVybiBib29sIFNldEN1cnNvclBvcyhpbnQgeCwgaW50IHkpOwogICAgW0RsbEltcG9ydCgidXNlcjMyLmRsbCIpXSBwdWJsaWMgc3RhdGljIGV4dGVybiBib29sIEdldEN1cnNvclBvcyhvdXQgUE9JTlQgcCk7CiAgICBbRGxsSW1wb3J0KCJ1c2VyMzIuZGxsIildIHB1YmxpYyBzdGF0aWMgZXh0ZXJuIHZvaWQgbW91c2VfZXZlbnQodWludCBmLCB1aW50IGR4LCB1aW50IGR5LCB1aW50IGQsIEludFB0ciBlKTsKICAgIFtEbGxJbXBvcnQoInVzZXIzMi5kbGwiKV0gcHVibGljIHN0YXRpYyBleHRlcm4gYm9vbCBQcmludFdpbmRvdyhJbnRQdHIgaFduZCwgSW50UHRyIGhkYywgdWludCBmbGFncyk7CiAgICBbRGxsSW1wb3J0KCJ1c2VyMzIuZGxsIildIHB1YmxpYyBzdGF0aWMgZXh0ZXJuIEludFB0ciBHZXRXaW5kb3dEQyhJbnRQdHIgaFduZCk7CiAgICBbRGxsSW1wb3J0KCJ1c2VyMzIuZGxsIildIHB1YmxpYyBzdGF0aWMgZXh0ZXJuIGludCBSZWxlYXNlREMoSW50UHRyIGhXbmQsIEludFB0ciBoZGMpOwogICAgW0RsbEltcG9ydCgidXNlcjMyLmRsbCIpXSBwdWJsaWMgc3RhdGljIGV4dGVybiBib29sIFNob3dXaW5kb3coSW50UHRyIGhXbmQsIGludCBjbWQpOwogICAgW0RsbEltcG9ydCgidXNlcjMyLmRsbCIpXSBwdWJsaWMgc3RhdGljIGV4dGVybiBib29sIElzSWNvbmljKEludFB0ciBoV25kKTsKICAgIFtEbGxJbXBvcnQoInVzZXIzMi5kbGwiKV0gcHVibGljIHN0YXRpYyBleHRlcm4gSW50UHRyIEdldFBhcmVudChJbnRQdHIgaFduZCk7CiAgICBbRGxsSW1wb3J0KCJ1c2VyMzIuZGxsIildIHB1YmxpYyBzdGF0aWMgZXh0ZXJuIGJvb2wgU2V0V2luZG93UG9zKEludFB0ciBoV25kLCBJbnRQdHIgYWZ0ZXIsIGludCB4LCBpbnQgeSwgaW50IGN4LCBpbnQgY3ksIHVpbnQgZmxhZ3MpOwogICAgW0RsbEltcG9ydCgidXNlcjMyLmRsbCIpXSBwdWJsaWMgc3RhdGljIGV4dGVybiB2b2lkIGtleWJkX2V2ZW50KGJ5dGUgdmssIGJ5dGUgc2NhbiwgdWludCBmbGFncywgSW50UHRyIGV4dHJhKTsKCiAgICBbU3RydWN0TGF5b3V0KExheW91dEtpbmQuU2VxdWVudGlhbCldIHB1YmxpYyBzdHJ1Y3QgUkVDVCB7IHB1YmxpYyBpbnQgTGVmdCwgVG9wLCBSaWdodCwgQm90dG9tOyB9CiAgICBbU3RydWN0TGF5b3V0KExheW91dEtpbmQuU2VxdWVudGlhbCldIHB1YmxpYyBzdHJ1Y3QgUE9JTlQgeyBwdWJsaWMgaW50IFgsIFk7IH0KCiAgICBwdWJsaWMgY29uc3QgdWludCBMRUZURE9XTiA9IDB4MDAwMjsKICAgIHB1YmxpYyBjb25zdCB1aW50IExFRlRVUCAgID0gMHgwMDA0OwogICAgcHVibGljIGNvbnN0IHVpbnQgTU9WRSAgICAgPSAweDAwMDE7CgogICAgcHVibGljIHN0YXRpYyBzdHJpbmcgVGV4dChJbnRQdHIgaCkgewogICAgICAgIGludCBuID0gR2V0V2luZG93VGV4dExlbmd0aChoKTsKICAgICAgICBTdHJpbmdCdWlsZGVyIHNiID0gbmV3IFN0cmluZ0J1aWxkZXIobiArIDIpOwogICAgICAgIEdldFdpbmRvd1RleHQoaCwgc2IsIHNiLkNhcGFjaXR5KTsKICAgICAgICByZXR1cm4gc2IuVG9TdHJpbmcoKTsKICAgIH0KICAgIHB1YmxpYyBzdGF0aWMgc3RyaW5nIENscyhJbnRQdHIgaCkgewogICAgICAgIFN0cmluZ0J1aWxkZXIgc2IgPSBuZXcgU3RyaW5nQnVpbGRlcigyNTYpOwogICAgICAgIEdldENsYXNzTmFtZShoLCBzYiwgc2IuQ2FwYWNpdHkpOwogICAgICAgIHJldHVybiBzYi5Ub1N0cmluZygpOwogICAgfQp9CiJACgojIC0tLS0g5YWz6ZSu56ys5LiA5q2l77ya5pys57q/56iL5YiH5YiwIFBlci1Nb25pdG9yIHYyIERQSSDmhJ/nn6XvvIzlnZDmoIflhajpg6jlj5jmiJDniannkIblg4/ntKAgLS0tLQpbdm9pZF1bWFFXXTo6U2V0VGhyZWFkRHBpQXdhcmVuZXNzQ29udGV4dChbSW50UHRyXSgtNCkpCgpmdW5jdGlvbiBHZXQtVGFyZ2V0V2luZG93IHsKCSMg57uf5LiA55SoIEVudW1XaW5kb3dzIOaemuS4vuWxj+W5leS4iuWFqOmDqOWPr+ingeeahCBHTEZXMzAg6aG25bGC56qX5Y+j77yM5oyJIC1JbmRleCDpgInmi6njgIIKCUFkZC1UeXBlIEAiCnVzaW5nIFN5c3RlbTt1c2luZyBTeXN0ZW0uUnVudGltZS5JbnRlcm9wU2VydmljZXM7dXNpbmcgU3lzdGVtLlRleHQ7dXNpbmcgU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWM7CnB1YmxpYyBjbGFzcyBYUUUgewogIFtEbGxJbXBvcnQoInVzZXIzMi5kbGwiKV0gc3RhdGljIGV4dGVybiBib29sIEVudW1XaW5kb3dzKEVudW1Qcm9jIGNiLCBJbnRQdHIgbCk7CiAgW0RsbEltcG9ydCgidXNlcjMyLmRsbCIpXSBzdGF0aWMgZXh0ZXJuIGJvb2wgSXNXaW5kb3dWaXNpYmxlKEludFB0ciBoKTsKICBbRGxsSW1wb3J0KCJ1c2VyMzIuZGxsIixDaGFyU2V0PUNoYXJTZXQuVW5pY29kZSldIHN0YXRpYyBleHRlcm4gaW50IEdldENsYXNzTmFtZShJbnRQdHIgaCwgU3RyaW5nQnVpbGRlciBzLCBpbnQgbik7CiAgW0RsbEltcG9ydCgidXNlcjMyLmRsbCIsQ2hhclNldD1DaGFyU2V0LlVuaWNvZGUpXSBzdGF0aWMgZXh0ZXJuIGludCBHZXRXaW5kb3dUZXh0KEludFB0ciBoLCBTdHJpbmdCdWlsZGVyIHMsIGludCBuKTsKICBkZWxlZ2F0ZSBib29sIEVudW1Qcm9jKEludFB0ciBoLCBJbnRQdHIgbCk7CiAgcHVibGljIHN0YXRpYyBMaXN0PEludFB0cj4gRmluZChzdHJpbmcgY2xzKSB7CiAgICBMaXN0PEludFB0cj4gciA9IG5ldyBMaXN0PEludFB0cj4oKTsKICAgIEVudW1XaW5kb3dzKChoLGwpID0+IHsgaWYgKElzV2luZG93VmlzaWJsZShoKSkgeyBTdHJpbmdCdWlsZGVyIHM9bmV3IFN0cmluZ0J1aWxkZXIoMjU2KTsgR2V0Q2xhc3NOYW1lKGgscywyNTYpOyBpZiAocy5Ub1N0cmluZygpPT1jbHMpIHIuQWRkKGgpO30gcmV0dXJuIHRydWU7IH0sIEludFB0ci5aZXJvKTsKICAgIHJldHVybiByOwogIH0KICBwdWJsaWMgc3RhdGljIHN0cmluZyBUaXRsZShJbnRQdHIgaCl7IFN0cmluZ0J1aWxkZXIgcz1uZXcgU3RyaW5nQnVpbGRlcig1MTIpOyBHZXRXaW5kb3dUZXh0KGgscyw1MTIpOyByZXR1cm4gcy5Ub1N0cmluZygpOyB9Cn0KIkAgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUKCSRjYW5kcyA9IEAoKQoJZm9yZWFjaCAoJGggaW4gW1hRRV06OkZpbmQoJ0dMRlczMCcpKSB7CgkJJGNhbmRzICs9IFtwc2N1c3RvbW9iamVjdF1AeyBId25kID0gJGg7IFByb2MgPSAneGlhbmdxaSc7IFRpdGxlID0gW1hRRV06OlRpdGxlKCRoKTsgQ2xzID0gJ0dMRlczMCcgfQoJfQoJaWYgKCRQcm9jTmFtZSAtbmUgJycpIHsKCQkkY2FuZHMgPSBAKCRjYW5kcyB8IFdoZXJlLU9iamVjdCB7IChHZXQtUHJvY2VzcyAtSWQgKEdldC1Qcm9jZXNzIC1OYW1lICRQcm9jTmFtZSAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZSB8IFNlbGVjdC1PYmplY3QgLUZpcnN0IDEpLklkIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlKSAtbmUgJG51bGwgfSkKCX0KCWlmICgkY2FuZHMuQ291bnQgLWVxIDApIHsgcmV0dXJuICRudWxsIH0KCXJldHVybiAkY2FuZHNbW01hdGhdOjpNaW4oJEluZGV4LCAkY2FuZHMuQ291bnQgLSAxKV0KfQoKZnVuY3Rpb24gTGlzdC1XaW5kb3dzIHsKCUFkZC1UeXBlIEAiCnVzaW5nIFN5c3RlbTt1c2luZyBTeXN0ZW0uUnVudGltZS5JbnRlcm9wU2VydmljZXM7dXNpbmcgU3lzdGVtLlRleHQ7dXNpbmcgU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWM7CnB1YmxpYyBjbGFzcyBYUUwgewogIFtEbGxJbXBvcnQoInVzZXIzMi5kbGwiKV0gc3RhdGljIGV4dGVybiBib29sIEVudW1XaW5kb3dzKEVudW1Qcm9jIGNiLCBJbnRQdHIgbCk7CiAgW0RsbEltcG9ydCgidXNlcjMyLmRsbCIpXSBzdGF0aWMgZXh0ZXJuIGJvb2wgSXNXaW5kb3dWaXNpYmxlKEludFB0ciBoKTsKICBbRGxsSW1wb3J0KCJ1c2VyMzIuZGxsIixDaGFyU2V0PUNoYXJTZXQuVW5pY29kZSldIHN0YXRpYyBleHRlcm4gaW50IEdldENsYXNzTmFtZShJbnRQdHIgaCwgU3RyaW5nQnVpbGRlciBzLCBpbnQgbik7CiAgW0RsbEltcG9ydCgidXNlcjMyLmRsbCIsQ2hhclNldD1DaGFyU2V0LlVuaWNvZGUpXSBzdGF0aWMgZXh0ZXJuIGludCBHZXRXaW5kb3dUZXh0KEludFB0ciBoLCBTdHJpbmdCdWlsZGVyIHMsIGludCBuKTsKICBkZWxlZ2F0ZSBib29sIEVudW1Qcm9jKEludFB0ciBoLCBJbnRQdHIgbCk7CiAgcHVibGljIHN0YXRpYyBMaXN0PHN0cmluZz4gQWxsKCkgewogICAgTGlzdDxzdHJpbmc+IHIgPSBuZXcgTGlzdDxzdHJpbmc+KCk7CiAgICBFbnVtV2luZG93cygoaCxsKSA9PiB7IGlmIChJc1dpbmRvd1Zpc2libGUoaCkpIHsgU3RyaW5nQnVpbGRlciBjPW5ldyBTdHJpbmdCdWlsZGVyKDI1Nik7IEdldENsYXNzTmFtZShoLGMsMjU2KTsgaWYgKGMuVG9TdHJpbmcoKT09IkdMRlczMCIpIHsgU3RyaW5nQnVpbGRlciBzPW5ldyBTdHJpbmdCdWlsZGVyKDUxMik7IEdldFdpbmRvd1RleHQoaCxzLDUxMik7IHIuQWRkKGguVG9JbnQ2NCgpKyJ8IitzLlRvU3RyaW5nKCkpOyB9IH0gcmV0dXJuIHRydWU7IH0sIEludFB0ci5aZXJvKTsKICAgIHJldHVybiByOwogIH0KfQoiQCAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZQoJW1hRTF06OkFsbCgpCn0KCmZ1bmN0aW9uIEdldC1HZW9tKCRod25kKSB7Cgkkd3IgPSBOZXctT2JqZWN0IFhRVytSRUNUOyBbdm9pZF1bWFFXXTo6R2V0V2luZG93UmVjdCgkaHduZCwgW3JlZl0kd3IpCgkkY3IgPSBOZXctT2JqZWN0IFhRVytSRUNUOyBbdm9pZF1bWFFXXTo6R2V0Q2xpZW50UmVjdCgkaHduZCwgW3JlZl0kY3IpCgkkcHQgPSBOZXctT2JqZWN0IFhRVytQT0lOVDsgJHB0LlggPSAwOyAkcHQuWSA9IDAKCVt2b2lkXVtYUVddOjpDbGllbnRUb1NjcmVlbigkaHduZCwgW3JlZl0kcHQpCglyZXR1cm4gW3BzY3VzdG9tb2JqZWN0XUB7CgkJV2luWCA9ICR3ci5MZWZ0OyBXaW5ZID0gJHdyLlRvcAoJCVdpblcgPSAkd3IuUmlnaHQgLSAkd3IuTGVmdDsgV2luSCA9ICR3ci5Cb3R0b20gLSAkd3IuVG9wCgkJQ2xpWCA9ICRwdC5YOyBDbGlZID0gJHB0LlkKCQlDbGlXID0gJGNyLlJpZ2h0IC0gJGNyLkxlZnQ7IENsaUggPSAkY3IuQm90dG9tIC0gJGNyLlRvcAoJCURwaSAgPSBbWFFXXTo6R2V0RHBpRm9yV2luZG93KCRod25kKQoJfQp9CgokdCA9IEdldC1UYXJnZXRXaW5kb3cKaWYgKC1ub3QgJHQpIHsgV3JpdGUtT3V0cHV0ICdFUlJPUjogbm8gR0xGVzMwIHdpbmRvdyBmb3VuZCc7IGV4aXQgMSB9CiRod25kID0gJHQuSHduZAoKaWYgKCRBY3Rpb24gLWVxICdsaXN0JykgewoJV3JpdGUtT3V0cHV0ICd2aXNpYmxlIEdMRlczMCB3aW5kb3dzIChod25kfHRpdGxlKTonCglMaXN0LVdpbmRvd3MgfCBGb3JFYWNoLU9iamVjdCB7IFdyaXRlLU91dHB1dCAiICAkXyIgfQoJZXhpdCAwCn0KCmlmICgkQWN0aW9uIC1lcSAnaW5mbycgLW9yICRBY3Rpb24gLWVxICdzaG90JyAtb3IgJEFjdGlvbiAtZXEgJ2NsaWNrJyAtb3IgJEFjdGlvbiAtZXEgJ2RyYWcnIC1vciAkQWN0aW9uIC1lcSAnbW92ZScpIHsKCSRnID0gR2V0LUdlb20gJGh3bmQKCVdyaXRlLU91dHB1dCAoIndpbmRvdyB0aXRsZSA6IHswfSIgLWYgJHQuVGl0bGUpCglXcml0ZS1PdXRwdXQgKCJjbGFzcyAgICAgICAgOiB7MH0iIC1mICR0LkNscykKCVdyaXRlLU91dHB1dCAoImh3bmQgICAgICAgICA6IHswfSIgLWYgJGh3bmQpCglXcml0ZS1PdXRwdXQgKCJkcGkvc2NhbGUgICAgOiB7MH0gLyB7MX0iIC1mICRnLkRwaSwgW21hdGhdOjpSb3VuZCgkZy5EcGkgLyA5Ni4wLCA0KSkKCVdyaXRlLU91dHB1dCAoIndpbmRvdyByZWN0ICA6IHg9ezB9IHk9ezF9IHc9ezJ9IGg9ezN9ICAgKHBoeXNpY2FsKSIgLWYgJGcuV2luWCwgJGcuV2luWSwgJGcuV2luVywgJGcuV2luSCkKCVdyaXRlLU91dHB1dCAoImNsaWVudCByZWN0ICA6IHg9ezB9IHk9ezF9IHc9ezJ9IGg9ezN9ICAgKHBoeXNpY2FsLCBzY3JlZW4gb3JpZ2luKSIgLWYgJGcuQ2xpWCwgJGcuQ2xpWSwgJGcuQ2xpVywgJGcuQ2xpSCkKCVdyaXRlLU91dHB1dCAoInRpdGxlYmFyIGggICA6IHswfSIgLWYgKCRnLkNsaVkgLSAkZy5XaW5ZKSkKfQoKc3dpdGNoICgkQWN0aW9uKSB7CgknaW5mbycgeyB9CgkncmVzaXplJyB7CgkJIyDnlKjnnJ/lrp4gV2luMzIg5pS55Y+Y56qX5Y+j5aSn5bCP77yI54mp55CG5YOP57Sg77yJ77yM5qih5ouf55So5oi35omL5Yqo5ouJ56qX5Y+jCgkJW3ZvaWRdW1hRV106OlNldFdpbmRvd1BvcygkaHduZCwgW0ludFB0cl06Olplcm8sICRYLCAkWSwgJFgyLCAkWTIsIDB4MDAwNCkKCQlTdGFydC1TbGVlcCAtTWlsbGlzZWNvbmRzIDE0MDAKCQkkZzIgPSBHZXQtR2VvbSAkaHduZAoJCVdyaXRlLU91dHB1dCAoInJlc2l6ZWQgICAgICA6IHdpbmRvdyByZWN0IHg9ezB9IHk9ezF9IHc9ezJ9IGg9ezN9IiAtZiAkZzIuV2luWCwgJGcyLldpblksICRnMi5XaW5XLCAkZzIuV2luSCkKCQlXcml0ZS1PdXRwdXQgKCJjbGllbnQgICAgICAgOiB4PXswfSB5PXsxfSB3PXsyfSBoPXszfSIgLWYgJGcyLkNsaVgsICRnMi5DbGlZLCAkZzIuQ2xpVywgJGcyLkNsaUgpCgl9Cgknc2hvdCcgewoJCSRibXAgPSBOZXctT2JqZWN0IFN5c3RlbS5EcmF3aW5nLkJpdG1hcCAkZy5XaW5XLCAkZy5XaW5ICgkJJGdmeCA9IFtTeXN0ZW0uRHJhd2luZy5HcmFwaGljc106OkZyb21JbWFnZSgkYm1wKQoJCSRoZGMgPSAkZ2Z4LkdldEhkYygpCgkJIyBQV19SRU5ERVJGVUxMQ09OVEVOVCA9IDIg4oCU4oCUIOaKkyBHTEZXL09wZW5HTCDnqpflj6PlhoXlrrnnmoTllK/kuIDlj6/ooYzmlrnlvI8KCQkkb2sgPSBbWFFXXTo6UHJpbnRXaW5kb3coJGh3bmQsICRoZGMsIDIpCgkJJGdmeC5SZWxlYXNlSGRjKCRoZGMpCgkJJGdmeC5EaXNwb3NlKCkKCQkkYm1wLlNhdmUoJE91dCwgW1N5c3RlbS5EcmF3aW5nLkltYWdpbmcuSW1hZ2VGb3JtYXRdOjpQbmcpCgkJJGJtcC5EaXNwb3NlKCkKCQlXcml0ZS1PdXRwdXQgKCJzaG90ICAgICAgICAgOiB7MH0gb2s9ezF9IiAtZiAkT3V0LCAkb2spCgl9Cgknd2hlZWwnIHsKCQkjICRYLCRZID0g5a6i5oi35Yy65Z2Q5qCH77yI5rua6L2u5L2N572u77yJ77yMJFkyID0g5rua5Yqo6YeP77yI5q2j5pWw5ZCR5LiKIC8g6LSf5pWw5ZCR5LiL77yJCgkJJHN4ID0gJGcuQ2xpWCArICRYOyAkc3kgPSAkZy5DbGlZICsgJFkKCQlbdm9pZF1bWFFXXTo6U2hvd1dpbmRvdygkaHduZCwgOSkKCQlmb3IgKCRpID0gMDsgJGkgLWx0IDY7ICRpKyspIHsKCQkJW3ZvaWRdW1hRV106OlNldEZvcmVncm91bmRXaW5kb3coJGh3bmQpOyBTdGFydC1TbGVlcCAtTWlsbGlzZWNvbmRzIDIyMAoJCQlpZiAoW1hRV106OkdldEZvcmVncm91bmRXaW5kb3coKSAtZXEgJGh3bmQpIHsgYnJlYWsgfQoJCQlbWFFXXTo6a2V5YmRfZXZlbnQoMHgxMiwgMCwgMCwgW0ludFB0cl06Olplcm8pOyBbWFFXXTo6a2V5YmRfZXZlbnQoMHgxMiwgMCwgMiwgW0ludFB0cl06Olplcm8pCgkJfQoJCVt2b2lkXVtYUVddOjpTZXRDdXJzb3JQb3MoJHN4LCAkc3kpOyBTdGFydC1TbGVlcCAtTWlsbGlzZWNvbmRzIDMwMAoJCSR0aWNrcyA9IFtpbnRdKCRZMiAvIDEyMCkKCQlmb3IgKCRrID0gMDsgJGsgLWx0IFtNYXRoXTo6QWJzKCR0aWNrcyk7ICRrKyspIHsKCQkJIyB0aWNrcyA8IDDvvIhZMiDkuLrotJ/vvIk9IOWQkeS4i+a7miA9IHdoZWVsIGRlbHRhIC0xMjAKCQkJJGRlbHRhID0gaWYgKCR0aWNrcyAtbHQgMCkgeyAtMTIwIH0gZWxzZSB7IDEyMCB9CgkJCSR1ID0gW3VpbnQzMl0oW2ludDY0XSRkZWx0YSAtYmFuZCAweEZGRkZGRkZGKQoJCQlbWFFXXTo6bW91c2VfZXZlbnQoMHgwODAwLCAwLCAwLCAkdSwgW0ludFB0cl06Olplcm8pCgkJCVN0YXJ0LVNsZWVwIC1NaWxsaXNlY29uZHMgOTAKCQl9CgkJU3RhcnQtU2xlZXAgLU1pbGxpc2Vjb25kcyA1MDAKCQlXcml0ZS1PdXRwdXQgKCJ3aGVlbCAgICAgICAgOiBhdCBjbGllbnQ9KHswfSx7MX0pIHRpY2tzPXsyfSIgLWYgJFgsICRZLCAkdGlja3MpCgl9CgknbW92ZScgewoJCSRzeCA9ICRnLkNsaVggKyAkWDsgJHN5ID0gJGcuQ2xpWSArICRZCgkJW3ZvaWRdW1hRV106OlNldEZvcmVncm91bmRXaW5kb3coJGh3bmQpOyBTdGFydC1TbGVlcCAtTWlsbGlzZWNvbmRzIDI1MAoJCVt2b2lkXVtYUVddOjpTZXRDdXJzb3JQb3MoJHN4LCAkc3kpOyBTdGFydC1TbGVlcCAtTWlsbGlzZWNvbmRzIDM1MAoJCSRjcCA9IE5ldy1PYmplY3QgWFFXK1BPSU5UOyBbdm9pZF1bWFFXXTo6R2V0Q3Vyc29yUG9zKFtyZWZdJGNwKQoJCVdyaXRlLU91dHB1dCAoIm1vdmUgICAgICAgICA6IGFza2VkIHNjcmVlbj0oezB9LHsxfSkgYWN0dWFsPSh7Mn0sezN9KSIgLWYgJHN4LCAkc3ksICRjcC5YLCAkY3AuWSkKCX0KCSdjbGljaycgewoJCSRzeCA9ICRnLkNsaVggKyAkWDsgJHN5ID0gJGcuQ2xpWSArICRZCgkJIyDlhYjnoa7kv53nqpflj6Plj6/op4Hlubbmj5DliLDliY3lj7DvvIhXaW5kb3dzIOS8mumZkOWItumdnuWJjeWPsOi/m+eoi+aKoueEpueCue+8jOaVhemHjeivleWHoOasoe+8iQoJCVt2b2lkXVtYUVddOjpTaG93V2luZG93KCRod25kLCA5KSAgIyBTV19SRVNUT1JFCgkJZm9yICgkaSA9IDA7ICRpIC1sdCA2OyAkaSsrKSB7CgkJCVt2b2lkXVtYUVddOjpTZXRGb3JlZ3JvdW5kV2luZG93KCRod25kKQoJCQlTdGFydC1TbGVlcCAtTWlsbGlzZWNvbmRzIDIyMAoJCQlpZiAoW1hRV106OkdldEZvcmVncm91bmRXaW5kb3coKSAtZXEgJGh3bmQpIHsgYnJlYWsgfQoJCQkjIOeUqOS4gOasoSBBbHQg6ZSu6L275pWy6Kej6Zmk5YmN5Y+w6ZSB5a6a77yM5YaN6K+VCgkJCVtYUVddOjprZXliZF9ldmVudCgweDEyLCAwLCAwLCBbSW50UHRyXTo6WmVybykKCQkJW1hRV106OmtleWJkX2V2ZW50KDB4MTIsIDAsIDIsIFtJbnRQdHJdOjpaZXJvKQoJCX0KCQkkZmcgPSBbWFFXXTo6R2V0Rm9yZWdyb3VuZFdpbmRvdygpCgkJU3RhcnQtU2xlZXAgLU1pbGxpc2Vjb25kcyAyMDAKCQlbdm9pZF1bWFFXXTo6U2V0Q3Vyc29yUG9zKCRzeCwgJHN5KTsgU3RhcnQtU2xlZXAgLU1pbGxpc2Vjb25kcyA0MDAKCQkkY3AgPSBOZXctT2JqZWN0IFhRVytQT0lOVDsgW3ZvaWRdW1hRV106OkdldEN1cnNvclBvcyhbcmVmXSRjcCkKCQlbdm9pZF1bWFFXXTo6U2V0Q3Vyc29yUG9zKCRzeCwgJHN5KTsgU3RhcnQtU2xlZXAgLU1pbGxpc2Vjb25kcyAyMDAKCQlbWFFXXTo6bW91c2VfZXZlbnQoW1hRV106Ok1PVkUsIDAsIDAsIDAsIFtJbnRQdHJdOjpaZXJvKQoJCVN0YXJ0LVNsZWVwIC1NaWxsaXNlY29uZHMgMTUwCgkJW1hRV106Om1vdXNlX2V2ZW50KFtYUVddOjpMRUZURE9XTiwgMCwgMCwgMCwgW0ludFB0cl06Olplcm8pCgkJU3RhcnQtU2xlZXAgLU1pbGxpc2Vjb25kcyAxMTAKCQlbWFFXXTo6bW91c2VfZXZlbnQoW1hRV106OkxFRlRVUCwgMCwgMCwgMCwgW0ludFB0cl06Olplcm8pCgkJU3RhcnQtU2xlZXAgLU1pbGxpc2Vjb25kcyA0NTAKCQlXcml0ZS1PdXRwdXQgKCJjbGljayAgICAgICAgOiBjbGllbnQ9KHswfSx7MX0pIHNjcmVlbj0oezJ9LHszfSkgY3Vyc29yPSh7NH0sezV9KSBmb3JlZ3JvdW5kPXs2fSB0YXJnZXQ9ezd9IGZnT0s9ezh9IiAtZiBgCgkJCSRYLCAkWSwgJHN4LCAkc3ksICRjcC5YLCAkY3AuWSwgJGZnLCAkaHduZCwgKCRmZyAtZXEgJGh3bmQpKQoJfQoJJ2RyYWcnIHsKCQkkc3ggPSAkZy5DbGlYICsgJFg7ICRzeSA9ICRnLkNsaVkgKyAkWQoJCSRleCA9ICRnLkNsaVggKyAkWDI7ICRleSA9ICRnLkNsaVkgKyAkWTIKCQlbdm9pZF1bWFFXXTo6U2V0Rm9yZWdyb3VuZFdpbmRvdygkaHduZCk7IFN0YXJ0LVNsZWVwIC1NaWxsaXNlY29uZHMgMzAwCgkJW3ZvaWRdW1hRV106OlNldEN1cnNvclBvcygkc3gsICRzeSk7IFN0YXJ0LVNsZWVwIC1NaWxsaXNlY29uZHMgMzAwCgkJW1hRV106Om1vdXNlX2V2ZW50KFtYUVddOjpMRUZURE9XTiwgMCwgMCwgMCwgW0ludFB0cl06Olplcm8pCgkJU3RhcnQtU2xlZXAgLU1pbGxpc2Vjb25kcyAyMDAKCQkkc3RlcHMgPSAxNgoJCWZvciAoJGkgPSAxOyAkaSAtbGUgJHN0ZXBzOyAkaSsrKSB7CgkJCSRpeCA9IFtpbnRdKCRzeCArICgkZXggLSAkc3gpICogJGkgLyAkc3RlcHMpCgkJCSRpeSA9IFtpbnRdKCRzeSArICgkZXkgLSAkc3kpICogJGkgLyAkc3RlcHMpCgkJCVt2b2lkXVtYUVddOjpTZXRDdXJzb3JQb3MoJGl4LCAkaXkpCgkJCVN0YXJ0LVNsZWVwIC1NaWxsaXNlY29uZHMgNDUKCQl9CgkJU3RhcnQtU2xlZXAgLU1pbGxpc2Vjb25kcyAyMDAKCQlbWFFXXTo6bW91c2VfZXZlbnQoW1hRV106OkxFRlRVUCwgMCwgMCwgMCwgW0ludFB0cl06Olplcm8pCgkJU3RhcnQtU2xlZXAgLU1pbGxpc2Vjb25kcyA1MDAKCQlXcml0ZS1PdXRwdXQgKCJkcmFnICAgICAgICAgOiBmcm9tIGNsaWVudD0oezB9LHsxfSkgdG8gY2xpZW50PSh7Mn0sezN9KSIgLWYgJFgsICRZLCAkWDIsICRZMikKCX0KfQo=
+# xqwin.ps1 —— 真实窗口取证工具（PrintWindow + 真实鼠标点击），用于 v1.3.1 验证。
+#
+# 为什么必须用它，而不能用 GDI CopyFromScreen / Canvas().Capture()：
+#   * 本软件窗口是 GLFW30 + OpenGL 硬件加速，普通 BitBlt 抓不到内容，只会拍到桌面；
+#     必须用 PrintWindow(hwnd, hdc, PW_RENDERFULLCONTENT=2) 走 DWM 重定向表面。
+#   * Canvas().Capture() 按 Fyne 理想状态成像，绕开真实 GLFW 窗口，会得到"假通过"。
+#   * 本脚本所在进程默认是 DPI 不感知的，所有窗口坐标会被系统虚拟化（÷1.25），
+#     因此脚本第一件事就是 SetThreadDpiAwarenessContext(PER_MONITOR_AWARE_V2)，
+#     让 GetWindowRect / ClientToScreen / SetCursorPos 全部工作在同一套**物理像素**坐标系里。
+#
+# 用法：
+#   pwsh -File xqwin.ps1 -Action info
+#   pwsh -File xqwin.ps1 -Action shot  -Out shot.png
+#   pwsh -File xqwin.ps1 -Action click -X 300 -Y 250          # 相对客户区左上角（物理像素）
+#   pwsh -File xqwin.ps1 -Action drag  -X 700 -Y 400 -X2 500 -Y2 400
+#   pwsh -File xqwin.ps1 -Action move  -X 300 -Y 250
+param(
+	[string]$Action = 'info',
+	[string]$Out = 'shot.png',
+	[int]$X = 0,
+	[int]$Y = 0,
+	[int]$X2 = 0,
+	[int]$Y2 = 0,
+	[string]$ProcName = '',
+	[int]$Index = 0
+)
+
+Add-Type -AssemblyName System.Drawing
+
+Add-Type @"
+using System;
+using System.Runtime.InteropServices;
+using System.Text;
+
+public class XQW {
+    [DllImport("user32.dll")] public static extern IntPtr SetThreadDpiAwarenessContext(IntPtr ctx);
+    [DllImport("user32.dll")] public static extern uint GetDpiForWindow(IntPtr hWnd);
+    [DllImport("user32.dll")] public static extern bool SetProcessDpiAwarenessContext(IntPtr ctx);
+    [DllImport("user32.dll")] public static extern int GetSystemMetrics(int i);
+
+    [DllImport("user32.dll")] public static extern bool GetWindowRect(IntPtr hWnd, out RECT r);
+    [DllImport("user32.dll")] public static extern bool GetClientRect(IntPtr hWnd, out RECT r);
+    [DllImport("user32.dll")] public static extern bool ClientToScreen(IntPtr hWnd, ref POINT p);
+    [DllImport("user32.dll")] public static extern bool ScreenToClient(IntPtr hWnd, ref POINT p);
+    [DllImport("user32.dll")] public static extern int GetWindowTextLength(IntPtr hWnd);
+    [DllImport("user32.dll", CharSet=CharSet.Unicode)] public static extern int GetWindowText(IntPtr hWnd, StringBuilder s, int n);
+    [DllImport("user32.dll", CharSet=CharSet.Unicode)] public static extern int GetClassName(IntPtr hWnd, StringBuilder s, int n);
+    [DllImport("user32.dll")] public static extern bool IsWindowVisible(IntPtr hWnd);
+    [DllImport("user32.dll")] public static extern IntPtr GetForegroundWindow();
+    [DllImport("user32.dll")] public static extern bool SetForegroundWindow(IntPtr hWnd);
+    [DllImport("user32.dll")] public static extern bool SetCursorPos(int x, int y);
+    [DllImport("user32.dll")] public static extern bool GetCursorPos(out POINT p);
+    [DllImport("user32.dll")] public static extern void mouse_event(uint f, uint dx, uint dy, uint d, IntPtr e);
+    [DllImport("user32.dll")] public static extern bool PrintWindow(IntPtr hWnd, IntPtr hdc, uint flags);
+    [DllImport("user32.dll")] public static extern IntPtr GetWindowDC(IntPtr hWnd);
+    [DllImport("user32.dll")] public static extern int ReleaseDC(IntPtr hWnd, IntPtr hdc);
+    [DllImport("user32.dll")] public static extern bool ShowWindow(IntPtr hWnd, int cmd);
+    [DllImport("user32.dll")] public static extern bool IsIconic(IntPtr hWnd);
+    [DllImport("user32.dll")] public static extern IntPtr GetParent(IntPtr hWnd);
+    [DllImport("user32.dll")] public static extern bool SetWindowPos(IntPtr hWnd, IntPtr after, int x, int y, int cx, int cy, uint flags);
+    [DllImport("user32.dll")] public static extern void keybd_event(byte vk, byte scan, uint flags, IntPtr extra);
+
+    [StructLayout(LayoutKind.Sequential)] public struct RECT { public int Left, Top, Right, Bottom; }
+    [StructLayout(LayoutKind.Sequential)] public struct POINT { public int X, Y; }
+
+    public const uint LEFTDOWN = 0x0002;
+    public const uint LEFTUP   = 0x0004;
+    public const uint MOVE     = 0x0001;
+
+    public static string Text(IntPtr h) {
+        int n = GetWindowTextLength(h);
+        StringBuilder sb = new StringBuilder(n + 2);
+        GetWindowText(h, sb, sb.Capacity);
+        return sb.ToString();
+    }
+    public static string Cls(IntPtr h) {
+        StringBuilder sb = new StringBuilder(256);
+        GetClassName(h, sb, sb.Capacity);
+        return sb.ToString();
+    }
+}
+"@
+
+# ---- 关键第一步：本线程切到 Per-Monitor v2 DPI 感知，坐标全部变成物理像素 ----
+[void][XQW]::SetThreadDpiAwarenessContext([IntPtr](-4))
+
+function Get-TargetWindow {
+	# 统一用 EnumWindows 枚举屏幕上全部可见的 GLFW30 顶层窗口，按 -Index 选择。
+	Add-Type @"
+using System;using System.Runtime.InteropServices;using System.Text;using System.Collections.Generic;
+public class XQE {
+  [DllImport("user32.dll")] static extern bool EnumWindows(EnumProc cb, IntPtr l);
+  [DllImport("user32.dll")] static extern bool IsWindowVisible(IntPtr h);
+  [DllImport("user32.dll",CharSet=CharSet.Unicode)] static extern int GetClassName(IntPtr h, StringBuilder s, int n);
+  [DllImport("user32.dll",CharSet=CharSet.Unicode)] static extern int GetWindowText(IntPtr h, StringBuilder s, int n);
+  delegate bool EnumProc(IntPtr h, IntPtr l);
+  public static List<IntPtr> Find(string cls) {
+    List<IntPtr> r = new List<IntPtr>();
+    EnumWindows((h,l) => { if (IsWindowVisible(h)) { StringBuilder s=new StringBuilder(256); GetClassName(h,s,256); if (s.ToString()==cls) r.Add(h);} return true; }, IntPtr.Zero);
+    return r;
+  }
+  public static string Title(IntPtr h){ StringBuilder s=new StringBuilder(512); GetWindowText(h,s,512); return s.ToString(); }
+}
+"@ -ErrorAction SilentlyContinue
+	$cands = @()
+	foreach ($h in [XQE]::Find('GLFW30')) {
+		$cands += [pscustomobject]@{ Hwnd = $h; Proc = 'xiangqi'; Title = [XQE]::Title($h); Cls = 'GLFW30' }
+	}
+	if ($ProcName -ne '') {
+		$cands = @($cands | Where-Object { (Get-Process -Id (Get-Process -Name $ProcName -ErrorAction SilentlyContinue | Select-Object -First 1).Id -ErrorAction SilentlyContinue) -ne $null })
+	}
+	if ($cands.Count -eq 0) { return $null }
+	return $cands[[Math]::Min($Index, $cands.Count - 1)]
+}
+
+function List-Windows {
+	Add-Type @"
+using System;using System.Runtime.InteropServices;using System.Text;using System.Collections.Generic;
+public class XQL {
+  [DllImport("user32.dll")] static extern bool EnumWindows(EnumProc cb, IntPtr l);
+  [DllImport("user32.dll")] static extern bool IsWindowVisible(IntPtr h);
+  [DllImport("user32.dll",CharSet=CharSet.Unicode)] static extern int GetClassName(IntPtr h, StringBuilder s, int n);
+  [DllImport("user32.dll",CharSet=CharSet.Unicode)] static extern int GetWindowText(IntPtr h, StringBuilder s, int n);
+  delegate bool EnumProc(IntPtr h, IntPtr l);
+  public static List<string> All() {
+    List<string> r = new List<string>();
+    EnumWindows((h,l) => { if (IsWindowVisible(h)) { StringBuilder c=new StringBuilder(256); GetClassName(h,c,256); if (c.ToString()=="GLFW30") { StringBuilder s=new StringBuilder(512); GetWindowText(h,s,512); r.Add(h.ToInt64()+"|"+s.ToString()); } } return true; }, IntPtr.Zero);
+    return r;
+  }
+}
+"@ -ErrorAction SilentlyContinue
+	[XQL]::All()
+}
+
+function Get-Geom($hwnd) {
+	$wr = New-Object XQW+RECT; [void][XQW]::GetWindowRect($hwnd, [ref]$wr)
+	$cr = New-Object XQW+RECT; [void][XQW]::GetClientRect($hwnd, [ref]$cr)
+	$pt = New-Object XQW+POINT; $pt.X = 0; $pt.Y = 0
+	[void][XQW]::ClientToScreen($hwnd, [ref]$pt)
+	return [pscustomobject]@{
+		WinX = $wr.Left; WinY = $wr.Top
+		WinW = $wr.Right - $wr.Left; WinH = $wr.Bottom - $wr.Top
+		CliX = $pt.X; CliY = $pt.Y
+		CliW = $cr.Right - $cr.Left; CliH = $cr.Bottom - $cr.Top
+		Dpi  = [XQW]::GetDpiForWindow($hwnd)
+	}
+}
+
+$t = Get-TargetWindow
+if (-not $t) { Write-Output 'ERROR: no GLFW30 window found'; exit 1 }
+$hwnd = $t.Hwnd
+
+if ($Action -eq 'list') {
+	Write-Output 'visible GLFW30 windows (hwnd|title):'
+	List-Windows | ForEach-Object { Write-Output "  $_" }
+	exit 0
+}
+
+if ($Action -eq 'info' -or $Action -eq 'shot' -or $Action -eq 'click' -or $Action -eq 'drag' -or $Action -eq 'move') {
+	$g = Get-Geom $hwnd
+	Write-Output ("window title : {0}" -f $t.Title)
+	Write-Output ("class        : {0}" -f $t.Cls)
+	Write-Output ("hwnd         : {0}" -f $hwnd)
+	Write-Output ("dpi/scale    : {0} / {1}" -f $g.Dpi, [math]::Round($g.Dpi / 96.0, 4))
+	Write-Output ("window rect  : x={0} y={1} w={2} h={3}   (physical)" -f $g.WinX, $g.WinY, $g.WinW, $g.WinH)
+	Write-Output ("client rect  : x={0} y={1} w={2} h={3}   (physical, screen origin)" -f $g.CliX, $g.CliY, $g.CliW, $g.CliH)
+	Write-Output ("titlebar h   : {0}" -f ($g.CliY - $g.WinY))
+}
+
+switch ($Action) {
+	'info' { }
+	'resize' {
+		# 用真实 Win32 改变窗口大小（物理像素），模拟用户手动拉窗口
+		[void][XQW]::SetWindowPos($hwnd, [IntPtr]::Zero, $X, $Y, $X2, $Y2, 0x0004)
+		Start-Sleep -Milliseconds 1400
+		$g2 = Get-Geom $hwnd
+		Write-Output ("resized      : window rect x={0} y={1} w={2} h={3}" -f $g2.WinX, $g2.WinY, $g2.WinW, $g2.WinH)
+		Write-Output ("client       : x={0} y={1} w={2} h={3}" -f $g2.CliX, $g2.CliY, $g2.CliW, $g2.CliH)
+	}
+	'shot' {
+		$bmp = New-Object System.Drawing.Bitmap $g.WinW, $g.WinH
+		$gfx = [System.Drawing.Graphics]::FromImage($bmp)
+		$hdc = $gfx.GetHdc()
+		# PW_RENDERFULLCONTENT = 2 —— 抓 GLFW/OpenGL 窗口内容的唯一可行方式
+		$ok = [XQW]::PrintWindow($hwnd, $hdc, 2)
+		$gfx.ReleaseHdc($hdc)
+		$gfx.Dispose()
+		$bmp.Save($Out, [System.Drawing.Imaging.ImageFormat]::Png)
+		$bmp.Dispose()
+		Write-Output ("shot         : {0} ok={1}" -f $Out, $ok)
+	}
+	'wheel' {
+		# $X,$Y = 客户区坐标（滚轮位置），$Y2 = 滚动量（正数向上 / 负数向下）
+		$sx = $g.CliX + $X; $sy = $g.CliY + $Y
+		[void][XQW]::ShowWindow($hwnd, 9)
+		for ($i = 0; $i -lt 6; $i++) {
+			[void][XQW]::SetForegroundWindow($hwnd); Start-Sleep -Milliseconds 220
+			if ([XQW]::GetForegroundWindow() -eq $hwnd) { break }
+			[XQW]::keybd_event(0x12, 0, 0, [IntPtr]::Zero); [XQW]::keybd_event(0x12, 0, 2, [IntPtr]::Zero)
+		}
+		[void][XQW]::SetCursorPos($sx, $sy); Start-Sleep -Milliseconds 300
+		$ticks = [int]($Y2 / 120)
+		for ($k = 0; $k -lt [Math]::Abs($ticks); $k++) {
+			# ticks < 0（Y2 为负）= 向下滚 = wheel delta -120
+			$delta = if ($ticks -lt 0) { -120 } else { 120 }
+			$u = [uint32]([int64]$delta -band 0xFFFFFFFF)
+			[XQW]::mouse_event(0x0800, 0, 0, $u, [IntPtr]::Zero)
+			Start-Sleep -Milliseconds 90
+		}
+		Start-Sleep -Milliseconds 500
+		Write-Output ("wheel        : at client=({0},{1}) ticks={2}" -f $X, $Y, $ticks)
+	}
+	'move' {
+		$sx = $g.CliX + $X; $sy = $g.CliY + $Y
+		[void][XQW]::SetForegroundWindow($hwnd); Start-Sleep -Milliseconds 250
+		[void][XQW]::SetCursorPos($sx, $sy); Start-Sleep -Milliseconds 350
+		$cp = New-Object XQW+POINT; [void][XQW]::GetCursorPos([ref]$cp)
+		Write-Output ("move         : asked screen=({0},{1}) actual=({2},{3})" -f $sx, $sy, $cp.X, $cp.Y)
+	}
+	'click' {
+		$sx = $g.CliX + $X; $sy = $g.CliY + $Y
+		# 先确保窗口可见并提到前台（Windows 会限制非前台进程抢焦点，故重试几次）
+		[void][XQW]::ShowWindow($hwnd, 9)  # SW_RESTORE
+		for ($i = 0; $i -lt 6; $i++) {
+			[void][XQW]::SetForegroundWindow($hwnd)
+			Start-Sleep -Milliseconds 220
+			if ([XQW]::GetForegroundWindow() -eq $hwnd) { break }
+			# 用一次 Alt 键轻敲解除前台锁定，再试
+			[XQW]::keybd_event(0x12, 0, 0, [IntPtr]::Zero)
+			[XQW]::keybd_event(0x12, 0, 2, [IntPtr]::Zero)
+		}
+		$fg = [XQW]::GetForegroundWindow()
+		Start-Sleep -Milliseconds 200
+		[void][XQW]::SetCursorPos($sx, $sy); Start-Sleep -Milliseconds 400
+		$cp = New-Object XQW+POINT; [void][XQW]::GetCursorPos([ref]$cp)
+		[void][XQW]::SetCursorPos($sx, $sy); Start-Sleep -Milliseconds 200
+		[XQW]::mouse_event([XQW]::MOVE, 0, 0, 0, [IntPtr]::Zero)
+		Start-Sleep -Milliseconds 150
+		[XQW]::mouse_event([XQW]::LEFTDOWN, 0, 0, 0, [IntPtr]::Zero)
+		Start-Sleep -Milliseconds 110
+		[XQW]::mouse_event([XQW]::LEFTUP, 0, 0, 0, [IntPtr]::Zero)
+		Start-Sleep -Milliseconds 450
+		Write-Output ("click        : client=({0},{1}) screen=({2},{3}) cursor=({4},{5}) foreground={6} target={7} fgOK={8}" -f `
+			$X, $Y, $sx, $sy, $cp.X, $cp.Y, $fg, $hwnd, ($fg -eq $hwnd))
+	}
+	'drag' {
+		$sx = $g.CliX + $X; $sy = $g.CliY + $Y
+		$ex = $g.CliX + $X2; $ey = $g.CliY + $Y2
+		[void][XQW]::SetForegroundWindow($hwnd); Start-Sleep -Milliseconds 300
+		[void][XQW]::SetCursorPos($sx, $sy); Start-Sleep -Milliseconds 300
+		[XQW]::mouse_event([XQW]::LEFTDOWN, 0, 0, 0, [IntPtr]::Zero)
+		Start-Sleep -Milliseconds 200
+		$steps = 16
+		for ($i = 1; $i -le $steps; $i++) {
+			$ix = [int]($sx + ($ex - $sx) * $i / $steps)
+			$iy = [int]($sy + ($ey - $sy) * $i / $steps)
+			[void][XQW]::SetCursorPos($ix, $iy)
+			Start-Sleep -Milliseconds 45
+		}
+		Start-Sleep -Milliseconds 200
+		[XQW]::mouse_event([XQW]::LEFTUP, 0, 0, 0, [IntPtr]::Zero)
+		Start-Sleep -Milliseconds 500
+		Write-Output ("drag         : from client=({0},{1}) to client=({2},{3})" -f $X, $Y, $X2, $Y2)
+	}
+}

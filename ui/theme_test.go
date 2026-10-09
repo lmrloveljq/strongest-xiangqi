@@ -1,1 +1,129 @@
-cGFja2FnZSB1aQoKaW1wb3J0ICgKCSJpbWFnZS9jb2xvciIKCSJ0ZXN0aW5nIgoKCSJmeW5lLmlvL2Z5bmUvdjIvdGhlbWUiCikKCi8vIOearuiCpO+8iOS4u+mimO+8ieebuOWFs+eahOWbnuW9kua1i+ivleOAggovLwovLyDkuLrku4DkuYjov5nkupvlv4XpobvmmK/mtYvor5XvvJoKLy8gICAtIOaNouiCpOiJsuacgOWuueaYkyLnnIvnnYDov5jooYzjgIHlhbblrp7nnIvkuI3muIUi4oCU4oCU5a+55q+U5bqm5b+F6aG755Sx5pat6KiA5a6I5L2P77yM6ICM5LiN5piv6Z2g6IKJ55y877ybCi8vICAgLSDmjaLogqTlv4XpobvmmK8qKuaVtOS9kyoq55Sf5pWI77yI6LCD6Imy5p2/ICsg5qOL55uY55qu6IKkICsg5qCH6aKY5qCP5Y+W5ZCR5LiA6LW35o2i77yJ77yM5ryP5LiA5Y2K55qE6KGo546w5pivCi8vICAgICAi5oyJ6ZKu5Y+Y5LqG44CB5qOL55uY6L+Y5piv5pen6YWN6ImyIu+8jOi/meenjeWNiuaIquaNouiCpOWPquacieaWreiogOiDveaLpuS9j++8mwovLyAgIC0g5bqV57q55b+F6aG75LiN6YCP5piO5LiU56Gu5a6a5oCnIOKAlOKAlCDliY3ogIXpmLIi6Zyy5Ye656qX5Y+j6buR5bqVIu+8jOWQjuiAhemYsumHjee7mOmXqueDgeOAggoKLy8gVGVzdFRoZW1lUGFsZXR0ZXNNZWV0Q29udHJhc3Qg5Lik5aWX55qu6IKk6YO96KaB6L+H5ZCM5LiA5aWXIFdDQUcg6Zeo5qeb44CCCi8vCi8vIOmXqOanm+ayv+eUqCBhMTF5X3Rlc3QuZ28g55qE5pei5pyJ5qCH5YeG77ya5q2j5paHL+asoeimgeaWh+Wtl+WvueWNoeeJh+W6lSDiiaU3OjHvvIhBQUHvvInvvIwKLy8g5Li76ImyL+mUmeivry/miJDlip8v6K2m5ZGKIOKJpTQuNTox77yIQUHvvInjgILmraTlpJYqKuaWh+Wtl+Wvuemdouadv+W6leS4juiPnOWNleagj+W6leiJsuS5n+imgSDiiaU0LjU6MSoqIOKAlOKAlAovLyDoj5zljZXmoI/mmK/mnIDlrrnmmJPlh7rpl67popjnmoTlnLDmlrnvvIjnlKjmiLflrp7mtYvnmoQi6I+c5Y2V5qCP5LiA5p2h6buRIuWwseaYr+Wug++8ieOAggpmdW5jIFRlc3RUaGVtZVBhbGV0dGVzTWVldENvbnRyYXN0KHQgKnRlc3RpbmcuVCkgewoJZm9yIF8sIG5hbWUgOj0gcmFuZ2UgVGhlbWVOYW1lc09yZGVyZWQoKSB7CgkJcCA6PSBBY3RpdmVUaGVtZShuYW1lKS5QYWxldHRlKCkKCQljYXNlcyA6PSBbXXN0cnVjdCB7CgkJCXdoYXQgc3RyaW5nCgkJCWZnICAgY29sb3IuQ29sb3IKCQkJYmcgICBjb2xvci5Db2xvcgoJCQl3YW50IGZsb2F0NjQKCQl9ewoJCQl7Iuato+aWhy/ljaHniYciLCBwLmZvcmUsIHAuY2FyZEJHLCA3LjB9LAoJCQl7IuasoeimgeaWh+Wtly/ljaHniYciLCBwLmZvcmVEaW0sIHAuY2FyZEJHLCA3LjB9LAoJCQl7IuS4u+iJsi/ljaHniYciLCBwLnByaW1hcnksIHAuY2FyZEJHLCA0LjV9LAoJCQl7IumUmeivry/ljaHniYciLCBwLmVyciwgcC5jYXJkQkcsIDQuNX0sCgkJCXsi5oiQ5YqfL+WNoeeJhyIsIHAub2ssIHAuY2FyZEJHLCA0LjV9LAoJCQl7IuitpuWRii/ljaHniYciLCBwLndhcm4sIHAuY2FyZEJHLCA0LjV9LAoJCQl7Iuato+aWhy/pnaLmnb8iLCBwLmZvcmUsIHAucGFuZWxCRywgNC41fSwKCQkJeyLmrKHopoHmloflrZcv6Z2i5p2/IiwgcC5mb3JlRGltLCBwLnBhbmVsQkcsIDQuNX0sCgkJCXsi5q2j5paHL+iPnOWNleagj+W6leiJsiIsIHAuZm9yZSwgcC53aW5kb3dCRywgNC41fSwKCQkJeyLmrKHopoHmloflrZcv6I+c5Y2V5qCP5bqV6ImyIiwgcC5mb3JlRGltLCBwLndpbmRvd0JHLCA0LjV9LAoJCQl7IuS4u+aMiemSruaWh+Wtly/kuLvoibIiLCBwLnByaW1hcnlGZywgcC5wcmltYXJ5LCA0LjV9LAoJCX0KCQlmb3IgXywgYyA6PSByYW5nZSBjYXNlcyB7CgkJCWlmIGdvdCA6PSBjb250cmFzdFJhdGlvKGMuZmcsIGMuYmcpOyBnb3QgPCBjLndhbnQgewoJCQkJdC5FcnJvcmYoIuearuiCpCAlcyDnmoTjgIwlc+OAjeWvueavlOW6piAlLjJmOjEgPCAlLjFmOjEg4oCU4oCUIOS4jeWQiOagvOeahOWPluiJsuS4jeiDvei/m+S4u+mimCIsCgkJCQkJbmFtZSwgYy53aGF0LCBnb3QsIGMud2FudCkKCQkJfQoJCX0KCX0KfQoKLy8gVGVzdFNldEFjdGl2ZVRoZW1lU3dhcHNFdmVyeXRoaW5nIOaNouiCpOW/hemhu+aVtOS9k+eUn+aViOOAggpmdW5jIFRlc3RTZXRBY3RpdmVUaGVtZVN3YXBzRXZlcnl0aGluZyh0ICp0ZXN0aW5nLlQpIHsKCWRlZmVyIFNldEFjdGl2ZVRoZW1lKFRoZW1lQ2xhc3NpYykgLy8g5oGi5aSN6buY6K6k77yM6YG/5YWN5rGh5p+T5ZCM5YyF5YW25a6D5rWL6K+VCgoJY2xhc3NpY0ZvcmUsIGNsYXNzaWNQbGF0ZSA6PSBjb2xGb3JlLCBjdXJyZW50U2tpbigpLlBsYXRlCglpZiBwIDo9IFNldEFjdGl2ZVRoZW1lKFRoZW1lSW5rR29sZCk7IHAuTmFtZSgpICE9IFRoZW1lSW5rR29sZCB7CgkJdC5GYXRhbGYoIlNldEFjdGl2ZVRoZW1lKCVzKSDov5Tlm57kuoYgJXEiLCBUaGVtZUlua0dvbGQsIHAuTmFtZSgpKQoJfQoJaWYgY29sRm9yZSA9PSBjbGFzc2ljRm9yZSB7CgkJdC5GYXRhbCgi5o2i6IKk5ZCO5q2j5paH6aKc6Imy5rKh5Y+Y77ya6LCD6Imy5p2/5rKh5pyJ5YaZ5Zue5YyF57qn5Y+Y6YeP77yI55WM6Z2i5Luj56CB6K+755qE5bCx5piv6L+Z5Lqb5Y+Y6YeP77yJIikKCX0KCWlmIGN1cnJlbnRTa2luKCkuUGxhdGUgPT0gY2xhc3NpY1BsYXRlIHsKCQl0LkZhdGFsKCLmjaLogqTlkI7mo4vnm5jlupXmnb/msqHlj5jvvJrmo4vnm5jnmq7ogqTmsqHot5/nnYDmjaLvvIjkvJrlj5jmiJDljYrmiKrmjaLogqTvvIkiKQoJfQoJaWYgIWN1cnJlbnRUaGVtZUlzRGFyaygpIHsKCQl0LkZhdGFsKCLloqjnjonph5HooqvliKTlrprmiJDmtYXoibLnmq7ogqTvvJrns7vnu5/moIfpopjmoI/kuI3kvJrliIfmiJDmt7HoibIiKQoJfQoJLy8g5Li76aKY5a+56LGh5pys6Lqr5Lmf6KaB6IO95Y+W5Yiw5paw6aKc6Imy77yI5o6n5Lu26YeN57uY6LWw6L+Z5p2h6Lev5b6E77yJ77yM6ICM5LiU6I+c5Y2V5qCP5bqV6Imy5b+F6aG75LiN6YCP5piOCgl0aCA6PSBBY3RpdmVUaGVtZShUaGVtZUlua0dvbGQpLlRoZW1lKCkKCW1iIDo9IHRoLkNvbG9yKHRoZW1lLkNvbG9yTmFtZUJhY2tncm91bmQsIHRoZW1lLlZhcmlhbnREYXJrKQoJaWYgbWIgPT0gbmlsIHsKCQl0LkZhdGFsKCLkuLvpopjnmoQgQ29sb3IoQ29sb3JOYW1lQmFja2dyb3VuZCkg6L+U5ZueIG5pbCIpCgl9CglpZiBfLCBfLCBfLCBhIDo9IG1iLlJHQkEoKTsgYSA9PSAwIHsKCQl0LkZhdGFsKCLoj5zljZXmoI/lupXoibLmmK/lhajpgI/mmI7nmoTvvJroj5zljZXmoI/kvJrnlLvlnKjnqpflj6PmuIXlsY/oibLkuIrvvIjnlKjmiLflrp7mtYvnmoTjgI7oj5zljZXmoI/kuIDmnaHpu5HjgI/vvIkiKQoJfQoKCVNldEFjdGl2ZVRoZW1lKFRoZW1lQ2xhc3NpYykKCWlmIGNvbEZvcmUgIT0gY2xhc3NpY0ZvcmUgfHwgY3VycmVudFNraW4oKS5QbGF0ZSAhPSBjbGFzc2ljUGxhdGUgewoJCXQuRmF0YWwoIuWIh+Wbnue7j+WFuOearuiCpOWQjuminOiJsuayoeaciei/mOWOnyIpCgl9CglpZiBjdXJyZW50VGhlbWVJc0RhcmsoKSB7CgkJdC5GYXRhbCgi57uP5YW455qu6IKk6KKr5Yik5a6a5oiQ5rex6ImyIikKCX0KfQoKLy8gVGVzdEJhY2tncm91bmRUZXh0dXJlSXNPcGFxdWVBbmREZXRlcm1pbmlzdGljIOW6lee6ueW/hemhu+a7oeS4jemAj+aYjuOAgeWQjOS4gOWdkOagh+awuOi/nOWQjOiJsuOAgQovLyDkuJTlm5vlkajmr5TkuK3lv4PmmpfvvIgi5oqK6KeG57q/5pS25Yiw5qOL55uY5LiKIueahOaViOaenO+8ieOAggpmdW5jIFRlc3RCYWNrZ3JvdW5kVGV4dHVyZUlzT3BhcXVlQW5kRGV0ZXJtaW5pc3RpYyh0ICp0ZXN0aW5nLlQpIHsKCWRlZmVyIFNldEFjdGl2ZVRoZW1lKFRoZW1lQ2xhc3NpYykKCVNldEFjdGl2ZVRoZW1lKFRoZW1lSW5rR29sZCkKCXB4IDo9IGJhY2tncm91bmRQaXhlbChjdXJyZW50QmFja2dyb3VuZCgpKQoKCWEsIGIgOj0gcHgoMTAsIDIwLCA0MDAsIDMwMCksIHB4KDEwLCAyMCwgNDAwLCAzMDApCglpZiBhICE9IGIgewoJCXQuRmF0YWxmKCLlkIzkuIDlnZDmoIfkuKTmrKHlj5boibLkuI3lkIzvvIgldiB2cyAldu+8ie+8muW6lee6ueS8mumaj+mHjee7mOmXqueDgSIsIGEsIGIpCgl9CglpZiBfLCBfLCBfLCBhbCA6PSBhLlJHQkEoKTsgYWwgIT0gMHhGRkZGIHsKCQl0LkZhdGFsZigi5bqV57q55YOP57SgIGFscGhhID0gJWTvvIzlupTlvZPlrozlhajkuI3pgI/mmI7vvIjlkKbliJnkvJrpnLLlh7rnqpflj6PmuIXlsY/pu5HvvIkiLCBhbCkKCX0KCWNlbnRlciA6PSBweCgyMDAsIDE1MCwgNDAwLCAzMDApCgljb3JuZXIgOj0gcHgoMiwgMiwgNDAwLCAzMDApCgljbCwgXywgXywgXyA6PSBjZW50ZXIuUkdCQSgpCglrbCwgXywgXywgXyA6PSBjb3JuZXIuUkdCQSgpCglpZiBrbCA+IGNsIHsKCQl0LkZhdGFsZigi6KeS6JC95q+U5Lit5b+D5Lqu77yIJWQgPiAlZO+8ie+8muWbm+WRqOWOi+aal+ayoeeUn+aViCIsIGtsLCBjbCkKCX0KfQoKLy8gVGVzdFRoZW1lUmVnaXN0cnlIYXNCb3RoU2tpbnMg55qu6IKk6KGo5b+F6aG75ZCM5pe25pyJ57uP5YW45LiO5aKo546J6YeR77yM5LiU5ZCN5a2X5LiOIGNvbmZpZyDluLjph4/kuIDoh7TjgIIKZnVuYyBUZXN0VGhlbWVSZWdpc3RyeUhhc0JvdGhTa2lucyh0ICp0ZXN0aW5nLlQpIHsKCWZvciBfLCB3YW50IDo9IHJhbmdlIFtdc3RyaW5ne1RoZW1lQ2xhc3NpYywgVGhlbWVJbmtHb2xkfSB7CgkJaWYgXywgb2sgOj0gdGhlbWVSZWdpc3RyeVt3YW50XTsgIW9rIHsKCQkJdC5GYXRhbGYoIuearuiCpOihqOmHjOayoeaciSAlce+8iOiuvue9ruiPnOWNlemHjOS8muWwkeS4gOmhue+8jGNvbmZpZyDph4zlhpnkuobkuZ/kvJrooqvlm57pgIDvvIkiLCB3YW50KQoJCX0KCQlpZiBBY3RpdmVUaGVtZSh3YW50KS5OYW1lKCkgIT0gd2FudCB7CgkJCXQuRmF0YWxmKCJBY3RpdmVUaGVtZSglcSkg5ou/5Yiw55qE5LiN5piv6Ieq5bexIiwgd2FudCkKCQl9CgkJaWYgVGhlbWVMYWJlbCh3YW50KSA9PSAiIiB7CgkJCXQuRmF0YWxmKCLnmq7ogqQgJXEg5rKh5pyJ5Lit5paH5ZCN77yI6I+c5Y2V6YeM5Lya5pi+56S66Iux5paHIGlk77yJIiwgd2FudCkKCQl9Cgl9CgkvLyDmnKrnn6XlkI3lrZflv4Xpobvlm57pgIDliLDnu4/lhbjmiqTnnLzvvIzogIzkuI3mmK/ov5Tlm54gbmls77yI5Y6G5Y+y6YWN572u6YeM5Y+v6IO95YaZ552A5bey57uP5Yig5o6J55qE55qu6IKk5ZCN77yJCglpZiBBY3RpdmVUaGVtZSgi5aSp55+l6YGTIikuTmFtZSgpICE9IFRoZW1lQ2xhc3NpYyB7CgkJdC5GYXRhbCgi5pyq55+l55qu6IKk5ZCN5rKh5pyJ5Zue6YCA5Yiw57uP5YW45oqk55y8IikKCX0KfQo=
+package ui
+
+import (
+	"image/color"
+	"testing"
+
+	"fyne.io/fyne/v2/theme"
+)
+
+// 皮肤（主题）相关的回归测试。
+//
+// 为什么这些必须是测试：
+//   - 换肤色最容易"看着还行、其实看不清"——对比度必须由断言守住，而不是靠肉眼；
+//   - 换肤必须是**整体**生效（调色板 + 棋盘皮肤 + 标题栏取向一起换），漏一半的表现是
+//     "按钮变了、棋盘还是旧配色"，这种半截换肤只有断言能拦住；
+//   - 底纹必须不透明且确定性 —— 前者防"露出窗口黑底"，后者防重绘闪烁。
+
+// TestThemePalettesMeetContrast 两套皮肤都要过同一套 WCAG 门槛。
+//
+// 门槛沿用 a11y_test.go 的既有标准：正文/次要文字对卡片底 ≥7:1（AAA），
+// 主色/错误/成功/警告 ≥4.5:1（AA）。此外**文字对面板底与菜单栏底色也要 ≥4.5:1** ——
+// 菜单栏是最容易出问题的地方（用户实测的"菜单栏一条黑"就是它）。
+func TestThemePalettesMeetContrast(t *testing.T) {
+	for _, name := range ThemeNamesOrdered() {
+		p := ActiveTheme(name).Palette()
+		cases := []struct {
+			what string
+			fg   color.Color
+			bg   color.Color
+			want float64
+		}{
+			{"正文/卡片", p.fore, p.cardBG, 7.0},
+			{"次要文字/卡片", p.foreDim, p.cardBG, 7.0},
+			{"主色/卡片", p.primary, p.cardBG, 4.5},
+			{"错误/卡片", p.err, p.cardBG, 4.5},
+			{"成功/卡片", p.ok, p.cardBG, 4.5},
+			{"警告/卡片", p.warn, p.cardBG, 4.5},
+			{"正文/面板", p.fore, p.panelBG, 4.5},
+			{"次要文字/面板", p.foreDim, p.panelBG, 4.5},
+			{"正文/菜单栏底色", p.fore, p.windowBG, 4.5},
+			{"次要文字/菜单栏底色", p.foreDim, p.windowBG, 4.5},
+			{"主按钮文字/主色", p.primaryFg, p.primary, 4.5},
+		}
+		for _, c := range cases {
+			if got := contrastRatio(c.fg, c.bg); got < c.want {
+				t.Errorf("皮肤 %s 的「%s」对比度 %.2f:1 < %.1f:1 —— 不合格的取色不能进主题",
+					name, c.what, got, c.want)
+			}
+		}
+	}
+}
+
+// TestSetActiveThemeSwapsEverything 换肤必须整体生效。
+func TestSetActiveThemeSwapsEverything(t *testing.T) {
+	defer SetActiveTheme(ThemeClassic) // 恢复默认，避免污染同包其它测试
+
+	classicFore, classicPlate := colFore, currentSkin().Plate
+	if p := SetActiveTheme(ThemeInkGold); p.Name() != ThemeInkGold {
+		t.Fatalf("SetActiveTheme(%s) 返回了 %q", ThemeInkGold, p.Name())
+	}
+	if colFore == classicFore {
+		t.Fatal("换肤后正文颜色没变：调色板没有写回包级变量（界面代码读的就是这些变量）")
+	}
+	if currentSkin().Plate == classicPlate {
+		t.Fatal("换肤后棋盘底板没变：棋盘皮肤没跟着换（会变成半截换肤）")
+	}
+	if !currentThemeIsDark() {
+		t.Fatal("墨玉金被判定成浅色皮肤：系统标题栏不会切成深色")
+	}
+	// 主题对象本身也要能取到新颜色（控件重绘走这条路径），而且菜单栏底色必须不透明
+	th := ActiveTheme(ThemeInkGold).Theme()
+	mb := th.Color(theme.ColorNameBackground, theme.VariantDark)
+	if mb == nil {
+		t.Fatal("主题的 Color(ColorNameBackground) 返回 nil")
+	}
+	if _, _, _, a := mb.RGBA(); a == 0 {
+		t.Fatal("菜单栏底色是全透明的：菜单栏会画在窗口清屏色上（用户实测的『菜单栏一条黑』）")
+	}
+
+	SetActiveTheme(ThemeClassic)
+	if colFore != classicFore || currentSkin().Plate != classicPlate {
+		t.Fatal("切回经典皮肤后颜色没有还原")
+	}
+	if currentThemeIsDark() {
+		t.Fatal("经典皮肤被判定成深色")
+	}
+}
+
+// TestBackgroundTextureIsOpaqueAndDeterministic 底纹必须满不透明、同一坐标永远同色、
+// 且四周比中心暗（"把视线收到棋盘上"的效果）。
+func TestBackgroundTextureIsOpaqueAndDeterministic(t *testing.T) {
+	defer SetActiveTheme(ThemeClassic)
+	SetActiveTheme(ThemeInkGold)
+	px := backgroundPixel(currentBackground())
+
+	a, b := px(10, 20, 400, 300), px(10, 20, 400, 300)
+	if a != b {
+		t.Fatalf("同一坐标两次取色不同（%v vs %v）：底纹会随重绘闪烁", a, b)
+	}
+	if _, _, _, al := a.RGBA(); al != 0xFFFF {
+		t.Fatalf("底纹像素 alpha = %d，应当完全不透明（否则会露出窗口清屏黑）", al)
+	}
+	center := px(200, 150, 400, 300)
+	corner := px(2, 2, 400, 300)
+	cl, _, _, _ := center.RGBA()
+	kl, _, _, _ := corner.RGBA()
+	if kl > cl {
+		t.Fatalf("角落比中心亮（%d > %d）：四周压暗没生效", kl, cl)
+	}
+}
+
+// TestThemeRegistryHasBothSkins 皮肤表必须同时有经典与墨玉金，且名字与 config 常量一致。
+func TestThemeRegistryHasBothSkins(t *testing.T) {
+	for _, want := range []string{ThemeClassic, ThemeInkGold} {
+		if _, ok := themeRegistry[want]; !ok {
+			t.Fatalf("皮肤表里没有 %q（设置菜单里会少一项，config 里写了也会被回退）", want)
+		}
+		if ActiveTheme(want).Name() != want {
+			t.Fatalf("ActiveTheme(%q) 拿到的不是自己", want)
+		}
+		if ThemeLabel(want) == "" {
+			t.Fatalf("皮肤 %q 没有中文名（菜单里会显示英文 id）", want)
+		}
+	}
+	// 未知名字必须回退到经典护眼，而不是返回 nil（历史配置里可能写着已经删掉的皮肤名）
+	if ActiveTheme("天知道").Name() != ThemeClassic {
+		t.Fatal("未知皮肤名没有回退到经典护眼")
+	}
+}

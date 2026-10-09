@@ -1,1 +1,132 @@
-Ly8gUGFja2FnZSBhbmFseXRpY3Mg5o+Q5L6b44CM5byV5pOO5YiG5YC8IOKGkiDog5znjofjgI3kuI7jgIzlpJrlgJnpgInliIblgLwg4oaSIOamgueOh+WIhuW4g+OAjeeahOaNoueul+OAggovLwovLyA9PT09PT09PT09PT09PT09PT09PT09IOiDnOeOh+WFrOW8j+WPiuWFtui/keS8vOaApyA9PT09PT09PT09PT09PT09PT09PT09Ci8vCi8vIOS4reWbveixoeaji+ayoeacieWbvemZheixoeaji+mCo+agt+eahOWumOaWuSBXREzvvIjog5wv5ZKML+i0n++8iee7n+iuoeaooeWei++8jOS5n+ayoeacieWFrOiupOeahAovLyDjgIzljpjlhbUg4oaSIOiDnOeOh+OAjeagh+WumuihqOOAguacrOWMhemHh+eUqOS4juWbvemZheixoeaji+W8leaTjuekvuWMuumAmuihjOWBmuazleS4gOiHtOeahAovLyDpgLvovpHmlq/okoLvvIhsb2dpc3RpY++8iei/keS8vOaooeWei++8mgovLwovLwl3aW5yYXRlKGNwKSA9IDUwICsgNTAgKiAoIDIvKDErZXhwKC1LKmNwKSkgLSAxICkKLy8JICAgICAgICAgICAgPSAxMDAgLyAoMSArIGV4cCgtSypjcCkpICAgICAgICAgICAgICAgIO+8iOS4pOW8j+aBkuetie+8iQovLwovLwnlhbbkuK0gSyA9IDAuMDAzNjgyMDjvvIxjcCDkuLrlvJXmk47ovpPlh7rnmoTliIblgLzvvIjljZXkvY3jgIzljpjlhbXjgI3vvIwxIOWFtSA9IDEwMCDljpjlhbXvvInjgIIKLy8J6K+lIEsg5YC85p2l6Ieq5Zu96ZmF6LGh5qOL5byV5pOO55qE5bi46KeB5qCH5a6a77yI562J5Lu35LqO5q+PIDEwMCDljpjlhbXnuqYgKzkuNiUg6IOc546H77yJ77yMCi8vCeixoeaji+WtkOWKm+S7t+WAvOWIhuW4g+S4juWbveixoeS4jeWQjO+8jOWboOatpO+8mgovLwovLwkgICog6K+l6IOc546H5pivKirov5HkvLzlj4LogIPlgLwqKu+8jOS4jeaYr+e7n+iuoeWtpuaEj+S5ieS4iueahOecn+WunuiDnOeOh++8mwovLwkgICogY3AgPSAwIOaXtuS4uiA1MCXvvIxjcCDihpIgK+KIniDml7botovov5EgMTAwJe+8jGNwIOKGkiAt4oieIOaXtui2i+i/kSAwJe+8jOWNleiwg+S4lOWvueensO+8mwovLwkgICog5bCG5q2777yIc2NvcmUgbWF0ZSBO77yJ55u05o6l5Y+WIDEwMCUgLyAwJe+8jOS4jee7j+i/h+ivpeWFrOW8j+OAggovLwovLyA9PT09PT09PT09PT09PT09PT09PT09IOWAmemAieamgueOh++8iOa4qeW6piBzb2Z0bWF477yJID09PT09PT09PT09PT09PT09PT09PT0KLy8KLy8JcF9pID0gZXhwKHNfaSAvIFQpIC8gzqNfaiBleHAoc19qIC8gVCkKLy8KLy8Jc19pIOS4uuesrCBpIOadoeWAmemAieeahOWIhuWAvO+8jFQg5Li644CM5rip5bqm44CN5Y+C5pWw77yI6buY6K6kIDEyMO+8jOWPr+iwgyA0MH4zMDDvvInjgIIKLy8JVCDotorlpKfliIbluIPotorlubPlnabvvIjlkITlgJnpgInmpoLnjofmjqXov5HvvInvvIxUIOi2iuWwj+WIhuW4g+i2iuWwlumUkO+8iOacgOS8mOedgOazleamgueOh+i2iuWkp++8ieOAggovLwnkuLrkv53or4HmlbDlgLznqLPlrprvvIzlrp7njrDkuK3lhYjlh4/ljrvmnIDlpKfliIblgLzvvJpleHAoKHNfaSAtIHNfbWF4KS9UKe+8jOe7k+aenOS4jeWPmOOAggpwYWNrYWdlIGFuYWx5dGljcwoKaW1wb3J0ICJtYXRoIgoKLy8gV2luUmF0ZUsg5piv6IOc546H5YWs5byP5Lit55qE5bi45pWwIEvjgIIKY29uc3QgV2luUmF0ZUsgPSAwLjAwMzY4MjA4CgovLyBNYXRlU2NvcmVWYWx1ZSDmmK/miorjgIzlsIbmrbvliIblgLzjgI3mipjnrpfmiJDljpjlhbXml7bkvb/nlKjnmoTph4/nuqfjgIIKLy8g5Y+WIDIwMDAwMCDku6Xkv53or4HlnKjku7vmhI/muKnluqbkuIvlsIbmrbvlgJnpgInnmoTmpoLnjofpg73otovov5EgMTAwJeOAggpjb25zdCBNYXRlU2NvcmVWYWx1ZSA9IDIwMDAwMC4wCgovLyBTY29yZSDooajnpLrlvJXmk47nu5nlh7rnmoTkuIDkuKrliIblgLzjgIIKdHlwZSBTY29yZSBzdHJ1Y3QgewoJTWF0ZSAgYm9vbCAvLyDmmK/lkKbkuLrlsIbmrbvliIblgLwKCU4gICAgIGludCAgLy8g5bCG5q275q2l5pWw77yaPjAg6KGo56S644CM5pys5pa5IE4g5q2l5YaF5bCG5q275a+55pa544CN77yMPDAg6KGo56S644CM6KKr5a+55pa55bCG5q2744CNCglDUCAgICBpbnQgIC8vIOWOmOWFteWIhuWAvO+8iE1hdGUg5Li6IHRydWUg5pe26K+l5a2X5q615peg5oSP5LmJ77yJCglWYWxpZCBib29sIC8vIOaYr+WQpuW3suaUtuWIsOi/h+WIhuWAvAp9CgovLyBWYWx1ZSDmiorliIblgLzmipjnrpfkuLrnlKjkuo4gc29mdG1heCDnmoTov57nu63mlbDlgLzjgIIKZnVuYyAocyBTY29yZSkgVmFsdWUoKSBmbG9hdDY0IHsKCWlmIHMuTWF0ZSB7CgkJc2lnbiA6PSAxLjAKCQlpZiBzLk4gPCAwIHsKCQkJc2lnbiA9IC0xLjAKCQl9CgkJLy8g5q2l5pWw6LaK5bCR5YiG5YC86LaK5aSn77yM5L+d6K+B44CM5pu05b+r5bCG5q2744CN5o6S5Zyo5YmN6Z2iCgkJcmV0dXJuIHNpZ24gKiAoTWF0ZVNjb3JlVmFsdWUgLSBmbG9hdDY0KGFic0ludChzLk4pKSoxMDApCgl9CglyZXR1cm4gZmxvYXQ2NChzLkNQKQp9CgovLyBXaW5SYXRlIOeUseOAjOafkOaWueinhuinkueahOWOmOWFteWIhuWAvOOAjeS8sOeul+ivpeaWueiDnOeOh++8iDB+MTAw77yJ44CCCmZ1bmMgV2luUmF0ZShjcCBmbG9hdDY0KSBmbG9hdDY0IHsKCXJldHVybiAxMDAuMCAvICgxLjAgKyBtYXRoLkV4cCgtV2luUmF0ZUsqY3ApKQp9CgovLyBXaW5SYXRlU2NvcmUg55SxIFNjb3JlIOS8sOeul+OAjOivpeWIhuWAvOaJgOWxnuS4gOaWueOAjeeahOiDnOeOh+OAggpmdW5jIFdpblJhdGVTY29yZShzIFNjb3JlKSBmbG9hdDY0IHsKCWlmIHMuTWF0ZSB7CgkJaWYgcy5OID4gMCB7CgkJCXJldHVybiAxMDAKCQl9CgkJaWYgcy5OIDwgMCB7CgkJCXJldHVybiAwCgkJfQoJCXJldHVybiA1MAoJfQoJcmV0dXJuIFdpblJhdGUoZmxvYXQ2NChzLkNQKSkKfQoKLy8gUmVkV2luUmF0ZSDmiorjgIzotbDlrZDmlrnop4bop5LjgI3nmoTliIblgLzmjaLnrpfmiJDnuqLmlrnog5znjofjgIIKLy8KLy8gVUNJL1VDQ0kg55qEIHNjb3JlIOWdh+S7pSoq6LWw5a2Q5pa5KirkuLrln7rlh4bvvIzmlYXpu5HmlrnotbDlrZDml7bpnIDopoHlj5botJ/lj7fjgIIKZnVuYyBSZWRXaW5SYXRlKHMgU2NvcmUsIHNpZGVUb01vdmUgaW50KSBmbG9hdDY0IHsKCS8vIHNpZGVUb01vdmU6IHJ1bGVzLlJlZCA9IDAsIHJ1bGVzLkJsYWNrID0gMQoJaWYgc2lkZVRvTW92ZSA9PSAwIHsKCQlyZXR1cm4gV2luUmF0ZVNjb3JlKHMpCgl9CgluZWcgOj0gU2NvcmV7VmFsaWQ6IHMuVmFsaWQsIENQOiAtcy5DUH0KCWlmIHMuTWF0ZSB7CgkJbmVnLk1hdGUgPSB0cnVlCgkJbmVnLk4gPSAtcy5OCgl9CglyZXR1cm4gV2luUmF0ZVNjb3JlKG5lZykKfQoKLy8gU29mdG1heCDmiorlgJnpgInliIblgLzmjInmuKnluqYgVCDovazmiJDmpoLnjofvvIjnmb7liIbmr5TvvIzmgLvlkozkuLogMTAw77yJ44CCCi8vCi8vIOi/lOWbnueahOWIh+eJh+S4jui+k+WFpeetiemVv++8m+iLpei+k+WFpeS4uuepuuaIliBUIDw9IDDvvIzov5Tlm57lhajpm7bjgIIKZnVuYyBTb2Z0bWF4KHNjb3JlcyBbXWZsb2F0NjQsIHRlbXAgZmxvYXQ2NCkgW11mbG9hdDY0IHsKCW4gOj0gbGVuKHNjb3JlcykKCW91dCA6PSBtYWtlKFtdZmxvYXQ2NCwgbikKCWlmIG4gPT0gMCB7CgkJcmV0dXJuIG91dAoJfQoJaWYgdGVtcCA8PSAwIHsKCQl0ZW1wID0gMTIwCgl9CgltYXhTIDo9IHNjb3Jlc1swXQoJZm9yIF8sIHMgOj0gcmFuZ2Ugc2NvcmVzIHsKCQlpZiBzID4gbWF4UyB7CgkJCW1heFMgPSBzCgkJfQoJfQoJc3VtIDo9IDAuMAoJZm9yIGksIHMgOj0gcmFuZ2Ugc2NvcmVzIHsKCQl2IDo9IG1hdGguRXhwKChzIC0gbWF4UykgLyB0ZW1wKQoJCW91dFtpXSA9IHYKCQlzdW0gKz0gdgoJfQoJaWYgc3VtIDw9IDAgewoJCXJldHVybiBvdXQKCX0KCWZvciBpIDo9IHJhbmdlIG91dCB7CgkJb3V0W2ldID0gb3V0W2ldIC8gc3VtICogMTAwLjAKCX0KCXJldHVybiBvdXQKfQoKZnVuYyBhYnNJbnQoeCBpbnQpIGludCB7CglpZiB4IDwgMCB7CgkJcmV0dXJuIC14Cgl9CglyZXR1cm4geAp9Cg==
+// Package analytics 提供「引擎分值 → 胜率」与「多候选分值 → 概率分布」的换算。
+//
+// ====================== 胜率公式及其近似性 ======================
+//
+// 中国象棋没有国际象棋那样的官方 WDL（胜/和/负）统计模型，也没有公认的
+// 「厘兵 → 胜率」标定表。本包采用与国际象棋引擎社区通行做法一致的
+// 逻辑斯蒂（logistic）近似模型：
+//
+//	winrate(cp) = 50 + 50 * ( 2/(1+exp(-K*cp)) - 1 )
+//	            = 100 / (1 + exp(-K*cp))                （两式恒等）
+//
+//	其中 K = 0.00368208，cp 为引擎输出的分值（单位「厘兵」，1 兵 = 100 厘兵）。
+//	该 K 值来自国际象棋引擎的常见标定（等价于每 100 厘兵约 +9.6% 胜率），
+//	象棋子力价值分布与国象不同，因此：
+//
+//	  * 该胜率是**近似参考值**，不是统计学意义上的真实胜率；
+//	  * cp = 0 时为 50%，cp → +∞ 时趋近 100%，cp → -∞ 时趋近 0%，单调且对称；
+//	  * 将死（score mate N）直接取 100% / 0%，不经过该公式。
+//
+// ====================== 候选概率（温度 softmax） ======================
+//
+//	p_i = exp(s_i / T) / Σ_j exp(s_j / T)
+//
+//	s_i 为第 i 条候选的分值，T 为「温度」参数（默认 120，可调 40~300）。
+//	T 越大分布越平坦（各候选概率接近），T 越小分布越尖锐（最优着法概率越大）。
+//	为保证数值稳定，实现中先减去最大分值：exp((s_i - s_max)/T)，结果不变。
+package analytics
+
+import "math"
+
+// WinRateK 是胜率公式中的常数 K。
+const WinRateK = 0.00368208
+
+// MateScoreValue 是把「将死分值」折算成厘兵时使用的量级。
+// 取 200000 以保证在任意温度下将死候选的概率都趋近 100%。
+const MateScoreValue = 200000.0
+
+// Score 表示引擎给出的一个分值。
+type Score struct {
+	Mate  bool // 是否为将死分值
+	N     int  // 将死步数：>0 表示「本方 N 步内将死对方」，<0 表示「被对方将死」
+	CP    int  // 厘兵分值（Mate 为 true 时该字段无意义）
+	Valid bool // 是否已收到过分值
+}
+
+// Value 把分值折算为用于 softmax 的连续数值。
+func (s Score) Value() float64 {
+	if s.Mate {
+		sign := 1.0
+		if s.N < 0 {
+			sign = -1.0
+		}
+		// 步数越少分值越大，保证「更快将死」排在前面
+		return sign * (MateScoreValue - float64(absInt(s.N))*100)
+	}
+	return float64(s.CP)
+}
+
+// WinRate 由「某方视角的厘兵分值」估算该方胜率（0~100）。
+func WinRate(cp float64) float64 {
+	return 100.0 / (1.0 + math.Exp(-WinRateK*cp))
+}
+
+// WinRateScore 由 Score 估算「该分值所属一方」的胜率。
+func WinRateScore(s Score) float64 {
+	if s.Mate {
+		if s.N > 0 {
+			return 100
+		}
+		if s.N < 0 {
+			return 0
+		}
+		return 50
+	}
+	return WinRate(float64(s.CP))
+}
+
+// RedWinRate 把「走子方视角」的分值换算成红方胜率。
+//
+// UCI/UCCI 的 score 均以**走子方**为基准，故黑方走子时需要取负号。
+func RedWinRate(s Score, sideToMove int) float64 {
+	// sideToMove: rules.Red = 0, rules.Black = 1
+	if sideToMove == 0 {
+		return WinRateScore(s)
+	}
+	neg := Score{Valid: s.Valid, CP: -s.CP}
+	if s.Mate {
+		neg.Mate = true
+		neg.N = -s.N
+	}
+	return WinRateScore(neg)
+}
+
+// Softmax 把候选分值按温度 T 转成概率（百分比，总和为 100）。
+//
+// 返回的切片与输入等长；若输入为空或 T <= 0，返回全零。
+func Softmax(scores []float64, temp float64) []float64 {
+	n := len(scores)
+	out := make([]float64, n)
+	if n == 0 {
+		return out
+	}
+	if temp <= 0 {
+		temp = 120
+	}
+	maxS := scores[0]
+	for _, s := range scores {
+		if s > maxS {
+			maxS = s
+		}
+	}
+	sum := 0.0
+	for i, s := range scores {
+		v := math.Exp((s - maxS) / temp)
+		out[i] = v
+		sum += v
+	}
+	if sum <= 0 {
+		return out
+	}
+	for i := range out {
+		out[i] = out[i] / sum * 100.0
+	}
+	return out
+}
+
+func absInt(x int) int {
+	if x < 0 {
+		return -x
+	}
+	return x
+}

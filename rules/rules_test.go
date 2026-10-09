@@ -1,1 +1,375 @@
-cGFja2FnZSBydWxlcwoKaW1wb3J0ICJ0ZXN0aW5nIgoKLy8gcGVyZnQg57uf6K6h5LuO5b2T5YmN5bGA6Z2i5Ye65Y+R44CB6LWwIGRlcHRoIOWxgueahOWujOWFqOWQiOazleedgOazleaAu+aVsOOAggpmdW5jIHBlcmZ0KGIgKkJvYXJkLCBkZXB0aCBpbnQpIGludCB7CglpZiBkZXB0aCA9PSAwIHsKCQlyZXR1cm4gMQoJfQoJbW92ZXMgOj0gYi5MZWdhbE1vdmVzKCkKCWlmIGRlcHRoID09IDEgewoJCXJldHVybiBsZW4obW92ZXMpCgl9CgluIDo9IDAKCWZvciBfLCBtIDo9IHJhbmdlIG1vdmVzIHsKCQljYXAgOj0gYi5BcHBseShtKQoJCW4gKz0gcGVyZnQoYiwgZGVwdGgtMSkKCQliLlJldmVydChtLCBjYXApCgl9CglyZXR1cm4gbgp9CgovLyBUZXN0UGVyZnRTdGFydHBvcyDnlKjlm73pmYXpgJrooYznmoTkuK3lm73osaHmo4sgcGVyZnQg5Y+C6ICD5YC85qCh6aqM6LWw5rOV55Sf5oiQ5Zmo44CCCi8vCi8vIOWPguiAg+WAvO+8iOWIneWni+WxgOmdou+8ie+8mgovLwovLwnmt7HluqYgMSA9IDQ0ICAgICAgICDmt7HluqYgMiA9IDE5MjAgICAgICAgIOa3seW6piAzID0gNzk2NjYgICAgICAgIOa3seW6piA0ID0gMzI5MDI0MAovLwovLyDlj6ropoHov5nlm5vkuKrmlbDlrZflrozlhajkuIDoh7TvvIzlsLHlj6/ku6Xnoa7kv6HotbDms5XnlJ/miJDjgIHouanpqazohb/jgIHloZ7osaHnnLzjgIHngq7pmpTlrZDjgIEKLy8g5YW16L+H5rKz44CB5Lmd5a6r6ZmQ5Yi244CB5bCG5biF54Wn6Z2i5LiO6Ieq5bCG5qOA5p+l5YWo6YOo5a6e546w5q2j56Gu44CCCmZ1bmMgVGVzdFBlcmZ0U3RhcnRwb3ModCAqdGVzdGluZy5UKSB7CgljYXNlcyA6PSBbXXN0cnVjdCB7CgkJZGVwdGggaW50CgkJd2FudCAgaW50Cgl9ewoJCXsxLCA0NH0sCgkJezIsIDE5MjB9LAoJCXszLCA3OTY2Nn0sCgkJezQsIDMyOTAyNDB9LAoJfQoJZm9yIF8sIGMgOj0gcmFuZ2UgY2FzZXMgewoJCWIgOj0gTmV3U3RhcnRCb2FyZCgpCgkJZ290IDo9IHBlcmZ0KGIsIGMuZGVwdGgpCgkJaWYgZ290ICE9IGMud2FudCB7CgkJCXQuRXJyb3JmKCJwZXJmdCglZCkgPSAlZO+8jOacn+acmyAlZCIsIGMuZGVwdGgsIGdvdCwgYy53YW50KQoJCX0KCX0KfQoKZnVuYyBUZXN0U3RhcnRGRU5Sb3VuZFRyaXAodCAqdGVzdGluZy5UKSB7CgliIDo9IE5ld1N0YXJ0Qm9hcmQoKQoJZmVuIDo9IGIuRkVOKCkKCWlmIGZlbiAhPSBTdGFydEZFTiB7CgkJdC5GYXRhbGYoIuWIneWni+WxgOmdoiBGRU4g5b6A6L+U5aSx6LSl77yaXG7lvpfliLAgJXNcbuacn+acmyAlcyIsIGZlbiwgU3RhcnRGRU4pCgl9CgliMiwgZXJyIDo9IFBhcnNlRkVOKGZlbikKCWlmIGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCLop6PmnpDliJ3lp4sgRkVOIOWksei0pe+8miV2IiwgZXJyKQoJfQoJaWYgYjIuU3EgIT0gYi5TcSB8fCBiMi5TaWRlICE9IGIuU2lkZSB7CgkJdC5GYXRhbCgiRkVOIOW+gOi/lOWQjuWxgOmdouS4jeS4gOiHtCIpCgl9Cn0KCi8vIFRlc3RDb29yZGluYXRlcyDmoKHpqozlnZDmoIfmjaLnrpfvvIhhMCDnuqLovabjgIFlMCDnuqLluIXjgIFlOSDpu5HlsIbjgIFpOSDpu5HovabvvInjgIIKZnVuYyBUZXN0Q29vcmRpbmF0ZXModCAqdGVzdGluZy5UKSB7CgljYXNlcyA6PSBbXXN0cnVjdCB7CgkJc3EgICBpbnQKCQluYW1lIHN0cmluZwoJCWZpbGUgaW50CgkJcmFuayBpbnQKCX17CgkJezAsICJhMCIsIDAsIDB9LAoJCXs0LCAiZTAiLCA0LCAwfSwKCQl7OCwgImkwIiwgOCwgMH0sCgkJezg1LCAiZTkiLCA0LCA5fSwKCQl7ODksICJpOSIsIDgsIDl9LAoJCXs4MSwgImE5IiwgMCwgOX0sCgl9Cglmb3IgXywgYyA6PSByYW5nZSBjYXNlcyB7CgkJaWYgZ290IDo9IFNxdWFyZU5hbWUoYy5zcSk7IGdvdCAhPSBjLm5hbWUgewoJCQl0LkVycm9yZigiU3F1YXJlTmFtZSglZCkgPSAlc++8jOacn+acmyAlcyIsIGMuc3EsIGdvdCwgYy5uYW1lKQoJCX0KCQlpZiBnb3QgOj0gSW5kZXgoYy5maWxlLCBjLnJhbmspOyBnb3QgIT0gYy5zcSB7CgkJCXQuRXJyb3JmKCJJbmRleCglZCwlZCkgPSAlZO+8jOacn+acmyAlZCIsIGMuZmlsZSwgYy5yYW5rLCBnb3QsIGMuc3EpCgkJfQoJCWlmIGdvdCwgb2sgOj0gUGFyc2VTcXVhcmUoYy5uYW1lKTsgIW9rIHx8IGdvdCAhPSBjLnNxIHsKCQkJdC5FcnJvcmYoIlBhcnNlU3F1YXJlKCVzKSA9ICVkLCV277yM5pyf5pybICVkLHRydWUiLCBjLm5hbWUsIGdvdCwgb2ssIGMuc3EpCgkJfQoJfQoJLy8g5bGP5bmV6KGM5o2i566X77yacmFuayA5IOWcqOWxj+W5leesrCAwIOihjO+8jHJhbmsgMCDlnKjnrKwgOSDooYwKCWlmIFNjcmVlblJvdyg5KSAhPSAwIHx8IFNjcmVlblJvdygwKSAhPSA5IHsKCQl0LkVycm9yZigiU2NyZWVuUm93IOaNoueul+mUmeivr++8mlNjcmVlblJvdyg5KT0lZCBTY3JlZW5Sb3coMCk9JWQiLCBTY3JlZW5Sb3coOSksIFNjcmVlblJvdygwKSkKCX0KfQoKLy8gVGVzdEluaXRpYWxQaWVjZXMg5qCh6aqM5Yid5aeL5bGA6Z2i55qE5a2Q5Yqb5LiO5L2N572u44CCCmZ1bmMgVGVzdEluaXRpYWxQaWVjZXModCAqdGVzdGluZy5UKSB7CgliIDo9IE5ld1N0YXJ0Qm9hcmQoKQoJaWYgYi5TcVtJbmRleCg0LCAwKV0gIT0gUFJlZEtpbmcgewoJCXQuRXJyb3IoImUwIOW6lOS4uue6ouW4hSIpCgl9CglpZiBiLlNxW0luZGV4KDQsIDkpXSAhPSBQQmxhY2tLaW5nIHsKCQl0LkVycm9yKCJlOSDlupTkuLrpu5HlsIYiKQoJfQoJaWYgYi5TcVtJbmRleCgwLCAwKV0gIT0gUFJlZFJvb2sgfHwgYi5TcVtJbmRleCg4LCAwKV0gIT0gUFJlZFJvb2sgewoJCXQuRXJyb3IoImEwL2kwIOW6lOS4uue6oui7iiIpCgl9CglpZiBiLlNxW0luZGV4KDEsIDIpXSAhPSBQUmVkQ2Fubm9uIHx8IGIuU3FbSW5kZXgoNywgMildICE9IFBSZWRDYW5ub24gewoJCXQuRXJyb3IoImIyL2gyIOW6lOS4uue6oueCriIpCgl9CgkvLyDnuqLmlrnlrZDlipvvvJrou4ogMsOXOSArIOmmrCAyw5c0ICsg54KuIDLDlzQgKyDnm7ggMsOXMiArIOS7lSAyw5cyICsg5YW1IDXDlzEgKyDluIUgMCA9IDQ3CglpZiBnb3QgOj0gYi5NYXRlcmlhbChSZWQpOyBnb3QgIT0gNDcgewoJCXQuRXJyb3JmKCLnuqLmlrnlrZDlipsgPSAlZO+8jOacn+acmyA0NyIsIGdvdCkKCX0KCWlmIGdvdCA6PSBiLk1hdGVyaWFsKEJsYWNrKTsgZ290ICE9IDQ3IHsKCQl0LkVycm9yZigi6buR5pa55a2Q5YqbID0gJWTvvIzmnJ/mnJsgNDciLCBnb3QpCgl9Cn0KCi8vIFRlc3RIb3JzZUxlZyDmoKHpqozouanpqazohb/jgIIKZnVuYyBUZXN0SG9yc2VMZWcodCAqdGVzdGluZy5UKSB7CgkvLyDnqbrnm5ggKyDnuqLppqzlnKggZTQoNCw0KSArIOe6ouW4hS/pu5HlsIbmlL7lnKjkuI3lkIznurXnur/vvIjpgb/lhY3lsIbluIXnhafpnaLlr7zoh7TlsYDpnaLmnKzouqvpnZ7ms5XvvIkKCWIgOj0gJkJvYXJke30KCWIuU3FbSW5kZXgoNCwgNCldID0gUFJlZEhvcnNlCgliLlNxW0luZGV4KDMsIDApXSA9IFBSZWRLaW5nCgliLlNxW0luZGV4KDUsIDkpXSA9IFBCbGFja0tpbmcKCWIuU2lkZSA9IFJlZAoKCXRhcmdldHMgOj0gbWFwW2ludF1ib29se30KCWZvciBfLCBtIDo9IHJhbmdlIGIuTGVnYWxNb3ZlcygpIHsKCQlpZiBtLkZyb20gPT0gSW5kZXgoNCwgNCkgewoJCQl0YXJnZXRzW20uVG9dID0gdHJ1ZQoJCX0KCX0KCS8vIOmmrOi1sOaXpeWFsSA4IOS4quiQveeCue+8jOWFqOmDqOWcqOebmOWGhQoJaWYgbGVuKHRhcmdldHMpICE9IDggewoJCXQuRmF0YWxmKCLnqbrnm5jppqznmoTokL3ngrnmlbAgPSAlZO+8jOacn+acmyA4IiwgbGVuKHRhcmdldHMpKQoJfQoJLy8g5ZyoICg0LDUpIOaUvuS4gOaemuWtkCDihpIg6Lmp5L2P5ZCR5LiK5Lik5p2h6IW/CgliLlNxW0luZGV4KDQsIDUpXSA9IFBCbGFja1Bhd24KCXRhcmdldHMgPSBtYXBbaW50XWJvb2x7fQoJZm9yIF8sIG0gOj0gcmFuZ2UgYi5MZWdhbE1vdmVzKCkgewoJCWlmIG0uRnJvbSA9PSBJbmRleCg0LCA0KSB7CgkJCXRhcmdldHNbbS5Ub10gPSB0cnVlCgkJfQoJfQoJaWYgdGFyZ2V0c1tJbmRleCgzLCA2KV0gfHwgdGFyZ2V0c1tJbmRleCg1LCA2KV0gewoJCXQuRXJyb3IoIummrOiFv+iiq+i5qeS9j+WQjuS7jeiDvei1sOWIsCAoMyw2KS8oNSw2KSIpCgl9CglpZiBsZW4odGFyZ2V0cykgIT0gNiB7CgkJdC5FcnJvcmYoIui5qeS4gOadoeiFv+WQjuiQveeCueaVsCA9ICVk77yM5pyf5pybIDYiLCBsZW4odGFyZ2V0cykpCgl9Cn0KCi8vIFRlc3RFbGVwaGFudEV5ZSDmoKHpqozloZ7osaHnnLzkuI7osaHkuI3ov4fmsrPjgIIKZnVuYyBUZXN0RWxlcGhhbnRFeWUodCAqdGVzdGluZy5UKSB7CgliIDo9ICZCb2FyZHt9CgliLlNxW0luZGV4KDIsIDApXSA9IFBSZWRFbGVwaGFudAoJYi5TcVtJbmRleCgzLCAwKV0gPSBQUmVkS2luZyAvLyDnuqLluIXmlL4gZDDvvIzkuI7pu5HlsIbkuI3lkIznurXnur8KCWIuU3FbSW5kZXgoNSwgOSldID0gUEJsYWNrS2luZwoJYi5TaWRlID0gUmVkCgltb3ZlcyA6PSBtYXBbaW50XWJvb2x7fQoJZm9yIF8sIG0gOj0gcmFuZ2UgYi5MZWdhbE1vdmVzKCkgewoJCWlmIG0uRnJvbSA9PSBJbmRleCgyLCAwKSB7CgkJCW1vdmVzW20uVG9dID0gdHJ1ZQoJCX0KCX0KCS8vIOixoeS7jiAoMiwwKSDlj6rog73otbAgKDAsMikg5LiOICg0LDIpCglpZiAhbW92ZXNbSW5kZXgoMCwgMildIHx8ICFtb3Zlc1tJbmRleCg0LCAyKV0gewoJCXQuRXJyb3IoIuebuCAoMiwwKSDlupTog73otbAgKDAsMikvKDQsMikiKQoJfQoJaWYgbW92ZXNbSW5kZXgoMCwgNCldIHx8IG1vdmVzW0luZGV4KDQsIDQpXSB7CgkJdC5FcnJvcigi55u45LiN6IO96L+e6LWw5Lik5q2lIikKCX0KCS8vIOWhnuixoeecvCAoMSwxKQoJYi5TcVtJbmRleCgxLCAxKV0gPSBQQmxhY2tQYXduCgltb3ZlcyA9IG1hcFtpbnRdYm9vbHt9Cglmb3IgXywgbSA6PSByYW5nZSBiLkxlZ2FsTW92ZXMoKSB7CgkJaWYgbS5Gcm9tID09IEluZGV4KDIsIDApIHsKCQkJbW92ZXNbbS5Ub10gPSB0cnVlCgkJfQoJfQoJaWYgbW92ZXNbSW5kZXgoMCwgMildIHsKCQl0LkVycm9yKCLosaHnnLzooqvloZ7lkI7ku43og73otbDliLAgKDAsMikiKQoJfQoJaWYgIW1vdmVzW0luZGV4KDQsIDIpXSB7CgkJdC5FcnJvcigi6LGh55y86KKr5aGe5LiN5bqU5b2x5ZON5Y+m5LiA5L6n6LWw5rOVIikKCX0KfQoKLy8gVGVzdENhbm5vblNjcmVlbiDmoKHpqozngq7lv4XpobvpmpTkuIDkuKrlrZDmiY3og73lkIPlrZDjgIIKZnVuYyBUZXN0Q2Fubm9uU2NyZWVuKHQgKnRlc3RpbmcuVCkgewoJYiA6PSAmQm9hcmR7fQoJYi5TcVtJbmRleCgwLCAwKV0gPSBQUmVkQ2Fubm9uCgliLlNxW0luZGV4KDMsIDApXSA9IFBSZWRLaW5nIC8vIOe6ouW4hSBkMO+8jOS4jum7keWwhuS4jeWQjOe6tee6vwoJYi5TcVtJbmRleCg1LCA5KV0gPSBQQmxhY2tLaW5nCgliLlNxW0luZGV4KDAsIDkpXSA9IFBCbGFja1Jvb2sgLy8g54Ku55qE55u057q/5LiK5pyJ5pWM6LuKCgliLlNpZGUgPSBSZWQKCgkvLyDml6Dngq7mnrbvvJrlj6rog73lubPnp7vliLDnqbrmoLzvvIzkuI3og73lkIMgKDAsOSkg55qE6LuKCgljYW5DYXB0dXJlIDo9IGZhbHNlCglmb3IgXywgbSA6PSByYW5nZSBiLkxlZ2FsTW92ZXMoKSB7CgkJaWYgbS5Gcm9tID09IEluZGV4KDAsIDApICYmIG0uVG8gPT0gSW5kZXgoMCwgOSkgewoJCQljYW5DYXB0dXJlID0gdHJ1ZQoJCX0KCX0KCWlmIGNhbkNhcHR1cmUgewoJCXQuRXJyb3IoIuaXoOeCruaetuaXtueCruS4jeW6lOiDveWQg+WIsCAoMCw5KSDnmoTou4oiKQoJfQoJLy8g5Yqg5LiA5Liq54Ku5p625ZyoICgwLDQpCgliLlNxW0luZGV4KDAsIDQpXSA9IFBCbGFja1Bhd24KCWNhbkNhcHR1cmUgPSBmYWxzZQoJZm9yIF8sIG0gOj0gcmFuZ2UgYi5MZWdhbE1vdmVzKCkgewoJCWlmIG0uRnJvbSA9PSBJbmRleCgwLCAwKSAmJiBtLlRvID09IEluZGV4KDAsIDkpIHsKCQkJY2FuQ2FwdHVyZSA9IHRydWUKCQl9Cgl9CglpZiAhY2FuQ2FwdHVyZSB7CgkJdC5FcnJvcigi5pyJ5LiA5Liq54Ku5p625pe254Ku5bqU6IO95ZCDICgwLDkpIOeahOi7iiIpCgl9CgkvLyDlho3liqDkuIDkuKrngq7mnrYg4oaSIOS4pOS4queCruaetuS4jeiDveWQgwoJYi5TcVtJbmRleCgwLCA2KV0gPSBQQmxhY2tQYXduCgljYW5DYXB0dXJlID0gZmFsc2UKCWZvciBfLCBtIDo9IHJhbmdlIGIuTGVnYWxNb3ZlcygpIHsKCQlpZiBtLkZyb20gPT0gSW5kZXgoMCwgMCkgJiYgbS5UbyA9PSBJbmRleCgwLCA5KSB7CgkJCWNhbkNhcHR1cmUgPSB0cnVlCgkJfQoJfQoJaWYgY2FuQ2FwdHVyZSB7CgkJdC5FcnJvcigi5pyJ5Lik5Liq54Ku5p625pe254Ku5LiN5bqU6IO95ZCD5a2QIikKCX0KfQoKLy8gVGVzdEtpbmdzRmFjaW5nIOagoemqjOWwhuW4heeFp+mdou+8iOi1sOWHuueFp+mdoueahOS4gOaWueedgOazlemdnuazle+8ieOAggovLwovLyDlsYDpnaLvvJrnuqLluIUgZTDjgIHpu5HlsIYgZTnjgIHpu5Hou4ogZTUg5oyh5Zyo5Lit6Ze0IOKGkiDlvZPliY3kuI3nhafpnaLjgIIKLy8g6buR6LuK6Iul5qiq6LWw5Ye6IGUg57q/77yM5bCG5biF5Y2z54Wn6Z2i77yM5Zug5q2k44CM6LuKIGU1IOKGkiBhNeOAjeW/hemhu+aYr+mdnuazleedgOazle+8mwovLyDogIzjgIzou4ogZTUg4oaSIGU244CN5LuN5oyh5Zyo5Lit6Ze077yM5b+F6aG75ZCI5rOV44CCCmZ1bmMgVGVzdEtpbmdzRmFjaW5nKHQgKnRlc3RpbmcuVCkgewoJYiA6PSAmQm9hcmR7fQoJYi5TcVtJbmRleCg0LCAwKV0gPSBQUmVkS2luZwoJYi5TcVtJbmRleCg0LCA5KV0gPSBQQmxhY2tLaW5nCgliLlNxW0luZGV4KDQsIDUpXSA9IFBCbGFja1Jvb2sKCWIuU2lkZSA9IEJsYWNrCgoJaWYgYi5LaW5nc0ZhY2luZygpIHsKCQl0LkZhdGFsKCLmnoTpgKDlsYDpnaLkuI3lupTnhafpnaIiKQoJfQoJbGVnYWwgOj0gbWFwW2ludF1ib29se30KCWZvciBfLCBtIDo9IHJhbmdlIGIuTGVnYWxNb3ZlcygpIHsKCQlpZiBtLkZyb20gPT0gSW5kZXgoNCwgNSkgewoJCQlsZWdhbFttLlRvXSA9IHRydWUKCQl9Cgl9CglpZiBsZWdhbFtJbmRleCgwLCA1KV0gewoJCXQuRXJyb3IoIum7kei7iuS7jiBlNSDotbDliLAgYTUg5Lya6YCg5oiQ5bCG5biF54Wn6Z2i77yM5bqU5Li66Z2e5rOV552A5rOVIikKCX0KCWlmICFsZWdhbFtJbmRleCg0LCA2KV0gewoJCXQuRXJyb3IoIum7kei7iuS7jiBlNSDotbDliLAgZTYg5LuN5oyh5Zyo5Lik5bCG5LmL6Ze077yM5bqU5Li65ZCI5rOV552A5rOVIikKCX0KfQoKLy8gVGVzdENoZWNrbWF0ZSDmoKHpqozlsIbmrbvliKTlrprvvIjnuqLlj4zou4rmnYDpu5HlsIbvvInjgIIKLy8KLy8g5bGA6Z2i77ya57qi6LuKIGE5IOaOpyByYW5rIDnvvIznuqLou4ogYjgg5o6nIHJhbmsgOO+8jOm7keWwhiBlOe+8jOe6ouW4hSBkMO+8iOmBv+WFjeeFp+mdou+8ieOAggovLyDpu5HlsIbkuInkuKrlj6/otbDngrkgZDkvZjkvZTgg5YWo6YOo6KKr5pS75Ye7IOKGkiDlsIbmrbvjgIIKZnVuYyBUZXN0Q2hlY2ttYXRlKHQgKnRlc3RpbmcuVCkgewoJYiwgZXJyIDo9IFBhcnNlRkVOKCJSM2s0LzFSNy85LzkvOS85LzkvOS85LzNLNSBiIC0gLSAwIDEiKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIuino+aekCBGRU4g5aSx6LSl77yaJXYiLCBlcnIpCgl9CglpZiAhYi5JbkNoZWNrKEJsYWNrKSB7CgkJdC5GYXRhbCgi5p6E6YCg5bGA6Z2i5bqU5Yik5a6a6buR5pa56KKr5bCG5YabIikKCX0KCWlmIG4gOj0gbGVuKGIuTGVnYWxNb3ZlcygpKTsgbiAhPSAwIHsKCQl0LkZhdGFsZigi5p6E6YCg5bGA6Z2i5LiL6buR5pa55bqU5peg5ZCI5rOV552A5rOV77yM5a6e6ZmFICVkIOatpSIsIG4pCgl9CglzdCwgcmVhc29uIDo9ICgmR2FtZXtCb2FyZDogYn0pLkFkanVkaWNhdGUoKQoJaWYgc3QgIT0gUmVkV2luIHsKCQl0LkZhdGFsZigi6buR5pa56KKr5bCG5q275bqU5Yik57qi5pa56IOc77yM5a6e6ZmFICV277yIJXPvvIkiLCBzdCwgcmVhc29uKQoJfQoJaWYgcmVhc29uICE9ICLlsIbmrbsiIHsKCQl0LkVycm9yZigi5Yik5a6a5Y6f5ZugID0gJXHvvIzmnJ/mnJsgJXEiLCByZWFzb24sICLlsIbmrbsiKQoJfQp9CgovLyBUZXN0U3RhbGVtYXRlSXNMb3NzIOagoemqjOWbsOavme+8iOaXoOWtkOWPr+WKqOS9huacquiiq+WwhuWGm++8ieWcqOS4reWbveixoeaji+S4reWQjOagt+WIpOi0n+OAggovLwovLyDlsYDpnaLvvJrpu5HlsIYgZDnvvJvnuqLou4ogYTgg5o6nIHJhbmsgOO+8iOWwgSBkOO+8ie+8jOe6oui7iiBlMSDmjqcgZSDnur/vvIjlsIEgZTnvvInvvJsKLy8g6buR5bCG5pei5pyq6KKr5bCG5Yab5Y+I5peg5aSE5Y+v6LWw77yIYzkg5Zyo5Lmd5a6r5LmL5aSW5LiN5Y+v5Y6777yJ4oaSIOWbsOavme+8jOWIpOm7keaWuei0n+OAggpmdW5jIFRlc3RTdGFsZW1hdGVJc0xvc3ModCAqdGVzdGluZy5UKSB7CgliLCBlcnIgOj0gUGFyc2VGRU4oIjNrNS9SOC85LzkvOS85LzkvOS80UjQvNEs0IGIgLSAtIDAgMSIpCglpZiBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigi6Kej5p6QIEZFTiDlpLHotKXvvJoldiIsIGVycikKCX0KCWlmIGIuSW5DaGVjayhCbGFjaykgewoJCXQuRmF0YWwoIuaehOmAoOWxgOmdouS4i+m7keaWueS4jeW6lOiiq+WwhuWGm++8iOWQpuWImeS4jeaYr+WbsOavme+8iSIpCgl9CglpZiBuIDo9IGxlbihiLkxlZ2FsTW92ZXMoKSk7IG4gIT0gMCB7CgkJdC5GYXRhbGYoIuaehOmAoOWxgOmdouS4i+m7keaWueW6lOaXoOWQiOazleedgOazle+8jOWunumZhSAlZCDmraUiLCBuKQoJfQoJc3QsIHJlYXNvbiA6PSAoJkdhbWV7Qm9hcmQ6IGJ9KS5BZGp1ZGljYXRlKCkKCWlmIHN0ICE9IFJlZFdpbiB8fCByZWFzb24gIT0gIuWbsOavmSIgewoJCXQuRXJyb3JmKCLlm7Dmr5nlupTliKTotbDlrZDmlrnotJ/vvIjnuqLmlrnog5wv5Zuw5q+Z77yJ77yM5a6e6ZmFICV2LyVzIiwgc3QsIHJlYXNvbikKCX0KfQoKLy8gVGVzdFBhd25SaXZlciDmoKHpqozlhbXov4fmsrPlkI7miY3og73mqKrotbDjgIIKZnVuYyBUZXN0UGF3blJpdmVyKHQgKnRlc3RpbmcuVCkgewoJYiA6PSAmQm9hcmR7fQoJYi5TcVtJbmRleCgwLCAzKV0gPSBQUmVkUGF3biAvLyDmnKrov4fmsrMKCWIuU3FbSW5kZXgoMywgMCldID0gUFJlZEtpbmcgLy8g57qi5biFIGQw77yM5LiO6buR5bCG5LiN5ZCM57q157q/CgliLlNxW0luZGV4KDUsIDkpXSA9IFBCbGFja0tpbmcKCWIuU2lkZSA9IFJlZAoJbiA6PSAwCglmb3IgXywgbSA6PSByYW5nZSBiLkxlZ2FsTW92ZXMoKSB7CgkJaWYgbS5Gcm9tID09IEluZGV4KDAsIDMpIHsKCQkJbisrCgkJfQoJfQoJaWYgbiAhPSAxIHsKCQl0LkVycm9yZigi5pyq6L+H5rKz55qE5YW15bqU5pyJIDEg5q2l5Y+v6LWw77yM5a6e6ZmFICVkIiwgbikKCX0KCWIuU3FbSW5kZXgoMCwgMyldID0gUEVtcHR5CgliLlNxW0luZGV4KDAsIDYpXSA9IFBSZWRQYXduIC8vIOW3sui/h+ayswoJbiA9IDAKCXNpZGUgOj0gbWFwW2ludF1ib29se30KCWZvciBfLCBtIDo9IHJhbmdlIGIuTGVnYWxNb3ZlcygpIHsKCQlpZiBtLkZyb20gPT0gSW5kZXgoMCwgNikgewoJCQluKysKCQkJc2lkZVttLlRvXSA9IHRydWUKCQl9Cgl9CglpZiBuICE9IDIgewoJCXQuRXJyb3JmKCLov4fmsrPlkI7nmoTlhbXlupTmnIkgMiDmraXlj6/otbDvvIjliY0gMSArIOaoqiAx77yJ77yM5a6e6ZmFICVkIiwgbikKCX0KCWlmICFzaWRlW0luZGV4KDEsIDYpXSB7CgkJdC5FcnJvcigi6L+H5rKz5ZCO55qE5YW15bqU6IO95qiq6LWw5YiwICgxLDYpIikKCX0KfQoKLy8gVGVzdFVuZG9SZXN0b3JlcyDmoKHpqozmgpTmo4vog73lrozmlbTov5jljp/lsYDpnaLjgIIKZnVuYyBUZXN0VW5kb1Jlc3RvcmVzKHQgKnRlc3RpbmcuVCkgewoJZyA6PSBOZXdHYW1lKCkKCWJlZm9yZSA6PSBnLkJvYXJkLkZFTigpCgltLCBvayA6PSBwYXJzZU1vdmUoImgyZTIiKQoJaWYgIW9rIHsKCQl0LkZhdGFsKCLop6PmnpAgaDJlMiDlpLHotKUiKQoJfQoJaWYgZXJyIDo9IGcuVHJ5TW92ZShtKTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIui1sOeCruS6jOW5s+S6lOWksei0pe+8miV2IiwgZXJyKQoJfQoJaWYgZy5Cb2FyZC5GRU4oKSA9PSBiZWZvcmUgewoJCXQuRmF0YWwoIui1sOWtkOWQjuWxgOmdouacquWPmOWMliIpCgl9CglpZiAhZy5VbmRvKCkgewoJCXQuRmF0YWwoIuaClOaji+Wksei0pSIpCgl9CglpZiBnLkJvYXJkLkZFTigpICE9IGJlZm9yZSB7CgkJdC5GYXRhbGYoIuaClOaji+WQjuWxgOmdouacqui/mOWOn++8mlxu5b6X5YiwICVzXG7mnJ/mnJsgJXMiLCBnLkJvYXJkLkZFTigpLCBiZWZvcmUpCgl9Cn0KCmZ1bmMgcGFyc2VNb3ZlKHMgc3RyaW5nKSAoTW92ZSwgYm9vbCkgewoJaWYgbGVuKHMpICE9IDQgewoJCXJldHVybiBNb3Zle30sIGZhbHNlCgl9CglmMSwgcjEgOj0gaW50KHNbMF0tJ2EnKSwgaW50KHNbMV0tJzAnKQoJZjIsIHIyIDo9IGludChzWzJdLSdhJyksIGludChzWzNdLScwJykKCWlmICFPbkJvYXJkKGYxLCByMSkgfHwgIU9uQm9hcmQoZjIsIHIyKSB7CgkJcmV0dXJuIE1vdmV7fSwgZmFsc2UKCX0KCXJldHVybiBOZXdNb3ZlKEluZGV4KGYxLCByMSksIEluZGV4KGYyLCByMikpLCB0cnVlCn0K
+package rules
+
+import "testing"
+
+// perft 统计从当前局面出发、走 depth 层的完全合法着法总数。
+func perft(b *Board, depth int) int {
+	if depth == 0 {
+		return 1
+	}
+	moves := b.LegalMoves()
+	if depth == 1 {
+		return len(moves)
+	}
+	n := 0
+	for _, m := range moves {
+		cap := b.Apply(m)
+		n += perft(b, depth-1)
+		b.Revert(m, cap)
+	}
+	return n
+}
+
+// TestPerftStartpos 用国际通行的中国象棋 perft 参考值校验走法生成器。
+//
+// 参考值（初始局面）：
+//
+//	深度 1 = 44        深度 2 = 1920        深度 3 = 79666        深度 4 = 3290240
+//
+// 只要这四个数字完全一致，就可以确信走法生成、蹩马腿、塞象眼、炮隔子、
+// 兵过河、九宫限制、将帅照面与自将检查全部实现正确。
+func TestPerftStartpos(t *testing.T) {
+	cases := []struct {
+		depth int
+		want  int
+	}{
+		{1, 44},
+		{2, 1920},
+		{3, 79666},
+		{4, 3290240},
+	}
+	for _, c := range cases {
+		b := NewStartBoard()
+		got := perft(b, c.depth)
+		if got != c.want {
+			t.Errorf("perft(%d) = %d，期望 %d", c.depth, got, c.want)
+		}
+	}
+}
+
+func TestStartFENRoundTrip(t *testing.T) {
+	b := NewStartBoard()
+	fen := b.FEN()
+	if fen != StartFEN {
+		t.Fatalf("初始局面 FEN 往返失败：\n得到 %s\n期望 %s", fen, StartFEN)
+	}
+	b2, err := ParseFEN(fen)
+	if err != nil {
+		t.Fatalf("解析初始 FEN 失败：%v", err)
+	}
+	if b2.Sq != b.Sq || b2.Side != b.Side {
+		t.Fatal("FEN 往返后局面不一致")
+	}
+}
+
+// TestCoordinates 校验坐标换算（a0 红车、e0 红帅、e9 黑将、i9 黑车）。
+func TestCoordinates(t *testing.T) {
+	cases := []struct {
+		sq   int
+		name string
+		file int
+		rank int
+	}{
+		{0, "a0", 0, 0},
+		{4, "e0", 4, 0},
+		{8, "i0", 8, 0},
+		{85, "e9", 4, 9},
+		{89, "i9", 8, 9},
+		{81, "a9", 0, 9},
+	}
+	for _, c := range cases {
+		if got := SquareName(c.sq); got != c.name {
+			t.Errorf("SquareName(%d) = %s，期望 %s", c.sq, got, c.name)
+		}
+		if got := Index(c.file, c.rank); got != c.sq {
+			t.Errorf("Index(%d,%d) = %d，期望 %d", c.file, c.rank, got, c.sq)
+		}
+		if got, ok := ParseSquare(c.name); !ok || got != c.sq {
+			t.Errorf("ParseSquare(%s) = %d,%v，期望 %d,true", c.name, got, ok, c.sq)
+		}
+	}
+	// 屏幕行换算：rank 9 在屏幕第 0 行，rank 0 在第 9 行
+	if ScreenRow(9) != 0 || ScreenRow(0) != 9 {
+		t.Errorf("ScreenRow 换算错误：ScreenRow(9)=%d ScreenRow(0)=%d", ScreenRow(9), ScreenRow(0))
+	}
+}
+
+// TestInitialPieces 校验初始局面的子力与位置。
+func TestInitialPieces(t *testing.T) {
+	b := NewStartBoard()
+	if b.Sq[Index(4, 0)] != PRedKing {
+		t.Error("e0 应为红帅")
+	}
+	if b.Sq[Index(4, 9)] != PBlackKing {
+		t.Error("e9 应为黑将")
+	}
+	if b.Sq[Index(0, 0)] != PRedRook || b.Sq[Index(8, 0)] != PRedRook {
+		t.Error("a0/i0 应为红車")
+	}
+	if b.Sq[Index(1, 2)] != PRedCannon || b.Sq[Index(7, 2)] != PRedCannon {
+		t.Error("b2/h2 应为红炮")
+	}
+	// 红方子力：車 2×9 + 馬 2×4 + 炮 2×4 + 相 2×2 + 仕 2×2 + 兵 5×1 + 帅 0 = 47
+	if got := b.Material(Red); got != 47 {
+		t.Errorf("红方子力 = %d，期望 47", got)
+	}
+	if got := b.Material(Black); got != 47 {
+		t.Errorf("黑方子力 = %d，期望 47", got)
+	}
+}
+
+// TestHorseLeg 校验蹩马腿。
+func TestHorseLeg(t *testing.T) {
+	// 空盘 + 红馬在 e4(4,4) + 红帅/黑将放在不同纵线（避免将帅照面导致局面本身非法）
+	b := &Board{}
+	b.Sq[Index(4, 4)] = PRedHorse
+	b.Sq[Index(3, 0)] = PRedKing
+	b.Sq[Index(5, 9)] = PBlackKing
+	b.Side = Red
+
+	targets := map[int]bool{}
+	for _, m := range b.LegalMoves() {
+		if m.From == Index(4, 4) {
+			targets[m.To] = true
+		}
+	}
+	// 馬走日共 8 个落点，全部在盘内
+	if len(targets) != 8 {
+		t.Fatalf("空盘馬的落点数 = %d，期望 8", len(targets))
+	}
+	// 在 (4,5) 放一枚子 → 蹩住向上两条腿
+	b.Sq[Index(4, 5)] = PBlackPawn
+	targets = map[int]bool{}
+	for _, m := range b.LegalMoves() {
+		if m.From == Index(4, 4) {
+			targets[m.To] = true
+		}
+	}
+	if targets[Index(3, 6)] || targets[Index(5, 6)] {
+		t.Error("馬腿被蹩住后仍能走到 (3,6)/(5,6)")
+	}
+	if len(targets) != 6 {
+		t.Errorf("蹩一条腿后落点数 = %d，期望 6", len(targets))
+	}
+}
+
+// TestElephantEye 校验塞象眼与象不过河。
+func TestElephantEye(t *testing.T) {
+	b := &Board{}
+	b.Sq[Index(2, 0)] = PRedElephant
+	b.Sq[Index(3, 0)] = PRedKing // 红帅放 d0，与黑将不同纵线
+	b.Sq[Index(5, 9)] = PBlackKing
+	b.Side = Red
+	moves := map[int]bool{}
+	for _, m := range b.LegalMoves() {
+		if m.From == Index(2, 0) {
+			moves[m.To] = true
+		}
+	}
+	// 象从 (2,0) 只能走 (0,2) 与 (4,2)
+	if !moves[Index(0, 2)] || !moves[Index(4, 2)] {
+		t.Error("相 (2,0) 应能走 (0,2)/(4,2)")
+	}
+	if moves[Index(0, 4)] || moves[Index(4, 4)] {
+		t.Error("相不能连走两步")
+	}
+	// 塞象眼 (1,1)
+	b.Sq[Index(1, 1)] = PBlackPawn
+	moves = map[int]bool{}
+	for _, m := range b.LegalMoves() {
+		if m.From == Index(2, 0) {
+			moves[m.To] = true
+		}
+	}
+	if moves[Index(0, 2)] {
+		t.Error("象眼被塞后仍能走到 (0,2)")
+	}
+	if !moves[Index(4, 2)] {
+		t.Error("象眼被塞不应影响另一侧走法")
+	}
+}
+
+// TestCannonScreen 校验炮必须隔一个子才能吃子。
+func TestCannonScreen(t *testing.T) {
+	b := &Board{}
+	b.Sq[Index(0, 0)] = PRedCannon
+	b.Sq[Index(3, 0)] = PRedKing // 红帅 d0，与黑将不同纵线
+	b.Sq[Index(5, 9)] = PBlackKing
+	b.Sq[Index(0, 9)] = PBlackRook // 炮的直线上有敌車
+	b.Side = Red
+
+	// 无炮架：只能平移到空格，不能吃 (0,9) 的車
+	canCapture := false
+	for _, m := range b.LegalMoves() {
+		if m.From == Index(0, 0) && m.To == Index(0, 9) {
+			canCapture = true
+		}
+	}
+	if canCapture {
+		t.Error("无炮架时炮不应能吃到 (0,9) 的車")
+	}
+	// 加一个炮架在 (0,4)
+	b.Sq[Index(0, 4)] = PBlackPawn
+	canCapture = false
+	for _, m := range b.LegalMoves() {
+		if m.From == Index(0, 0) && m.To == Index(0, 9) {
+			canCapture = true
+		}
+	}
+	if !canCapture {
+		t.Error("有一个炮架时炮应能吃 (0,9) 的車")
+	}
+	// 再加一个炮架 → 两个炮架不能吃
+	b.Sq[Index(0, 6)] = PBlackPawn
+	canCapture = false
+	for _, m := range b.LegalMoves() {
+		if m.From == Index(0, 0) && m.To == Index(0, 9) {
+			canCapture = true
+		}
+	}
+	if canCapture {
+		t.Error("有两个炮架时炮不应能吃子")
+	}
+}
+
+// TestKingsFacing 校验将帅照面（走出照面的一方着法非法）。
+//
+// 局面：红帅 e0、黑将 e9、黑車 e5 挡在中间 → 当前不照面。
+// 黑車若横走出 e 线，将帅即照面，因此「車 e5 → a5」必须是非法着法；
+// 而「車 e5 → e6」仍挡在中间，必须合法。
+func TestKingsFacing(t *testing.T) {
+	b := &Board{}
+	b.Sq[Index(4, 0)] = PRedKing
+	b.Sq[Index(4, 9)] = PBlackKing
+	b.Sq[Index(4, 5)] = PBlackRook
+	b.Side = Black
+
+	if b.KingsFacing() {
+		t.Fatal("构造局面不应照面")
+	}
+	legal := map[int]bool{}
+	for _, m := range b.LegalMoves() {
+		if m.From == Index(4, 5) {
+			legal[m.To] = true
+		}
+	}
+	if legal[Index(0, 5)] {
+		t.Error("黑車从 e5 走到 a5 会造成将帅照面，应为非法着法")
+	}
+	if !legal[Index(4, 6)] {
+		t.Error("黑車从 e5 走到 e6 仍挡在两将之间，应为合法着法")
+	}
+}
+
+// TestCheckmate 校验将死判定（红双車杀黑将）。
+//
+// 局面：红車 a9 控 rank 9，红車 b8 控 rank 8，黑将 e9，红帅 d0（避免照面）。
+// 黑将三个可走点 d9/f9/e8 全部被攻击 → 将死。
+func TestCheckmate(t *testing.T) {
+	b, err := ParseFEN("R3k4/1R7/9/9/9/9/9/9/9/3K5 b - - 0 1")
+	if err != nil {
+		t.Fatalf("解析 FEN 失败：%v", err)
+	}
+	if !b.InCheck(Black) {
+		t.Fatal("构造局面应判定黑方被将军")
+	}
+	if n := len(b.LegalMoves()); n != 0 {
+		t.Fatalf("构造局面下黑方应无合法着法，实际 %d 步", n)
+	}
+	st, reason := (&Game{Board: b}).Adjudicate()
+	if st != RedWin {
+		t.Fatalf("黑方被将死应判红方胜，实际 %v（%s）", st, reason)
+	}
+	if reason != "将死" {
+		t.Errorf("判定原因 = %q，期望 %q", reason, "将死")
+	}
+}
+
+// TestStalemateIsLoss 校验困毙（无子可动但未被将军）在中国象棋中同样判负。
+//
+// 局面：黑将 d9；红車 a8 控 rank 8（封 d8），红車 e1 控 e 线（封 e9）；
+// 黑将既未被将军又无处可走（c9 在九宫之外不可去）→ 困毙，判黑方负。
+func TestStalemateIsLoss(t *testing.T) {
+	b, err := ParseFEN("3k5/R8/9/9/9/9/9/9/4R4/4K4 b - - 0 1")
+	if err != nil {
+		t.Fatalf("解析 FEN 失败：%v", err)
+	}
+	if b.InCheck(Black) {
+		t.Fatal("构造局面下黑方不应被将军（否则不是困毙）")
+	}
+	if n := len(b.LegalMoves()); n != 0 {
+		t.Fatalf("构造局面下黑方应无合法着法，实际 %d 步", n)
+	}
+	st, reason := (&Game{Board: b}).Adjudicate()
+	if st != RedWin || reason != "困毙" {
+		t.Errorf("困毙应判走子方负（红方胜/困毙），实际 %v/%s", st, reason)
+	}
+}
+
+// TestPawnRiver 校验兵过河后才能横走。
+func TestPawnRiver(t *testing.T) {
+	b := &Board{}
+	b.Sq[Index(0, 3)] = PRedPawn // 未过河
+	b.Sq[Index(3, 0)] = PRedKing // 红帅 d0，与黑将不同纵线
+	b.Sq[Index(5, 9)] = PBlackKing
+	b.Side = Red
+	n := 0
+	for _, m := range b.LegalMoves() {
+		if m.From == Index(0, 3) {
+			n++
+		}
+	}
+	if n != 1 {
+		t.Errorf("未过河的兵应有 1 步可走，实际 %d", n)
+	}
+	b.Sq[Index(0, 3)] = PEmpty
+	b.Sq[Index(0, 6)] = PRedPawn // 已过河
+	n = 0
+	side := map[int]bool{}
+	for _, m := range b.LegalMoves() {
+		if m.From == Index(0, 6) {
+			n++
+			side[m.To] = true
+		}
+	}
+	if n != 2 {
+		t.Errorf("过河后的兵应有 2 步可走（前 1 + 横 1），实际 %d", n)
+	}
+	if !side[Index(1, 6)] {
+		t.Error("过河后的兵应能横走到 (1,6)")
+	}
+}
+
+// TestUndoRestores 校验悔棋能完整还原局面。
+func TestUndoRestores(t *testing.T) {
+	g := NewGame()
+	before := g.Board.FEN()
+	m, ok := parseMove("h2e2")
+	if !ok {
+		t.Fatal("解析 h2e2 失败")
+	}
+	if err := g.TryMove(m); err != nil {
+		t.Fatalf("走炮二平五失败：%v", err)
+	}
+	if g.Board.FEN() == before {
+		t.Fatal("走子后局面未变化")
+	}
+	if !g.Undo() {
+		t.Fatal("悔棋失败")
+	}
+	if g.Board.FEN() != before {
+		t.Fatalf("悔棋后局面未还原：\n得到 %s\n期望 %s", g.Board.FEN(), before)
+	}
+}
+
+func parseMove(s string) (Move, bool) {
+	if len(s) != 4 {
+		return Move{}, false
+	}
+	f1, r1 := int(s[0]-'a'), int(s[1]-'0')
+	f2, r2 := int(s[2]-'a'), int(s[3]-'0')
+	if !OnBoard(f1, r1) || !OnBoard(f2, r2) {
+		return Move{}, false
+	}
+	return NewMove(Index(f1, r1), Index(f2, r2)), true
+}

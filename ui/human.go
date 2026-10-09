@@ -1,1 +1,224 @@
-cGFja2FnZSB1aQoKaW1wb3J0ICgKCSJ4aWFuZ3FpL2NvbmZpZyIKCSJ4aWFuZ3FpL25vdGF0aW9uIgoJInhpYW5ncWkvcnVsZXMiCikKCi8vIOacrOaWh+S7tuWunueOsOOAjOS6uuacuuWvueW8iOOAjeaooeW8j+S4juOAjOWxgOmdouWvueiwg+OAjeOAggovLwovLyDnlKjmiLflrprkuYnvvIjljp/or53vvInvvJoKLy8KLy8J5bGA6Z2i5a+56LCDID0g5oiR5omn57qi5qOL5ZKMIEFJIOS4i+S6huWHoOS4quWbnuWQiOWQjuinieW+l+WKo+WKv+WkquWkp++8jOaUueaIkOaIkeaJp+m7keaji+OAgeeUteiEkeaJp+e6ouaji++8jAovLwkqKuWxgOmdouS4jeWPmCoq77yM5Lmf5LiN5piv5paw5byA5LiA5bGA77yMKirkuIvmo4vmrKHluo/kuI3lj5gqKu+8iOivpee6ouaji+i1sOWwseaYr+e6ouaji+i1sO+8ieOAggovLwnnlLXohJHlr7nnlLXohJHvvIjlvJXmk47lr7nmiJjvvInkuZ/opoHmnInov5nkuKrlip/og73jgIIKLy8KLy8g5omA5Lul44CM5a+56LCD44CN5Y+q57+76L2s5LiA5Liq5a2X5q6177yI6LCB5omn5ZOq5LiA5pa577yJ77yM57ud5LiN56Kw5bGA6Z2i44CB5LiN56Kw552A5rOV5Y6G5Y+y44CBCi8vIOS5n+S4jeeisOOAjOi9ruWIsOiwgei1sOOAjeKAlOKAlOi9ruWIsOe6ouaWueWwsei/mOaYr+e6ouaWuei1sOOAggoKLy8gaHVtYW5QbGF5c1JlZCDkurrnsbvmmK/lkKbmiafnuqLjgIIKZnVuYyAoYSAqQXBwKSBodW1hblBsYXlzUmVkKCkgYm9vbCB7IHJldHVybiBhLmNmZy5IdW1hblNpZGUgIT0gY29uZmlnLlNpZGVCbGFjayB9CgovLyBodW1hblNpZGVDTiDkurrnsbvmiaflk6rkuIDmlrnvvIjkuK3mlofvvIznlKjkuo7mj5DnpLrvvInjgIIKZnVuYyAoYSAqQXBwKSBodW1hblNpZGVDTigpIHN0cmluZyB7CglpZiBhLmh1bWFuUGxheXNSZWQoKSB7CgkJcmV0dXJuICLnuqLmlrkiCgl9CglyZXR1cm4gIum7keaWuSIKfQoKLy8gZW5naW5lU2lkZUNOIOW8leaTjuaJp+WTquS4gOaWue+8iOS4reaWh++8ieOAggpmdW5jIChhICpBcHApIGVuZ2luZVNpZGVDTigpIHN0cmluZyB7CglpZiBhLmh1bWFuUGxheXNSZWQoKSB7CgkJcmV0dXJuICLpu5HmlrkiCgl9CglyZXR1cm4gIue6ouaWuSIKfQoKLy8gaXNIdW1hblR1cm4g5b2T5YmN5piv5ZCm6L2u5Yiw5Lq657G76LWw5a2Q77yI5LuF5Lq65py65a+55byI5qih5byP5LiL5pyJ5oSP5LmJ77yJ44CCCmZ1bmMgKGEgKkFwcCkgaXNIdW1hblR1cm4oKSBib29sIHsKCWlmIGEuY3VyTW9kZSAhPSAiaHVtYW4iIHsKCQlyZXR1cm4gZmFsc2UKCX0KCXJldHVybiAoYS5nYW1lLkJvYXJkLlNpZGUgPT0gcnVsZXMuUmVkKSA9PSBhLmh1bWFuUGxheXNSZWQoKQp9CgovLyBjYW5Cb2FyZEFjY2VwdElucHV0IOaji+ebmOW9k+WJjeaYr+WQpuaOpeWPl+eCueWHu+i1sOWtkOOAggovLwovLwnmoaXmjqXliIbmnpDvvJrlp4vnu4jlj6/ku6XotbDvvIjnlKjmiLfmiYvliqjmkYbnrKzkuInmlrnova/ku7bnmoTnnYDms5XvvIkKLy8J5Lq65py65a+55byI77ya5Y+q5Zyo6L2u5Yiw5Lq657G75pe25o6l5Y+X54K55Ye777yb6L2u5Yiw5byV5pOO5pe26ZSB5a6a77yM6YG/5YWN5oqi552A6LWwCi8vCeW8leaTjuWvueaImO+8muWPqueUqOS6juWxleekugpmdW5jIChhICpBcHApIGNhbkJvYXJkQWNjZXB0SW5wdXQoKSBib29sIHsKCWlmIGEudmlld2luZyA+PSAwIHx8IGEuZWRpdE1vZGUgewoJCXJldHVybiBmYWxzZQoJfQoJc3dpdGNoIGEuY3VyTW9kZSB7CgljYXNlICJicmlkZ2UiLCAiaHVtYW4iOgoJCS8vIOOAkOe8uumZt+S/ruWkjeOAkeW8leaTjuWFs+mXreaXtuS4jeWGjemZkOWItuOAjOWPquiDvei1sOiHquW3semCo+aWueOAje+8mgoJCS8vIOW8leaTjuW3sue7j+S4jeS8muW6lOaLm++8jOWmguaenOaKiuW8leaTjuaJp+aJi+mCo+i+ueS5n+mUgeS9j++8jOebmOmdouWwseW9u+W6lei1sOS4jeS4i+WOu+S6huOAggoJCS8vIOWFs+W8leaTjiA9IOe6r+aJi+WKqOaRhuajiy/or5XotbDvvIzkuKTovrnpg73og73liqjvvIjnlKjmiLfopoHmsYLvvInjgIIKCQlpZiBhLmVuZ2luZU9mZi5Mb2FkKCkgewoJCQlyZXR1cm4gdHJ1ZQoJCX0KCQlyZXR1cm4gYS5jdXJNb2RlID09ICJicmlkZ2UiIHx8IGEuaXNIdW1hblR1cm4oKQoJZGVmYXVsdDoKCQlyZXR1cm4gZmFsc2UKCX0KfQoKLy8gcmVmcmVzaEJvYXJkSW50ZXJhY3RpdmUg5oqK44CM5qOL55uY5piv5ZCm5o6l5Y+X54K55Ye744CN5ZCM5q2l5Yiw5qOL55uY5o6n5Lu244CCCmZ1bmMgKGEgKkFwcCkgcmVmcmVzaEJvYXJkSW50ZXJhY3RpdmUoKSB7CglhLmJvYXJkLlNldEludGVyYWN0aXZlKGEuY2FuQm9hcmRBY2NlcHRJbnB1dCgpKQoJYS5ib2FyZC5TZXRCbG9ja2VkSGludChhLmJvYXJkQmxvY2tlZFJlYXNvbigpKQp9CgovLyBib2FyZEJsb2NrZWRSZWFzb24g6Kej6YeK44CM5qOL55uY5Li65LuA5LmI54K55LiN5Yqo44CN44CCCi8vCi8vIOeUqOaIt+WOn+ivneaYr+OAjOaji+ebmOagueacrOWKqOS4jeS6huOAjeKAlOKAlOeCueS4jeWKqOacrOi6q+S4jeeul+e8uumZt++8jOeCueS4jeWKqOi/mOS4jee7meeQhueUseaJjeaYr++8mgovLyDlr7nmiJjmqKHlvI/mnKzmnaXlsLHlj6rnlKjkuo7lsZXnpLrjgIHnnIvljoblj7LlsYDpnaLmnKzmnaXlsLHkuI3og73otbDvvIzov5nkuKTku7bkuovlv4XpobvlnKjnirbmgIHmoI/or7TmuIXmpZrjgIIKZnVuYyAoYSAqQXBwKSBib2FyZEJsb2NrZWRSZWFzb24oKSBzdHJpbmcgewoJc3dpdGNoIHsKCWNhc2UgYS5lZGl0TW9kZToKCQlyZXR1cm4gIiIgLy8g5pGG55uY5qih5byP5LiL54K55Ye75pyJ5pWI77yI6LWwIGVkaXQg5YiG5pSv77yJ77yM5LiN6ZyA6KaB5o+Q56S6CgljYXNlIGEudmlld2luZyA+PSAwOgoJCXJldHVybiAi5q2j5Zyo5p+l55yL5Y6G5Y+y5bGA6Z2i77yM5LiN6IO96LWw5a2Q77yb54K56K6w6LCx5pyA5ZCO5LiA6KGM5oiW44CM5Zue5Yiw5b2T5YmN5bGA6Z2i44CN5YaN6LWwIgoJY2FzZSBhLmN1ck1vZGUgPT0gIm1hdGNoIjoKCQlyZXR1cm4gIuW8leaTjuWvueaImOaooeW8j+S4i+aji+ebmOWPqueUqOS6juWxleekuu+8jOS4jeiDveebtOaOpei1sOWtkO+8m+aDs+iHquW3sei1sOaji+ivt+eCueS4iuaWueOAjOS6uuacuuWvueW8iOOAjeaIluOAjOWIhuaekOaooeW8j+OAjSIKCWNhc2UgYS5jdXJNb2RlID09ICJodW1hbiIgJiYgIWEuZW5naW5lT2ZmLkxvYWQoKToKCQlyZXR1cm4gIui9ruWIsOeUteiEkei1sOaji++8jOivt+etieWug+W6lOaLm++8m+aDs+iuqeWug+mprOS4iuWHuuaLm++8jOeUqOiPnOWNleOAjOW8leaTjuOAjemHjOeahOOAjOeri+WNs+WHuuaLm+OAjSIKCX0KCXJldHVybiAi546w5Zyo5LiN6IO955u05o6l6LWw5a2QIgp9CgovLyBzeW5jRmxpcCDmjInlvZPliY3miaflrZDmlrnlkIzmraXmo4vnm5jmnJ3lkJHvvIjkurrmiafpu5Eg4oaSIOaji+ebmOWAkui9rO+8jOiHquW3semCo+aWueWcqOS4i+aWue+8ieOAggpmdW5jIChhICpBcHApIHN5bmNGbGlwKCkgewoJaWYgYS5jdXJNb2RlID09ICJodW1hbiIgewoJCWEuYm9hcmQuU2V0RmxpcHBlZCghYS5odW1hblBsYXlzUmVkKCkpCgkJcmV0dXJuCgl9CglhLmJvYXJkLlNldEZsaXBwZWQoZmFsc2UpCn0KCi8vIHJlZnJlc2hTd2FwQnV0dG9uIOWIt+aWsOOAjOS6pOaNouihjOaji+aWueOAjeaMiemSrueahOaWh+ahiOS4juWPr+eUqOeKtuaAgeOAggpmdW5jIChhICpBcHApIHJlZnJlc2hTd2FwQnV0dG9uKCkgewoJaWYgYS5idG5Td2FwID09IG5pbCB7CgkJcmV0dXJuCgl9Cglzd2l0Y2ggYS5jdXJNb2RlIHsKCWNhc2UgImh1bWFuIjoKCQkvLyDmlofmoYjnm7TmjqXor7TmmI7jgIzlvZPliY3kvaDmiaflk6rkuIDmlrnjgI3vvIzngrnkuIDkuIvlsLHmmK/lr7nosIMKCQlhLmJ0blN3YXAuU2V0VGV4dCgi5Lqk5o2i6KGM5qOL5pa577yI546w5omnIiArIGEuaHVtYW5TaWRlQ04oKSArICLvvIkiKQoJCWEuYnRuU3dhcC5FbmFibGUoKQoJY2FzZSAibWF0Y2giOgoJCWEuYnRuU3dhcC5TZXRUZXh0KCLkuqTmjaLooYzmo4vmlrnvvIjlj4zmlrnlvJXmk47mjaLovrnvvIkiKQoJCWEuYnRuU3dhcC5FbmFibGUoKQoJZGVmYXVsdDoKCQlhLmJ0blN3YXAuU2V0VGV4dCgi5Lqk5o2i6KGM5qOL5pa5IikKCQlhLmJ0blN3YXAuRGlzYWJsZSgpCgl9CglhLmJ0blN3YXAuUmVmcmVzaCgpCn0KCi8vIFN3YXBTaWRlcyDmiafooYzjgIzlsYDpnaLlr7nosIPjgI3jgIIKLy8KLy8g5Y+q57+76L2s44CM6LCB5omn5ZOq5LiA5pa544CN77yM5bGA6Z2i44CB552A5rOV5Y6G5Y+y44CB6L2u5Yiw6LCB6LWw5YWo6YOo5L+d5oyB5LiN5Y+Y44CCCmZ1bmMgKGEgKkFwcCkgU3dhcFNpZGVzKCkgewoJc3dpdGNoIGEuY3VyTW9kZSB7CgljYXNlICJodW1hbiI6CgkJaWYgYS5odW1hblBsYXlzUmVkKCkgewoJCQlhLmNmZy5IdW1hblNpZGUgPSBjb25maWcuU2lkZUJsYWNrCgkJfSBlbHNlIHsKCQkJYS5jZmcuSHVtYW5TaWRlID0gY29uZmlnLlNpZGVSZWQKCQl9CgkJYS5TYXZlQ29uZmlnKCkKCQkvLyDjgJDnv7vovazjgJHkuI3lj6rmmK/mjaLovrnvvJrmo4vnm5jopoEgMTgwwrAg5YCS6L2s77yM6K6p6Ieq5bex6YKj5pa55aeL57uI5Zyo5LiL5pa5CgkJYS5ib2FyZC5TZXRGbGlwcGVkKCFhLmh1bWFuUGxheXNSZWQoKSkKCQlhLnJlZnJlc2hTd2FwQnV0dG9uKCkKCQlhLnJlZnJlc2hCb2FyZEludGVyYWN0aXZlKCkKCQlhLnVwZGF0ZVN0YXR1c0JhcigpCgkJbXNnIDo9ICLlt7Lnv7vovazvvJrnjrDlnKjkvaDmiaciICsgYS5odW1hblNpZGVDTigpICsgIu+8iOaji+ebmOW3suWAkui9rO+8jOS9oOmCo+aWueWcqOS4i+aWue+8ie+8myIgKwoJCQki5bGA6Z2i5LiO6LWw5a2Q5qyh5bqP6YO95rKh5Y+Y77yM6L2u5Yiw6LCB6LWw6L+Y5piv6LCB6LWwIgoJCWEudG9hc3QobXNnKQoJCWEuc2V0U3RhdHVzSW5mbyhtc2cpCgkJLy8g5o2i6L655LmL5ZCO5Y+v6IO95q2j5aW96L2u5Yiw5byV5pOO77yM56uL5Yi76K6p5a6D5bqU5oubCgkJYS5tYXliZUVuZ2luZU1vdmUoKQoKCWNhc2UgIm1hdGNoIjoKCQlhLm1hdGNoTXUuTG9jaygpCgkJciA6PSBhLnJ1bm5lcgoJCWEubWF0Y2hNdS5VbmxvY2soKQoJCWlmIHIgPT0gbmlsIHsKCQkJYS50b2FzdCgi5a+55oiY6L+Y5rKh5byA5aeL77yM5Zyo6I+c5Y2V44CM5a+55bGA44CN6YeM54K544CM5byA5aeL5a+55oiY44CN5Y2z5Y+vIikKCQkJcmV0dXJuCgkJfQoJCXIuU3dhcFNpZGVzKCkKCQltc2cgOj0gIuW3suimgeaxguWPjOaWueW8leaTjuS4remAlOaNoui+ue+8muW9k+WJjeWxgOmdouS4jeWPmO+8jOS4i+S4gOedgOi1t+eUseWPpuS4gOi+ueW8leaTjuW6lOaLmyIKCQlhLnRvYXN0KG1zZykKCQlhLnNldFN0YXR1c0luZm8obXNnKQoKCWRlZmF1bHQ6CgkJYS50b2FzdCgi44CM5Lqk5o2i6KGM5qOL5pa544CN5Y+q5Zyo5Lq65py65a+55byIIC8g5byV5pOO5a+55oiY5qih5byP5LiL5pyJ5pWIIikKCX0KfQoKLy8gbWF5YmVFbmdpbmVNb3ZlIOS6uuacuuWvueW8iOmHjOi9ruWIsOW8leaTjuaXtu+8jOivt+axguWIhuaekO+8iOe7k+aenOWbnuadpeWQjueUsQovLyBhcHBseUVuZ2luZUJlc3RNb3ZlIOiHquWKqOi1sOWHuuacgOS9s+edgOazle+8ieOAggpmdW5jIChhICpBcHApIG1heWJlRW5naW5lTW92ZSgpIHsKCS8vIOW8leaTjuiiq+eUqOaIt+WFs+aOieaXtuS4jeimgeWGjeWOu+ivt+axguWIhuaekO+8muaXouS4jeS8muacieS6uuW6lOaLm++8jOS5n+S8muiuqeeKtuaAgeagj+aKpemUmeOAggoJaWYgYS5lbmdpbmVPZmYuTG9hZCgpIHsKCQlyZXR1cm4KCX0KCWlmIGEuY3VyTW9kZSAhPSAiaHVtYW4iIHx8IGEudmlld2luZyA+PSAwIHx8IGEuZWRpdE1vZGUgewoJCXJldHVybgoJfQoJYS5yZWZyZXNoQm9hcmRJbnRlcmFjdGl2ZSgpCglpZiBhLmlzSHVtYW5UdXJuKCkgewoJCXJldHVybgoJfQoJYS5zZXRFbmdpbmVTdGF0ZSgi5byV5pOO5oCd6ICD5Lit4oCmIiwgY29sUHJpbWFyeSkKCWEucmVxdWVzdEFuYWx5c2lzKCkKfQoKLy8gYXBwbHlFbmdpbmVCZXN0TW92ZSDkurrmnLrlr7nlvIjmqKHlvI/kuIvmiorlvJXmk47nmoTmnIDkvbPnnYDms5Xoh6rliqjotbDliLDmo4vnm5jkuIrjgIIKZnVuYyAoYSAqQXBwKSBhcHBseUVuZ2luZUJlc3RNb3ZlKHVjaSBzdHJpbmcpIHsKCWlmIGEuY3VyTW9kZSAhPSAiaHVtYW4iIHx8IHVjaSA9PSAiIiB8fCBhLnZpZXdpbmcgPj0gMCB8fCBhLmVkaXRNb2RlIHsKCQlyZXR1cm4KCX0KCWlmIGEuaXNIdW1hblR1cm4oKSB7CgkJcmV0dXJuIC8vIOe7k+aenOWbnuadpeaXtuWxgOmdouWPr+iDveW3sue7j+WPmOS6hu+8iOS+i+WmguS6uuexu+aClOajiy/lr7nosIPkuobovrnvvIkKCX0KCW0sIG9rIDo9IG5vdGF0aW9uLlVDSVRvTW92ZSh1Y2kpCglpZiAhb2sgewoJCWEuc2V0U3RhdHVzSW5mbygi5byV5pOO6L+U5Zue55qE552A5rOV5peg5rOV6Kej5p6Q77yaIiArIHVjaSkKCQlyZXR1cm4KCX0KCWlmIGVyciA6PSBhLmdhbWUuVHJ5TW92ZShtKTsgZXJyICE9IG5pbCB7CgkJYS5zZXRTdGF0dXNJbmZvKCLlvJXmk47ov5Tlm57pnZ7ms5XnnYDms5XvvJoiICsgZXJyLkVycm9yKCkpCgkJcmV0dXJuCgl9CglhLmJvYXJkLlNldExhc3RNb3ZlKG0uRnJvbSwgbS5UbykKCWEuYWZ0ZXJNb3ZlRWZmZWN0cyhtKQoJYS5hZnRlclBvc2l0aW9uQ2hhbmdlKCkKfQoKLy8gYWZ0ZXJNb3ZlRWZmZWN0cyDotbDlrozkuIDmraXlkI7nmoTliqjnlLvkuI7pn7PmlYjjgIIKLy8KLy8g6Z+z5pWI5LyY5YWI57qn77ya5bCG5YabID4g5ZCD5a2QID4g6LWw5a2Q77yI5bCG5Yab5pe25ZCM5pe25o+Q56S644CM6KKr5bCG5Yab44CN5pu06YaS55uu77yJ44CCCi8vIOeUqOaIt+imgeaxgu+8muWwhuWGmyoq5Y+q6KaB6Z+z5pWI5LiN5ZCMKirvvIzkuI3opoHnuqLmoYbpl6rng4HigJTigJTmo4vnm5jpgqPovrnlt7Lnu4/msqHmnInlsIblhpvpq5jkuq7kuobjgIIKZnVuYyAoYSAqQXBwKSBhZnRlck1vdmVFZmZlY3RzKG0gcnVsZXMuTW92ZSkgewoJYS5ib2FyZC5BbmltYXRlTW92ZShtLkZyb20sIG0uVG8pCgoJY2FwdHVyZWQgOj0gZmFsc2UKCWlmIG4gOj0gbGVuKGEuZ2FtZS5DYXB0dXJlZCk7IG4gPiAwIHsKCQljYXB0dXJlZCA9ICFhLmdhbWUuQ2FwdHVyZWRbbi0xXS5Jc0VtcHR5KCkKCX0KCXN3aXRjaCB7CgljYXNlIGEuZ2FtZS5Cb2FyZC5JbkNoZWNrKGEuZ2FtZS5Cb2FyZC5TaWRlKToKCQlwbGF5U291bmQoMikgLy8g5bCG5Yab77ya5LiT55So5LiL6KGM6K2m56S66Z+zCgljYXNlIGNhcHR1cmVkOgoJCXBsYXlTb3VuZCgxKSAvLyDlkIPlrZAKCWRlZmF1bHQ6CgkJcGxheVNvdW5kKDApIC8vIOaZrumAmui1sOWtkAoJfQp9Cg==
+package ui
+
+import (
+	"xiangqi/config"
+	"xiangqi/notation"
+	"xiangqi/rules"
+)
+
+// 本文件实现「人机对弈」模式与「局面对调」。
+//
+// 用户定义（原话）：
+//
+//	局面对调 = 我执红棋和 AI 下了几个回合后觉得劣势太大，改成我执黑棋、电脑执红棋，
+//	**局面不变**，也不是新开一局，**下棋次序不变**（该红棋走就是红棋走）。
+//	电脑对电脑（引擎对战）也要有这个功能。
+//
+// 所以「对调」只翻转一个字段（谁执哪一方），绝不碰局面、不碰着法历史、
+// 也不碰「轮到谁走」——轮到红方就还是红方走。
+
+// humanPlaysRed 人类是否执红。
+func (a *App) humanPlaysRed() bool { return a.cfg.HumanSide != config.SideBlack }
+
+// humanSideCN 人类执哪一方（中文，用于提示）。
+func (a *App) humanSideCN() string {
+	if a.humanPlaysRed() {
+		return "红方"
+	}
+	return "黑方"
+}
+
+// engineSideCN 引擎执哪一方（中文）。
+func (a *App) engineSideCN() string {
+	if a.humanPlaysRed() {
+		return "黑方"
+	}
+	return "红方"
+}
+
+// isHumanTurn 当前是否轮到人类走子（仅人机对弈模式下有意义）。
+func (a *App) isHumanTurn() bool {
+	if a.curMode != "human" {
+		return false
+	}
+	return (a.game.Board.Side == rules.Red) == a.humanPlaysRed()
+}
+
+// canBoardAcceptInput 棋盘当前是否接受点击走子。
+//
+//	桥接分析：始终可以走（用户手动摆第三方软件的着法）
+//	人机对弈：只在轮到人类时接受点击；轮到引擎时锁定，避免抢着走
+//	引擎对战：只用于展示
+func (a *App) canBoardAcceptInput() bool {
+	if a.viewing >= 0 || a.editMode {
+		return false
+	}
+	switch a.curMode {
+	case "bridge", "human":
+		// 【缺陷修复】引擎关闭时不再限制「只能走自己那方」：
+		// 引擎已经不会应招，如果把引擎执手那边也锁住，盘面就彻底走不下去了。
+		// 关引擎 = 纯手动摆棋/试走，两边都能动（用户要求）。
+		if a.engineOff.Load() {
+			return true
+		}
+		return a.curMode == "bridge" || a.isHumanTurn()
+	default:
+		return false
+	}
+}
+
+// refreshBoardInteractive 把「棋盘是否接受点击」同步到棋盘控件。
+func (a *App) refreshBoardInteractive() {
+	a.board.SetInteractive(a.canBoardAcceptInput())
+	a.board.SetBlockedHint(a.boardBlockedReason())
+}
+
+// boardBlockedReason 解释「棋盘为什么点不动」。
+//
+// 用户原话是「棋盘根本动不了」——点不动本身不算缺陷，点不动还不给理由才是：
+// 对战模式本来就只用于展示、看历史局面本来就不能走，这两件事必须在状态栏说清楚。
+func (a *App) boardBlockedReason() string {
+	switch {
+	case a.editMode:
+		return "" // 摆盘模式下点击有效（走 edit 分支），不需要提示
+	case a.viewing >= 0:
+		return "正在查看历史局面，不能走子；点记谱最后一行或「回到当前局面」再走"
+	case a.curMode == "match":
+		return "引擎对战模式下棋盘只用于展示，不能直接走子；想自己走棋请点上方「人机对弈」或「分析模式」"
+	case a.curMode == "human" && !a.engineOff.Load():
+		return "轮到电脑走棋，请等它应招；想让它马上出招，用菜单「引擎」里的「立即出招」"
+	}
+	return "现在不能直接走子"
+}
+
+// syncFlip 按当前执子方同步棋盘朝向（人执黑 → 棋盘倒转，自己那方在下方）。
+func (a *App) syncFlip() {
+	if a.curMode == "human" {
+		a.board.SetFlipped(!a.humanPlaysRed())
+		return
+	}
+	a.board.SetFlipped(false)
+}
+
+// refreshSwapButton 刷新「交换行棋方」按钮的文案与可用状态。
+func (a *App) refreshSwapButton() {
+	if a.btnSwap == nil {
+		return
+	}
+	switch a.curMode {
+	case "human":
+		// 文案直接说明「当前你执哪一方」，点一下就是对调
+		a.btnSwap.SetText("交换行棋方（现执" + a.humanSideCN() + "）")
+		a.btnSwap.Enable()
+	case "match":
+		a.btnSwap.SetText("交换行棋方（双方引擎换边）")
+		a.btnSwap.Enable()
+	default:
+		a.btnSwap.SetText("交换行棋方")
+		a.btnSwap.Disable()
+	}
+	a.btnSwap.Refresh()
+}
+
+// SwapSides 执行「局面对调」。
+//
+// 只翻转「谁执哪一方」，局面、着法历史、轮到谁走全部保持不变。
+func (a *App) SwapSides() {
+	switch a.curMode {
+	case "human":
+		if a.humanPlaysRed() {
+			a.cfg.HumanSide = config.SideBlack
+		} else {
+			a.cfg.HumanSide = config.SideRed
+		}
+		a.SaveConfig()
+		// 【翻转】不只是换边：棋盘要 180° 倒转，让自己那方始终在下方
+		a.board.SetFlipped(!a.humanPlaysRed())
+		a.refreshSwapButton()
+		a.refreshBoardInteractive()
+		a.updateStatusBar()
+		msg := "已翻转：现在你执" + a.humanSideCN() + "（棋盘已倒转，你那方在下方）；" +
+			"局面与走子次序都没变，轮到谁走还是谁走"
+		a.toast(msg)
+		a.setStatusInfo(msg)
+		// 换边之后可能正好轮到引擎，立刻让它应招
+		a.maybeEngineMove()
+
+	case "match":
+		a.matchMu.Lock()
+		r := a.runner
+		a.matchMu.Unlock()
+		if r == nil {
+			a.toast("对战还没开始，在菜单「对局」里点「开始对战」即可")
+			return
+		}
+		r.SwapSides()
+		msg := "已要求双方引擎中途换边：当前局面不变，下一着起由另一边引擎应招"
+		a.toast(msg)
+		a.setStatusInfo(msg)
+
+	default:
+		a.toast("「交换行棋方」只在人机对弈 / 引擎对战模式下有效")
+	}
+}
+
+// maybeEngineMove 人机对弈里轮到引擎时，请求分析（结果回来后由
+// applyEngineBestMove 自动走出最佳着法）。
+func (a *App) maybeEngineMove() {
+	// 引擎被用户关掉时不要再去请求分析：既不会有人应招，也会让状态栏报错。
+	if a.engineOff.Load() {
+		return
+	}
+	if a.curMode != "human" || a.viewing >= 0 || a.editMode {
+		return
+	}
+	a.refreshBoardInteractive()
+	if a.isHumanTurn() {
+		return
+	}
+	a.setEngineState("引擎思考中…", colPrimary)
+	a.requestAnalysis()
+}
+
+// applyEngineBestMove 人机对弈模式下把引擎的最佳着法自动走到棋盘上。
+func (a *App) applyEngineBestMove(uci string) {
+	if a.curMode != "human" || uci == "" || a.viewing >= 0 || a.editMode {
+		return
+	}
+	if a.isHumanTurn() {
+		return // 结果回来时局面可能已经变了（例如人类悔棋/对调了边）
+	}
+	m, ok := notation.UCIToMove(uci)
+	if !ok {
+		a.setStatusInfo("引擎返回的着法无法解析：" + uci)
+		return
+	}
+	if err := a.game.TryMove(m); err != nil {
+		a.setStatusInfo("引擎返回非法着法：" + err.Error())
+		return
+	}
+	a.board.SetLastMove(m.From, m.To)
+	a.afterMoveEffects(m)
+	a.afterPositionChange()
+}
+
+// afterMoveEffects 走完一步后的动画与音效。
+//
+// 音效优先级：将军 > 吃子 > 走子（将军时同时提示「被将军」更醒目）。
+// 用户要求：将军**只要音效不同**，不要红框闪烁——棋盘那边已经没有将军高亮了。
+func (a *App) afterMoveEffects(m rules.Move) {
+	a.board.AnimateMove(m.From, m.To)
+
+	captured := false
+	if n := len(a.game.Captured); n > 0 {
+		captured = !a.game.Captured[n-1].IsEmpty()
+	}
+	switch {
+	case a.game.Board.InCheck(a.game.Board.Side):
+		playSound(2) // 将军：专用下行警示音
+	case captured:
+		playSound(1) // 吃子
+	default:
+		playSound(0) // 普通走子
+	}
+}

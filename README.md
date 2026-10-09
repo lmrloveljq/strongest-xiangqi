@@ -1,1 +1,236 @@
-IyDmnIDlvLrosaHmo4vova/ku7bns7vnu5/vvIhTdHJvbmdlc3QgWGlhbmdxae+8iQoKWyFbTGljZW5zZTogTUlUXShodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL0xpY2Vuc2UtTUlULXllbGxvdy5zdmcpXShMSUNFTlNFKQpbIVtHbyBWZXJzaW9uXShodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL0dvLTEuMjclMkItYmx1ZS5zdmcpXShodHRwczovL2dvLmRldi8pClshW1BsYXRmb3JtOiBXaW5kb3dzXShodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL1BsYXRmb3JtLVdpbmRvd3MtMDA3OGQ0LnN2ZyldKCPku47mupDnoIHmnoTlu7opCgo+ICoqU3Ryb25nZXN0IFhpYW5ncWkqKiDigJQg55SoIEdvICsgW0Z5bmVdKGh0dHBzOi8vZnluZS5pby8pIOe8luWGmeeahOS4reWbveixoeajiyoq5byV5pOO5qGl5o6l5YiG5p6QICsg5byV5pOO6Ieq5Yqo5a+55oiYKirmoYzpnaLlt6XlhbfvvIzlj6/mnoTlu7rkuLrljZXkuKrljp/nlJ8gV2luZG93cyDlj6/miafooYzmlofku7bvvIzpm7bov5DooYzml7bkvp3otZbjgIIKPgo+ICoq6K+35rOo5oSP77ya5pys6L2v5Lu25LiN5piv5Lq65py65a+55byI5ri45oiP44CCKiog5a6D5pys6Lqr5LiN5Lya5LiL5qOL77yM6ICM5piv5L2c5Li65by65aSn55qE56ys5LiJ5pa56LGh5qOL5byV5pOO77yI6buY6K6kIFtQaWthZmlzaO+8iOearuWNoemxvO+8iV0oaHR0cHM6Ly9naXRodWIuY29tL29mZmljaWFsLXBpa2FmaXNoL1Bpa2FmaXNoKe+8ieeahOWbvuW9oueVjOmdouS4juiwg+W6puWZqOOAggoKLS0tCgojIyDnm67lvZUKCi0gW+i/meaYr+S7gOS5iF0oI+i/meaYr+S7gOS5iCkKLSBb55WM6Z2i6aKE6KeIXSgj55WM6Z2i6aKE6KeIKQotIFvlip/og73nibnmgKddKCPlip/og73nibnmgKcpCi0gW+W/q+mAn+W8gOWni10oI+W/q+mAn+W8gOWniykKLSBb5L2/55So5oyH5Y2XXSgj5L2/55So5oyH5Y2XKQotIFvlj4LmlbDor7TmmI5dKCPlj4LmlbDor7TmmI4pCi0gW+S7jua6kOeggeaehOW7ul0oI+S7jua6kOeggeaehOW7uikKLSBb5rWL6K+VXSgj5rWL6K+VKQotIFvpobnnm67nu5PmnoRdKCPpobnnm67nu5PmnoQpCi0gW+esrOS4ieaWuee7hOS7tuS4juiuuOWPr+ivgV0oI+esrOS4ieaWuee7hOS7tuS4juiuuOWPr+ivgSkKCi0tLQoKIyMg6L+Z5piv5LuA5LmICgrmnKzova/ku7bop6PlhrPkuKTkuKrnnJ/lrp7lnLrmma/vvJoKCnwg5Zy65pmvIHwg5L2g5Zyo5YGa5LuA5LmIIHwg6L2v5Lu25Zyo5YGa5LuA5LmIIHwKfCAtLS0gfCAtLS0gfCAtLS0gfAp8ICoqQS4g5byV5pOO5qGl5o6l5YiG5p6QKirvvIjmoLjlv4PvvIkgfCDlnKjmiYvmnLov55S16ISR5LiK55qE56ys5LiJ5pa56LGh5qOL6L2v5Lu26YeM5a+55byI77yM5ZCM5pe25omT5byA5pys6L2v5Lu25YWF5b2TIuacgOW8uuWPguiwiyIgfCDkvaDmiornrKzkuInmlrnova/ku7bnmoTmnIDmlrDnnYDms5XlkIzmraXliLDmnKzova/ku7bmo4vnm5jvvIxQaWthZmlzaCDmu6HphY3mt7HluqbmgJ3ogIPlkI7nu5nlh7rmnIDlvLrlupTlr7nvvJvkuIDplK7lpI3liLbnnYDms5XvvIzlho3otbDlm57nrKzkuInmlrnova/ku7YgfAp8ICoqQi4g5byV5pOO6Ieq5Yqo5a+55oiYKiogfCDmg7Plrp7mtYvkuKTkuKrlvJXmk47nmoTnm7jlr7nlrp7lipsgfCDliqDovb3kuKTkuKrlvJXmk47mibnph4/oh6rliqjlr7nlvIggTiDlsYDvvIzoh6rliqjnu5/orqHog5wv5ZKML+i0n+OAgeaQnOe0oua3seW6puOAgeiKgueCueaVsO+8jOS/neWtmOaji+iwse+8iFBHTu+8jFBvcnRhYmxlIEdhbWUgTm90YXRpb27vvIzlj6/np7vmpI3mo4vlsYDorrDms5XvvInkuI7lr7nmiJjmiqXlkYogfAoKKirmmI7noa7kuI3lgZoqKu+8muS6uuacuuWvueW8iOa4uOaIj+OAgUFJIOivhOivreOAgeWkjeebmOaVsOaNruW6k+OAgeadgOazlS/mrovlsYDorq3nu4PjgIHogZTmnLrlr7nmiJjjgIHkupHlkIzmraXjgILova/ku7bmnKzouqsqKuS4jeWQq+S7u+S9lee9kee7nOivt+axgioq77yM5LiN6IGU572R44CB5LiN5LiK5Lyg5Lu75L2V5pWw5o2u44CCCgotLS0KCiMjIOeVjOmdoumihOiniAoKKirlvJXmk47moaXmjqXliIbmnpDmqKHlvI8qKiDigJTigJQg5qOL55uY5Zyo5bem77yM5pyA5L2z552A5rOV44CB5aSa5YCZ6YCJ5LiO6IOc546H5puy57q/5Zyo5Y+z77yaCgohW+ahpeaOpeWIhuaekF0oc2NyZWVuc2hvdHMvMDEtYnJpZGdlLnBuZykKCioq5byV5pOO6Ieq5Yqo5a+55oiY5qih5byPKiog4oCU4oCUIOWunuaXtuaYvuekuuavlOWIhuOAgeaji+ebmOS4juWvueaImOaXpeW/l++8mgoKIVvlvJXmk47lr7nmiJhdKHNjcmVlbnNob3RzLzAzLW1hdGNoLnBuZykKCioq5byV5pOO566h55CG6Z2i5p2/Kiog4oCU4oCUIOiHquWKqOaJq+aPj+OAgeazqOWGjOOAgea1i+ivleW8leaTjui/nuaOpe+8mgoKIVvlvJXmk47nrqHnkIZdKHNjcmVlbnNob3RzLzA0LWVuZ2luZS1tYW5hZ2VyLnBuZykKCj4g5pu05aSa5oiq5Zu+6KeBIFtgc2NyZWVuc2hvdHMvYF0oc2NyZWVuc2hvdHMvKSDnm67lvZXjgIIKCi0tLQoKIyMg5Yqf6IO954m55oCnCgoqKuW8leaTjuahpeaOpeWIhuaekCoqCgotIOS4ieenjeWxgOmdoui+k+WFpe+8mueCueWHu+i1sOWtkCAvIFVDSSDlnZDmoIfluo/liJfovpPlhaUgLyDmiYvliqjmkYbnm5jvvIjmlK/mjIHku7vmhI/lsYDpnaLnvJbovpHvvIkKLSDlsYDpnaLkuIDlj5jljbPoh6rliqjmgJ3ogIPvvIzml6DpnIDngrnlh7si5byA5aeLIgotIOacgOS9s+edgOazleWQjOaXtuaYvuekuioq5Lit5paH6K6w6LCxKirkuI4gKipVQ0kg5Z2Q5qCHKirvvIzpmYTog5znjofjgIHkuLvlj5jkvovjgIHmt7HluqbjgIHoioLngrnjgIHpgJ/luqYKLSDlpJrlgJnpgInnnYDms5XvvIhNdWx0aVBW77yMTXVsdGkgUHJpbmNpcGFsIFZhcmlhdGlvbu+8jOWkmuS4u+e6v+aQnOe0ou+8ieWIl+ihqO+8jOWQq+a4qeW6piBzb2Z0bWF4IOamgueOhwotIOe6oum7keWPjOaWueiDnOeOh+maj+WbnuWQiOWPmOWMlueahOWunuaXtuabsue6vwotIOS4gOmUruWkjeWItuacgOS9s+edgOazle+8iDQg5a2X56ymIFVDSSDlnZDmoIfvvInvvIznm7TmjqXnspjotLTlm57nrKzkuInmlrnova/ku7YKLSDmlK/mjIHnspjotLTmlbTmrrXnnYDms5Xluo/liJfvvIzoh6rliqjlhbzlrrnlpJrnp43liIbpmpTnrKbkuI7nvJblj7fmoLzlvI8KCioq5byV5pOO6Ieq5Yqo5a+55oiYKioKCi0g5Lik5Liq5byV5pOO54us56uL5a2Q6L+b56iL77yM5Liy6KGM5Lqk5pu/6LWw5a2Q77yM55WM6Z2i5rC45LiN6Zi75aGeCi0g5YaF572u5a6M5pW05Lit5Zu96LGh5qOL6KeE5YiZ5byV5pOO77yM6YCQ5q2l5qCh6aqM5ZCI5rOV5oCn77yI6Z2e5rOV552A5rOV55u05o6l5Yik6LSf77yJCi0g6Ieq5Yqo5Yik5a6a77ya5bCG5q2744CB5Zuw5q+Z44CB6YeN5aSN5bGA6Z2i77yI5LiJ5qyh5Yik5ZKM77yJ44CBNDAwIOedgOS4iumZkO+8iOS/neivgee7neS4jeaXoOmZkOW+queOr++8iQotIOavj+atpeaAneiAg+i2heaXtuaIluW8leaTjuW0qea6g+iHquWKqOWIpOivpeaWuei0n++8jOS4jeW9seWTjeWPpuS4gOaWuQotIOWFiOWQjuaJi+iHquWKqOi9ruaNou+8m+aUr+aMgeavj+atpemZkOaXtiAvIOavj+WxgOaAu+aXtumXtCAvIOWbuuWumua3seW6puS4ieenjeaXtumXtOaOp+WItgotIOiHquWKqOS/neWtmCBQR04g5qOL6LCx5bm255Sf5oiQ5ZCr6IOc546H44CB5bmz5Z2H5rex5bqm44CB6IqC54K56YCf5bqm55qE5paH5pys5oql5ZGKCgoqKuW8leaTjuW6kyoqCgotIOiHquWKqOaJq+aPjyBgZW5naW5lcy9gIOebruW9le+8iOacgOa3sSAzIOWxgu+8ie+8jOmAkOS4quWQr+WKqOaOoua1i+WNj+iurgotIOWQjOaXtuaUr+aMgSAqKlVDSSoq77yIVW5pdmVyc2FsIENoZXNzIEludGVyZmFjZe+8jOmAmueUqOixoeaji+aOpeWPo++8ieS4jiAqKlVDQ0kqKu+8iFVuaXZlcnNhbCBDaGluZXNlIENoZXNzIEludGVyZmFjZe+8jOmAmueUqOS4reWbveixoeaji+aOpeWPo++8ieW8leaTjgotIOiHquWKqOino+aekOW8leaTjuS4iuaKpeeahOWFqOmDqOWPguaVsO+8jOaMieexu+Wei+eUn+aIkOa7keWdlyAvIOW8gOWFsyAvIOS4i+aLieahhiAvIOaMiemSrgoKLS0tCgojIyDlv6vpgJ/lvIDlp4sKCiMjIyDnrKwgMSDmraXvvJrojrflj5bmnKzova/ku7YKCi0g5pa55byP5LiA77yI5o6o6I2Q77yJ77ya5YiwIFtSZWxlYXNlcyDpobXpnaJdKGh0dHBzOi8vZ2l0aHViLmNvbS9sbXJsb3ZlbGpxL3N0cm9uZ2VzdC14aWFuZ3FpL3JlbGVhc2VzKeS4i+i9veW3suaehOW7uuWlveeahCBgeGlhbmdxaS5leGVg77ybCi0g5pa55byP5LqM77ya5YWL6ZqG5pys5LuT5bqT5ZCO6Ieq6KGM5p6E5bu677yI6KeBW+S7jua6kOeggeaehOW7ul0oI+S7jua6kOeggeaehOW7uinvvInjgIIKCiMjIyDnrKwgMiDmraXvvJrkuIvovb0gUGlrYWZpc2jvvIjlv4XpnIDvvIkKCuW8leaTjuS4jemaj+acrOS7k+W6k+WIhuWPkeOAguivt+mAmui/h+S7peS4i+S7u+S4gOWumOaWuea4oOmBk+S4i+i9ve+8mgoKLSDlrpjnvZHvvJo8aHR0cHM6Ly93d3cucGlrYWZpc2guY29tL3poLWNuLz7vvIjngrnlh7si5LiL6L29Iu+8jOmAieaLqSAqKldpbmRvd3Mg57qv5byV5pOO5paH5Lu2KirvvIxgdW5pdmVyc2FsYCDniYjmnKzlj6/oh6rliqjpgILphY0gQ1BVIOaMh+S7pOmbhu+8iQotIEdpdEh1YiBSZWxlYXNlc++8mjxodHRwczovL2dpdGh1Yi5jb20vb2ZmaWNpYWwtcGlrYWZpc2gvUGlrYWZpc2gvcmVsZWFzZXM+CgrkuIvovb3lkI7kvaDkvJrlvpfliLDvvIjmlofku7blkI3pmo/niYjmnKzlj5jljJbvvInvvJoKCmBgYApQaWthZmlzaC1XaW5kb3dzLXg4Ni02NC11bml2ZXJzYWwuZXhlICAgIyDlvJXmk47lj6/miafooYzmlofku7YKcGlrYWZpc2gubm51ZSAgICAgICAgICAgICAgICAgICAgICAgICAgICAjIOelnue7j+e9kee7nOadg+mHje+8iOe6piA0OE1C77yJCmBgYAoKIyMjIOesrCAzIOatpe+8muaUvue9ruW8leaTjgoK5oqKICoqZXhlIOWSjOadg+mHjeaWh+S7tuaUvuWcqOWQjOS4gOS4quaWh+S7tuWkueS4rSoq77yM5YaN5bCG6K+l5paH5Lu25aS55pS+5YWl6L2v5Lu255uu5b2V5LiL55qEIGBlbmdpbmVzL2DvvJoKCmBgYAo86L2v5Lu25omA5Zyo55uu5b2VPlwK4pSU4pSA4pSAIGVuZ2luZXNcCiAgICDilJTilIDilIAgcGlrYWZpc2hcCiAgICAgICAg4pSc4pSA4pSAIFBpa2FmaXNoLVdpbmRvd3MteDg2LTY0LXVuaXZlcnNhbC5leGUKICAgICAgICDilJTilIDilIAgcGlrYWZpc2gubm51ZQpgYGAKCj4gZXhlIOS4juadg+mHjeW/hemhu+WQjOebruW9le+8jOWQpuWImeW8leaTjuiDveWQr+WKqOS9huaji+WKm+S8muS4pemHjemAgOWMluOAguivpuingSBbYGVuZ2luZXMvUkVBRE1FLm1kYF0oZW5naW5lcy9SRUFETUUubWQp44CCCgojIyMg56ysIDQg5q2l77ya5ZCv5YqoCgrlj4zlh7sgYHhpYW5ncWkuZXhlYO+8iOaIlua6kOeggeaWueW8j+S4i+WPjOWHuyBgc3RhcnQuYmF0YO+8ieOAgummluasoei/kOihjOS8muiHquWKqO+8mgoKLSDmiavmj4/lubbms6jlhowgYGVuZ2luZXMvYCDkuIvnmoQgUGlrYWZpc2jvvIzorr7kuLrpu5jorqTlvJXmk47vvJsKLSDnlJ/miJAgYGNvbmZpZy5qc29uYO+8iOWPguaVsOmFjee9ru+8ieS4jiBgZW5naW5lcy5qc29uYO+8iOW8leaTjuazqOWGjOihqO+8ie+8mwotIOWIm+W7uiBgbWF0Y2hlcy9g77yI5a+55oiY6L6T5Ye677yJ55uu5b2V44CCCgotLS0KCiMjIOS9v+eUqOaMh+WNlwoKIyMjIOWcuuaZryBB77ya5qGl5o6l5YiG5p6QCgoxLiDlnKjnrKzkuInmlrnosaHmo4vova/ku7bkuK3otbDlrozkuIDmraXvvJsKMi4g5Zyo5pys6L2v5Lu25qOL55uY5LiK55SoKirnm7jlkIznnYDms5UqKuWQjOatpeWxgOmdou+8iOeCueWHu+i1sOWtkO+8jOaIluWcqOWdkOagh+ahhui+k+WFpSBVQ0kg552A5rOV5bqP5YiX5ZCO5Zue6L2m77yJ77ybCjMuIOi9r+S7tuiHquWKqOaAneiAg++8jOWPs+agj+aYvuekuuacgOS9s+edgOazle+8jOWmgiLngq7kuozlubPkupQgYGgyZTJgIu+8mwo0LiDngrnlh7sqKuOAjOWkjeWItuacgOS9s+edgOazleOAjSoq77yM5Zue5Yiw56ys5LiJ5pa56L2v5Lu257KY6LS06LWw5qOL77ybCjUuIOmHjeWkjeS7peS4iuW+queOr+OAggoKPiDnrKzkuInmlrnova/ku7bnmoTlsYDpnaLpnZ7moIflh4bvvIjlpoLorqnlrZDjgIHmrovlsYDvvInml7bvvIznlKjjgIznvJbovpHlsYDpnaLjgI3miYvliqjmkYbnm5jjgIIKCiMjIyDlnLrmma8gQu+8muW8leaTjuWvueaImAoKMS4g6aG26YOo5YiH5o2i5YiwKirjgIzlvJXmk47lr7nmiJjjgI0qKu+8mwoyLiDpgInmi6nlt7HmlrnlvJXmk47kuI7lr7nmiYvlvJXmk47vvIjlj6/pgInlkIzkuIDkuKrlvJXmk47ov5vooYzoh6rmiJHlr7nlvIjvvIzova/ku7bkvJrlkK/liqjkuKTkuKrni6znq4vov5vnqIvvvInvvJsKMy4g6K6+572u5a+55bGA5pWw6YeP44CB5pe26Ze05o6n5Yi277yM5Yu+6YCJ5YWI5ZCO5omL6L2u5o2i77ybCjQuIOeCueWHuyoq44CM5byA5aeL5a+55oiY44CNKirjgILlj6/pmo/ml7bmmoLlgZwgLyDnu4jmraLvvJsKNS4g57uT5p2f5ZCO5ZyoIGBtYXRjaGVzLzzml7bpl7TmiLM+L2Ag5p+l55yLIFBHTiDmo4vosLHkuI4gYHJlcG9ydC50eHRgIOaKpeWRiuOAggoKIyMjIOWPguaVsOivtOaYjgoKfCDlj4LmlbAgfCDojIPlm7QgfCDpu5jorqQgfCDor7TmmI4gfAp8IC0tLSB8IC0tLSB8IC0tLSB8IC0tLSB8CnwgVGhyZWFkc++8iOe6v+eoi++8iSB8IDHigJMxMDI0IHwgQ1BVIOmAu+i+keaguOaVsCB8IOW8leaTjuaQnOe0oue6v+eoi+aVsO+8m+WvueaImOWPjOaWuee6v+eoi+aAu+aVsOW7uuiuruS4jei2hei/h+mAu+i+keaguOaVsO+8jOeVjOmdouS8mue7meWHuui2heiuouitpuWRiiB8CnwgSGFzaO+8iOWTiOW4jOihqO+8iSB8IDHigJMzMzU1NDQzMiBNQiB8IDQwOTYgfCDlvJXmk47nva7mjaLooajlpKflsI8gfAp8IE11bHRpUFbvvIjlpJrkuLvnur/vvIkgfCAx4oCTMTI4IHwg5YiG5p6QIDggLyDlr7nmiJggMSB8IOWQjOaXtuaYvuekuueahOWAmemAieedgOazleaVsOmHjyB8CnwgRGVwdGjvvIjlm7rlrprmt7HluqbvvIkgfCDkuI3pmZAgfCAyMCB8IOa3seW6puS8mOWFiOaooeW8j+eahOaQnOe0ouWxguaVsCB8CnwgTW92ZXRpbWXvvIjmr4/mraXpmZDml7bvvIkgfCAwLjHigJM2MCDnp5IgfCAzIOenkiB8IOmZkOaXtuS8mOWFiOaooeW8j+avj+atpeaAneiAg+aXtumXtCB8CnwgVGVtcGVyYXR1cmXvvIjmuKnluqYgVO+8iSB8IDQw4oCTMzAwIHwgMTIwIHwg5LuF5b2x5ZON5YCZ6YCJ552A5rOV55qEIHNvZnRtYXgg5qaC546H5bGV56S6IHwKCuW8leaTjuS4iuaKpeeahOWFtuS7luWKqOaAgeWPguaVsO+8iOWmgiBQb25kZXLjgIFFdmFsRmlsZeOAgU51bWFQb2xpY3kg562J77yJ5Lya6Ieq5Yqo5Ye6546w5Zyo5Y+C5pWw6Z2i5p2/77yM5L+u5pS55ZCO56uL5Y2z6YCa6L+HIGBzZXRvcHRpb25gIOS4i+WPkeOAguWujOaVtOW8leaTjuaOpeWPo+ivtOaYjuingSBbYGRvY3MvRU5HSU5FUy5tZGBdKGRvY3MvRU5HSU5FUy5tZCnjgIIKCi0tLQoKIyMg5LuO5rqQ56CB5p6E5bu6CgoqKueOr+Wig+imgeaxgioqCgotIFtHb10oaHR0cHM6Ly9nby5kZXYvZGwvKSAxLjI3IOaIluabtOmrmO+8mwotIG1pbmd3LXc2NCBHQ0PvvIhGeW5lIOWcqCBXaW5kb3dzIOS4iuS+nei1liBjZ2/vvInvvIzlj6/nlKggYHdpbmdldCBpbnN0YWxsIEJyZWNodFNhbmRlcnMuV2luTGlicy5QT1NJWC5VQ1JUYCDlronoo4XjgIIKCioq5p6E5bu65ZG95LukKioKCmBgYHBvd2Vyc2hlbGwKZ28gbW9kIHRpZHkKZ28gYnVpbGQgLWxkZmxhZ3MgIi1IIHdpbmRvd3NndWkgLXMgLXciIC1vIHhpYW5ncWkuZXhlIC4KYGBgCgotIGAtSCB3aW5kb3dzZ3VpYO+8muWQr+WKqOaXtuS4jeW8ueWHuuaOp+WItuWPsOeql+WPo++8mwotIGAtcyAtd2DvvJrliaXnprvnrKblj7fooajkuI7osIPor5Xkv6Hmga/vvIzlh4/lsI/lj6/miafooYzmlofku7bkvZPnp6/jgIIKCuS5n+WPr+S7peebtOaOpeWPjOWHuyBgc3RhcnQuYmF0YO+8muiEmuacrOajgOa1i+WIsCBleGUg5LiN5a2Y5Zyo5pe25Lya6Ieq5Yqo6LCD55So5LiK6L+w5ZG95Luk546w5Zy65p6E5bu644CCCgotLS0KCiMjIOa1i+ivlQoKYGBgcG93ZXJzaGVsbApnbyB2ZXQgLi8uLi4gICAgICAgICAgIyDpnZnmgIHmo4Dmn6UKZ28gdGVzdCAuLy4uLiAgICAgICAgICMg5YWo6YOo5Y2V5YWD5rWL6K+VCmBgYAoKLSBgcnVsZXMvYCDljIXlkKvln7rkuo4gcGVyZnTvvIjmgKfog70v5q2j56Gu5oCn6YGN5Y6G77yJ55qE6LWw5rOV55Sf5oiQ5rWL6K+V77ybCi0gYGVuZ2luZS9gIOWMheWQq+ecn+WunuW8leaTjumbhuaIkOa1i+ivle+8jOiLpSBgZW5naW5lcy9gIOS4i+acquaUvue9ruW8leaTjuWImeiHquWKqOi3s+i/h++8mwotIOWFtuS9meWQhOWMhe+8iGBub3RhdGlvbmDjgIFgY29uZmlnYOOAgWBhbmFseXRpY3Ng44CBYHVpYO+8ieWdh+mFjeaciea1i+ivleaWh+S7tuOAggoKLS0tCgojIyDpobnnm67nu5PmnoQKCmBgYApzdHJvbmdlc3QteGlhbmdxaS8K4pSc4pSA4pSAIG1haW4uZ28gICAgICAgICAgICAgICMg56iL5bqP5YWl5Y+jCuKUnOKUgOKUgCB2ZXJzaW9uLyAgICAgICAgICAgICAjIOeJiOacrOW4uOmHjwrilJzilIDilIAgY29uZmlnLyAgICAgICAgICAgICAgIyDphY3nva7or7vlhpnjgIHpu5jorqTlgLzkuI7moKHpqowK4pSc4pSA4pSAIHJ1bGVzLyAgICAgICAgICAgICAgICMg6LGh5qOL6KeE5YiZ5byV5pOO77yI5qOL55uY44CB6LWw5rOV55Sf5oiQ44CB6IOc6LSf5Yik5a6a77yM5peg5aSW6YOo5L6d6LWW77yJCuKUnOKUgOKUgCBub3RhdGlvbi8gICAgICAgICAgICAjIFVDSSDlnZDmoIcg4oaUIOS4reaWh+iusOiwseWPjOWQkei9rOaNogrilJzilIDilIAgYW5hbHl0aWNzLyAgICAgICAgICAgIyDog5znjoflhazlvI/kuI7muKnluqYgc29mdG1heArilJzilIDilIAgZW5naW5lLyAgICAgICAgICAgICAgIyDlvJXmk47lrZDov5vnqIvpgJrkv6HjgIHljY/orq7op6PmnpDjgIHlvJXmk47lupPmiavmj48K4pSc4pSA4pSAIG1hdGNoLyAgICAgICAgICAgICAgICMg6Ieq5Yqo5a+55oiY6LCD5bqm44CBUEdOIOS4juaKpeWRiueUn+aIkArilJzilIDilIAgdWkvICAgICAgICAgICAgICAgICAgIyBGeW5lIOeVjOmdou+8iOaji+ebmOiHque7mOOAgeWQhOaooeW8j+mdouadv+OAgeS4u+mimO+8iQrilJzilIDilIAgYXNzZXRzLyAgICAgICAgICAgICAgIyDog4zmma/lm77nrYnpnZnmgIHotYTmupAK4pSc4pSA4pSAIGVuZ2luZXMvICAgICAgICAgICAgICMg5byV5pOO5a2Y5pS+55uu5b2V77yI55So5oi36Ieq6KGM5pS+5YWl77yM6KeBIGVuZ2luZXMvUkVBRE1FLm1k77yJCuKUnOKUgOKUgCB0b29scy8gICAgICAgICAgICAgICAjIOaehOW7uuiEmuacrOS4juW8gOWPkS/lj5bor4HovoXliqnlt6XlhbcK4pSc4pSA4pSAIGRvY3MvICAgICAgICAgICAgICAgICMg5byV5pOO5o6l5Y+j5paH5qGj5LiO5Y6G5Y+y5byA5Y+R6K6w5b2VCuKUlOKUgOKUgCBzY3JlZW5zaG90cy8gICAgICAgICAjIFJFQURNRSDlsZXnpLrmiKrlm74KYGBgCgoqKuW5tuWPkee6puWumioq77yaRnluZSDmjqfku7blj6rlnKjkuLsgZ29yb3V0aW5lIOivu+WGme+8m+avj+S4quW8leaTjui/m+eoi+eUseeLrOeriyBnb3JvdXRpbmUg6K+75Y+W6L6T5Ye677yb6Ieq5Yqo5a+55oiY5Zyo54us56uLIGdvcm91dGluZSDkuK3ov5DooYzvvIzpgJrov4fkuovku7YgY2hhbm5lbCDpqbHliqjnlYzpnaLjgILlvJXmk47lkb3ku6TluKbpmLLph43lhaXkv53miqTjgIHmgJ3ogIPnoazotoXml7bkuI7ltKnmuoPmgaLlpI3jgIIKCi0tLQoKIyMg56ys5LiJ5pa557uE5Lu25LiO6K645Y+v6K+BCgotICoq5pys6aG555uu5Luj56CBKirvvJpbTUlUIExpY2Vuc2VdKExJQ0VOU0UpIMKpIDIwMjYgbG1ybG92ZWxqcQotICoqUGlrYWZpc2jvvIjnmq7ljaHpsbzvvInlvJXmk44qKu+8mueUseeUqOaIt+iHquihjOS4i+i9veaUvue9ru+8jOacrOi9r+S7tuS4jeS4i+i9veOAgeS4jee8luivkeOAgeS4jeS/ruaUueOAgeS4jeWIhuWPkeOAglBpa2FmaXNoIOWfuuS6jiAqKkdQTC0zLjAqKiDorrjlj6/vvIzniYjmnYPlvZIgUGlrYWZpc2gg5byA5Y+R6ICF5omA5pyJ77yM5LuT5bqT77yaPGh0dHBzOi8vZ2l0aHViLmNvbS9vZmZpY2lhbC1waWthZmlzaC9QaWthZmlzaD4KLSAqKkZ5bmUgVUkg5qGG5p62KirvvJpbQlNELTMtQ2xhdXNlXShodHRwczovL2dpdGh1Yi5jb20vZnluZS1pby9meW5lL2Jsb2IvbWFzdGVyL0xJQ0VOU0Up77yMPGh0dHBzOi8vZnluZS5pby8+CgrmnKzova/ku7bpgJrov4cgVUNJL1VDQ0kg5Y2P6K6u5Lul54us56uL5a2Q6L+b56iL5pa55byP6LCD55So5byV5pOO77yM5LiN6ZO+5o6l5byV5pOO5Luj56CB44CCCgojIyMg5YWN6LSj5aOw5piOCgrmnKzova/ku7bku4XnlKjkuo7lrabkuaDjgIHnoJTnqbbkuI7mo4voibrliIbmnpDvvJvkuI3kv53or4HliIbmnpDnu5PmnpznmoTnu53lr7nmraPnoa7mgKfvvIzkuI3lr7nmja7mraTov5vooYznmoTku7vkvZXlr7nlvIjnu5PmnpzotJ/otKPjgILor7fpgbXlrojkvaDmiYDkvb/nlKjnmoTnrKzkuInmlrnlr7nlvIjlubPlj7DnmoTop4TliJnjgIIK
+# 最强象棋软件系统（Strongest Xiangqi）
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Go Version](https://img.shields.io/badge/Go-1.27%2B-blue.svg)](https://go.dev/)
+[![Platform: Windows](https://img.shields.io/badge/Platform-Windows-0078d4.svg)](#从源码构建)
+
+> **Strongest Xiangqi** — 用 Go + [Fyne](https://fyne.io/) 编写的中国象棋**引擎桥接分析 + 引擎自动对战**桌面工具，可构建为单个原生 Windows 可执行文件，零运行时依赖。
+>
+> **请注意：本软件不是人机对弈游戏。** 它本身不会下棋，而是作为强大的第三方象棋引擎（默认 [Pikafish（皮卡鱼）](https://github.com/official-pikafish/Pikafish)）的图形界面与调度器。
+
+---
+
+## 目录
+
+- [这是什么](#这是什么)
+- [界面预览](#界面预览)
+- [功能特性](#功能特性)
+- [快速开始](#快速开始)
+- [使用指南](#使用指南)
+- [参数说明](#参数说明)
+- [从源码构建](#从源码构建)
+- [测试](#测试)
+- [项目结构](#项目结构)
+- [第三方组件与许可证](#第三方组件与许可证)
+
+---
+
+## 这是什么
+
+本软件解决两个真实场景：
+
+| 场景 | 你在做什么 | 软件在做什么 |
+| --- | --- | --- |
+| **A. 引擎桥接分析**（核心） | 在手机/电脑上的第三方象棋软件里对弈，同时打开本软件充当"最强参谋" | 你把第三方软件的最新着法同步到本软件棋盘，Pikafish 满配深度思考后给出最强应对；一键复制着法，再走回第三方软件 |
+| **B. 引擎自动对战** | 想实测两个引擎的相对实力 | 加载两个引擎批量自动对弈 N 局，自动统计胜/和/负、搜索深度、节点数，保存棋谱（PGN，Portable Game Notation，可移植棋局记法）与对战报告 |
+
+**明确不做**：人机对弈游戏、AI 评语、复盘数据库、杀法/残局训练、联机对战、云同步。软件本身**不含任何网络请求**，不联网、不上传任何数据。
+
+---
+
+## 界面预览
+
+**引擎桥接分析模式** —— 棋盘在左，最佳着法、多候选与胜率曲线在右：
+
+![桥接分析](screenshots/01-bridge.png)
+
+**引擎自动对战模式** —— 实时显示比分、棋盘与对战日志：
+
+![引擎对战](screenshots/03-match.png)
+
+**引擎管理面板** —— 自动扫描、注册、测试引擎连接：
+
+![引擎管理](screenshots/04-engine-manager.png)
+
+> 更多截图见 [`screenshots/`](screenshots/) 目录。
+
+---
+
+## 功能特性
+
+**引擎桥接分析**
+
+- 三种局面输入：点击走子 / UCI 坐标序列输入 / 手动摆盘（支持任意局面编辑）
+- 局面一变即自动思考，无需点击"开始"
+- 最佳着法同时显示**中文记谱**与 **UCI 坐标**，附胜率、主变例、深度、节点、速度
+- 多候选着法（MultiPV，Multi Principal Variation，多主线搜索）列表，含温度 softmax 概率
+- 红黑双方胜率随回合变化的实时曲线
+- 一键复制最佳着法（4 字符 UCI 坐标），直接粘贴回第三方软件
+- 支持粘贴整段着法序列，自动兼容多种分隔符与编号格式
+
+**引擎自动对战**
+
+- 两个引擎独立子进程，串行交替走子，界面永不阻塞
+- 内置完整中国象棋规则引擎，逐步校验合法性（非法着法直接判负）
+- 自动判定：将死、困毙、重复局面（三次判和）、400 着上限（保证绝不无限循环）
+- 每步思考超时或引擎崩溃自动判该方负，不影响另一方
+- 先后手自动轮换；支持每步限时 / 每局总时间 / 固定深度三种时间控制
+- 自动保存 PGN 棋谱并生成含胜率、平均深度、节点速度的文本报告
+
+**引擎库**
+
+- 自动扫描 `engines/` 目录（最深 3 层），逐个启动探测协议
+- 同时支持 **UCI**（Universal Chess Interface，通用象棋接口）与 **UCCI**（Universal Chinese Chess Interface，通用中国象棋接口）引擎
+- 自动解析引擎上报的全部参数，按类型生成滑块 / 开关 / 下拉框 / 按钮
+
+---
+
+## 快速开始
+
+### 第 1 步：获取本软件
+
+- 方式一（推荐）：到 [Releases 页面](https://github.com/lmrloveljq/strongest-xiangqi/releases)下载已构建好的 `xiangqi.exe`；
+- 方式二：克隆本仓库后自行构建（见[从源码构建](#从源码构建)）。
+
+### 第 2 步：下载 Pikafish（必需）
+
+引擎不随本仓库分发。请通过以下任一官方渠道下载：
+
+- 官网：<https://www.pikafish.com/zh-cn/>（点击"下载"，选择 **Windows 纯引擎文件**，`universal` 版本可自动适配 CPU 指令集）
+- GitHub Releases：<https://github.com/official-pikafish/Pikafish/releases>
+
+下载后你会得到（文件名随版本变化）：
+
+```
+Pikafish-Windows-x86-64-universal.exe   # 引擎可执行文件
+pikafish.nnue                            # 神经网络权重（约 48MB）
+```
+
+### 第 3 步：放置引擎
+
+把 **exe 和权重文件放在同一个文件夹中**，再将该文件夹放入软件目录下的 `engines/`：
+
+```
+<软件所在目录>\
+└── engines\
+    └── pikafish\
+        ├── Pikafish-Windows-x86-64-universal.exe
+        └── pikafish.nnue
+```
+
+> exe 与权重必须同目录，否则引擎能启动但棋力会严重退化。详见 [`engines/README.md`](engines/README.md)。
+
+### 第 4 步：启动
+
+双击 `xiangqi.exe`（或源码方式下双击 `start.bat`）。首次运行会自动：
+
+- 扫描并注册 `engines/` 下的 Pikafish，设为默认引擎；
+- 生成 `config.json`（参数配置）与 `engines.json`（引擎注册表）；
+- 创建 `matches/`（对战输出）目录。
+
+---
+
+## 使用指南
+
+### 场景 A：桥接分析
+
+1. 在第三方象棋软件中走完一步；
+2. 在本软件棋盘上用**相同着法**同步局面（点击走子，或在坐标框输入 UCI 着法序列后回车）；
+3. 软件自动思考，右栏显示最佳着法，如"炮二平五 `h2e2`"；
+4. 点击**「复制最佳着法」**，回到第三方软件粘贴走棋；
+5. 重复以上循环。
+
+> 第三方软件的局面非标准（如让子、残局）时，用「编辑局面」手动摆盘。
+
+### 场景 B：引擎对战
+
+1. 顶部切换到**「引擎对战」**；
+2. 选择己方引擎与对手引擎（可选同一个引擎进行自我对弈，软件会启动两个独立进程）；
+3. 设置对局数量、时间控制，勾选先后手轮换；
+4. 点击**「开始对战」**。可随时暂停 / 终止；
+5. 结束后在 `matches/<时间戳>/` 查看 PGN 棋谱与 `report.txt` 报告。
+
+### 参数说明
+
+| 参数 | 范围 | 默认 | 说明 |
+| --- | --- | --- | --- |
+| Threads（线程） | 1–1024 | CPU 逻辑核数 | 引擎搜索线程数；对战双方线程总数建议不超过逻辑核数，界面会给出超订警告 |
+| Hash（哈希表） | 1–33554432 MB | 4096 | 引擎置换表大小 |
+| MultiPV（多主线） | 1–128 | 分析 8 / 对战 1 | 同时显示的候选着法数量 |
+| Depth（固定深度） | 不限 | 20 | 深度优先模式的搜索层数 |
+| Movetime（每步限时） | 0.1–60 秒 | 3 秒 | 限时优先模式每步思考时间 |
+| Temperature（温度 T） | 40–300 | 120 | 仅影响候选着法的 softmax 概率展示 |
+
+引擎上报的其他动态参数（如 Ponder、EvalFile、NumaPolicy 等）会自动出现在参数面板，修改后立即通过 `setoption` 下发。完整引擎接口说明见 [`docs/ENGINES.md`](docs/ENGINES.md)。
+
+---
+
+## 从源码构建
+
+**环境要求**
+
+- [Go](https://go.dev/dl/) 1.27 或更高；
+- mingw-w64 GCC（Fyne 在 Windows 上依赖 cgo），可用 `winget install BrechtSanders.WinLibs.POSIX.UCRT` 安装。
+
+**构建命令**
+
+```powershell
+go mod tidy
+go build -ldflags "-H windowsgui -s -w" -o xiangqi.exe .
+```
+
+- `-H windowsgui`：启动时不弹出控制台窗口；
+- `-s -w`：剥离符号表与调试信息，减小可执行文件体积。
+
+也可以直接双击 `start.bat`：脚本检测到 exe 不存在时会自动调用上述命令现场构建。
+
+---
+
+## 测试
+
+```powershell
+go vet ./...          # 静态检查
+go test ./...         # 全部单元测试
+```
+
+- `rules/` 包含基于 perft（性能/正确性遍历）的走法生成测试；
+- `engine/` 包含真实引擎集成测试，若 `engines/` 下未放置引擎则自动跳过；
+- 其余各包（`notation`、`config`、`analytics`、`ui`）均配有测试文件。
+
+---
+
+## 项目结构
+
+```
+strongest-xiangqi/
+├── main.go              # 程序入口
+├── version/             # 版本常量
+├── config/              # 配置读写、默认值与校验
+├── rules/               # 象棋规则引擎（棋盘、走法生成、胜负判定，无外部依赖）
+├── notation/            # UCI 坐标 ↔ 中文记谱双向转换
+├── analytics/           # 胜率公式与温度 softmax
+├── engine/              # 引擎子进程通信、协议解析、引擎库扫描
+├── match/               # 自动对战调度、PGN 与报告生成
+├── ui/                  # Fyne 界面（棋盘自绘、各模式面板、主题）
+├── assets/              # 背景图等静态资源
+├── engines/             # 引擎存放目录（用户自行放入，见 engines/README.md）
+├── tools/               # 构建脚本与开发/取证辅助工具
+├── docs/                # 引擎接口文档与历史开发记录
+└── screenshots/         # README 展示截图
+```
+
+**并发约定**：Fyne 控件只在主 goroutine 读写；每个引擎进程由独立 goroutine 读取输出；自动对战在独立 goroutine 中运行，通过事件 channel 驱动界面。引擎命令带防重入保护、思考硬超时与崩溃恢复。
+
+---
+
+## 第三方组件与许可证
+
+- **本项目代码**：[MIT License](LICENSE) © 2026 lmrloveljq
+- **Pikafish（皮卡鱼）引擎**：由用户自行下载放置，本软件不下载、不编译、不修改、不分发。Pikafish 基于 **GPL-3.0** 许可，版权归 Pikafish 开发者所有，仓库：<https://github.com/official-pikafish/Pikafish>
+- **Fyne UI 框架**：[BSD-3-Clause](https://github.com/fyne-io/fyne/blob/master/LICENSE)，<https://fyne.io/>
+
+本软件通过 UCI/UCCI 协议以独立子进程方式调用引擎，不链接引擎代码。
+
+### 免责声明
+
+本软件仅用于学习、研究与棋艺分析；不保证分析结果的绝对正确性，不对据此进行的任何对弈结果负责。请遵守你所使用的第三方对弈平台的规则。

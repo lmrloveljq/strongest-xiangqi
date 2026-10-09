@@ -1,1 +1,23 @@
-Ly8gUGFja2FnZSB2ZXJzaW9uIOS/neWtmOWFqOWxgOeJiOacrOW4uOmHj+OAggovLwovLyDniYjmnKzlj7flj6rlnKjkuKTlpITlh7rnjrDvvJrnqpflj6PmoIfpopjvvIgi6LGh5qOL5by66L2vIHYxLjMuMCLvvInkuI7jgIzlhbPkuo7jgI3lr7nor53moYbvvIwKLy8g5Lik5aSE6YO95byV55So5pys5bi46YeP77yM6YG/5YWN5Ye6546w54mI5pys5LiN5LiA6Ie044CCCnBhY2thZ2UgdmVyc2lvbgoKLy8gVkVSU0lPTiDmmK/lvZPliY3nqIvluo/niYjmnKzjgIIKLy8KLy8gdjEuMy4xIOS/ruWkje+8iOe8uumZt+e8luWPt+ingSBSRUFETUXjgIx2MS4zLjEg5L+u5aSN5riF5Y2V44CN77yJ77yaCi8vCi8vCVIxIOaji+ebmOWHoOS9leWNleS4gOadpea6kO+8mumAu+i+keW4g+WxgOWwuuWvuCAvIOeJqeeQhuWFieagheWMluWwuuWvuCAvIOeCueWHu+WRveS4reWwuuWvuOS4ieiAheS4peagvOWQjOa6kAovLwlSMiDluIPlsYDmuqLlh7rpmLLmiqTvvJpNaW5TaXplIOS4juecn+WunuWFieagheS4gOiHtOOAgeW6lemDqOaTjeS9nOagj+aBkuWPr+ingeOAgem7mOiupOeql+WPo+aMieWGheWuueWPjeaOqOOAgQovLwkgICBjbGFtcCDlkIzml7bnuqDmraPjgIznqpflj6PlsI/kuo7lhoXlrrnmiYDpnIDjgI0KLy8JUjMg5byV5pOO5Y+v55So5oCn5pS55Li6IG9zLlN0YXQg5a6e5pe25qCh6aqM77yM5LiN5YaN5L6d6LWW5oyB5LmF5YyW5biD5bCU5a2X5q61Ci8vCVI0IOW8leaTjueuoeeQhuavj+ihjOaMiemSruaNouihjOW4g+WxgO+8jOWbm+S4quaMiemSruWcqOS7u+S9leeql+WPo+WuveW6puS4i+mDveWPr+ingeWPr+eCuQovLwlSNSDlr7nmiJjnur/nqIvotoXorqLorablkYogKyDjgIzmjInmoLjlv4PmlbDoh6rliqjlubPlnYfliIbphY3jgI0KLy8JUjYg56qX5Y+j6aG26YOo5LiN5YaN6LaK55WM77yIdG9wIOacgOWwj+WAvOS4uiAw77yJCi8vCVI3IOWIhuagj+aLluaLveaJi+afhOWKoOWuveW5tuaYvuekuuaKiuaJi+e6ueeQhu+8iOaCrOWBnOmrmOS6ru+8iQovLwlSOCDlvJXmk47nrqHnkIbnqpflj6Pnu5/kuIDkvb/nlKjmiqTnnLzlupXoibLvvIzkuI3lho3nuq/pu5EKY29uc3QgVkVSU0lPTiA9ICJ2MS4zLjEiCgovLyBBUFBOQU1FIOaYr+eoi+W6j+aYvuekuuWQjeOAggpjb25zdCBBUFBOQU1FID0gIuixoeaji+W8uui9ryIK
+// Package version 保存全局版本常量。
+//
+// 版本号只在两处出现：窗口标题（"象棋强软 v1.3.0"）与「关于」对话框，
+// 两处都引用本常量，避免出现版本不一致。
+package version
+
+// VERSION 是当前程序版本。
+//
+// v1.3.1 修复（缺陷编号见 README「v1.3.1 修复清单」）：
+//
+//	R1 棋盘几何单一来源：逻辑布局尺寸 / 物理光栅化尺寸 / 点击命中尺寸三者严格同源
+//	R2 布局溢出防护：MinSize 与真实光栅一致、底部操作栏恒可见、默认窗口按内容反推、
+//	   clamp 同时纠正「窗口小于内容所需」
+//	R3 引擎可用性改为 os.Stat 实时校验，不再依赖持久化布尔字段
+//	R4 引擎管理每行按钮换行布局，四个按钮在任何窗口宽度下都可见可点
+//	R5 对战线程超订警告 + 「按核心数自动平均分配」
+//	R6 窗口顶部不再越界（top 最小值为 0）
+//	R7 分栏拖拽手柄加宽并显示把手纹理（悬停高亮）
+//	R8 引擎管理窗口统一使用护眼底色，不再纯黑
+const VERSION = "v1.3.1"
+
+// APPNAME 是程序显示名。
+const APPNAME = "象棋强软"

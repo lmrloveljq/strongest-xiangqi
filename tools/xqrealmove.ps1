@@ -1,1 +1,71 @@
-IyB4cXJlYWxtb3ZlLnBzMSAtLSByZWFsIG1vdXNlIGVuZC10by1lbmQ6IGNsaWNrIGEgcmVkIGNhbm5vbiBoMi0+ZTIgb24gdGhlIHJlYWwgd2luZG93LAojIHRoZW4gY2hlY2sgd2hldGhlciB0aGUgZW5naW5lIGFuc3dlcmVkIChkaWFnIGxvZyBzYXlzIG1vdmVzPTIsIGh1bWFuVHVybj10cnVlKS4KIwojIFdoeSByZWFsIGNsaWNrczogdGhlIHBhc3RlIGJveCAoWFFfTU9WRVMpIGdvZXMgdGhyb3VnaCBhcHBseVNlcXVlbmNlOyBhIHJlYWwgY2xpY2sgZ29lcwojIHRocm91Z2ggQm9hcmQuVGFwcGVkIC0+IGNhbkJvYXJkQWNjZXB0SW5wdXQgLT4gbW92ZSBjYWxsYmFja3MuIEJvdGggbXVzdCB3b3JrLCBhbmQgb25seQojIGEgcmVhbCBjbGljayBwcm92ZXMgdGhlIG9uZSB0aGUgdXNlciBhY3R1YWxseSB1c2VzLgpwYXJhbSgKICAgIFtzdHJpbmddJENmZyA9ICdfdmVyaWZ5XGNmZy1yMC5qc29uJywKICAgIFtzdHJpbmddJE5hbWUgPSAncmVhbGNsaWNrJywKICAgIFtpbnRdJFdhaXRFbmdpbmUgPSAyMCwKICAgIFtpbnRdJFF1aXQgPSA5NQopCgokcm9vdCA9ICdDOlzmnIDlvLrosaHmo4vova/ku7bns7vnu58nClNldC1Mb2NhdGlvbiAkcm9vdAoKJGVudjpYUV9DT05GSUcgPSAkQ2ZnCiRlbnY6WFFfTU9ERSA9ICdodW1hbicKJGVudjpYUV9ISVQgPSAnMScKJGVudjpYUV9ESUFHID0gJzEnCiRlbnY6WFFfREVCVUcgPSAnMScKJGVudjpYUV9RVUlUID0gIiRRdWl0IgokZW52OlhRX1NIT1QgPSAiJHJvb3RcX3ZlcmlmeVw5OC1yZWFsY2xpY2sucG5nIgokZW52OlhRX1NIT1RfREVMQVkgPSAiJCgkUXVpdCAtIDgpIgpSZW1vdmUtSXRlbSBlbnY6WFFfTU9WRVMsIGVudjpYUV9NT1ZFUzIsIGVudjpYUV9CRU5DSCwgZW52OlhRX01BWFNUUkVOR1RILCBlbnY6WFFfTUVOVVNNT0tFIC1FcnJvckFjdGlvbiBTaWxlbnRseUNvbnRpbnVlCgokZXJyID0gIiRyb290XF92ZXJpZnlcJE5hbWUuZXJyIgpSZW1vdmUtSXRlbSAkZXJyIC1Gb3JjZSAtRXJyb3JBY3Rpb24gU2lsZW50bHlDb250aW51ZQokcCA9IFN0YXJ0LVByb2Nlc3MgLUZpbGVQYXRoICIkcm9vdFxfc2hvdHMuZXhlIiAtV29ya2luZ0RpcmVjdG9yeSAkcm9vdCAtUGFzc1RocnUgLVJlZGlyZWN0U3RhbmRhcmRFcnJvciAkZXJyIC1SZWRpcmVjdFN0YW5kYXJkT3V0cHV0ICIkcm9vdFxfdmVyaWZ5XCROYW1lLm91dCIKCldyaXRlLU91dHB1dCAic3RhcnRlZCBwaWQ9JCgkcC5JZCk7IOetieW8leaTjuWwsee7qiAkV2FpdEVuZ2luZSDnp5IiClN0YXJ0LVNsZWVwIC1TZWNvbmRzICRXYWl0RW5naW5lCgojIC0tLSAxKSDmjqLpkojngrnlh7vvvJrmi7/liLDjgIzlsY/luZXniannkIblnZDmoIcgPC0+IOaji+ebmOacrOWcsOmAu+i+keWdkOagh+OAjeeahOWvueW6lOWFs+ezuyAtLS0KcHdzaCAtRXhlY3V0aW9uUG9saWN5IEJ5cGFzcyAtRmlsZSAiJHJvb3RcdG9vbHNceHF3aW4ucHMxIiAtQWN0aW9uIGNsaWNrIC1YIDUwMCAtWSA1MDAgLVByb2NOYW1lIF9zaG90cyB8IE91dC1OdWxsClN0YXJ0LVNsZWVwIC1NaWxsaXNlY29uZHMgNjAwCiRoaXQgPSAoR2V0LUNvbnRlbnQgJGVyciB8IFNlbGVjdC1TdHJpbmcgLVBhdHRlcm4gIlxbaGl0XF0iIHwgU2VsZWN0LU9iamVjdCAtTGFzdCAxKS5MaW5lCldyaXRlLU91dHB1dCAicHJvYmU6ICRoaXQiCmlmICgtbm90ICRoaXQpIHsgV3JpdGUtT3V0cHV0ICIhISDmsqHmnInlkb3kuK3ml6Xlv5fvvIzmjqLpkojngrnlh7vmsqHokL3liLDmo4vnm5jkuIoiOyBTdG9wLVByb2Nlc3MgLUlkICRwLklkIC1Gb3JjZTsgZXhpdCAxIH0KCiRtID0gW3JlZ2V4XTo6TWF0Y2goJGhpdCwgJ2V2XC5Qb3NpdGlvbj1cKChbXGQuXSspLChbXGQuXSspXClccytib2FyZExvZ2ljYWw9KFtcZC5dKykgeCAoW1xkLl0rKSBjZWxsPShbXGQuXSspIG94PSgtP1tcZC5dKykgb3k9KC0/W1xkLl0rKScpCmlmICgtbm90ICRtLlN1Y2Nlc3MpIHsgV3JpdGUtT3V0cHV0ICIhISDlkb3kuK3ml6Xlv5fmoLzlvI/msqHop6PmnpDlh7rmnaU6ICRoaXQiOyBTdG9wLVByb2Nlc3MgLUlkICRwLklkIC1Gb3JjZTsgZXhpdCAxIH0KJGx4LCAkbHkgPSBbZG91YmxlXSRtLkdyb3Vwc1sxXS5WYWx1ZSwgW2RvdWJsZV0kbS5Hcm91cHNbMl0uVmFsdWUKJGNlbGwsICRveCwgJG95ID0gW2RvdWJsZV0kbS5Hcm91cHNbNV0uVmFsdWUsIFtkb3VibGVdJG0uR3JvdXBzWzZdLlZhbHVlLCBbZG91YmxlXSRtLkdyb3Vwc1s3XS5WYWx1ZQoKIyDmjqLpkojngrnlh7vngrnmmK/lrqLmiLfljLrniannkIYgKDUwMCw1MDAp77yM5a+55bqU5qOL55uY5pys5Zyw6YC76L6RIChseCxseSnvvJtEUEkg57yp5pS+IDEuMjUKJHNjYWxlID0gMS4yNQokYXggPSA1MDAgLSAkbHggKiAkc2NhbGUKJGF5ID0gNTAwIC0gJGx5ICogJHNjYWxlCldyaXRlLU91dHB1dCAoIuaYoOWwhDogY2VsbD17MDpOMn0gb3g9ezE6TjJ9IG95PXsyOk4yfSDlrqLmiLfljLrljp/ngrnooaXlgb89KHszOk4xfSx7NDpOMX0pIiAtZiAkY2VsbCwgJG94LCAkb3ksICRheCwgJGF5KQoKIyDkuqTlj4nngrkgKGZpbGUsIHJhbmspIC0+IOWuouaIt+WMuueJqeeQhuWdkOagh++8iOacque/u+i9rO+8mue6ouaWueWcqOS4i++8jFNjcmVlblJvdyhyYW5rKT05LXJhbmvvvIkKZnVuY3Rpb24gU3EyWFkoW2ludF0kZmlsZSwgW2ludF0kcmFuaykgewogICAgJHggPSAkYXggKyAoJG94ICsgJGZpbGUgKiAkY2VsbCkgKiAkc2NhbGUKICAgICR5ID0gJGF5ICsgKCRveSArICg5IC0gJHJhbmspICogJGNlbGwpICogJHNjYWxlCiAgICByZXR1cm4gQChbaW50XSR4LCBbaW50XSR5KQp9CgojIC0tLSAyKSDnnJ/ngrnlh7votbDkuIDmraXvvJrnuqLngq4gaDLvvIhmaWxlNyxyYW5rMu+8iS0+IGUy77yIZmlsZTQscmFuazLvvInvvIzljbPjgIzngq7kuozlubPkupTjgI0gLS0tCiRmcm9tID0gU3EyWFkgNyAyCiR0byA9IFNxMlhZIDQgMgpXcml0ZS1PdXRwdXQgImNsaWNrIOeCriBoMiBAICgkKCRmcm9tWzBdKSwkKCRmcm9tWzFdKSkgIC0+ICBlMiBAICgkKCR0b1swXSksJCgkdG9bMV0pKSIKcHdzaCAtRXhlY3V0aW9uUG9saWN5IEJ5cGFzcyAtRmlsZSAiJHJvb3RcdG9vbHNceHF3aW4ucHMxIiAtQWN0aW9uIGNsaWNrIC1YICRmcm9tWzBdIC1ZICRmcm9tWzFdIC1Qcm9jTmFtZSBfc2hvdHMgfCBPdXQtTnVsbApTdGFydC1TbGVlcCAtTWlsbGlzZWNvbmRzIDUwMApwd3NoIC1FeGVjdXRpb25Qb2xpY3kgQnlwYXNzIC1GaWxlICIkcm9vdFx0b29sc1x4cXdpbi5wczEiIC1BY3Rpb24gY2xpY2sgLVggJHRvWzBdIC1ZICR0b1sxXSAtUHJvY05hbWUgX3Nob3RzIHwgT3V0LU51bGwKU3RhcnQtU2xlZXAgLVNlY29uZHMgMTIKCldyaXRlLU91dHB1dCAiPT09IOecn+eCueWHu+S5i+WQjueahCBkaWFn77yIbW92ZXMg5bqU5LuOIDAg5Y+YIDHvvIzlho3nlLHlvJXmk47lupTmi5vlj5ggMu+8iT09PSIKR2V0LUNvbnRlbnQgJGVyciB8IFNlbGVjdC1TdHJpbmcgLVBhdHRlcm4gIlxbaGl0XF18XFtkaWFnXF0iIHwgU2VsZWN0LU9iamVjdCAtTGFzdCAxMCB8IEZvckVhY2gtT2JqZWN0IHsgJF8uTGluZSB9CgppZiAoLW5vdCAkcC5IYXNFeGl0ZWQpIHsgU3RvcC1Qcm9jZXNzIC1JZCAkcC5JZCAtRm9yY2UgfQo=
+# xqrealmove.ps1 -- real mouse end-to-end: click a red cannon h2->e2 on the real window,
+# then check whether the engine answered (diag log says moves=2, humanTurn=true).
+#
+# Why real clicks: the paste box (XQ_MOVES) goes through applySequence; a real click goes
+# through Board.Tapped -> canBoardAcceptInput -> move callbacks. Both must work, and only
+# a real click proves the one the user actually uses.
+param(
+    [string]$Cfg = '_verify\cfg-r0.json',
+    [string]$Name = 'realclick',
+    [int]$WaitEngine = 20,
+    [int]$Quit = 95
+)
+
+$root = 'C:\最强象棋软件系统'
+Set-Location $root
+
+$env:XQ_CONFIG = $Cfg
+$env:XQ_MODE = 'human'
+$env:XQ_HIT = '1'
+$env:XQ_DIAG = '1'
+$env:XQ_DEBUG = '1'
+$env:XQ_QUIT = "$Quit"
+$env:XQ_SHOT = "$root\_verify\98-realclick.png"
+$env:XQ_SHOT_DELAY = "$($Quit - 8)"
+Remove-Item env:XQ_MOVES, env:XQ_MOVES2, env:XQ_BENCH, env:XQ_MAXSTRENGTH, env:XQ_MENUSMOKE -ErrorAction SilentlyContinue
+
+$err = "$root\_verify\$Name.err"
+Remove-Item $err -Force -ErrorAction SilentlyContinue
+$p = Start-Process -FilePath "$root\_shots.exe" -WorkingDirectory $root -PassThru -RedirectStandardError $err -RedirectStandardOutput "$root\_verify\$Name.out"
+
+Write-Output "started pid=$($p.Id); 等引擎就绪 $WaitEngine 秒"
+Start-Sleep -Seconds $WaitEngine
+
+# --- 1) 探针点击：拿到「屏幕物理坐标 <-> 棋盘本地逻辑坐标」的对应关系 ---
+pwsh -ExecutionPolicy Bypass -File "$root\tools\xqwin.ps1" -Action click -X 500 -Y 500 -ProcName _shots | Out-Null
+Start-Sleep -Milliseconds 600
+$hit = (Get-Content $err | Select-String -Pattern "\[hit\]" | Select-Object -Last 1).Line
+Write-Output "probe: $hit"
+if (-not $hit) { Write-Output "!! 没有命中日志，探针点击没落到棋盘上"; Stop-Process -Id $p.Id -Force; exit 1 }
+
+$m = [regex]::Match($hit, 'ev\.Position=\(([\d.]+),([\d.]+)\)\s+boardLogical=([\d.]+) x ([\d.]+) cell=([\d.]+) ox=(-?[\d.]+) oy=(-?[\d.]+)')
+if (-not $m.Success) { Write-Output "!! 命中日志格式没解析出来: $hit"; Stop-Process -Id $p.Id -Force; exit 1 }
+$lx, $ly = [double]$m.Groups[1].Value, [double]$m.Groups[2].Value
+$cell, $ox, $oy = [double]$m.Groups[5].Value, [double]$m.Groups[6].Value, [double]$m.Groups[7].Value
+
+# 探针点击点是客户区物理 (500,500)，对应棋盘本地逻辑 (lx,ly)；DPI 缩放 1.25
+$scale = 1.25
+$ax = 500 - $lx * $scale
+$ay = 500 - $ly * $scale
+Write-Output ("映射: cell={0:N2} ox={1:N2} oy={2:N2} 客户区原点补偿=({3:N1},{4:N1})" -f $cell, $ox, $oy, $ax, $ay)
+
+# 交叉点 (file, rank) -> 客户区物理坐标（未翻转：红方在下，ScreenRow(rank)=9-rank）
+function Sq2XY([int]$file, [int]$rank) {
+    $x = $ax + ($ox + $file * $cell) * $scale
+    $y = $ay + ($oy + (9 - $rank) * $cell) * $scale
+    return @([int]$x, [int]$y)
+}
+
+# --- 2) 真点击走一步：红炮 h2（file7,rank2）-> e2（file4,rank2），即「炮二平五」 ---
+$from = Sq2XY 7 2
+$to = Sq2XY 4 2
+Write-Output "click 炮 h2 @ ($($from[0]),$($from[1]))  ->  e2 @ ($($to[0]),$($to[1]))"
+pwsh -ExecutionPolicy Bypass -File "$root\tools\xqwin.ps1" -Action click -X $from[0] -Y $from[1] -ProcName _shots | Out-Null
+Start-Sleep -Milliseconds 500
+pwsh -ExecutionPolicy Bypass -File "$root\tools\xqwin.ps1" -Action click -X $to[0] -Y $to[1] -ProcName _shots | Out-Null
+Start-Sleep -Seconds 12
+
+Write-Output "=== 真点击之后的 diag（moves 应从 0 变 1，再由引擎应招变 2）==="
+Get-Content $err | Select-String -Pattern "\[hit\]|\[diag\]" | Select-Object -Last 10 | ForEach-Object { $_.Line }
+
+if (-not $p.HasExited) { Stop-Process -Id $p.Id -Force }

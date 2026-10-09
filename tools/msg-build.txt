@@ -1,1 +1,18 @@
-DQo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09DQogIOixoeaji+W8uui9ryB2MS4zLjEgICDnlJ/miJDmnIDnu4jljZXmlofku7YgZXhlDQo9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09DQoNCuOAkOivt+WcqOmqjOivgemAmui/h+WQjuWGjei/kOihjOacrOiEmuacrOOAkQ0KDQror7flhYjnlKjjgIzov5DooYzpqozor4EuYmF044CN5oqKIHYxLjMuMSDnmoTkv67lpI3pgJDmnaHpqozor4HkuIDpgY3vvIjmo4vnm5jlrozmlbTjgIHngrnlvpflh4bjgIENCuW6lemDqOaTjeS9nOagj+WPr+ingeOAgeW8leaTjuS4jeWGjeivr+aKpeOAjOaWh+S7tuW3suS4ouWkseOAjeOAgeWIhuagj+iDveaLluWKqOOAgeW8leaTjueuoeeQhuaMiemSrg0K5LiN6KKr6KOB5YiH44CB56qX5Y+j6aG26YOo5LiN6LaK55WM4oCm4oCm77yJ44CC56Gu6K6k5ruh5oSP5ZCO77yM5YaN6L+Q6KGM5pys6ISa5pys44CCDQoNCiAg5Lqn54mp77ya5bel56iL5qC555uu5b2V5LiL55qEIHhpYW5ncWkuZXhlDQogICAgICAgIOWNleaWh+S7tuOAgembtui/kOihjOaXtuS+nei1luOAgeaXoOaOp+WItuWPsOeql+WPo++8iC1IIHdpbmRvd3NndWkgLXMgLXfvvIkNCg0KICDmj5DnpLrvvJrlpoLmnpzlt7Lnu4/lrZjlnKggeGlhbmdxaS5leGXvvIzmnKzmrKHkvJropobnm5blroPvvJsNCiAgICAgICAg6Iul5a6D5q2j5Zyo6L+Q6KGM77yM6K+35YWI5YWz6Zet6YKj5Liq6L2v5Lu256qX5Y+j77yM5ZCm5YiZ5Lya5YaZ5YWl5aSx6LSl44CCDQoNCj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCg==
+
+============================================================================
+  象棋强软 v1.3.1   生成最终单文件 exe
+============================================================================
+
+【请在验证通过后再运行本脚本】
+
+请先用「运行验证.bat」把 v1.3.1 的修复逐条验证一遍（棋盘完整、点得准、
+底部操作栏可见、引擎不再误报「文件已丢失」、分栏能拖动、引擎管理按钮
+不被裁切、窗口顶部不越界……）。确认满意后，再运行本脚本。
+
+  产物：工程根目录下的 xiangqi.exe
+        单文件、零运行时依赖、无控制台窗口（-H windowsgui -s -w）
+
+  提示：如果已经存在 xiangqi.exe，本次会覆盖它；
+        若它正在运行，请先关闭那个软件窗口，否则会写入失败。
+
+============================================================================

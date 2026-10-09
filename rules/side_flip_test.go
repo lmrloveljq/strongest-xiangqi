@@ -1,1 +1,47 @@
-cGFja2FnZSBydWxlcwoKaW1wb3J0ICJ0ZXN0aW5nIgoKLy8gVGVzdFNpZGVGbGlwc0FmdGVyTW92ZSDotbDkuIDmraXlkI7otbDlrZDmlrnlv4Xpobvnv7vovazjgIFGRU4g55qE6LWw5a2Q5pa55a2X5q615b+F6aG75ZCM5q2l44CCCi8vCi8vIOS4uuS7gOS5iOWNleeLrOWKoOi/meadoe+8muecn+acuumqjOivgeaXtu+8jOe6ouWFtSBjM+KGkmM0IOS5i+WQjueKtuaAgeagj+S7jeaYvuekuuOAjOi9ruWIsO+8mue6ouaWuei1sOaji+OAjeOAgQovLyBGRU4g6LWw5a2Q5pa55LuN5pivICJ3IuOAguiLpeWxnuWunu+8jOWwseaYr+S4pemHjee8uumZt+KAlOKAlEZFTiDkvJrooqvkuIvlj5Hnu5nlvJXmk44KLy8g77yIcG9zaXRpb24gZmVuIC4uLiBtb3ZlcyAuLi7vvInvvIzotbDlrZDmlrnplJnkuoblvJXmk47lsLHkvJrmjInplJnor6/nmoTooYzmo4vmlrnmgJ3ogIPjgIIKLy8g6L+Z5p2h5rWL6K+V5oqK44CM6KeE5YiZ5bGC44CN6ZKJ5q2777yM55So5p2l5Yy65YiG5piv6KeE5YiZ566X6ZSZ6L+Y5piv55WM6Z2i5pi+56S66ZSZ44CCCmZ1bmMgVGVzdFNpZGVGbGlwc0FmdGVyTW92ZSh0ICp0ZXN0aW5nLlQpIHsKCWcgOj0gTmV3R2FtZSgpCgoJaWYgZy5Cb2FyZC5TaWRlICE9IFJlZCB7CgkJdC5GYXRhbGYoIuWIneWni+WxgOmdouW6lOivpee6ouaWuei1sOaji++8jOWunumZhSBTaWRlPSV2IEZFTj0lcSIsIGcuQm9hcmQuU2lkZSwgZy5Cb2FyZC5GRU4oKSkKCX0KCS8vIOe6ouWFtSBjMyhJbmRleCgyLDMpPTI5KSDihpIgYzQoSW5kZXgoMiw0KT0zOCkKCWZyb20sIHRvIDo9IEluZGV4KDIsIDMpLCBJbmRleCgyLCA0KQoJaWYgZXJyIDo9IGcuVHJ5TW92ZShOZXdNb3ZlKGZyb20sIHRvKSk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJjM2M0IOW6lOivpeaYr+WQiOazleedgOazle+8jOWNtOaKpemUme+8miV2IiwgZXJyKQoJfQoJaWYgbGVuKGcuTW92ZXMpICE9IDEgewoJCXQuRmF0YWxmKCLotbDlrozkuIDmraXlkI4gTW92ZXMg6ZW/5bqm5bqU5Li6IDHvvIzlrp7pmYUgJWQiLCBsZW4oZy5Nb3ZlcykpCgl9CglpZiBnLkJvYXJkLlNpZGUgIT0gQmxhY2sgewoJCXQuRmF0YWxmKCLnuqLmlrnotbDlrozlkI7lupTova7liLDpu5HmlrnvvIzlrp7pmYUgU2lkZT0ldiBGRU49JXEiLCBnLkJvYXJkLlNpZGUsIGcuQm9hcmQuRkVOKCkpCgl9CglmZW4gOj0gZy5Cb2FyZC5GRU4oKQoJLy8gRkVOIOesrCAyIOauteaYr+i1sOWtkOaWue+8mnc957qiIGI96buRCglzcCA6PSAtMQoJZm9yIGkgOj0gMDsgaSA8IGxlbihmZW4pOyBpKysgewoJCWlmIGZlbltpXSA9PSAnICcgewoJCQlzcCA9IGkKCQkJYnJlYWsKCQl9Cgl9CglpZiBzcCA8IDAgfHwgc3ArMSA+PSBsZW4oZmVuKSB8fCBmZW5bc3ArMV0gIT0gJ2InIHsKCQl0LkZhdGFsZigi6LWw5a6M57qi5pa55LiA5q2l5ZCOIEZFTiDnmoTotbDlrZDmlrnlrZfmrrXlupTkuLogYu+8jOWunumZhSBGRU49JXEiLCBmZW4pCgl9CgkvLyDlkIzml7bnoa7orqTlsYDpnaLmnKzouqvvvJpjNCDmnInnuqLlhbXjgIFjMyDlt7LnqboKCWlmIGcuQm9hcmQuU3FbdG9dLklzRW1wdHkoKSB8fCBnLkJvYXJkLlNxW3RvXS5TaWRlKCkgIT0gUmVkIHsKCQl0LkZhdGFsZigiYzQg5bqU6K+l5pyJ57qi5pa55qOL5a2Q77yM5a6e6ZmFICV2IiwgZy5Cb2FyZC5TcVt0b10pCgl9CglpZiAhZy5Cb2FyZC5TcVtmcm9tXS5Jc0VtcHR5KCkgewoJCXQuRmF0YWxmKCJjMyDlupTor6Xlt7LnqbrvvIzlrp7pmYUgJXYiLCBnLkJvYXJkLlNxW2Zyb21dKQoJfQp9Cg==
+package rules
+
+import "testing"
+
+// TestSideFlipsAfterMove 走一步后走子方必须翻转、FEN 的走子方字段必须同步。
+//
+// 为什么单独加这条：真机验证时，红兵 c3→c4 之后状态栏仍显示「轮到：红方走棋」、
+// FEN 走子方仍是 "w"。若属实，就是严重缺陷——FEN 会被下发给引擎
+// （position fen ... moves ...），走子方错了引擎就会按错误的行棋方思考。
+// 这条测试把「规则层」钉死，用来区分是规则算错还是界面显示错。
+func TestSideFlipsAfterMove(t *testing.T) {
+	g := NewGame()
+
+	if g.Board.Side != Red {
+		t.Fatalf("初始局面应该红方走棋，实际 Side=%v FEN=%q", g.Board.Side, g.Board.FEN())
+	}
+	// 红兵 c3(Index(2,3)=29) → c4(Index(2,4)=38)
+	from, to := Index(2, 3), Index(2, 4)
+	if err := g.TryMove(NewMove(from, to)); err != nil {
+		t.Fatalf("c3c4 应该是合法着法，却报错：%v", err)
+	}
+	if len(g.Moves) != 1 {
+		t.Fatalf("走完一步后 Moves 长度应为 1，实际 %d", len(g.Moves))
+	}
+	if g.Board.Side != Black {
+		t.Fatalf("红方走完后应轮到黑方，实际 Side=%v FEN=%q", g.Board.Side, g.Board.FEN())
+	}
+	fen := g.Board.FEN()
+	// FEN 第 2 段是走子方：w=红 b=黑
+	sp := -1
+	for i := 0; i < len(fen); i++ {
+		if fen[i] == ' ' {
+			sp = i
+			break
+		}
+	}
+	if sp < 0 || sp+1 >= len(fen) || fen[sp+1] != 'b' {
+		t.Fatalf("走完红方一步后 FEN 的走子方字段应为 b，实际 FEN=%q", fen)
+	}
+	// 同时确认局面本身：c4 有红兵、c3 已空
+	if g.Board.Sq[to].IsEmpty() || g.Board.Sq[to].Side() != Red {
+		t.Fatalf("c4 应该有红方棋子，实际 %v", g.Board.Sq[to])
+	}
+	if !g.Board.Sq[from].IsEmpty() {
+		t.Fatalf("c3 应该已空，实际 %v", g.Board.Sq[from])
+	}
+}

@@ -1,1 +1,46 @@
-QGVjaG8gb2ZmCnJlbSA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KcmVtICBYaWFuZ3FpIFN0cm9uZyBFbmdpbmUgdjEuMy4wICAtICBsYXVuY2hlcgpyZW0gIEFTQ0lJIG9ubHkgb24gcHVycG9zZTogY21kLmV4ZSBwcmUtc2NhbnMgLmJhdCBmaWxlcyBhbmQgY2FuCnJlbSAgY29ycnVwdCBub24tQVNDSUkgdGV4dCBiZWZvcmUgZXhlY3V0aW9uLgpyZW0gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CnNldGxvY2FsCmNkIC9kICIlfmRwMCIKCmlmIGV4aXN0ICJ4aWFuZ3FpLmV4ZSIgZ290byBSVU4KCmVjaG8gWzEvM10geGlhbmdxaS5leGUgbm90IGZvdW5kLCBidWlsZGluZyBmcm9tIHNvdXJjZS4uLgp3aGVyZSBnbyA+bnVsIDI+bnVsCmlmIGVycm9ybGV2ZWwgMSAoCiAgICBlY2hvLgogICAgZWNobyBFUlJPUjogR28gdG9vbGNoYWluIG5vdCBmb3VuZCBvbiBQQVRILgogICAgZWNobyBJbnN0YWxsIEdvIDEuMjIrIGZyb20gaHR0cHM6Ly9nby5kZXYvZGwvIGFuZCByZW9wZW4gdGhlIHRlcm1pbmFsLgogICAgcGF1c2UKICAgIGV4aXQgL2IgMQopCgpzZXQgQ0dPX0VOQUJMRUQ9MQp3aGVyZSBnY2MgPm51bCAyPm51bAppZiBlcnJvcmxldmVsIDEgKAogICAgZWNoby4KICAgIGVjaG8gRVJST1I6IEdDQyBeKG1pbmd3LXc2NF4pIG5vdCBmb3VuZCBvbiBQQVRILgogICAgZWNobyBGeW5lIG5lZWRzIGNnbyBvbiBXaW5kb3dzLiBJbnN0YWxsIGl0IHdpdGg6CiAgICBlY2hvICAgICB3aW5nZXQgaW5zdGFsbCBCcmVjaHRTYW5kZXJzLldpbkxpYnMuUE9TSVguVUNSVAogICAgZWNobyB0aGVuIHJlb3BlbiB0aGUgdGVybWluYWwuCiAgICBwYXVzZQogICAgZXhpdCAvYiAxCikKCmVjaG8gWzIvM10gZ28gYnVpbGQgLWxkZmxhZ3MgIi1IIHdpbmRvd3NndWkgLXMgLXciIC1vIHhpYW5ncWkuZXhlIC4KZ28gYnVpbGQgLWxkZmxhZ3MgIi1IIHdpbmRvd3NndWkgLXMgLXciIC1vIHhpYW5ncWkuZXhlIC4KaWYgZXJyb3JsZXZlbCAxICgKICAgIGVjaG8uCiAgICBlY2hvIEVSUk9SOiBidWlsZCBmYWlsZWQsIHNlZSB0aGUgbWVzc2FnZXMgYWJvdmUuCiAgICBwYXVzZQogICAgZXhpdCAvYiAxCikKCjpSVU4KZWNobyBbMy8zXSBzdGFydGluZyB4aWFuZ3FpLmV4ZSAuLi4Kc3RhcnQgIiIgInhpYW5ncWkuZXhlIgpleGl0IC9iIDAK
+@echo off
+rem ============================================================
+rem  Xiangqi Strong Engine v1.3.0  -  launcher
+rem  ASCII only on purpose: cmd.exe pre-scans .bat files and can
+rem  corrupt non-ASCII text before execution.
+rem ============================================================
+setlocal
+cd /d "%~dp0"
+
+if exist "xiangqi.exe" goto RUN
+
+echo [1/3] xiangqi.exe not found, building from source...
+where go >nul 2>nul
+if errorlevel 1 (
+    echo.
+    echo ERROR: Go toolchain not found on PATH.
+    echo Install Go 1.22+ from https://go.dev/dl/ and reopen the terminal.
+    pause
+    exit /b 1
+)
+
+set CGO_ENABLED=1
+where gcc >nul 2>nul
+if errorlevel 1 (
+    echo.
+    echo ERROR: GCC ^(mingw-w64^) not found on PATH.
+    echo Fyne needs cgo on Windows. Install it with:
+    echo     winget install BrechtSanders.WinLibs.POSIX.UCRT
+    echo then reopen the terminal.
+    pause
+    exit /b 1
+)
+
+echo [2/3] go build -ldflags "-H windowsgui -s -w" -o xiangqi.exe .
+go build -ldflags "-H windowsgui -s -w" -o xiangqi.exe .
+if errorlevel 1 (
+    echo.
+    echo ERROR: build failed, see the messages above.
+    pause
+    exit /b 1
+)
+
+:RUN
+echo [3/3] starting xiangqi.exe ...
+start "" "xiangqi.exe"
+exit /b 0

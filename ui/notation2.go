@@ -1,1 +1,225 @@
-cGFja2FnZSB1aQoKaW1wb3J0ICgKCSJmbXQiCgoJImZ5bmUuaW8vZnluZS92MiIKCSJmeW5lLmlvL2Z5bmUvdjIvY2FudmFzIgoJImZ5bmUuaW8vZnluZS92Mi9jb250YWluZXIiCgkiZnluZS5pby9meW5lL3YyL3dpZGdldCIKCgkieGlhbmdxaS9ub3RhdGlvbiIKCSJ4aWFuZ3FpL3J1bGVzIgopCgovLyDmnKzmlofku7blrp7njrDjgIzorrDosLHjgI3pnaLmnb/vvIh2MS41IOWinumHj+abtOaWsOeJiO+8ieOAggovLwovLyDpnIDmsYLvvIjnlKjmiLfvvInvvJoKLy8gICAtIOavj+S4gOatpei1sOWQjumDveimgeiusOW9leS4i+adpe+8mwovLyAgIC0g5LiA6KGMID0g5LiA5Liq5Zue5ZCI77yM5bem57qi5Y+z6buR77ybCi8vICAgLSDngrnlh7vmn5DkuIDmraXvvIzmo4vnm5jot7PliLDpgqPkuIDmraXkuYvlkI7vvIzlj7PkvqfliIbmnpDkuZ/ku6XpgqPkuKrlsYDpnaLkuLrlh4bvvJsKLy8gICAtIOOAkOaAp+iDveOAkei1sOS4gOatpeS5i+WQjioq5LiN6IO95pyJ5piO5pi+55qE5Y2h6aG/KirjgIIKLy8KLy8g5oCn6IO96K6+6K6h77yaCi8vCi8vCXYxLjQg5q+P6LWw5LiA5q2l5bCx5oqK5pW05byg6K6w6LCx6KGoIFJlbW92ZUFsbCDlho3ph43lu7rvvIzkuIDlsYAgNjAg5q2l6KaB6ZSA5q+B5bm25paw5bu6Ci8vCTE4MCsg5Liq5o6n5Lu277yI5ZCr5paH5a2X5rWL6YeP5LiO5biD5bGA77yJ4oCU4oCU6L+Z5q2j5piv55So5oi35Y+N6aaI55qE44CM6LWw5qOL5ZCO5piO5pi+5Y2h6aG/44CN77yMCi8vCeiAjOS4lOeVjOmdoue6v+eoi+iiq+WNoOS9j+i/mOS8muiuqei1sOWtkOWKqOeUu+S4gOmhv+S4gOmhv+OAgeeci+i1t+adpeOAjOi1sOWtkOWkquaFouOAjeOAggovLwovLwnnjrDlnKjmlLnmiJDlop7ph4/mm7TmlrDvvJoKLy8JICAtIOi1sOS4gOatpSDihpIg5Y+q5pu05pawL+i/veWKoOacgOWQjuS4gOihjO+8iE8oMSnvvInvvJsKLy8JICAtIOaSpOmUgOOAgemHjeW8gOOAgeeymOi0tOaVtOauteW6j+WIl+OAgeaRhuebmCDihpIg5omN5pW06KGo6YeN5bu677ybCi8vCSAgLSDot7Povazljoblj7LlsYDpnaIg4oaSIOWPquWIh+mrmOS6ru+8jOS4gOS4quaOp+S7tumDveS4jeaWsOW7uu+8jOS5n+S4jemUgOavgeato+WcqOiiq+eCueeahOaMiemSruOAggoKLy8gbW92ZVJvdW5kIOaYr+S4gOS4quWbnuWQiO+8mue6ouaWueS4gOatpSArIOm7keaWueS4gOatpeOAggp0eXBlIG1vdmVSb3VuZCBzdHJ1Y3QgewoJbm8gICAgICAgIGludAoJcmVkVGV4dCAgIHN0cmluZwoJYmxhY2tUZXh0IHN0cmluZwoJcmVkUGx5ICAgIGludAoJYmxhY2tQbHkgIGludAoJaGFzQmxhY2sgIGJvb2wKfQoKLy8gbW92ZVJvd0J0bnMg5L+d5a2Y5q+P5LiA6KGM5Lik5Liq5oyJ6ZKu55qE5byV55So77yM5L6b6auY5Lqu5LiO5aKe6YeP5pu05paw5L2/55So44CCCnR5cGUgbW92ZVJvd0J0bnMgc3RydWN0IHsKCXJlZCwgYmxhY2sgICAgICAgKm1vdmVDZWxsCglyZWRQbHksIGJsYWNrUGx5IGludAp9CgovLyBidWlsZE1vdmVMaXN0UGFuZWwg5p6E5bu66K6w6LCx6Z2i5p2/44CCCmZ1bmMgKGEgKkFwcCkgYnVpbGRNb3ZlTGlzdFBhbmVsKCkgZnluZS5DYW52YXNPYmplY3QgewoJYS5tb3ZlQm94ID0gY29udGFpbmVyLk5ld1ZCb3goKQoJYS5tb3ZlU2Nyb2xsID0gY29udGFpbmVyLk5ld1ZTY3JvbGwoYS5tb3ZlQm94KQoJLy8g5pyA5bCP6auY5bqm5Y6L5bCP77ya5Y+z5qCP6Z2i5p2/5aSa77yM6LCB55qE5pyA5bCP6auY5bqm5aSn77yM5YiG5qCP5q+U5L6L5bCx6KKr6LCB6ZKz5L2PCglhLm1vdmVTY3JvbGwuU2V0TWluU2l6ZShmeW5lLk5ld1NpemUoMjAwLCA4OCkpCglhLm1vdmVCdWlsdEZvciA9IC0xCgoJLy8g6Z2i5p2/5ZCN5LiO5oyJ6ZKu5ZCN5oyJ5ZCM57G76L2v5Lu277yIWFFXaXphcmQg55qE44CM552A5rOV5YiX6KGo44CN6aG1562+ICsg5bqV6YOo55qECgkvLyDjgIzlvIDlsYAgLyDnu4jlsYAgLyDliY3ov5sgLyDlkI7pgIDjgI3mjInpkq7nu4TvvInnu5/kuIDjgIIKCS8vIOOAkHYxLjbjgJHjgIznspjotLTmo4vosLHigKbjgI3mjInpkq7mlL7lnKjmoIfpopjooYzlj7PkvqfvvJrljp/mnaXpgqPkuKrluLjpqbvnmoTlpJrooYzovpPlhaXmoYblt7LmlLnmiJDlr7nor53moYbvvIwKCS8vIOWFpeWPo+eVmeWcqOi/memHjCArIOiPnOWNleOAjOaji+iwsSDihpIg57KY6LS05qOL6LCx4oCm44CN77yM5Lik5aSE6YO96IO95Yiw44CCCglidG5QYXN0ZSA6PSB3aWRnZXQuTmV3QnV0dG9uKCLnspjotLTmo4vosLHigKYiLCBmdW5jKCkgeyBhLlNob3dQYXN0ZURpYWxvZygpIH0pCglidG5CYWNrIDo9IHdpZGdldC5OZXdCdXR0b24oIue7iOWxgCIsIGZ1bmMoKSB7IGEuanVtcFRvKC0xKSB9KQoJYnRuRmlyc3QgOj0gd2lkZ2V0Lk5ld0J1dHRvbigi5byA5bGAIiwgZnVuYygpIHsgYS5qdW1wVG8oMCkgfSkKCWhlYWQgOj0gY29udGFpbmVyLk5ld1ZCb3goCgkJY29udGFpbmVyLk5ld0JvcmRlcihuaWwsIG5pbCwgbmlsLCBidG5QYXN0ZSwgc2VjdGlvblRpdGxlKCLnnYDms5XliJfooagiKSksCgkJY29udGFpbmVyLk5ld0hCb3goYnRuRmlyc3QsIGJ0bkJhY2spLAoJKQoJcmV0dXJuIGNhcmRCb3goY29udGFpbmVyLk5ld0JvcmRlcihoZWFkLCBuaWwsIG5pbCwgbmlsLCBhLm1vdmVTY3JvbGwpKQp9CgovLyBtb3ZlUm93VGV4dCDnlJ/miJDnrKwgcGx5IOedgO+8iDEtYmFzZWTvvInnmoTmmL7npLrmlofmnKzjgIIKZnVuYyAoYSAqQXBwKSBtb3ZlUm93VGV4dChwbHkgaW50KSBzdHJpbmcgewoJaSA6PSBwbHkgLSAxCglpZiBpIDwgMCB8fCBpID49IGxlbihhLmdhbWUuTW92ZXMpIHsKCQlyZXR1cm4gIiIKCX0KCXJldHVybiBmbXQuU3ByaW50ZigiJXMgICVzIiwKCQlub3RhdGlvbi5Ub0NoaW5lc2UoYS5nYW1lLkJvYXJkQXQoaSksIGEuZ2FtZS5Nb3Zlc1tpXSksIGEuZ2FtZS5Nb3Zlc1tpXS5TdHJpbmcoKSkKfQoKLy8gbmV3TW92ZVJvdyDliJvlu7rkuIDkuKrlm57lkIjooYzvvIjnuqLpu5HkuKTkuKrmjInpkq7pg73lhYjlu7rlpb3vvIzpu5HmlrnmsqHotbDml7bmmL7npLrljaDkvY3vvInjgIIKZnVuYyAoYSAqQXBwKSBuZXdNb3ZlUm93KG5vIGludCkgZnluZS5DYW52YXNPYmplY3QgewoJbm9UZXh0IDo9IGNhbnZhcy5OZXdUZXh0KGZtdC5TcHJpbnRmKCIlM2QuIiwgbm8pLCBjb2xGb3JlRGltKQoJbm9UZXh0LlRleHRTaXplID0gdGV4dFNpemUodGV4dExhYmVsKQoJLy8g5bqP5Y+35YiX55qE5a695bqm5b+F6aG76Lef552A5a2X5Y+35qGj5L2N6LWw77yM5ZCm5YiZ44CM54m55aSn44CN5qGj5LiLIDQg5L2N5pWw5a2X5Lya6KKrIDQwcHgg55qE5qCF5qC85YiH5o6J44CCCgkvLyDjgJB2MS42LjLjgJHooYzpq5ggMjYg4oaSIDM077ya5Y+z5qCP5pS55a+55Y2K5ZCO552A5rOV5YiX6KGo6L+Z5LiA5qCP5Y+I6auY5Y+I56m677yMCgkvLyDooYzpq5jliqDlpKfml6Lloavkuobnqbrnmb3vvIzngrnlh7vnm67moIfkuZ/mm7Tlpb3ngrnjgIIKCW5vQm94IDo9IGNvbnRhaW5lci5OZXdHcmlkV3JhcChmeW5lLk5ld1NpemUoc3ooNDApLCBzeigzOCkpLCBub1RleHQpCgoJcmVkIDo9IG5ld01vdmVDZWxsKHJ1bGVzLlJlZCkKCWJsYWNrIDo9IG5ld01vdmVDZWxsKHJ1bGVzLkJsYWNrKQoKCXJvdyA6PSB6ZWJyYShubywgY29udGFpbmVyLk5ld0JvcmRlcihuaWwsIG5pbCwgbm9Cb3gsIG5pbCwKCQljb250YWluZXIuTmV3R3JpZFdpdGhDb2x1bW5zKDIsIHJlZCwgYmxhY2spKSkKCglpZHggOj0gbGVuKGEubW92ZUJ0bnMpCglhLm1vdmVCdG5zID0gYXBwZW5kKGEubW92ZUJ0bnMsIG1vdmVSb3dCdG5ze3JlZDogcmVkLCBibGFjazogYmxhY2t9KQoJLy8g5Zue6LCD6YeM5Y+q5YGa44CM5YiH5bGA6Z2iICsg5YiH6auY5Lqu44CN77yM57ud5LiN6YeN5bu65o6n5Lu277yMCgkvLyDlkKbliJnkvJrmioroh6rlt7Hov5nkuKrmraPlnKjooqvngrnnmoTmjInpkq7plIDmr4HmjonvvIh2MS40IOiusOiwseeCueS4jeWKqOeahOagueWboO+8ieOAggoJLy8gcGx5IDw9IDAg5pe25a6B5Y+v5LiN6Lez77yM5Lmf57ud5LiN6Lez5Zue5byA5bGA77yI5oqK44CM5pWw5o2u5rKh5YeG5aSH5aW944CN5ZKMCgkvLyDjgIznlKjmiLfmg7PnnIvlvIDlsYDjgI3ljLrliIblvIDvvIzpgb/lhY3lho3lh7rnjrDmlbTnm5jkubHot7PvvIkKCXJlZC5PblRhcCA9IGZ1bmMoKSB7CgkJaWYgcCA6PSBhLm1vdmVCdG5zW2lkeF0ucmVkUGx5OyBwID4gMCB7CgkJCWEuanVtcFRvKHApCgkJfQoJfQoJYmxhY2suT25UYXAgPSBmdW5jKCkgewoJCWlmIHAgOj0gYS5tb3ZlQnRuc1tpZHhdLmJsYWNrUGx5OyBwID4gMCB7CgkJCWEuanVtcFRvKHApCgkJfQoJfQoJcmV0dXJuIHJvdwp9CgovLyByZWJ1aWxkTW92ZUxpc3Qg5pW06KGo6YeN5bu677yI5pKk6ZSAIC8g6YeN5byAIC8g57KY6LS05bqP5YiXIC8g5pGG55uY5ZCO55So77yJ44CCCmZ1bmMgKGEgKkFwcCkgcmVidWlsZE1vdmVMaXN0KCkgewoJaWYgYS5tb3ZlQm94ID09IG5pbCB7CgkJcmV0dXJuCgl9CglhLm1vdmVCb3guUmVtb3ZlQWxsKCkKCWEubW92ZUJ0bnMgPSBhLm1vdmVCdG5zWzowXQoJYS5tb3ZlUm91bmRzID0gYS5tb3ZlUm91bmRzWzowXQoKCS8vIOOAkOe8uumZt+S/ruWkjeOAkeS4jeiDveWGjeeUqOOAjOedgOaVsOWlh+WBtuOAjeWIpOaWree6oum7keOAggoJLy8g5LuO5omL5Yqo5pGG55uYIC8g6Ieq5a6a5LmJIEZFTiDlvIDlp4vml7bvvIzlj6/og73mmK8qKum7keaWueWFiOi1sCoq77yM6YKj5pe256ysIDEg552A5piv6buR5pa555qE77yMCgkvLyDnlKggaSUyIOW9kuihjOS8muaKiue6oum7keS4pOWIl+aVtOS4qumUmeS9jeOAgei3s+i9rCBwbHkg5Lmf5Lya5oyH6ZSZ44CCCgkvLyDov5nph4znmoTllK/kuIDkvp3mja7mmK/jgIzotbDnrKwgaSDmraXkuYvliY3vvIzlsYDpnaLova7liLDosIHjgI3jgIIKCW4gOj0gbGVuKGEuZ2FtZS5Nb3ZlcykKCXJvdyA6PSAtMQoJZm9yIGkgOj0gMDsgaSA8IG47IGkrKyB7CgkJc2lkZSA6PSBhLmdhbWUuQm9hcmRBdChpKS5TaWRlCgkJcGx5IDo9IGkgKyAxCgkJaWYgc2lkZSA9PSBydWxlcy5SZWQgfHwgcm93IDwgMCB7CgkJCS8vIOe6ouaWueedgOazleW8gOaWsOS4gOWbnuWQiO+8m+iLpem7keaWueWFiOi1sO+8jOesrOS4gOihjOS5n+imgeWFiOW7uuWHuuadpQoJCQlubyA6PSBsZW4oYS5tb3ZlUm91bmRzKSArIDEKCQkJYS5tb3ZlQm94LkFkZChhLm5ld01vdmVSb3cobm8pKQoJCQlhLm1vdmVSb3VuZHMgPSBhcHBlbmQoYS5tb3ZlUm91bmRzLCBtb3ZlUm91bmR7bm86IG5vfSkKCQkJcm93ID0gbGVuKGEubW92ZVJvdW5kcykgLSAxCgkJfQoJCWlmIHNpZGUgPT0gcnVsZXMuUmVkIHsKCQkJYS5tb3ZlUm91bmRzW3Jvd10ucmVkUGx5ID0gcGx5CgkJfSBlbHNlIHsKCQkJYS5tb3ZlUm91bmRzW3Jvd10uYmxhY2tQbHkgPSBwbHkKCQkJYS5tb3ZlUm91bmRzW3Jvd10uaGFzQmxhY2sgPSB0cnVlCgkJfQoJfQoJYS5tb3ZlQnVpbHRGb3IgPSBuCglhLnJlZnJlc2hNb3ZlUm93cygpCglpZiBhLm1vdmVTY3JvbGwgIT0gbmlsIHsKCQlhLm1vdmVTY3JvbGwuU2Nyb2xsVG9Cb3R0b20oKQoJfQp9CgovLyBzeW5jTW92ZUxpc3Qg6LWw5LiA5q2l5LmL5ZCO6LCD55So77ya6IO95aKe6YeP5bCx5aKe6YeP77yM5ZCm5YiZ6YCA5Zue5pW06KGo6YeN5bu644CCCmZ1bmMgKGEgKkFwcCkgc3luY01vdmVMaXN0KCkgewoJaWYgYS5tb3ZlQm94ID09IG5pbCB7CgkJcmV0dXJuCgl9CgluIDo9IGxlbihhLmdhbWUuTW92ZXMpCglpZiBhLm1vdmVCdWlsdEZvciA8IDAgfHwgbiAhPSBhLm1vdmVCdWlsdEZvcisxIHsKCQlhLnJlYnVpbGRNb3ZlTGlzdCgpIC8vIOaSpOmUgCAvIOi3s+WPmCAvIOaJuemHj+W6lOeUqAoJCXJldHVybgoJfQoKCXBseSA6PSBuCglzaWRlIDo9IGEuZ2FtZS5Cb2FyZEF0KHBseSAtIDEpLlNpZGUgLy8g6LWw6L+Z5LiA5q2l55qE5piv5ZOq5LiA5pa577yI5oyJ5bGA6Z2i5Yik5pat77yM5LiN55yL5aWH5YG277yJCglpZiBzaWRlID09IHJ1bGVzLlJlZCB8fCBsZW4oYS5tb3ZlUm91bmRzKSA9PSAwIHsKCQlhLm1vdmVCb3guQWRkKGEubmV3TW92ZVJvdyhsZW4oYS5tb3ZlUm91bmRzKSArIDEpKQoJCWEubW92ZVJvdW5kcyA9IGFwcGVuZChhLm1vdmVSb3VuZHMsIG1vdmVSb3VuZHtubzogbGVuKGEubW92ZVJvdW5kcykgKyAxfSkKCX0KCXJvdW5kIDo9IGxlbihhLm1vdmVSb3VuZHMpIC0gMQoJaWYgcm91bmQgPCAwIHx8IHJvdW5kID49IGxlbihhLm1vdmVCdG5zKSB7CgkJYS5yZWJ1aWxkTW92ZUxpc3QoKQoJCXJldHVybgoJfQoJaWYgc2lkZSA9PSBydWxlcy5SZWQgewoJCWEubW92ZVJvdW5kc1tyb3VuZF0ucmVkUGx5ID0gcGx5CgkJYS5tb3ZlQnRuc1tyb3VuZF0ucmVkUGx5ID0gcGx5Cgl9IGVsc2UgewoJCWEubW92ZVJvdW5kc1tyb3VuZF0uYmxhY2tQbHkgPSBwbHkKCQlhLm1vdmVSb3VuZHNbcm91bmRdLmhhc0JsYWNrID0gdHJ1ZQoJCWEubW92ZUJ0bnNbcm91bmRdLmJsYWNrUGx5ID0gcGx5Cgl9CglhLm1vdmVCdWlsdEZvciA9IG4KCWEucmVmcmVzaE1vdmVSb3dzKCkKCWlmIGEubW92ZVNjcm9sbCAhPSBuaWwgewoJCWEubW92ZVNjcm9sbC5TY3JvbGxUb0JvdHRvbSgpCgl9Cn0KCi8vIHJlZnJlc2hNb3ZlUm93cyDmjIkgbW92ZVJvdW5kcyDmiormr4/ooYzmloflrZfkuI7pq5jkuq7lr7npvZDvvIjkuI3mlrDlu7rmjqfku7bvvInjgIIKZnVuYyAoYSAqQXBwKSByZWZyZXNoTW92ZVJvd3MoKSB7CgljdXIgOj0gbGVuKGEuZ2FtZS5Nb3ZlcykKCWlmIGEudmlld2luZyA+PSAwIHsKCQljdXIgPSBhLnZpZXdpbmcKCX0KCWZvciBpIDo9IHJhbmdlIGEubW92ZVJvdW5kcyB7CgkJaWYgaSA+PSBsZW4oYS5tb3ZlQnRucykgewoJCQlicmVhawoJCX0KCQlyIDo9IGEubW92ZVJvdW5kc1tpXQoJCS8vIOKYhSDlv4Xpobvlj5bmjIfpkojvvJptb3ZlUm93QnRucyDmmK/nu5PmnoTkvZPvvIzlhpnmiJAgYiA6PSBhLm1vdmVCdG5zW2ldIOWPquaYr+aLt+i0ne+8jAoJCS8vIOWQjumdoiBiLnJlZFBseSA9IC4uLiDlhajkuKLlnKjlia/mnKzkuIrvvIzmjInpkq7ph4znmoQgcGx5IOawuOi/nOaYryAwIOKAlOKAlAoJCS8vIOihqOeOsOWwseaYr+OAjOeCueiusOiwseagueacrOi3s+S4jei/h+WOu+OAje+8iHBseSAwIOiiq+Wbnuiwg+mHjOeahOS/neaKpOaMoeaOieS6hu+8ieOAggoJCWIgOj0gJmEubW92ZUJ0bnNbaV0KCQlpZiByLnJlZFBseSA+IDAgewoJCQliLnJlZC5TZXRUZXh0KGEubW92ZVJvd1RleHQoci5yZWRQbHkpKQoJCQliLnJlZFBseSA9IHIucmVkUGx5CgkJCWIucmVkLlNldEhpZ2hsaWdodChyLnJlZFBseSA9PSBjdXIpCgkJfQoJCWlmIHIuaGFzQmxhY2sgJiYgci5ibGFja1BseSA+IDAgewoJCQliLmJsYWNrLlNldFRleHQoYS5tb3ZlUm93VGV4dChyLmJsYWNrUGx5KSkKCQkJYi5ibGFja1BseSA9IHIuYmxhY2tQbHkKCQkJYi5ibGFjay5TZXRIaWdobGlnaHQoci5ibGFja1BseSA9PSBjdXIpCgkJfSBlbHNlIHsKCQkJYi5ibGFjay5TZXRUZXh0KCLigJQiKQoJCQliLmJsYWNrLlNldEhpZ2hsaWdodChmYWxzZSkKCQl9Cgl9CglhLm1vdmVCb3guUmVmcmVzaCgpCn0KCi8vIGhpZ2hsaWdodE1vdmVSb3dzIOWPquWIh+W9k+WJjeatpeeahOmrmOS6ru+8iOi3s+i9rOaXtueUqO+8jOmbtuaOp+S7tuWIm+W7uu+8ieOAggpmdW5jIChhICpBcHApIGhpZ2hsaWdodE1vdmVSb3dzKCkgeyBhLnJlZnJlc2hNb3ZlUm93cygpIH0K
+package ui
+
+import (
+	"fmt"
+
+	"fyne.io/fyne/v2"
+	"fyne.io/fyne/v2/canvas"
+	"fyne.io/fyne/v2/container"
+	"fyne.io/fyne/v2/widget"
+
+	"xiangqi/notation"
+	"xiangqi/rules"
+)
+
+// 本文件实现「记谱」面板（v1.5 增量更新版）。
+//
+// 需求（用户）：
+//   - 每一步走后都要记录下来；
+//   - 一行 = 一个回合，左红右黑；
+//   - 点击某一步，棋盘跳到那一步之后，右侧分析也以那个局面为准；
+//   - 【性能】走一步之后**不能有明显的卡顿**。
+//
+// 性能设计：
+//
+//	v1.4 每走一步就把整张记谱表 RemoveAll 再重建，一局 60 步要销毁并新建
+//	180+ 个控件（含文字测量与布局）——这正是用户反馈的「走棋后明显卡顿」，
+//	而且界面线程被占住还会让走子动画一顿一顿、看起来「走子太慢」。
+//
+//	现在改成增量更新：
+//	  - 走一步 → 只更新/追加最后一行（O(1)）；
+//	  - 撤销、重开、粘贴整段序列、摆盘 → 才整表重建；
+//	  - 跳转历史局面 → 只切高亮，一个控件都不新建，也不销毁正在被点的按钮。
+
+// moveRound 是一个回合：红方一步 + 黑方一步。
+type moveRound struct {
+	no        int
+	redText   string
+	blackText string
+	redPly    int
+	blackPly  int
+	hasBlack  bool
+}
+
+// moveRowBtns 保存每一行两个按钮的引用，供高亮与增量更新使用。
+type moveRowBtns struct {
+	red, black       *moveCell
+	redPly, blackPly int
+}
+
+// buildMoveListPanel 构建记谱面板。
+func (a *App) buildMoveListPanel() fyne.CanvasObject {
+	a.moveBox = container.NewVBox()
+	a.moveScroll = container.NewVScroll(a.moveBox)
+	// 最小高度压小：右栏面板多，谁的最小高度大，分栏比例就被谁钳住
+	a.moveScroll.SetMinSize(fyne.NewSize(200, 88))
+	a.moveBuiltFor = -1
+
+	// 面板名与按钮名按同类软件（XQWizard 的「着法列表」页签 + 底部的
+	// 「开局 / 终局 / 前进 / 后退」按钮组）统一。
+	// 【v1.6】「粘贴棋谱…」按钮放在标题行右侧：原来那个常驻的多行输入框已改成对话框，
+	// 入口留在这里 + 菜单「棋谱 → 粘贴棋谱…」，两处都能到。
+	btnPaste := widget.NewButton("粘贴棋谱…", func() { a.ShowPasteDialog() })
+	btnBack := widget.NewButton("终局", func() { a.jumpTo(-1) })
+	btnFirst := widget.NewButton("开局", func() { a.jumpTo(0) })
+	head := container.NewVBox(
+		container.NewBorder(nil, nil, nil, btnPaste, sectionTitle("着法列表")),
+		container.NewHBox(btnFirst, btnBack),
+	)
+	return cardBox(container.NewBorder(head, nil, nil, nil, a.moveScroll))
+}
+
+// moveRowText 生成第 ply 着（1-based）的显示文本。
+func (a *App) moveRowText(ply int) string {
+	i := ply - 1
+	if i < 0 || i >= len(a.game.Moves) {
+		return ""
+	}
+	return fmt.Sprintf("%s  %s",
+		notation.ToChinese(a.game.BoardAt(i), a.game.Moves[i]), a.game.Moves[i].String())
+}
+
+// newMoveRow 创建一个回合行（红黑两个按钮都先建好，黑方没走时显示占位）。
+func (a *App) newMoveRow(no int) fyne.CanvasObject {
+	noText := canvas.NewText(fmt.Sprintf("%3d.", no), colForeDim)
+	noText.TextSize = textSize(textLabel)
+	// 序号列的宽度必须跟着字号档位走，否则「特大」档下 4 位数字会被 40px 的栅格切掉。
+	// 【v1.6.2】行高 26 → 34：右栏改对半后着法列表这一栏又高又空，
+	// 行高加大既填了空白，点击目标也更好点。
+	noBox := container.NewGridWrap(fyne.NewSize(sz(40), sz(38)), noText)
+
+	red := newMoveCell(rules.Red)
+	black := newMoveCell(rules.Black)
+
+	row := zebra(no, container.NewBorder(nil, nil, noBox, nil,
+		container.NewGridWithColumns(2, red, black)))
+
+	idx := len(a.moveBtns)
+	a.moveBtns = append(a.moveBtns, moveRowBtns{red: red, black: black})
+	// 回调里只做「切局面 + 切高亮」，绝不重建控件，
+	// 否则会把自己这个正在被点的按钮销毁掉（v1.4 记谱点不动的根因）。
+	// ply <= 0 时宁可不跳，也绝不跳回开局（把「数据没准备好」和
+	// 「用户想看开局」区分开，避免再出现整盘乱跳）
+	red.OnTap = func() {
+		if p := a.moveBtns[idx].redPly; p > 0 {
+			a.jumpTo(p)
+		}
+	}
+	black.OnTap = func() {
+		if p := a.moveBtns[idx].blackPly; p > 0 {
+			a.jumpTo(p)
+		}
+	}
+	return row
+}
+
+// rebuildMoveList 整表重建（撤销 / 重开 / 粘贴序列 / 摆盘后用）。
+func (a *App) rebuildMoveList() {
+	if a.moveBox == nil {
+		return
+	}
+	a.moveBox.RemoveAll()
+	a.moveBtns = a.moveBtns[:0]
+	a.moveRounds = a.moveRounds[:0]
+
+	// 【缺陷修复】不能再用「着数奇偶」判断红黑。
+	// 从手动摆盘 / 自定义 FEN 开始时，可能是**黑方先走**，那时第 1 着是黑方的，
+	// 用 i%2 归行会把红黑两列整个错位、跳转 ply 也会指错。
+	// 这里的唯一依据是「走第 i 步之前，局面轮到谁」。
+	n := len(a.game.Moves)
+	row := -1
+	for i := 0; i < n; i++ {
+		side := a.game.BoardAt(i).Side
+		ply := i + 1
+		if side == rules.Red || row < 0 {
+			// 红方着法开新一回合；若黑方先走，第一行也要先建出来
+			no := len(a.moveRounds) + 1
+			a.moveBox.Add(a.newMoveRow(no))
+			a.moveRounds = append(a.moveRounds, moveRound{no: no})
+			row = len(a.moveRounds) - 1
+		}
+		if side == rules.Red {
+			a.moveRounds[row].redPly = ply
+		} else {
+			a.moveRounds[row].blackPly = ply
+			a.moveRounds[row].hasBlack = true
+		}
+	}
+	a.moveBuiltFor = n
+	a.refreshMoveRows()
+	if a.moveScroll != nil {
+		a.moveScroll.ScrollToBottom()
+	}
+}
+
+// syncMoveList 走一步之后调用：能增量就增量，否则退回整表重建。
+func (a *App) syncMoveList() {
+	if a.moveBox == nil {
+		return
+	}
+	n := len(a.game.Moves)
+	if a.moveBuiltFor < 0 || n != a.moveBuiltFor+1 {
+		a.rebuildMoveList() // 撤销 / 跳变 / 批量应用
+		return
+	}
+
+	ply := n
+	side := a.game.BoardAt(ply - 1).Side // 走这一步的是哪一方（按局面判断，不看奇偶）
+	if side == rules.Red || len(a.moveRounds) == 0 {
+		a.moveBox.Add(a.newMoveRow(len(a.moveRounds) + 1))
+		a.moveRounds = append(a.moveRounds, moveRound{no: len(a.moveRounds) + 1})
+	}
+	round := len(a.moveRounds) - 1
+	if round < 0 || round >= len(a.moveBtns) {
+		a.rebuildMoveList()
+		return
+	}
+	if side == rules.Red {
+		a.moveRounds[round].redPly = ply
+		a.moveBtns[round].redPly = ply
+	} else {
+		a.moveRounds[round].blackPly = ply
+		a.moveRounds[round].hasBlack = true
+		a.moveBtns[round].blackPly = ply
+	}
+	a.moveBuiltFor = n
+	a.refreshMoveRows()
+	if a.moveScroll != nil {
+		a.moveScroll.ScrollToBottom()
+	}
+}
+
+// refreshMoveRows 按 moveRounds 把每行文字与高亮对齐（不新建控件）。
+func (a *App) refreshMoveRows() {
+	cur := len(a.game.Moves)
+	if a.viewing >= 0 {
+		cur = a.viewing
+	}
+	for i := range a.moveRounds {
+		if i >= len(a.moveBtns) {
+			break
+		}
+		r := a.moveRounds[i]
+		// ★ 必须取指针：moveRowBtns 是结构体，写成 b := a.moveBtns[i] 只是拷贝，
+		// 后面 b.redPly = ... 全丢在副本上，按钮里的 ply 永远是 0 ——
+		// 表现就是「点记谱根本跳不过去」（ply 0 被回调里的保护挡掉了）。
+		b := &a.moveBtns[i]
+		if r.redPly > 0 {
+			b.red.SetText(a.moveRowText(r.redPly))
+			b.redPly = r.redPly
+			b.red.SetHighlight(r.redPly == cur)
+		}
+		if r.hasBlack && r.blackPly > 0 {
+			b.black.SetText(a.moveRowText(r.blackPly))
+			b.blackPly = r.blackPly
+			b.black.SetHighlight(r.blackPly == cur)
+		} else {
+			b.black.SetText("—")
+			b.black.SetHighlight(false)
+		}
+	}
+	a.moveBox.Refresh()
+}
+
+// highlightMoveRows 只切当前步的高亮（跳转时用，零控件创建）。
+func (a *App) highlightMoveRows() { a.refreshMoveRows() }
